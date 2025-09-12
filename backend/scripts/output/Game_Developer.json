@@ -1,0 +1,1490 @@
+[
+  {
+    "question": "How do you optimize VR applications for performance?",
+    "answer": "Ans:- In my experience, optimizing VR applications involves techniques such as occlusion culling, LOD (Level of Detail) management, and texture atlasing to ensure smooth frame rates and minimize latency.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/falcon-reality-game-developer-interview-experience/",
+    "role": "Game Developer",
+    "skill": "Unity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Can you explain the process of implementing VR locomotion mechanics?",
+    "answer": "Ans:- Implementing VR locomotion mechanics requires careful consideration of factors such as comfort, immersion, and usability. I typically employ techniques such as teleportation, smooth locomotion, or a combination thereof, while prioritizing user comfort and minimizing motion sickness.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/falcon-reality-game-developer-interview-experience/",
+    "role": "Game Developer",
+    "skill": "Unity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What strategies do you employ for UI/UX design in VR applications?",
+    "answer": "Ans:- UI/UX design in VR necessitates a user-centric approach, considering factors such as spatial awareness, readability, and interactivity. I emphasize minimalist design principles, intuitive interactions, and user feedback mechanisms to enhance the overall experience.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/falcon-reality-game-developer-interview-experience/",
+    "role": "Game Developer",
+    "skill": "Unity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How do you ensure cross-platform compatibility for VR applications?",
+    "answer": "Ans:- Achieving cross-platform compatibility involves leveraging Unity's built-in features such as XR Management and platform-specific SDKs. Additionally, thorough testing across various devices and platforms is essential to identify and address compatibility issues proactively.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/falcon-reality-game-developer-interview-experience/",
+    "role": "Game Developer",
+    "skill": "Unity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Can you discuss your experience with shader programming in Unity?",
+    "answer": "Ans:- My experience with shader programming in Unity encompasses creating custom shaders for visual effects, optimizing rendering performance, and achieving desired aesthetics. I'm proficient in HLSL (High-Level Shading Language) and Shader Graph, enabling me to implement complex visual effects efficiently.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/falcon-reality-game-developer-interview-experience/",
+    "role": "Game Developer",
+    "skill": "Unity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Unity?",
+    "answer": "Unity is a cross-platform game engine for creating games in both 2D and 3D. Unity supports building games for many platforms such as iOS, Android, Windows, PlayStation, etc. The Unity game engine was launched in 2005 and is one of the most famous game engines. Unity gives the ability to the users to create games and experiences in both 2D and 3D. For the main scripting in Unity, C# is used. Unity allows the specification of texture compression and resolution settings for each platform that the game engine supports. Unity editor is supported on Windows and macOS. An editor is available for Linux as well but it is in an experimental stage.",
+    "source": "https://www.geeksforgeeks.org/dsa/game-development-with-unity-introduction/",
+    "role": "Game Developer",
+    "skill": "Unity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How to install Unity?",
+    "answer": "Visit the Unity's official download page.",
+    "source": "https://www.geeksforgeeks.org/dsa/game-development-with-unity-introduction/",
+    "role": "Game Developer",
+    "skill": "Unity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is C#?",
+    "answer": "C sharp is anobject-oriented programminglanguage developed by Microsoft. C# is used with the .NET framework for creating websites, applications, and games. C# has a varied reasons for being popular:",
+    "source": "https://www.interviewbit.com/c-sharp-interview-questions/",
+    "role": "Game Developer",
+    "skill": "Unity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. How is C# different from C?",
+    "answer": "You would always know C being the procedural language while C# is a more object-oriented language. The biggest difference is that C# supports automatic garbage collection by Common Language Runtime (CLR) while C does not. C# primarily needs a.NET frameworkto execute while C is a platform-agnostic language.",
+    "source": "https://www.interviewbit.com/c-sharp-interview-questions/",
+    "role": "Game Developer",
+    "skill": "Unity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What is inheritance? Does C# support multiple inheritance?",
+    "answer": "Inheritance means acquiring some of the properties from a master class.",
+    "source": "https://www.interviewbit.com/c-sharp-interview-questions/",
+    "role": "Game Developer",
+    "skill": "Unity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is the difference between an Array and ArrayList in C#?",
+    "answer": "An array is a collection of similar variables clubbed together under one common name. While ArrayList is a collection of objects that can be indexed individually. With ArrayList you can access a number of features like dynamic memory allocation, adding, searching, and sorting items in the ArrayList.",
+    "source": "https://www.interviewbit.com/c-sharp-interview-questions/",
+    "role": "Game Developer",
+    "skill": "Unity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What are Generics in C#?",
+    "answer": "In C# collections, defining any kind of object is termed okay which compromises C#’s basic rule of type-safety. Therefore, generics were included to type-safe the code by allowing re-use of the data processing algorithms. Generics in C# mean not linked to any specific data type. Generics reduce the load of using boxing, unboxing, and typecasting objects. Generics are always defined inside angular brackets <>. To create a generic class, this syntax is used:",
+    "source": "https://www.interviewbit.com/c-sharp-interview-questions/",
+    "role": "Game Developer",
+    "skill": "Unity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What are extension methods in C#?",
+    "answer": "Extension methods help to add new methods to the existing ones. The methods that are added are static. At times, when you want to add methods to an existing class but don’t perceive the right to modify that class or don’t hold the rights, you can create a new static class containing the new methods. Once the extended methods are declared, bind this class with the existing one and see the methods will be added to the existing one.",
+    "source": "https://www.interviewbit.com/c-sharp-interview-questions/",
+    "role": "Game Developer",
+    "skill": "Unity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What are the differences between ref and out keywords?",
+    "answer": "C# ref keywords pass arguments by reference and not value. To use the ‘ref’ keyword, you need to explicitly mention ‘ref’.",
+    "source": "https://www.interviewbit.com/c-sharp-interview-questions/",
+    "role": "Game Developer",
+    "skill": "Unity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is the difference between an abstract class and an interface?",
+    "answer": "Let’s dig into the differences between an abstract class and an interface:",
+    "source": "https://www.interviewbit.com/c-sharp-interview-questions/",
+    "role": "Game Developer",
+    "skill": "Unity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What are Meta Tags in HTML?",
+    "answer": "Meta tags are those tags that go inside the Head tag of the HTML page",
+    "source": "https://www.simplilearn.com/tutorials/programming-tutorial/front-end-developer-interview-questions",
+    "role": "Game Developer",
+    "skill": "Unity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is Load Balancing?",
+    "answer": "Load balancing is the distribution of all the incoming network traffic across the backend servers.",
+    "source": "https://www.simplilearn.com/tutorials/programming-tutorial/front-end-developer-interview-questions",
+    "role": "Game Developer",
+    "skill": "Unity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What does npm stand for?",
+    "answer": "npm stands for Node Package Manager.",
+    "source": "https://www.simplilearn.com/tutorials/programming-tutorial/front-end-developer-interview-questions",
+    "role": "Game Developer",
+    "skill": "Unity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is scope in JavaScript?Â",
+    "answer": "InJavaScript, every function has its scope. It is basically a collection of rules for how variables are accessed and variables themselves.",
+    "source": "https://www.simplilearn.com/tutorials/programming-tutorial/front-end-developer-interview-questions",
+    "role": "Game Developer",
+    "skill": "Unity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. How are JavaScript and jQuery different?",
+    "answer": "jQuery is a library built with JavaScript, and JavaScript is the language itself.",
+    "source": "https://www.simplilearn.com/tutorials/programming-tutorial/front-end-developer-interview-questions",
+    "role": "Game Developer",
+    "skill": "Unity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is Content Security Policy?Â",
+    "answer": "Content Security Policy, also known as CSP, is a header in HTML that lets the site operators gain full control over the resources that are loading on the site.",
+    "source": "https://www.simplilearn.com/tutorials/programming-tutorial/front-end-developer-interview-questions",
+    "role": "Game Developer",
+    "skill": "Unity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is Cross-Site Scripting (XSS)?",
+    "answer": "XSS, Cross-Site Scripting, is an attack that takes place when an attacker uses a web application to send malicious code, in the form of browser-side script, to another user.Â",
+    "source": "https://www.simplilearn.com/tutorials/programming-tutorial/front-end-developer-interview-questions",
+    "role": "Game Developer",
+    "skill": "Unity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is User-Centered Design?",
+    "answer": "User-centered designs are those designs that the designer solely focuses on, which are according to the needs of users and them in every phase of designing.Â",
+    "source": "https://www.simplilearn.com/tutorials/programming-tutorial/front-end-developer-interview-questions",
+    "role": "Game Developer",
+    "skill": "Unity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is a Game Designer?",
+    "answer": "Game Designersfocus primarily on conceptualizing the gameplay mechanics, storylines, and overall user experience. They breathe life into the core idea of the game, making sure it resonates with the intended audience.",
+    "source": "https://www.geeksforgeeks.org/gfg-academy/game-designer-to-game-developer/",
+    "role": "Game Developer",
+    "skill": "Unreal Engine",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is a Game developer?",
+    "answer": "On the other hand,Game Developerstake those concepts and turn them into reality. They handle the programming, development, and technical implementation of the game. Essentially, while designers are responsible for \"what\" happens in a game, developers are responsible for \"how\" it happens.",
+    "source": "https://www.geeksforgeeks.org/gfg-academy/game-designer-to-game-developer/",
+    "role": "Game Developer",
+    "skill": "Unreal Engine",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How to Become a Game Designer?",
+    "answer": "Becoming a game designer is an exciting journey that combines creativity, technical skills, and a love for gaming.",
+    "source": "https://www.geeksforgeeks.org/gfg-academy/how-to-become-a-game-designer/",
+    "role": "Game Developer",
+    "skill": "Unreal Engine",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. Do YouReallyNeed Innovation?",
+    "answer": "Most people think to earn a fortune through game-development you have to be all innovative - you must come up with somethingnew, something completelyoriginal! These people know nothing about games or the history of games! Games pieces of art and art have always reproduced itself! Artists have always copied from other artists, there is nothing such as anoriginalconcept. Every other concept has been copied (orinspiredas they say) from every other concept. The most popular iOS game - of it's time -Flappy Birdwas actually a clone of the existingLameHeliorHelicopter!! One of the most popular flash gameCandy Crushwas also a clone of Microsoft'sBejeweledwith redesigned graphics and animations and yet people went nuts for the game when it was released! That doesn't mean however that you should brainlessly copy from existing games or just make clones of other games! The last thing I'd suggest you would be to make verbatim clones of the already existing games! What I'm rather suggesting is not t",
+    "source": "https://www.geeksforgeeks.org/blogs/tips-for-an-indie-game-developer/",
+    "role": "Game Developer",
+    "skill": "Unreal Engine",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Game Development?",
+    "answer": "Simply speaking,Game Developmentis the overall process of creating a video game. And if you thought that making a video game is as easy as playing one, well it's not!!! There are many components while creating a game such asStory, Characters, Audio, Art, Lighting, etc.that eventually merge together to create a whole new world in a video game!!! This process of Game Development for commercial games is funded by a publisher (a rich company!) but independent video games are comparatively cheaper and smaller so they can be funded by individuals also (That can be you!).   Now there is a common doubt relating to Game Development that only good Game Players can be good Game Developers. So let's address that now.",
+    "source": "https://www.geeksforgeeks.org/blogs/how-to-get-started-with-game-development/",
+    "role": "Game Developer",
+    "skill": "Unreal Engine",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What are the Different Components in Game Development?",
+    "answer": "There are many different components in Game Development that can either be handled by a single developer who is individually creating a game (and who is a genius!!!) or normally by a team of multiple people. So if you want to get started with Game Development, it’s best to first understand the various components in this field so that you can identify the ones that most interest you.",
+    "source": "https://www.geeksforgeeks.org/blogs/how-to-get-started-with-game-development/",
+    "role": "Game Developer",
+    "skill": "Unreal Engine",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How to Start Learning Game Development?",
+    "answer": "Now that you have understood all the components involved in Game Development, the topics provided here are a roadmap that is enough to make you understand the basics of Learning Game Development. After learning these you can make a decent game and then move on to creating more and more complex worlds as you progress.",
+    "source": "https://www.geeksforgeeks.org/blogs/how-to-get-started-with-game-development/",
+    "role": "Game Developer",
+    "skill": "Unreal Engine",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What are some Online Resources to Learn Game Development?",
+    "answer": "There are many books, courses, articles, etc. online that you can use to learn various aspects of Game Development. But for your convenience, some of the popular resources are provided here:",
+    "source": "https://www.geeksforgeeks.org/blogs/how-to-get-started-with-game-development/",
+    "role": "Game Developer",
+    "skill": "Unreal Engine",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Is Being a Good Game Player necessary for Game Development?",
+    "answer": "There are many people who assume that if they are good Game Players then they will definitely be good in Game Development. Well, don’t make that mistake!!! If you are a good Game Player then you have some advantage because you already know something about game stories, players, levels etc. But that’s it! Actually Game Playing and Game Development are very different fields and the skills you acquire in the former will not necessarily help you in the latter. For example: If you love movies, that doesn't necessarily mean you will be a good movie director!!! So get into Game Development only if you are passionate about game programming and really want to develop a game for fun(Loving game playing is just a bonus!).",
+    "source": "https://www.geeksforgeeks.org/blogs/how-to-get-started-with-game-development/",
+    "role": "Game Developer",
+    "skill": "Unreal Engine",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How to become a game developer?",
+    "answer": "Game development is an exciting way to bring your creative ideas to life and build entirely new worlds, whether in space, underwater, or anywhere your imagination takes you. While it might seem complex at first, starting small—by learning programming, exploring game engines, and creating basic games—can set you on the right path. You don’t need to be a pro gamer to become a great developer; what truly matters is passion, patience, and practice. With the right resources and consistent effort, anyone can dive into game development and start building their own interactive adventures.",
+    "source": "https://www.geeksforgeeks.org/blogs/how-to-get-started-with-game-development/",
+    "role": "Game Developer",
+    "skill": "Unreal Engine",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Want a Top Software Development Job? Start Here!",
+    "answer": "To become proficient in C#, you need to master a few other core concepts and design principles that are prerequisites to learning C#. Having a deep knowledge of these subjects will enable you learn C# quickly and efficiently, and you will be able to write clear, maintainable code.",
+    "source": "https://www.simplilearn.com/tutorials/c-sharp-tutorial/c-sharp-interview-questions",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is C#?",
+    "answer": "C# is anobject-oriented programming languagecompiled by the .Net framework to generate Microsoft Intermediate Language.",
+    "source": "https://www.simplilearn.com/tutorials/c-sharp-tutorial/c-sharp-interview-questions",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What is the difference between static, public, and void?",
+    "answer": "Public declared variables can be accessed from anywhere in the application. Static declared variables can be accessed globally without needing to create an instance of the class. Void is a type modifier which states the method and is used to specify the return type of a method in C#.",
+    "source": "https://www.simplilearn.com/tutorials/c-sharp-tutorial/c-sharp-interview-questions",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is an object?",
+    "answer": "An object is a class instance that can be used to access class methods. The \"New\" keyword can be used to construct an object.",
+    "source": "https://www.simplilearn.com/tutorials/c-sharp-tutorial/c-sharp-interview-questions",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What are Jagged Arrays?",
+    "answer": "The Array which comprises elements of type array is called Jagged Array. The elements in Jagged Arrays can be of various dimensions and sizes.",
+    "source": "https://www.simplilearn.com/tutorials/c-sharp-tutorial/c-sharp-interview-questions",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is the difference between out and ref parameters?",
+    "answer": "When an argument is passed as a ref, it must be initialized before it can be passed to the method. An out parameter, on the other hand, need not to be initialized before passing to a method.",
+    "source": "https://www.simplilearn.com/tutorials/c-sharp-tutorial/c-sharp-interview-questions",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is the benefit of âusingâ statement in C#?",
+    "answer": "The âusingâ statement can be used in order to obtain a resource for processing before automatically disposing it when execution is completed.",
+    "source": "https://www.simplilearn.com/tutorials/c-sharp-tutorial/c-sharp-interview-questions",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is serialization?",
+    "answer": "In order to transport an object through a network, we would need to convert it into a stream of bytes. This process is called Serialization.Â",
+    "source": "https://www.simplilearn.com/tutorials/c-sharp-tutorial/c-sharp-interview-questions",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is C#?",
+    "answer": "C# is an object-oriented, modern programming language that was created by Microsoft. It runs on the .NET Framework. C# is very close toC/C++andJavaprogramming languages. The language is proposed to be a simple, modern, general-purpose, object-oriented programming language.  The language is used for creating software components.",
+    "source": "https://www.geeksforgeeks.org/c-sharp/c-sharp-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How is C# different from the C programming language?",
+    "answer": "A method can also be sealed, and in that case, the method cannot be overridden. However, a method can be sealed in the classes in which they have been inherited. If you want to declare a method as sealed, then it has to be declared as virtual in its base class.To read more, refertothe article:Sealed Classes in C#",
+    "source": "https://www.geeksforgeeks.org/c-sharp/c-sharp-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is Common Language Runtime (CLR)?",
+    "answer": "CLR is the basic and Virtual Machine component of the .NET Framework. It is the run-time environment in the .NET Framework that runs the codes and helps in making the development process easier by providing various services such as remoting, thread management, type-safety, memory management, robustness, etc.",
+    "source": "https://www.geeksforgeeks.org/c-sharp/c-sharp-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is inheritance? Does C# support multiple inheritance?",
+    "answer": "Inheritance is an important pillar of OOP(Object Oriented Programming). It is the mechanism in C# by which one class is allowed to inherit the features(fields and methods) of another class.",
+    "source": "https://www.geeksforgeeks.org/c-sharp/c-sharp-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is the difference between a struct and a class in C#?",
+    "answer": "A class is a user-defined blueprint or prototype from which objects are created. Basically, a class combines the fields and methods(member function which defines actions) into a single unit.",
+    "source": "https://www.geeksforgeeks.org/c-sharp/c-sharp-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is enum in C#?",
+    "answer": "Enumeration (or enum) is a value data type in C#. It is mainly used to assign the names or string values to integral constants, which make a program easy to read and maintain. For example, the 4 suits in a deck of playing cards may be 4 enumerators named Club, Diamond, Heart, and Spade, belonging to an enumerated type named Suit. Other examples include natural enumerated types (like the planets, days of the week, colors, directions, etc.). The main objective of enum is to define our own data types(Enumerated Data Types). Enumeration is declared using the enum keyword directly inside a namespace, class, or structure.To read more, refertothe article:Enum in C#",
+    "source": "https://www.geeksforgeeks.org/c-sharp/c-sharp-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is the difference between ref and out keywords?",
+    "answer": "The ref is a keyword in C# which is used for passing the arguments by a reference. Or we can say that if any changes made in this argument in the method will reflect in that variable when the control return to the calling method. The ref parameter does not pass the property.",
+    "source": "https://www.geeksforgeeks.org/c-sharp/c-sharp-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What are Properties in C#?",
+    "answer": "Properties are the special type of class members that provides a flexible mechanism to read, write, or compute the value of a private field. Properties can be used as if they are public data members, but they are actually special methods called accessors. This enables data to be accessed easily and helps to promote the flexibility and safety of methods. Encapsulation and hiding of information can also be achieved using properties. It uses pre-defined methods which are “get” and “set” methods which help to access and modify the properties.",
+    "source": "https://www.geeksforgeeks.org/c-sharp/c-sharp-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. How does the .NET framework work?",
+    "answer": ".NET framework-based applications that are written in supportive languages like C#, F#, or Visual basic are compiled to Common Intermediate Language (CIL).",
+    "source": "https://www.interviewbit.com/dot-net-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is an EXE and a DLL?",
+    "answer": "EXE and DLLs are assembly executable modules.",
+    "source": "https://www.interviewbit.com/dot-net-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is CTS?",
+    "answer": "CTS stands for Common Type System. It follows a set of structured rules according to which a data type should be declared and used in the program code. It is used to describe all the data types that are going to be used in the application.",
+    "source": "https://www.interviewbit.com/dot-net-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is JIT?",
+    "answer": "JITstands forJust In Time. It is a compiler that converts the intermediate code into the native language during the execution.",
+    "source": "https://www.interviewbit.com/dot-net-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is the difference between int and Int32?",
+    "answer": "There is no difference between int and Int32. Int32 is a type provided by the .NET framework class whereas int is an alias name for Int32 in the C# programming language.",
+    "source": "https://www.interviewbit.com/dot-net-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is the difference between managed and unmanaged code?",
+    "answer": "The main difference between managed and unmanaged code is listed below:",
+    "source": "https://www.interviewbit.com/dot-net-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "11. What is an assembly?",
+    "answer": "An assembly is a file that is automatically generated by the compiler which consists of a collection of types and resources that are built to work together and form a logical unit of functionality. We can also say, assembly is a compiled code and logical unit of code.",
+    "source": "https://www.interviewbit.com/dot-net-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "12. Is ASP.NET different from ASP? If yes, explain how?",
+    "answer": "Yes, ASP.NET and ASP(Active Server Pages) both are different. Let’s check how they are different from each other.",
+    "source": "https://www.interviewbit.com/dot-net-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is C# Programming Language?",
+    "answer": "One of the most modern yet general purposes entails the capability of detecting errors way before the application goes live or in other words “Statistically-typed” programming language. These features make it easier to detect and identify even if any issue occurs. Besides this, the nature of C# is to run on the Windows .NET framework but can be easily applied to an open-source platform.",
+    "source": "https://www.geeksforgeeks.org/blogs/c-sharp-developer-roadmap/",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Who are C# Developers?",
+    "answer": "The major responsibility of a C# developer is to build apps and programs based on the.NET framework(for using Win OS) where their primary work includes writing codes, developing features and add-ons, and designing the final touch of the user interface. However, these are not just limited key roles of their work because they are also responsible for handling debugs and code maintenance. The best part about C# is that they (developers) can be easily trained to work as eitherfull-stackorback-end and front-end. This clearly indicates that the possibilities in terms of career uplifting are comparatively higher than in other languages.",
+    "source": "https://www.geeksforgeeks.org/blogs/c-sharp-developer-roadmap/",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the different return types used by the controller action method in MVC?",
+    "answer": "The various return types of controller action methods in MVC are:",
+    "source": "https://www.interviewbit.com/mvc-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What are the various steps to create the request object?",
+    "answer": "In order to create a request object, we have to go through 4 different steps. These are:",
+    "source": "https://www.interviewbit.com/mvc-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. Explain some benefits of using MVC?",
+    "answer": "Support of multiple views: Since there is a separation of the model from its view, the user interface (UI) gets the capability to implement multiple views of the same data concurrently.",
+    "source": "https://www.interviewbit.com/mvc-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. Explain in brief the role of different MVC components?",
+    "answer": "The different MVC components have the following roles:",
+    "source": "https://www.interviewbit.com/mvc-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. How will you maintain the sessions in MVC?",
+    "answer": "The sessions of an MVC can be maintained in 3 possible ways:",
+    "source": "https://www.interviewbit.com/mvc-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What do you mean by partial view of MVC?",
+    "answer": "A partial view can be defined as a portion of HTML that is carefully injected into an existing DOM. Partial views are commonly implemented for componentizing Razor views, making them simpler to build and update. Controller methods can also directly return the partial views.",
+    "source": "https://www.interviewbit.com/mvc-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. Explain in brief the difference between adding routes in a webform application & an MVC application?",
+    "answer": "We make use of the MapPageRoute() which is of the RouteCollection class for adding routes in a webform application. Whereas, the MapRoute() method is used for adding routes to an MVC application.",
+    "source": "https://www.interviewbit.com/mvc-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "11. How will you define the 3 logical layers of MVC?",
+    "answer": "The 3 logical layers of MVC can be defined as follows:",
+    "source": "https://www.interviewbit.com/mvc-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C#",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is C++? What are the advantages of C++?",
+    "answer": "C++ is an object-oriented programming language that was introduced to overcome the jurisdictions where C was lacking. By object-oriented we mean that it works with the concept ofpolymorphism,inheritance,abstraction,encapsulation,object and class.",
+    "source": "https://www.geeksforgeeks.org/cpp/cpp-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What are the different data types present in C++?",
+    "answer": "Following is the list ofdata types in C++:",
+    "source": "https://www.geeksforgeeks.org/cpp/cpp-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. Define 'std'?",
+    "answer": "'std'is also known as Standard or it can be interpreted as a namespace. The command \"using namespace std\"informs the compiler to add everything under thestd namespaceand inculcate them in theglobal namespace. This all inculcation of global namespace benefits us to use \"cout\" and \"cin\"without using \"std::_operator_\".",
+    "source": "https://www.geeksforgeeks.org/cpp/cpp-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What are references in C++?",
+    "answer": "In C++,referencesare an alternative way to create an alias for another variable. A reference acts as a synonym for a variable, allowing you to access the variable directly without any additional syntax. They must be initialized when created and cannot be changed to refer to another variable afterward. This feature makes it easier to manipulate variables in functions while avoiding the overhead of copying large objects. A reference variable is preceded with a'&'symbol.",
+    "source": "https://www.geeksforgeeks.org/cpp/cpp-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What do you mean by Call by Value and Call by Reference?",
+    "answer": "In this programming language to call a function we have 2 methods:Call by ValueandCall by Reference",
+    "source": "https://www.geeksforgeeks.org/cpp/cpp-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What is the difference between C and C++?",
+    "answer": "The following table lists the majordifferences between C and C++:",
+    "source": "https://www.geeksforgeeks.org/cpp/cpp-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What is the difference between struct and class?",
+    "answer": "Following table lists the primarydifference between struct and class:",
+    "source": "https://www.geeksforgeeks.org/cpp/cpp-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What is the difference between reference and pointer?",
+    "answer": "Following are the maindifference between reference and pointer:",
+    "source": "https://www.geeksforgeeks.org/cpp/cpp-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is the difference between C and C++?",
+    "answer": "The main difference between C and C++ are provided in the table below:",
+    "source": "https://www.interviewbit.com/cpp-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What are the static members and static member functions?",
+    "answer": "When a variable in a class is declared static, space for it is allocated for the lifetime of the program. No matter how many objects of that class have been created, there is only one copy of the static member. So same static member can be accessed by all the objects of that class.",
+    "source": "https://www.interviewbit.com/cpp-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What are destructors in C++?",
+    "answer": "A constructor is automatically called when an object is first created. Similarly when an object is destroyed a function called destructor automatically gets called. A destructor has the same name as the constructor (which is the same as the class name) but is preceded by a tilde.",
+    "source": "https://www.interviewbit.com/cpp-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is an abstract class and when do you use it?",
+    "answer": "A class is called an abstract class whose objects can never be created. Such a class exists as a parent for the derived classes. We can make a class abstract by placing a pure virtual function in the class.",
+    "source": "https://www.interviewbit.com/cpp-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What do you mean by call by value and call by reference?",
+    "answer": "In call by value method, we pass a copy of the parameter is passed to the functions. For these copied values a new memory is assigned and changes made to these values do not reflect the variable in the main function.",
+    "source": "https://www.interviewbit.com/cpp-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. Is deconstructor overloading possible? If yes then explain and if no then why?",
+    "answer": "No destructor overloading is not possible. Destructors take no arguments, so there’s only one way to destroy an object. That’s the reason destructor overloading is not possible.",
+    "source": "https://www.interviewbit.com/cpp-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What do you mean by abstraction in C++?",
+    "answer": "Abstraction is the process of showing the essential details to the user and hiding the details which we don’t want to show to the user or hiding the details which are irrelevant to a particular user.",
+    "source": "https://www.interviewbit.com/cpp-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What is a reference in C++?",
+    "answer": "A reference is like a pointer. It is another name of an already existing variable. Once a reference name is initialized with a variable, that variable can be accessed by the variable name or reference name both.",
+    "source": "https://www.interviewbit.com/cpp-interview-questions/",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "isPrime(17) ? cout << \" true\\n\" : cout << \" false\\n\";",
+    "answer": "17. Write a Program to Check Palindrome",
+    "source": "https://www.geeksforgeeks.org/cpp/cpp-coding-interview-questions-and-answers/",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "int len_left = t != -1 ? t : l;",
+    "answer": "// add min 0's in the beginning to make",
+    "source": "https://www.geeksforgeeks.org/cpp/cpp-coding-interview-questions-and-answers/",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Want a Top Software Development Job? Start Here!",
+    "answer": "The C++ Interview Questions addressed in this section cover thefundamentals of the C++ language, an aspect to be known mandatorily.",
+    "source": "https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-interview-questions",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is the difference betweenC and C++?",
+    "answer": "Cis a procedure-oriented programming language",
+    "source": "https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-interview-questions",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What are classes and objects in C++?",
+    "answer": "Aclassis like a blueprint of an object. It is a user-defined data type with data members and member functions and is defined with the keyword class.",
+    "source": "https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-interview-questions",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What are access modifiers?",
+    "answer": "You use access modifiers to define accessibility for the class members. It defines how to access the members of the class outside the class scope.",
+    "source": "https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-interview-questions",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. Difference between equal to (==) and assignment operator(=)?",
+    "answer": "The equal to operator == checks whether two values are equal or not. If equal, then itâs true; otherwise, it will return false.",
+    "source": "https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-interview-questions",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is the difference between a while loop and a do-while loop?",
+    "answer": "Thewhile loopverifies the condition; if itâs true, then it iterates the loop till the condition becomes false.",
+    "source": "https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-interview-questions",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What is the size of the int data type?",
+    "answer": "1 - 4 bytes, the integer data type is 4 bytes.",
+    "source": "https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-interview-questions",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What among these is used to return the number of characters in the string?",
+    "answer": "3. Both size and length are used to return the number of characters in the string.",
+    "source": "https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-interview-questions",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What Is Game Development?",
+    "answer": "Building a world of excitement and fun inside a computer is similar togame development! To make virtual worlds come to life, this multidisciplinary profession integrates elements of design, programming, art, audio, and more. They start with a great idea, make it look awesome with pictures and sounds, write the computer instructions to make it all work, and then make sure everything runs smoothly. When it's all done, it's like opening a door to a new adventure for players to enjoy!",
+    "source": "https://www.geeksforgeeks.org/blogs/cpp-for-game-development/",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why Choose C++ for Game Development?",
+    "answer": "Game development often feels like a thrilling journey, and in this landscape,C++emerges as a developer's trusted companion. C++ has become the best-suited language for developing games that demand top-notch performance because C++ basically renowned for its speed and flexibility, and also with the ability to communicate directly with hardware. Whether you're creating a visually stunning3Dworld or fine-tuning gameplay for seamless experiences, C++ equips you with the tools and capabilities to transform your ideas into immersive gaming experiences.",
+    "source": "https://www.geeksforgeeks.org/blogs/cpp-for-game-development/",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. How does C++ enable both high-level and low-level programming, and what features make it suitable for systems-level development?",
+    "answer": "C++ is called a middle-level language because it combines the features of both high-level and low-level programming.",
+    "source": "https://www.geeksforgeeks.org/interview-prep/c-fundamentals-interview-questions-1/",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. Whats is 'namespace std'?",
+    "answer": "'std' stands for Standard. It is anamespacein C++.Namespaceis a feature that provides a way to group related identifiers such as variables, functions, and classes under a single name. The line \"using namespace std\" informs the compiler to add everything under the std namespace and inculcate them in the global namespace. This all inculcation of global namespace benefits us to use \"cout\" and \"cin\" without using \"std::_operator_\".",
+    "source": "https://www.geeksforgeeks.org/interview-prep/c-fundamentals-interview-questions-1/",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What are references in C++?",
+    "answer": "In C++,referencesis a way to create an alias for another variable.",
+    "source": "https://www.geeksforgeeks.org/interview-prep/c-fundamentals-interview-questions-1/",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What does the \"auto\" keyword do?",
+    "answer": "Theauto keywordis a type inference specifier introduced in C++11, which tells the compiler to automatically deduce the type of a variable from its initializer expression.",
+    "source": "https://www.geeksforgeeks.org/interview-prep/c-fundamentals-interview-questions-1/",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What do you mean by Pass by Value and Pass by Reference?",
+    "answer": "In this programming language to call a function we have 2 methods:Pass by Value and Pass by Reference",
+    "source": "https://www.geeksforgeeks.org/interview-prep/c-fundamentals-interview-questions-1/",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What is the difference between C and C++?",
+    "answer": "The following table lists the majordifferences between C and C++:",
+    "source": "https://www.geeksforgeeks.org/interview-prep/c-fundamentals-interview-questions-1/",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What happens if you use cout without using namespace std or std::cout? Why is namespace resolution important in large C++ projects?",
+    "answer": "In C++, cout belongs to the std namespace. If you forget to use using namespace std; or std::cout, you'll get a compiler error. In large projects, polluting the global namespace can lead to naming collisions",
+    "source": "https://www.geeksforgeeks.org/interview-prep/c-fundamentals-interview-questions-1/",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "10. What is the difference between const and #define?",
+    "answer": "Default arguments are values that are used when a function is called without some parameters.",
+    "source": "https://www.geeksforgeeks.org/interview-prep/c-fundamentals-interview-questions-1/",
+    "role": "Game Developer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is the OpenGL Rendering Pipeline?",
+    "answer": "TheOpenGL Rendering Pipelineis a sequence of steps that processes data, such as vertices (points in 3D space), to generate a final image. Each step has a specific job, like positioning objects, calculating colors, or deciding which parts of the scene are visible. Some stages are fixed (controlled by OpenGL), while others are programmable, allowing developers to write custom code (called shaders) to control how the scene looks.",
+    "source": "https://www.geeksforgeeks.org/blogs/opengl-rendering-pipeline-overview/",
+    "role": "Game Developer",
+    "skill": "OpenGL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is a Game Developer?",
+    "answer": "Game developers are usually involved in various aspects of game creation, such asvisuals, user interface, and game logic. They take the designs,storyboards, and ideas provided by game designers and turn them into the actual playable experience for gamers.",
+    "source": "https://www.geeksforgeeks.org/gfg-academy/how-to-become-a-game-developer/",
+    "role": "Game Developer",
+    "skill": "OpenGL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What does a Game Developer do?",
+    "answer": "A game developer is responsible for designing, developing, and implementing video games across various platforms. Their role encompasses a wide range of tasks and skills:",
+    "source": "https://www.geeksforgeeks.org/gfg-academy/how-to-become-a-game-developer/",
+    "role": "Game Developer",
+    "skill": "OpenGL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How to Become a Game Developer?",
+    "answer": "Here's a comprehensive guide to help you on your journey to become a game developer, covering all the essential steps:",
+    "source": "https://www.geeksforgeeks.org/gfg-academy/how-to-become-a-game-developer/",
+    "role": "Game Developer",
+    "skill": "OpenGL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Computer Graphics?",
+    "answer": "Computer Graphics including digital images, animations, and interactive graphics used in various sectors such as entertainment, education, scientific visualization, and virtual reality.  Computer Graphics can be used inUI design, rendering, geometric objects, animation, and many more. In most areas, computer graphics is an abbreviation of CG.",
+    "source": "https://www.geeksforgeeks.org/computer-graphics/introduction-to-computer-graphics/",
+    "role": "Game Developer",
+    "skill": "DirectX",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why are Computer Graphics used?",
+    "answer": "Imagine a car manufacturing company that wants to showcase its vehicle sales over the past decade. Storing and presenting this huge amount of data can be both time-consuming and memory-intensive. Furthermore, it can be difficult for the average person to understand. In such cases, by using graphics can be a more effective solution. By using charts and graphs to visually signify the data, it becomes much easier to understand and analyse the data.",
+    "source": "https://www.geeksforgeeks.org/computer-graphics/introduction-to-computer-graphics/",
+    "role": "Game Developer",
+    "skill": "DirectX",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Who are VR Developers?",
+    "answer": "Before moving to the roadmap, we recommend you get familiar withVR (Virtual Reality), AR (Augmented Reality), and MR(Mixed Reality).",
+    "source": "https://www.geeksforgeeks.org/blogs/how-to-become-a-virtual-reality-developer/",
+    "role": "Game Developer",
+    "skill": "DirectX",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why is the VR development Field Increasing?",
+    "answer": "There are various reasons behind this, such as many tech companies rapidly investing in theVR industry. Furthermore, VR technology has become increasingly accessible to a broader audience, significantly boosting demand.That's why there are a lot of VR development job opportunities for developers across various industries.",
+    "source": "https://www.geeksforgeeks.org/blogs/how-to-become-a-virtual-reality-developer/",
+    "role": "Game Developer",
+    "skill": "DirectX",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How to Become a Virtual Reality Developer?",
+    "answer": "As a beginner, you need a roadmap to become a successful virtual reality developer and get the job without hassles.",
+    "source": "https://www.geeksforgeeks.org/blogs/how-to-become-a-virtual-reality-developer/",
+    "role": "Game Developer",
+    "skill": "DirectX",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. Why Do Soft Skills Matter?",
+    "answer": "Soft skills are essential as VR projectsrequire interdisciplinary collaboration, communication, and continual learning. That's why you must work on different soft skills, such as:",
+    "source": "https://www.geeksforgeeks.org/blogs/how-to-become-a-virtual-reality-developer/",
+    "role": "Game Developer",
+    "skill": "DirectX",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Do you want to make your own games?",
+    "answer": "There is a lot of buzz about game development these days with India set to become a major market in the field. New game development companies are coming up everyday and the market is predicted to be worth $1 Billion in India. Obviously, many new coders and designers want to get into the industry, and many of them are starting on their own without much investment to begin with.",
+    "source": "https://www.geeksforgeeks.org/python/do-you-want-to-make-your-own-games/",
+    "role": "Game Developer",
+    "skill": "Blender",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Game Design?",
+    "answer": "Game design is the process of creating the content and rules of a video game, focusing on the overall gameplay experience. It involves defining the game’s structure, mechanics, story, characters, and levels. Game designers use their creativity and technical skills to craft immersive worlds and engaging experiences that captivate players. The game design process includes brainstorming ideas, designing the game’s core mechanics, developing levels, and iterating based on feedback.",
+    "source": "https://www.geeksforgeeks.org/blogs/game-design/",
+    "role": "Game Developer",
+    "skill": "Blender",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is a Game Designer?",
+    "answer": "A game designer is a creative professional responsible for shaping the overall vision and feel of a video game. They are the brains behind the concept, mechanics, and interactive experience of a game. Game designers turn ideas into playable experiences by planning out every detail, from storylines and characters to rules and levels. They work closely with developers, artists, and other team members to bring the game to life.",
+    "source": "https://www.geeksforgeeks.org/blogs/game-design/",
+    "role": "Game Developer",
+    "skill": "Blender",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What Does a Game Designer Do?",
+    "answer": "A game designer's job involves a wide range of tasks to ensure a game is fun, engaging, and works smoothly. Here’s what a game designer typically does:",
+    "source": "https://www.geeksforgeeks.org/blogs/game-design/",
+    "role": "Game Developer",
+    "skill": "Blender",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How much does a Game Designer Make?",
+    "answer": "A game designer’s salary can vary depending on experience, location, and the company they work for. Below is a breakdown of game designer salaries in different regions:",
+    "source": "https://www.geeksforgeeks.org/blogs/game-design/",
+    "role": "Game Developer",
+    "skill": "Blender",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Blender?",
+    "answer": "Blenderis a 3D graphics software used for multiple purposes like modelling, animation, editing, etc. It allows users to add features using external plugins. It is free and open source. Launched in 1994, it became popular among animators who work on small personal projects, later professionals also adopt it due to its handy features.",
+    "source": "https://www.geeksforgeeks.org/computer-graphics/blender-vs-freecad/",
+    "role": "Game Developer",
+    "skill": "Blender",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is FreeCAD?",
+    "answer": "FreeCADsoftware was launched for easing the work of parametric 3D designing. It allows users to create assets that can be used for game development and Building Information Modelling. It has great mathematical tools for calculating different parameters like the ratio of different materials used for making any structure of a certain length, breadth, and height. It can be easily downloaded from its official site without any charges.",
+    "source": "https://www.geeksforgeeks.org/computer-graphics/blender-vs-freecad/",
+    "role": "Game Developer",
+    "skill": "Blender",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is 3D Printing?",
+    "answer": "3D modeling involves a lot of artistry and precision, encompassed by imagination and technology in a single process, breathing life into designs. From imagination to final render, each step in the 3D modeling process can capture a raw idea into a detailed and vivid representation, done practically across industries, including gaming, film, architecture, and product design.",
+    "source": "https://www.geeksforgeeks.org/blogs/3d-modeling-process-steps/",
+    "role": "Game Developer",
+    "skill": "3D Modeling",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q1: What is the Architecture of Generative AI ?",
+    "answer": "Answer:Generative AI works through the use of neural networks, specifically Recurrent Neural Networks (RNNs) and more recently, Transformers. Here’s a simplified breakdown of how it functions:",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/generative-ai-interview-question-with-answer/",
+    "role": "Game Developer",
+    "skill": "3D Modeling",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q2: What are the top applications of Generative AI?",
+    "answer": "Answer:Generative AI has a wide range of applications across different industries:",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/generative-ai-interview-question-with-answer/",
+    "role": "Game Developer",
+    "skill": "3D Modeling",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q3: . How is Generative Adversarial Networks (GANs) used in AI?",
+    "answer": "Answer:Generative Adversarial Networks, or GANs, are a type of machine learning model made up of two key parts:a generator and a discriminator. These two components collaborate like — the generator creates new content, while the discriminator evaluates it, pushing both to improve through their interaction.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/generative-ai-interview-question-with-answer/",
+    "role": "Game Developer",
+    "skill": "3D Modeling",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q4: How Generator and Discriminator works together ?",
+    "answer": "The generator tries to fool the discriminator, while the discriminator aims to correctly classify the data. They improve through this competition until the generator produces highly realistic outputs.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/generative-ai-interview-question-with-answer/",
+    "role": "Game Developer",
+    "skill": "3D Modeling",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q5: What are some common techniques to improve the stability and performance of GANs?",
+    "answer": "Answer:To enhance the stability and performance of GANs, various strategies can be employed. Using architectures likeDeep Convolutional GANs (DCGANs) or Wasserstein GANs (WGANs)is a popular approach. Techniques such asbatch normalization, feature matching, and gradient penaltyare effective in stabilizing training. Additionally, leveraging advanced optimizers and custom loss functions tailored for GANs can further boost their performance.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/generative-ai-interview-question-with-answer/",
+    "role": "Game Developer",
+    "skill": "3D Modeling",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q6. What is Deep Convolutional Generative Adversarial Networks (DCGANs) ?",
+    "answer": "Answer:Deep Convolutional Generative Adversarial Networks (DCGANs)are a type of generative adversarial network (GAN) architecture that leverages convolutional neural networks (CNNs) for both the generator and discriminator components.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/generative-ai-interview-question-with-answer/",
+    "role": "Game Developer",
+    "skill": "3D Modeling",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q7: What are the key differences between conditional GANs (cGANs) and traditional GANs?",
+    "answer": "Answer:Conditional GANs extend traditional GANs by conditioning the generation process on additional information, such asclasslabels to generators. In contrast, traditional GANs generate data without any conditioning.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/generative-ai-interview-question-with-answer/",
+    "role": "Game Developer",
+    "skill": "3D Modeling",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q8: Can you explain the purpose and implementation of regularization techniques in generative models?",
+    "answer": "Answer:Regularization techniquesare essential for preventing overfitting and improving a model's ability to generalise to new data. In generative models, common methods include dropout, weight decay, and spectral normalization.These methods ensure that the model learns robust features and avoids memorizing the training data.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/generative-ai-interview-question-with-answer/",
+    "role": "Game Developer",
+    "skill": "3D Modeling",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What inspired you to choose the field of graphic design?",
+    "answer": "A graphic designer needs to be passionate about their work and beimaginative. When an interviewer asks this question, they get a sense of what motivated the candidate.",
+    "source": "https://www.simplilearn.com/graphic-designer-interview-questions-article",
+    "role": "Game Developer",
+    "skill": "3D Modeling",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What does it mean to be a graphic designer, according to you?",
+    "answer": "A graphic designer's job is to create designs that captivate consumers and make them enthusiastic. A good graphic designer ensures successful marketing by giving the brand a recognizable feeling. They're responsible for product design and designing advertisements, company reports, etc.",
+    "source": "https://www.simplilearn.com/graphic-designer-interview-questions-article",
+    "role": "Game Developer",
+    "skill": "3D Modeling",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What is the role of communication in graphic design?",
+    "answer": "People ask this question a lot when they are interviewing for a graphic design position. Interviewers will likely ask this question to get a feel of how you see graphic design as a potential message. The speaking points are what the audience cares about, including nature, scope, and the importance of the field.",
+    "source": "https://www.simplilearn.com/graphic-designer-interview-questions-article",
+    "role": "Game Developer",
+    "skill": "3D Modeling",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. How should a designer prioritize when designing?",
+    "answer": "This is a typical graphic design interview question. Designers are asked this question in order to understand their approach, as different designers have different perspectives. Begin with priorities and share the aspects of design that you find most important. Consider what needs to be explained and how to explain it clearly.",
+    "source": "https://www.simplilearn.com/graphic-designer-interview-questions-article",
+    "role": "Game Developer",
+    "skill": "3D Modeling",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. Why do you feel you are a good graphic designer? What is the quality that sets graphic designers apart from one another?",
+    "answer": "A good graphic designer can keep in mind a variety of factors when they design, including their ideas, and their client's requests. Here are some qualities a graphic designer must hone to stand out.",
+    "source": "https://www.simplilearn.com/graphic-designer-interview-questions-article",
+    "role": "Game Developer",
+    "skill": "3D Modeling",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. Tell me what are you good at and what can you improve?",
+    "answer": "Use this as an opportunity to list all your strengths and talk about the skills and good qualities you have.Â",
+    "source": "https://www.simplilearn.com/graphic-designer-interview-questions-article",
+    "role": "Game Developer",
+    "skill": "3D Modeling",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. Explain a time when you had to work quickly and what actions did you take to accomplish the work before the deadline?",
+    "answer": "This is a frequently asked design question in graphic design interviews, as it helps the interviewer to understand if you can work quickly and still provide a high-quality end product. Present a project in which you faced time pressure and describe how you handled the time, discussing the limitations. Talk about time management and answer to demonstrate that you followed the roadmap and followed the correct roadmap throughout the project.",
+    "source": "https://www.simplilearn.com/graphic-designer-interview-questions-article",
+    "role": "Game Developer",
+    "skill": "3D Modeling",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What kinds of graphic design projects do you know of?",
+    "answer": "The five types of projects that we come across the most are-",
+    "source": "https://www.simplilearn.com/graphic-designer-interview-questions-article",
+    "role": "Game Developer",
+    "skill": "3D Modeling",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is a 3D Modeling Pipeline?",
+    "answer": "A3D modeling pipelinerefers to the structured sequence of stages that artists and technical teams follow to create, refine, and finalize 3D digital assets for various purposes, such asanimation, gaming, virtual reality,product design, or architectural visualization. The pipeline acts as aroadmap, breaking down complex tasks into manageable phases, and ensuring that the creative and technical aspects of 3D production are efficiently organized and executed. It provides a systematic approach to transform an idea from a concept into a fully realized3D assetready for use in a final product.",
+    "source": "https://www.geeksforgeeks.org/blogs/3d-modeling-pipeline/",
+    "role": "Game Developer",
+    "skill": "3D Modeling",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "how all those wonderful 3D models were created?",
+    "answer": "In this guide, we’ll dive deep into theworld of the 3D modeling pipeline, exploring its phases, and why it’s crucial for anysuccessful 3D production. Whether you’re creating characters for a blockbuster animation, designing virtual objects for gaming, or visualizing architectural projects, understanding the 3D modeling pipeline is essential for producing stunning, realistic, and engaging digital content. So, let’s embark on this journey through the fascinating and intricate world of 3D modeling.",
+    "source": "https://www.geeksforgeeks.org/blogs/3d-modeling-pipeline/",
+    "role": "Game Developer",
+    "skill": "3D Modeling",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How to become a 3D Animator?",
+    "answer": "The3D modeling pipelineis not merely technical procedures; it is thebackbone of productionin places like the film industry, animation, gaming industry, architecture, and product design. Every stage of the pipeline from creating the first concept in thepre-production stageto implementing final rendering and compositing plays an import role in turning abstract thoughts in the head of the creative into something tangible and life-like in the form of 3D assets. The whole pipeline is meant to make sure that all the parts, whether a character, an environment, or an object, come together seamlessly, as well as keeping it in alignment with the creative vision of the project.",
+    "source": "https://www.geeksforgeeks.org/blogs/3d-modeling-pipeline/",
+    "role": "Game Developer",
+    "skill": "3D Modeling",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is 3D Modeling?",
+    "answer": "3D modelingis essentially a method that develops athree-dimensional representation of an objectvia a software medium. Unlike traditional two-dimensional (2D) drawings or images, 3D models exist in a digital space with depth, height, and width. This feature allows viewing from any angle. It is much like putting up a virtual sculpture, as the basic shape is ready you keep adding details and realism until it resembles the thing that you had in mind.",
+    "source": "https://www.geeksforgeeks.org/blogs/what-is-3d-modeling/",
+    "role": "Game Developer",
+    "skill": "3D Modeling",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why is 3D modeling used?",
+    "answer": "3D modelinghas revolutionized designing, making models, and interacting with the world around us. From the most finely crafted game character in a video game to the design of objects that can actually be created and manufactured in the real world,3D modelsprovide a word of detail and precision that was previously impossible. If you have thought about the magic that transforms those favourite video games or animated movies or works in really neat high-tech gadgets, it's time to explore some of the different and intriguing uses of 3D modeling. Let's delve into some extremely fascinating and practical applications of this resource.",
+    "source": "https://www.geeksforgeeks.org/blogs/what-is-3d-modeling/",
+    "role": "Game Developer",
+    "skill": "3D Modeling",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is 3D Printing?",
+    "answer": "In summary, it's clear that this technology is not just for designers and engineers; it is atransformative forcereshaping industries across the globe. From the most advanced elaborations ingamingandvirtual realityto precisionproduct designandarchitecture,3D modelingmakes the description of how dreams turns into reality.",
+    "source": "https://www.geeksforgeeks.org/blogs/what-is-3d-modeling/",
+    "role": "Game Developer",
+    "skill": "3D Modeling",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is 3D Printing?",
+    "answer": "3D modeling is at its thrilling best with the year 2025 and beyond looming on the horizon. It is amazing to witness how far technology has ventured, including AI, real-time rendering and virtual reality. The opportunities are numerous, including creating fantastically detailed characters for video games, designing futuristic cities for films, or even shaping groundbreaking ideas within architecture-all this through 3D modeling.",
+    "source": "https://www.geeksforgeeks.org/blogs/3d-modeling-roadmap/",
+    "role": "Game Developer",
+    "skill": "Shaders",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What do you understand by the term \"Android\" and what is the latest version of Android?",
+    "answer": "Android is anoperating systemthat is built basically for Mobile phones. It is based on the Linux Kernel and other open-source software and is developed by Google. It is used for touchscreen mobile devices such as smartphones and tablets. But nowadays these are used in Android Auto cars, TV, watches, cameras, chromebooks, etc. It has been one of the best-selling OS for smartphones. Android OS was developed by Android Inc.",
+    "source": "https://www.geeksforgeeks.org/android/top-50-android-interview-questions-answers-sde-i-to-sde-iii/",
+    "role": "Game Developer",
+    "skill": "Animation Systems",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What's Activity in Android?",
+    "answer": "TheActivityclass is a fundamental component of Android applications. Any app, no matter how small it is (in terms of code and scalability), has at least one Activity class. Unlike most programming languages, in which themain()method is the entry point for that program or application to start its execution, the Android operating system initiates the code in an Activity instance by invoking specific callback methods that correspond to specific stages of its lifecycle. So it can be said that an activity is the entry point for interacting with the user. Check this article to learn more aboutActivities in Android.",
+    "source": "https://www.geeksforgeeks.org/android/top-50-android-interview-questions-answers-sde-i-to-sde-iii/",
+    "role": "Game Developer",
+    "skill": "Animation Systems",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3.Why is XML used for frontend development in Android?",
+    "answer": "XML stands forExtensible Markup Language. XML is a markup language much like HTML used to describe data. XML itself is well readable both by humans and machines. Android uses XML for UI development for the following reasons:",
+    "source": "https://www.geeksforgeeks.org/android/top-50-android-interview-questions-answers-sde-i-to-sde-iii/",
+    "role": "Game Developer",
+    "skill": "Animation Systems",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What are the components of the Android Application?",
+    "answer": "There are some necessary building blocks that an Android application consists of. These loosely coupled components are bound by the application manifest file which contains the description of each component and how they interact. The five main components of Android applications are:",
+    "source": "https://www.geeksforgeeks.org/android/top-50-android-interview-questions-answers-sde-i-to-sde-iii/",
+    "role": "Game Developer",
+    "skill": "Animation Systems",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is the Dalvik Virtual Machine?",
+    "answer": "DVM is avirtual machineto execute Android applications. The Java bytecode(.class file)generated by the javac compiler is converted intoDalvik bytecodeto make the application source files executable on the DVM. Since Android devices have a definite processing capacity, memory, and battery life, the DVM design principle aims to optimize itself so that it can load fastly and run smoothly even on low memory/powered devices. This virtual machine is very efficient in running multiple instances on the same device.",
+    "source": "https://www.geeksforgeeks.org/android/top-50-android-interview-questions-answers-sde-i-to-sde-iii/",
+    "role": "Game Developer",
+    "skill": "Animation Systems",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What are the differences between Dalvik and ART?",
+    "answer": "The requirement of a database in Android is fulfilled by SQLite from the very beginning. However, it comes with some severe drawbacks like not checking the queries at compile-time, it does not save plain-old-Java Objects(commonly referred to as POJOs). Developers also need to write a lot of boilerplate code to make the SQLite database work in the Android OS environment. The Room component comes into the picture as anSQLite Object Mapping Librarywhich overcomes all the mentioned challenges. Room converts queries directly into objects, checks errors in queries at the compile-time, and is also capable of persisting the Java POJOs.",
+    "source": "https://www.geeksforgeeks.org/android/top-50-android-interview-questions-answers-sde-i-to-sde-iii/",
+    "role": "Game Developer",
+    "skill": "Animation Systems",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. How does an Android App Work?",
+    "answer": "Developing an Android application involves several processes that happen sequentially. After writing the source code files, when developers click theRunbutton on theAndroid studio, plenty of operations and processes gets triggered under the hood.",
+    "source": "https://www.geeksforgeeks.org/android/top-50-android-interview-questions-answers-sde-i-to-sde-iii/",
+    "role": "Game Developer",
+    "skill": "Animation Systems",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What is Toast in Android?",
+    "answer": "AToastis anon-intrusive(without interrupting the app)short alert message(kind of like a in-app notification) shown on the Android screen for a short interval of time. AndroidToastis a short popup notification that is used to display information when we perform any operation in our app. It disappears automatically. If the user wants a permanently visible message, then anotificationcan be used.",
+    "source": "https://www.geeksforgeeks.org/android/top-50-android-interview-questions-answers-sde-i-to-sde-iii/",
+    "role": "Game Developer",
+    "skill": "Animation Systems",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is a 3D Animator?",
+    "answer": "A3D Animatorcreates lifelike animations using computer-generated imagery (CGI). They design and animate characters, objects, and environments, making them appear as though they exist in a three-dimensional space. 3D animators work in industries such as film, television, gaming, and advertising, contributing to some of the most visually stunning projects.",
+    "source": "https://www.geeksforgeeks.org/gfg-academy/how-to-become-a-3d-animator/",
+    "role": "Game Developer",
+    "skill": "Animation Systems",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is System Design?",
+    "answer": "It’s impossible to overlook system design when it comes to tech interviews! In the interview, almost every IT giant, whether it’s Facebook, Amazon, Google, or another, asks a series of questions based onSystem Design conceptslike scalability, load balancing, caching, and so on. So without any further adieu, let us go through the most frequently asked interview questions on System Design.",
+    "source": "https://www.interviewbit.com/system-design-interview-questions/",
+    "role": "Game Developer",
+    "skill": "Multiplayer Networking",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is CAP theorem?",
+    "answer": "CAP(Consistency-Availability-Partition Tolerance) theorem says that a distributed system cannot guarantee C, A and P simultaneously. It can at max provide any 2 of the 3 guarantees. Let us understand this with the help of a distributed database system.",
+    "source": "https://www.interviewbit.com/system-design-interview-questions/",
+    "role": "Game Developer",
+    "skill": "Multiplayer Networking",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How is Horizontal scaling different from Vertical scaling?",
+    "answer": "Horizontal scalingrefers to the addition of more computing machines to the network that shares the processing and memory workload across a distributed network of devices. In simple words, more instances of servers are added to the existing pool and the traffic load is distributed across these devices in an efficient manner.",
+    "source": "https://www.interviewbit.com/system-design-interview-questions/",
+    "role": "Game Developer",
+    "skill": "Multiplayer Networking",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What do you understand by load balancing? Why is it important in system design?",
+    "answer": "When a server goes down, the load balancer redirects traffic to the remaining available servers. When a new server gets added to the configuration, the requests are automatically redirected to it. Following are the benefits of load balancers:",
+    "source": "https://www.interviewbit.com/system-design-interview-questions/",
+    "role": "Game Developer",
+    "skill": "Multiplayer Networking",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What do you understand by Latency, throughput, and availability of a system?",
+    "answer": "Performance is an important factor in system design as it helps in making our services fast and reliable. Following are the three key metrics for measuring the performance:",
+    "source": "https://www.interviewbit.com/system-design-interview-questions/",
+    "role": "Game Developer",
+    "skill": "Multiplayer Networking",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is Sharding?",
+    "answer": "Sharding helps to scale databases by helping to handle the increased load by providing increased throughput, storage capacity and ensuring high availability.",
+    "source": "https://www.interviewbit.com/system-design-interview-questions/",
+    "role": "Game Developer",
+    "skill": "Multiplayer Networking",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. How is sharding different from partitioning?",
+    "answer": "The following table lists the differences between sharding and partitioning:",
+    "source": "https://www.interviewbit.com/system-design-interview-questions/",
+    "role": "Game Developer",
+    "skill": "Multiplayer Networking",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is Caching? What are the various cache update strategies available in caching?",
+    "answer": "Caching refers to the process of storing file copies in a temporary storage location called cache which helps in accessing data more quickly thereby reducing site latency. The cache can only store a limited amount of data. Due to this, it is important to determine cache update strategies that are best suited for the business requirements. Following are the various caching strategies available:",
+    "source": "https://www.interviewbit.com/system-design-interview-questions/",
+    "role": "Game Developer",
+    "skill": "Multiplayer Networking",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. Why is it better to usehorizontal scaling than vertical scaling?",
+    "answer": "The three components of the CAP theorem are Consistency, Availability, and Partition Tolerance.",
+    "source": "https://www.geeksforgeeks.org/system-design/top-most-asked-system-design-interview-questions/",
+    "role": "Game Developer",
+    "skill": "Multiplayer Networking",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What issharding, and how does it improve database scalability?",
+    "answer": "The three components of the CAP theorem are Consistency, Availability, and Partition Tolerance.",
+    "source": "https://www.geeksforgeeks.org/system-design/top-most-asked-system-design-interview-questions/",
+    "role": "Game Developer",
+    "skill": "Multiplayer Networking",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What isCAP theorem?",
+    "answer": "The three components of the CAP theorem are Consistency, Availability, and Partition Tolerance.",
+    "source": "https://www.geeksforgeeks.org/system-design/top-most-asked-system-design-interview-questions/",
+    "role": "Game Developer",
+    "skill": "Multiplayer Networking",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What do you understand byload balancer? Why is it important in system design?",
+    "answer": "A load balancer works as a “traffic cop” sitting in front of your server and routing client requests across all servers. It simply distributes the set of requested operations (database write requests, cache queries) effectively across multiple servers and ensures that no single server bears too many requests that lead to degrading the overall performance of the application.",
+    "source": "https://www.geeksforgeeks.org/system-design/top-most-asked-system-design-interview-questions/",
+    "role": "Game Developer",
+    "skill": "Multiplayer Networking",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What are the various Consistency patterns available in system design?",
+    "answer": "Answer:Caching layer helps in cases of important read while reading about stale data. This can help to offload from the underlying data storage, minimize response time for frequently read data, and generally enhance system responsiveness.",
+    "source": "https://www.geeksforgeeks.org/system-design/top-most-asked-system-design-interview-questions/",
+    "role": "Game Developer",
+    "skill": "Multiplayer Networking",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. When would you usecachelayer of a system?",
+    "answer": "Answer:Caching layer helps in cases of important read while reading about stale data. This can help to offload from the underlying data storage, minimize response time for frequently read data, and generally enhance system responsiveness.",
+    "source": "https://www.geeksforgeeks.org/system-design/top-most-asked-system-design-interview-questions/",
+    "role": "Game Developer",
+    "skill": "Multiplayer Networking",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. Areverse proxyin a web architecture means what?",
+    "answer": "Answer:Many considerations go in picking a NoSQL database that suits some special use case. Here are key reasons why opting for a NoSQL database might be advantageous:",
+    "source": "https://www.geeksforgeeks.org/system-design/top-most-asked-system-design-interview-questions/",
+    "role": "Game Developer",
+    "skill": "Multiplayer Networking",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. How does amessage brokeroperate within a distributed environment?",
+    "answer": "Answer:Many considerations go in picking a NoSQL database that suits some special use case. Here are key reasons why opting for a NoSQL database might be advantageous:",
+    "source": "https://www.geeksforgeeks.org/system-design/top-most-asked-system-design-interview-questions/",
+    "role": "Game Developer",
+    "skill": "Multiplayer Networking",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is High-Level Design (HLD)?",
+    "answer": "In HLD, the focus is more on designing the high-level architecture of the system, defining the high-level components with their interactions, and also the database design. HLD converts the business requirements to a high-level solution.",
+    "source": "https://www.interviewbit.com/low-level-design-interview-questions/",
+    "role": "Game Developer",
+    "skill": "Multiplayer Networking",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Low-Level Design (LLD)?",
+    "answer": "InLLD, the focus is more on designing each component in detail such as what classes are needed, what abstractions to use, how object creation should happen, how data flows between different objects, etc. LLD converts the high-level design into detailed design (ready to code) components.",
+    "source": "https://www.interviewbit.com/low-level-design-interview-questions/",
+    "role": "Game Developer",
+    "skill": "Multiplayer Networking",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. Why LLD is Important?",
+    "answer": "As a software developer in any company, the objective is to build software for the business of the company. Building software is a complex task. Change is the only constant thing in the world. As the software progresses over the years, it needs to incorporate a lot of changes as the requirements keep on changing. We can choose to build software in many ways but we need to build it in such a way that the software is maintainable and extensible over the years easily.",
+    "source": "https://www.interviewbit.com/low-level-design-interview-questions/",
+    "role": "Game Developer",
+    "skill": "Multiplayer Networking",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How to prepare for Low-Level Design Interviews?",
+    "answer": "Software Developers need tolearn Low-Level Designnot only to crack the Interviews but also to build modular, extensible, reusable, and maintainable software. It is the thought process that developers need to develop to effectively build the software from a set of requirements.",
+    "source": "https://www.interviewbit.com/low-level-design-interview-questions/",
+    "role": "Game Developer",
+    "skill": "Multiplayer Networking",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. How to Solve Low-Level Design problems in Interviews?",
+    "answer": "Solving an LLD problem in an interview can be done easily if we divide the solution into multiple stages and focus on solving these stages one by one. LLD problems can be broadly categorized into 2 types: Standalone applications, and web applications.",
+    "source": "https://www.interviewbit.com/low-level-design-interview-questions/",
+    "role": "Game Developer",
+    "skill": "Multiplayer Networking",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. How to design Snake and Ladder?",
+    "answer": "Here is how the \"Snake and Ladder problem\" can be solved by using the above approach.",
+    "source": "https://www.interviewbit.com/low-level-design-interview-questions/",
+    "role": "Game Developer",
+    "skill": "Multiplayer Networking",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Augmented Reality?",
+    "answer": "Augmented realityis an integration of digital information within a user's real environment in real time. Contrary to VR's case, which creates a completely artificial environment, AR makes the user experience a real-world environment with generated perceptual information overlaid on top. It shows the visual components, sounds, and other sensory information to the user through some sort of device, be it a smartphone or special headset.",
+    "source": "https://www.geeksforgeeks.org/software-testing/arvr-testing/",
+    "role": "Game Developer",
+    "skill": "VR/AR Development",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Virtual Reality?",
+    "answer": "Virtual Reality (VR)is a computer-generated environment with objects which appear to be real making the user feel like they are immersed in their environment. These environment are perceived  through devices known as VR headset. VR allows us to deeply immerse ourselves in environment as if we were one of the characters, learn how to perform surgeries or to improve the quality of sports to maximize performance.",
+    "source": "https://www.geeksforgeeks.org/software-testing/arvr-testing/",
+    "role": "Game Developer",
+    "skill": "VR/AR Development",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is AR/VR  testing?",
+    "answer": "AR/VR testing is the process of evaluating AR/VR applications  to make sure they deliver  full-stack functionality, compatibility, reliability, usability, security, maintainability and performance. Given the immersive nature of AR/VR experiences, testing these applications involves unique challenges and methodologies compared to traditional software testing. The user might experience headaches, motion sickness, seizures, eye strain, and other symptoms. These make it necessary to conduct such AR/VR tests.",
+    "source": "https://www.geeksforgeeks.org/software-testing/arvr-testing/",
+    "role": "Game Developer",
+    "skill": "VR/AR Development",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. How does artificial intelligence differ from traditional programming?",
+    "answer": "Artificial Intelligence (AI)is when machines, especially computers, are designed to think and act like humans. AI helps machines learn from information, solve problems, and improve themselves. It allows them to do tasks that usually need human intelligence, like understand3ing what they see (like recognizing images), understanding and responding to speech, making decisions, and translating languages.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligenceai-interview-questions-and-answers/",
+    "role": "Game Developer",
+    "skill": "VR/AR Development",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What are the main branches of AI?",
+    "answer": "The main branches of AI are as follows :",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligenceai-interview-questions-and-answers/",
+    "role": "Game Developer",
+    "skill": "VR/AR Development",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What is the difference between a strong AI and a weak AI?",
+    "answer": "Difference between a strong AI and a weak AI is as follows :",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligenceai-interview-questions-and-answers/",
+    "role": "Game Developer",
+    "skill": "VR/AR Development",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What is the difference between symbolic and connectionist AI?",
+    "answer": "The difference between symbolic and connectionist AI is as follows:",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligenceai-interview-questions-and-answers/",
+    "role": "Game Developer",
+    "skill": "VR/AR Development",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is the difference between parametric and non-parametric models?",
+    "answer": "The difference between parametric and non-parametric models are as follows:",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligenceai-interview-questions-and-answers/",
+    "role": "Game Developer",
+    "skill": "VR/AR Development",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What are the steps involved in deploying a machine learning model into production?",
+    "answer": "The steps involved in deploying a Machine learning Model into production typically includes:",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligenceai-interview-questions-and-answers/",
+    "role": "Game Developer",
+    "skill": "VR/AR Development",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What are the techniques used to avoid overfitting?",
+    "answer": "The  techniques used to avoid overfitting are as follows:",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligenceai-interview-questions-and-answers/",
+    "role": "Game Developer",
+    "skill": "VR/AR Development",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What is the difference between batch learning and online learning?",
+    "answer": "The difference between batch learning and online learning are as follows",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligenceai-interview-questions-and-answers/",
+    "role": "Game Developer",
+    "skill": "VR/AR Development",
+    "search_strategy": "role_specific"
+  }
+]

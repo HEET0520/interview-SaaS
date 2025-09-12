@@ -1,0 +1,3010 @@
+[
+  {
+    "question": "2. What are the three modes that hadoop can Run?",
+    "answer": "Local Mode or Standalone ModeHadoop, by default, is configured to run in a no distributed mode. It runs as a single Java process. Instead of HDFS, this mode utilizes the local file system. This mode is more helpful for debugging, and there isn't any requirement to configure core-site.xml, hdfs-site.xml, mapred-site.xml, masters & slaves. Stand-alone mode is ordinarily the quickest mode in Hadoop.",
+    "source": "https://www.interviewbit.com/hadoop-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What are the Limitations of Hadoop 1.0 ?",
+    "answer": "Only one NameNode is possible to configure.",
+    "source": "https://www.interviewbit.com/hadoop-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. Compare the main differences between HDFS (Hadoop Distributed File System ) and Network Attached Storage(NAS) ?",
+    "answer": "Hadoop MapReduce is a software framework for processing enormous data sets. It is the main component for data processing in the Hadoop framework. It divides the input data into several parts and runs a program on every data component parallel at one. The word MapReduce refers to two separate and different tasks.",
+    "source": "https://www.interviewbit.com/hadoop-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. What is shuffling in MapReduce?",
+    "answer": "In Hadoop MapReduce, shuffling is used to transfer data from the mappers to the important reducers. It is the process in which the system sorts the unstructured data and transfers the output of the map as an input to the reducer. It is a significant process for reducers. Otherwise, they would not accept any information. Moreover, since this process can begin even before the map phase is completed, it helps to save time and complete the process in a lesser amount of time.",
+    "source": "https://www.interviewbit.com/hadoop-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "13. What is an Apache Hive?",
+    "answer": "Hive is an open-source system that processes structured data in Hadoop, living on top of the latter for summing Big Data and facilitating analysis and queries. In addition, hive enables SQL developers to write Hive Query Language statements similar to standard SQL statements for data query and analysis. It is created to make MapReduce programming easier because you don’t know and write lengthy Java code.",
+    "source": "https://www.interviewbit.com/hadoop-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "14. What is Apache Pig?",
+    "answer": "MapReduce needs programs to be translated into map and reduce stages. As not all data analysts are accustomed to MapReduce, Yahoo researchers introduced Apache pig to bridge the gap. Apache Pig was created on top of Hadoop, producing a high level of abstraction and enabling programmers to spend less time writing complex MapReduce programs.",
+    "source": "https://www.interviewbit.com/hadoop-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "16. What is Yarn?",
+    "answer": "Resource Manager: It runs on a master daemon and controls the resource allocation in the cluster.",
+    "source": "https://www.interviewbit.com/hadoop-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "18. What is Apache ZooKeeper?",
+    "answer": "Apache Zookeeper is an open-source service that supports controlling a huge set of hosts. Management and coordination in a distributed environment are complex. Zookeeper automates this process and enables developers to concentrate on building software features rather than bother about its distributed nature.",
+    "source": "https://www.interviewbit.com/hadoop-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is data engineering?",
+    "answer": "Data engineering is the practice of designing, building, and maintaining systems for collecting, storing, and analyzing large volumes of data. It involves creating data pipelines, optimizing data storage, and ensuring data quality and accessibility fordata scientistsand analysts.",
+    "source": "https://www.geeksforgeeks.org/data-engineering/data-engineer-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the main responsibilities of a data engineer?",
+    "answer": "The main responsibilities of a data engineer include:",
+    "source": "https://www.geeksforgeeks.org/data-engineering/data-engineer-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is the difference between a data engineer and a data scientist?",
+    "answer": "While both roles work with data, their focus and responsibilities differ:",
+    "source": "https://www.geeksforgeeks.org/data-engineering/data-engineer-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is a data pipeline?",
+    "answer": "A data pipeline is a series of processes that move data from various sources to a destination system, often involving transformation and processing steps along the way. It ensures that data flows smoothly from its origin to where it's needed for analysis or other purposes.",
+    "source": "https://www.geeksforgeeks.org/data-engineering/data-engineer-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What are some common challenges in data engineering?",
+    "answer": "Common challenges in data engineering include:",
+    "source": "https://www.geeksforgeeks.org/data-engineering/data-engineer-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is a relational database?",
+    "answer": "A relational database is a type of database that organizes data into tables with predefined relationships between them. It uses SQL (Structured Query Language) for managing and querying the data.",
+    "source": "https://www.geeksforgeeks.org/data-engineering/data-engineer-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What are the main differences between SQL and NoSQL databases?",
+    "answer": "Preparing for a data engineering interview means understanding topics like data modeling, ETL processes, and database management. Practicing common interview questions will help you show your skills and knowledge. Keeping up with the latest trends will make you more confident and ready for your interview and your data engineering career.",
+    "source": "https://www.geeksforgeeks.org/data-engineering/data-engineer-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is normalization in database design?",
+    "answer": "Normalization is the process of organizing data in a database to reduce redundancy and improve data integrity. It involves breaking down larger tables into smaller, more focused tables and establishing relationships between them.",
+    "source": "https://www.geeksforgeeks.org/data-engineering/data-engineer-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Read more:What Are the Skills Needed to Learn Hadoop?",
+    "answer": "In this blog, we will talk about the Hadoop interview questions that could be asked in a Hadoop interview. We will look into Hadoop interview questions from the entireHadoop ecosystem, which includes HDFS, MapReduce, YARN, Hive, Pig, HBase, and Sqoop.",
+    "source": "https://www.simplilearn.com/tutorials/hadoop-tutorial/hadoop-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What are the different vendor-specific distributions of Hadoop?",
+    "answer": "The different vendor-specific distributions of Hadoop are Cloudera, MAPR, Amazon EMR, Microsoft Azure, IBM InfoSphere, and Hortonworks (Cloudera).",
+    "source": "https://www.simplilearn.com/tutorials/hadoop-tutorial/hadoop-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the different Hadoop configuration files?",
+    "answer": "The different Hadoop configuration files include:",
+    "source": "https://www.simplilearn.com/tutorials/hadoop-tutorial/hadoop-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are the three modes in which Hadoop can run?",
+    "answer": "The three modes in which Hadoop can run are :",
+    "source": "https://www.simplilearn.com/tutorials/hadoop-tutorial/hadoop-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What are the differences between regular FileSystem and HDFS?",
+    "answer": "Regular FileSystem: In regular FileSystem, data is maintained in a single system. If the machine crashes, data recovery is challenging due to low fault tolerance. Seek time is more and hence it takes more time to process the data.",
+    "source": "https://www.simplilearn.com/tutorials/hadoop-tutorial/hadoop-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. Why is HDFS fault-tolerant?",
+    "answer": "HDFS is fault-tolerant because it replicates data on different DataNodes. By default, a block of data is replicated on three DataNodes. The data blocks are stored in different DataNodes. If one node crashes, the data can still be retrieved from other DataNodes.Â",
+    "source": "https://www.simplilearn.com/tutorials/hadoop-tutorial/hadoop-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What are the two types of metadata that a NameNode server holds?",
+    "answer": "The two types of metadata that a NameNode server holds are:",
+    "source": "https://www.simplilearn.com/tutorials/hadoop-tutorial/hadoop-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is the difference between a federation and high availability?",
+    "answer": "There is no limitation to the number of NameNodes and the NameNodes are not related to each other",
+    "source": "https://www.simplilearn.com/tutorials/hadoop-tutorial/hadoop-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Big Data, and where does it come from? How does it work?",
+    "answer": "Big Data refers to extensive and often complicated data sets so huge that they’re beyond the capacity of managing with conventional software tools. Big Data comprises unstructured and structured data sets such as videos, photos, audio, websites, and multimedia content.",
+    "source": "https://www.interviewbit.com/big-data-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the different Output formats in Hadoop?",
+    "answer": "The different Output formats in Hadoop are -",
+    "source": "https://www.interviewbit.com/big-data-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What are the three modes that Hadoop can run?",
+    "answer": "Local Mode or Standalone Mode:By default, Hadoop is configured to operate in a no distributed mode. It runs as a single Java process. Instead of HDFS, this mode utilizes the local file system. This mode is more helpful for debugging, and there isn't any requirement to configure core-site.xml, hdfs-site.xml, mapred-site.xml, masters & slaves. Standalone mode is ordinarily the quickest mode in Hadoop.",
+    "source": "https://www.interviewbit.com/big-data-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is fsck?",
+    "answer": "The term fsck stands for File System Check, used by HDFS. It is used to check discrepancies and if there is any difficulty in the file. For instance, if there are any missing blocks in the file, HDFS gets reported through this command.",
+    "source": "https://www.interviewbit.com/big-data-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. How to deploy a Big Data Model? Mention the key steps involved.",
+    "answer": "Deploying a model into aBig Data Platforminvolves mainly three key steps they are,",
+    "source": "https://www.interviewbit.com/big-data-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. How is HDFS different from traditional NFS?",
+    "answer": "NFS (Network File system): A protocol that enables customers to access files over the network. NFS clients would allow files to be accessed as if the files live on the local device, even though they live on the disk of a networked device.",
+    "source": "https://www.interviewbit.com/big-data-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "12. How is Hadoop and Big Data related?",
+    "answer": "If we talk about Big Data, we do talk aboutHadoopas well. So, this is one of the most critical questions from an interview perspective. That you might surely face. Hadoop is an open-source framework for saving, processing, and interpreting complex, disorganized data sets for obtaining insights and knowledge. So, that is how Hadoop and Big Data are related to each other.",
+    "source": "https://www.interviewbit.com/big-data-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "14. What are the 5 V’s in Big Data?",
+    "answer": "Volume:A considerable amount of data stored in data warehouses reflects the volume. The data may reach random heights; these large volumes of data need to be examined and processed. Which may exist up to or more than terabytes and petabytes.",
+    "source": "https://www.interviewbit.com/big-data-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Why this Top 50 Data Engineering Interview Questions?",
+    "answer": "These top 50 data engineering interview questions cover crucial areas to assess a candidate’s competency and understanding of the field. They span fundamental concepts, technical skills, and practical applications necessary for data engineering roles.",
+    "source": "https://www.geeksforgeeks.org/data-engineering/top-50-data-engineering-interview-questions-and-answers/",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Data Engineering, and How Does it Differ from Data Science?",
+    "answer": "Data engineering focuses on designing, building, and maintaining the infrastructure and systems needed to collect, store, and process data. Data scientists, on the other hand, analyze this data to gain insights, build models, and support decision-making processes. In essence, data engineers provide the tools and systems, while data scientists use these tools to interpret and analyze data.",
+    "source": "https://www.geeksforgeeks.org/data-engineering/top-50-data-engineering-interview-questions-and-answers/",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2.What is the Difference Between a Data Engineer and a Data Scientist?",
+    "answer": "Data modeling is the process of creating a visual representation of an information system or database. It involves defining data elements and their relationships to help design the structure of the database.",
+    "source": "https://www.geeksforgeeks.org/data-engineering/top-50-data-engineering-interview-questions-and-answers/",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4.What are the Different Frameworks and Applications Used by a Data Engineer?",
+    "answer": "Data modeling is the process of creating a visual representation of an information system or database. It involves defining data elements and their relationships to help design the structure of the database.",
+    "source": "https://www.geeksforgeeks.org/data-engineering/top-50-data-engineering-interview-questions-and-answers/",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5.What is Data Modelling?",
+    "answer": "Data modeling is the process of creating a visual representation of an information system or database. It involves defining data elements and their relationships to help design the structure of the database.",
+    "source": "https://www.geeksforgeeks.org/data-engineering/top-50-data-engineering-interview-questions-and-answers/",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6.What are the Design Schemas of Data Modelling?",
+    "answer": "A typical data warehouse architecture includes:",
+    "source": "https://www.geeksforgeeks.org/data-engineering/top-50-data-engineering-interview-questions-and-answers/",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8.What are the Various Methods and Tools Available for Extracting Data in ETL Processes?",
+    "answer": "A typical data warehouse architecture includes:",
+    "source": "https://www.geeksforgeeks.org/data-engineering/top-50-data-engineering-interview-questions-and-answers/",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What are the Essential Skills Required to be a Data Engineer?",
+    "answer": "A typical data warehouse architecture includes:",
+    "source": "https://www.geeksforgeeks.org/data-engineering/top-50-data-engineering-interview-questions-and-answers/",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is big data? Why is it important?",
+    "answer": "Big data is a large set of data that cannot be managed by normal software. It comprises audio, text, video, websites, and multimedia content. Big data is important because it helps make informed decisions, improves the efficiency of operations, and predicts risks and failures even before they arise.Â",
+    "source": "https://www.simplilearn.com/big-data-interview-questions-article",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. Can you explain the 5 Vs of big data?",
+    "answer": "The five Vs of Big Data are:Â",
+    "source": "https://www.simplilearn.com/big-data-interview-questions-article",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are the differences between big data and traditional data processing systems?",
+    "answer": "Traditional data processing systems are designed for structured data and operate within defined limits. In contrast, big data systems handle large amounts of both structured and unstructured data, leveraging distributed computing and storage for scalability.",
+    "source": "https://www.simplilearn.com/big-data-interview-questions-article",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. How does big data drive decision-making in modern businesses?",
+    "answer": "Big data helps in decision-making by providing actionable insights from large datasets. It enables data-driven strategies and predictive analytics and enhances the understanding of customer behavior, market trends, and operational efficiency.",
+    "source": "https://www.simplilearn.com/big-data-interview-questions-article",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What are some common challenges faced in big data analysis?",
+    "answer": "Challenges include managing data volume, velocity, and variety, ensuring data quality, addressing security concerns, handling real-time processing, and dealing with the complexities of distributed computing environments.",
+    "source": "https://www.simplilearn.com/big-data-interview-questions-article",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. How do big data and data analytics differ?",
+    "answer": "Big data processes large datasets, while data analytics focuses on extracting insights from data. Big data includes storage and processing, while data analytics focuses on statistical analysis.",
+    "source": "https://www.simplilearn.com/big-data-interview-questions-article",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. Can you name various big data technologies and platforms?",
+    "answer": "Some big data technologies include:",
+    "source": "https://www.simplilearn.com/big-data-interview-questions-article",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. How is data privacy managed in big data?",
+    "answer": "Data privacy is managed through encryption, access controls, anonymization techniques, and compliance with regulations such as GDPR. Privacy-preserving methods like differential privacy are also employed.",
+    "source": "https://www.simplilearn.com/big-data-interview-questions-article",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Data Engineering?",
+    "answer": "Take Your Data Scientist Skills to the Next LevelWith the Data Scientist Masterâs Program from IBMExplore Program",
+    "source": "https://www.simplilearn.com/data-engineer-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. Why did you choose a career in Data Engineering?",
+    "answer": "An interviewer might ask this question to learn more about your motivation and interest behind choosing data engineering as a career. They want to employ individuals who are passionate about the field. You can start by sharing your story and insights you have gained to highlight what excites you most about being a data engineer.Â",
+    "source": "https://www.simplilearn.com/data-engineer-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. How does a data warehouse differ from an operational database?",
+    "answer": "This data engineer interview question may be more geared toward those on the intermediate level, but in some positions, it may also be considered an entry-level question. Youâll want to answer by stating that databases usingDelete SQL statements, Insert, and Update is standard operational databases that focus on speed and efficiency. As a result, analyzing data can be a little more complicated. With a data warehouse, on the other hand, aggregations, calculations, and select statements are the primary focus. These makedata warehousesan ideal choice fordata analysis.",
+    "source": "https://www.simplilearn.com/data-engineer-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What Do *args and **kwargs Mean?",
+    "answer": "If youâre interviewing for a more advanced role, you should be prepared to answer complex coding questions. This specific coding question is commonly asked in data engineering interviews, and youâll want to answer by telling your interviewer that *args defines an ordered function and that **kwargs represent unordered arguments used in a function. To impress your interviewer, you may want to write down this code in a visual example to demonstrate your expertise.",
+    "source": "https://www.simplilearn.com/data-engineer-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. As a data engineer, how have you handled a job-related crisis?",
+    "answer": "Data engineers have a lot of responsibilities, and itâs a genuine possibility that youâll face challenges while on the job, or even emergencies. Just be honest and let them know what you did to solve the problem. If you have yet to encounter an urgent issue while on the job or this is your first data engineering role, tell your interviewer what you would do in a hypothetical situation. For example, you can say that if data were to get lost or corrupted, you would work with IT to make sure data backups were ready to be loaded, and that other team members have access to what they need.",
+    "source": "https://www.simplilearn.com/data-engineer-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. Do you have any experience with data modeling?",
+    "answer": "Unless you are interviewing for an entry-level role, you will likely be asked this question at some point during your interview. Start with a simple yes or no. Even if you donât have experience withdata modeling,youâll want to be at least able to define it: the act of transforming and processing fetched data and then sending it to the right individual(s). If you are experienced, you can go into detail about what youâve done specifically. Perhaps you used tools like Talend, Pentaho, or Informatica. If so, say it. If not, simply being aware of the relevant industry tools and what they do would be helpful.",
+    "source": "https://www.simplilearn.com/data-engineer-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. Why are you interested in this job, and why should we hire you?Â",
+    "answer": "It is a fundamental data engineer interview question, but your answer can set you apart from the rest. To demonstrate your interest in the job, identify a few exciting features of the job, which makes it an excellent fit for you and then mention why you love the company.Â",
+    "source": "https://www.simplilearn.com/data-engineer-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What are the essential skills required to be a data engineer?",
+    "answer": "Every company can have its own definition of a data engineer, and they match your skills and qualifications with the company's assessment.Â",
+    "source": "https://www.simplilearn.com/data-engineer-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Hadoop",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Apache Spark?",
+    "answer": "Apache Spark is a unified analytics engine for large-scale data processing. It offers high-level APIs in Java, Scala, Python, and R and an optimized engine that supports general computation graphs for data analysis. Spark is designed for batch and streaming data, making it a versatile framework for big data processing.",
+    "source": "https://www.simplilearn.com/top-apache-spark-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Apache Spark",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. How is Apache Spark different from MapReduce?",
+    "answer": "Spark processes data in batches as well as in real-time",
+    "source": "https://www.simplilearn.com/top-apache-spark-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Apache Spark",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What are the Key Features of the Spark Ecosystem?",
+    "answer": "The Spark Ecosystem is known for its comprehensive features designed to efficiently handle big data processing and analytics. Key features include:",
+    "source": "https://www.simplilearn.com/top-apache-spark-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Apache Spark",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What are the important components of the Spark ecosystem?",
+    "answer": "Apache Spark has 3 main categories that comprise itsecosystem. Those are:",
+    "source": "https://www.simplilearn.com/top-apache-spark-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Apache Spark",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. Explain what RDD is?",
+    "answer": "RDD stands for Resilient Distributed Dataset. Spark's fundamental data structure represents an immutable, distributed collection of objects that can be processed in parallel. RDDs can contain any type of Python, Java, or Scala objects. They are fault-tolerant, as they track the lineage of transformations applied to them, allowing lost data to be recomputed. RDDs support two types of operations: transformations (which create a new RDD) and actions (which return a value to the driver program).",
+    "source": "https://www.simplilearn.com/top-apache-spark-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Apache Spark",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What does DAG refer to in Apache Spark?",
+    "answer": "DAG stands for Directed Acyclic Graph. In the context of Apache Spark, a DAG represents a sequence of computations performed on data. When Spark runs an application, it creates a DAG of tasks to be executed, with each node representing an RDD and each edge representing a transformation applied from one RDD to another. This model allows Spark to optimize the execution plan by rearranging computations and minimizing data shuffling. The DAGScheduler divides the graph into stages that can be executed in parallel, significantly optimizing the processing time.",
+    "source": "https://www.simplilearn.com/top-apache-spark-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Apache Spark",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What are receivers in Apache Spark Streaming?",
+    "answer": "Receivers in Apache Spark Streaming are components that ingest data from various sources like Kafka, Flume, Kinesis, or TCP sockets. These receivers collect data and store it in Spark's memory for processing. Spark Streaming supports two types of receivers:",
+    "source": "https://www.simplilearn.com/top-apache-spark-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Apache Spark",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What is the difference between repartition and coalesce?",
+    "answer": "Repartition: This method increases or decreases the number of partitions in an RDD, DataFrame, or Dataset. It involves a full shuffle of the data, which is costly in terms of performance because it redistributes data across the cluster.",
+    "source": "https://www.simplilearn.com/top-apache-spark-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Apache Spark",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is YARN in Spark?",
+    "answer": "YARN is one of the key features provided by Spark that provides a central resource management platform for delivering scalable operations throughout the cluster.",
+    "source": "https://www.interviewbit.com/spark-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Apache Spark",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What are the features of Apache Spark?",
+    "answer": "High Processing Speed: Apache Spark helps in the achievement of a very high processing speed of data by reducing read-write operations to disk. The speed is almost 100x faster while performing in-memory computation and 10x faster while performing disk computation.",
+    "source": "https://www.interviewbit.com/spark-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Apache Spark",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What is RDD?",
+    "answer": "RDD stands for Resilient Distribution Datasets. It is a fault-tolerant collection of parallel running operational elements. The partitioned data of RDD is distributed and immutable. There are two types of datasets:",
+    "source": "https://www.interviewbit.com/spark-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Apache Spark",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What does DAG refer to in Apache Spark?",
+    "answer": "DAG stands for Directed Acyclic Graph with no directed cycles. There would be finite vertices and edges. Each edge from one vertex is directed to another vertex in asequential manner. The vertices refer to the RDDs of Spark and the edges represent the operations to be performed on those RDDs.",
+    "source": "https://www.interviewbit.com/spark-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Apache Spark",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What are receivers in Apache Spark Streaming?",
+    "answer": "Receivers are those entities that consume data from different data sources and then move them to Spark for processing. They are created by using streaming contexts in the form of long-running tasks that are scheduled for operating in a round-robin fashion. Each receiver is configured to use up only a single core. The receivers are made to run on various executors to accomplish the task of data streaming. There are two types of receivers depending on how the data is sent to Spark:",
+    "source": "https://www.interviewbit.com/spark-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Apache Spark",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What are the data formats supported by Spark?",
+    "answer": "Spark supports both the raw files and the structured file formats for efficient reading and processing. File formats like paraquet, JSON, XML, CSV, RC, Avro, TSV, etc are supported by Spark.",
+    "source": "https://www.interviewbit.com/spark-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Apache Spark",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What do you understand by Shuffling in Spark?",
+    "answer": "The process of redistribution of data across different partitions which might or might not cause data movement across the JVM processes or the executors on the separate machines is known as shuffling/repartitioning. Partition is nothing but a smaller logical division of data.",
+    "source": "https://www.interviewbit.com/spark-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Apache Spark",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "10. What is Apache Spark?",
+    "answer": "Apache Spark is an open-source framework engine that is known for its speed, easy-to-use nature in the field of big data processing and analysis. It also has built-in modules for graph processing, machine learning, streaming, SQL, etc. The spark execution engine supports in-memory computation and cyclic data flow and it can run either on cluster mode or standalone mode and can access diverse data sources like HBase, HDFS, Cassandra, etc.",
+    "source": "https://www.interviewbit.com/spark-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Apache Spark",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What are the industrial benefits of PySpark?",
+    "answer": "These days, almost every industry makes use of big data to evaluate where they stand and grow. When you hear the term big data, Apache Spark comes to mind. Following are the industry benefits of using PySpark that supports Spark:",
+    "source": "https://www.interviewbit.com/pyspark-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Apache Spark",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What is PySpark?",
+    "answer": "PySpark can be installed using PyPi by using the command:",
+    "source": "https://www.interviewbit.com/pyspark-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Apache Spark",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What is PySpark UDF?",
+    "answer": "UDF stands for User Defined Functions. In PySpark, UDF can be created by creating a python function and wrapping it with PySpark SQL’s udf() method and using it on the DataFrame or SQL. These are generally created when we do not have the functionalities supported in PySpark’s library and we have to use our own logic on the data. UDFs can be reused on any number of SQL expressions or DataFrames.",
+    "source": "https://www.interviewbit.com/pyspark-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Apache Spark",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What are the types of PySpark’s shared variables and why are they useful?",
+    "answer": "Whenever PySpark performs the transformation operation using filter(), map() or reduce(), they are run on a remote node that uses the variables shipped with tasks. These variables are not reusable and cannot be shared across different tasks because they are not returned to the Driver. To solve the issue of reusability and sharing, we have shared variables in PySpark. There are two types of shared variables, they are:",
+    "source": "https://www.interviewbit.com/pyspark-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Apache Spark",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is SparkSession in Pyspark?",
+    "answer": "SparkSession is the entry point to PySpark and is the replacement of SparkContext since PySpark version 2.0. This acts as a starting point to access all of the PySpark functionalities related to RDDs, DataFrame, Datasets etc. It is also a Unified API that is used in replacing the SQLContext, StreamingContext, HiveContext and all other contexts.",
+    "source": "https://www.interviewbit.com/pyspark-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Apache Spark",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What do you understand about PySpark DataFrames?",
+    "answer": "PySpark DataFrame is a distributed collection of well-organized data that is equivalent to tables of the relational databases and are placed into named columns. PySpark DataFrame has better optimisation when compared to R or python. These can be created from different sources like Hive Tables, Structured Data Files, existing RDDs, external databases etc as shown in the image below:",
+    "source": "https://www.interviewbit.com/pyspark-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Apache Spark",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. Is PySpark faster than pandas?",
+    "answer": "PySpark supports parallel execution of statements in a distributed environment, i.e on different cores and different machines which are not present in Pandas. This is why PySpark is faster than pandas.",
+    "source": "https://www.interviewbit.com/pyspark-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Apache Spark",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What are the advantages of PySpark RDD?",
+    "answer": "PySpark RDDs have the following advantages:",
+    "source": "https://www.interviewbit.com/pyspark-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Apache Spark",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is a .hiverc file?",
+    "answer": "A \".hiverc\" file is a Hive configuration file that specifies default Hive shell settings and options. Hive reads the \".hiverc\" file at startup and applies any settings or options specified in the file to the Hive shell.",
+    "source": "https://www.interviewbit.com/hive-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Hive",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What does /*streamtable(table_name)*/ do?",
+    "answer": "/*streamtable(table_name)*/is a special comment syntax in Hive that allows users to indicate that a particular table should be treated as a stream table. A stream table is a table that is continuously updated with new data, such as a stream of events or messages. By designating a table as a stream table using this comment syntax, Hive can automatically detect and process new data as it becomes available, rather than requiring users to manually update the table.",
+    "source": "https://www.interviewbit.com/hive-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Hive",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is UDF in Hive?",
+    "answer": "“UDF” stands for a User-Defined Function, and refers to a custom function written by the user to perform a specific task on the data in Hive. Hive has a number of built-in functions for manipulating and processing data. In some cases, these functions may not be sufficient to meet the needs of a specific use case. In such cases, users can create their own custom Hive functions in Java or any other programming language supported by Hive.",
+    "source": "https://www.interviewbit.com/hive-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Hive",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is HCatalog?",
+    "answer": "HCatalog is an Apache Hive project component that serves as a storage and table management layer for the Hadoop clusters.",
+    "source": "https://www.interviewbit.com/hive-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Hive",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. Can you specify the name of the table creator in Hive?",
+    "answer": "Yes, it is possible to specify the name of the table creator in Hive by using the optional \"COMMENT\" clause when creating the table.",
+    "source": "https://www.interviewbit.com/hive-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Hive",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. How is bucketing helpful?",
+    "answer": "Bucketing is a helpful technique in Hive for improving query performance and managing large datasets. Some of the ways in which bucketing can be helpful are:",
+    "source": "https://www.interviewbit.com/hive-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Hive",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is Bucketing in Hive?",
+    "answer": "Bucketing is a Hive technique for dividing data in a table into more manageable and efficient sets of files. Data is divided into a fixed number of buckets using bucketing based on the value of a hash function applied to a specific column in the table. Each bucket is then stored as a separate file, allowing Hive to read and write data more efficiently based on the partitioning key.",
+    "source": "https://www.interviewbit.com/hive-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Hive",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. How can you view the indexes of a Hive table?",
+    "answer": "To view the indexes of a Hive table, you can use the following command:",
+    "source": "https://www.interviewbit.com/hive-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Hive",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Hive?",
+    "answer": "As a Hadoop professional, you should be able to explain Hive to your interviewer with ease. Answer by explaining that it is a data warehouse tool and open-source software that can query and analyze data stored in theHadoop Distributed File System (HDFS).",
+    "source": "https://www.simplilearn.com/hive-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Hive",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What is a Hive Variable and What Is It Used For?",
+    "answer": "Referenced by Hive scripting languages, a Hive variable is created in the Hive environment and uses the source command. Once Hive queries begin executing, a Hive variable provides values to queries.Â",
+    "source": "https://www.simplilearn.com/hive-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Hive",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What Are the Different Modes in the Hive?",
+    "answer": "This may seem like an easy question, but again, sometimes interviewers like to ask these basic questions to see how confident you are when it comes to yourHiveknowledge. Answer by saying that Hive can sometimes operate in two modes, which are MapReduce mode and local mode. Explain that this depends on the size of the DataNodes in Hadoop.Â",
+    "source": "https://www.simplilearn.com/hive-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Hive",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is Hive Bucketing?",
+    "answer": "When performing queries on large datasets in Hive, bucketing can offer better structure to Hive tables. Youâll also want to take your answer a step further by explaining some of the specific bucketing features, as well as some of the advantages of bucketing in Hive. For example, bucketing can give programmers more flexibility when it comes to record-keeping and can make it easier to debug large datasets when needed.",
+    "source": "https://www.simplilearn.com/hive-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Hive",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is Hive Composed Of?",
+    "answer": "Tell your interviewer that Hive is made up of three main components: Hive Services, Hive Clients, and Hive Storage and Computing. You should also briefly explain to your interviewer what each component is capable of and the differences between each part.",
+    "source": "https://www.simplilearn.com/hive-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Hive",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What Are the Main Components of Hive Architecture?",
+    "answer": "Youâll first want to answer this question by naming each of the main components: Driver, User Interface, Execute Engine, Compiler, and Megastore. Youâll really demonstrate your Hive knowledge to your interviewer if youâre able to explain the capabilities of each component as well.Â",
+    "source": "https://www.simplilearn.com/hive-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Hive",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What Options Are Available When It Comes to Attaching Applications to the Hive Server?",
+    "answer": "Explain the three different ways (Thrift Client, JDBC Driver, and ODBC Driver) you can connect applications to the Hive Server. Youâll also want to explain the purpose for each option: for example, using JDBC will support the JDBC protocol.",
+    "source": "https://www.simplilearn.com/hive-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Hive",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What Variations of Tables Are Available in Hive?",
+    "answer": "This is a fairly straightforward question for someone experienced in Hive, so itâs important to know the answer without hesitation: The two types of tables are managed tables and external tables.",
+    "source": "https://www.simplilearn.com/hive-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Hive",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. Mention the differences between Data Mining and Data Profiling?",
+    "answer": "Data Wranglingis the process wherein raw data is cleaned, structured, and enriched into a desired usable format for better decision making. It involves discovering, structuring, cleaning, enriching, validating, and analyzing data. This process can turn and map out large amounts of data extracted from various sources into a more useful format. Techniques such as merging, grouping, concatenating, joining, and sorting are used to analyze the data. Thereafter it gets ready to be used with another dataset.",
+    "source": "https://www.simplilearn.com/tutorials/data-analytics-tutorial/data-analyst-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Big data concepts",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are the various steps involved in any analytics project?",
+    "answer": "This is one of the most basic data analyst interview questions. The various steps involved in any common analytics projects are as follows:",
+    "source": "https://www.simplilearn.com/tutorials/data-analytics-tutorial/data-analyst-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Big data concepts",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What are the common problems that data analysts encounter during analysis?",
+    "answer": "The common problems steps involved in any analytics project are:",
+    "source": "https://www.simplilearn.com/tutorials/data-analytics-tutorial/data-analyst-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Big data concepts",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. Which are the technical tools that you have used for analysis and presentation purposes?",
+    "answer": "As a data analyst, you are expected to know the tools mentioned below for analysis and presentation purposes. Some of thepopular toolsyou should know are:",
+    "source": "https://www.simplilearn.com/tutorials/data-analytics-tutorial/data-analyst-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Big data concepts",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What are the best methods for data cleaning?",
+    "answer": "Create a data cleaning plan by understanding where the common errors take place and keep all the communications open.",
+    "source": "https://www.simplilearn.com/tutorials/data-analytics-tutorial/data-analyst-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Big data concepts",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is the significance of Exploratory Data Analysis (EDA)?",
+    "answer": "Exploratory data analysis (EDA) helps to understand the data better.",
+    "source": "https://www.simplilearn.com/tutorials/data-analytics-tutorial/data-analyst-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Big data concepts",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What are the different types of sampling techniques used by data analysts?",
+    "answer": "Sampling is a statistical method to select a subset of data from an entire dataset (population) to estimate the characteristics of the whole population.Â",
+    "source": "https://www.simplilearn.com/tutorials/data-analytics-tutorial/data-analyst-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Big data concepts",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "11. What are your strengths and weaknesses as a data analyst?",
+    "answer": "The answer to this question may vary from a case to case basis. However, some general strengths of a data analyst may include strong analytical skills, attention to detail, proficiency in data manipulation and visualization, and the ability to derive insights from complex datasets. Weaknesses could include limited domain knowledge, lack of experience with certain data analysis tools or techniques, or challenges in effectively communicating technical findings to non-technical stakeholders.",
+    "source": "https://www.simplilearn.com/tutorials/data-analytics-tutorial/data-analyst-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Big data concepts",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is an aggregate table in a Data warehouse?",
+    "answer": "An aggregate table is a table that contains existing warehouse data grouped to a certain level of dimensions. It is much easier to retrieve data from an aggregated table than the original table, which has more records.",
+    "source": "https://www.simplilearn.com/tutorials/data-analytics-tutorial/data-warehouse-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Big data concepts",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What do you understand by metadata in Data warehouse?",
+    "answer": "Data about the data is called metadata. The metadata includes fixed width and limited width, number of columns used, data types, and fields' ordering.",
+    "source": "https://www.simplilearn.com/tutorials/data-analytics-tutorial/data-warehouse-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Big data concepts",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What do you understand by Star Schema?",
+    "answer": "Star Schema is the management of the table so that results can be recovered readily in the data warehouse environment.",
+    "source": "https://www.simplilearn.com/tutorials/data-analytics-tutorial/data-warehouse-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Big data concepts",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is the difference between agglomerative clustering and divisive hierarchical clustering?",
+    "answer": "In the agglomerative hierarchical clustering methods, clusters are read from bottom to top. In this method, each object builds its cluster, and these clusters make a large cluster. There is continuous merging until a single large cluster is created. At the same time, divisive hierarchical clustering uses a top to bottom approach. In this method, the division of clusters occurs. The division of parent clusters continues until each cluster has a single object.",
+    "source": "https://www.simplilearn.com/tutorials/data-analytics-tutorial/data-warehouse-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Big data concepts",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What are the testing phases in a project?",
+    "answer": "There are five stages of an ETL test- identification of requirements and data sources, acquisition ofdata, implementation of business logic, building and publishing of data, and reporting.",
+    "source": "https://www.simplilearn.com/tutorials/data-analytics-tutorial/data-warehouse-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Big data concepts",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What do you understand by data mart?",
+    "answer": "Data mart includes the subset of organization-wide data. This subset of data is insightful to specific groups in an organization. In simple words, we can say that the data mart contains group-specific data.",
+    "source": "https://www.simplilearn.com/tutorials/data-analytics-tutorial/data-warehouse-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Big data concepts",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. What are the functions of a warehouse manager?",
+    "answer": "A warehouse manager is responsible for performing referential integrity and consistency checks to create business views, indexes, and partition views against the base data. The warehouse manager merges and transforms the source data into the temporary store, backs up the data into the data warehouse, and archives the data at the ends of the captured life.",
+    "source": "https://www.simplilearn.com/tutorials/data-analytics-tutorial/data-warehouse-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Big data concepts",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "12. What do you understand by Hybrid SCD?",
+    "answer": "A combination of both SCD1 and SCD2 is called Hybrid SCD. For tables in which some columns (some type 1 and some type 2) are essential, and we need to track its changes, i.e., capture their historical data, we implement Hybrid SCDs.",
+    "source": "https://www.simplilearn.com/tutorials/data-analytics-tutorial/data-warehouse-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Big data concepts",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. Is Java Platform Independent if then how?",
+    "answer": "Yes, Java is a Platform Independent language. Unlike many programming languages javac compiles the program to form a bytecode or .class file. This file is independent of the software or hardware running but needs a JVM(Java Virtual Machine) file preinstalled in the operating system for further execution of the bytecode.",
+    "source": "https://www.geeksforgeeks.org/java/java-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Java",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What are the top Java Features?",
+    "answer": "Java is one the most famous and most used language in the real world, there are many features in Java that makes it better than any other language some of them are mentioned below:",
+    "source": "https://www.geeksforgeeks.org/java/java-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Java",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What is JVM?",
+    "answer": "We can declare the main method without using static and without getting any errors. But, the main method will not be treated as the entry point to the application or the program.",
+    "source": "https://www.geeksforgeeks.org/java/java-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Java",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What is JIT?",
+    "answer": "We can declare the main method without using static and without getting any errors. But, the main method will not be treated as the entry point to the application or the program.",
+    "source": "https://www.geeksforgeeks.org/java/java-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Java",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What are Memory storages available with JVM?",
+    "answer": "We can declare the main method without using static and without getting any errors. But, the main method will not be treated as the entry point to the application or the program.",
+    "source": "https://www.geeksforgeeks.org/java/java-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Java",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What is a classloader?",
+    "answer": "Classloader is the part of JRE(Java Runtime Environment), during the execution of the bytecode or created .class file classloader is responsible for dynamically loading the java classes and interfaces to JVM(Java Virtual Machine). Because of classloaders Java run time system does not need to know about files and file systems.",
+    "source": "https://www.geeksforgeeks.org/java/java-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Java",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What are the differences between Java and C++?",
+    "answer": "We can declare the main method without using static and without getting any errors. But, the main method will not be treated as the entry point to the application or the program.",
+    "source": "https://www.geeksforgeeks.org/java/java-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Java",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "10. What is Java String Pool?",
+    "answer": "A Java String Pool is a place in heap memory where all the strings defined in the program are stored. A separate place in a stack is there where the variable storing the string is stored. Whenever we create a new string object, JVM checks for the presence of the object in the String pool, If String is available in the pool, the same object reference is shared with the variable, else a new object is created.",
+    "source": "https://www.geeksforgeeks.org/java/java-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Java",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Java?",
+    "answer": "Javais a high-level programming language that was developed by James Gosling in the year 1982. It is based on the principles of object-oriented programming and can be used to develop large-scale applications.",
+    "source": "https://www.interviewbit.com/java-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Java",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. Why is Java a platform independent language?",
+    "answer": "Java language was developed so that it does not depend on any hardware or software because thecompilercompiles the code and then converts it to platform-independent byte code which can be run on multiple systems.",
+    "source": "https://www.interviewbit.com/java-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Java",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. Why is Java not a pure object oriented language?",
+    "answer": "Java supports primitive data types - byte, boolean, char, short, int, float, long, and double and hence it is not a pureobject oriented language.",
+    "source": "https://www.interviewbit.com/java-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Java",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. Can java be said to be the complete object-oriented programming language?",
+    "answer": "It is not wrong if we claim that Java is the complete object-oriented programming language because everything in Java is under the classes and we can access them by creating the objects.",
+    "source": "https://www.interviewbit.com/java-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Java",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. How is Java different from C++?",
+    "answer": "C++ is only a  compiled language, whereas Java is compiled as well as an interpreted language.",
+    "source": "https://www.interviewbit.com/java-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Java",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. Pointers are used in C/ C++. Why does Java not make use of pointers?",
+    "answer": "Pointers are quite complicated and unsafe to use by beginner programmers. Java focuses on code simplicity, and the usage of pointers can make it challenging. Pointer utilization can also cause potential errors. Moreover, security is also compromised if pointers are used because the users can directly access memory with the help of pointers.",
+    "source": "https://www.interviewbit.com/java-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Java",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What do you understand by an instance variable and a local variable?",
+    "answer": "Instance variablesare those variables that are accessible by all the methods in the class. They are declared outside the methods and inside the class. These variables describe the properties of an object and remain bound to it at any cost.",
+    "source": "https://www.interviewbit.com/java-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Java",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What are the default values assigned to variables and instances in java?",
+    "answer": "There are no default values assigned to the variables in java. We need to initialize the value before using it. Otherwise, it will throw a compilation error of (Variable might not be initialized).",
+    "source": "https://www.interviewbit.com/java-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Java",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Java 8?",
+    "answer": "Oracle Corporation announced Java 8 in March 2014, as a major update to theJava programming languageand platform. It introduced several key innovations and enhancements, such aslambda expressions, theStream API, Functional Interfaces, thejava.time packagefor date and time manipulation, and theOptional classfor handling potentially null values. Java 8 was designed to improve developerproductivity,code readability, andperformance,making it a watershed moment in the Java language's evolution.",
+    "source": "https://www.geeksforgeeks.org/java/java-8-interview-questions-and-answers/",
+    "role": "Big Data Engineer",
+    "skill": "Java",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What features do you know or use in Java 8?",
+    "answer": "Here you can list down all the key features of Java 8 like,",
+    "source": "https://www.geeksforgeeks.org/java/java-8-interview-questions-and-answers/",
+    "role": "Big Data Engineer",
+    "skill": "Java",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What is Lambda Expression?",
+    "answer": "Lambda Expression basically shows an instance of functional interface in other words you could say that it provides a clear and concise way to represent a method of performing functional interface using an expression Lambda Expressions have been added in Java 8 and provide the functionality below.",
+    "source": "https://www.geeksforgeeks.org/java/java-8-interview-questions-and-answers/",
+    "role": "Big Data Engineer",
+    "skill": "Java",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What is Stream API in Java 8?",
+    "answer": "Stream API is introduced in Java 8 and it is used to process collections of objects with the functional style of coding using the lambda expression. So to understand what is stream API you must have knowledge of both lambda and functional interface.",
+    "source": "https://www.geeksforgeeks.org/java/java-8-interview-questions-and-answers/",
+    "role": "Big Data Engineer",
+    "skill": "Java",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What is Functional Interface in Java 8?",
+    "answer": "An interface with only one abstract method is known as a functional interface but there is no restriction, in a functional interface you can have n number of default methods and static methods.",
+    "source": "https://www.geeksforgeeks.org/java/java-8-interview-questions-and-answers/",
+    "role": "Big Data Engineer",
+    "skill": "Java",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is Stream in Java 8?",
+    "answer": "A stream is a sequence of objects that helps different methods that can be pipelined to produce the desired outcome. The features of Java Stream are:",
+    "source": "https://www.geeksforgeeks.org/java/java-8-interview-questions-and-answers/",
+    "role": "Big Data Engineer",
+    "skill": "Java",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. When to use map and flatMap?",
+    "answer": "For more details, refer to this article:Difference Between map() And flatMap() In Java Stream",
+    "source": "https://www.geeksforgeeks.org/java/java-8-interview-questions-and-answers/",
+    "role": "Big Data Engineer",
+    "skill": "Java",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. Can we extend a functional interface from another functional interface?",
+    "answer": "Yes, we can extend but if you extend that your functional interface will not act as a functional interface because it will find multiple abstract methods inside that. You may observe the thing by demonstrating a sample code in your local Java IDE.",
+    "source": "https://www.geeksforgeeks.org/java/java-8-interview-questions-and-answers/",
+    "role": "Big Data Engineer",
+    "skill": "Java",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1.  What is __init__?",
+    "answer": "__init__is a contructor method in Python and is automatically called to allocate memory when a new object/instance is created. All classes have a__init__method associated with them. It helps in distinguishing methods and attributes of a class from local variables.",
+    "source": "https://www.interviewbit.com/python-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What is the difference between Python Arrays and lists?",
+    "answer": "Arrays in python can only contain elements of same data types i.e., data type of array should be homogeneous. It is a thin wrapper around C language arrays and consumes far less memory than lists.",
+    "source": "https://www.interviewbit.com/python-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. Explain how can you make a Python Script executable on Unix?",
+    "answer": "Script file must begin with#!/usr/bin/env python",
+    "source": "https://www.interviewbit.com/python-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is slicing in Python?",
+    "answer": "As the name suggests, ‘slicing’ is taking parts of.",
+    "source": "https://www.interviewbit.com/python-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is docstring in Python?",
+    "answer": "Documentation string or docstring is a multiline string used to document a specific code segment.",
+    "source": "https://www.interviewbit.com/python-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What are unit tests in Python?",
+    "answer": "Unit test is a unit testing framework of Python.",
+    "source": "https://www.interviewbit.com/python-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is the use of self in Python?",
+    "answer": "Selfis used to represent the instance of the class. With this keyword, you can access the attributes and methods of the class in python. It binds the attributes with the given arguments. self is used in different places and often thought to be a keyword. But unlike in C++, self is not a keyword in Python.",
+    "source": "https://www.interviewbit.com/python-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What are global, protected and private attributes in Python?",
+    "answer": "Globalvariables are public variables that are defined in the global scope. To use the variable in the global scope inside a function, we use theglobalkeyword.",
+    "source": "https://www.interviewbit.com/python-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. Is Python a compiled language or an interpreted language?",
+    "answer": "Please remember one thing, whether a language is compiled or interpreted or both is not defined in the language standard. In other words, it is not a properly of a programming language. Different Python distributions (or implementations) choose to do different things (compile or interpret or both).  However the most common implementations like CPython do both compile and interpret, but in different stages of its execution process.",
+    "source": "https://www.geeksforgeeks.org/python/python-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How can you concatenate two lists in Python?",
+    "answer": "We can concatenate two lists in Python using the +operator or theextend()method.",
+    "source": "https://www.geeksforgeeks.org/python/python-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. How do you floor a number in Python?",
+    "answer": "To floor a number in Python, you can use the math.floor() function, which returns the largest integer less than or equal to the given number.",
+    "source": "https://www.geeksforgeeks.org/python/python-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is the difference between / and // in Python?",
+    "answer": "/ represents precise division (result is a floating point number) whereas // represents floor division (result is an integer). For Example:",
+    "source": "https://www.geeksforgeeks.org/python/python-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. Is Indentation Required in Python?",
+    "answer": "Yes,indentationis required in Python. A Python interpreter can be informed that a group of statements belongs to a specific block of code by using Python indentation. Indentations make the code easy to read for developers in all programming languages but in Python, it is very important to indent the code in a specific order.",
+    "source": "https://www.geeksforgeeks.org/python/python-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. Can we Pass a function as an argument in Python?",
+    "answer": "Yes, Several arguments can be passed to a function, including objects, variables (of the same or distinct data types) and functions.Functions can be passedas parameters to other functions because they are objects. Higher-order functions are functions that can take other functions as arguments.",
+    "source": "https://www.geeksforgeeks.org/python/python-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is a dynamically typed language?",
+    "answer": "Here, the type of x changes at runtime based on the assigned value hence it shows dynamic nature of Python.",
+    "source": "https://www.geeksforgeeks.org/python/python-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is pass in Python?",
+    "answer": "Here, fun() does nothing, but the code stays syntactically correct.",
+    "source": "https://www.geeksforgeeks.org/python/python-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is the difference betweenisand==in Python?",
+    "answer": "Here are the most commonly used Python libraries in data science:",
+    "source": "https://www.geeksforgeeks.org/data-science/50-python-interview-questions-for-data-science/",
+    "role": "Big Data Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are some of the most common Python libraries that are used in data science?",
+    "answer": "Here are the most commonly used Python libraries in data science:",
+    "source": "https://www.geeksforgeeks.org/data-science/50-python-interview-questions-for-data-science/",
+    "role": "Big Data Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is NumPy, and why is it important for data science?",
+    "answer": "NumPy is a Python library for numerical computing, offering efficient handling of large arrays and matrices. It's crucial for data science due to its:",
+    "source": "https://www.geeksforgeeks.org/data-science/50-python-interview-questions-for-data-science/",
+    "role": "Big Data Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. How do we create a NumPy array?",
+    "answer": "We can create a NumPy array usingnumpy.array(), passing a list or tuple as input.",
+    "source": "https://www.geeksforgeeks.org/data-science/50-python-interview-questions-for-data-science/",
+    "role": "Big Data Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What are list comprehensions, and how are they useful in data science?",
+    "answer": "List comprehensionsprovide a concise way to create lists.  They allow us to generate a new list by applying an expression to each item in an existing iterable, optionally filtering elements based on a condition.",
+    "source": "https://www.geeksforgeeks.org/data-science/50-python-interview-questions-for-data-science/",
+    "role": "Big Data Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. How can we remove duplicates from a list in Python, and why is this important in data science?",
+    "answer": "We can remove duplicates by converting the list to a set. This is important in data science for ensuring that datasets are clean and free from redundant entries before analysis.",
+    "source": "https://www.geeksforgeeks.org/data-science/50-python-interview-questions-for-data-science/",
+    "role": "Big Data Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is Pandas, and why do we use it in data science?",
+    "answer": "In data science,Pandasis essential for working with large datasets, performing data wrangling and conducting exploratory data analysis (EDA). Its intuitive syntax and wide range of functions make it an invaluable tool for handling time-series data, missing values and more.",
+    "source": "https://www.geeksforgeeks.org/data-science/50-python-interview-questions-for-data-science/",
+    "role": "Big Data Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. How do we read a CSV file in Pandas?",
+    "answer": "To read a CSV file in Pandas, we use theread_csvfunction:",
+    "source": "https://www.geeksforgeeks.org/data-science/50-python-interview-questions-for-data-science/",
+    "role": "Big Data Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What are the differences between supervised and unsupervised learning?",
+    "answer": "Uses known and labeled data as input",
+    "source": "https://www.simplilearn.com/tutorials/data-science-tutorial/data-science-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How is logistic regression done?",
+    "answer": "Logistic regression measures the relationship between the dependent variable (our label of what we want to predict) and one or more independent variables (our features) by estimating probability using its underlying logistic function (sigmoid).",
+    "source": "https://www.simplilearn.com/tutorials/data-science-tutorial/data-science-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. How do you build a random forest model?",
+    "answer": "Arandom forestis built up of several decision trees. If you split the data into different packages and make a decision tree in each of the different data groups, the random forest brings all those trees together.",
+    "source": "https://www.simplilearn.com/tutorials/data-science-tutorial/data-science-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. How can you avoid overfitting your model?",
+    "answer": "Overfitting refers to a model that is only set for a very small amount of data and ignores the bigger picture. There are three main methods to avoidoverfitting:",
+    "source": "https://www.simplilearn.com/tutorials/data-science-tutorial/data-science-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What feature selection methods are used to select the right variables?",
+    "answer": "There are two main methods for feature selection, i.e., filter and wrapper methods.",
+    "source": "https://www.simplilearn.com/tutorials/data-science-tutorial/data-science-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. You are given a data set consisting of variables with more than 30 percent missing values. How will you deal with them?",
+    "answer": "The following are ways to handle missing data values:",
+    "source": "https://www.simplilearn.com/tutorials/data-science-tutorial/data-science-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. For the given points, how will you calculate the Euclidean distance in Python?",
+    "answer": "The Euclidean distance can be calculated as follows:",
+    "source": "https://www.simplilearn.com/tutorials/data-science-tutorial/data-science-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "11. What are dimensionality reduction and its benefits?",
+    "answer": "TheDimensionality reductionrefers to the process of converting a data set with vast dimensions into data with fewer dimensions (fields) to convey similar information concisely.Â",
+    "source": "https://www.simplilearn.com/tutorials/data-science-tutorial/data-science-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Apache Spark?",
+    "answer": "Apache Spark is an open-source distributed processing solution for big data workloads. For rapid queries against any size of data, it uses in-memory caching and efficient query execution. Simply put, Spark is a general-purpose data processing engine that is quick and scalable.",
+    "source": "https://www.interviewbit.com/data-engineer-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Scala",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What is the difference between Spark and MapReduce?",
+    "answer": "Spark is a MapReduce improvement in Hadoop. The difference between Spark and MapReduce is that Spark processes and retains data in memory for later steps, whereas MapReduce processes data on the disc. As a result, Spark's data processing speed is up to 100 times quicker than MapReduce for lesser workloads. Spark also constructs a Directed Acyclic Graph (DAG) to schedule tasks and orchestrate nodes throughout the Hadoop cluster, as opposed to MapReduce's two-stage execution procedure.",
+    "source": "https://www.interviewbit.com/data-engineer-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Scala",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is the Heartbeat in Hadoop?",
+    "answer": "The heartbeat is a communication link that runs between the Namenode and the Datanode. It's the signal that the Datanode sends to the Namenode at regular intervals. If a Datanode in HDFS fails to send a heartbeat to Namenode after 10 minutes, Namenode assumes the Datanode is unavailable.",
+    "source": "https://www.interviewbit.com/data-engineer-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Scala",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What are the design schemas available in data modeling?",
+    "answer": "There are two design schemas available in data modeling:",
+    "source": "https://www.interviewbit.com/data-engineer-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Scala",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is the difference between a data engineer and a data scientist?",
+    "answer": "Data science is a broad topic of research. It focuses on extracting data from extremely huge datasets (sometimes it is known as \"big data\").Data scientistscan operate in a variety of fields, including industry, government, and applied sciences. All data scientists have the same goal: to analyze data and derive insights from it that are relevant to their field of work.",
+    "source": "https://www.interviewbit.com/data-engineer-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Scala",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What are the features of Hadoop?",
+    "answer": "Hadoop has the following features:",
+    "source": "https://www.interviewbit.com/data-engineer-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Scala",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. Which frameworks and applications are important for data engineers?",
+    "answer": "SQL, Amazon Web Services, Hadoop, and Python are all required skills for data engineers. Other tools critical for data engineers are PostgreSQL, MongoDB, Apache Spark, Apache Kafka, Amazon Redshift, Snowflake, and Amazon Athena.",
+    "source": "https://www.interviewbit.com/data-engineer-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Scala",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "11. What is HDFS?",
+    "answer": "HDFS is an acronym for Hadoop Distributed File System. It is a distributed file system that runs on commodity hardware and can handle massive data collections.",
+    "source": "https://www.interviewbit.com/data-engineer-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Scala",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is the role of the offset?",
+    "answer": "In partitions, messages are assigned a unique ID number called the offset. The role is to identify each message in the partition uniquely.",
+    "source": "https://www.simplilearn.com/kafka-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Kafka",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. Can Kafka be used without ZooKeeper?",
+    "answer": "It is not possible to connect directly to the Kafka Server by bypassing ZooKeeper. Any client request cannot be serviced if ZooKeeper is down.",
+    "source": "https://www.simplilearn.com/kafka-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Kafka",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. In Kafka, why are replications critical?",
+    "answer": "Replications are critical as they ensure published messages can be consumed in the event of any program error or machine error and are not lost.",
+    "source": "https://www.simplilearn.com/kafka-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Kafka",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What is a partitioning key?",
+    "answer": "Ans. The partitioning key indicates the destination partition of the message within the producer. A hashing based partitioner determines the partition ID when the key is given.",
+    "source": "https://www.simplilearn.com/kafka-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Kafka",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is the critical difference between Flume and Kafka?",
+    "answer": "Kafka ensures more durability and is scalable even though both are used for real-time processing.",
+    "source": "https://www.simplilearn.com/kafka-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Kafka",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. When does QueueFullException occur in the producer?",
+    "answer": "QueueFullException occurs when the producer attempts to send messages at a pace not handleable by the broker.",
+    "source": "https://www.simplilearn.com/kafka-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Kafka",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What is a partition of a topic in Kafka Cluster?",
+    "answer": "Partition is a single piece of Kafka topic. More partitions allow excellent parallelism when reading from the topics. The number of partitions is configured based on per topic.",
+    "source": "https://www.simplilearn.com/kafka-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Kafka",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What do you mean by ISR in Kafka environment?",
+    "answer": "ISR is the abbreviation of In sync replicas. They are a set of message replicas that are synced to be leaders.",
+    "source": "https://www.simplilearn.com/kafka-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Kafka",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is Apache Kafka?",
+    "answer": "Apache Kafka is a distributed streaming platform that allows for publishing, subscribing to, storing, and processing streams of records in real-time. It's designed to handle high-throughput, fault-tolerant, and scalable data pipelines. Kafka is often used for building real-time data pipelines and streaming applications.",
+    "source": "https://www.geeksforgeeks.org/apache-kafka/kafka-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Kafka",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What are the key components of Kafka?",
+    "answer": "The key components of Kafka include:",
+    "source": "https://www.geeksforgeeks.org/apache-kafka/kafka-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Kafka",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What is a topic in Kafka?",
+    "answer": "A topic in Kafka is a category or feed name to which records are published. Topics in Kafka are always multi-subscriber; that is, a topic can have zero, one, or many consumers that subscribe to the data written to it. Topics are split into partitions for improved scalability and parallel processing.",
+    "source": "https://www.geeksforgeeks.org/apache-kafka/kafka-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Kafka",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What is a partition in Kafka?",
+    "answer": "A partition is an ordered, immutable sequence of records that is continually appended to. Each partition is a structured commit log, and records in the partitions are each assigned a sequential id number called the offset. Partitions allow Kafka to scale horizontally and provide parallel processing capabilities.",
+    "source": "https://www.geeksforgeeks.org/apache-kafka/kafka-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Kafka",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is the role of ZooKeeper in Kafka?",
+    "answer": "ZooKeeper is used for managing and coordinating Kafka brokers. It serves as a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services. ZooKeeper keeps track of the status of Kafka cluster nodes, Kafka topics, and partitions.",
+    "source": "https://www.geeksforgeeks.org/apache-kafka/kafka-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Kafka",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What is a broker in Kafka?",
+    "answer": "A broker is a Kafka server that runs in a Kafka cluster. It receives messages from producers, assigns offsets to them, and commits the messages to storage on disk. It also services consumers, responding to fetch requests for partitions and responding with the messages that have been published.",
+    "source": "https://www.geeksforgeeks.org/apache-kafka/kafka-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Kafka",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. How does Kafka ensure fault tolerance?",
+    "answer": "Kafka ensures fault tolerance through data replication. Each partition is replicated across a configurable number of servers for fault tolerance. One of the servers is designated as the leader, which handles all read and write requests for the partition, while the others are followers that passively replicate the leader.",
+    "source": "https://www.geeksforgeeks.org/apache-kafka/kafka-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Kafka",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What is the difference between a Kafka consumer and consumer group?",
+    "answer": "A Kafka consumer is an application that reads data from Kafka topics. A consumer group is a set of consumers that work together to consume data from one or more topics. The key difference is that each message is delivered to one consumer instance within each subscribing consumer group. This allows for parallel processing and load balancing of topic consumption.",
+    "source": "https://www.geeksforgeeks.org/apache-kafka/kafka-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Kafka",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What does it mean if a replica is not an In-Sync Replica for a long time?",
+    "answer": "A replica that has been out of ISR for a long period of time indicates that the follower is unable to fetch data at the same rate as the leader.",
+    "source": "https://www.interviewbit.com/kafka-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Kafka",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What are the traditional methods of message transfer? How is Kafka better from them?",
+    "answer": "Following are the traditional methods of message transfer:-",
+    "source": "https://www.interviewbit.com/kafka-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Kafka",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What are the major components of Kafka?",
+    "answer": "Following are the major components of Kafka:-",
+    "source": "https://www.interviewbit.com/kafka-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Kafka",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What do you mean by a Partition in Kafka?",
+    "answer": "Kafka topics are separated into partitions, each of which contains records in a fixed order. A unique offset is assigned and attributed to each record in a partition. Multiple partition logs can be found in a single topic. This allows several users to read from the same topic at the same time. Topics can be parallelized via partitions, which split data into a single topic among numerous brokers.",
+    "source": "https://www.interviewbit.com/kafka-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Kafka",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What do you mean by zookeeper in Kafka and what are its uses?",
+    "answer": "Apache ZooKeeper is a naming registry for distributed applications as well as a distributed, open-source configuration and synchronization service. It keeps track of the Kafka cluster nodes' status, as well as Kafka topics, partitions, and so on.",
+    "source": "https://www.interviewbit.com/kafka-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Kafka",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. Can we use Kafka without Zookeeper?",
+    "answer": "Kafka can now be used without ZooKeeper as of version 2.8. The release of Kafka 2.8.0 in April 2021 gave us all the opportunity to try it out without ZooKeeper. However, this version is not yet ready for production and lacks some key features.",
+    "source": "https://www.interviewbit.com/kafka-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Kafka",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. Why is Topic Replication important in Kafka? What do you mean by ISR in Kafka?",
+    "answer": "Each partition has an elected leader, and other brokers store a copy that can be used if necessary. Logically, the replication factor cannot be more than the cluster's total number of brokers. An In-Sync Replica (ISR) is a replica that is up to date with the partition's leader.",
+    "source": "https://www.interviewbit.com/kafka-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Kafka",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "10. What do you understand about a consumer group in Kafka?",
+    "answer": "A consumer group in Kafka is a collection of consumers who work together to ingest data from the same topic or range of topics. The name of an application is essentially represented by a consumer group. Consumers in Kafka often fall into one of several categories. The ‘-group' command must be used to consume messages from a consumer group.",
+    "source": "https://www.interviewbit.com/kafka-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Kafka",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is a Database Schema and Why is It Important?",
+    "answer": "A database schema is a blueprint orarchitectureof how data is organized in adatabase. It defines the tables, the fields in each table, and therelationshipsbetween fields and tables.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/database-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Cassandra",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What is CRUD Operations?",
+    "answer": "CRUD stands forCreate, Read, Update, Delete, which are the four fundamental operations in database management:",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/database-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Cassandra",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What are the Different Types of Joins and How do They Work?",
+    "answer": "Ensuring data integrity involves using constraints and rules:",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/database-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Cassandra",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. How to Ensure Data Integrity in a Relational Database?",
+    "answer": "Ensuring data integrity involves using constraints and rules:",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/database-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Cassandra",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What are the ACID Properties in a Database and Why are They Important?",
+    "answer": "ACID properties ensurereliable transactionprocessing, guaranteedata reliabilityandintegrityin databases.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/database-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Cassandra",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What is a Data Warehouse and How is it Different from a Traditional Database?",
+    "answer": "To migrate data from an on-premise database to a cloud database:",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/database-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Cassandra",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "10. How to Handle Data Migration Between Different Databases?",
+    "answer": "To migrate data from an on-premise database to a cloud database:",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/database-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Cassandra",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "11. What is a Relational Database and How does it Differ from a NoSQL Database?",
+    "answer": "A relational databases uses structured tables tostore data, with predefinedschemasandrelationships(usually using SQL). It ensures data integrity throughACIDproperties and is suitable forcomplex queriesandtransactions.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/database-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Cassandra",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is a Data Model?",
+    "answer": "A data model organizes different data elements and standardizes how they relate to one another and real-world entity properties. So logically then, data modeling is the process of creating those data models.",
+    "source": "https://www.simplilearn.com/data-modeling-interview-question-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Cassandra",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What Are the Three Types of Data Models?",
+    "answer": "The three types of data models:",
+    "source": "https://www.simplilearn.com/data-modeling-interview-question-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Cassandra",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2.Â  What is a Table?",
+    "answer": "A table consists of data stored in rows and columns. Columns, also known as fields, show data in vertical alignment. Rows also called a record or tuple, represent dataâs horizontal alignment.",
+    "source": "https://www.simplilearn.com/data-modeling-interview-question-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Cassandra",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What is Normalization?",
+    "answer": "Database normalizationis the process of designing the database in such a way that it reduces data redundancy without sacrificing integrity.",
+    "source": "https://www.simplilearn.com/data-modeling-interview-question-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Cassandra",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What Does a Data Modeler Use Normalization For?",
+    "answer": "The purposes of normalization are:",
+    "source": "https://www.simplilearn.com/data-modeling-interview-question-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Cassandra",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. So, What is Denormalization, and What is its Purpose?",
+    "answer": "Denormalization is a technique where redundant data is added to an already normalized database. The procedure enhances read performance by sacrificing write performance.",
+    "source": "https://www.simplilearn.com/data-modeling-interview-question-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Cassandra",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What Does ERD Stand for, and What is it?",
+    "answer": "ERD stands for Entity Relationship Diagram and is a logical entity representation, defining the relationships between the entities. Entities reside in boxes, and arrows symbolize relationships.",
+    "source": "https://www.simplilearn.com/data-modeling-interview-question-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Cassandra",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. Whatâs the Definition of a Surrogate Key?",
+    "answer": "A surrogate key, also known as aprimary key, enforces numerical attributes. This surrogate key replaces natural keys. Instead of having primary or composite primary keys, data modelers create the surrogate key, which is a valuable tool for identifying records, buildingSQL queries, and enhancing performance.",
+    "source": "https://www.simplilearn.com/data-modeling-interview-question-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Cassandra",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is System Design?",
+    "answer": "It’s impossible to overlook system design when it comes to tech interviews! In the interview, almost every IT giant, whether it’s Facebook, Amazon, Google, or another, asks a series of questions based onSystem Design conceptslike scalability, load balancing, caching, and so on. So without any further adieu, let us go through the most frequently asked interview questions on System Design.",
+    "source": "https://www.interviewbit.com/system-design-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Cassandra",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is CAP theorem?",
+    "answer": "CAP(Consistency-Availability-Partition Tolerance) theorem says that a distributed system cannot guarantee C, A and P simultaneously. It can at max provide any 2 of the 3 guarantees. Let us understand this with the help of a distributed database system.",
+    "source": "https://www.interviewbit.com/system-design-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Cassandra",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. How is Horizontal scaling different from Vertical scaling?",
+    "answer": "Horizontal scalingrefers to the addition of more computing machines to the network that shares the processing and memory workload across a distributed network of devices. In simple words, more instances of servers are added to the existing pool and the traffic load is distributed across these devices in an efficient manner.",
+    "source": "https://www.interviewbit.com/system-design-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Cassandra",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What do you understand by load balancing? Why is it important in system design?",
+    "answer": "When a server goes down, the load balancer redirects traffic to the remaining available servers. When a new server gets added to the configuration, the requests are automatically redirected to it. Following are the benefits of load balancers:",
+    "source": "https://www.interviewbit.com/system-design-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Cassandra",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What do you understand by Latency, throughput, and availability of a system?",
+    "answer": "Performance is an important factor in system design as it helps in making our services fast and reliable. Following are the three key metrics for measuring the performance:",
+    "source": "https://www.interviewbit.com/system-design-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Cassandra",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is Sharding?",
+    "answer": "Sharding helps to scale databases by helping to handle the increased load by providing increased throughput, storage capacity and ensuring high availability.",
+    "source": "https://www.interviewbit.com/system-design-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Cassandra",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. How is sharding different from partitioning?",
+    "answer": "The following table lists the differences between sharding and partitioning:",
+    "source": "https://www.interviewbit.com/system-design-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Cassandra",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What is Caching? What are the various cache update strategies available in caching?",
+    "answer": "Caching refers to the process of storing file copies in a temporary storage location called cache which helps in accessing data more quickly thereby reducing site latency. The cache can only store a limited amount of data. Due to this, it is important to determine cache update strategies that are best suited for the business requirements. Following are the various caching strategies available:",
+    "source": "https://www.interviewbit.com/system-design-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Cassandra",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q1. Difference between Spark dataframe and rdd and which one is better ?",
+    "answer": "Q2. Given a two relational tables and ask me to write a sql query as well as spark code for that.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/makemytrip-interview-experience-data-engineer/",
+    "role": "Big Data Engineer",
+    "skill": "Cassandra",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q3. CAP theorem and which part of CAP theorem Hbase, HDFS & Cassandra follows ? Explain with reason.",
+    "answer": "Q4. Options and traits in scala.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/makemytrip-interview-experience-data-engineer/",
+    "role": "Big Data Engineer",
+    "skill": "Cassandra",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q5. Spark repartitioning vs coalesce and when to use them ?",
+    "answer": "And some questions on spark-sql as well. Well I answered more than 80% questions and interviewer was satisfied with at the end of the interview.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/makemytrip-interview-experience-data-engineer/",
+    "role": "Big Data Engineer",
+    "skill": "Cassandra",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q3. Why do we use Options to remove null from Scala? What is the advantage of that ?",
+    "answer": "Q4. Scala is statically typed or dynamically typed.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/makemytrip-interview-experience-data-engineer/",
+    "role": "Big Data Engineer",
+    "skill": "Cassandra",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q5. What are my skill sets ?",
+    "answer": "After completing that round I got the call from HR that you have been selected.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/makemytrip-interview-experience-data-engineer/",
+    "role": "Big Data Engineer",
+    "skill": "Cassandra",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is Pattern Matching in SQL?",
+    "answer": "SQL pattern matching provides for pattern search in data if you have no clue as to what that word should be. This kind of SQL query uses wildcards to match a string pattern, rather than writing the exact word. The LIKE operator is used in conjunction withSQL Wildcardsto fetch the required information.",
+    "source": "https://www.interviewbit.com/sql-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How to create empty tables with the same structure as another table?",
+    "answer": "Creating empty tables with the same structure can be done smartly by fetching the records of one table into a new table using the INTO operator while fixing a WHERE clause to be false for all records. Hence, SQL prepares the new table with a duplicate structure to accept the fetched records but since no records get fetched due to the WHERE clause in action, nothing is inserted into the new table.",
+    "source": "https://www.interviewbit.com/sql-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is a Recursive Stored Procedure?",
+    "answer": "A stored procedure that calls itself until a boundary condition is reached, is called a recursive stored procedure. This recursive function helps the programmers to deploy the same set of code several times as and when required. Some SQL programming languages limit the recursion depth to prevent an infinite loop of procedure calls from causing a stack overflow, which slows down the system and may lead to system crashes.",
+    "source": "https://www.interviewbit.com/sql-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is a Stored Procedure?",
+    "answer": "A stored procedure is a subroutine available to applications that access a relational database management system (RDBMS). Such procedures are stored in the database data dictionary. The sole disadvantage of stored procedure is that it can be executed nowhere except in the database and occupies more memory in the database server. It also provides a sense of security and functionality as users who can't access the data directly can be granted access via stored procedures.",
+    "source": "https://www.interviewbit.com/sql-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is Collation? What are the different types of Collation Sensitivity?",
+    "answer": "Collation refers to a set of rules that determine how data is sorted and compared. Rules defining the correct character sequence are used to sort the character data. It incorporates options for specifying case sensitivity, accent marks, kana character types, and character width. Below are the different types of collation sensitivity:",
+    "source": "https://www.interviewbit.com/sql-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What are the differences between OLTP and OLAP?",
+    "answer": "OLAPstands forOnline Analytical Processing, a class of software programs that are characterized by the relatively low frequency of online transactions. Queries are often too complex and involve a bunch of aggregations. For OLAP systems, the effectiveness measure relies highly on response time. Such systems are widely used for data mining or maintaining aggregated, historical data, usually in multi-dimensional schemas.",
+    "source": "https://www.interviewbit.com/sql-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is User-defined function? What are its various types?",
+    "answer": "The user-defined functions in SQL are like functions in any other programming language that accept parameters, perform complex calculations, and return a value. They are written to use the logic repetitively whenever required. There are two types of SQL user-defined functions:",
+    "source": "https://www.interviewbit.com/sql-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is a UNIQUE constraint?",
+    "answer": "A UNIQUE constraint ensures that all values in a column are different. This provides uniqueness for the column(s) and helps identify each row uniquely. Unlike primary key, there can be multiple unique constraints defined per table. The code syntax for UNIQUE is quite similar to that of PRIMARY KEY and can be used interchangeably.",
+    "source": "https://www.interviewbit.com/sql-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is SQL?",
+    "answer": "SQL (Structured Query Language) is a standard programming language used to communicate withrelational databases. It allows users to create, read, update, and delete data, and provides commands to definedatabase schemaand manage database security.",
+    "source": "https://www.geeksforgeeks.org/sql/sql-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What is a database?",
+    "answer": "Adatabaseis anorganized collection of datastored electronically, typically structured in tables with rows and columns. It is managed by adatabase management system(DBMS), which allows for efficientstorage,retrieval, andmanipulationof data.",
+    "source": "https://www.geeksforgeeks.org/sql/sql-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are the main types of SQL commands?",
+    "answer": "SQL commands are broadly classified into:",
+    "source": "https://www.geeksforgeeks.org/sql/sql-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is the difference between CHAR and VARCHAR2 data types?",
+    "answer": "Aprimary keyis a unique identifier for each record in a table. It ensures that no two rows have the same value in the primary key column(s), and it does not allow NULL values.",
+    "source": "https://www.geeksforgeeks.org/sql/sql-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is a primary key?",
+    "answer": "Aprimary keyis a unique identifier for each record in a table. It ensures that no two rows have the same value in the primary key column(s), and it does not allow NULL values.",
+    "source": "https://www.geeksforgeeks.org/sql/sql-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is a foreign key?",
+    "answer": "Aforeign keyis a column (or set of columns) in one table that refers to the primary key in another table. It establishes and enforces a relationship between the two tables, ensuring data integrity.",
+    "source": "https://www.geeksforgeeks.org/sql/sql-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is the purpose of the DEFAULT constraint?",
+    "answer": "TheDEFAULT constraintassigns a default value to a column when no value is provided during anINSERT operation. This helps maintain consistent data and simplifies data entry.",
+    "source": "https://www.geeksforgeeks.org/sql/sql-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is normalization in databases?",
+    "answer": "Normalizationis the process of organizing data in a database toreduce redundancyandimprove data integrity. This involves dividing large tables into smaller, related tables and defining relationships between them to ensure consistency and avoid anomalies.",
+    "source": "https://www.geeksforgeeks.org/sql/sql-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is SQL?",
+    "answer": "SQL means Structured Query Language and is used to communicate with relational databases. It proposes a standardized way to interact with databases, allowing users to perform various operations on the data, including retrieval, insertion, updating, and deletion.",
+    "source": "https://www.simplilearn.com/top-sql-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the different types of SQL commands?",
+    "answer": "SELECT: Retrieves data from a database.",
+    "source": "https://www.simplilearn.com/top-sql-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is a primary key in SQL?",
+    "answer": "It is a unique identifier for each record in a table. It ensures that each row in the table has a distinct and non-null value in the primary key column. Primary keys enforce data integrity and create relationships between tables.",
+    "source": "https://www.simplilearn.com/top-sql-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is a foreign key?",
+    "answer": "Foreign keyis a field in one table referencing the primary key in another. It establishes a relationship between the two tables, ensuring data consistency and enabling data retrieval across tables.",
+    "source": "https://www.simplilearn.com/top-sql-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is a JOIN in SQL, and what are its types?",
+    "answer": "AJOIN operationmerges information from two or more tables by utilizing a common column that links them together. Various types of JOINs exist, like INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN. These JOIN variations dictate the manner in which data from the involved tables is paired and retrieved.",
+    "source": "https://www.simplilearn.com/top-sql-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Did You Know? ð",
+    "answer": "Professionals with advanced SQL skills, such as database administrators and database architects, receive a median annual pay of $117,450, and the job growth outlook is 8% in the coming years. (Source:ÂU.S. Bureau of Labor Statistics)",
+    "source": "https://www.simplilearn.com/top-sql-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What do you mean by a NULL value in SQL?",
+    "answer": "A NULL value in SQL represents the absence of data in a column. It is not the same as an empty string or zero; it signifies that the data is missing or unknown. NULL values can be used in columns with optional data or when the data is unavailable.",
+    "source": "https://www.simplilearn.com/top-sql-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is a database?",
+    "answer": "Adatabaseis a systematically organized collection of data arranged into tables composed of rows and columns. Its primary purpose is to efficiently store, manage, and retrieve data.",
+    "source": "https://www.simplilearn.com/top-sql-interview-questions-and-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is SQL, and what is its purpose in data analysis?",
+    "answer": "SQL (Structured Query Language)is a standard language for managing and manipulating relational databases. It allows analysts to query, update, and manage data effectively, which is crucial for data analysis tasks.",
+    "source": "https://www.geeksforgeeks.org/data-science/sql-questions-for-data-analyst-interview/",
+    "role": "Big Data Engineer",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. How do you filter records in SQL? Provide an example.",
+    "answer": "Use theWHEREclause to filter records based on specific conditions.",
+    "source": "https://www.geeksforgeeks.org/data-science/sql-questions-for-data-analyst-interview/",
+    "role": "Big Data Engineer",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is the purpose of theHAVINGclause? How does it differ fromWHERE?",
+    "answer": "HAVINGis used to filter groups after aggregation, whileWHEREfilters rows before aggregation.",
+    "source": "https://www.geeksforgeeks.org/data-science/sql-questions-for-data-analyst-interview/",
+    "role": "Big Data Engineer",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. How do you sort the results of a query?",
+    "answer": "Use theORDER BYclause to sort results in ascending or descending order.",
+    "source": "https://www.geeksforgeeks.org/data-science/sql-questions-for-data-analyst-interview/",
+    "role": "Big Data Engineer",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is the difference betweenINNER JOINandLEFT JOIN?",
+    "answer": "INNER JOINreturns rows with matching values in both tables, whileLEFT JOINreturns all rows from the left table and matched rows from the right table, with unmatched rows from the right table filled with NULLs.",
+    "source": "https://www.geeksforgeeks.org/data-science/sql-questions-for-data-analyst-interview/",
+    "role": "Big Data Engineer",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. How do you find the top 5 highest sales amounts?",
+    "answer": "Example:\"SELECT amount FROM sales ORDER BY amount DESC LIMIT 5;\"",
+    "source": "https://www.geeksforgeeks.org/data-science/sql-questions-for-data-analyst-interview/",
+    "role": "Big Data Engineer",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "11. What is a subquery, and how can you use it in theWHEREclause?",
+    "answer": "A subquery is a query within another query used to perform operations based on the results of the outer query.",
+    "source": "https://www.geeksforgeeks.org/data-science/sql-questions-for-data-analyst-interview/",
+    "role": "Big Data Engineer",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "13. How do you calculate the average of a column?",
+    "answer": "Use theAVG()function to calculate the average value.",
+    "source": "https://www.geeksforgeeks.org/data-science/sql-questions-for-data-analyst-interview/",
+    "role": "Big Data Engineer",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the types of ETL testing?",
+    "answer": "Following are the types of ETL testing.",
+    "source": "https://www.geeksforgeeks.org/software-testing/etl-testing-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "ETL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What are tools used in ETL?",
+    "answer": "There are manual and automated methods for testing the performance of an ETL process. For manual testing, SQL query testing is the most used way. However, the procedure is difficult, time-consuming, and prone to errors. As a result, several organizations have started using automated ETL testing technologies. These tools save time while also ensuring accuracy.",
+    "source": "https://www.geeksforgeeks.org/software-testing/etl-testing-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "ETL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5.What is the importance of ETL testing?",
+    "answer": "Following are the importance of ETL testing:",
+    "source": "https://www.geeksforgeeks.org/software-testing/etl-testing-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "ETL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6.Explain ETL Pipeline?",
+    "answer": "An ETL pipeline is a set of operations that transport data from one or more sources to a database, such as a data warehouse. ETL stands for \"extract, transform, load,\" which refers to the three interdependent data integration operations that move data from one database to another.",
+    "source": "https://www.geeksforgeeks.org/software-testing/etl-testing-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "ETL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What are the roles and responsibilities of an ETL tester?",
+    "answer": "Following are the role and responsibilities of an ETL tester",
+    "source": "https://www.geeksforgeeks.org/software-testing/etl-testing-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "ETL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9.  What is BI (Business Intelligence)?",
+    "answer": "Business intelligencerefers to a collection of mathematical models and analysis methods that utilize data to produce valuable information and insight for making important decisions. BI test validates staging data, the ETL process, and BI reports to ensure their reliability. Essentially, BI involves gathering raw business data and converting it into actionable insights. BI Testing verifies the accuracy and credibility of these insights derived from the BI process.",
+    "source": "https://www.geeksforgeeks.org/software-testing/etl-testing-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "ETL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "11. What types of data sources can you test in ETL testing?",
+    "answer": "In ETL (Extract, Transform, Load) testing, various types of data sources can be tested to ensure the accuracy, completeness, and integrity of the data as it moves through the ETL process.",
+    "source": "https://www.geeksforgeeks.org/software-testing/etl-testing-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "ETL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "13. What do you mean by data purging?",
+    "answer": "Data purging refers to the permanent removal of data from a data warehouse or database. Unlike regular deletion, which may temporarily remove data but still keeps it accessible, purging ensures that the data is completely erased and cannot be recovered. This process helps in freeing up storage space and improving system performance by eliminating unnecessary or obsolete data, such as null values or redundant information, thereby optimizing the data warehouse for efficient operations.",
+    "source": "https://www.geeksforgeeks.org/software-testing/etl-testing-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "ETL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What Do ETL Developers Do?",
+    "answer": "ETL developers generally design, automate, develop, and support complex programs that extract, convert, and load data. More specifically, ETL developers are responsible for the following tasks:",
+    "source": "https://www.simplilearn.com/etl-testing-interview-questions-article",
+    "role": "Big Data Engineer",
+    "skill": "ETL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What is ETL Testing?",
+    "answer": "This is where ETL testing comes into play. ETL is generally recognized as a critical element of data warehouse design in business operations. ETL, or enterprise data integration, takes data from source systems, converts it into a consistent data format, and puts it into a single repository.",
+    "source": "https://www.simplilearn.com/etl-testing-interview-questions-article",
+    "role": "Big Data Engineer",
+    "skill": "ETL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What is partitioning?",
+    "answer": "Partitioning helps manage database objects better by dividing the storage area and organizing the data more conveniently. When thedata warehouseis partitioned, finding and accessing data is faster.Â Â Â",
+    "source": "https://www.simplilearn.com/etl-testing-interview-questions-article",
+    "role": "Big Data Engineer",
+    "skill": "ETL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "10. What is Data Purging?",
+    "answer": "Data purging is the process of permanently deleting and removing data from the data warehouse. Eliminating unwanted data frees up storage and memory space.Â Â",
+    "source": "https://www.simplilearn.com/etl-testing-interview-questions-article",
+    "role": "Big Data Engineer",
+    "skill": "ETL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "11. What is a factless table?",
+    "answer": "A factless table is a table that does not have any facts or measures. Its purpose is to demonstrate relationships between dimensions. A factless table does not hold text or numeric data.",
+    "source": "https://www.simplilearn.com/etl-testing-interview-questions-article",
+    "role": "Big Data Engineer",
+    "skill": "ETL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "12. What is Slowly Changing Dimensions (SCD)?",
+    "answer": "Slowly Changing Dimensions (SCD) are dimensions that store and manage current and past data in a data warehouse. This data in SCD changes very slowly over time and does not change as per any predefined schedule.Â",
+    "source": "https://www.simplilearn.com/etl-testing-interview-questions-article",
+    "role": "Big Data Engineer",
+    "skill": "ETL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "13. What is a data source view?",
+    "answer": "A data source view defines the relational schema that is used to carry out analysis in the databases. Cubes and dimensions can also be created using the data source view instead of being built from data source objects. This allows users to construct dimensions inherently and offers superior control over the data structures.",
+    "source": "https://www.simplilearn.com/etl-testing-interview-questions-article",
+    "role": "Big Data Engineer",
+    "skill": "ETL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "15. What is BI (Business Intelligence)?",
+    "answer": "Business Intelligence refers to gathering, storage, and analysis of data with the objective of converting raw data into actionable information which can be used to make better business decisions.",
+    "source": "https://www.simplilearn.com/etl-testing-interview-questions-article",
+    "role": "Big Data Engineer",
+    "skill": "ETL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is Databricks Spark?",
+    "answer": "Databricks Spark is the result of Apache Spark being forked to build it. Spark has undergone development and received upgrades that make its connection with Databricks more streamlined.",
+    "source": "https://www.interviewbit.com/azure-databricks-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Databricks",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the advantages of Microsoft Azure Databricks?",
+    "answer": "Utilizing Azure Databricks comes with a variety of benefits, some of which are as follows:",
+    "source": "https://www.interviewbit.com/azure-databricks-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Databricks",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. Why is it necessary for us to use the DBU Framework?",
+    "answer": "The DBU Framework was developed as a means of streamlining the process of developing applications on Databricks that are capable of working with significant quantities of data. A command line interface (CLI), a software development kit (SDK) written in Python, and a software development kit written in Java are all included in the framework (SDK).",
+    "source": "https://www.interviewbit.com/azure-databricks-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Databricks",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. When referring to Azure Databricks, what exactly does it mean to \"auto-scale\" a cluster of nodes?",
+    "answer": "The auto-scaling feature offered by Databricks enables you to automatically expand or contract the size of your cluster as needed. Utilizing only the resources that are really put to use is a foolproof method for lowering expenses and reducing waste.",
+    "source": "https://www.interviewbit.com/azure-databricks-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Databricks",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What actions should I take to resolve the issues I'm having with Azure Databricks?",
+    "answer": "If you are having trouble using Azure Databricks, you should begin by looking over the Databricks documentation. The documentation includes a collated list of common issues and the remedies to those issues, as well as any other relevant information. You can also get in touch with the support team for Databricks if you find that you require assistance.",
+    "source": "https://www.interviewbit.com/azure-databricks-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Databricks",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is the function of the Databricks filesystem?",
+    "answer": "The Databricks filesystem is used to store the data that is saved in Databricks. Workloads involving large amounts of data are an ideal fit for this particular distributed file system. The Hadoop Distributed File System (DVFS) is compatible with Databricks, which is a distributed file system (HDFS).",
+    "source": "https://www.interviewbit.com/azure-databricks-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Databricks",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What programming languages are available for use when interacting with Azure Databricks?",
+    "answer": "A few examples of languages that can be used in conjunction with the Apache Spark framework include Python, Scala, and R. Additionally, the SQL database language is supported by Azure Databricks.",
+    "source": "https://www.interviewbit.com/azure-databricks-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Databricks",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. Is it possible to manage Databricks using PowerShell?",
+    "answer": "No, the administration of Databricks cannot be done with PowerShell because it is not compatible with it. There are other methods available, including the Azure command line interface (CLI), the Databricks REST API, and the Azure site itself.",
+    "source": "https://www.interviewbit.com/azure-databricks-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Databricks",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Azure Databricks, and how does it integrate with Azure?",
+    "answer": "Azure Databricks is a data analytics and AI-based service offered byMicrosoft Azure. It unifies data, the data ecosystem, and data teams. It is integrated with multiple Azure environments, such as Azure Data Lake Storage, Power BI, Azure Synapse Analytics, Azure Data Factory, and others, for advanced solutions and enhanced performance.",
+    "source": "https://www.simplilearn.com/azure-databricks-interview-questions-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Databricks",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. Can you explain the concept of a Databricks cluster and its components?",
+    "answer": "Databricks clusters refer to configurations and resources for running jobs and notebooks. There are two types of clusters: all-purpose and jobs.Â",
+    "source": "https://www.simplilearn.com/azure-databricks-interview-questions-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Databricks",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is Apache Spark, and how does Databricks utilize it?",
+    "answer": "Apache Sparkis an open-source analytics engine that powers compute clusters and SQL warehouses. Azure Databricks offers a user-friendly, secure, and efficient platform for running Apache Spark workloads.",
+    "source": "https://www.simplilearn.com/azure-databricks-interview-questions-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Databricks",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. How do you create a workspace in Azure Databricks?",
+    "answer": "Workspace can be created in Azure Databricks through any of the following tools: Azure Portal, Azure CLI, PowerShell,ARM template, Bicep, and Terraform. To create a workspace in Azure Databricks, you can follow these steps:",
+    "source": "https://www.simplilearn.com/azure-databricks-interview-questions-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Databricks",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What are notebooks in Azure Databricks, and how do they help with data processing?",
+    "answer": "Notebooks are the primary tool for code development in different languages and for presenting results. They contribute to data processing by allowing team collaboration, automatic versioning, data analysis, environment customization, text writing in other languages, and built-indata visualizations.",
+    "source": "https://www.simplilearn.com/azure-databricks-interview-questions-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Databricks",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. How do you scale a cluster in Azure Databricks, and what factors should you consider?",
+    "answer": "Scaling can be done in three ways: vertically by adding or removing resources, horizontally by editing the nodes of a distributed system, and linearly by adding resources to a system. Factors influencing scaling include the number of workers, cores, memory, local storage, complexity, data source, data partitioning method in external storage, and the need for parallelism.Â",
+    "source": "https://www.simplilearn.com/azure-databricks-interview-questions-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Databricks",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. Can you explain how Delta Lake works in Azure Databricks?",
+    "answer": "Delta Lake helps store tables in Databricks by incorporating a transaction log on Parquet data files. It enables reliableACID transactionsand efficient and scalable metadata handling.",
+    "source": "https://www.simplilearn.com/azure-databricks-interview-questions-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Databricks",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is the process for migrating a Spark job from a local environment to Azure Databricks?",
+    "answer": "The process to migrate the Spark workload to Databricks involves the following steps:",
+    "source": "https://www.simplilearn.com/azure-databricks-interview-questions-answers-article",
+    "role": "Big Data Engineer",
+    "skill": "Databricks",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What data masking features are accessible in Azure?",
+    "answer": "Data masking in Azure is crucial for data security. It restricts crucial and sensitive information to certain groups of users.",
+    "source": "https://www.simplilearn.com/azure-data-engineer-interview-questions-article",
+    "role": "Big Data Engineer",
+    "skill": "Databricks",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What do you understand about Polybase?",
+    "answer": "Polybase supports T-SQL and optimizes data ingestion into PDW. It lets developers query external data from the supported data stores regardless of their storage architecture.",
+    "source": "https://www.simplilearn.com/azure-data-engineer-interview-questions-article",
+    "role": "Big Data Engineer",
+    "skill": "Databricks",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What do you understand about reserved capacity in Azure?",
+    "answer": "Microsoft offers a reserved capacity option for Azure storage to optimize costs. Considering the reservation period on the Azure cloud, the reserved storage offers customers a specific capacity amount. Azure Data Lake and Block Blobs are available to store Gen 2 data in a standard storage account.",
+    "source": "https://www.simplilearn.com/azure-data-engineer-interview-questions-article",
+    "role": "Big Data Engineer",
+    "skill": "Databricks",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. How can you ensure compliance and data security with Azure Data Services?",
+    "answer": "Implementing Azure Active Directory ensures data security by identifying RBAC and allowing management to restrict access based on the principle of the least privilege. Azure Policy is also used to enforce compliance requirements and organizational standards. For GDPR compliance, Azure compliance offerings are leveraged, ensuring data practices align with EU standards.",
+    "source": "https://www.simplilearn.com/azure-data-engineer-interview-questions-article",
+    "role": "Big Data Engineer",
+    "skill": "Databricks",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Did You Know? ð",
+    "answer": "For this question, elaborate on your experience with Azure Databricks, Azure Data Factory, orAzure Synapse Analytics.",
+    "source": "https://www.simplilearn.com/azure-data-engineer-interview-questions-article",
+    "role": "Big Data Engineer",
+    "skill": "Databricks",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. How did you handle processing and data transformation in Azure?",
+    "answer": "For this question, elaborate on your experience with Azure Databricks, Azure Data Factory, orAzure Synapse Analytics.",
+    "source": "https://www.simplilearn.com/azure-data-engineer-interview-questions-article",
+    "role": "Big Data Engineer",
+    "skill": "Databricks",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. How did you approach high availability and disaster recovery in Azure?",
+    "answer": "For the scenario, elaborate on the importance of high availability and disaster recovery planning.",
+    "source": "https://www.simplilearn.com/azure-data-engineer-interview-questions-article",
+    "role": "Big Data Engineer",
+    "skill": "Databricks",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. What was your experience with data integration in Azure?",
+    "answer": "Discuss your experience with Logic Apps or Azure Data Factory for data integration.Â",
+    "source": "https://www.simplilearn.com/azure-data-engineer-interview-questions-article",
+    "role": "Big Data Engineer",
+    "skill": "Databricks",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Azure Data Factory?",
+    "answer": "In today's world, there is an abundance of data coming from a wide range of different sources; collectively, this information forms a gigantic mountain of data. Before we can upload this information to the cloud, there are a few things that need to be taken care of first.",
+    "source": "https://www.interviewbit.com/azure-data-factory-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Databricks",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. In the pipeline, can I set default values for the parameters?",
+    "answer": "Parameters in pipelines can have default values defined.",
+    "source": "https://www.interviewbit.com/azure-data-factory-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Databricks",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is the anticipated length of time needed for the integration?",
+    "answer": "The integration runtime of Azure Data Factory is the underlying computational architecture that enables the following data integration functionalities across a range of network topologies. These features can be accessed through the Azure portal.",
+    "source": "https://www.interviewbit.com/azure-data-factory-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Databricks",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. How many times may an integration be run through its iterations?",
+    "answer": "There are no limits placed in any way on the amount of integration runtime instances that can exist within a data factory. However, there is a limit on the number of virtual machine cores that can be utilized by the integration runtime for the execution of SSIS packages for each subscription.",
+    "source": "https://www.interviewbit.com/azure-data-factory-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Databricks",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. Where can I obtain additional information on the blob storage offered by Azure?",
+    "answer": "With the use of a service known as Blob Storage, vast amounts of data belonging to Azure Objects, such as text or binary data, can be saved. Using Blob Storage, you have the option of retaining the confidentiality of the data associated with your application or making it accessible to the general public. The following are some examples of typical applications of Blob Storage:",
+    "source": "https://www.interviewbit.com/azure-data-factory-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Databricks",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. Is there a cap on the number of cycles that can be invested in the integration process?",
+    "answer": "In no way is this the case; an Azure data factory can support an unlimited number of integration runtime occurrences simultaneously. However, there is a maximum number of VM cores that can be used by the integration runtime while executing SSIS packages, and this limitation varies depending on the type of subscription. It is essential that you have a solid grasp of these ideas before you start your journey toward earning a certification in Microsoft Azure.",
+    "source": "https://www.interviewbit.com/azure-data-factory-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Databricks",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. How does the Data Factory's integration runtime actually function?",
+    "answer": "Integration Runtime, a safe computing platform, makes it feasible for Data Factory to offer data integration capabilities that are portable across various network configurations. This is made possible by the use of Integration Runtime. Because of its proximity to the data centre, the work will almost certainly be performed there. If you want to Learn Azure Step by Step, you must be familiar with terminologies like this and other key aspects of Azure.",
+    "source": "https://www.interviewbit.com/azure-data-factory-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Databricks",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What are the three different types of triggers that are available for use with Azure Data Factory?",
+    "answer": "Utilizing the Schedule trigger helps ensure that the ADF pipeline is executed in accordance with a predetermined timetable.",
+    "source": "https://www.interviewbit.com/azure-data-factory-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Databricks",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Why Databricks?It is commonly used for tasks such as data preparation, real-time analysis, and machine learning. Some examples of how Databricks might be used include:",
+    "answer": "Processing large amounts of data from multiple sources, such as web logs, sensor data, or transactional data, in order to gain insights and identify trends.Building and training machine learning models, using tools such as TensorFlow, Keras, and PyTorch, to make predictions or perform other types of data analysis.Real-time data analysis, such as monitoring and analyzing streaming data from sensors or other sources, in order to make timely decisions or take action based on the data.Data preparation, such as cleaning, transforming, and enriching data, in order to make it ready for analysis or other uses.Overall, Databricks is a versatile platform that can be used for a wide range of data-related tasks, from simple data preparation and analysis to complex machine learning and real-time data processing.",
+    "source": "https://www.geeksforgeeks.org/devops/introduction-to-databricks/",
+    "role": "Big Data Engineer",
+    "skill": "Databricks",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. Define and explain the three basic types of cloud services and the AWS products that are built based on them?",
+    "answer": "The three basic types of cloud services are:",
+    "source": "https://www.simplilearn.com/tutorials/aws-tutorial/aws-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "AWS EMR",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What is the relation between the Availability Zone and Region?",
+    "answer": "AWS regions are separate geographical areas, like the US-West 1 (North California) and Asia South (Mumbai). On the other hand, availability zones are the areas that are present inside the regions. These are generally isolated zones that can replicate themselves whenever required.",
+    "source": "https://www.simplilearn.com/tutorials/aws-tutorial/aws-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "AWS EMR",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What is auto-scaling?",
+    "answer": "Auto-scalingis a function that allows you to provision and launch new instances whenever there is a demand. It allows you to automatically increase or decrease resource capacity in relation to the demand.",
+    "source": "https://www.simplilearn.com/tutorials/aws-tutorial/aws-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "AWS EMR",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What is geo-targeting in CloudFront?",
+    "answer": "Geo-Targeting is a concept where businesses can show personalized content to their audience based on their geographic location without changing the URL. This helps you create customized content for the audience of a specific geographical area, keeping their needs in the forefront.",
+    "source": "https://www.simplilearn.com/tutorials/aws-tutorial/aws-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "AWS EMR",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What are the steps involved in a CloudFormation Solution?",
+    "answer": "Here are the steps involved in a CloudFormation solution:",
+    "source": "https://www.simplilearn.com/tutorials/aws-tutorial/aws-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "AWS EMR",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. How do you upgrade or downgrade a system with near-zero downtime?",
+    "answer": "You can upgrade or downgrade a system with near-zero downtime using the following steps of migration:",
+    "source": "https://www.simplilearn.com/tutorials/aws-tutorial/aws-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "AWS EMR",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. Is there any other alternative tool to log into the cloud environment other than console?",
+    "answer": "These can help you log into the AWS resources:",
+    "source": "https://www.simplilearn.com/tutorials/aws-tutorial/aws-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "AWS EMR",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What services can be used to create a centralized logging solution?",
+    "answer": "The essential services that you can use are Amazon CloudWatch Logs, store them inAmazon S3,and then use Amazon Elastic Search to visualize them. You can use Amazon Kinesis Firehose to move the data from Amazon S3 to Amazon ElasticSearch.",
+    "source": "https://www.simplilearn.com/tutorials/aws-tutorial/aws-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "AWS EMR",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What Is AWS And Why Is It So Popular?",
+    "answer": "Amazon Web Services (AWS)is an important cloud computing platform known for its wide service offerings. Its popularity is developed through its scalability, cost-effectiveness, and global infrastructure. Businesses increased the AWS to efficiently scale operations, reduce costs, and innovate rapidly.",
+    "source": "https://www.geeksforgeeks.org/cloud-computing/aws-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "AWS EMR",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What Is An EC2 Instance And How Does It Work?",
+    "answer": "AnEC2 instanceis essentially a virtual server running in the AWS cloud. When you \"launch\" an EC2 instance, you're setting up a virtual machine with the operating system and software stack you've selected (e.g., a Linux server with Apache).",
+    "source": "https://www.geeksforgeeks.org/cloud-computing/aws-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "AWS EMR",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. How Does Auto Scaling Work In AWS?",
+    "answer": "Auto Scalingis like having an intelligent traffic manager for your application. It automatically adjusts the number of EC2 instances running your application based on real-time traffic demands and predefined policies. For instance, during the high traffic periods,Auto Scaling adds instances, improving optimal performance as per the policies configuration. Conversely, while during low traffic, it will reduce the number of instances , optimizes the cost efficiency maintaining high availability.",
+    "source": "https://www.geeksforgeeks.org/cloud-computing/aws-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "AWS EMR",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What Is The AWS Free Tier, And What Services Are Included?",
+    "answer": "TheAWS Free Tierprovides a set of AWS services for limited at no cost for the duration of 12 months. The services include EC2, S3, Lambda etc.. This helps the users to explore and experiment with AWS services without suffering with charges and helps in making a kick starting point for cloud beginners.",
+    "source": "https://www.geeksforgeeks.org/cloud-computing/aws-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "AWS EMR",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What Are Key-Pairs In AWS?",
+    "answer": "A key pair consists of two types of keys - a public key and a private key. The public key is used to encrypt data and stored on the AWS EC2 instance while a private key is used to decrypt data and  is kept by the user. Whenever you want to connect to an AWS EC2 instance a key-pair works as a security credential to prove your secure authentication identity and access to EC2 instance via SSH.",
+    "source": "https://www.geeksforgeeks.org/cloud-computing/aws-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "AWS EMR",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What Is Elastic Load Balancing (ELB) And How Does It Function?",
+    "answer": "Elastic Load balancer ( ELB )is a service provided by AWS that helps in distribution of incoming traffic of the applications across multi targets such as EC2 instances, containers etc.. in one or more Availability zones. It helps in improving fault tolerance and ensuring the utilization of resources, bringing high availability of the application by preventing a single node ( instance ) faulterance by improving application's resilience.",
+    "source": "https://www.geeksforgeeks.org/cloud-computing/aws-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "AWS EMR",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What Are The Various Load Balancers Provided By AWS?",
+    "answer": "The following are the types of load balancers provided by AWS:",
+    "source": "https://www.geeksforgeeks.org/cloud-computing/aws-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "AWS EMR",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "10. How Is Data Transfer Handled In AWS?",
+    "answer": "The data transfer in AWS happens in between regions, within regions, and between the services. It is essential to consider that these data transfer comes with costs when designing the architectures. For example, transfer of the data between an EC2 instance and an S3 bucket within the same region is often free, but the transfer of data in between inter-region comes with charges.",
+    "source": "https://www.geeksforgeeks.org/cloud-computing/aws-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "AWS EMR",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is EC2?",
+    "answer": "EC2, a Virtual Machine in the cloud on which you have OS-level control. You can run this cloud server whenever you want and can be used when you need to deploy your own servers in the cloud, similar to your on-premises servers, and when you want to have full control over the choice of hardware and the updates on the machine.",
+    "source": "https://www.interviewbit.com/aws-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "AWS EMR",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What is SnowBall?",
+    "answer": "SnowBall is a small application that enables you to transfer terabytes of data inside and outside of the AWS environment.",
+    "source": "https://www.interviewbit.com/aws-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "AWS EMR",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What is CloudWatch?",
+    "answer": "CloudWatch helps you to monitor AWS environments like EC2, RDS Instances, and CPU utilization. It also triggers alarms depending on various metrics.",
+    "source": "https://www.interviewbit.com/aws-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "AWS EMR",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What is Elastic Transcoder?",
+    "answer": "Elastic Transcoder is an AWS Service Tool that helps you in changing a video’s format and resolution to support various devices like tablets, smartphones, and laptops of different resolutions.",
+    "source": "https://www.interviewbit.com/aws-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "AWS EMR",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What do you understand by VPC?",
+    "answer": "VPC stands for Virtual Private Cloud. It allows you to customize your networking configuration. VPC is a network that is logically isolated from other networks in the cloud. It allows you to have your private IP Address range, internet gateways, subnets, and security groups.",
+    "source": "https://www.interviewbit.com/aws-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "AWS EMR",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. DNS and Load Balancer Services come under which type of Cloud Service?",
+    "answer": "DNS and Load Balancer are a part of IaaS-Storage Cloud Service.",
+    "source": "https://www.interviewbit.com/aws-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "AWS EMR",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What are the Storage Classes available in Amazon S3?",
+    "answer": "Storage Classes available with Amazon S3 are:",
+    "source": "https://www.interviewbit.com/aws-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "AWS EMR",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. Explain what T2 instances are?",
+    "answer": "T2 Instances are designed to provide moderate baseline performance and the capability to burst to higher performance as required by the workload.",
+    "source": "https://www.interviewbit.com/aws-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "AWS EMR",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What Is Amazon EMR?",
+    "answer": "Amazon EMR( Elastic Map Reduce ) is an AWS-based platform service that processes large-volume datasets using shared computing frameworks such asApache HadoopandApache Spark. It facilitates the users in quickly setting up, configuring, and scaling virtual server clusters for analyzing and processing vast amounts of data efficiently.",
+    "source": "https://www.geeksforgeeks.org/devops/amazon-emr/",
+    "role": "Big Data Engineer",
+    "skill": "AWS EMR",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How Does Amazon EMR Work?",
+    "answer": "Amazon EMR functionalities simplify the complex processing of large datasets over the cloud. Users can create the clusters and can be utilized with elastic nature ofAmazon EC2instances. The natures of Amazon EC2 instances are configured with pre existing frameworks like Apache Hadoop and Apache Spark. By distributing the processing jobs across the several nodes these clusters effectively handle and guarantee the parallel executions with faster outcomes. It provides scalability by automatically adjusting the cluster size in accordance to workload needs. It optimizes the data storages on integrating with otherAWS services making things easier. Users can find the things easily rather than going for complicated detailing of infrastructure and administration. It provides a simplified approach forbig data analytics.",
+    "source": "https://www.geeksforgeeks.org/devops/amazon-emr/",
+    "role": "Big Data Engineer",
+    "skill": "AWS EMR",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How to Create a Cluster Using EMR? A Step-By-Step Guide",
+    "answer": "Step 1:First, login into your AWS account.",
+    "source": "https://www.geeksforgeeks.org/devops/amazon-emr/",
+    "role": "Big Data Engineer",
+    "skill": "AWS EMR",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How to Become an Elasticsearch Engineer?",
+    "answer": "Elasticsearch is an open-source, distributed search and analytics engine built on top of Apache Lucene. It allows for real-time search capabilities and provides horizontal scalability, high performance, and easy integration with various data sources. Elasticsearch is commonly used for log and event data analysis, full-text search, and analytics applications. Its ability to index and search large volumes of data quickly makes it a preferred choice for many organizations.",
+    "source": "https://www.geeksforgeeks.org/gfg-academy/how-to-become-an-elasticsearch-engineer/",
+    "role": "Big Data Engineer",
+    "skill": "Elasticsearch",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Explain what an API endpoint is?",
+    "answer": "An API endpoint is a specific URL that acts as an entry point into a specific service or a functionality within a service.Through an API endpoint, client applications can interact with the server sending requests (sometimes even with data in the form of payload) and receive a response from it.Usually, each endpoint can be mapped to a single feature inside the server.",
+    "source": "https://roadmap.sh/questions/backend",
+    "role": "Big Data Engineer",
+    "skill": "Elasticsearch",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Can you explain the difference between SQL and NoSQL databases?",
+    "answer": "SQL databases(or relational databases as they’re also known) rely on a predefined schema (or structure) for their data. Whenever you describe a record, or table inside the database, you do so through its format (name and fields).InNoSQLdatabases, there is no schema, so there is no predefined structure to the data. You usually have collections of records that are not obligated to have the same structure, even if they represent conceptually the same thing.",
+    "source": "https://roadmap.sh/questions/backend",
+    "role": "Big Data Engineer",
+    "skill": "Elasticsearch",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is a RESTful API, and what are its core principles?",
+    "answer": "For an API to be RESTful (which means it complies with the REST guidelines), it needs to:It needs to follow a client-server architecture (which all HTTP-based services do).It has to provide a uniform interface which means:There should be a way to identify resources from each other through URIs (Unique Resource Identification).There should be a way to modify resources through their representation.Messages should be self descriptive, meaning that each message should provide enough information to understand how to process it.Clients using the API should be able to discover actions available for the current resource using the provided response from the server (this is known as HATEOAS or Hypermedia as the Engine of Application State).It needs to be stateless, which means each request to the server must contain all information to process the request.It should be a layered system, meaning that client and server don’t have to be connected directly to each other, there might be intermediaries,",
+    "source": "https://roadmap.sh/questions/backend",
+    "role": "Big Data Engineer",
+    "skill": "Elasticsearch",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Can you describe a typical HTTP request/response cycle?",
+    "answer": "The HTTP protocol is very structured and consists of a very well-defined set of steps:Open the connection.The client opens a TCP connection to the server. The port will be port 80 for HTTP connections and 443 for HTTPS (secured) connections.Send the request.The client will now send the HTTP request to the server. The request contains the following information:AnHTTP method. It can be any of them (i.e. GET, POST, PUT, DELETE, etc).A URI (or Uniform Resource Identifier). This specifies the location of the resources on the server.The HTTP version (usually HTTP/1.1 or HTTP/2).A set of headers. They include extra data related to the request; there is afull list of HTTP headersthat can be used here.The optional body. Depending on the type of request, you’ll want to also send data, and the data is encoded inside the body of the request.Request processed by the server.At this stage, the server will process the request and prepare a response.Send the HTTP response back to the client.Through the",
+    "source": "https://roadmap.sh/questions/backend",
+    "role": "Big Data Engineer",
+    "skill": "Elasticsearch",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How would you handle file uploads in a web application?",
+    "answer": "From a backend developer perspective, the following considerations should be taken into account when handling file uploads regardless of the programming language you’re using:Perform server-side validations.Validate that the size of your file is within range, and that the file is of the required type. You can checkthis OWASP guidefor more details.Use secure channels.Make sure the file upload is done through an HTTPS connection.Avoid name collision.Rename the file ensuring the new filename is unique within your system. Otherwise this can lead to application errors by not being able to save the uploaded files.Keep metadata about your files.Store it in your database or somewhere else, but make sure to keep track of it, so you can provide extra information to your users. Also, if you’re renaming the files for security and to avoid name collisions, keep track of the original filename in case the file needs to be downloaded back by the user.",
+    "source": "https://roadmap.sh/questions/backend",
+    "role": "Big Data Engineer",
+    "skill": "Elasticsearch",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What kind of tests would you write for a new API endpoint?",
+    "answer": "As backend developers, we have to think about the types of tests that there are out there.Unit tests:Always remember to only test the relevant logic through the public interface of your code (avoid testing private methods or inaccessible functions inside your modules). Focus on the business logic and don’t try to test the code that uses external services (like a database, the disk or anything outside of the piece of code you’re testing).Integration tests:Test the full endpoint through its public interface (the actual HTTP endpoint) and see how it integrates with the external services it’s using (i.e the database, another API, etc).Load testing / performance testing:You might want to also check how the new endpoint behaves under heavy stress. This might not be required depending on the API you’re using, but as a rule of thumb, it’s a good one to perform at the end of the development phase before releasing the new endpoint into prod.",
+    "source": "https://roadmap.sh/questions/backend",
+    "role": "Big Data Engineer",
+    "skill": "Elasticsearch",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How do you approach API versioning in your projects?",
+    "answer": "There are several ways in which you can handle API versioning, but the most common ones are:",
+    "source": "https://roadmap.sh/questions/backend",
+    "role": "Big Data Engineer",
+    "skill": "Elasticsearch",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How do you protect a server from SQL injection attacks?",
+    "answer": "There are many ways to protect your relational database from SQL injection attacks, but here are three very common ones.Prepared statements with parameterized queries.This is probably the most effective way since it’s done by a library or framework, and all you have to do is write your queries leaving placeholders for where the data is meant to go, and then, in a separate place, provide the actual data.Use an ORM (Object-Relational Mapping).These frameworks allow you to abstract the interaction with your database and create the SQL queries for you, taking into account all matters of security around that interaction.Escaping data.If you want to do this manually, you can take care of escaping special characters that might break how you construct your SQL queries. Keeping a list of blacklisted characters to escape in this situation is a good idea, so you can programmatically go through them.",
+    "source": "https://roadmap.sh/questions/backend",
+    "role": "Big Data Engineer",
+    "skill": "Elasticsearch",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Elasticsearch?",
+    "answer": "Elasticsearch is written inJavaand is dual-licensed under the (source-available) Server Side Public License and the Elastic license, with some components falling under the proprietary (source-available) Elastic License. Official clients are available for Java,.NET (C#), PHP, Python, Ruby, and other languages. According to the DB-Engines rankings, Elasticsearch is the most popular enterprise search engine.",
+    "source": "https://www.geeksforgeeks.org/elasticsearch/troubleshooting-common-elasticsearch-problems/",
+    "role": "Big Data Engineer",
+    "skill": "Elasticsearch",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Elasticsearch?",
+    "answer": "At its core, Elasticsearch operates as a distributed system consisting of one or more nodes, each responsible for storing and indexing data. The system uses a decentralized architecture to ensure high availability, fault tolerance, and scalability.",
+    "source": "https://www.geeksforgeeks.org/elasticsearch/what-is-elastic-search-and-why-is-it-used/",
+    "role": "Big Data Engineer",
+    "skill": "Elasticsearch",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Why Elasticsearch is Used?",
+    "answer": "At its core, Elasticsearch operates as a distributed system consisting of one or more nodes, each responsible for storing and indexing data. The system uses a decentralized architecture to ensure high availability, fault tolerance, and scalability.",
+    "source": "https://www.geeksforgeeks.org/elasticsearch/what-is-elastic-search-and-why-is-it-used/",
+    "role": "Big Data Engineer",
+    "skill": "Elasticsearch",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How Does Elasticsearch Work?",
+    "answer": "At its core, Elasticsearch operates as a distributed system consisting of one or more nodes, each responsible for storing and indexing data. The system uses a decentralized architecture to ensure high availability, fault tolerance, and scalability.",
+    "source": "https://www.geeksforgeeks.org/elasticsearch/what-is-elastic-search-and-why-is-it-used/",
+    "role": "Big Data Engineer",
+    "skill": "Elasticsearch",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Where do we use Elasticsearch?",
+    "answer": "Elasticsearch is a good fit for -",
+    "source": "https://www.geeksforgeeks.org/elasticsearch/elasticsearch-search-engine-an-introduction/",
+    "role": "Big Data Engineer",
+    "skill": "Elasticsearch",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is a Container?",
+    "answer": "Docker can be visualized as a big ship (docker) carrying huge boxes of products (containers).",
+    "source": "https://www.interviewbit.com/docker-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Docker",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why Learn Docker?",
+    "answer": "All these aspects form the core part of DevOps which becomes all the more important for any developer to know these in order to improve productivity, fasten the development along with keeping in mind the factors of application scalability and more efficient resource management.",
+    "source": "https://www.interviewbit.com/docker-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Docker",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. How many Docker components are there?",
+    "answer": "There are three docker components, they are - Docker Client, Docker Host, and Docker Registry.",
+    "source": "https://www.interviewbit.com/docker-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Docker",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What are docker images?",
+    "answer": "They are executable packages(bundled with application code & dependencies, software packages, etc.) for the purpose of creating containers. Docker images can be deployed to any docker environment and the containers can be spun up there to run the application.",
+    "source": "https://www.interviewbit.com/docker-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Docker",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What is a DockerFile?",
+    "answer": "It is a text file that has all commands which need to be run for building a given image.",
+    "source": "https://www.interviewbit.com/docker-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Docker",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. Can you tell what is the functionality of a hypervisor?",
+    "answer": "A hypervisor is a software that makes virtualization happen because of which is sometimes referred to as the Virtual Machine Monitor. This divides the resources of the host system and allocates them to each guest environment installed.",
+    "source": "https://www.interviewbit.com/docker-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Docker",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What can you tell about Docker Compose?",
+    "answer": "It is a YAML file consisting of all the details regarding various services, networks, and volumes that are needed for setting up the Docker-based application. So, docker-compose is used for creating multiple containers, host them and establish communication between them. For the purpose of communication amongst the containers, ports are exposed by each and every container.",
+    "source": "https://www.interviewbit.com/docker-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Docker",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. Can you tell something about docker namespace?",
+    "answer": "A namespace is basically a Linux feature that ensures OS resources partition in a mutually exclusive manner. This forms the core concept behind containerization as namespaces introduce a layer of isolation amongst the containers. In docker, the namespaces ensure that the containers are portable and they don't affect the underlying host. Examples for namespace types that are currently being supported by Docker – PID, Mount, User, Network, IPC.",
+    "source": "https://www.interviewbit.com/docker-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Docker",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is Docker, and why is it used?",
+    "answer": "Docker is an open-source platform for application development, from building to scaling. It is preferred for its ability to accelerate the process of building, sharing, and running applications without requiring environment configuration or management.",
+    "source": "https://www.simplilearn.com/tutorials/docker-tutorial/docker-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Docker",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What is a Docker container?",
+    "answer": "A Docker container is a standard software packaging unit that contains code and other dependencies such as system libraries, runtime, system tools, and settings. These speed up the application's running across various environments. In simple terms, Docker can be considered an executable, standalone, and lightweight package.",
+    "source": "https://www.simplilearn.com/tutorials/docker-tutorial/docker-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Docker",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. How do you create a Docker container?",
+    "answer": "ADocker containercan be created using the âdocker container createâ command in the system command. This command establishes the new container from the specified image without starting it immediately. The newly created container is generated in a âcreatedâ state, writable, and open to running specific commands.",
+    "source": "https://www.simplilearn.com/tutorials/docker-tutorial/docker-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Docker",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. How does Docker differ from a virtual machine?",
+    "answer": "Docker is a software platform for creating and running Docker containers, while a Virtual Machine refers to the physical machine that runs an operating system.",
+    "source": "https://www.simplilearn.com/tutorials/docker-tutorial/docker-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Docker",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is a Docker image?",
+    "answer": "Docker imagesare read-only templates in the form of a blueprint or snapshot. They contain guidelines or instructions for creating a container. These images are standalone and executable files that comprise the dependencies, libraries, and files essential for the container.",
+    "source": "https://www.simplilearn.com/tutorials/docker-tutorial/docker-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Docker",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. How do you push and pull Docker images?",
+    "answer": "Docker images are stored in Docker Hub. To obtain the image or pull it, the required command is",
+    "source": "https://www.simplilearn.com/tutorials/docker-tutorial/docker-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Docker",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What is a Dockerfile?",
+    "answer": "A Dockerfile is a text document comprising all the commands required for image assembly. Users call these commands. Examples of Dockerfile commands include âADDâ, âARGâ, âCOPYâ, âLABELâ, and many more.",
+    "source": "https://www.simplilearn.com/tutorials/docker-tutorial/docker-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Docker",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What is a Docker registry?",
+    "answer": "The Docker registry is the centralized storage, management, and distribution system for container images. It comprises Docker repositories that contain different versions of the images. Images from the registry can be accessed through push and pull commands.",
+    "source": "https://www.simplilearn.com/tutorials/docker-tutorial/docker-interview-questions",
+    "role": "Big Data Engineer",
+    "skill": "Docker",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is Docker ?",
+    "answer": "Dockeris a containerization platform that allows to package an application with all its dependencies into one single entity as single container which can be easily deployed and run on any machine that supports docker.  This makes it easier to devlop , test , deploy applications in different environments. It uses container technology to isolate processes and provide a lightweight, portable solution for application deployment.",
+    "source": "https://www.geeksforgeeks.org/devops/docker-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Docker",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What are the Features of Docker?",
+    "answer": "Docker features containerization for providing consistent deployment , using  resources efficient shared kernel utilization, and provides seamless portability across environments. It enhances the security through isolation of containers supporting  versioning and automated builds. It  offers a rich number of pre-built images for streamlined application development and deployment.",
+    "source": "https://www.geeksforgeeks.org/devops/docker-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Docker",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What are the Pros and Cons of Docker?",
+    "answer": "We can use this following command to import a pre-exported Docker image into another host:",
+    "source": "https://www.geeksforgeeks.org/devops/docker-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Docker",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. Can You tell What is the Functionality of a Hypervisor?",
+    "answer": "Ahypervisoris a virtualization software that helps in  running  multiple operating systems (Guest OS) on a single physical host system by providing an isolation between the virtual machines (VMs) and manages their resources.",
+    "source": "https://www.geeksforgeeks.org/devops/docker-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Docker",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. Difference between Docker and Virtualization?",
+    "answer": "Docker usescontainerizationconcept, which shares the host OS kernel for efficiency and speed whereas Virtualization involves running complete OS instances ( Guest Operating systems ) on a hypervisor, which may have more overhead on using resources. The following figure ilustrate on both the Docker and Virtualization Architectures.",
+    "source": "https://www.geeksforgeeks.org/devops/docker-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Docker",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. On What Circumstances Will You Lose Data Stored in a Container?",
+    "answer": "The Data in a container can be lost whenever the container is deleted, or if docker non-persistent storage( Ephemeral storage ) is used without proper data management. To make the data  persistent , it is recommended to use Docker volumes or volume binding ( volume mounts )  are recommended.",
+    "source": "https://www.geeksforgeeks.org/devops/docker-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Docker",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What is Docker Hub?",
+    "answer": "Docker Hubis container registry that serves as a centralized repository forDocker images.It built for developers and open source contributors to find , use , share and download container images.Docker Hub can be used  either host public repos that can be used for free, ordocker private reposfor teams and enterprises.",
+    "source": "https://www.geeksforgeeks.org/devops/docker-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Docker",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "10. What Command Can You Run to Export a Docker Image As an Archive?",
+    "answer": "You can use this following command to export a Docker image as an archive:",
+    "source": "https://www.geeksforgeeks.org/devops/docker-interview-questions/",
+    "role": "Big Data Engineer",
+    "skill": "Docker",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Docker and Big Data Processing?",
+    "answer": "Big data processingconsists of managing and reading large datasets to extract precious insights.Docker,a containerization platform, offers a flexible and scalable environment to perform large data processing duties correctly. By encapsulating applications and their dependencies into boxes, Docker allows clean distribution, replication, and isolation of massive record processing workloads.",
+    "source": "https://www.geeksforgeeks.org/devops/how-to-use-docker-for-big-data-processing/",
+    "role": "Big Data Engineer",
+    "skill": "Docker",
+    "search_strategy": "role_specific"
+  }
+]

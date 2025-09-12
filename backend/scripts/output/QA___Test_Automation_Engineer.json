@@ -1,0 +1,2594 @@
+[
+  {
+    "question": "1. What is Selenium?",
+    "answer": "Seleniumis a widely used tool forTesting Web-Based Applicationsthat checks if they are doing as expected. It is a prominent preference amongst testers forCross-Browser Testingand is viewed as one of the most reliable systems forWeb Application Automationevaluation.",
+    "source": "https://www.geeksforgeeks.org/software-testing/selenium-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the Selenium suite components?",
+    "answer": "Here are four majorComponents of Selenium:",
+    "source": "https://www.geeksforgeeks.org/software-testing/selenium-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is test automation or automation testing?",
+    "answer": "Automated Testingmeans using special software for tasks that people usually do when checking and testing a software product. Nowadays, many software projects use automation testing from start to end, especially inAgileandDevOpsmethods",
+    "source": "https://www.geeksforgeeks.org/software-testing/selenium-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What are the advantages of automation testing?",
+    "answer": "Seleneseare the sets of commands that are used in Selenium ide to perform various operations on the web. It is majorly used to develop coding scripts in Selenium IDE. The element locator helps Selenium to decide which HTML element a command will refer to.",
+    "source": "https://www.geeksforgeeks.org/software-testing/selenium-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is Selenese? How is it classified?",
+    "answer": "Seleneseare the sets of commands that are used in Selenium ide to perform various operations on the web. It is majorly used to develop coding scripts in Selenium IDE. The element locator helps Selenium to decide which HTML element a command will refer to.",
+    "source": "https://www.geeksforgeeks.org/software-testing/selenium-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is the difference between Selenium 2.0 and Selenium 3.0?",
+    "answer": "Selenium 2.0 streamlined creating automated tests for web applications by combining the original Selenium project with the WebDriver project. While Selenium Remote Control (RC) became outdated after the merge, it was still supported for a while to ensure existing tests wouldn't break.",
+    "source": "https://www.geeksforgeeks.org/software-testing/selenium-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What are the testing types supported by Selenium?",
+    "answer": "Selenium is a powerful tool for automated web application testing, supporting various testing types to ensure the quality and functionality of your web applications.",
+    "source": "https://www.geeksforgeeks.org/software-testing/selenium-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What are the different types of annotations which are used in Selenium?",
+    "answer": "These are theTypes of TestNG Annotations:",
+    "source": "https://www.geeksforgeeks.org/software-testing/selenium-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Selenium?",
+    "answer": "Selenium is an open-source (free) automated testing framework for validating web applications across multiple browsers and platforms. Selenium Test Scripts can be written in a variety of programming languages, including Java, C#, Python, and others. Selenium Testing is the term for testing done using the Selenium testing tool.",
+    "source": "https://www.interviewbit.com/selenium-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the Selenium suite components?",
+    "answer": "Selenium is a package of several testing tools. It is therefore often referred to as a Selenium Suite with each of these tools designed to cater to a different testing requirement.",
+    "source": "https://www.interviewbit.com/selenium-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are the advantages of using Selenium as an automation tool?",
+    "answer": "The following are the advantages of usingSelenium for automated testing:",
+    "source": "https://www.interviewbit.com/selenium-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What are the disadvantages of using Selenium as a testing tool?",
+    "answer": "The following are the disadvantages of using Selenium as a testing tool:",
+    "source": "https://www.interviewbit.com/selenium-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is automation testing, and what are its advantages?",
+    "answer": "Automation Testingor Test Automation is a process of automating the manual testing process of an application or a system by using testing tools that allow you to create scripts that can be executed repeatedly, generating detailed test reports of the application or system under test.",
+    "source": "https://www.interviewbit.com/selenium-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. Why should Selenium be selected as a testing tool for web applications or systems?",
+    "answer": "Selenium provides the following advantages, which make it an excellent automated testing framework:",
+    "source": "https://www.interviewbit.com/selenium-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is Selenese? Explain different types of Selenium commands.",
+    "answer": "The language used for writing test scripts in Selenium IDE is called Selenese. It is a set of commands used to test your web application or system. Selenium commands could be divided into 3 major categories:",
+    "source": "https://www.interviewbit.com/selenium-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is exception test in Selenium?",
+    "answer": "An exception test is a test that expects an exception to be thrown inside a test class. It expects a @Test annotation followed by the expected exception name in the brackets.",
+    "source": "https://www.interviewbit.com/selenium-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Selenium?",
+    "answer": "Selenium is an open-source tool used as a free automation testing suite of tools. Licensing is not required and has more benefits than other testing tools. The tests can be done on any operating system, such as Mac, Linux, and Windows. Selenium can be combined with some tools, such as TestNG in Selenium and JUnit, to manage test cases and generate reports.",
+    "source": "https://www.simplilearn.com/tutorials/selenium-tutorial/selenium-interview-questions-and-answers",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the Selenium suite components?",
+    "answer": "It is a Firefox/Chrome plug-in that was developed to speed up the creation of automation scripts. It records the user actions on the web browser and exports them as a reusable script.",
+    "source": "https://www.simplilearn.com/tutorials/selenium-tutorial/selenium-interview-questions-and-answers",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is test automation or automation testing?",
+    "answer": "Test automation or automation testing is the process of using specialized software to control the execution of tests and compare the results with expected outcomes. Automation testing can help reduce the time, cost, and effort required to test software applications by automating repetitive tasks and allowing testers to focus on more critical test cases.",
+    "source": "https://www.simplilearn.com/tutorials/selenium-tutorial/selenium-interview-questions-and-answers",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What are the advantages of automation testing?",
+    "answer": "There are many advantages of automation testing. Perhaps the most obvious is that it can save you time and effort. Automation testing can help speed up the testing process by automating repetitive tasks, such as running the same test cases multiple times or across different browsers.",
+    "source": "https://www.simplilearn.com/tutorials/selenium-tutorial/selenium-interview-questions-and-answers",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is Selenese? How is it classified?",
+    "answer": "Selenese is the set of Selenium commands used to test your web application. The tester can test the broken links, the existence of some objects on the UI, Ajax functionality, alerts, windows, list options, and a lot more using Selenese.",
+    "source": "https://www.simplilearn.com/tutorials/selenium-tutorial/selenium-interview-questions-and-answers",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What are the limitations of Selenium testing?Â",
+    "answer": "Unavailability of reliable tech support: Since Selenium is an open-source tool, it does not have dedicated tech support to resolve user queries.Â",
+    "source": "https://www.simplilearn.com/tutorials/selenium-tutorial/selenium-interview-questions-and-answers",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is the difference between Selenium 2.0 and Selenium 3.0?Â",
+    "answer": "Selenium 2.0 is a tool that makes the development of automated tests for web applications easier. It represents the merger of the original Selenium project with the WebDriver project. Selenium RC was deprecated since the merge but was used for backward compatibility.",
+    "source": "https://www.simplilearn.com/tutorials/selenium-tutorial/selenium-interview-questions-and-answers",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What are the testing types supported by Selenium?Â",
+    "answer": "Selenium supports Regression testing and Functional testing.Â",
+    "source": "https://www.simplilearn.com/tutorials/selenium-tutorial/selenium-interview-questions-and-answers",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How to send ALT/SHIFT/CONTROL keys at once in Selenium WebDriver?",
+    "answer": "Usually, we hold down these keys and click other buttons to achieve any unique functionality. To hold on to these keys, we need to define two more methods apart from keys.ALT or keys.SHIFT or keys.CONTROL functions. To include more than one key to be pressed or released, we can pass ALT, SHIFT, and CONTROL as parameters together in the modifier key argument.",
+    "source": "https://www.interviewbit.com/selenium-interview-questions-for-5-years-experience/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. How can you upload a file using Selenium WebDriver?",
+    "answer": "We can upload a file using theelement.sendKeys(filepath) command. But before doing so, we need to use the HTML tag ‘input’ with the attribute type as a file. This helps Selenium identify the web element first and upload the file.",
+    "source": "https://www.interviewbit.com/selenium-interview-questions-for-5-years-experience/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What technique should you use throughout the script if there is neither a frame id nor a frame name?",
+    "answer": "In this case, we can use the frame index. Let us consider a webpage that has 4 frames, where none of them have a frame id or name. Upon inspection of the frames, we can find the zero-based index of each of the frames, regardless of the presence of a name or id. The first frame would be at index ‘0’, the second frame at index ‘1’, and so on. Once the frame has been selected, all the subsequent calls on the selected web driver interface will be made to that frame.",
+    "source": "https://www.interviewbit.com/selenium-interview-questions-for-5-years-experience/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. How can you use regular expressions in Selenium?",
+    "answer": "Regexpis a keyword that can be prefixed to a text, to treat it as a regular expression in Selenium.",
+    "source": "https://www.interviewbit.com/selenium-interview-questions-for-5-years-experience/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. You need to retrieve the message in an alert box, without using the getText() method. How will you handle this situation?",
+    "answer": "storeAlert()command can be used to retrieve the message from the alert pop-up. The value is stored in a variable that can be returned using aSystem.out.printlnstatement. You can also use assertEquals() to verify this message.",
+    "source": "https://www.interviewbit.com/selenium-interview-questions-for-5-years-experience/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. Can you explain how you can handle colors in a web driver?",
+    "answer": "We can use the commandgetCSSValue(arg0)to fetch the colours by sending the colour as the argument.",
+    "source": "https://www.interviewbit.com/selenium-interview-questions-for-5-years-experience/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "11. A fresher in your team encounters a ‘StaleElement’ exception while executing an automated test suite. How will you help them solve this issue?",
+    "answer": "There are two causes for this exception. Element in the web page that was a part of the current instance has been refreshed or navigated to another web page.  This causes the element to be destroyed or reconstructed. The second reason is that the element is no longer attached to the DOM. These are the breakthroughs that I will provide my team members with to solve this issue:",
+    "source": "https://www.interviewbit.com/selenium-interview-questions-for-5-years-experience/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "12. How is network data capturing done in Selenium?",
+    "answer": "Network data capturing is done using an API in the default Selenium class. The response includes headers, status codes, timings, and AJAX requests. An instance, Selenium.start(“captureNetworkTraffic=true”) should be started before launching the application. After reaching a point where network traffic is to be captured, you can fire the method:",
+    "source": "https://www.interviewbit.com/selenium-interview-questions-for-5-years-experience/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How does one ensure that the software does what it is supposed to do and doesn’t do what it is not supposed to do?",
+    "answer": "An important thing to keep in mind when learning about software testing is that testing does not improve software quality by itself. Or that a high amount of testing doesn’t mean that the software is high quality. Testing is an indicator of quality, providing crucial feedback to the developers who created the software to take necessary action to fix the problems found in testing.",
+    "source": "https://www.interviewbit.com/software-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Software testing?",
+    "answer": "Software testing involves evaluating and verifying a software product's functionality. Basically, it checks whether the software product matches anticipated requirements and makes sure it is defect-free. It can be said that testing enhances the quality of the product by preventing bugs, reducing development costs, and reducing performance issues.",
+    "source": "https://www.interviewbit.com/software-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the different types of testing?",
+    "answer": "You can test the software in many different ways. Some types of testing are conducted by software developers and some by specialized quality assurance staff. Here are a few different kinds of software testing, along with a brief description of each.",
+    "source": "https://www.interviewbit.com/software-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are the principles of software testing?",
+    "answer": "Software testing is governed by seven principles:",
+    "source": "https://www.interviewbit.com/software-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is regression testing in software testing?",
+    "answer": "The dictionary definition of regression is the act of going back to a previous place or state. In software, regression implies that a feature that used to work suddenly stopped working after a developer added a new code or functionality to the software.",
+    "source": "https://www.interviewbit.com/software-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is exploratory testing?",
+    "answer": "Imagine a tourist in a foreign city. There are two ways in which they can explore the city.",
+    "source": "https://www.interviewbit.com/software-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is end-to-end testing?",
+    "answer": "End to End testing is the process of testing a software system from start to finish. The tester tests the software just like an end-user would. For example, to test a desktop software, the tester would install the software as the user would, open it, use the application as intended, and verify the behavior. Same for a web application.",
+    "source": "https://www.interviewbit.com/software-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is unit testing?",
+    "answer": "Unit testing is the process of testing a single unit of code in an isolated manner. The unit of code can be a method, a class, or a module. Unit testing aims to focus on the smallest building blocks of code to get confidence to combine them later to produce fully functioning software.",
+    "source": "https://www.interviewbit.com/software-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1.What is Automation Testing, and why is it important?",
+    "answer": "Automated Testing allows repetitive tasks to be executed without the intervention of a manual tester. It is used to automate testing tasks that are difficult to perform manually",
+    "source": "https://www.geeksforgeeks.org/software-testing/automation-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the benefits of Automation Testing over Manual Testing?",
+    "answer": "Automation testing is faster, reusable, and reliable for repetitive tasks for the development of the software product. It supports large-scale testing, like load testing, and reduces human error.",
+    "source": "https://www.geeksforgeeks.org/software-testing/automation-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is Selenium, and what are its components?",
+    "answer": "Seleniumis a powerful tool for controlling web browsers through programs. It is functional for all browsers, works on all major OS, and its scripts are written in various languages.",
+    "source": "https://www.geeksforgeeks.org/software-testing/automation-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is the difference between Selenium WebDriver and Selenium IDE?",
+    "answer": "Selenium WebDriver is a tool for writing complex automation scripts with the help of languages like Java or Python and other side Selenium IDE is a browser plugin for recording and playing back simple tests without coding in real time.",
+    "source": "https://www.geeksforgeeks.org/software-testing/automation-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is TestNG, and why is it used??",
+    "answer": "TestNGis a powerfultesting frameworkthat provides features like flexible test configurations, test cases that can be grouped, support for data-driven testing, inbuilt reporting, etc.",
+    "source": "https://www.geeksforgeeks.org/software-testing/automation-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is a locator in Selenium, and what types are available?",
+    "answer": "A locator identifies web elements which is present in the webpages (e.g., buttons, fields) in Selenium. Types include ID, Name, XPath, CSS Selector, Class Name, Tag Name, Link Text, and Partial Link Text.",
+    "source": "https://www.geeksforgeeks.org/software-testing/automation-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is a Page Object Model (POM)?",
+    "answer": "POM is a design pattern which is commonly used in Selenium for Automating the Test Cases. This design pattern can be used with any kind of framework like keyword-driven, Data-driven, hybrid framework, etc.",
+    "source": "https://www.geeksforgeeks.org/software-testing/automation-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is the difference between implicit and explicit waits in Selenium?",
+    "answer": "Implicit wait sets a default wait time for all elements to load in a webpage automation and other-side Explicit wait applies to specific elements, waiting for conditions like visibility or click-ability.",
+    "source": "https://www.geeksforgeeks.org/software-testing/automation-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is automation testing?",
+    "answer": "Automation testing is a software testing strategy in which a tester programmatically runs the tests using a tool or a framework instead of manually going through the test cases and executing them one by one.",
+    "source": "https://www.interviewbit.com/automation-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What is the test automation pyramid?",
+    "answer": "Martin Fowler was the original creator of the test automation pyramid, which was introduced in 2012. It is a strategy for determining how to make the most effective use of the numerous kinds of testing automation available.  The basic tenet of the test pyramid is to have a large number of user interface (UI) unit tests and a small number of complete UI tests.",
+    "source": "https://www.interviewbit.com/automation-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are some of the best practices in test automation?",
+    "answer": "Here are some of the best practices a software development and the testing team should use to ensure quality software.",
+    "source": "https://www.interviewbit.com/automation-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is automated regression testing?",
+    "answer": "Software is never done. The developers are constantly adding new features, functions, fixing bugs, and so on. There is a chance that all this new code might break the existing functionality that was working.",
+    "source": "https://www.interviewbit.com/automation-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. Why do you need cross-browser testing?",
+    "answer": "With web applications, you can’t guarantee the browsers/platforms/devices your users might use to access your software. Some users could be using Google Chrome on their Android phones, some might use Firefox on a Windows desktop machine, or others could use Safari on their Macbooks.",
+    "source": "https://www.interviewbit.com/automation-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is cross-browser testing?",
+    "answer": "With web applications, you don’t know in advance which browsers your users will use. Hence, it’s crucial to test the web application or the website on multiple major browsers running on different operating systems.",
+    "source": "https://www.interviewbit.com/automation-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is browser automation?",
+    "answer": "Browser automation is the technique of programmatically launching a web application in a browser and automatically executing various actions, just as a regular user would. Browser testing gives you the speed and efficiency that would be impossible for a human tester. Protractor, Cypress, and Selenium are some of the popular tools used in-browser testing.",
+    "source": "https://www.interviewbit.com/automation-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is a test environment?",
+    "answer": "A test environment is a computer or a server on which a tester tests the software. After the team builds the software, the tester installs it on this computer with all its dependencies, just like the production environment. This allows the tester to test the software in a real-world scenario.",
+    "source": "https://www.interviewbit.com/automation-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Selenium",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is an API?",
+    "answer": "An API (Application Programming Interface) is a set of rules that allows different software applications to communicate with each other. APIs define methods and data structures that developers can use to interact with the software, whether it's a web service, a library, or a system interface.",
+    "source": "https://www.geeksforgeeks.org/software-testing/cypress-api-testing/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Cypress",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why is Test Automation Important?",
+    "answer": "Test automation is crucial for some reasons:",
+    "source": "https://www.geeksforgeeks.org/software-testing/getting-started-with-cypress-test-automation/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Cypress",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Cypress Framework?",
+    "answer": "Cypress is the latest end-to-end Framework which is used for testing of web applications. It is developed in JavaScript language and runs on browser either Chrome, Edge, or other browsers. It provides a unique experience that another framework does not provide.",
+    "source": "https://www.geeksforgeeks.org/software-testing/getting-started-with-cypress-test-automation/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Cypress",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Cypress?",
+    "answer": "Cypress can be best described as an end-to-endtesting frameworkthat allows developers to writeautomated testsfor web applications. It provides a comprehensive solution for testing everything from user interactions to backend processes. Cypress is built on top ofJavaScript, which makes it particularly appealing for developers who are already familiar with web development technologies. Its syntax andAPIare straightforward and intuitive, enabling developers to write tests quickly and effectively.",
+    "source": "https://www.geeksforgeeks.org/software-testing/introduction-to-cypress-testing-framework/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Cypress",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What makes it a unique tool?",
+    "answer": "Cypress adopts a client-server architecture, with the client running in the browser.",
+    "source": "https://www.geeksforgeeks.org/software-testing/introduction-to-cypress-testing-framework/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Cypress",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What are its components?",
+    "answer": "Cypress stands out as a versatile and efficient testing framework, empowering developers to write and execute tests with ease. Its unique architecture, coupled with a rich set of features, makes it a valuable asset for ensuring the quality and reliability of web applications. As the demand for robust testing solutions continues to rise, Cypress's ability to seamlessly integrate with modern development workflows and its growing community support position it at the forefront of front-end testing tools.",
+    "source": "https://www.geeksforgeeks.org/software-testing/introduction-to-cypress-testing-framework/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Cypress",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What are the common differences between Selenium and Cypress?",
+    "answer": "Cypress stands out as a versatile and efficient testing framework, empowering developers to write and execute tests with ease. Its unique architecture, coupled with a rich set of features, makes it a valuable asset for ensuring the quality and reliability of web applications. As the demand for robust testing solutions continues to rise, Cypress's ability to seamlessly integrate with modern development workflows and its growing community support position it at the forefront of front-end testing tools.",
+    "source": "https://www.geeksforgeeks.org/software-testing/introduction-to-cypress-testing-framework/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Cypress",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What if Registers are all occupied and we have used register storage class? What will happen.",
+    "answer": "Write a function which takes in two variables, adds two numbers and returns pointer to the variable. (knowledge of stack frame, malloc, calloc is checked).",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/cypress-semiconductor-interview-experience-on-campus/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Cypress",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why 4 bytes are taken care off in padding?",
+    "answer": "Write a C code to set and unset a bit at a given position in C. (bit manipulation)",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/cypress-semiconductor-interview-experience-on-campus/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Cypress",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "15. Any Questions from your side?",
+    "answer": "Tell me about yourself which is not there in your resume.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/cypress-semiconductor-interview-experience-on-campus/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Cypress",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Are Linux and Ubuntu different and what is relation between them (just to check confidence interviewer will prompt you, are you sure?)",
+    "answer": "Will you work in Cypress, if you have work only in C language.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/cypress-semiconductor-interview-experience-on-campus/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Cypress",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What steps do you take when you have to complete your task but you are facing some difficulty?",
+    "answer": "Any plans for future studies.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/cypress-semiconductor-interview-experience-on-campus/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Cypress",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Cypress?",
+    "answer": "Cypressis an end-to-end testing tool that seeks to simplify the process and increase its accuracy. It runs inside a browser, offering a native and well optimized environment for working with your application. It is different from other testing frameworks because it executes in the same process as your application, providing you with feedback and live session control.",
+    "source": "https://www.geeksforgeeks.org/software-testing/cypress-build-first-test/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Cypress",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. In how many ways we can declare variables in TypeScript?",
+    "answer": "In TypeScript, there are three ways in which we can declare variables:",
+    "source": "https://www.geeksforgeeks.org/typescript/typescript-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Playwright",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. How you can declare a explicit variables in Typescript?",
+    "answer": "In typeScript, you can declare static variables using the colons(:)followed by the data type of the explicit type. You can not assign a value of some other data type to a static variable. The values of the same data type can be assigned.",
+    "source": "https://www.geeksforgeeks.org/typescript/typescript-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Playwright",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. How to declare a function with typed annotation in TypeScript?",
+    "answer": "In TypeScript, you can declare the functions by defining the type of parameters the take and the type of parameter it will return after the execution.",
+    "source": "https://www.geeksforgeeks.org/typescript/typescript-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Playwright",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What are the advantages of using TypeScript?",
+    "answer": "There are a lot of advantages of using TypeScript, some of them are listed below:",
+    "source": "https://www.geeksforgeeks.org/typescript/typescript-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Playwright",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is type null and its use in TypeScript?",
+    "answer": "Thenullkeyword is considered as a data type in TypeScript as well as in JavaScript. The null keyword basically indicates the unavailability of a value. It can be used to check whether a value is provided to a particular variable or not.",
+    "source": "https://www.geeksforgeeks.org/typescript/typescript-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Playwright",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "11. Can we specify the optional properties to TypeScript Object, if Yes, explain How?",
+    "answer": "Yes, we can declare the TypeScript Objects by specifying the optional properties that may or may not be defined inside the object. We can declare these peoperties by using a?symbol just after the property name while creeating the object.",
+    "source": "https://www.geeksforgeeks.org/typescript/typescript-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Playwright",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "14. How can you compile a TypeScript file?",
+    "answer": "To compile a TypeScript file, you use the tsc (TypeScript Compiler) command. You can compile a TypeScript file by running:",
+    "source": "https://www.geeksforgeeks.org/typescript/typescript-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Playwright",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "16. What is \"in\" operator and why it is used in TypeScript?",
+    "answer": "Theinoperator is used to check whether a property is present in the testing object or not. It will return true, if it finds the property in the object. Otherwise, it will return false.",
+    "source": "https://www.geeksforgeeks.org/typescript/typescript-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Playwright",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is a Playwright?",
+    "answer": "Playwright, developed by Microsoft, is an open-source web automation framework that provides a high-level API control and is compactable with many browsers such as Chromium, Firefox, etc. It is often used for web testing, scraping, and other browser-related actions.",
+    "source": "https://www.geeksforgeeks.org/software-testing/difference-between-playwright-and-selenium/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Playwright",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Selenium?",
+    "answer": "Seleniumis an open-source suite for web browser automation. It comprises various components and allows testers and developers to write scripts that can control web browsers, interact with web elements, and perform various tasks on web applications.",
+    "source": "https://www.geeksforgeeks.org/software-testing/difference-between-playwright-and-selenium/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Playwright",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Want a Top Software Development Job? Start Here!",
+    "answer": "Here is a list of all possible TypeScript interview questions asked to freshers and their answers.",
+    "source": "https://www.simplilearn.com/typescript-interview-questions-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Playwright",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is TypeScript?",
+    "answer": "TypeScript is a superset of JavaScript. It is an object-oriented and tightly typedprogramming language. TypeScript code is transformed to JavaScript, which may be used in any environment that supports JavaScript, including browsers,Node.js,and your own applications.",
+    "source": "https://www.simplilearn.com/typescript-interview-questions-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Playwright",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. What is the use of the tsconfig.json file?",
+    "answer": "The tsconfig.json file is a JSON format file where you may specify several options to inform the compiler how to compile a project. The presence of this file in the directory implies that it is the TypeScript project root.",
+    "source": "https://www.simplilearn.com/typescript-interview-questions-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Playwright",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "12. What is meant by contextual typing?",
+    "answer": "When one side of the equation has type but the other does not, the TypeScript compiler determines the form. You can skip typing on the right side because TypeScript will figure it out for you. This reduces the amount of time spent typing code.",
+    "source": "https://www.simplilearn.com/typescript-interview-questions-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Playwright",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "13. What is JSX?",
+    "answer": "It's a syntax that's similar to XML and can be embedded. It must be converted into TypeScript that is valid. The JSX file with the.tsx extension is used.",
+    "source": "https://www.simplilearn.com/typescript-interview-questions-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Playwright",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "15. What are import and export keywords in TypeScript?",
+    "answer": "Import keyword is used to export declaration. Example: export * from module",
+    "source": "https://www.simplilearn.com/typescript-interview-questions-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Playwright",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "16. Can TypeScript be used for the backend?",
+    "answer": "By combining TypeScript with Node.js, backend applications can benefit from the added security that the language provides.",
+    "source": "https://www.simplilearn.com/typescript-interview-questions-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Playwright",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "17. How will you check if a variable is null or undefined in TypeScript?",
+    "answer": "if(value) return true if value is not null, undefined, empty, false, 0 or NaN.",
+    "source": "https://www.simplilearn.com/typescript-interview-questions-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Playwright",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Appium?",
+    "answer": "Appium is a testing framework for native, hybrid, and web applications. It supports both simulators (iOS) and emulators (Android) as well as actual devices for automation testing (Android and iOS both). Earlier, this tool was limited to mobile application testing and solely focused on IOS and Android applications.",
+    "source": "https://www.interviewbit.com/appium-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What do you mean by Appium Package master? How would you create a package?",
+    "answer": "Appium Package master refers to a set of tools that are used to create and manage Appium packages.",
+    "source": "https://www.interviewbit.com/appium-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3.  Is it possible to use JavaScript to interact with applications while running Appium tests?",
+    "answer": "Yes, we can use javascript to interact with applications while running Appium tests. When we perform the instructions on Appium, the server transmits the script wrapped in an anonymous function to our app, which is then executed.",
+    "source": "https://www.interviewbit.com/appium-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. Can a tester run tests in a multi-threaded environment while using Appium?",
+    "answer": "Yes, Appium allows testers to execute tests in a multithreaded environment. The only thing they have to worry about is that no more than one test runs against the same Appium server at the same time.",
+    "source": "https://www.interviewbit.com/appium-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What are the features of Appium?",
+    "answer": "Following are the features of Appium:-",
+    "source": "https://www.interviewbit.com/appium-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What is mobile application testing and how does it differ from mobile testing?",
+    "answer": "The practice of testing application software produced for handheld mobile devices for functionality, usability, and consistency is known as mobile application testing. Mobile application testing can be done in two ways: automated or manually.",
+    "source": "https://www.interviewbit.com/appium-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What do you understand about end-to-end mobile testing automation? What things should be kept in mind while performing end-to-end mobile testing automation?",
+    "answer": "End-to-end mobile application test automation is a method of testing a software product from beginning to end to ensure that the application flow is as planned. It establishes the product's system mandates and ensures that all integrated components perform as expected.",
+    "source": "https://www.interviewbit.com/appium-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "11. What do you mean by Appium Inspector?",
+    "answer": "Appium offers an \"Inspector\" to record and playback, similar to Selenium IDE's record and playback tool. It inspects the Document Object Model to record and play native application behaviour and provides test scripts in any preferred language. You can use the Inspector in Appium Desktop to look up or locate elements of an application.",
+    "source": "https://www.interviewbit.com/appium-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Mobile Application Testing?",
+    "answer": "Now let's take a look at some frequently asked Mobile App Testing Interview Questions which are categorised in the following sections:",
+    "source": "https://www.interviewbit.com/mobile-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What are the different approaches for testing mobile applications?",
+    "answer": "In terms of how mobile applications are tested, there are two main approaches: manual testing and automated testing.",
+    "source": "https://www.interviewbit.com/mobile-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. In which cases should a QA team use manual testing or automation testing for their mobile test projects?",
+    "answer": "Over the past decades, automation testing has greatly improved the testing process speed and quality. The first step to improving the efficiency of your team is understanding when to make such a switch from manual to automated testing. When deciding whether to use manual or automated testing, you should consider the following factors:",
+    "source": "https://www.interviewbit.com/mobile-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. Which types of automation tools are available for mobile devices?",
+    "answer": "There are two types of automation tools available for testing mobile applications as given below:",
+    "source": "https://www.interviewbit.com/mobile-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. Can you talk about the different types of testing of mobile applications?",
+    "answer": "Different types of mobile application testing include:",
+    "source": "https://www.interviewbit.com/mobile-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. State the difference between a simulator and an emulator?",
+    "answer": "Simulators and emulators are both virtual devices that look and operate like real phones, but they are not real phones. Emulators mimic the hardware/software and OS of mobile applications to test. In a simulator, the basic behavior of a device is simulated instead of the hardware/OS. In a virtual phone, software mimics the functionality of the real device (apart from a few other functions like the camera).",
+    "source": "https://www.interviewbit.com/mobile-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "10. What makes mobile application testing a crucial part of business today?",
+    "answer": "Mobile applications have become a necessity for every business these days because people want everything at their fingertips. When striving for perfection, it's important for developers to evaluate the application regularly to ensure that it meets industry standards. Application testing is one important factor in this process.",
+    "source": "https://www.interviewbit.com/mobile-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "12. How to check/test CPU usage on mobile devices?",
+    "answer": "Google Play and App Store offer a variety of tools for developers to measure CPU usages, such as CPU Monitor, CPU Stats, Usemon, and CPU-Z. You can use these to keep track of processes that run on your device.",
+    "source": "https://www.interviewbit.com/mobile-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is mobile testing?",
+    "answer": "Mobile testing evaluates the functionality, usability, performance, and security of mobile applications across various devices and platforms. It ensures that apps work as intended and meets user expectations.",
+    "source": "https://www.simplilearn.com/mobile-testing-interview-questions-and-answers-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. Can you explain the difference between mobile testing and desktop testing?",
+    "answer": "Mobile testing focuses on testing applications designed for mobile devices, while desktop testing targets applications for desktop or laptop computers. Mobile testing considers touch interface, screen size, and mobile-specific features.",
+    "source": "https://www.simplilearn.com/mobile-testing-interview-questions-and-answers-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What are the types of mobile apps?",
+    "answer": "Mobile applications can be categorized into native, web, and hybrid. Native apps are exclusively built for either of the platforms - iOS or Android. Web apps run in a mobile browser, and hybrid apps possess the features of both native and web apps.",
+    "source": "https://www.simplilearn.com/mobile-testing-interview-questions-and-answers-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What is the importance of mobile testing?",
+    "answer": "Mobile testing ensures that apps perform well across various devices and operating systems, delivering a positive user experience and maintaining the app's reputation and market success.",
+    "source": "https://www.simplilearn.com/mobile-testing-interview-questions-and-answers-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. How do you perform a usability test on a mobile application?",
+    "answer": "Usability testing involves assessing how easily users can interact with the app. Testers observe user actions, collect feedback, and analyze user behavior to identify and address usability issues.",
+    "source": "https://www.simplilearn.com/mobile-testing-interview-questions-and-answers-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. Can you list some common mobile operating systems?",
+    "answer": "Common mobile operating systems include Android, iOS, and, to a lesser extent, Windows Mobile and KaiOS.",
+    "source": "https://www.simplilearn.com/mobile-testing-interview-questions-and-answers-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What tools do you use for mobile testing?",
+    "answer": "Tools for mobile testing include Appium, Selenium, Xcode, Android Studio, and third-party emulators and simulators.",
+    "source": "https://www.simplilearn.com/mobile-testing-interview-questions-and-answers-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What are the challenges in mobile testing?",
+    "answer": "Challenges in mobile testing include device fragmentation, various screen sizes and resolutions, network conditions, and testing on real devices. Ensuring app security and accessibility can also be challenging.",
+    "source": "https://www.simplilearn.com/mobile-testing-interview-questions-and-answers-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Appium for?",
+    "answer": "Appium is used substantially in the field of software test robotization, to help determine whether the functionality of a given app is working as anticipated. In discrepancy to other types of software testing, UI robotization allows testers to write a law that walks through stoner scripts in the factual UI of an operation, mimicking as nearly as possible what happens in the real world while enabling the colorful benefits of robotization, including speed, scale, and thickness.",
+    "source": "https://www.geeksforgeeks.org/python/what-is-appium/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Appium Architecture | How Appium works?",
+    "answer": "At the core, Appium is an HTTP garçon written in nodejs that exposes REST API. The customer communicates with Appium garçon via REST API’s and it's handled by Mobile JSON Wire Protocol.",
+    "source": "https://www.geeksforgeeks.org/python/what-is-appium/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How Appium works on android?",
+    "answer": "For Android bias, Appium uses UI Automator API’s to interact with UI factors of operation Under Test.",
+    "source": "https://www.geeksforgeeks.org/python/what-is-appium/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How Appium works on iOS?",
+    "answer": "For iOS bias, Appium uses Apple’s native XCUITest API to interact with UI factors of operation Under Test. XCUITest is a UI testing frame erected on top of Apple’s unit testing frame, XCTest.",
+    "source": "https://www.geeksforgeeks.org/python/what-is-appium/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How to install Appium and How to Set up in Mac, and Windows?",
+    "answer": "The first step is to corroborate whetherNode.js is formerly installed in the system",
+    "source": "https://www.geeksforgeeks.org/python/what-is-appium/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. When is a good time to automate a test?",
+    "answer": "Under the following conditions, a test is worth automation.",
+    "source": "https://www.simplilearn.com/automation-testing-interview-questions-and-answers-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. When will you avoid automated testing?",
+    "answer": "Here are several circumstances in which a human tester can outperform an automated test suite in terms of software testing.",
+    "source": "https://www.simplilearn.com/automation-testing-interview-questions-and-answers-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. Should you automate all testing?",
+    "answer": "Although there are benefits to test automation, it is impractical to automate all forms of testing. User interface testing, usability testing, and accessibility testing are some types of testing that can only be carried out by a human tester.",
+    "source": "https://www.simplilearn.com/automation-testing-interview-questions-and-answers-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is a test environment?",
+    "answer": "A computer or server can test software, which is referred to as a test environment. The tester installs the team's newly created software, complete with all of its dependencies, on this machine to simulate the production environment. As a result, the programme can be tested in a real-world situation.",
+    "source": "https://www.simplilearn.com/automation-testing-interview-questions-and-answers-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What is browser automation?",
+    "answer": "The process of mechanically opening a web application in a browser and carrying out some more operations automatically is known as \"browser automation.\"",
+    "source": "https://www.simplilearn.com/automation-testing-interview-questions-and-answers-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What is cross-browser testing?",
+    "answer": "In cross-browser testing, a sort of automated browser testing, the tester determines whether or not the online application will function properly on different browsers, including Chrome, Firefox, Internet Explorer, Safari, and others.",
+    "source": "https://www.simplilearn.com/automation-testing-interview-questions-and-answers-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. Why do you need cross-browser testing?",
+    "answer": "You cannot control the browsers, platforms, or devices that your users may use to access your programme while using web apps. However, cross-browser testing guarantees that your web application will function across numerous platforms and devices using various iterations of popular web browsers.",
+    "source": "https://www.simplilearn.com/automation-testing-interview-questions-and-answers-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What is automated regression testing?",
+    "answer": "In the Regression testing method, a tester ensures that no functionality from the old features has been broken. Its unique objective is to confirm that tested and developed functionality continues to function when a brand-new code has been added.",
+    "source": "https://www.simplilearn.com/automation-testing-interview-questions-and-answers-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Appium",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is a test suite?",
+    "answer": "A test suite is a bundle of multiple unit test cases which can be run together. The following image represents how to test suite looks like:",
+    "source": "https://www.interviewbit.com/junit-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "JUnit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What is Unit Testing?",
+    "answer": "Unit testing is a software testing strategy that tests single entities like methods or classes at a time. This helps to ensure that the product quality is met as per the business requirements. It also helps in reducing the technical debt of the application by helping developers discover issues in the code logic due to any changes. It also gives insights into how the code logic implemented could impact future changes.",
+    "source": "https://www.interviewbit.com/junit-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "JUnit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. Why do we use JUnit? Who uses JUnit more - Developers or Testers?",
+    "answer": "JUnit is used more often by developers for implementing unit test cases for the functionalities they have developed. However, these days testers also use this framework for performing unit testing of the applications.",
+    "source": "https://www.interviewbit.com/junit-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "JUnit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What are the features of JUnit?",
+    "answer": "Following are thefeatures of JUnit:",
+    "source": "https://www.interviewbit.com/junit-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "JUnit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. Is it mandatory to write test cases for every logic?",
+    "answer": "No, it is not mandatory. However, test cases can be written for the logic which can be reasonably broken and tested independently.",
+    "source": "https://www.interviewbit.com/junit-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "JUnit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What are some of the important annotations provided by JUnit?",
+    "answer": "Some of the annotations provided by JUnit are as follows:",
+    "source": "https://www.interviewbit.com/junit-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "JUnit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. How will you write a simple JUnit test case?",
+    "answer": "Let us understand how to write a simple JUnit Test Case using an example. Consider a Calculator class that has a method that adds 2 numbers:",
+    "source": "https://www.interviewbit.com/junit-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "JUnit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What will happen if the return type of the JUnit method is String?",
+    "answer": "The test case execution will fail because the JUnit methods are designed to return void.",
+    "source": "https://www.interviewbit.com/junit-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "JUnit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is JUnit?",
+    "answer": "JUnit is a framework designed to facilitate unit testing in Java. It allows developers to write test cases for individual functionalities in their code and run these tests to check if the actual outcomes match the expected results. When tests fail, JUnit provides detailed feedback, making it easier for developers to debug their code.",
+    "source": "https://www.geeksforgeeks.org/advance-java/introduction-of-junit/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "JUnit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Unit Testing?",
+    "answer": "Unit Testing:refers to the practice of testing the smallest parts of an application, known as \"units,\" in isolation from the rest of the system. In this context, a \"unit\" is typically a single method or function. Unit testing is essential because it helps detect bugs early in the development process, ensuring that each part of the code behaves as intended before it integrates with other components.",
+    "source": "https://www.geeksforgeeks.org/advance-java/introduction-of-junit/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "JUnit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+    "answer": "<relativePath/> <!-- lookup parent from repository -->",
+    "source": "https://www.geeksforgeeks.org/advance-java/unit-testing-in-spring-boot-project-using-mockito-and-junit/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "JUnit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How to Write Test Cases in Java Application using Mockito and Junit?",
+    "answer": "Mockito is an open-source testing framework used for unit testing of Java applications. It plays a vital role in developing testable applications. Mockito is used to mock interfaces so that a dummy functionality can be added to a mock interface that can be used in Unit Testing. Unit Testing is a type of software testing in which individual components of the software are tested. The major objective of using the Mockito framework is to simplify the development of a test by mocking external dependencies and using them in the test code. And as a result, Mockito provides a simpler test code that is easier to understand, more readable, and modifiable. Mockito can also be used with other testing frameworks like JUnit and TestNG.",
+    "source": "https://www.geeksforgeeks.org/java/how-to-write-test-cases-in-java-application-using-mockito-and-junit/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "JUnit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+    "answer": "Step 3: Now you have to create one interface named as TodoService and one class named as TodoServiceImpl.",
+    "source": "https://www.geeksforgeeks.org/java/how-to-write-test-cases-in-java-application-using-mockito-and-junit/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "JUnit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Pytest?",
+    "answer": "Pytest is an open-source testing framework that has redefined simplicity and efficiency in Python testing. Its popularity hinges on its ability to support simple unit tests and complex functional testing for applications. What sets Pytest apart is its minimalistic syntax and the ability to write test codes using Python's assert statement, making tests readable and maintainable.",
+    "source": "https://www.geeksforgeeks.org/pytest-tutorial-testing-python-application-using-pytest/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "PyTest",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why Choose Pytest?",
+    "answer": "Testing is like the safety net for our code. It catches the bugs before they cause trouble. In Python, Pytest is the best tool for this. It’s simple to use and powerful enough for most needs. In this guide, we'll explore Pytest through practical examples, which makes it easy to understand.",
+    "source": "https://www.geeksforgeeks.org/pytest-tutorial-testing-python-application-using-pytest/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "PyTest",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "When to Create Fixtures?",
+    "answer": "Fixtures inpytestare used to provide a fixed baseline upon which tests can reliably and repeatedly execute. Fixtures are reusable components that are used to set up a base state for tests. They are particularly useful for setting up complex objects, connecting to databases or doing any setup that might be needed before your tests can run. They are ideal for:",
+    "source": "https://www.geeksforgeeks.org/pytest-tutorial-testing-python-application-using-pytest/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "PyTest",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "When to Avoid Fixtures?",
+    "answer": "In Pytest, while knowing about the importance of creating fixtures it also crucial to know that where to avoid fixtures for the smooth testing.",
+    "source": "https://www.geeksforgeeks.org/pytest-tutorial-testing-python-application-using-pytest/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "PyTest",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How to use Fixtures at Large Scale?",
+    "answer": "When dealing with extensive test suites, it's crucial to manage fixtures efficiently:",
+    "source": "https://www.geeksforgeeks.org/pytest-tutorial-testing-python-application-using-pytest/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "PyTest",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1.  What is __init__?",
+    "answer": "__init__is a contructor method in Python and is automatically called to allocate memory when a new object/instance is created. All classes have a__init__method associated with them. It helps in distinguishing methods and attributes of a class from local variables.",
+    "source": "https://www.interviewbit.com/python-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "PyTest",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What is the difference between Python Arrays and lists?",
+    "answer": "Arrays in python can only contain elements of same data types i.e., data type of array should be homogeneous. It is a thin wrapper around C language arrays and consumes far less memory than lists.",
+    "source": "https://www.interviewbit.com/python-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "PyTest",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. Explain how can you make a Python Script executable on Unix?",
+    "answer": "Script file must begin with#!/usr/bin/env python",
+    "source": "https://www.interviewbit.com/python-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "PyTest",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What is slicing in Python?",
+    "answer": "As the name suggests, ‘slicing’ is taking parts of.",
+    "source": "https://www.interviewbit.com/python-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "PyTest",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is docstring in Python?",
+    "answer": "Documentation string or docstring is a multiline string used to document a specific code segment.",
+    "source": "https://www.interviewbit.com/python-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "PyTest",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What are unit tests in Python?",
+    "answer": "Unit test is a unit testing framework of Python.",
+    "source": "https://www.interviewbit.com/python-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "PyTest",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What is the use of self in Python?",
+    "answer": "Selfis used to represent the instance of the class. With this keyword, you can access the attributes and methods of the class in python. It binds the attributes with the given arguments. self is used in different places and often thought to be a keyword. But unlike in C++, self is not a keyword in Python.",
+    "source": "https://www.interviewbit.com/python-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "PyTest",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What are global, protected and private attributes in Python?",
+    "answer": "Globalvariables are public variables that are defined in the global scope. To use the variable in the global scope inside a function, we use theglobalkeyword.",
+    "source": "https://www.interviewbit.com/python-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "PyTest",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How to Install Pytest?",
+    "answer": "To install Pytest, you can use the package manager for your Python environment, typically either 'pip' or 'condo'. Here are the general steps for installing Pytest using 'pip'.",
+    "source": "https://www.geeksforgeeks.org/python/getting-started-with-pytest/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "PyTest",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What are Python Testing Frameworks?",
+    "answer": "In conclusion, Pytest is powerful and widely-used testing frameworks in Python ecosystem. It offers a simple syntax for writing test, making it easy for developers to get started with testing their code.",
+    "source": "https://www.geeksforgeeks.org/python/getting-started-with-pytest/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "PyTest",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Pytest?",
+    "answer": "Python testingis easy withPytest, an open-source framework packed with features. It facilitates both functional and unit testing and makes it simple to create intricate tests. Among the attributes that contribute to Pytest's popularity are:",
+    "source": "https://www.geeksforgeeks.org/python/how-to-use-pytest-for-efficient-testing-in-python/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "PyTest",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is TestNG?",
+    "answer": "TestNG (Test Next Generation) is a popular testing framework for Java applications that facilitates the efficient and organized execution of test cases. One of its key features is the ability to parameterize tests, allowing developers to run the same test method with different sets of data.",
+    "source": "https://www.geeksforgeeks.org/software-testing/testng-tutorial/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "TestNG",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Software Testing and Why is it important?",
+    "answer": "Software Testingis a process of verifying and validating whether theSoftware ProductorApplicationis working as expected or not. The complete testing includes identifying errors and bugs that cause future problems for the performance of an application.",
+    "source": "https://www.geeksforgeeks.org/software-testing/software-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "TestNG",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the Different Types of Software Testing?",
+    "answer": "There are many ways to test software. SomeTypes of Software Testingare conducted by software developers while some are conducted by specialized quality assurance staff. Here are the different types of software testing with brief descriptions for each.",
+    "source": "https://www.geeksforgeeks.org/software-testing/software-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "TestNG",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is STLC and What are the different phases of STLC?",
+    "answer": "STLCis an important process that provides a simple approach to testing through the step-by-step process to verify whether the Software Quality meets to the expectations or not.",
+    "source": "https://www.geeksforgeeks.org/software-testing/software-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "TestNG",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What are the Different Levels of Testing?",
+    "answer": "Software Testing is essential to verify an application is working properly or not. To achieve this, testing can be done through various stages of development from each component to all system. Those \"stages\", calledLevels of Testing, help to make sure all components of system are working properly.",
+    "source": "https://www.geeksforgeeks.org/software-testing/software-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "TestNG",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is a bug in software testing?",
+    "answer": "A malfunction in the software/system is an error that may cause components or the system to fail to perform its required functions. In other words, an error encountered during the test can cause malfunction. For example, incorrect data description, statements, input data, design, etc.",
+    "source": "https://www.geeksforgeeks.org/software-testing/software-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "TestNG",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. Why is software testing important?",
+    "answer": "Some of the reasonswhy software testing is importantare:",
+    "source": "https://www.geeksforgeeks.org/software-testing/software-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "TestNG",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is a Test Case?",
+    "answer": "Test Case is a detailed document that shows how to check if a part of the software works correctly. It lists the steps to follow, the information needed, and what the result should be. Test cases help make sure the software does what it's supposed to by providing clear instructions. It includes:",
+    "source": "https://www.geeksforgeeks.org/software-testing/software-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "TestNG",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is a test plan, and what does it include?",
+    "answer": "Test Planis a document that consists of all future testing-related activities. It is prepared at the project level and in general, it defines work products to be tested, how they will be tested, and test type distribution among the testers. Before starting testing there will be a test manager who will be preparing a test plan.",
+    "source": "https://www.geeksforgeeks.org/software-testing/software-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "TestNG",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Want a Top Software Development Job? Start Here!",
+    "answer": "Postman is a powerful tool for API testing that offers numerous benefits. Its purpose is to simplify and streamline the process of testing APIs. Some benefits of using Postman for API testing include:",
+    "source": "https://www.simplilearn.com/postman-interview-questions-answers-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. Explain the purpose and benefits of using Postman for API testing?Â",
+    "answer": "Postman is a powerful tool for API testing that offers numerous benefits. Its purpose is to simplify and streamline the process of testing APIs. Some benefits of using Postman for API testing include:",
+    "source": "https://www.simplilearn.com/postman-interview-questions-answers-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. How do you create and send a request in Postman?Â",
+    "answer": "To create and send a request in Postman, follow these steps:",
+    "source": "https://www.simplilearn.com/postman-interview-questions-answers-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What are some key features of Postman that you find most useful in your testing workflow?",
+    "answer": "Â Some key features of Postman that are often found useful in testing workflows include:",
+    "source": "https://www.simplilearn.com/postman-interview-questions-answers-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. How do you handle authentication and authorization in Postman?",
+    "answer": "Postman provides multiple ways to handle authentication and authorization in API requests. Some commonly used methods include:",
+    "source": "https://www.simplilearn.com/postman-interview-questions-answers-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. Can you describe the process of creating and running automated tests in Postman?",
+    "answer": "To create and run automated tests in Postman, follow these steps:",
+    "source": "https://www.simplilearn.com/postman-interview-questions-answers-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What is Postman?",
+    "answer": "Postman is a collaboration platform for API development. It is a recognized API client that enables you to organize the creation, division, testing, and documentation of APIs. We can send HTTP/s requests to a repair and receive their responses using the Postman tool. It will enable us to approve the service's uptime and functionality.",
+    "source": "https://www.simplilearn.com/postman-interview-questions-answers-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What is a collection in Postman?",
+    "answer": "In Postman, a collection allows you to group related requests. You can also use it to organize the requests into folders systematically.",
+    "source": "https://www.simplilearn.com/postman-interview-questions-answers-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. How do you access history of requests in Postman?",
+    "answer": "The request history can be accessed in the History tab provided on the Postman application. If we sign into the Postman account, then the history will be synced across the devices where you are logged in.",
+    "source": "https://www.interviewbit.com/postman-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What is digest auth in Postman?",
+    "answer": "We can do this by selecting the Authorization tab, then selecting “Digest Auth” from the drop-down list. Postman window presents the fields for both stages of the authentication request. The fields required for the second stage of the request are auto-filled based on the data received from the server. For more information, you can referhere.",
+    "source": "https://www.interviewbit.com/postman-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What is a collection in Postman?",
+    "answer": "A collection in Postman helps to group similar requests. It helps in systematically arranging the requests into folders.",
+    "source": "https://www.interviewbit.com/postman-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. Why do we use Postman?",
+    "answer": "We use Postman for the below reasons:",
+    "source": "https://www.interviewbit.com/postman-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. How will you log variable values in Postman?",
+    "answer": "We can log the variable values in Postman in the console by using the command:console.log(pm.variables.get(\"variable_name\"));",
+    "source": "https://www.interviewbit.com/postman-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. How do you access postman variables?",
+    "answer": "It can be accessed by using the variable name as:{{variable_name}}",
+    "source": "https://www.interviewbit.com/postman-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What are the various authorization methods provided by Postman?",
+    "answer": "Postman provides the below API request Authorization Options:",
+    "source": "https://www.interviewbit.com/postman-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What are the different types of API requests supported in Postman?",
+    "answer": "Postman supports the following type of requests:",
+    "source": "https://www.interviewbit.com/postman-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is API testing, and why is it important?",
+    "answer": "API Testingverifies the functionality, performance, and security of application programming interfaces (APIs) by sending requests and validating responses. It is important because APIs enable communication between systems, and testing ensures the reliability and correctness of the software product.",
+    "source": "https://www.geeksforgeeks.org/software-testing/api-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What is an API and Types of APIs?",
+    "answer": "AnApplication Programming Interface (API)is useful for communication between different software systems. It acts as an interface between two applications and allows two software systems to communicate with one another.",
+    "source": "https://www.geeksforgeeks.org/software-testing/api-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What is the difference between REST and SOAP APIs?",
+    "answer": "Here are the Common HTTP Methods used in API Testing:",
+    "source": "https://www.geeksforgeeks.org/software-testing/api-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What are the Different Types of API Testing?",
+    "answer": "Here are the different types of API testing :",
+    "source": "https://www.geeksforgeeks.org/software-testing/api-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What is the role of Postman in API testing?",
+    "answer": "Postman is a tool for designing, testing, and automating API requests. It allows sending requests, validating responses, and scripting tests.",
+    "source": "https://www.geeksforgeeks.org/software-testing/api-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What protocols can be tested using API Testing?",
+    "answer": "API testing can be used to test various protocols that facilitate communication between software systems. Some commonly tested protocols include:",
+    "source": "https://www.geeksforgeeks.org/software-testing/api-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "11. What is the difference between functional and non-functional API testing?",
+    "answer": "An endpoint is a specific URL or route in an API that performs a function, accepting requests and returning responses.",
+    "source": "https://www.geeksforgeeks.org/software-testing/api-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "12. What is an endpoint in API testing?",
+    "answer": "An endpoint is a specific URL or route in an API that performs a function, accepting requests and returning responses.",
+    "source": "https://www.geeksforgeeks.org/software-testing/api-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Ready to take the next step in your tech career?",
+    "answer": "Step Up Your Game with InterviewBit Web Stories",
+    "source": "https://www.interviewbit.com/blog/web-stories/10-essential-postman-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What needs to be verified in API testing?",
+    "answer": "In API Testing, we send a request to the API and then we analyze the responses based on the following parameters:",
+    "source": "https://www.interviewbit.com/api-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What is API?",
+    "answer": "API stands for Application Programming Interface that is useful for communication between different software systems. It facilitates data exchange between systems located in different remote places. They are nothing but a collection of functions that are executable by other functions of the software application.",
+    "source": "https://www.interviewbit.com/api-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. How do APIs work?",
+    "answer": "The general workflow of API is that it takes a request, processes it which might involve data validation, database interaction, data processing, and then the resultant of this is sent back to the source. APIs provide an abstraction to the internal business logic as they are not exposed to the world.",
+    "source": "https://www.interviewbit.com/api-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What are the different types of API testing?",
+    "answer": "There are various types of API testing, they are:",
+    "source": "https://www.interviewbit.com/api-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What protocols can be tested using API Testing?",
+    "answer": "API testing can be used for testing the following protocols:",
+    "source": "https://www.interviewbit.com/api-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What are the most commonly used tools for API testing?",
+    "answer": "The most popularly used tool in the market is PostMan. This tool helps to create manual and automated test cases for testing the APIs in a well-designed manner. Apart from this, there are different tools like JMeter, Parasoft SOAtest, SoapUI, Apigee, API fortress, JUnit, etc.",
+    "source": "https://www.interviewbit.com/api-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What are the advantages of API Testing?",
+    "answer": "There are various advantages of API testing. Some of the most significant advantages are as follows:",
+    "source": "https://www.interviewbit.com/api-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "10. What is the approach followed in API Testing?",
+    "answer": "We follow the below approaches in API Testing:",
+    "source": "https://www.interviewbit.com/api-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What do you understand by RESTful Web Services?",
+    "answer": "The technique of sending a message from the REST client to the REST server in the form of an HTTP request and the server responding back with the response as HTTP Response is called Messaging. The messages contained constitute the data and the metadata about the message.",
+    "source": "https://www.interviewbit.com/rest-api-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. Can you tell the disadvantages of RESTful web services?",
+    "answer": "As the services follow the idea of statelessness, it is not possible to maintain sessions. (Session simulation responsibility lies on the client-side to pass the session id)",
+    "source": "https://www.interviewbit.com/rest-api-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What are the HTTP Methods?",
+    "answer": "HTTP Methods are also known as HTTP Verbs. They form a major portion of uniform interface restriction followed by the REST that specifies what action has to be followed to get the requested resource. Below are some examples of HTTP Methods:",
+    "source": "https://www.interviewbit.com/rest-api-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What are HTTP Status codes?",
+    "answer": "These are the standard codes that refer to the predefined status of the task at the server. Following are the status codes formats available:",
+    "source": "https://www.interviewbit.com/rest-api-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What do you understand by JAX-RS?",
+    "answer": "As the name itself stands (JAX-RS= Java API for RESTful Web Services) is a Java-based specification defined by JEE for the implementation of RESTful services. The JAX-RS library makes usage of annotations from Java 5 onwards to simplify the process of web services development. The latest version is 3.0 which was released in June 2020. This specification also provides necessary support to create REST clients.",
+    "source": "https://www.interviewbit.com/rest-api-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What is the concept of statelessness in REST?",
+    "answer": "The REST architecture is designed in such a way that the client state is not maintained on the server. This is known as statelessness. The context is provided by the client to the server using which the server processes the client’s request. The session on the server is identified by the session identifier sent by the client.",
+    "source": "https://www.interviewbit.com/rest-api-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What are the features of RESTful Web Services?",
+    "answer": "Every RESTful web service has the following features:",
+    "source": "https://www.interviewbit.com/rest-api-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What is URI?",
+    "answer": "Uniform Resource Identifieris the full form of URI which is used for identifying each resource of the REST architecture. URI is of the format:",
+    "source": "https://www.interviewbit.com/rest-api-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Postman",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. And what is REST?",
+    "answer": "REST is an acronym for \"representational state transfer.\" It's a design pattern or architectural style for APIs. A RESTful web application reveals information about itself as resource information.",
+    "source": "https://www.simplilearn.com/rest-assured-interview-questions-and-answers-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "REST Assured",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. And what is JSON?",
+    "answer": "It is a text-based standard used to describe structured data based onJavaScriptobject syntax. JSON is frequently used in web applications to send data to clients and servers.",
+    "source": "https://www.simplilearn.com/rest-assured-interview-questions-and-answers-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "REST Assured",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. Which protocol does RESTful Web Services use?",
+    "answer": "RESTful web services use the HTTP protocol to communicate between the client and the server.",
+    "source": "https://www.simplilearn.com/rest-assured-interview-questions-and-answers-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "REST Assured",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. Why would a programmer use REST Assured to automate RESTful services instead of Postman?",
+    "answer": "Because REST Assured can customize reports, Postman can't do this. Additionally, since REST Assured is a Java client, you can reuse code, whichPostmandoesnât allow. Finally, REST Assured has no restrictions on data file submission for collections, whereas Postman is limited to one data file.",
+    "source": "https://www.simplilearn.com/rest-assured-interview-questions-and-answers-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "REST Assured",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is the request specification?",
+    "answer": "Request specification in REST Assured is used to group common request specs and change them into a single object. This interface has the means to define the base URL, headers, base path, and other parameters. You must use the given() function of the REST Assured class to obtain a reference for the Request specification.",
+    "source": "https://www.simplilearn.com/rest-assured-interview-questions-and-answers-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "REST Assured",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. How do you initiate request specification in REST Assured?",
+    "answer": "All codes courtesy of Techgeek.",
+    "source": "https://www.simplilearn.com/rest-assured-interview-questions-and-answers-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "REST Assured",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "11. How do you perform chaining in REST Assured?",
+    "answer": "In the context of object-oriented programming languages, method chaining is used to invoke multiple method calls. Each method returns an object, which allows multiple calls to be chained into a single line that doesnât require variables to hold interim results.",
+    "source": "https://www.simplilearn.com/rest-assured-interview-questions-and-answers-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "REST Assured",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "13.Â When using REST Assured, whatâs the best method of keeping sensitive data out of the log?",
+    "answer": "Use a blacklist to prevent sensitive data from appearing in the log. Hereâs how:",
+    "source": "https://www.simplilearn.com/rest-assured-interview-questions-and-answers-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "REST Assured",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How to Test API with REST Assured?",
+    "answer": "REST Assured is a Java library that provides a domain-specific language (DSL) for writing powerful, easy-to-maintain tests for RESTful APIs. It allows you to specify the expectations for HTTP responses from a RESTful API, and it integrates seamlessly with JUnit, the most popular testing framework for Java. REST Assured provides a simple, fluent API for specifying the expectations for HTTP responses. Steps to Test API with REST AssuredInstall the REST Assured library. REST Assured is a Java library, so you will need to add it to your project as a dependency. This typically involves adding a line to your \"pom.xml\" file if you are using Maven, or adding the REST Assured JAR file to your classpath if you are using a different build system.Import the REST Assured classes that you need. In order to use REST Assured, you will need to import the relevant classes from the \"io.restassured\" package. For example, you will typically need to import the \"RestAssured\" class, as well as any classes tha",
+    "source": "https://www.geeksforgeeks.org/software-testing/how-to-test-api-with-rest-assured/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "REST Assured",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Postman?",
+    "answer": "Postman is a widely used API testing tool that offers a user-friendly graphical user interface (GUI) for creating, managing, and executing API tests. It provides a comprehensive set of functionalities that make testing APIs more efficient and effective.",
+    "source": "https://www.geeksforgeeks.org/software-testing/postman-vs-rest-assured-for-api-testing/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "REST Assured",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Rest Assured?",
+    "answer": "Rest Assured is a Java-based library specifically designed for API testing. It offers a domain-specific language (DSL) for testing RESTful APIs and integrates seamlessly with Java projects.",
+    "source": "https://www.geeksforgeeks.org/software-testing/postman-vs-rest-assured-for-api-testing/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "REST Assured",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is API testing?",
+    "answer": "API testing refers to the process of testing Application Programming Interfaces (APIs) to ensure their functionality, reliability, performance, and security.Â",
+    "source": "https://www.simplilearn.com/top-api-testing-interview-questions-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "REST Assured",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the types of APIs?",
+    "answer": "There are several types of APIs, including:",
+    "source": "https://www.simplilearn.com/top-api-testing-interview-questions-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "REST Assured",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is a RESTful API?",
+    "answer": "RESTful API (Representational State Transfer) is an architectural style for designing networked applications. It is based on a set of constraints that enable scalability, simplicity, and interoperability.Â",
+    "source": "https://www.simplilearn.com/top-api-testing-interview-questions-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "REST Assured",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is SOAP API?",
+    "answer": "SOAP API (Simple Object Access Protocol) is a protocol for exchanging structured information to implement web services. It usesXMLas its message format and provides a set of rules for message exchange, fault handling, and security.Â",
+    "source": "https://www.simplilearn.com/top-api-testing-interview-questions-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "REST Assured",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is the difference between RESTful API and SOAP API?",
+    "answer": "The main difference between RESTful API and SOAP API lies in their architectural styles and message formats. RESTful API follows the principles of Representational State Transfer (REST) and typically uses HTTP methods such as GET, POST, PUT, and DELETE, with data represented in formats like JSON or XML. On the other hand, SOAP API uses the Simple Object Access Protocol (SOAP) and typically relies on XML for message exchange, with predefined methods and strict message structures.",
+    "source": "https://www.simplilearn.com/top-api-testing-interview-questions-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "REST Assured",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is an API endpoint?",
+    "answer": "An API endpoint refers to a specific URL or URI (Uniform Resource Identifier) that represents a unique resource or service provided by an API. It acts as a point of interaction for clients to send requests and receive responses from an API.Â",
+    "source": "https://www.simplilearn.com/top-api-testing-interview-questions-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "REST Assured",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is an API testing framework?",
+    "answer": "An API testing framework is a set of predefined rules, conventions, and tools that provide a structured approach to designing, implementing, and executing API tests.Â",
+    "source": "https://www.simplilearn.com/top-api-testing-interview-questions-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "REST Assured",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "11. What is the purpose of HTTP status codes in API testing?",
+    "answer": "The purpose of HTTP status codes in API testing is to indicate the outcome of an API request. Status codes are three-digit numbers included in the response message from the server to provide information about the result of the request.",
+    "source": "https://www.simplilearn.com/top-api-testing-interview-questions-article",
+    "role": "QA / Test Automation Engineer",
+    "skill": "REST Assured",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What Is Jenkins Used For?",
+    "answer": "Jenkinsis used for automating software development tasks such as code compilation, testing, code quality checks, artifact creation and deployment. It streamlines the development process, ensuring reliability and quality by automating repetitive tasks in a DevOps context.",
+    "source": "https://www.geeksforgeeks.org/devops/jenkins-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. How To Trigger a Build In Jenkins Manually?",
+    "answer": "To manually trigger a build in Jenkins:",
+    "source": "https://www.geeksforgeeks.org/devops/jenkins-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What Is The Default Path For The Jenkins Password When You Install It?",
+    "answer": "The default path for the Jenkins password when you install it can vary depending on your operating system and how you installed Jenkins. Here are the general default locations for the Jenkins password:",
+    "source": "https://www.geeksforgeeks.org/devops/jenkins-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. How To Integrate Git With Jenkins?",
+    "answer": "To integrate Git with Jenkins:",
+    "source": "https://www.geeksforgeeks.org/devops/jenkins-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What Does \"Poll SCM\" Mean In Jenkins?",
+    "answer": "In Jenkins, \"poll SCM\" means periodically checking a version control system (e.g., Git) for changes. You can schedule how often Jenkins checks for updates. When changes are detected, Jenkins triggers a build, making it a key feature for continuous integration, scheduled tasks, and automated response to code changes.",
+    "source": "https://www.geeksforgeeks.org/devops/jenkins-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. How To Schedule Jenkins Build Periodically (hourly, daily, weekly)? Explain the Jenkins schedule format.",
+    "answer": "To schedule Jenkins builds periodically at specific intervals, you can use the built-in scheduling feature. Jenkins uses a cron-like syntax for scheduling, allowing you to specify when and how often your builds should run. Here's a detailed explanation of the Jenkins schedule format and how to schedule builds:",
+    "source": "https://www.geeksforgeeks.org/devops/jenkins-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What Is Jenkins Home Directory Path?",
+    "answer": "The Jenkins home directory is where Jenkins stores its critical data, including job configurations, logs, plugins, and more. The location of this directory varies by operating system but can typically be found at:",
+    "source": "https://www.geeksforgeeks.org/devops/jenkins-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. How To Integrate Slack With Jenkins?",
+    "answer": "To integrate Slack with Jenkins for notifications:",
+    "source": "https://www.geeksforgeeks.org/devops/jenkins-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is Jenkins?",
+    "answer": "Jenkins is a self-contained, open-source automation server that can be used to automate all sorts of tasks related to building, testing, and delivering or deploying software. Jenkins can be installed through native system packages, Docker, or even run standalone by any machine with a Java Runtime Environment (JRE) installed.",
+    "source": "https://www.interviewbit.com/jenkins-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. Tell me something about Continuous Integration, Continuous Delivery, and Continuous Deployment?",
+    "answer": "Continuous Integration:A software development process where the changes made to software are integrated into the main code as and when a patch is ready so that the software will be always ready to be - built, tested, deployed, monitored - continuously.",
+    "source": "https://www.interviewbit.com/jenkins-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. How can we stop a scheduled job from being executed temporarily?",
+    "answer": "Disable the job from the job details page to temporarily stop all scheduled executions & other factors/events from triggering the job and enable it back to resume the job schedules/triggers. If a job is not required permanently, we can delete the job from the jobs list view page.",
+    "source": "https://www.interviewbit.com/jenkins-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What are the common use cases Jenkins is used for?",
+    "answer": "Jenkins being open-source automation can be used for any kind of software-based automation. Some of the common use-cases include but not limited to -",
+    "source": "https://www.interviewbit.com/jenkins-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What are the ways to install Jenkins?",
+    "answer": "Jenkins can be installed using -",
+    "source": "https://www.interviewbit.com/jenkins-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What is a Jenkins job?",
+    "answer": "A Job/Project is the fundamental unit of a logical work (like a software build, an automation task, test execution, etc) using the Jenkins automation server and other required plugins, configurations & infrastructures.",
+    "source": "https://www.interviewbit.com/jenkins-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What is a Jenkins Pipeline?",
+    "answer": "The pipeline is a special type of Jenkins job - simply a sequence of steps controlled by a defined logic - which Orchestrates long-running activities that can span across multiple build agents. It is suitable for building pipelines (formerly known as workflows) and/or organizing complex activities that cannot be easily achieved using a freestyle job.",
+    "source": "https://www.interviewbit.com/jenkins-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What are the types of Jenkins pipelines?",
+    "answer": "Jenkins Pipelines can be either - a Declarative pipeline or a Scripted Pipeline. Declarative pipeline makes use of numerous, generic, predefined build steps/stages (i.e. code snippets) to build our job according to our build/automation needs whereas, with Scripted pipelines, the steps/stages can be custom-defined & used using a groovy syntax which provides better control & fine-tuned execution levels.",
+    "source": "https://www.interviewbit.com/jenkins-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is Jenkins?",
+    "answer": "Jenkins is an open-source free automation tool used to build and test software projects. The tool makes it painless for developers to integrate changes to the project. Jenkins' primary focus is to keep track of the version control system and initiate and monitor a build system if there are any changes. It keeps an eye on the entire process and provides reports and notifications to alert.",
+    "source": "https://www.simplilearn.com/tutorials/jenkins-tutorial/jenkins-interview-questions",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What are the features of Jenkins?",
+    "answer": "Some of the crucial features of Jenkins are the following:",
+    "source": "https://www.simplilearn.com/tutorials/jenkins-tutorial/jenkins-interview-questions",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What is Groovy in Jenkins?",
+    "answer": "Apache Groovy is a dynamic object-oriented programming language used as a scripting language forJavaplatforms.Â",
+    "source": "https://www.simplilearn.com/tutorials/jenkins-tutorial/jenkins-interview-questions",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. How do you install Jenkins?",
+    "answer": "Follow the steps mentioned below toinstall Jenkins:",
+    "source": "https://www.simplilearn.com/tutorials/jenkins-tutorial/jenkins-interview-questions",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. Which commands can be used to begin Jenkins?",
+    "answer": "Here are the commands used to start Jenkins:",
+    "source": "https://www.simplilearn.com/tutorials/jenkins-tutorial/jenkins-interview-questions",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What is \"Continuous Integration\" with reference to Jenkins?",
+    "answer": "Continuous Integrationis a development practice where the codes can be integrated into a shared repository.Â",
+    "source": "https://www.simplilearn.com/tutorials/jenkins-tutorial/jenkins-interview-questions",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What are the differences between Continuous Integration, Continuous Delivery, and Continuous Deployment?",
+    "answer": "Continuous Integration (CI) is a DevOps software development practice that permits developers to combine/merge the changes to their code in the central repository to run automated builds and tests.",
+    "source": "https://www.simplilearn.com/tutorials/jenkins-tutorial/jenkins-interview-questions",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What is a CI/CD pipeline?",
+    "answer": "CI/CD Pipeline or Continuous Integration/ Continuous Delivery is considered the DevOps approach's backbone. The pipeline is responsible for building codes, running tests, and deploying new software versions.",
+    "source": "https://www.simplilearn.com/tutorials/jenkins-tutorial/jenkins-interview-questions",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is Git?",
+    "answer": "Git is adistributed version control system(DVCS) that is used to track changes in source code during software development. It permits multiple developers to work on a project together without interrupting each other's changes.Gitis especially popular for its speed, and ability to manage both small and large projects capably.",
+    "source": "https://www.geeksforgeeks.org/git/git-interview-questions-and-answers/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What is a repository in Git?",
+    "answer": "AGit repository(or repo) is like a file structure that stores all the files for a project. It continues track changes made to these files over time, helping teams work together evenly. Git can control both local repositories (on your own machine) and remote repositories (usually hosted on platforms likeGitHub,GitLab, orBitbucket), allowing teamwork and backup.",
+    "source": "https://www.geeksforgeeks.org/git/git-interview-questions-and-answers/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What is the difference between Git and GitHub?",
+    "answer": "Aliases can be created to simplify Git commands using:",
+    "source": "https://www.geeksforgeeks.org/git/git-interview-questions-and-answers/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What is origin in Git?",
+    "answer": "In Git, \"origin\" states to the default name offered to the remote repository from which  local repository was cloned.Git originis used as a reference to control fetches, pulls, and pushes.",
+    "source": "https://www.geeksforgeeks.org/git/git-interview-questions-and-answers/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is the purpose of the .gitignore file?",
+    "answer": "The'.gitignore'file tells Git which files and folders to ignore when tracking changes. It is used to avoid attaching unneeded files (like logs, temporary files, or compiled code) to your repository. This saves repository clean and targeted on important files only.",
+    "source": "https://www.geeksforgeeks.org/git/git-interview-questions-and-answers/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What is a version control system (VCS)?",
+    "answer": "Aversion control system(VCS) records the work of developers coordinating on projects. It keeps the history of code changes, permitting developers to add new code, fix bugs, and run tests securely. If required, they can restore a past working version, verifying project security.",
+    "source": "https://www.geeksforgeeks.org/git/git-interview-questions-and-answers/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What is the git push command?",
+    "answer": "The 'git push' command is used to share local repository changes to a remote repository. It changes the remote repository with the recent commits from the fixed local branch.",
+    "source": "https://www.geeksforgeeks.org/git/git-interview-questions-and-answers/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What is the git pull command?",
+    "answer": "The 'git pull' command updates the current local branch with changes from a remote repository and combining it with a local repository.",
+    "source": "https://www.geeksforgeeks.org/git/git-interview-questions-and-answers/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is DevOps?",
+    "answer": "DevOpsis a software development approach that combines Development (Dev) and IT Operations (Ops) to automate and streamline the software development, testing, deployment, and maintenance process.",
+    "source": "https://www.geeksforgeeks.org/devops/devops-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What is a DevOps Engineer?",
+    "answer": "ADevOps Engineeris a professional who combines software development (Dev) and IT operations (Ops) skills to improve and streamline the process of developing, testing, and releasing software.",
+    "source": "https://www.geeksforgeeks.org/devops/devops-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What are the top programming and scripting languages which is important to learn too become DevOps Engineer?",
+    "answer": "For becoming a successful DevOps Engineer it is essential to learn both the programming and scripting languages. You must learn the following languages:",
+    "source": "https://www.geeksforgeeks.org/devops/devops-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What is the use of SSH?",
+    "answer": "SSH (Secure Shell) is a cryptographic network protocol used to securely connect and communicate between two systems over an unsecured network. It provides encrypted communication, ensuring that data such as passwords and commands cannot be intercepted by attackers.",
+    "source": "https://www.geeksforgeeks.org/devops/devops-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is CI/CD?",
+    "answer": "CI And CDis the practice of automating the integration of code changes from multiple developers into a single codebase. It is a software development practice where the developers commit their work frequently to the central code repository (Github or Stash).",
+    "source": "https://www.geeksforgeeks.org/devops/devops-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6.What is the difference between Horizontal and Vertical Scaling?",
+    "answer": "We will discuss about the difference between horizontal and vertical scaling one-by-one:",
+    "source": "https://www.geeksforgeeks.org/devops/devops-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What is the Blue/Green Deployment Pattern?",
+    "answer": "Blue Green Deployment is just like we deploy two versions of our application, one is the stable version, and another is a new feature or bug fix let’s say, forwarding a certain percentage of traffic to the second version as well in production to ensure that everything is working fine.",
+    "source": "https://www.geeksforgeeks.org/devops/devops-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What's the difference between DevOps & Agile?",
+    "answer": "Agile is a method for creating software.",
+    "source": "https://www.geeksforgeeks.org/devops/devops-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is Jenkins?",
+    "answer": "Jenkins is a Continuous Integration (CI) tool that allows code to be developed and tested almost immediately. This is continuously monitored by the CI server which verifies the newly created code. This removes a lot of burden for the testers and provides quicker integration and fewer wasted resources. In this Jenkins tutorial, you will learn all about the basic features of Jenkins and the master-slave architecture used in Jenkins.",
+    "source": "https://www.simplilearn.com/tutorials/jenkins-tutorial",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What is CI/CD Pipeline?",
+    "answer": "The Continuous Integration/Continuous Delivery (CI/CD) pipeline is a concept that introduces a series of events connected in a sequence to make quick software releases. In this Jenkins tutorial, you will learn all about continuous integration, continuous delivery, the different steps involved in creating a CI/CD pipeline and also create your own CI/CD pipeline with Jenkins.",
+    "source": "https://www.simplilearn.com/tutorials/jenkins-tutorial",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. How to Install Jenkins on Windows?",
+    "answer": "Jenkins can be installed on Windows and Unix platforms. In this Jenkins tutorial, we will give you a step by step guide of how to install Jenkins on a Windows platform.",
+    "source": "https://www.simplilearn.com/tutorials/jenkins-tutorial",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How To Set Up Continuous Integration With Git and Jenkins?",
+    "answer": "Continuous Integration (CI) is a practice where developers integrate their code into a shared repository frequently, ideally several times a day. Each integration can then be verified by an automated build and automated tests. This practice helps to detect errors quickly and improve software quality. Jenkins is one of the most popular tools for implementing CI. This article will guide you through the process of setting up CI using Git and Jenkins.",
+    "source": "https://www.geeksforgeeks.org/git/how-to-set-up-continuous-integration-with-git-and-jenkins/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Jenkins",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is DevOps, and why is it important?",
+    "answer": "DevOps is a set of practices that combines software development (Dev) and IT operations (Ops). Its main goal is to shorten (and simplify) the software development lifecycle and provide continuous delivery with high software quality.It is important because it helps to improve collaboration between development and operations teams which in turn, translates into increasing deployment frequency, reducing failure rates of new releases, and speeding up recovery time.",
+    "source": "https://roadmap.sh/questions/devops",
+    "role": "QA / Test Automation Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is a container, and how is it different from a virtual machine?",
+    "answer": "A container is a runtime instance of a container image (which is a lightweight, executable package that includes everything needed to run your code). It is the execution environment that runs the application or service defined by the container image.When a container is started, it becomes an isolated process on the host machine with its own filesystem, network interfaces, and other resources. Containers share the host operating system's kernel, making them more efficient and quicker to start than virtual machines.A virtual machine (VM), on the other hand, is an emulation of a physical computer. Each VM runs a full operating system and has virtualized hardware, which makes them more resource-intensive and slower to start compared to containers.",
+    "source": "https://roadmap.sh/questions/devops",
+    "role": "QA / Test Automation Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Docker, and why is it used?",
+    "answer": "Docker is an open-source platform that enables developers to create, deploy, and run applications within lightweight, portable containers. These containers package an application along with all of its dependencies, libraries, and configuration files.That, in turn, ensures that the application can run consistently across various computing environments.Docker has become one of the most popularDevOps toolsbecause it provides a consistent and isolated environment for development, continuous testing, and deployment. This consistency helps to eliminate the common \"It works on my machine\" problem by ensuring that the application behaves the same way, regardless of where it is run—whether on a developer's local machine, a testing server, or in production.Additionally, Docker simplifies the management of complex applications by allowing developers to break them down into smaller, manageable microservices, each running in its own container.This approach not only supports but also enhances scalab",
+    "source": "https://roadmap.sh/questions/devops",
+    "role": "QA / Test Automation Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Can you explain what infrastructure as code (IaC) is?",
+    "answer": "IaC is the practice of managing and provisioning infrastructure through machine-readable configuration files (in other words, “code”), rather than through physical hardware configuration or interactive configuration tools.By keeping this configuration in code format, we now gain the ability to keep it stored in version control platforms, and automate their deployment consistently across environments, reducing the risk of human error and increasing efficiency in infrastructure management.",
+    "source": "https://roadmap.sh/questions/devops",
+    "role": "QA / Test Automation Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What are some common IaC tools?",
+    "answer": "As usual, there are several options out there, some of them specialized in different aspects of IaC.Configuration management toolsIf you’re in search of effective configuration management tools to streamline and automate your IT infrastructure, you might consider exploring the following popular options:AnsibleChefPuppetConfiguration management tools are designed to help DevOps engineers manage and maintain consistent configurations across multiple servers and environments. These tools automate the process of configuring, deploying, and managing systems, ensuring that your infrastructure remains reliable, scalable, and compliant with your organization's standards.Provisioning and orchestration toolsIf, on the other hand, you’re looking for tools to handle provisioning and orchestration of your infrastructure, you might want to explore the following popular options:TerraformCloudFormation (AWS)PulumiProvisioning and orchestration tools are essential for automating the process of setting ",
+    "source": "https://roadmap.sh/questions/devops",
+    "role": "QA / Test Automation Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is version control, and why is it important in DevOps?",
+    "answer": "Version control is a system that records changes to files over time so that specific versions can be recalled later or multiple developers can work on the same codebase and eventually merge their work streams together with minimum effort.It is important in DevOps because it allows multiple team members to collaborate on code, tracks and manages changes efficiently, enables rollback to previous versions if issues arise, and supports automation in CI/CD pipelines, ensuring consistent and reliable software delivery (which is one of the key principles of DevOps).In terms of tooling, one of the best and most popular version control systems is Git. It provides what is known as a distributed version control system, giving every team member a piece of the code so they can branch it, work on it however they feel like it, and push it back to the rest of the team once they’re done.That said, there are other legacy teams using alternatives like CVS or SVN.",
+    "source": "https://roadmap.sh/questions/devops",
+    "role": "QA / Test Automation Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is a microservice, and how does it differ from a monolithic application?",
+    "answer": "A microservice is an architectural style that structures an application as a collection of small, loosely coupled, and independently deployable services (hence the term “micro”).Each service focuses on a specific business domain and can communicate with others through well-defined APIs.In the end, your application is not (usually) composed of a single microservice (that would make it monolith), instead, its architecture consists of multiple microservices working together to serve the incoming requests.On the other hand, a monolithic application is a single (often massive) unit where all functions and services are interconnected and run as a single process.The biggest difference between monoliths and microservices is that changes to a monolithic application require the entire system to be rebuilt and redeployed, while microservices can be developed, deployed, and scaled independently, allowing for greater flexibility and resilience.",
+    "source": "https://roadmap.sh/questions/devops",
+    "role": "QA / Test Automation Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is a build pipeline?",
+    "answer": "A build pipeline is an automated process that compiles, tests, and prepares code for deployment. It typically involves multiple stages, such as source code retrieval, code compilation, running unit tests, performing static code analysis, creating build artifacts, and deploying to one of the available environments.The build pipeline effectively removes humans from the deployment process as much as possible, clearly reducing the chance of human error. This, in turn, ensures consistency and reliability in software builds and speeds up the development and deployment process.",
+    "source": "https://roadmap.sh/questions/devops",
+    "role": "QA / Test Automation Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is DevOps?",
+    "answer": "A group of activities and approaches called DevOps combinessoftware development(Dev) with information technology operations (Ops) to improve the efficiency and quality of software development, delivery, and deployment.",
+    "source": "https://www.simplilearn.com/tutorials/devops-tutorial/devops-interview-questions",
+    "role": "QA / Test Automation Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is a DevOps Engineer?Â",
+    "answer": "ADevOps engineeris an expert in developing, deploying, and maintaining software systems using the DevOps methodology and practices.",
+    "source": "https://www.simplilearn.com/tutorials/devops-tutorial/devops-interview-questions",
+    "role": "QA / Test Automation Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What are the Requirements to Become a DevOps Engineer?",
+    "answer": "Different criteria for becoming a DevOps engineer may exist depending on the business and the individual function. However, some specific fundamental skills and certifications are frequently needed or recommended. They consist of the following:",
+    "source": "https://www.simplilearn.com/tutorials/devops-tutorial/devops-interview-questions",
+    "role": "QA / Test Automation Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What do you know about DevOps?",
+    "answer": "Your answer must be simple. Begin by explaining the growing importance of DevOps in the IT industry. Discuss how such an approach aims to synergize the efforts of the development and operations teams to accelerate the delivery of software products with a minimal failure rate. Include how DevOps is a value-added practice where development and operations engineers join hands throughout the product or service lifecycle, from the design stage to the deployment point.",
+    "source": "https://www.simplilearn.com/tutorials/devops-tutorial/devops-interview-questions",
+    "role": "QA / Test Automation Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How is DevOps different from agile methodology?",
+    "answer": "DevOps is a culturethat allows the development andÂoperations teams to work together. This results inÂcontinuous software development, testing, integration, deployment, and monitoringthroughout the lifecycle.",
+    "source": "https://www.simplilearn.com/tutorials/devops-tutorial/devops-interview-questions",
+    "role": "QA / Test Automation Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What are the different phases in DevOps?",
+    "answer": "The various phases of the DevOps lifecycle are as follows:",
+    "source": "https://www.simplilearn.com/tutorials/devops-tutorial/devops-interview-questions",
+    "role": "QA / Test Automation Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. How will you approach a project that needs to implement DevOps?",
+    "answer": "The following standard approaches can be used to implement DevOps in a specific project:",
+    "source": "https://www.simplilearn.com/tutorials/devops-tutorial/devops-interview-questions",
+    "role": "QA / Test Automation Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is the difference between continuous delivery and continuous deployment?",
+    "answer": "Enables management of and changes to multiple systems.",
+    "source": "https://www.simplilearn.com/tutorials/devops-tutorial/devops-interview-questions",
+    "role": "QA / Test Automation Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is CI/CD Pipeline?",
+    "answer": "Many people think CI/CD and CI/CD Pipeline are the same, but they are a bit different.",
+    "source": "https://www.geeksforgeeks.org/devops/what-is-ci-cd/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Robot Framework?",
+    "answer": "The popularity of the Robot framework is growing as many large tech companies utilize it to assist their software developers to construct and testing cutting-edge computer solutions. Because of its open-source nature, this framework is extremely adaptable, and it can be used with practically any other tool or platform to create something unique. Anyone can use this framework in their projects because every line of code created in it is open source.",
+    "source": "https://www.interviewbit.com/robot-framework-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Automation Frameworks",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What are the features of the robot framework?",
+    "answer": "Following are the features of the robot framework:",
+    "source": "https://www.interviewbit.com/robot-framework-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Automation Frameworks",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What are the benefits of using the Robot Framework?",
+    "answer": "TheBenefits of the Robot Frameworkare listed below:",
+    "source": "https://www.interviewbit.com/robot-framework-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Automation Frameworks",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What are the names of all the file formats that the Robot framework supports?",
+    "answer": "We commonly use files written in simple text format (usually in the .robot form, or in the format of .txt) in Robot Framework, but we can also use files written in Tab separated format or TSV. The plain text data can then be embedded in reStructured text format files.",
+    "source": "https://www.interviewbit.com/robot-framework-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Automation Frameworks",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4.  What do you understand by RIDE in the context of the robot framework?",
+    "answer": "The Ride is the Robot Framework's Integrated Development Environment. An Integrated Development Environment (IDE) is a software application that gives computer programmers a set of tools for authoring and debugging code. there are two ways to go to Ride, as mentioned below:",
+    "source": "https://www.interviewbit.com/robot-framework-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Automation Frameworks",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What are the disadvantages of using the robot framework?",
+    "answer": "Following are the disadvantages of using the robot framework:",
+    "source": "https://www.interviewbit.com/robot-framework-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Automation Frameworks",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What are the different types of variables in the context of the robot framework?",
+    "answer": "Variables are a key component of Robot Framework, and they can be utilized in almost every test data scenario. They're most typically used as arguments for keywords in the Test Case and Keyword sections, although they're also allowed in all settings. A variable cannot be used to specify a standard keyword name, but the BuiltIn keyword Run Keyword can be used to achieve the same result.",
+    "source": "https://www.interviewbit.com/robot-framework-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Automation Frameworks",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. Is it possible to use the Selenium library to speed up or slow down the execution of test cases?",
+    "answer": "Yes, we can use the Set Selenium Speed keyword to modify the execution speed.",
+    "source": "https://www.interviewbit.com/robot-framework-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Automation Frameworks",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What Is JIRA?",
+    "answer": "JIRA is a work management tool developed by the Australian software company, Atlassian. Mainly used for bug and issue tracking as well as project management, JIRA has extensive applications in the software field. While preparing for your JIRA job interview, you need to focus on the important JIRA interview questions and answers. Jira tool interview questions will help you understand the software much better besides enhancing your marketability as a developer orproject manager.Â Â Â Â",
+    "source": "https://www.simplilearn.com/tutorials/jira/top-asked-jira-interview-questions",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Bug Tracking Tools (JIRA)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Did You Know? ðµï¸",
+    "answer": "JIRA is a software tool that was developed by the software company, Atlassian. It is used mainly for bug and issue tracking and project management. It is the perfect solution for organizing tasks and managing agile teams.",
+    "source": "https://www.simplilearn.com/tutorials/jira/top-asked-jira-interview-questions",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Bug Tracking Tools (JIRA)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Jira?",
+    "answer": "JIRA is a software tool that was developed by the software company, Atlassian. It is used mainly for bug and issue tracking and project management. It is the perfect solution for organizing tasks and managing agile teams.",
+    "source": "https://www.simplilearn.com/tutorials/jira/top-asked-jira-interview-questions",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Bug Tracking Tools (JIRA)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. Why is JIRA used? /What are the benefits of using JIRA?",
+    "answer": "JIRA is used as a project tracking tool with benefits like:",
+    "source": "https://www.simplilearn.com/tutorials/jira/top-asked-jira-interview-questions",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Bug Tracking Tools (JIRA)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. Can you access JIRA cloud site via mobile device?",
+    "answer": "Yes, one can access JIRA cloud site via mobile device by using the URL of cloud site in the mobile web browser.",
+    "source": "https://www.simplilearn.com/tutorials/jira/top-asked-jira-interview-questions",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Bug Tracking Tools (JIRA)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is the use of JIRA dashboard?",
+    "answer": "It is the first display we notice upon login to the Jira. The dashboard shows tools and applications that help users to track progress of a project. It also includes important information like userâs activity info, issues assigned, etc. Admin can change the view and items displayed on the dashboard.Â",
+    "source": "https://www.simplilearn.com/tutorials/jira/top-asked-jira-interview-questions",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Bug Tracking Tools (JIRA)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What are the issue types in Scrum project?",
+    "answer": "In JIRA, an individual unit of work is referred to as issue. The types include:",
+    "source": "https://www.simplilearn.com/tutorials/jira/top-asked-jira-interview-questions",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Bug Tracking Tools (JIRA)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "12. What is cloning?",
+    "answer": "Cloning allows the user to create duplicate of original issue, such that multiple team members can work on a single issue. The clone issue can be linked to original issue, and holds information like:",
+    "source": "https://www.simplilearn.com/tutorials/jira/top-asked-jira-interview-questions",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Bug Tracking Tools (JIRA)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Conclusion: The End of Manual Testing?",
+    "answer": "Is Manual Testing Coming to an End?this question is in every mind of the manual tester by seeing the growth of automation testing and we know all know automation testing is a step ahead of manual testing in many terms such as automation testing is time efficient etc.",
+    "source": "https://www.geeksforgeeks.org/software-testing/manual-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Bug Tracking Tools (JIRA)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the Advantages of Manual Testing?",
+    "answer": "Quality Controlis a set of methods that are used by the organization to ensure the quality of software by identifying defects and correcting defects in the developed software.",
+    "source": "https://www.geeksforgeeks.org/software-testing/manual-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Bug Tracking Tools (JIRA)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are the Drawbacks of Manual Testing?",
+    "answer": "Quality Controlis a set of methods that are used by the organization to ensure the quality of software by identifying defects and correcting defects in the developed software.",
+    "source": "https://www.geeksforgeeks.org/software-testing/manual-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Bug Tracking Tools (JIRA)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is Quality Control(QC) in testing?",
+    "answer": "Quality Controlis a set of methods that are used by the organization to ensure the quality of software by identifying defects and correcting defects in the developed software.",
+    "source": "https://www.geeksforgeeks.org/software-testing/manual-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Bug Tracking Tools (JIRA)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. How Manual Testing is different from Automated Testing?",
+    "answer": "Manual testing is a software testing process in which a tester tests each test case one by one in an individual manner. Whereas in automated testing, the tester utilizes tools and scripts to automate testing efforts. Here are theDifference between Manual and Automated testing.",
+    "source": "https://www.geeksforgeeks.org/software-testing/manual-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Bug Tracking Tools (JIRA)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. Who is a Manual Tester and What is the work they have to do?",
+    "answer": "The manual tester is a professional who is responsible for conducting quality checks on the software applications without usingautomation tools. They are responsible for manually checking the software for errors and fixing them. They must have appropriate skills to be able to meet the company's requirements.",
+    "source": "https://www.geeksforgeeks.org/software-testing/manual-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Bug Tracking Tools (JIRA)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is the role of documentation in Manual Testing?",
+    "answer": "Documentation plays a vital role in manual testing. It is important to document all steps taken in the testing process to ensure sufficient test coverage and accurate results. It provides an audit trail, which can be used to evaluate past test results and identify areas of improvement. It also serves as a reference for other testers who may be unfamiliar with the system.",
+    "source": "https://www.geeksforgeeks.org/software-testing/manual-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Bug Tracking Tools (JIRA)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What are the Priority and Severity in Software Testing?",
+    "answer": "Priority is the order in which the developer should resolve the defect, on the other hand, Severity is the degree of impact that defect has on the operation of the product.",
+    "source": "https://www.geeksforgeeks.org/software-testing/manual-testing-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Bug Tracking Tools (JIRA)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is an Issue?",
+    "answer": "An issue in Jira is a unit of work that needs to be completed. It can represent anything from a software bug to a project task to a helpdesk ticket. Issues are the building blocks of any Jira project, and they are used to track progress, assign tasks, and communicate with team members.",
+    "source": "https://www.geeksforgeeks.org/software-testing/jira-issues/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Bug Tracking Tools (JIRA)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What are Issue Types?",
+    "answer": "Jira comes with a number of pre-defined issue types, such as bug, task, story, and epic. You can also create custom issue types to meet the specific needs of your project. Issue types are used to categorize issues and to control the workflow for each type of issue.",
+    "source": "https://www.geeksforgeeks.org/software-testing/jira-issues/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Bug Tracking Tools (JIRA)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Jira Issue Hierarchy?",
+    "answer": "Jira issues can be organized into a hierarchy, with parent issues and child issues. Parent issues represent larger pieces of work, while child issues represent smaller pieces of work that are part of the parent issue. The hierarchy can be used to track the dependencies between issues and to visualize the overall progress of a project.",
+    "source": "https://www.geeksforgeeks.org/software-testing/jira-issues/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Bug Tracking Tools (JIRA)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is the Anatomy of an Issue?",
+    "answer": "Each Jira issue has a number of fields, including:",
+    "source": "https://www.geeksforgeeks.org/software-testing/jira-issues/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Bug Tracking Tools (JIRA)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What are Parent and Child Issues?",
+    "answer": "Parent issues and child issues are two types of issues that are related to each other.",
+    "source": "https://www.geeksforgeeks.org/software-testing/jira-issues/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Bug Tracking Tools (JIRA)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What are Linked Issues?",
+    "answer": "Linked issues are two or more issues that are related to each other, but they are not parent/child issues. For example, you might link a bug issue to a story issue if the bug is preventing the story from being completed.",
+    "source": "https://www.geeksforgeeks.org/software-testing/jira-issues/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Bug Tracking Tools (JIRA)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Agile?",
+    "answer": "Agile is a modern flexible and fast approach to managing and developing projects. It is a more customer-centric approach compared to traditional methods. It includes working in small groups, regular customer interaction, and changing processes. This way of working helps in adaptability and customer satisfaction.",
+    "source": "https://www.geeksforgeeks.org/software-testing/jira-agile/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Bug Tracking Tools (JIRA)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "31.What is Kanban?",
+    "answer": "Kanbanis a popularAgile Software Development Methodology. It is basically a signaling device that instructs the moving of parts in a ‘pull’ production system, developed as part of the TPS (Toyota Production System). Kanban is about envisioning the existing workflow in terms of steps. These steps can be created on the whiteboard.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/agile-software-development-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Bug Tracking Tools (JIRA)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1.What is an Agile Methodology?",
+    "answer": "Agile methodologies are iterative and incremental, which means it’s known for breaking a project into smaller parts and adjusting to changing requirements.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/agile-software-development-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Bug Tracking Tools (JIRA)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are different types of Agile Methodology?",
+    "answer": "Most Common Type of Agile Methodology are:",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/agile-software-development-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Bug Tracking Tools (JIRA)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What are the major Agile components?",
+    "answer": "There are 5 major Agile Components:",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/agile-software-development-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Bug Tracking Tools (JIRA)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What are Agile frameworks?",
+    "answer": "Agile framework is like a special roadmap that helps teams and organizations do their work in a smart and effective way. It's a set of rules and tools for planning, managing, and getting things done. There are two main types of Agile frameworks: one made for teams, like a small group working together, and the other designed to guide big organizations with lots of teams.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/agile-software-development-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Bug Tracking Tools (JIRA)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is Agile Process?",
+    "answer": "The Agile process is an iterative and incremental approach, which means it’s known for breaking a project into smaller parts and adjusting to changing requirements. to software development that emphasizes collaboration, flexibility, and continuous improvement.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/agile-software-development-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Bug Tracking Tools (JIRA)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What are some important parts of the Agile process?",
+    "answer": "Important Part of Agile Processes are:",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/agile-software-development-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Bug Tracking Tools (JIRA)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. Explain Agile Testing?",
+    "answer": "Agile Testing is a type of software testing that follows the principles of agile software development to test the software application. All members of the project team along with the special experts and testers are involved in agile testing.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/agile-software-development-interview-questions/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Bug Tracking Tools (JIRA)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Jira?",
+    "answer": "Jira, from Atlassian, is an issue and bug tracker-basedproject management tool. It is a platform that assists a team in managing projects and tasks and tracking the progress of such projects effectively. While initially designed for software development, Jira has grown to support other project types, including marketing, operations, and business teams.",
+    "source": "https://www.geeksforgeeks.org/software-engineering/a-complete-guide-to-jira-automation-tool/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Bug Tracking Tools (JIRA)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Why is Automation Important for Teams Using It?",
+    "answer": "Automation in Jira replaces tedious processes, minimizes manual intervention, and increases team productivity. Now, here are the reasons automation is crucial for teams:",
+    "source": "https://www.geeksforgeeks.org/software-engineering/a-complete-guide-to-jira-automation-tool/",
+    "role": "QA / Test Automation Engineer",
+    "skill": "Bug Tracking Tools (JIRA)",
+    "search_strategy": "direct"
+  }
+]

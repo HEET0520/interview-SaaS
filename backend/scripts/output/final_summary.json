@@ -1,0 +1,215 @@
+{
+  "search_budget": {
+    "total_budget": 250,
+    "used": 240,
+    "remaining": 10,
+    "searches_per_role": 12,
+    "efficiency": "48.68 Q&A per search"
+  },
+  "total_roles": 20,
+  "roles_processed": [
+    {
+      "role": "AI/ML Architect",
+      "total_skills": 25,
+      "existing_skills": 7,
+      "remaining_skills": 18,
+      "skills_planned": 12,
+      "skills_processed": 12,
+      "qa_pairs_found": 612,
+      "searches_used": 12
+    },
+    {
+      "role": "Data Scientist",
+      "total_skills": 25,
+      "existing_skills": 7,
+      "remaining_skills": 18,
+      "skills_planned": 12,
+      "skills_processed": 12,
+      "qa_pairs_found": 642,
+      "searches_used": 12
+    },
+    {
+      "role": "Data Engineer",
+      "total_skills": 25,
+      "existing_skills": 7,
+      "remaining_skills": 18,
+      "skills_planned": 12,
+      "skills_processed": 12,
+      "qa_pairs_found": 638,
+      "searches_used": 12
+    },
+    {
+      "role": "Prompt Engineer",
+      "total_skills": 25,
+      "existing_skills": 7,
+      "remaining_skills": 18,
+      "skills_planned": 12,
+      "skills_processed": 12,
+      "qa_pairs_found": 426,
+      "searches_used": 12
+    },
+    {
+      "role": "Big Data Engineer",
+      "total_skills": 25,
+      "existing_skills": 6,
+      "remaining_skills": 19,
+      "skills_planned": 12,
+      "skills_processed": 12,
+      "qa_pairs_found": 600,
+      "searches_used": 12
+    },
+    {
+      "role": "Business Intelligence (BI) Analyst",
+      "total_skills": 25,
+      "existing_skills": 7,
+      "remaining_skills": 18,
+      "skills_planned": 12,
+      "skills_processed": 12,
+      "qa_pairs_found": 561,
+      "searches_used": 12
+    },
+    {
+      "role": "Data Analyst",
+      "total_skills": 24,
+      "existing_skills": 7,
+      "remaining_skills": 17,
+      "skills_planned": 12,
+      "skills_processed": 12,
+      "qa_pairs_found": 647,
+      "searches_used": 12
+    },
+    {
+      "role": "Cloud Architect/Engineer",
+      "total_skills": 25,
+      "existing_skills": 6,
+      "remaining_skills": 19,
+      "skills_planned": 12,
+      "skills_processed": 12,
+      "qa_pairs_found": 764,
+      "searches_used": 12
+    },
+    {
+      "role": "DevOps Engineer",
+      "total_skills": 25,
+      "existing_skills": 6,
+      "remaining_skills": 19,
+      "skills_planned": 12,
+      "skills_processed": 12,
+      "qa_pairs_found": 653,
+      "searches_used": 12
+    },
+    {
+      "role": "Site Reliability Engineer (SRE)",
+      "total_skills": 25,
+      "existing_skills": 7,
+      "remaining_skills": 18,
+      "skills_planned": 12,
+      "skills_processed": 12,
+      "qa_pairs_found": 549,
+      "searches_used": 12
+    },
+    {
+      "role": "Cybersecurity Specialist/Analyst",
+      "total_skills": 25,
+      "existing_skills": 6,
+      "remaining_skills": 19,
+      "skills_planned": 12,
+      "skills_processed": 12,
+      "qa_pairs_found": 634,
+      "searches_used": 12
+    },
+    {
+      "role": "Ethical Hacker/Penetration Tester",
+      "total_skills": 25,
+      "existing_skills": 6,
+      "remaining_skills": 19,
+      "skills_planned": 12,
+      "skills_processed": 12,
+      "qa_pairs_found": 509,
+      "searches_used": 12
+    },
+    {
+      "role": "Full-Stack Developer",
+      "total_skills": 25,
+      "existing_skills": 7,
+      "remaining_skills": 18,
+      "skills_planned": 12,
+      "skills_processed": 12,
+      "qa_pairs_found": 744,
+      "searches_used": 12
+    },
+    {
+      "role": "Software Development Engineer (SDE)",
+      "total_skills": 25,
+      "existing_skills": 7,
+      "remaining_skills": 18,
+      "skills_planned": 12,
+      "skills_processed": 12,
+      "qa_pairs_found": 523,
+      "searches_used": 12
+    },
+    {
+      "role": "Mobile Application Developer",
+      "total_skills": 25,
+      "existing_skills": 7,
+      "remaining_skills": 18,
+      "skills_planned": 12,
+      "skills_processed": 12,
+      "qa_pairs_found": 621,
+      "searches_used": 12
+    },
+    {
+      "role": "Software Architect",
+      "total_skills": 25,
+      "existing_skills": 7,
+      "remaining_skills": 18,
+      "skills_planned": 12,
+      "skills_processed": 12,
+      "qa_pairs_found": 552,
+      "searches_used": 12
+    },
+    {
+      "role": "Blockchain Developer",
+      "total_skills": 25,
+      "existing_skills": 7,
+      "remaining_skills": 18,
+      "skills_planned": 12,
+      "skills_processed": 12,
+      "qa_pairs_found": 418,
+      "searches_used": 12
+    },
+    {
+      "role": "IT Project Manager",
+      "total_skills": 25,
+      "existing_skills": 7,
+      "remaining_skills": 18,
+      "skills_planned": 12,
+      "skills_processed": 12,
+      "qa_pairs_found": 609,
+      "searches_used": 12
+    },
+    {
+      "role": "UI/UX Designer",
+      "total_skills": 25,
+      "existing_skills": 7,
+      "remaining_skills": 18,
+      "skills_planned": 12,
+      "skills_processed": 12,
+      "qa_pairs_found": 589,
+      "searches_used": 12
+    },
+    {
+      "role": "Database Administrator (DBA)",
+      "total_skills": 25,
+      "existing_skills": 5,
+      "remaining_skills": 20,
+      "skills_planned": 12,
+      "skills_processed": 12,
+      "qa_pairs_found": 392,
+      "searches_used": 12
+    }
+  ],
+  "total_qa_pairs": 11683,
+  "failed_searches": [],
+  "completion_status": "completed"
+}

@@ -1,0 +1,1091 @@
+[
+    {
+        "refined_question": "What is a segmentation fault and how does it occur in embedded systems?",
+        "answer": "A segmentation fault is an error that occurs when a program attempts to access a memory location that it is not allowed to access. This can happen when a program tries to read or write to a memory location that is outside of its allocated memory space, or when it tries to access a memory location that is protected or restricted. In embedded systems, segmentation faults can occur due to a variety of reasons such as buffer overflows, null pointer dereferences, or invalid memory accesses. To avoid segmentation faults, embedded systems engineers should ensure that their code is properly validated and tested, and that memory accesses are properly bounded and checked.",
+        "difficulty": "Intermediate",
+        "original_question": "1. What do you understand by segmentation fault?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.interviewbit.com/embedded-c-interview-questions/"
+    },
+    {
+        "refined_question": "What is startup code in embedded systems and what is its purpose?",
+        "answer": "Startup code, also known as boot code or initialization code, is a set of instructions that are executed when an embedded system is powered on or reset. The purpose of startup code is to initialize the system's hardware and software components, set up the memory and stack, and prepare the system for execution of the main program. Startup code typically includes tasks such as initializing the clock, configuring the memory, and setting up the interrupt vectors. It is a critical component of embedded systems, as it ensures that the system is properly initialized and ready to run the main application code.",
+        "difficulty": "Intermediate",
+        "original_question": "2. What do you understand by startup code?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.interviewbit.com/embedded-c-interview-questions/"
+    },
+    {
+        "refined_question": "What is a void pointer in Embedded C and how is it used?",
+        "answer": "A void pointer is a type of pointer in C that can point to any type of object, but it does not have any associated data type with it. Void pointers are used in Embedded C to pass generic pointers to functions, or to store pointers to different types of data in an array. They are also used to implement dynamic memory allocation and deallocation. However, void pointers should be used with caution, as they can lead to type safety issues and bugs if not properly cast to the correct type.",
+        "difficulty": "Intermediate",
+        "original_question": "4. What is Void Pointer in Embedded C and why is it used?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.interviewbit.com/embedded-c-interview-questions/"
+    },
+    {
+        "refined_question": "What is the purpose of the volatile keyword in Embedded C?",
+        "answer": "The volatile keyword in Embedded C is used to inform the compiler that a variable's value can change in ways not explicitly specified by the program. This is typically used for variables that are accessed by multiple tasks or interrupts, or for variables that are mapped to hardware registers. By declaring a variable as volatile, the compiler will not optimize away accesses to the variable, and will always read the variable's value from memory instead of caching it in a register. This ensures that the program always sees the most up-to-date value of the variable.",
+        "difficulty": "Intermediate",
+        "original_question": "5. Why do we use the volatile keyword?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.interviewbit.com/embedded-c-interview-questions/"
+    },
+    {
+        "refined_question": "What is interrupt latency in embedded systems and how is it measured?",
+        "answer": "Interrupt latency in embedded systems refers to the time delay between the occurrence of an interrupt and the start of the interrupt service routine (ISR). It is an important parameter in real-time systems, as it affects the system's ability to respond to events in a timely manner. Interrupt latency can be measured using a variety of techniques, including using a logic analyzer or an oscilloscope to measure the time delay between the interrupt signal and the start of the ISR. Minimizing interrupt latency is critical in embedded systems, as it ensures that the system can respond quickly to events and maintain its real-time performance.",
+        "difficulty": "Advanced",
+        "original_question": "7. What Is Concatenation Operator in Embedded C?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.interviewbit.com/embedded-c-interview-questions/"
+    },
+    {
+        "refined_question": "How can a variable defined in one source file be accessed in another source file in Embedded C?",
+        "answer": "A variable defined in one source file can be accessed in another source file in Embedded C by using the extern keyword. The extern keyword is used to declare a variable that is defined in another file, allowing it to be accessed and used in the current file. For example, if a variable 'x' is defined in file1.c, it can be accessed in file2.c by declaring 'extern int x;' at the top of file2.c. This allows the variable 'x' to be shared between multiple files, enabling communication and data exchange between different parts of the program.",
+        "difficulty": "Beginner",
+        "original_question": "8. What do you understand by Interrupt Latency?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.interviewbit.com/embedded-c-interview-questions/"
+    },
+    {
+        "refined_question": "What is Embedded C Programming and how does it differ from standard C?",
+        "answer": "Embedded C Programming refers to the use of the C programming language to develop software for embedded systems, which are specialized computing systems designed to perform a specific function. Embedded C differs from standard C in that it is typically used to program microcontrollers and other embedded devices, and requires a deep understanding of the underlying hardware and its limitations. Embedded C programmers must consider factors such as memory constraints, interrupt handling, and real-time performance when writing code, making it a unique and challenging field. Additionally, Embedded C often involves the use of specialized libraries and tools, such as device drivers and cross-compilers, to interact with the hardware and develop efficient code.",
+        "difficulty": "Intermediate",
+        "original_question": "9. How will you use a variable defined in source file1 inside source file2?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.interviewbit.com/embedded-c-interview-questions/"
+    },
+    {
+        "refined_question": "What are the key differences between C and Embedded C?",
+        "answer": "The key differences between C and Embedded C are:  Hardware-specific code: Embedded C requires a deep understanding of the underlying hardware and its limitations, whereas standard C is more focused on general-purpose programming.  Memory constraints: Embedded systems often have limited memory, requiring Embedded C programmers to optimize their code for size and efficiency.  Real-time performance: Embedded systems require predictable and reliable performance, making real-time programming a critical aspect of Embedded C.  Interrupt handling: Embedded C involves handling interrupts and exceptions, which is not typically a concern in standard C programming.  Specialized libraries and tools: Embedded C often involves the use of specialized libraries and tools, such as device drivers and cross-compilers, to interact with the hardware and develop efficient code.",
+        "difficulty": "Intermediate",
+        "original_question": "10. What is Embedded C Programming? How is Embedded C different from C language?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.interviewbit.com/embedded-c-interview-questions/"
+    },
+    {
+        "refined_question": "What are the basic data types in C?",
+        "answer": "The basic data types in C are:  Integers: whole numbers, either signed or unsigned.  Characters: single characters, represented as ASCII values.  Floating-point numbers: numbers with fractional parts, such as float, double, and long double.  Pointers: variables that hold memory addresses.  Arrays: collections of values of the same type, stored in contiguous memory locations.  Structures: user-defined data types that combine multiple values of different types.  Unions: special data types that allow storing different types of data in the same memory location.",
+        "difficulty": "Beginner",
+        "original_question": "1. What is the difference between C and Embedded C?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.geeksforgeeks.org/c/top-embedded-c-interview-questions-and-answers-for-2024/"
+    },
+    {
+        "refined_question": "What is the difference between 'static' and 'auto' variables in C?",
+        "answer": "The main difference between 'static' and 'auto' variables in C is their scope and lifetime:  Auto variables: are local to a block or function, and are created and destroyed automatically when the block or function is entered and exited.  Static variables: retain their value between function calls, and are initialized only once, when the program starts. They can be local to a block or function, or global, and are used to preserve data between function calls.",
+        "difficulty": "Beginner",
+        "original_question": "2. What are the basic data types in C?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.geeksforgeeks.org/c/top-embedded-c-interview-questions-and-answers-for-2024/"
+    },
+    {
+        "refined_question": "What is the purpose of the 'volatile' keyword in C?",
+        "answer": "The 'volatile' keyword in C is used to inform the compiler that a variable's value can change in ways not explicitly specified by the program. This is typically used for variables that are:  Accessed by multiple tasks or interrupts: to ensure that the compiler does not optimize away accesses to the variable.  Mapped to hardware registers: to ensure that the compiler always reads the variable's value from the register, rather than caching it in a register.  Modified by external factors: such as signal handlers or other threads, to ensure that the compiler does not optimize away accesses to the variable.",
+        "difficulty": "Intermediate",
+        "original_question": "4. What is the difference between 'static' and 'auto' variables?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.geeksforgeeks.org/c/top-embedded-c-interview-questions-and-answers-for-2024/"
+    },
+    {
+        "refined_question": "What are bitwise operators and why are they important in embedded programming?",
+        "answer": "Bitwise operators are a set of operators that manipulate the individual bits of a binary number. They are important in embedded programming because they allow for:  Efficient use of memory: by packing multiple values into a single byte or word.  Fast and efficient operations: by performing operations directly on the bits, rather than using arithmetic operators.  Low-level programming: by allowing direct access to hardware registers and bits. The most common bitwise operators are:  AND (&): performs a bitwise AND operation.  OR (|): performs a bitwise OR operation.  XOR (^): performs a bitwise XOR operation.  NOT (~): performs a bitwise NOT operation.  Shift operators (<<, >>): shift the bits of a number to the left or right.",
+        "difficulty": "Intermediate",
+        "original_question": "5. What is the purpose of the 'volatile' keyword in C?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.geeksforgeeks.org/c/top-embedded-c-interview-questions-and-answers-for-2024/"
+    },
+    {
+        "refined_question": "What is the purpose of the 'const' keyword in embedded C?",
+        "answer": "The 'const' keyword in embedded C is used to declare variables that should not be modified once they are initialized. This is useful for:  Ensuring code correctness: by preventing accidental changes to critical variables.  Improving code readability: by clearly indicating which variables are constant and which are not.  Optimizing code: by allowing the compiler to optimize code that uses constant variables. The 'const' keyword can be used to declare:  Constant variables: that cannot be modified once they are initialized.  Constant pointers: that point to constant data.  Constant functions: that do not modify any data and always return the same result.",
+        "difficulty": "Beginner",
+        "original_question": "6. What are bitwise operators, and why are they important in embedded programming?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.geeksforgeeks.org/c/top-embedded-c-interview-questions-and-answers-for-2024/"
+    },
+    {
+        "refined_question": "What are inline functions and when should they be used in embedded systems?",
+        "answer": "Inline functions are functions that are expanded in-line at the point of call, rather than being called as a separate function. They are useful in embedded systems because they:  Improve performance: by reducing the overhead of function calls.  Reduce code size: by eliminating the need for a separate function body.  Increase code readability: by allowing complex operations to be performed in a single line of code. Inline functions should be used in embedded systems when:  Performance is critical: and the overhead of a function call is unacceptable.  Code size is limited: and every byte counts.  Readability is important: and the use of inline functions makes the code easier to understand.",
+        "difficulty": "Intermediate",
+        "original_question": "8. What is the purpose of the 'const' keyword in embedded C?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.geeksforgeeks.org/c/top-embedded-c-interview-questions-and-answers-for-2024/"
+    },
+    {
+        "refined_question": "What is a microcontroller and how does it differ from a microprocessor?",
+        "answer": "A microcontroller is a small computer on a single integrated circuit that contains a processor, memory, and input/output peripherals. It differs from a microprocessor, which is the central processing unit of a computer and only executes software instructions. The key differences between a microcontroller and a microprocessor are:  A microcontroller contains a processor, memory, and input/output peripherals on a single chip, whereas a microprocessor is a single component that requires external memory and peripherals to function.  Microcontrollers are designed for embedded systems and are used in applications such as robotics, automotive systems, and consumer electronics, whereas microprocessors are used in personal computers and other general-purpose computing systems.  Microcontrollers typically have limited memory and processing power compared to microprocessors, but are more power-efficient and cost-effective.",
+        "difficulty": "Intermediate",
+        "original_question": "11. What is a microcontroller, and how does it differ from a microprocessor?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.geeksforgeeks.org/c/top-embedded-c-interview-questions-and-answers-for-2024/"
+    },
+    {
+        "refined_question": "What is startup code in the context of embedded systems?",
+        "answer": "Startup code, also known as boot code or initialization code, is a set of instructions that are executed when an embedded system is powered on or reset. Its primary function is to initialize the system's hardware and software components, setting up the environment for the application code to run. The startup code typically performs tasks such as:  Initializing the stack pointer and memory layout  Configuring the clock and timing systems  Initializing peripherals and interfaces  Loading the application code into memory  Transferring control to the application code",
+        "difficulty": "Intermediate",
+        "original_question": "1. What is the startup code?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.simplilearn.com/embedded-systems-interview-questions-answers-article"
+    },
+    {
+        "refined_question": "What is a semaphore in the context of embedded systems?",
+        "answer": "A semaphore is a variable or data structure that provides a simple way for threads or tasks to communicate with each other and coordinate access to shared resources. It acts as a flag or signal that indicates whether a resource is available or not. Semaphores are commonly used in embedded systems to manage shared resources, such as:  Mutual exclusion: preventing multiple threads from accessing a resource simultaneously  Synchronization: coordinating the execution of threads or tasks  Signaling: notifying threads or tasks of events or changes in the system",
+        "difficulty": "Intermediate",
+        "original_question": "2. What is the Semaphore?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.simplilearn.com/embedded-systems-interview-questions-answers-article"
+    },
+    {
+        "refined_question": "What are the two types of semaphores?",
+        "answer": "The two types of semaphores are:  Binary semaphore: a semaphore that can have only two values, 0 and 1, indicating whether a resource is available or not. Binary semaphores are used for mutual exclusion and synchronization.  Counting semaphore: a semaphore that can have a value greater than 1, indicating the number of available resources. Counting semaphores are used to manage a pool of resources, such as a buffer or a queue",
+        "difficulty": "Intermediate",
+        "original_question": "3. What are the 2 types of Semaphore?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.simplilearn.com/embedded-systems-interview-questions-answers-article"
+    },
+    {
+        "refined_question": "What is the full form of ISR?",
+        "answer": "The full form of ISR is Interrupt Service Routine or Interrupt Handler. An ISR is a routine that is executed by the processor in response to an interrupt, which is a signal to the processor that an event has occurred and requires immediate attention. The ISR handles the interrupt by performing the necessary actions, such as reading data from a peripheral or updating a buffer.",
+        "difficulty": "Beginner",
+        "original_question": "4. What is the full form of ISR?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.simplilearn.com/embedded-systems-interview-questions-answers-article"
+    },
+    {
+        "refined_question": "When is the volatile keyword used in embedded systems programming?",
+        "answer": "The volatile keyword is used in embedded systems programming to inform the compiler that a variable's value can change unexpectedly, such as:  When a variable is shared between multiple threads or tasks  When a variable is accessed by an interrupt service routine  When a variable is mapped to a hardware register  When a variable is used to communicate with external devices or peripherals The volatile keyword prevents the compiler from optimizing away accesses to the variable, ensuring that the program always reads the latest value from memory or hardware.",
+        "difficulty": "Intermediate",
+        "original_question": "5. When do we use a volatile keyword?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.simplilearn.com/embedded-systems-interview-questions-answers-article"
+    },
+    {
+        "refined_question": "What are the advantages of embedded systems?",
+        "answer": "The advantages of embedded systems include:  Low power consumption: embedded systems are designed to be energy-efficient and can operate on batteries or low-power sources  Small size: embedded systems are typically compact and can be integrated into small devices or products  Low cost: embedded systems can be designed to be cost-effective, making them suitable for high-volume production  Real-time operation: embedded systems can operate in real-time, responding quickly to events and changes in the environment  Reliability: embedded systems can be designed to be highly reliable, with built-in fault tolerance and error correction mechanisms",
+        "difficulty": "Beginner",
+        "original_question": "6. What are the advantages of an Embedded system?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.simplilearn.com/embedded-systems-interview-questions-answers-article"
+    },
+    {
+        "refined_question": "What are the disadvantages of embedded systems?",
+        "answer": "The disadvantages of embedded systems include:  Limited resources: embedded systems typically have limited processing power, memory, and storage capacity  Complexity: embedded systems can be complex to design and develop, requiring specialized skills and knowledge  Debugging challenges: embedded systems can be difficult to debug, due to the lack of standard debugging tools and interfaces  Security risks: embedded systems can be vulnerable to security risks, such as hacking and data breaches  Limited flexibility: embedded systems can be inflexible, making it difficult to modify or update the system after it has been deployed",
+        "difficulty": "Beginner",
+        "original_question": "7. What are the disadvantages of Embedded Systems?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.simplilearn.com/embedded-systems-interview-questions-answers-article"
+    },
+    {
+        "refined_question": "What is an embedded system?",
+        "answer": "An embedded system is a specialized computer system that is designed to perform a specific function or set of functions. It is typically a combination of hardware and software components, including:  Microcontroller or processor: the brain of the system, executing software instructions  Memory and storage: providing storage for software and data  Input/output peripherals: interacting with the environment, such as sensors, actuators, and communication interfaces  Power supply: providing power to the system  Software: the program that runs on the system, controlling its behavior and interactions",
+        "difficulty": "Beginner",
+        "original_question": "8. What is an embedded system?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.simplilearn.com/embedded-systems-interview-questions-answers-article"
+    },
+    {
+        "refined_question": "Why is C considered a mid-level programming language?",
+        "answer": "C is considered a mid-level programming language because it provides a balance between:  Low-level memory management: C allows direct access to memory, providing fine-grained control over data storage and manipulation  High-level abstractions: C provides a range of data types, control structures, and functions that simplify programming and improve productivity  Portability: C code can be compiled on a wide range of platforms, making it a popular choice for cross-platform development  Efficiency: C code can be optimized for performance, making it suitable for systems programming and embedded systems development",
+        "difficulty": "Beginner",
+        "original_question": "1. Why is C called a mid-level programming language?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.geeksforgeeks.org/c/c-interview-questions/"
+    },
+    {
+        "refined_question": "What are the key features of the C programming language?",
+        "answer": "The key features of the C programming language include:  Procedural programming: C is based on procedures or functions, which are reusable blocks of code  Structured programming: C provides a range of control structures, such as if-else statements and loops, to control the flow of execution  Type system: C has a static type system, which checks the types of variables at compile-time  Memory management: C provides low-level memory management, allowing direct access to memory  Input/output operations: C provides a range of input/output functions, such as printf and scanf, to interact with the environment",
+        "difficulty": "Beginner",
+        "original_question": "2. What are the features of the C programming language?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.geeksforgeeks.org/c/c-interview-questions/"
+    },
+    {
+        "refined_question": "What are the basic data types supported in the C programming language?",
+        "answer": "The basic data types supported in the C programming language include:  Integer types: such as int, long, and short, which represent whole numbers  Character types: such as char, which represents a single character  Floating-point types: such as float and double, which represent decimal numbers  Boolean type: not explicitly supported in C, but can be emulated using integer values  Void type: a special type that represents the absence of a value",
+        "difficulty": "Beginner",
+        "original_question": "3. What are basic data types supported in the C Programming Language?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.geeksforgeeks.org/c/c-interview-questions/"
+    },
+    {
+        "refined_question": "What are tokens in C?",
+        "answer": "Tokens in C are the basic building blocks of the language, including:  Keywords: reserved words that have special meanings, such as if, else, and while  Identifiers: names given to variables, functions, and labels  Literals: constant values, such as numbers and strings  Operators: symbols that perform operations, such as +, -, and   Separators: symbols that separate tokens, such as commas and semicolons",
+        "difficulty": "Beginner",
+        "original_question": "4. What are tokens in C?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.geeksforgeeks.org/c/c-interview-questions/"
+    },
+    {
+        "refined_question": "What is the scope of a variable in C?",
+        "answer": "The scope of a variable in C refers to the region of the program where the variable is accessible. The scope of a variable can be:  Local: the variable is accessible only within the block or function where it is declared  Global: the variable is accessible from any part of the program  Static: the variable retains its value between function calls  External: the variable is accessible from other files or modules",
+        "difficulty": "Beginner",
+        "original_question": "5. What do you mean by the scope of the variable?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.geeksforgeeks.org/c/c-interview-questions/"
+    },
+    {
+        "refined_question": "What are preprocessor directives in C?",
+        "answer": "Preprocessor directives in C are instructions to the compiler that are executed before the compilation process. They are used to:  Include header files: #include directive, which inserts the contents of a header file into the program  Define constants: #define directive, which defines a constant or macro  Conditionally compile code: #if, #elif, and #else directives, which control the compilation of code based on conditions  Specify compiler options: #pragma directive, which provides additional information to the compiler",
+        "difficulty": "Beginner",
+        "original_question": "6. What are preprocessor directives in C?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.geeksforgeeks.org/c/c-interview-questions/"
+    },
+    {
+        "refined_question": "What is the purpose and use of static variables in the C programming language?",
+        "answer": "Static variables in C are used to retain the value of a variable between function calls. They are initialized only once, and their value is preserved even after the function returns. The main use of static variables is to maintain a persistent value across multiple function calls, which can be useful in various applications such as counters, flags, or accumulators. Static variables can also be used to hide internal implementation details of a function or module, improving code encapsulation and reducing namespace pollution.",
+        "difficulty": "Intermediate",
+        "original_question": "7. What is the use of static variables in C?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.geeksforgeeks.org/c/c-interview-questions/"
+    },
+    {
+        "refined_question": "What are the differences between malloc() and calloc() functions in C?",
+        "answer": "The malloc() and calloc() functions are both used for dynamic memory allocation in C. However, there are key differences between them. The malloc() function allocates a block of memory of a specified size and returns a pointer to the beginning of the block. The calloc() function, on the other hand, allocates multiple blocks of memory, each of a specified size, and initializes all bits to zero. Additionally, calloc() returns a pointer to the beginning of the allocated memory. In summary, malloc() is used for allocating a single block of memory, while calloc() is used for allocating multiple blocks of memory with initialization to zero.",
+        "difficulty": "Intermediate",
+        "original_question": "8. What is the difference between malloc() and calloc() in the C programming language?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.geeksforgeeks.org/c/c-interview-questions/"
+    },
+    {
+        "refined_question": "What is the C programming language and its significance?",
+        "answer": "The C programming language is a general-purpose, procedural, imperative computer programming language developed in 1972 by Dennis Ritchie at Bell Labs. It is a mid-level language that provides low-level memory management and other features that make it an efficient and flexible language for building operating systems, embedded systems, and other high-performance applications. C is significant because it provides a balance between efficiency, portability, and ease of use, making it a popular choice for systems programming and a foundation for many other programming languages.",
+        "difficulty": "Beginner",
+        "original_question": "What is C Language?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.interviewbit.com/c-interview-questions/"
+    },
+    {
+        "refined_question": "Why is the C programming language considered a mid-level language?",
+        "answer": "The C programming language is considered a mid-level language because it provides a balance between the low-level memory management and efficiency of assembly languages and the high-level abstractions and ease of use of languages like Pascal or Java. C provides direct access to hardware resources, such as memory and I/O devices, while also offering a range of features like functions, structures, and pointers that make it easier to write efficient and portable code. This balance makes C a versatile language that can be used for systems programming, embedded systems, and other applications where performance and efficiency are critical.",
+        "difficulty": "Beginner",
+        "original_question": "1. Why is C called a mid-level programming language?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.interviewbit.com/c-interview-questions/"
+    },
+    {
+        "refined_question": "What are the key features of the C programming language?",
+        "answer": "The C programming language has several key features, including:  General-purpose programming language  Procedural programming paradigm  Statically typed language  Compiled language  Low-level memory management  Portability across different platforms  Efficiency and performance  Simple syntax and semantics  Large standard library These features make C a popular choice for systems programming, embedded systems, and other high-performance applications.",
+        "difficulty": "Beginner",
+        "original_question": "2. What are the features of the C language?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.interviewbit.com/c-interview-questions/"
+    },
+    {
+        "refined_question": "What is a token in the context of programming languages?",
+        "answer": "In the context of programming languages, a token is a basic unit of syntax, such as a keyword, identifier, literal, operator, or symbol. Tokens are the building blocks of source code and are used by compilers, interpreters, and other language processors to analyze and understand the structure and meaning of a program. Examples of tokens include:  Keywords, such as if, while, or int  Identifiers, such as variable or function names  Literals, such as numbers or strings  Operators, such as +, -, or   Symbols, such as ;, , or (",
+        "difficulty": "Beginner",
+        "original_question": "3. What is a token?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.interviewbit.com/c-interview-questions/"
+    },
+    {
+        "refined_question": "What are the uses of printf() and scanf() functions in C, and how do format specifiers work?",
+        "answer": "The printf() function is used to output formatted data to the console, while the scanf() function is used to read formatted input from the console. Format specifiers are used to specify the type and format of the data being output or input. For example:  %d is used for decimal integers  %c is used for characters  %s is used for strings  %f is used for floating-point numbers Format specifiers can also include flags, such as + or -, to specify the sign of the output, and width and precision specifiers to control the output format.",
+        "difficulty": "Beginner",
+        "original_question": "4. What is the use of printf() and scanf() functions? Also explain format specifiers?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.interviewbit.com/c-interview-questions/"
+    },
+    {
+        "refined_question": "What are built-in functions in C, and how are they used?",
+        "answer": "Built-in functions in C are pre-defined functions that are part of the C standard library. They provide a range of services, such as input/output operations, mathematical functions, and string manipulation. Examples of built-in functions in C include:  printf() and scanf() for input/output operations  sin(), cos(), and tan() for mathematical functions  strlen() and strcpy() for string manipulation Built-in functions are used to simplify programming tasks and provide a range of useful services that can be used to build efficient and effective programs.",
+        "difficulty": "Beginner",
+        "original_question": "6. What is a built-in function in C?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.interviewbit.com/c-interview-questions/"
+    },
+    {
+        "refined_question": "What is a preprocessor in C, and what is its purpose?",
+        "answer": "A preprocessor in C is a program that processes the source code before it is compiled. The preprocessor is responsible for expanding macros, including header files, and performing other preliminary operations on the source code. The purpose of the preprocessor is to prepare the source code for compilation by expanding macros, including necessary header files, and removing comments. The preprocessor is an essential part of the C compilation process and is used to simplify programming tasks and improve code readability.",
+        "difficulty": "Intermediate",
+        "original_question": "7. What is a Preprocessor?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.interviewbit.com/c-interview-questions/"
+    },
+    {
+        "refined_question": "What is the purpose of the #line directive in C?",
+        "answer": "The #line directive in C is used to specify the line number and filename of the current source file. This directive is used by the preprocessor to report error messages and warnings with accurate line numbers and filenames. The #line directive is typically used in conjunction with other preprocessor directives, such as #include and #define, to provide more accurate and informative error messages.",
+        "difficulty": "Intermediate",
+        "original_question": "8. In C, What is the #line used for?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.interviewbit.com/c-interview-questions/"
+    },
+    {
+        "refined_question": "What are the main differences between the C and C++ programming languages?",
+        "answer": "The C and C++ programming languages are both general-purpose, procedural languages, but they have distinct differences. C++ is an extension of the C language and adds object-oriented programming features, such as classes, objects, and inheritance. C++ also provides additional features, such as templates, operator overloading, and exception handling, which are not available in C. In contrast, C is a simpler language that focuses on procedural programming and provides a more direct access to hardware resources. The choice between C and C++ depends on the specific requirements of the project and the desired level of complexity and abstraction.",
+        "difficulty": "Intermediate",
+        "original_question": "1. What is the difference between C and C++?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.interviewbit.com/cpp-interview-questions/"
+    },
+    {
+        "refined_question": "What are static members and static member functions in C++, and how are they used?",
+        "answer": "Static members and static member functions in C++ are used to share data and functionality among all objects of a class. Static members are variables that are shared by all objects of a class, while static member functions are functions that can be called without creating an object of the class. Static members and functions are used to provide a way to access class-level data and functionality, rather than instance-level data and functionality. They are typically used for utility functions, class-level variables, and other purposes where instance-level data is not required.",
+        "difficulty": "Intermediate",
+        "original_question": "3. What are the static members and static member functions?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.interviewbit.com/cpp-interview-questions/"
+    },
+    {
+        "refined_question": "What are destructors in C++, and how are they used?",
+        "answer": "Destructors in C++ are special member functions that are called when an object is destroyed. They are used to release resources, such as memory, file handles, or network connections, that were acquired by the object during its lifetime. Destructors are typically used to ensure that objects clean up after themselves and release any resources they are using, which helps to prevent memory leaks and other resource-related issues. Destructors are an essential part of C++ programming and are used to implement the RAII (Resource Acquisition Is Initialization) idiom, which ensures that resources are acquired and released in a safe and exception-friendly manner.",
+        "difficulty": "Intermediate",
+        "original_question": "4. What are destructors in C++?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.interviewbit.com/cpp-interview-questions/"
+    },
+    {
+        "refined_question": "What are abstract classes in C++, and when are they used?",
+        "answer": "Abstract classes in C++ are classes that cannot be instantiated and are intended to be inherited by other classes. They provide a way to define an interface or a base class that can be shared by multiple derived classes. Abstract classes are used to define a common set of methods and properties that must be implemented by any derived classes. They are typically used when there is a need to provide a common interface or base class for a group of related classes, but the base class itself is not intended to be instantiated. Abstract classes are an essential part of C++ programming and are used to implement the concept of abstraction and polymorphism.",
+        "difficulty": "Intermediate",
+        "original_question": "5. What is an abstract class and when do you use it?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.interviewbit.com/cpp-interview-questions/"
+    },
+    {
+        "refined_question": "What are call by value and call by reference in C++, and how do they differ?",
+        "answer": "Call by value and call by reference are two different ways to pass arguments to functions in C++. Call by value involves passing a copy of the argument to the function, while call by reference involves passing a reference to the original argument. Call by value is used when the function does not need to modify the original argument, while call by reference is used when the function needs to modify the original argument. In C++, call by value is the default method of passing arguments, but call by reference can be achieved using pointers or references. The choice between call by value and call by reference depends on the specific requirements of the function and the desired behavior.",
+        "difficulty": "Beginner",
+        "original_question": "6. What do you mean by call by value and call by reference?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.interviewbit.com/cpp-interview-questions/"
+    },
+    {
+        "refined_question": "Is destructor overloading possible in C++?",
+        "answer": "Destructor overloading is not possible in C++. A destructor is a special member function that is called when an object of a class is destroyed. It has no parameters and cannot be overloaded. The purpose of a destructor is to release any resources, such as memory, that the object has acquired during its lifetime. Since a destructor has a specific purpose and does not take any parameters, overloading it would not make sense and is therefore not allowed in C++.",
+        "difficulty": "Intermediate",
+        "original_question": "7. Is deconstructor overloading possible? If yes then explain and if no then why?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.interviewbit.com/cpp-interview-questions/"
+    },
+    {
+        "refined_question": "What is abstraction in C++?",
+        "answer": "Abstraction in C++ is a fundamental concept of object-oriented programming that enables developers to show only the necessary information to the outside world while hiding the internal implementation details. It helps to reduce complexity by exposing only the required features and behaviors of an object, making it easier to understand and interact with. Abstraction is achieved through the use of abstract classes, interfaces, and encapsulation, which help to define a blueprint for objects and control access to their internal state.",
+        "difficulty": "Intermediate",
+        "original_question": "8. What do you mean by abstraction in C++?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.interviewbit.com/cpp-interview-questions/"
+    },
+    {
+        "refined_question": "What is a reference in C++?",
+        "answer": "A reference in C++ is an alias or an alternative name for an existing variable. It is not a separate memory location but rather another name for a variable that already exists. References are often used to pass variables to functions without having to copy the original variable, which can improve performance and reduce memory usage. They are also used to return multiple values from a function. A reference must be initialized when it is declared and cannot be changed to reference another variable once it has been initialized.",
+        "difficulty": "Beginner",
+        "original_question": "9. What is a reference in C++?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.interviewbit.com/cpp-interview-questions/"
+    },
+    {
+        "refined_question": "What is C++ and what are its advantages?",
+        "answer": "C++ is a high-performance, compiled, general-purpose programming language that was developed by Bjarne Stroustrup as an extension of the C programming language. It was designed to support object-oriented programming, generic programming, and low-level memory management. The advantages of C++ include:  Performance: C++ is a low-level, compiled language that can produce efficient machine code, making it suitable for systems programming and high-performance applications.  Control: C++ provides direct access to hardware resources, allowing for fine-grained control over memory management, I/O operations, and other system-level tasks.  Object-oriented programming: C++ supports the principles of object-oriented programming, such as encapsulation, inheritance, and polymorphism, which enable developers to write reusable, modular, and maintainable code.  Portability: C++ code can be compiled on a variety of platforms, including Windows, macOS, and Linux, making it a popular choice for cross-platform development.  Large community: C++ has a large and active community of developers, which means there are many resources available for learning and troubleshooting.",
+        "difficulty": "Beginner",
+        "original_question": "int result = ((a < b) ? a : b);",
+        "role": "Embedded Systems Engineer",
+        "skill": "C",
+        "source": "https://www.geeksforgeeks.org/c/c-coding-interview-questions/"
+    },
+    {
+        "refined_question": "What are the different data types present in C++?",
+        "answer": "C++ provides a variety of data types that can be used to store and manipulate different types of data. The main data types in C++ can be categorized into:  Integer types: int, short, long, long long  Floating-point types: float, double, long double  Character types: char, wchar_t  Boolean type: bool  Void type: void  Pointer types: pointers to any of the above types  Reference types: references to any of the above types  Array types: arrays of any of the above types  Struct and class types: user-defined types that can contain multiple members  Enum types: enumeration types that can be used to define a set of named values Each data type has its own set of operations and characteristics, and the choice of data type depends on the specific requirements of the program.",
+        "difficulty": "Beginner",
+        "original_question": "1. What is C++? What are the advantages of C++?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C++",
+        "source": "https://www.geeksforgeeks.org/cpp/cpp-interview-questions/"
+    },
+    {
+        "refined_question": "What does 'std' mean in C++?",
+        "answer": "In C++, 'std' is an abbreviation for 'standard'. It refers to the standard library, which is a collection of pre-defined functions, classes, and objects that are part of the C++ language. The standard library provides a wide range of functionality, including input/output operations, string manipulation, container classes, and algorithms. The 'std' namespace is used to qualify the names of standard library components, such as std::cout, std::string, and std::vector. This helps to avoid naming conflicts with user-defined components and ensures that the standard library components are easily identifiable.",
+        "difficulty": "Beginner",
+        "original_question": "2. What are the different data types present in C++?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C++",
+        "source": "https://www.geeksforgeeks.org/cpp/cpp-interview-questions/"
+    },
+    {
+        "refined_question": "What are references in C++?",
+        "answer": "References in C++ are aliases or alternative names for existing variables. They are not separate memory locations but rather another name for a variable that already exists. References are often used to:  Pass variables to functions without having to copy the original variable  Return multiple values from a function  Provide an alternative name for a variable References must be initialized when they are declared and cannot be changed to reference another variable once they have been initialized. They are useful for improving performance and reducing memory usage, especially when working with large objects or complex data structures.",
+        "difficulty": "Beginner",
+        "original_question": "3. Define 'std'?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C++",
+        "source": "https://www.geeksforgeeks.org/cpp/cpp-interview-questions/"
+    },
+    {
+        "refined_question": "What is the difference between Call by Value and Call by Reference in C++?",
+        "answer": "In C++, functions can be called using either Call by Value or Call by Reference. The main difference between these two methods is how the arguments are passed to the function:  Call by Value: When a function is called using Call by Value, a copy of the original variable is passed to the function. Any changes made to the variable within the function do not affect the original variable.  Call by Reference: When a function is called using Call by Reference, a reference to the original variable is passed to the function. Any changes made to the variable within the function affect the original variable. Call by Reference is useful when we want to modify the original variable or return multiple values from a function. It can be implemented using pointers or references.",
+        "difficulty": "Beginner",
+        "original_question": "4. What are references in C++?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C++",
+        "source": "https://www.geeksforgeeks.org/cpp/cpp-interview-questions/"
+    },
+    {
+        "refined_question": "What is the difference between C and C++?",
+        "answer": "C and C++ are two distinct programming languages that share a common ancestry. The main differences between C and C++ are:  Object-oriented programming: C++ supports object-oriented programming (OOP) concepts such as classes, objects, inheritance, polymorphism, and encapsulation, whereas C does not.  Templates: C++ provides a feature called templates, which allows for generic programming and metaprogramming, whereas C does not.  Input/Output operations: C++ provides a more extensive set of input/output operations, including the use of cin and cout, whereas C uses printf and scanf.  Memory management: C++ provides additional features for memory management, such as new and delete operators, whereas C uses malloc and free.  Type checking: C++ is a more strongly typed language than C, which means it performs more rigorous type checking at compile-time. Overall, C++ is a more powerful and flexible language than C, but it also has a steeper learning curve.",
+        "difficulty": "Beginner",
+        "original_question": "5. What do you mean by Call by Value and Call by Reference?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C++",
+        "source": "https://www.geeksforgeeks.org/cpp/cpp-interview-questions/"
+    },
+    {
+        "refined_question": "What is the difference between struct and class in C++?",
+        "answer": "In C++, struct and class are both used to define user-defined data types. The main difference between them is the default access specifier:  Struct: The default access specifier for struct is public, which means that all members are public by default.  Class: The default access specifier for class is private, which means that all members are private by default. Apart from this difference, struct and class are essentially the same, and the choice between them is largely a matter of convention. However, it is common to use struct for POD (Plain Old Data) types, which are simple data structures that contain only data members and no user-defined functions, and to use class for more complex types that contain both data members and user-defined functions.",
+        "difficulty": "Beginner",
+        "original_question": "7. What is the difference between C and C++?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C++",
+        "source": "https://www.geeksforgeeks.org/cpp/cpp-interview-questions/"
+    },
+    {
+        "refined_question": "What is the difference between reference and pointer in C++?",
+        "answer": "In C++, references and pointers are both used to indirectly access variables. However, there are significant differences between them:  References: A reference is an alias or an alternative name for an existing variable. It is not a separate memory location and must be initialized when it is declared. References cannot be changed to reference another variable once they have been initialized.  Pointers: A pointer is a variable that stores the memory address of another variable. Pointers can be changed to point to different variables, and they can be assigned a null value. The main advantages of references over pointers are: + References are safer and more convenient to use, as they do not require explicit dereferencing or pointer arithmetic. + References are more efficient, as they do not require the overhead of pointer operations. However, pointers are more flexible and can be used in situations where references are not applicable, such as dynamic memory allocation or pointer arithmetic.",
+        "difficulty": "Intermediate",
+        "original_question": "8. What is the difference between struct and class?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C++",
+        "source": "https://www.geeksforgeeks.org/cpp/cpp-interview-questions/"
+    },
+    {
+        "refined_question": "This question is not related to the role of Embedded Systems Engineer and is not a valid technical question.",
+        "answer": "This question is not relevant to the role of Embedded Systems Engineer and does not require a technical answer.",
+        "difficulty": "N/A",
+        "original_question": "9. What is the difference between reference and pointer?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C++",
+        "source": "https://www.geeksforgeeks.org/cpp/cpp-interview-questions/"
+    },
+    {
+        "refined_question": "What is the difference between C and C++?",
+        "answer": "C and C++ are two distinct programming languages that share a common ancestry. The main differences between C and C++ are:  Object-oriented programming: C++ supports object-oriented programming (OOP) concepts such as classes, objects, inheritance, polymorphism, and encapsulation, whereas C does not.  Templates: C++ provides a feature called templates, which allows for generic programming and metaprogramming, whereas C does not.  Input/Output operations: C++ provides a more extensive set of input/output operations, including the use of cin and cout, whereas C uses printf and scanf.  Memory management: C++ provides additional features for memory management, such as new and delete operators, whereas C uses malloc and free.  Type checking: C++ is a more strongly typed language than C, which means it performs more rigorous type checking at compile-time. Overall, C++ is a more powerful and flexible language than C, but it also has a steeper learning curve.",
+        "difficulty": "Beginner",
+        "original_question": "Want a Top Software Development Job? Start Here!",
+        "role": "Embedded Systems Engineer",
+        "skill": "C++",
+        "source": "https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-interview-questions"
+    },
+    {
+        "refined_question": "What are classes and objects in C++?",
+        "answer": "In C++, a class is a user-defined data type that encapsulates data and functions that operate on that data. A class is essentially a blueprint or a template that defines the properties and behavior of an object. An object, on the other hand, is an instance of a class, which has its own set of attributes (data) and methods (functions). Classes and objects are the fundamental building blocks of object-oriented programming (OOP) in C++. The key features of classes and objects in C++ are:  Encapsulation: Classes encapsulate data and functions that operate on that data, hiding the implementation details from the outside world.  Abstraction: Classes provide an abstract representation of an object, exposing only the necessary information to the outside world.  Inheritance: Classes can inherit properties and behavior from other classes, allowing for code reuse and a more hierarchical organization of code.  Polymorphism: Classes can exhibit different behavior depending on the context, allowing for more flexibility and generic programming.  Composition: Classes can contain other classes or objects, allowing for complex data structures and relationships.",
+        "difficulty": "Intermediate",
+        "original_question": "1. What is the difference betweenC and C++?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C++",
+        "source": "https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-interview-questions"
+    },
+    {
+        "refined_question": "What are the different types of access modifiers in programming?",
+        "answer": "Access modifiers are keywords that define the accessibility of a class, method, or variable. They determine the level of access that other parts of a program have to these elements. The main types of access modifiers are:  Public: Accessible from anywhere in the program.  Private: Accessible only within the same class.  Protected: Accessible within the same class and its derived classes.  Default (or no modifier): Accessible within the same package. Access modifiers are essential in object-oriented programming to encapsulate data and ensure data hiding.",
+        "difficulty": "Beginner",
+        "original_question": "3. What are access modifiers?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C++",
+        "source": "https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-interview-questions"
+    },
+    {
+        "refined_question": "What is the difference between the equal to (==) operator and the assignment operator (=) in programming?",
+        "answer": "The equal to (==) operator is a comparison operator used to check if two values are equal. It returns a boolean value indicating whether the values are equal or not. On the other hand, the assignment operator (=) is used to assign a value to a variable. It does not perform a comparison, but rather assigns the value on the right side of the operator to the variable on the left side. The key difference between the two operators is their purpose: comparison versus assignment.",
+        "difficulty": "Beginner",
+        "original_question": "4. Difference between equal to (==) and assignment operator(=)?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C++",
+        "source": "https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-interview-questions"
+    },
+    {
+        "refined_question": "What is the difference between a while loop and a do-while loop in programming?",
+        "answer": "A while loop and a do-while loop are both used for repetitive execution of a block of code. However, the main difference between them is the timing of the condition check. A while loop checks the condition before executing the code block, whereas a do-while loop checks the condition after executing the code block. This means that a do-while loop will always execute the code block at least once, whereas a while loop may not execute the code block at all if the condition is initially false.",
+        "difficulty": "Beginner",
+        "original_question": "5. What is the difference between a while loop and a do-while loop?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C++",
+        "source": "https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-interview-questions"
+    },
+    {
+        "refined_question": "What is the typical size of the int data type in programming?",
+        "answer": "The size of the int data type can vary depending on the programming language and the system architecture. However, in most cases, an int is typically 32 bits (4 bytes) in size, which can represent integer values ranging from -2,147,483,648 to 2,147,483,647. It's essential to note that the size of an int can be different in certain programming languages or systems, such as 16-bit or 64-bit integers.",
+        "difficulty": "Beginner",
+        "original_question": "6. What is the size of the int data type?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C++",
+        "source": "https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-interview-questions"
+    },
+    {
+        "refined_question": "What function or method is used to return the number of characters in a string?",
+        "answer": "The function or method used to return the number of characters in a string is typically called length() or len(). This function returns the number of characters in the string, including spaces and punctuation. For example, in C-style strings, the strlen() function is used, while in Java or Python, the length() or len() method is used, respectively.",
+        "difficulty": "Beginner",
+        "original_question": "8. What among these is used to return the number of characters in the string?",
+        "role": "Embedded Systems Engineer",
+        "skill": "C++",
+        "source": "https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-interview-questions"
+    },
+    {
+        "refined_question": "Who are Embedded Software Engineers, and what do they do?",
+        "answer": "Embedded Software Engineers are professionals who design, develop, and test software for embedded systems, which are specialized computing systems that are embedded in devices or machines. Their primary responsibility is to create software that interacts with the hardware components of the system to perform specific tasks. Embedded Software Engineers work on a wide range of applications, including consumer electronics, automotive systems, medical devices, and industrial control systems. They must have a strong understanding of programming languages, software development methodologies, and the underlying hardware architecture of the system.",
+        "difficulty": "Beginner",
+        "original_question": "isPrime(17) ? cout << \" true\\n\" : cout << \" false\\n\";",
+        "role": "Embedded Systems Engineer",
+        "skill": "C++",
+        "source": "https://www.geeksforgeeks.org/cpp/cpp-coding-interview-questions-and-answers/"
+    },
+    {
+        "refined_question": "How do timers and counters differ in a microcontroller?",
+        "answer": "Timers and counters are two types of peripherals found in microcontrollers. The main difference between them is their purpose and functionality:  Timers: Timers are used to generate a timing signal or interrupt after a specified period. They can be used to measure time intervals, generate clock signals, or trigger events at regular intervals.  Counters: Counters are used to count external events, such as pulses or transitions, and can be used to measure frequency, period, or other parameters. While both timers and counters can be used for timing-related tasks, timers are typically used for generating timing signals, whereas counters are used for measuring external events.",
+        "difficulty": "Intermediate",
+        "original_question": "int len_left = t != -1 ? t : l;",
+        "role": "Embedded Systems Engineer",
+        "skill": "C++",
+        "source": "https://www.geeksforgeeks.org/cpp/cpp-coding-interview-questions-and-answers/"
+    },
+    {
+        "refined_question": "What are the main components of a microcontroller?",
+        "answer": "The main components of a microcontroller include:  Central Processing Unit (CPU): The brain of the microcontroller, responsible for executing instructions.  Memory: Includes program memory (e.g., flash memory) and data memory (e.g., RAM).  Input/Output (I/O) Ports: Allow the microcontroller to interact with external devices, such as sensors, actuators, and communication interfaces.  Peripherals: Include timers, counters, analog-to-digital converters (ADCs), digital-to-analog converters (DACs), and communication interfaces (e.g., UART, SPI, I2C).  Clock and Reset: Provide the clock signal for the microcontroller and allow for reset or initialization. These components work together to enable the microcontroller to perform its intended functions and interact with the external world.",
+        "difficulty": "Beginner",
+        "original_question": "Who are Embedded Software Engineers?",
+        "role": "Embedded Systems Engineer",
+        "skill": "ARM Cortex",
+        "source": "https://www.geeksforgeeks.org/blogs/how-to-become-an-embedded-software-engineer/"
+    },
+    {
+        "refined_question": "What are some common applications of microcontrollers?",
+        "answer": "Microcontrollers are used in a wide range of applications, including:  Consumer electronics: Such as smartphones, tablets, and laptops.  Automotive systems: Including engine control units, anti-lock braking systems (ABS), and airbag systems.  Medical devices: Such as pacemakers, insulin pumps, and portable defibrillators.  Industrial control systems: Including robotics, motor control, and process control.  Internet of Things (IoT) devices: Such as smart home devices, wearables, and wireless sensors.  Aerospace and defense: Including navigation systems, communication systems, and missile guidance systems. Microcontrollers are an essential component in many modern devices and systems, enabling them to perform complex tasks and interact with their environment.",
+        "difficulty": "Beginner",
+        "original_question": "1. How are timers and counters different in a microcontroller?",
+        "role": "Embedded Systems Engineer",
+        "skill": "ARM Cortex",
+        "source": "https://www.simplilearn.com/microcontroller-interview-questions-answers-article"
+    },
+    {
+        "refined_question": "Which pins on a microcontroller are most useful, and what are their functions?",
+        "answer": "The most useful pins on a microcontroller can vary depending on the specific device and application. However, some common pins and their functions include:  General Purpose Input/Output (GPIO) pins: Can be used for digital input or output, and can be configured for various functions such as button inputs, LED outputs, or communication interfaces.  Analog-to-Digital Converter (ADC) pins: Allow the microcontroller to measure analog signals, such as voltage or current.  Serial communication pins (e.g., UART, SPI, I2C): Enable the microcontroller to communicate with other devices or peripherals.  Interrupt pins: Allow external devices to interrupt the microcontroller and trigger an event or interrupt service routine.  Power and ground pins: Provide power and ground connections for the microcontroller and external devices.  Reset pin: Allows the microcontroller to be reset or initialized. These pins provide a range of functions and enable the microcontroller to interact with the external world.",
+        "difficulty": "Intermediate",
+        "original_question": "2. What are the main components of a microcontroller?",
+        "role": "Embedded Systems Engineer",
+        "skill": "ARM Cortex",
+        "source": "https://www.simplilearn.com/microcontroller-interview-questions-answers-article"
+    },
+    {
+        "refined_question": "What is a microcontroller, and how does it differ from a microprocessor?",
+        "answer": "A microcontroller is a small computer on a single integrated circuit (IC) that contains a processor, memory, and input/output peripherals. It is designed to perform a specific task or set of tasks, and is typically used in embedded systems. A microprocessor, on the other hand, is a central processing unit (CPU) that contains only the processing core, and does not include memory or input/output peripherals. Microprocessors are often used in personal computers and other general-purpose computing systems. The key differences between a microcontroller and a microprocessor are:  Integration: Microcontrollers include memory and peripherals on the same chip, whereas microprocessors do not.  Purpose: Microcontrollers are designed for specific tasks and are used in embedded systems, whereas microprocessors are used in general-purpose computing systems.  Size and complexity: Microcontrollers are typically smaller and less complex than microprocessors.",
+        "difficulty": "Beginner",
+        "original_question": "3. Mention a few applications of a microcontroller?",
+        "role": "Embedded Systems Engineer",
+        "skill": "ARM Cortex",
+        "source": "https://www.simplilearn.com/microcontroller-interview-questions-answers-article"
+    },
+    {
+        "refined_question": "What distinguishes a microcontroller's timer from its counter?",
+        "answer": "A microcontroller's timer and counter are both used for timing-related tasks, but they differ in their functionality and purpose:  Timer: A timer is used to generate a timing signal or interrupt after a specified period. It can be used to measure time intervals, generate clock signals, or trigger events at regular intervals.  Counter: A counter is used to count external events, such as pulses or transitions, and can be used to measure frequency, period, or other parameters. The key differences between a timer and a counter are:  Source of the signal: A timer generates a signal based on an internal clock, whereas a counter counts external events.  Purpose: A timer is used for generating timing signals, whereas a counter is used for measuring external events.  Operation: A timer typically operates independently, whereas a counter operates in response to external events.",
+        "difficulty": "Intermediate",
+        "original_question": "4. Which of the microcontroller's pins are most useful, along with their functions?",
+        "role": "Embedded Systems Engineer",
+        "skill": "ARM Cortex",
+        "source": "https://www.simplilearn.com/microcontroller-interview-questions-answers-article"
+    },
+    {
+        "refined_question": "What distinguishes a microprocessor from a microcontroller?",
+        "answer": "A microprocessor and a microcontroller are both central processing units (CPUs), but they differ in their design, functionality, and application:  Microprocessor: A microprocessor is a CPU that contains only the processing core, and does not include memory or input/output peripherals. It is designed for general-purpose computing and is typically used in personal computers and other computing systems.  Microcontroller: A microcontroller is a small computer on a single integrated circuit (IC) that contains a processor, memory, and input/output peripherals. It is designed to perform a specific task or set of tasks, and is typically used in embedded systems. The key differences between a microprocessor and a microcontroller are:  Integration: Microcontrollers include memory and peripherals on the same chip, whereas microprocessors do not.  Purpose: Microcontrollers are designed for specific tasks and are used in embedded systems, whereas microprocessors are used in general-purpose computing systems.  Size and complexity: Microcontrollers are typically smaller and less complex than microprocessors.",
+        "difficulty": "Beginner",
+        "original_question": "5.What exactly is a microcontroller?",
+        "role": "Embedded Systems Engineer",
+        "skill": "ARM Cortex",
+        "source": "https://www.simplilearn.com/microcontroller-interview-questions-answers-article"
+    },
+    {
+        "refined_question": "What is the primary difference between a microcontroller and a microprocessor?",
+        "answer": "The primary difference between a microcontroller and a microprocessor is the level of integration and the components included on the chip. A microprocessor is a central processing unit (CPU) that contains only the processing components, such as the arithmetic logic unit (ALU) and registers. On the other hand, a microcontroller is a small computer on a single integrated circuit (IC) that contains a microprocessor, memory, and input/output peripherals. In other words, a microcontroller is a self-contained system with a microprocessor, memory, and input/output capabilities, making it a more comprehensive and integrated component.",
+        "difficulty": "Beginner",
+        "original_question": "13. What is the basic difference between a microcontroller and a microprocessor?",
+        "role": "Embedded Systems Engineer",
+        "skill": "ARM Cortex",
+        "source": "https://www.simplilearn.com/microcontroller-interview-questions-answers-article"
+    },
+    {
+        "refined_question": "What is a process, and what is a process table?",
+        "answer": "A process is a program in execution, including the current activity, memory, and system resources. It is an independent entity that is scheduled and executed by the operating system. A process table, also known as a process control block (PCB), is a data structure used by the operating system to store information about each process, including its process ID, memory allocation, open files, and current state. The process table is used to manage and keep track of all the processes running on the system.",
+        "difficulty": "Intermediate",
+        "original_question": "1. What is a process and process table?",
+        "role": "Embedded Systems Engineer",
+        "skill": "ARM Cortex",
+        "source": "https://www.geeksforgeeks.org/operating-systems/operating-systems-interview-questions/"
+    },
+    {
+        "refined_question": "What are the different states of a process?",
+        "answer": "The different states of a process are:  Ready: The process is waiting to be executed and is in the ready queue.  Running: The process is currently being executed by the CPU.  Waiting: The process is waiting for an event to occur, such as I/O completion or a signal.  Zombie: The process has finished execution, but its parent process has not yet acknowledged its termination.  Sleeping: The process is waiting for a specific event or signal to occur. These states are used by the operating system to manage and schedule processes efficiently.",
+        "difficulty": "Intermediate",
+        "original_question": "2. What are the different states of the process?",
+        "role": "Embedded Systems Engineer",
+        "skill": "ARM Cortex",
+        "source": "https://www.geeksforgeeks.org/operating-systems/operating-systems-interview-questions/"
+    },
+    {
+        "refined_question": "What is a thread?",
+        "answer": "A thread is a lightweight process that runs concurrently with other threads within the same process. Threads share the same memory space and resources as the parent process, but each thread has its own program counter, stack, and local variables. Threads are used to improve responsiveness, increase throughput, and enhance system utilization by allowing multiple tasks to run simultaneously within a single process.",
+        "difficulty": "Intermediate",
+        "original_question": "3. What is a Thread?",
+        "role": "Embedded Systems Engineer",
+        "skill": "ARM Cortex",
+        "source": "https://www.geeksforgeeks.org/operating-systems/operating-systems-interview-questions/"
+    },
+    {
+        "refined_question": "What are the differences between a process and a thread?",
+        "answer": "The main differences between a process and a thread are:  Memory space: Processes have their own separate memory space, while threads share the same memory space as the parent process.  Resources: Processes have their own resources, such as open files and network connections, while threads share the resources of the parent process.  Creation: Processes are heavier to create and manage than threads.  Communication: Processes require inter-process communication (IPC) mechanisms to communicate with each other, while threads can communicate directly using shared memory.  Scheduling: Processes are scheduled by the operating system, while threads are scheduled by the thread scheduler within the process.",
+        "difficulty": "Intermediate",
+        "original_question": "4. What are the differences between process and thread?",
+        "role": "Embedded Systems Engineer",
+        "skill": "ARM Cortex",
+        "source": "https://www.geeksforgeeks.org/operating-systems/operating-systems-interview-questions/"
+    },
+    {
+        "refined_question": "What are the benefits of multithreaded programming?",
+        "answer": "The benefits of multithreaded programming are:  Improved responsiveness: Multithreading allows a program to respond to user input and events while performing time-consuming tasks in the background.  Increased throughput: Multithreading can improve system utilization by allowing multiple tasks to run simultaneously.  Enhanced system scalability: Multithreading can take advantage of multiple CPU cores to improve system performance.  Simplified programming: Multithreading can simplify programming by allowing tasks to be executed concurrently, reducing the need for complex synchronization and communication mechanisms.",
+        "difficulty": "Intermediate",
+        "original_question": "5. What are the benefits of multithreaded programming?",
+        "role": "Embedded Systems Engineer",
+        "skill": "ARM Cortex",
+        "source": "https://www.geeksforgeeks.org/operating-systems/operating-systems-interview-questions/"
+    },
+    {
+        "refined_question": "What is thrashing?",
+        "answer": "Thrashing is a phenomenon that occurs when a computer system spends more time paging data in and out of memory than executing actual tasks. This happens when the system runs low on memory and the operating system is forced to constantly swap pages of memory to and from disk, resulting in a significant decrease in system performance. Thrashing can be caused by a variety of factors, including insufficient memory, poor memory allocation, and inefficient paging algorithms.",
+        "difficulty": "Advanced",
+        "original_question": "6. What is Thrashing?",
+        "role": "Embedded Systems Engineer",
+        "skill": "ARM Cortex",
+        "source": "https://www.geeksforgeeks.org/operating-systems/operating-systems-interview-questions/"
+    },
+    {
+        "refined_question": "What is a buffer?",
+        "answer": "A buffer is a region of memory used to temporarily hold data while it is being transferred from one place to another. Buffers are used to improve system performance by reducing the time it takes to transfer data between devices or systems. They are commonly used in input/output operations, such as reading from a file or network socket, to store data until it can be processed or transmitted.",
+        "difficulty": "Beginner",
+        "original_question": "7. What is Buffer?",
+        "role": "Embedded Systems Engineer",
+        "skill": "ARM Cortex",
+        "source": "https://www.geeksforgeeks.org/operating-systems/operating-systems-interview-questions/"
+    },
+    {
+        "refined_question": "What is virtual memory?",
+        "answer": "Virtual memory is a memory management technique that allows a computer system to use both physical memory (RAM) and secondary storage (disk) to store data. Virtual memory provides a large address space that can be larger than the physical memory available, allowing programs to run even if they require more memory than is physically available. The operating system uses a combination of physical memory and disk storage to provide a virtual address space, swapping pages of memory to and from disk as needed to free up physical memory.",
+        "difficulty": "Intermediate",
+        "original_question": "8. What is virtual memory?",
+        "role": "Embedded Systems Engineer",
+        "skill": "ARM Cortex",
+        "source": "https://www.geeksforgeeks.org/operating-systems/operating-systems-interview-questions/"
+    },
+    {
+        "refined_question": "What is an operating system, and what are its basic functions?",
+        "answer": "An operating system (OS) is a software component that manages computer hardware and provides a platform for running applications. The basic functions of an operating system are:  Process management: The OS manages the creation, execution, and termination of processes.  Memory management: The OS manages the allocation and deallocation of memory for running programs.  File management: The OS provides a file system for storing and retrieving files.  Input/output management: The OS manages input/output operations between devices and programs.  Security: The OS provides mechanisms for controlling access to computer resources and protecting against unauthorized access.  Networking: The OS provides networking capabilities, such as TCP/IP protocol support and socket programming.",
+        "difficulty": "Beginner",
+        "original_question": "What do you mean by an operating system? What are its basic functions?",
+        "role": "Embedded Systems Engineer",
+        "skill": "RTOS",
+        "source": "https://www.interviewbit.com/operating-system-interview-questions/"
+    },
+    {
+        "refined_question": "What is IPC, and what are the different IPC mechanisms?",
+        "answer": "Inter-process communication (IPC) refers to the mechanisms used by processes to communicate with each other. The different IPC mechanisms are:  Pipes: A pipe is a unidirectional communication channel between two related processes.  Named pipes: A named pipe is a bidirectional communication channel between unrelated processes.  Shared memory: Shared memory is a region of memory that can be accessed by multiple processes.  Message queues: A message queue is a data structure that allows processes to send and receive messages.  Sockets: A socket is a endpoint for communication between two processes, either locally or over a network.",
+        "difficulty": "Intermediate",
+        "original_question": "1. What is IPC? What are the different IPC mechanisms?",
+        "role": "Embedded Systems Engineer",
+        "skill": "RTOS",
+        "source": "https://www.interviewbit.com/operating-system-interview-questions/"
+    },
+    {
+        "refined_question": "What is the main purpose of an OS, and what are the different types of OS?",
+        "answer": "The main purpose of an operating system is to manage computer hardware and provide a platform for running applications. The different types of operating systems are:  Single-user, single-tasking: An OS that allows only one user to run one program at a time.  Single-user, multi-tasking: An OS that allows one user to run multiple programs simultaneously.  Multi-user: An OS that allows multiple users to access the system simultaneously.  Real-time: An OS that provides predictable and fast response times for critical applications.  Embedded: An OS that is designed for use in embedded systems, such as traffic lights or consumer appliances.",
+        "difficulty": "Beginner",
+        "original_question": "2. What's the main purpose of an OS? What are the different types of OS?",
+        "role": "Embedded Systems Engineer",
+        "skill": "RTOS",
+        "source": "https://www.interviewbit.com/operating-system-interview-questions/"
+    },
+    {
+        "refined_question": "What are the benefits of a multiprocessor system?",
+        "answer": "The benefits of a multiprocessor system are:  Improved performance: Multiprocessor systems can execute multiple tasks simultaneously, improving overall system performance.  Increased throughput: Multiprocessor systems can handle a larger number of tasks and users, increasing system throughput.  Enhanced reliability: Multiprocessor systems can provide fault tolerance and redundancy, improving system reliability.  Scalability: Multiprocessor systems can be easily scaled up or down to meet changing system requirements.",
+        "difficulty": "Intermediate",
+        "original_question": "3. What are the benefits of a multiprocessor system?",
+        "role": "Embedded Systems Engineer",
+        "skill": "RTOS",
+        "source": "https://www.interviewbit.com/operating-system-interview-questions/"
+    },
+    {
+        "refined_question": "What is RAID, and what are the different levels of RAID configuration?",
+        "answer": "RAID (Redundant Array of Independent Disks) is a storage technology that combines multiple disks into a single logical unit to improve data reliability and performance. The different levels of RAID configuration are:  RAID 0: Striping, which improves performance by dividing data across multiple disks.  RAID 1: Mirroring, which improves reliability by duplicating data on multiple disks.  RAID 5: Striping with parity, which provides a balance between performance and reliability.  RAID 6: Striping with double parity, which provides higher reliability than RAID 5.  RAID 10: A combination of RAID 1 and RAID 0, which provides both reliability and performance.",
+        "difficulty": "Intermediate",
+        "original_question": "4. What is RAID structure in OS? What are the different levels of RAID configuration?",
+        "role": "Embedded Systems Engineer",
+        "skill": "RTOS",
+        "source": "https://www.interviewbit.com/operating-system-interview-questions/"
+    },
+    {
+        "refined_question": "What is GUI?",
+        "answer": "A graphical user interface (GUI) is a type of user interface that uses visual elements, such as windows, icons, and menus, to interact with a computer system. GUIs provide an intuitive and user-friendly way to interact with a system, making it easier for users to perform tasks and access system resources. GUIs typically include features such as:  Windows: Rectangular areas on the screen that display information and provide a way to interact with the system.  Icons: Small graphics that represent files, programs, or system resources.  Menus: Lists of options that provide access to system functions and features.  Pointing devices: Devices, such as mice or touchpads, that allow users to interact with the GUI.",
+        "difficulty": "Beginner",
+        "original_question": "5. What is GUI?",
+        "role": "Embedded Systems Engineer",
+        "skill": "RTOS",
+        "source": "https://www.interviewbit.com/operating-system-interview-questions/"
+    },
+    {
+        "refined_question": "What is a pipe in operating systems and when is it used?",
+        "answer": "A pipe is a unidirectional data stream that can be used to communicate between related processes. It is used to redirect the output of one process as the input to another process. Pipes are commonly used in command-line interfaces to chain multiple commands together, allowing the output of one command to be used as the input for the next command. Pipes are useful for tasks such as data processing, filtering, and redirection.",
+        "difficulty": "Intermediate",
+        "original_question": "6. What is a Pipe and when it is used?",
+        "role": "Embedded Systems Engineer",
+        "skill": "RTOS",
+        "source": "https://www.interviewbit.com/operating-system-interview-questions/"
+    },
+    {
+        "refined_question": "What are the different kinds of operations that can be performed on a semaphore?",
+        "answer": "Semaphores are a type of synchronization primitive that can be used to control access to shared resources. The different kinds of operations that can be performed on a semaphore include:    Initialization: setting the initial value of the semaphore    Wait (or P) operation: decrements the semaphore value, blocking if the value is zero    Signal (or V) operation: increments the semaphore value, unblocking any waiting processes    Destroy: releases any system resources associated with the semaphore",
+        "difficulty": "Intermediate",
+        "original_question": "7. What are the different kinds of operations that are possible on semaphore?",
+        "role": "Embedded Systems Engineer",
+        "skill": "RTOS",
+        "source": "https://www.interviewbit.com/operating-system-interview-questions/"
+    },
+    {
+        "refined_question": "What is a Real-Time Operating System (RTOS) and its key characteristics?",
+        "answer": "A Real-Time Operating System (RTOS) is a type of operating system that is designed to manage and execute tasks in real-time, meaning that it can guarantee a predictable and fast response to events. The key characteristics of an RTOS include:    Predictability: the RTOS can guarantee a predictable response to events    Low latency: the RTOS can respond quickly to events    Multitasking: the RTOS can manage multiple tasks concurrently    Interrupt handling: the RTOS can handle interrupts from hardware devices",
+        "difficulty": "Intermediate",
+        "original_question": "What is a Real-Time Operating System (RTOS)?",
+        "role": "Embedded Systems Engineer",
+        "skill": "RTOS",
+        "source": "https://www.geeksforgeeks.org/operating-systems/real-time-operating-system-rtos/"
+    },
+    {
+        "refined_question": "What is the purpose of a Real-Time Operating System (RTOS)?",
+        "answer": "The purpose of a Real-Time Operating System (RTOS) is to provide a platform for developing and executing real-time applications, which require predictable and fast responses to events. RTOS is used in applications that require:    Low latency and high reliability    Multitasking and concurrent execution of tasks    Efficient management of system resources    Support for interrupt handling and device management",
+        "difficulty": "Beginner",
+        "original_question": "What is the Purpose of RTOS?",
+        "role": "Embedded Systems Engineer",
+        "skill": "RTOS",
+        "source": "https://www.geeksforgeeks.org/operating-systems/real-time-operating-system-rtos/"
+    },
+    {
+        "refined_question": "What is Arduino and its significance in embedded systems?",
+        "answer": "Arduino is an open-source electronics platform that consists of a microcontroller board and a software development environment. It is significant in embedded systems because it provides a flexible and accessible way to develop interactive electronic projects, such as:    Robotics    Home automation    Wearable technology    IoT devices Arduino's simplicity, affordability, and large community make it a popular choice for hobbyists, students, and professionals alike.",
+        "difficulty": "Beginner",
+        "original_question": "What is Arduino?",
+        "role": "Embedded Systems Engineer",
+        "skill": "Arduino",
+        "source": "https://www.geeksforgeeks.org/electronics-engineering/getting-started-with-arduino/"
+    },
+    {
+        "refined_question": "Why choose Arduino for embedded systems projects?",
+        "answer": "Arduino is chosen for embedded systems projects because of its:    Ease of use: Arduino has a simple and intuitive programming language and development environment    Affordability: Arduino boards are relatively inexpensive compared to other microcontroller platforms    Flexibility: Arduino can be used for a wide range of projects, from simple to complex    Large community: Arduino has a large and active community, which provides extensive documentation, libraries, and support    Extensive libraries: Arduino has a wide range of libraries and shields that make it easy to integrate with various sensors and devices",
+        "difficulty": "Beginner",
+        "original_question": "Why choose Arduino?",
+        "role": "Embedded Systems Engineer",
+        "skill": "Arduino",
+        "source": "https://www.geeksforgeeks.org/electronics-engineering/getting-started-with-arduino/"
+    },
+    {
+        "refined_question": "What can you do with an Arduino board?",
+        "answer": "With an Arduino board, you can:    Build interactive electronics projects, such as robots, home automation systems, and wearable technology    Develop IoT devices that can connect to the internet and interact with other devices    Create prototypes and proof-of-concepts for new product ideas    Learn programming and electronics concepts, such as circuit design, microcontrollers, and sensors    Participate in robotics and electronics competitions and challenges    Develop artistic and creative projects, such as interactive installations and sculptures",
+        "difficulty": "Beginner",
+        "original_question": "What Can You Do With an Arduino?",
+        "role": "Embedded Systems Engineer",
+        "skill": "Arduino",
+        "source": "https://www.geeksforgeeks.org/electronics-engineering/getting-started-with-arduino/"
+    },
+    {
+        "refined_question": "What is Linux and its significance in operating systems?",
+        "answer": "Linux is an open-source operating system that is widely used in computers, servers, and embedded devices. Its significance in operating systems includes:    Free and open-source: Linux is free to use, modify, and distribute    Customizable: Linux can be customized to meet specific needs and requirements    Secure: Linux has a strong focus on security and is widely considered to be more secure than other operating systems    Community-driven: Linux has a large and active community that contributes to its development and maintenance    Cross-platform: Linux can run on a wide range of hardware platforms, from small embedded devices to large servers",
+        "difficulty": "Beginner",
+        "original_question": "1. What is Linux?",
+        "role": "Embedded Systems Engineer",
+        "skill": "Raspberry Pi",
+        "source": "https://www.geeksforgeeks.org/linux-unix/linux-interview-questions/"
+    },
+    {
+        "refined_question": "What are the major differences between Linux and Windows?",
+        "answer": "The major differences between Linux and Windows include:    Licensing: Linux is open-source and free, while Windows is proprietary and requires a license fee    Customization: Linux is highly customizable, while Windows has limited customization options    Security: Linux is generally considered to be more secure than Windows    Hardware compatibility: Linux can run on a wide range of hardware platforms, while Windows is primarily designed for x86-based systems    Software availability: Windows has a wider range of software applications available, while Linux has a growing range of applications and tools",
+        "difficulty": "Beginner",
+        "original_question": "4. What are the major differences between Linux and Windows?",
+        "role": "Embedded Systems Engineer",
+        "skill": "Raspberry Pi",
+        "source": "https://www.geeksforgeeks.org/linux-unix/linux-interview-questions/"
+    },
+    {
+        "refined_question": "What is the Linux kernel and is it legal to edit it?",
+        "answer": "The Linux kernel is the core part of the Linux operating system, responsible for managing hardware resources and providing services to applications. It is legal to edit the Linux kernel, as it is open-source and licensed under the GNU General Public License (GPL). In fact, the Linux kernel is constantly being modified and improved by the Linux community, with new versions and patches being released regularly. However, any modifications to the kernel must be made in accordance with the GPL and must be redistributed under the same license.",
+        "difficulty": "Intermediate",
+        "original_question": "7. What is the Linux Kernel? Is it legal to edit it?",
+        "role": "Embedded Systems Engineer",
+        "skill": "Raspberry Pi",
+        "source": "https://www.geeksforgeeks.org/linux-unix/linux-interview-questions/"
+    },
+    {
+        "refined_question": "What is a shell in Linux and its purpose?",
+        "answer": "A shell in Linux is a command-line interface that allows users to interact with the operating system and execute commands. The purpose of a shell includes:    Command execution: the shell executes commands and provides output    File management: the shell provides commands for managing files and directories    Process management: the shell provides commands for managing processes and jobs    Input/output redirection: the shell provides commands for redirecting input and output    Scripting: the shell provides a scripting language for automating tasks and processes",
+        "difficulty": "Beginner",
+        "original_question": "9. What is Shell in Linux?",
+        "role": "Embedded Systems Engineer",
+        "skill": "Raspberry Pi",
+        "source": "https://www.geeksforgeeks.org/linux-unix/linux-interview-questions/"
+    },
+    {
+        "refined_question": "What is a root account in Linux and its significance?",
+        "answer": "A root account in Linux is a special account that has unrestricted access to the system and its resources. The significance of the root account includes:    System administration: the root account is used for system administration tasks, such as installing software and configuring the system    Security: the root account has elevated privileges and can perform tasks that require root access    File system access: the root account has access to all files and directories on the system    Process management: the root account can manage and kill any process on the system    Network configuration: the root account can configure network settings and interfaces",
+        "difficulty": "Beginner",
+        "original_question": "10. What is a root account?",
+        "role": "Embedded Systems Engineer",
+        "skill": "Raspberry Pi",
+        "source": "https://www.geeksforgeeks.org/linux-unix/linux-interview-questions/"
+    },
+    {
+        "refined_question": "What is swap space in Linux and its purpose?",
+        "answer": "Swap space in Linux is a portion of the hard drive that is used as an extension of the system's RAM. The purpose of swap space includes:    Memory management: swap space provides additional memory for the system when the RAM is full    Process management: swap space allows the system to swap out inactive processes and free up RAM    Performance optimization: swap space can improve system performance by providing a buffer for memory-intensive applications    Crash recovery: swap space can help the system recover from crashes and errors by providing a safe place to store data",
+        "difficulty": "Intermediate",
+        "original_question": "12. What is Swap Space?",
+        "role": "Embedded Systems Engineer",
+        "skill": "Raspberry Pi",
+        "source": "https://www.geeksforgeeks.org/linux-unix/linux-interview-questions/"
+    },
+    {
+        "refined_question": "What is the difference between hard links and soft links in Linux?",
+        "answer": "The difference between hard links and soft links in Linux includes:    Hard links: a hard link is a direct reference to a file on disk, and multiple hard links can point to the same file    Soft links: a soft link is a reference to a file or directory, and it contains the path to the file or directory    File deletion: if a file is deleted, all hard links to the file will still be valid, while soft links will be broken    Disk space: hard links do not take up additional disk space, while soft links take up a small amount of disk space    File system: hard links are limited to the same file system, while soft links can span multiple file systems",
+        "difficulty": "Intermediate",
+        "original_question": "13. What is the difference between hard links and soft links?",
+        "role": "Embedded Systems Engineer",
+        "skill": "Raspberry Pi",
+        "source": "https://www.geeksforgeeks.org/linux-unix/linux-interview-questions/"
+    },
+    {
+        "refined_question": "How do users create a symbolic link in Linux?",
+        "answer": "To create a symbolic link in Linux, users can use the `ln` command with the `-s` option, followed by the target file or directory and the name of the symbolic link. For example: `ln -s /path/to/target /path/to/link`. This will create a symbolic link at `/path/to/link` that points to `/path/to/target`. The `ln` command can also be used to create hard links, but the `-s` option is required to create a symbolic link.",
+        "difficulty": "Beginner",
+        "original_question": "14. How do users create a symbolic link in Linux?",
+        "role": "Embedded Systems Engineer",
+        "skill": "Raspberry Pi",
+        "source": "https://www.geeksforgeeks.org/linux-unix/linux-interview-questions/"
+    },
+    {
+        "refined_question": "What are the key characteristics of software in embedded systems?",
+        "answer": "The key characteristics of software in embedded systems include portability, scalability, reliability, maintainability, and reusability. Software in embedded systems must be able to operate within the constraints of the hardware, such as limited memory and processing power. Additionally, software in embedded systems must be able to interact with hardware components, such as sensors and actuators, and must be designed to meet specific requirements, such as real-time operation and low power consumption. Other important characteristics of software in embedded systems include flexibility, testability, and usability.",
+        "difficulty": "Intermediate",
+        "original_question": "1. What are the Characteristics of Software?",
+        "role": "Embedded Systems Engineer",
+        "skill": "Assembly",
+        "source": "https://www.geeksforgeeks.org/software-engineering/software-engineering-interview-questions-and-answers/"
+    },
+    {
+        "refined_question": "What are the various categories of software used in embedded systems?",
+        "answer": "The various categories of software used in embedded systems include:  System software, such as operating systems and device drivers  Application software, such as user interfaces and control algorithms  Firmware, which is software that is stored in non-volatile memory and is used to control the operation of hardware components  Embedded software, which is software that is designed to operate within the constraints of an embedded system  Real-time software, which is software that is designed to meet specific timing requirements  Safety-critical software, which is software that is designed to ensure the safety of people and equipment.",
+        "difficulty": "Intermediate",
+        "original_question": "2. What are the Various Categories of Software?",
+        "role": "Embedded Systems Engineer",
+        "skill": "Assembly",
+        "source": "https://www.geeksforgeeks.org/software-engineering/software-engineering-interview-questions-and-answers/"
+    },
+    {
+        "refined_question": "Explain the Software Development Life Cycle (SDLC) and its phases",
+        "answer": "The Software Development Life Cycle (SDLC) is a framework used to plan, design, develop, test, and deliver software applications. The phases of the SDLC include:  Planning: defining the project scope, goals, and deliverables  Analysis: gathering and analyzing requirements  Design: creating a detailed design of the software application  Implementation: writing the code and developing the software  Testing: verifying that the software meets the requirements and works as expected  Deployment: delivering the software to the end-users  Maintenance: updating and maintaining the software over time. Each phase is important to ensure that the software is developed on time, within budget, and meets the requirements of the stakeholders.",
+        "difficulty": "Beginner",
+        "original_question": "3. Explain SDLC and its Phases?",
+        "role": "Embedded Systems Engineer",
+        "skill": "Assembly",
+        "source": "https://www.geeksforgeeks.org/software-engineering/software-engineering-interview-questions-and-answers/"
+    },
+    {
+        "refined_question": "What are the different SDLC models available for embedded systems development?",
+        "answer": "The different SDLC models available for embedded systems development include:  Waterfall model: a linear approach to software development  Agile model: an iterative and incremental approach to software development  V-model: a variation of the waterfall model that emphasizes testing and validation  Spiral model: a risk-driven approach to software development  Incremental model: an approach that involves developing software in increments  Rapid application development (RAD) model: an approach that emphasizes rapid development and delivery of software. Each model has its own strengths and weaknesses, and the choice of model depends on the specific needs and requirements of the project.",
+        "difficulty": "Intermediate",
+        "original_question": "4. What are different SDLC Models Available?",
+        "role": "Embedded Systems Engineer",
+        "skill": "Assembly",
+        "source": "https://www.geeksforgeeks.org/software-engineering/software-engineering-interview-questions-and-answers/"
+    },
+    {
+        "refined_question": "What is the Waterfall method and what are its use cases in embedded systems development?",
+        "answer": "The Waterfall method is a linear approach to software development that involves completing each phase of the SDLC in sequence. The phases of the Waterfall method include:  Requirements gathering  Analysis  Design  Implementation  Testing  Deployment  Maintenance. The Waterfall method is useful for projects that have well-defined requirements, a fixed budget, and a tight deadline. It is also useful for projects that involve safety-critical or mission-critical systems, where the consequences of failure are high. Use cases for the Waterfall method in embedded systems development include:  Developing software for medical devices  Developing software for aerospace and defense systems  Developing software for automotive systems.",
+        "difficulty": "Intermediate",
+        "original_question": "5. What is the Waterfall Method and What are its Use Cases?",
+        "role": "Embedded Systems Engineer",
+        "skill": "Assembly",
+        "source": "https://www.geeksforgeeks.org/software-engineering/software-engineering-interview-questions-and-answers/"
+    },
+    {
+        "refined_question": "What is Black Box Testing and how is it used in embedded systems testing?",
+        "answer": "Black Box Testing is a software testing method that involves testing the functionality of a software application without knowing the internal workings of the application. The tester provides inputs to the application and verifies the outputs to ensure that they meet the requirements. Black Box Testing is used in embedded systems testing to:  Test the functionality of the system  Test the user interface  Test the performance of the system  Test the security of the system. The advantages of Black Box Testing include:  It is easy to perform  It is cost-effective  It can be automated. The disadvantages of Black Box Testing include:  It may not detect all defects  It may not provide detailed information about the defects.",
+        "difficulty": "Beginner",
+        "original_question": "6. What is Black Box Testing?",
+        "role": "Embedded Systems Engineer",
+        "skill": "Assembly",
+        "source": "https://www.geeksforgeeks.org/software-engineering/software-engineering-interview-questions-and-answers/"
+    },
+    {
+        "refined_question": "What is White Box Testing and how is it used in embedded systems testing?",
+        "answer": "White Box Testing is a software testing method that involves testing the internal workings of a software application. The tester has knowledge of the internal code and uses this knowledge to test the application. White Box Testing is used in embedded systems testing to:  Test the code coverage  Test the control flow  Test the data flow  Test the error handling. The advantages of White Box Testing include:  It can detect defects that are not detectable by Black Box Testing  It provides detailed information about the defects  It can be used to test the performance of the system. The disadvantages of White Box Testing include:  It requires knowledge of the internal code  It can be time-consuming and expensive.",
+        "difficulty": "Intermediate",
+        "original_question": "7.  What is White Box Testing?",
+        "role": "Embedded Systems Engineer",
+        "skill": "Assembly",
+        "source": "https://www.geeksforgeeks.org/software-engineering/software-engineering-interview-questions-and-answers/"
+    },
+    {
+        "refined_question": "What is the difference between Alpha and Beta Testing in embedded systems development?",
+        "answer": "Alpha Testing and Beta Testing are two types of software testing that are used to validate the functionality and performance of a software application. Alpha Testing is a type of testing that is performed by the development team or a small group of users to validate the functionality and performance of the application. It is typically performed in a controlled environment and is used to detect and fix defects before the application is released to the public. Beta Testing, on the other hand, is a type of testing that is performed by a larger group of users to validate the functionality and performance of the application in a real-world environment. It is typically performed after Alpha Testing and is used to detect and fix defects that were not detected during Alpha Testing. The key differences between Alpha and Beta Testing are:  Alpha Testing is performed by a small group of users, while Beta Testing is performed by a larger group of users  Alpha Testing is performed in a controlled environment, while Beta Testing is performed in a real-world environment  Alpha Testing is used to detect and fix defects before the application is released, while Beta Testing is used to detect and fix defects after the application is released.",
+        "difficulty": "Beginner",
+        "original_question": "8. Distinguish between Alpha and Beta Testing?",
+        "role": "Embedded Systems Engineer",
+        "skill": "Assembly",
+        "source": "https://www.geeksforgeeks.org/software-engineering/software-engineering-interview-questions-and-answers/"
+    },
+    {
+        "refined_question": "What is a Device Driver and what is its role in embedded systems?",
+        "answer": "A Device Driver is a software component that enables communication between a computer's operating system and a hardware device. It acts as an intermediary between the operating system and the device, allowing the operating system to control and interact with the device. The role of a Device Driver in embedded systems is to:  Provide a interface between the operating system and the device  Manage the data transfer between the operating system and the device  Control the device's behavior and configuration  Provide a layer of abstraction between the operating system and the device. Device Drivers are used in embedded systems to interact with a wide range of devices, including:  Sensors and actuators  Displays and keyboards  Networking devices  Storage devices.",
+        "difficulty": "Intermediate",
+        "original_question": "What is Device Driver?",
+        "role": "Embedded Systems Engineer",
+        "skill": "Device Drivers",
+        "source": "https://www.geeksforgeeks.org/operating-systems/device-driver-and-its-purpose/"
+    },
+    {
+        "refined_question": "How do Device Drivers interact with hardware in embedded systems?",
+        "answer": "Device Drivers interact with hardware in embedded systems through a variety of mechanisms, including:  Register-level programming: the Device Driver writes to and reads from the device's registers to control its behavior  Interrupt handling: the Device Driver handles interrupts generated by the device to respond to events and errors  DMA (Direct Memory Access): the Device Driver uses DMA to transfer data between the device and the system memory  I/O operations: the Device Driver performs I/O operations, such as reading and writing to the device, to interact with the device. The Device Driver also interacts with the operating system to:  Request resources, such as memory and I/O ports  Notify the operating system of events and errors  Receive commands and data from the operating system. The interaction between the Device Driver and the hardware is critical to the proper functioning of the embedded system, and requires a deep understanding of the device's behavior and the operating system's requirements.",
+        "difficulty": "Advanced",
+        "original_question": "How Do Device Drivers Interact With Hardware?",
+        "role": "Embedded Systems Engineer",
+        "skill": "Device Drivers",
+        "source": "https://www.geeksforgeeks.org/operating-systems/device-driver-and-its-purpose/"
+    },
+    {
+        "refined_question": "How does web-based technology use Device Drivers in embedded systems?",
+        "answer": "Web-based technology uses Device Drivers in embedded systems to interact with hardware devices and provide a web-based interface to the device. This allows users to access and control the device remotely, using a web browser or mobile app. The Device Driver plays a critical role in this process, as it provides the interface between the web-based application and the hardware device. The Device Driver:  Exposes the device's functionality to the web-based application  Handles requests from the web-based application and sends responses back to the user  Manages the data transfer between the web-based application and the device  Provides a layer of abstraction between the web-based application and the device. Examples of web-based technologies that use Device Drivers in embedded systems include:  IoT (Internet of Things) devices, such as smart home devices and industrial sensors  Web-based monitoring and control systems, such as SCADA (Supervisory Control and Data Acquisition) systems  Remote access and control systems, such as VPN (Virtual Private Network) and VNC (Virtual Network Computing) systems.",
+        "difficulty": "Intermediate",
+        "original_question": "How Does Web-Based Technology Use Device Drivers?",
+        "role": "Embedded Systems Engineer",
+        "skill": "Device Drivers",
+        "source": "https://www.geeksforgeeks.org/operating-systems/device-driver-and-its-purpose/"
+    },
+    {
+        "refined_question": "How do I install Device Drivers in an embedded system?",
+        "answer": "Installing Device Drivers in an embedded system typically involves the following steps:  Obtaining the Device Driver software from the device manufacturer or a third-party vendor  Compiling and building the Device Driver software for the target embedded system  Loading the Device Driver software into the embedded system's memory  Configuring the Device Driver software to interact with the device and the operating system  Testing the Device Driver software to ensure it is functioning correctly. The specific steps and tools used to install Device Drivers may vary depending on the embedded system and the Device Driver software. Some common tools used to install Device Drivers include:  Package managers, such as apt-get or yum  Build systems, such as make or cmake  Bootloaders, such as U-Boot or GRUB  Operating system configuration tools, such as sysctl or ioctl. It is also important to ensure that the Device Driver software is compatible with the embedded system's operating system and hardware, and that it is properly configured and tested to ensure reliable operation.",
+        "difficulty": "Advanced",
+        "original_question": "How do I Install Device Drivers?",
+        "role": "Embedded Systems Engineer",
+        "skill": "Device Drivers",
+        "source": "https://www.geeksforgeeks.org/operating-systems/device-driver-and-its-purpose/"
+    },
+    {
+        "refined_question": "What is Linux and what are its features in embedded systems?",
+        "answer": "Linux is an open-source operating system that is widely used in embedded systems due to its flexibility, customizability, and low cost. The features of Linux in embedded systems include:  Portability: Linux can run on a wide range of hardware platforms, from small microcontrollers to large servers  Customizability: Linux can be customized to meet the specific needs of an embedded system, including optimizing for size, speed, and power consumption  Open-source: Linux is open-source, which means that the source code is freely available and can be modified and distributed by anyone  Community support: Linux has a large and active community of developers and users, which provides a wealth of resources and support for embedded system development  Device driver support: Linux has a wide range of device drivers available, which makes it easy to interface with a variety of hardware devices  Networking support: Linux has built-in support for networking protocols, such as TCP/IP, HTTP, and FTP, which makes it easy to connect embedded systems to the internet or other networks. Linux is used in a wide range of embedded systems, including:  Consumer electronics, such as smartphones and televisions  Industrial control systems, such as robotics and automation  Medical devices, such as patient monitors and medical imaging equipment  Automotive systems, such as infotainment and navigation systems.",
+        "difficulty": "Intermediate",
+        "original_question": "What do you mean by Linux? Explain its features.",
+        "role": "Embedded Systems Engineer",
+        "skill": "Linux",
+        "source": "https://www.interviewbit.com/linux-interview-questions/"
+    },
+    {
+        "refined_question": "What is the Kernel in Linux and what are its functions in embedded systems?",
+        "answer": "The Kernel is the core part of the Linux operating system, responsible for managing the system's hardware resources and providing services to applications. The functions of the Kernel in embedded systems include:  Process management: the Kernel manages the creation, execution, and termination of processes  Memory management: the Kernel manages the allocation and deallocation of memory for applications  File system management: the Kernel provides access to file systems, such as ext2, ext3, and FAT  I/O management: the Kernel manages input/output operations, such as reading and writing to devices  Networking: the Kernel provides networking support, including TCP/IP, HTTP, and FTP  Device management: the Kernel manages the interaction between applications and hardware devices. The Kernel is responsible for providing a layer of abstraction between the hardware and the applications, allowing developers to write applications that are hardware-independent. The Kernel also provides a range of services, including:  Interrupt handling: the Kernel handles interrupts generated by hardware devices  Timer management: the Kernel manages the system's timers and clocks  Power management: the Kernel manages the system's power consumption and provides support for power-saving features. In embedded systems, the Kernel is often customized to meet the specific needs of the system, including optimizing for size, speed, and power consumption.",
+        "difficulty": "Advanced",
+        "original_question": "3. What is Kernel? Explain its functions.",
+        "role": "Embedded Systems Engineer",
+        "skill": "Linux",
+        "source": "https://www.interviewbit.com/linux-interview-questions/"
+    },
+    {
+        "refined_question": "What are the two types of Linux User Mode in embedded systems?",
+        "answer": "The two types of Linux User Mode in embedded systems are:  User Mode: this mode is used for normal application execution, where the application runs with limited privileges and access to system resources  Root Mode: this mode is used for system administration and maintenance, where the application runs with elevated privileges and access to all system resources. In User Mode, the application is restricted from accessing certain system resources, such as:  Hardware devices, such as serial ports and network interfaces  System files, such as configuration files and system logs  Other applications, such as system services and daemons. In Root Mode, the application has unrestricted access to all system resources, including:  Hardware devices  System files  Other applications. The Root Mode is typically used for system administration and maintenance tasks, such as:  Configuring system settings and parameters  Installing and updating software packages  Troubleshooting system problems and errors. The User Mode is typically used for normal application execution, such as:  Running user applications, such as web browsers and email clients  Accessing system services, such as printing and networking  Interacting with hardware devices, such as keyboards and displays.",
+        "difficulty": "Intermediate",
+        "original_question": "4. What are two types of Linux User Mode?",
+        "role": "Embedded Systems Engineer",
+        "skill": "Linux",
+        "source": "https://www.interviewbit.com/linux-interview-questions/"
+    },
+    {
+        "refined_question": "What is swap space in the context of operating systems?",
+        "answer": "Swap space refers to a portion of a hard drive or solid-state drive that is used as an extension of a computer's random access memory (RAM). When the RAM is fully utilized, the operating system can move inactive pages of memory to the swap space, freeing up RAM for active processes. This process is known as swapping or paging. Swap space is essential for preventing out-of-memory errors and allowing the system to handle more memory-intensive tasks than it would be able to with RAM alone. The use of swap space can significantly impact system performance, as disk access is generally much slower than RAM access.",
+        "difficulty": "Intermediate",
+        "original_question": "6. What is swap space?",
+        "role": "Embedded Systems Engineer",
+        "skill": "Linux",
+        "source": "https://www.interviewbit.com/linux-interview-questions/"
+    },
+    {
+        "refined_question": "What are the different process states in Linux and how do they function?",
+        "answer": "In Linux, a process can be in one of several states, including:  Running: The process is currently being executed by the CPU.  Sleeping: The process is waiting for an event to occur, such as I/O completion or a signal.  Stopped: The process has been suspended, usually due to a signal.  Zombie: The process has terminated, but its parent process has not yet acknowledged its termination.  Dead: The process has been terminated and its resources have been released. These states are used by the operating system to manage processes and allocate system resources efficiently. Understanding process states is crucial for debugging, troubleshooting, and optimizing system performance.",
+        "difficulty": "Intermediate",
+        "original_question": "7. What do you mean by a Process States in Linux?",
+        "role": "Embedded Systems Engineer",
+        "skill": "Linux",
+        "source": "https://www.interviewbit.com/linux-interview-questions/"
+    },
+    {
+        "refined_question": "What is the Linux Shell, and what are the different types of shells available in Linux?",
+        "answer": "The Linux Shell is a command-line interface that allows users to interact with the operating system. It provides a way to execute commands, navigate the file system, and manage processes. There are several types of shells available in Linux, including:  Bash (Bourne-Again SHell): The most widely used shell in Linux, known for its flexibility and customizability.  Tcsh (Tenex C Shell): A variant of the C Shell, which is similar to Bash but has some different features and syntax.  Zsh (Z Shell): A powerful and customizable shell that combines features from Bash and Tcsh.  Fish (Friendly Interactive Shell): A user-friendly shell that provides features like auto-suggestion and syntax highlighting. Each shell has its own strengths and weaknesses, and users can choose the one that best fits their needs and preferences.",
+        "difficulty": "Beginner",
+        "original_question": "8. What is Linux Shell? What types of Shells are there in Linux?",
+        "role": "Embedded Systems Engineer",
+        "skill": "Linux",
+        "source": "https://www.interviewbit.com/linux-interview-questions/"
+    },
+    {
+        "refined_question": "What is the maximum length for a filename under Linux?",
+        "answer": "The maximum length for a filename under Linux is 255 characters. This limit is imposed by the Linux kernel and is a common constraint across most file systems, including Ext2, Ext3, and Ext4. However, it's worth noting that some file systems, such as XFS and JFS, may have longer filename limits. Additionally, the total path length, including the filename and directory names, is limited to 4096 characters.",
+        "difficulty": "Beginner",
+        "original_question": "10. What is a maximum length for a filename under Linux?",
+        "role": "Embedded Systems Engineer",
+        "skill": "Linux",
+        "source": "https://www.interviewbit.com/linux-interview-questions/"
+    },
+    {
+        "refined_question": "What is the typical size for swap partitions under the Linux system?",
+        "answer": "The typical size for swap partitions under Linux varies depending on the system's RAM size and usage patterns. A common rule of thumb is to allocate swap space that is at least as large as the system's RAM, but this can vary depending on the specific use case. For example:  For systems with small amounts of RAM (less than 4GB), a swap partition of 2-4GB may be sufficient.  For systems with moderate amounts of RAM (4-16GB), a swap partition of 4-8GB may be suitable.  For systems with large amounts of RAM (more than 16GB), a swap partition of 8-16GB or more may be necessary. It's also important to consider the system's usage patterns, such as the number of concurrent processes and the amount of memory-intensive tasks, when determining the optimal swap partition size.",
+        "difficulty": "Intermediate",
+        "original_question": "12. Under the Linux system, what is the typical size for swap partitions?",
+        "role": "Embedded Systems Engineer",
+        "skill": "Linux",
+        "source": "https://www.interviewbit.com/linux-interview-questions/"
+    }
+]

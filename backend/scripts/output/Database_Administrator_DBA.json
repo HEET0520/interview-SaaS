@@ -1,0 +1,2746 @@
+[
+  {
+    "question": "Q1. What do you mean by Extent in an SQL Server Database?",
+    "answer": "In answering this SQL server DBA interview question, you can say that an extent is a basic unit of measuring space for indexes and tables in the database. Typically, it consists of 8 contiguous pages. Each of these pages are upto 8 KB in size, meaning an extent’s size is 64 KB.",
+    "source": "https://interviewkickstart.com/blogs/interview-questions/sql-server-dba-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q2. What are the contents of the page header in an SQL server database?",
+    "answer": "You can answer thsiSQL DBA interview questionby stating that each data page consists of a page header that stores all the essential metadata about the page. The size of the page header is always going to be96 bytesand will appear at the beginning of each page. With the infomration provided by the page header, the SQL server can be managed and data can be avigated efficiently.",
+    "source": "https://interviewkickstart.com/blogs/interview-questions/sql-server-dba-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q3. What are the different types of System databases?",
+    "answer": "In answering thisSQL server DBA interview question, you can say that the following six are the different types of system databases:",
+    "source": "https://interviewkickstart.com/blogs/interview-questions/sql-server-dba-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q4. What is the Syntax used to create an SQL database?",
+    "answer": "The syntax used to create an SQL database is – Create database <databasename>. The following is the basic syntax used to create an SQL database:",
+    "source": "https://interviewkickstart.com/blogs/interview-questions/sql-server-dba-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q5. How do you create databases with specific file locations in SQL?",
+    "answer": "This is one of the most commonSQL server DBA interview questionsasked in technical interviews. To create a database with a specific file location, the following command is used:",
+    "source": "https://interviewkickstart.com/blogs/interview-questions/sql-server-dba-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q6. What are some third-party tools used to create and support SQL Server databases?",
+    "answer": "Some third-party tools that are commonly used to create and support SQL server databases include:",
+    "source": "https://interviewkickstart.com/blogs/interview-questions/sql-server-dba-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q7. What is SSMS?",
+    "answer": "The SQL Server Management Studio (SSMS), is a popular software application used for designing, creating, configuring, and managing components inside the Microsoft SQL database. It is one of the widely used applications for Microsoft SQL databases.",
+    "source": "https://interviewkickstart.com/blogs/interview-questions/sql-server-dba-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q8. What are the Methods used to backup SQL databases?",
+    "answer": "You can answer this SQL server database administrator interview question by stating that there are several methods that help backup the SQL databases, ensuring the safety and recoverability of the data in case of any failure.",
+    "source": "https://interviewkickstart.com/blogs/interview-questions/sql-server-dba-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What are some good SQL Server questions to ask in an interview?",
+    "answer": "So, this is the first time I will be the interviewer instead of the interviewee and I have no idea what to ask. The person being interviewed is an intermediate to advanced level SQL/database developer. Most of their work is going to be database development and maintenance work with some backend application/ETL type development (ie the application side will handle most of the inserts, soft delete requests, data clean up, and updates to the server).",
+    "source": "https://www.reddit.com/r/SQLServer/comments/18c88ct/what_are_some_good_sql_server_questions_to_ask_in/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. How would you transfer data from MySQL to Microsoft SQL Server?",
+    "answer": "This question assesses the candidate’s experience and knowledge in data migration between different database systems.",
+    "source": "https://resources.workable.com/database-administrator-dba-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. Would you run a test on a live database? Why or why not?",
+    "answer": "This question gauges the candidate’s understanding of best practices in database management.",
+    "source": "https://resources.workable.com/database-administrator-dba-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What measurements would you take to protect our databases from external threats?",
+    "answer": "This question evaluates the candidate’s expertise in database security.",
+    "source": "https://resources.workable.com/database-administrator-dba-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. We are building a new database for our employee records. How do you define system storage requirements?",
+    "answer": "This question tests the candidate’s ability to plan and implement new databases.",
+    "source": "https://resources.workable.com/database-administrator-dba-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. How regularly would you perform tests to ensure data privacy?",
+    "answer": "This question assesses the candidate’s commitment to maintaining data privacy.",
+    "source": "https://resources.workable.com/database-administrator-dba-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. Are you familiar with SQL? Name the most useful SQL queries and their roles.",
+    "answer": "This question assesses the candidate’s familiarity with SQL, a fundamental skill for any DBA.",
+    "source": "https://resources.workable.com/database-administrator-dba-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is the difference between navigational and relational databases?",
+    "answer": "This question tests the candidate’s understanding of different types of database models.",
+    "source": "https://resources.workable.com/database-administrator-dba-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. Can you provide an example of where you can or should use a foreign key?",
+    "answer": "This question evaluates the candidate’s understanding of database relationships and integrity.",
+    "source": "https://resources.workable.com/database-administrator-dba-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Where do the Books Online index fragmentation thresholds come from? - Paul S....",
+    "answer": "I made them up. Yup. I’m talking about the guidance which is: if an index has less than 1000 pages and is in memory, don’t bother removing fragmentation if the index has: less than 5% logical fragmentation, don’t do anything between 5% and 30%...",
+    "source": "https://forums.sqlteam.com/t/good-questions-for-sql-dba-applicant/27531",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Need to Practice for Your Next Interview?",
+    "answer": "We’ve got training! Brent recorded videos helping you prepare and practice for interviews with100 practice DBA interview questionson on your desktop, laptop, iPad, or iPhone.Learn more.",
+    "source": "https://www.brentozar.com/sql/sql-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. Non-Coding Question: How Do You Manage Large Databases and Ensure Their Performance?",
+    "answer": "Managing and ensuring the performance of large databases requires a strategic approach. In your answer, you should lay it out in general terms.",
+    "source": "https://www.stratascratch.com/blog/top-15-sql-server-dba-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "11. Non-Coding Question: How Would You Diagnose and Resolve a Deadlock Situation?",
+    "answer": "Todiagnose a deadlock, you need to take the following steps.",
+    "source": "https://www.stratascratch.com/blog/top-15-sql-server-dba-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "12. Non-Coding Question: How Do You Handle Database Corruption?",
+    "answer": "Here’s how you can approach answering this SQL Server DBA interview question and handling the corrupted database.",
+    "source": "https://www.stratascratch.com/blog/top-15-sql-server-dba-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "14. Non-Coding Question: What Steps Would You Take if You Notice a Sudden Drop in Database Performance?",
+    "answer": "You could answer this question by explaining the following steps you would take in the SQL Server environment.",
+    "source": "https://www.stratascratch.com/blog/top-15-sql-server-dba-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "15. Non-Coding Question: How Would You Approach Resolving Performance Issues Caused by tempdb Contention in the SQL Server?",
+    "answer": "The tempdb contention often occurs due to heavy use of tempdb for temporary tables, table variables, version stores, and internal worktables for operations like sorting and hashing.",
+    "source": "https://www.stratascratch.com/blog/top-15-sql-server-dba-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is The Role of a Database Administrator?",
+    "answer": "The role of a Database Administrator (DBA) primarily involves the management, maintenance, and protection of database systems.",
+    "source": "https://distantjob.com/blog/database-administrator-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Database Optimization",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. Non-technical Background? Ask for help!",
+    "answer": "A great database administrator isn’t solely defined by technical expertise and certifications on their CV. Effective communication skills, teamwork abilities, and the capacity to provide and follow guidelines are equally crucial. When hiring for technical positions like database administrator, it’s essential to consider the candidate’s human qualities.",
+    "source": "https://distantjob.com/blog/database-administrator-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Database Optimization",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. During a database migration how would you handle data loss?",
+    "answer": "Data loss is one of the situations where database administrators experience the most pressure, especially if a migration project falls behind schedule. This question will help you learn more about how a candidate behaves under pressure and stress, and more importantly, what strategies they use to overcome this situation — understanding how to troubleshoot and recover data is a crucial function all DBA roles should know how to handle.",
+    "source": "https://distantjob.com/blog/database-administrator-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Database Optimization",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. We need to build a new database for our employee records. How would you define the system storage requirements?",
+    "answer": "3. Tell me about your process for troubleshooting database problems",
+    "source": "https://distantjob.com/blog/database-administrator-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Database Optimization",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What types of databases do you work with?",
+    "answer": "There are many different types of database infrastructures, so with this question, you’ll be confirming if a candidate has the background you’re looking for. For example, if your database is built with MySQL or Oracle, then it’s important to see how familiar candidates are with these database servers and their level of expertise.",
+    "source": "https://distantjob.com/blog/database-administrator-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Database Optimization",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What is SQL Agent?",
+    "answer": "SQL Agent is the job scheduling mechanism in SQL Server. Jobs can be scheduled to run at a determined time or when a specific event happens. Also, jobs can be executed on demand. SQL Agent is popularly used to schedule administrative jobs such as backups.",
+    "source": "https://distantjob.com/blog/database-administrator-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Database Optimization",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What is DBCC?",
+    "answer": "DBBC statements are Database Console Commands and have four different areas:",
+    "source": "https://distantjob.com/blog/database-administrator-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Database Optimization",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What are the operating modes in which Database Mirroring runs? What are the differences between them?",
+    "answer": "Database Mirroring runs in 2 operating modes: High-Safety Mode and High-Performance Mode. The first one (High-Safety Mode) ensures that the Principal and Mirrored database are in a synchronized state; that is the transactions are committed at the same time on both servers to ensure consistency.  The second one (High-Performance Mode) ensures that the Principal database runs faster by not waiting for the Mirrored database to commit the transactions.",
+    "source": "https://distantjob.com/blog/database-administrator-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Database Optimization",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Is the read performance slow or the write performance?",
+    "answer": "A very important factor that can drive your decision making is how is read and write performance of the database in question. Many of the solutions that improve one may also impact the other in a negative manner. For example, creating materialized views will improve your read performance but adds extra load on the database server that may impact write performance.",
+    "source": "https://medium.com/geekculture/interview-questions-how-to-improve-the-performance-of-your-database-21b42aba352e",
+    "role": "Database Administrator (DBA)",
+    "skill": "Database Optimization",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Which database are we using?",
+    "answer": "Another important factor can be which database we are using. Every database is built for a specific use case. Using the wrong type of database can severely impact your performance.",
+    "source": "https://medium.com/geekculture/interview-questions-how-to-improve-the-performance-of-your-database-21b42aba352e",
+    "role": "Database Administrator (DBA)",
+    "skill": "Database Optimization",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What are the best practices for implementing database security management in large enterprise environments?",
+    "answer": "Best practices include using least privilege access controls, implementing robust authentication mechanisms, regularly auditing database activities, segregating duties among users, encrypting data both at rest and in transit, and continuously applying security patches and updates.",
+    "source": "https://www.micro1.ai/interview-prep/database-administrator-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "Database Optimization",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What techniques can be used to identify and resolve performance bottlenecks in databases?",
+    "answer": "Techniques involve analyzing slow queries through execution plans, indexing optimization, partitioning large tables, tuning database configuration parameters, monitoring resource utilization, and leveraging tools for real-time performance monitoring and diagnostics.",
+    "source": "https://www.micro1.ai/interview-prep/database-administrator-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "Database Optimization",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What strategies contribute to ensuring data integrity in transactional systems?",
+    "answer": "Strategies include enforcing foreign key and unique constraints, using transactions with appropriate isolation levels, implementing triggers for validation, periodic consistency checks, and maintaining thorough backup and restore procedures.",
+    "source": "https://www.micro1.ai/interview-prep/database-administrator-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "Database Optimization",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How does a database administrator approach role-based access control to improve database security?",
+    "answer": "A database administrator defines roles based on job functions, assigns only necessary permissions to each role, conducts regular reviews of role assignments, and removes unneeded privileges to minimize risk, ensuring compliance with security policies.",
+    "source": "https://www.micro1.ai/interview-prep/database-administrator-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "Database Optimization",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What monitoring practices help maintain optimal database performance?",
+    "answer": "Monitoring practices include setting up alerting thresholds for critical metrics, tracking slow queries, regularly reviewing resource consumption, and employing automated performance baseline tracking to quickly detect anomalies.",
+    "source": "https://www.micro1.ai/interview-prep/database-administrator-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "Database Optimization",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What are the advanced methods for encrypting sensitive data within a database?",
+    "answer": "Advanced methods encompass transparent data encryption (TDE), column-level and application-level encryption, use of hardware security modules (HSMs) for key management, and integrating with external key management services for enhanced security.",
+    "source": "https://www.micro1.ai/interview-prep/database-administrator-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "Database Optimization",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What tools and processes support proactive detection of data corruption or loss?",
+    "answer": "Tools and processes include implementing checksums, leveraging database-integrated consistency checks, scheduling regular backups with verification routines, deploying data replication across multiple nodes, and using monitoring solutions that alert on anomalies.",
+    "source": "https://www.micro1.ai/interview-prep/database-administrator-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "Database Optimization",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How can indexing strategies be fine-tuned to enhance database performance?",
+    "answer": "Indexing strategies are refined by analyzing usage patterns, eliminating redundant indexes, leveraging covering indexes, refreshing index statistics, and using filtered or partial indexes for selective optimization.",
+    "source": "https://www.micro1.ai/interview-prep/database-administrator-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "Database Optimization",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What are the most common performance bottlenecks you have encountered when working with databases?",
+    "answer": "Performance bottlenecks are a common issue when working with databases. Some of the most common ones I've encountered include:",
+    "source": "https://www.remoterocketship.com/advice/guide/devops-engineer/database-administration-dba-interview-questions-and-answers",
+    "role": "Database Administrator (DBA)",
+    "skill": "Backup and Recovery",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the crucial system parameters you monitor to ensure database performance?",
+    "answer": "As a database administrator, my primary responsibility is to ensure the database runs efficiently, and the user experience is smooth. To do this, I monitor several system parameters that influence performance, including:",
+    "source": "https://www.remoterocketship.com/advice/guide/devops-engineer/database-administration-dba-interview-questions-and-answers",
+    "role": "Database Administrator (DBA)",
+    "skill": "Backup and Recovery",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. How do you ensure high availability of databases, and what are the methods you use for failover?",
+    "answer": "Ensuring high availability of databases is of utmost importance in order to minimize downtime and ensure performance for end-users. One method I have used is to implement database replication, which involves maintaining one or more copies of the primary database on secondary servers. The primary database continuously sends data updates to the secondary servers, which can take over in the event of a failure.",
+    "source": "https://www.remoterocketship.com/advice/guide/devops-engineer/database-administration-dba-interview-questions-and-answers",
+    "role": "Database Administrator (DBA)",
+    "skill": "Backup and Recovery",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. How do you go about capacity planning for new database implementations?",
+    "answer": "Understand the business requirements - I start with understanding the business requirements for the application or system that the database will be supporting. This includes understanding the expected data volume, required response times, and growth projections.",
+    "source": "https://www.remoterocketship.com/advice/guide/devops-engineer/database-administration-dba-interview-questions-and-answers",
+    "role": "Database Administrator (DBA)",
+    "skill": "Backup and Recovery",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What experience have you had with automating database maintenance tasks?",
+    "answer": "During my time at my previous company, I was responsible for managing a large database for a popular e-commerce site. I noticed that many of our database maintenance tasks were repetitive and time-consuming, so I began to explore automation options.",
+    "source": "https://www.remoterocketship.com/advice/guide/devops-engineer/database-administration-dba-interview-questions-and-answers",
+    "role": "Database Administrator (DBA)",
+    "skill": "Backup and Recovery",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What approach do you take when reviewing database security and compliance?",
+    "answer": "When reviewing database security and compliance, I take a methodical and thorough approach. First, I assess the current security measures and identify any potential vulnerabilities. This includes reviewing user access levels, encryption protocols, and auditing logs.",
+    "source": "https://www.remoterocketship.com/advice/guide/devops-engineer/database-administration-dba-interview-questions-and-answers",
+    "role": "Database Administrator (DBA)",
+    "skill": "Backup and Recovery",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. How do you stay up-to-date on industry developments and database security issues?",
+    "answer": "As a dedicated database administrator, staying up-to-date on industry developments and database security issues is an essential part of my job. To ensure I stay informed, I follow a variety of strategies including:",
+    "source": "https://www.remoterocketship.com/advice/guide/devops-engineer/database-administration-dba-interview-questions-and-answers",
+    "role": "Database Administrator (DBA)",
+    "skill": "Backup and Recovery",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. Can you explain a situation where you had to troubleshoot and resolve database synchronization issues?",
+    "answer": "During my previous employment, I was responsible for managing a database that was used by multiple departments within the company. One day, I received reports that certain departments were unable to access the most up-to-date data. Upon investigation, I realized that the data was not synchronized properly across all the servers.",
+    "source": "https://www.remoterocketship.com/advice/guide/devops-engineer/database-administration-dba-interview-questions-and-answers",
+    "role": "Database Administrator (DBA)",
+    "skill": "Backup and Recovery",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. Why are database backups so important?",
+    "answer": "They is so important because of following reasons:",
+    "source": "https://www.sqlshack.com/sql-interview-questions-on-database-backups-restores-and-recovery-part-i/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Backup and Recovery",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What is a SQL Server database backup?",
+    "answer": "A Backup is a process to create a copy of data and it can be used to reconstruct the data in case of any failures.",
+    "source": "https://www.sqlshack.com/sql-interview-questions-on-database-backups-restores-and-recovery-part-i/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Backup and Recovery",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are different types of database backups?",
+    "answer": "The following are the different types of SQL Server database backups.",
+    "source": "https://www.sqlshack.com/sql-interview-questions-on-database-backups-restores-and-recovery-part-i/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Backup and Recovery",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is a database recovery model?",
+    "answer": "The Recovery Model is a property of a database that controls how the transactions are logged.",
+    "source": "https://www.sqlshack.com/sql-interview-questions-on-database-backups-restores-and-recovery-part-i/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Backup and Recovery",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. How can I check the recovery model of the database?",
+    "answer": "In the following example, query thesys.databasescatalog view the recovery model of the all the databases",
+    "source": "https://www.sqlshack.com/sql-interview-questions-on-database-backups-restores-and-recovery-part-i/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Backup and Recovery",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. How can I change the recovery model?",
+    "answer": "The following example, the recovery model of the model database is set to FULL using the SET RECOVERY option of the ALTER DATABASE statement.",
+    "source": "https://www.sqlshack.com/sql-interview-questions-on-database-backups-restores-and-recovery-part-i/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Backup and Recovery",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is a full database backup?",
+    "answer": "In this backup type, the whole database is backed up. This is the base for any type of backups. In order to have further differential or transaction log backups, you must create the full database backup.",
+    "source": "https://www.sqlshack.com/sql-interview-questions-on-database-backups-restores-and-recovery-part-i/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Backup and Recovery",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. How can I create a compressed backup on a newly formatted backup file?",
+    "answer": "Use the keyword FORMAT and COMPRESSION to format and compress the database backup.",
+    "source": "https://www.sqlshack.com/sql-interview-questions-on-database-backups-restores-and-recovery-part-i/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Backup and Recovery",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is PostgreSQL?",
+    "answer": "PostgreSQL is a lightweight, free, and open-source relational database management system. PostgreSQL is used widely across regions and companies and can be used in most popular operating systems.",
+    "source": "https://learnomate.org/postgresql-interview-questions-guide/",
+    "role": "Database Administrator (DBA)",
+    "skill": "PostgreSQL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What are the benefits of PostgreSQL?",
+    "answer": "PostgreSQL excels among other SQL databases for several reasons, including:1.Robustness that makes it suitable for all kinds of applications2.Free and open-source3.Security and reliability4.Wide variety of data types5.A big community of users worldwide.",
+    "source": "https://learnomate.org/postgresql-interview-questions-guide/",
+    "role": "Database Administrator (DBA)",
+    "skill": "PostgreSQL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What are some important background processes in postgres?",
+    "answer": "PostgreSQL has several importantbackground processesthat ensure smooth database operation:",
+    "source": "https://learnomate.org/postgresql-interview-questions-guide/",
+    "role": "Database Administrator (DBA)",
+    "skill": "PostgreSQL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What are the memory components in postgres?",
+    "answer": "PostgreSQL has several importantmemory componentsthat optimize performance and manage database operations efficiently:",
+    "source": "https://learnomate.org/postgresql-interview-questions-guide/",
+    "role": "Database Administrator (DBA)",
+    "skill": "PostgreSQL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "what is the maximum file size of table or index in postgres? Can we increase that ?",
+    "answer": "Max size is 1GB. If a table size is big, then it can spread across multiple files.",
+    "source": "https://learnomate.org/postgresql-interview-questions-guide/",
+    "role": "Database Administrator (DBA)",
+    "skill": "PostgreSQL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "When wal writer write data to wal segement?",
+    "answer": "TheWAL Writerprocess writes data to WAL (Write-Ahead Logging) segmentsperiodicallyto ensure durability and crash recovery. It writes data when:",
+    "source": "https://learnomate.org/postgresql-interview-questions-guide/",
+    "role": "Database Administrator (DBA)",
+    "skill": "PostgreSQL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is restore_command?",
+    "answer": "restore_commandin PostgreSQL is a configuration setting that specifies the command used to retrieve archived WAL (Write-Ahead Log) files during recovery or replication.",
+    "source": "https://learnomate.org/postgresql-interview-questions-guide/",
+    "role": "Database Administrator (DBA)",
+    "skill": "PostgreSQL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is the significance of pg_ident.conf file?",
+    "answer": "Just like we have os authenticated db users in oracle. Here in postgres also we have similarconcept. We can provide mapping of os user and postgres db user inside pg_ident.conf file.",
+    "source": "https://learnomate.org/postgresql-interview-questions-guide/",
+    "role": "Database Administrator (DBA)",
+    "skill": "PostgreSQL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What are the memory components in postgres?",
+    "answer": "shared_buffer ->−  Sets the number of shared memory buffers used by the database server−  Each buffer is 8K bytes−  Minimum value must be 16 and at least 2 x max_connections−  Default setting is managed by dynatune.−  6% – 25% of available memory is a good general guideline−  You may find better results keeping the setting relatively low and using the operating system cache more instead",
+    "source": "https://dbaclass.com/article/postgres-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "PostgreSQL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What is checkpoint? When checkpoint happens in postgres?",
+    "answer": "pg_start_backup,CREATE DATABASE,pg_ctl stop|restart,pg_stop_backup,When we issue checkpoint command manually.",
+    "source": "https://dbaclass.com/article/postgres-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "PostgreSQL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "13. How authentication happens in postgres?",
+    "answer": "rver.Ident–  Obtain the operating system user name of the client by contacting the ident server on the client and check if it matches the requested database user name. Ident authentication can only be used on TCP/IP connections. When specified for local connections, peer authentication will be used instead.",
+    "source": "https://dbaclass.com/article/postgres-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "PostgreSQL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "15. What is this wal_level parameter , different values of wal_level?",
+    "answer": "Wal_level determines how much information is written to the WALThe default value isreplica, adds logging required for WAL archiving as well as information required to run read-only queries on a standby serverThe valuelogicalis used to add information required for logical decodingThe valueminimal, removes all logging except the information required to recover from a crash or immediate shutdownThis parameter can only be set at server start",
+    "source": "https://dbaclass.com/article/postgres-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "PostgreSQL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "33. What is a ring buffer in postgres?",
+    "answer": "Bulk readBulk write ( like CTAS, COPY FROM  , alter table)During autovacuum process",
+    "source": "https://dbaclass.com/article/postgres-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "PostgreSQL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "36. What is a timeline history file?",
+    "answer": "timelineId – timelineId of the archive logs used to recover.LSN – LSN location where the WAL segment switches happened.reason – human-readable explanation of why the timeline was changed.",
+    "source": "https://dbaclass.com/article/postgres-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "PostgreSQL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is vacuuming in postgres?",
+    "answer": "Removing dead tuplesFreezing transaction idsUpdates the FSM and VMs of tables.",
+    "source": "https://dbaclass.com/article/postgres-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "PostgreSQL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. Difference between vacuum and vacuum full?",
+    "answer": "Vacuum without full option, will reclaim the space and re-use it. However that free space is not returned to operating system.This will not put any exclusive lock on the system. So impact on the normal read write of the database.We can run this in parallel also. called as parallel vacuuming",
+    "source": "https://dbaclass.com/article/postgres-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "PostgreSQL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Tired of interviewing candidates to find the best developers?",
+    "answer": "Hire top vetted developers within 4 days.",
+    "source": "https://www.turing.com/interview-questions/postgresql",
+    "role": "Database Administrator (DBA)",
+    "skill": "PostgreSQL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What are PostgreSQL interview questions?",
+    "answer": "PostgreSQL interview questions are designed to assess a candidate's knowledge and proficiency with the PostgreSQL database management system. These questions typically cover topics such as database design, SQL queries, performance optimization, and advanced features like indexing and replication. Mastery of these areas demonstrates a candidate's ability to effectively manage and utilize PostgreSQL in real-world scenarios.",
+    "source": "https://www.finalroundai.com/blog/postgresql-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "PostgreSQL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why do interviewers ask PostgreSQL questions?",
+    "answer": "The main purpose of PostgreSQL interview questions is to evaluate a candidate's technical expertise and practical experience with the PostgreSQL database management system. Interviewers ask these questions to ensure that the candidate can effectively design, optimize, and manage databases, thereby contributing to the organization's data management needs.",
+    "source": "https://www.finalroundai.com/blog/postgresql-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "PostgreSQL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is PostgreSQL and how does it differ from other relational databases?",
+    "answer": "Start by defining PostgreSQL as an open-source relational database management system known for its robustness and advanced features.",
+    "source": "https://www.finalroundai.com/blog/postgresql-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "PostgreSQL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. How do you create a new database in PostgreSQL?",
+    "answer": "Explain that you use theCREATE DATABASESQL command.",
+    "source": "https://www.finalroundai.com/blog/postgresql-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "PostgreSQL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is a primary key and how do you define it in PostgreSQL?",
+    "answer": "Define a primary key as a unique identifier for records in a table.",
+    "source": "https://www.finalroundai.com/blog/postgresql-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "PostgreSQL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What are indexes in PostgreSQL and how do they improve query performance?",
+    "answer": "Define indexes as database objects that improve the speed of data retrieval operations.",
+    "source": "https://www.finalroundai.com/blog/postgresql-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "PostgreSQL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "13. What are stored procedures and how do you create one in PostgreSQL?",
+    "answer": "Define stored procedures as reusable SQL code blocks that perform specific tasks.",
+    "source": "https://www.finalroundai.com/blog/postgresql-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "PostgreSQL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "17. What is a foreign key and how do you define it in PostgreSQL?",
+    "answer": "Define a foreign key as a constraint that establishes a relationship between two tables.",
+    "source": "https://www.finalroundai.com/blog/postgresql-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "PostgreSQL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What are the differences between PostgreSQL and SQL?",
+    "answer": "Let’s go through important PostgreSQL Interview Questions and Answers at various expertise levels.",
+    "source": "https://mindmajix.com/postgresql-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "PostgreSQL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is PostgreSQL?",
+    "answer": "PostgreSQL is the freeware object-relational database management called ORDBMS. It is also called Postgres. It is one of the most popular and widely utilized Object-Relational Database Management Systems. It is a strong database management system that offers substantial and additional power by integrating fundamental concepts so that users can extend the database without any problem.",
+    "source": "https://mindmajix.com/postgresql-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "PostgreSQL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What are the primary applications of PostgreSQL?",
+    "answer": "Create, Update, and Delete the tables in the Database",
+    "source": "https://mindmajix.com/postgresql-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "PostgreSQL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. How can we add new values to a particular table?",
+    "answer": "PostgreSQL utilises the “INSERT INTO” statement for adding data to your SQL table.",
+    "source": "https://mindmajix.com/postgresql-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "PostgreSQL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What are the methods PostgreSQL provides to create a new database?",
+    "answer": "PostgreSQL provides the following methods to create a new database",
+    "source": "https://mindmajix.com/postgresql-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "PostgreSQL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. How do you delete the database in PostgreSQL?",
+    "answer": "We can delete the database by using any one of the below options:",
+    "source": "https://mindmajix.com/postgresql-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "PostgreSQL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What is a Schema?",
+    "answer": "A database schema includes the visual and logical configuration of the complete relational database. In the PostgreSQL, a schema contains tables with views, datatypes, indexes, constraints, functions, and sequences.",
+    "source": "https://mindmajix.com/postgresql-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "PostgreSQL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What does a schema contain?",
+    "answer": "A schema contains tables along with data types, views, indexes, operators, sequences, and functions.",
+    "source": "https://mindmajix.com/postgresql-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "PostgreSQL",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What Is MySQL?",
+    "answer": "Before we get into the interview questions on MySQL, it's essential to understand the concepts behind database management systems (DBMS).MySQLis a type of relational DBMS that stores information in tables and rows. It is an open-source DBMS that allows storing, manipulating, and retrieving structured data from multiple locations. It is primarily used for web applications and accessing data stored in MySQL databases.",
+    "source": "https://www.revelo.com/interview-questions/mysql",
+    "role": "Database Administrator (DBA)",
+    "skill": "MySQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is the purpose of a database management system like MySQL?",
+    "answer": "Sample answer:A database management system like MySQL stores, accesses, and manipulates data in a structured way. It allows the efficient retrieval of information from large databases quickly and reliably.",
+    "source": "https://www.revelo.com/interview-questions/mysql",
+    "role": "Database Administrator (DBA)",
+    "skill": "MySQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What are the technical features of MySQL?",
+    "answer": "Sample answer:MySQL is a relational database management system that supports SQL (Structured Query Language). It has an easy-to-use graphical interface and provides powerful security features like user authentication, data encryption, and access control. It also supports multiple storage engines and has features like server-side cursors, triggers, and stored procedures.",
+    "source": "https://www.revelo.com/interview-questions/mysql",
+    "role": "Database Administrator (DBA)",
+    "skill": "MySQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is the default port of MySQL?",
+    "answer": "Sample answer:MySQL's default port is 3306.",
+    "source": "https://www.revelo.com/interview-questions/mysql",
+    "role": "Database Administrator (DBA)",
+    "skill": "MySQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is the difference between a primary key and a foreign key?",
+    "answer": "Sample answer:A primary key is a column, or set of columns, that uniquely identifies a record in a table. A foreign key is a field in one table that refers to the primary key of another table. It establishes a relationship between two tables.",
+    "source": "https://www.revelo.com/interview-questions/mysql",
+    "role": "Database Administrator (DBA)",
+    "skill": "MySQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How can you determine which version of MySQL runs on your system?",
+    "answer": "Sample answer:You can use the MySQL command line client to determine which version of MySQL is running on your system. To do this, type the command \"mysql> SHOW VARIABLES LIKE â%version%â; into the MySQL prompt.",
+    "source": "https://www.revelo.com/interview-questions/mysql",
+    "role": "Database Administrator (DBA)",
+    "skill": "MySQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is MySQL's storage engine?",
+    "answer": "Sample answer:MySQL uses the MyISAM storage engine as its default engine, though it also supports multiple other storage engines such as InnoDB, MEMORY, and ARCHIVE.",
+    "source": "https://www.revelo.com/interview-questions/mysql",
+    "role": "Database Administrator (DBA)",
+    "skill": "MySQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What are the advantages of MySQL over other DBMS?",
+    "answer": "Sample answer:MySQL is an open-source database management system, making it a cost-effective solution for businesses. Its easy-to-use graphical interface makes it user-friendly, and MySQL offers powerful security features like user authentication, data encryption, and access control. MySQL also supports multiple storage engines and features like server-side cursors, triggers, and stored procedures.",
+    "source": "https://www.revelo.com/interview-questions/mysql",
+    "role": "Database Administrator (DBA)",
+    "skill": "MySQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What are the key strategies for database performance tuning in MySQL?",
+    "answer": "Key strategies for database performance tuning in MySQL include optimizing queries through proper indexing, utilizing the slow query log to identify bottlenecks, configuring the InnoDB buffer pool and other cache settings, partitioning tables for faster data retrieval, and regular analysis of query execution plans to rework poorly performing statements.",
+    "source": "https://www.micro1.ai/interview-prep/mysql-administrator-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "MySQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What backup and recovery solutions are commonly implemented in MySQL environments?",
+    "answer": "Common backup and recovery solutions in MySQL environments involve using tools such as mysqldump for logical backups, Percona XtraBackup or MySQL Enterprise Backup for physical (hot) backups, scheduling regular backup operations, storing backups in secure, redundant locations, and implementing point-in-time recovery using binary logs.",
+    "source": "https://www.micro1.ai/interview-prep/mysql-administrator-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "MySQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What are the best practices for securing MySQL databases?",
+    "answer": "Best practices for securing MySQL databases include enforcing strong password policies, restricting user privileges with the principle of least privilege, enabling SSL/TLS for client-server connections, keeping the MySQL server and all dependencies updated with security patches, and regularly auditing user accounts and access logs.",
+    "source": "https://www.micro1.ai/interview-prep/mysql-administrator-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "MySQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What techniques are used for identifying and resolving slow queries in MySQL?",
+    "answer": "Techniques for identifying and resolving slow queries in MySQL include enabling and reviewing the slow query log, using EXPLAIN to analyze query execution plans, optimizing or adding indexes where appropriate, breaking up complex queries, and refactoring inefficient SQL statements.",
+    "source": "https://www.micro1.ai/interview-prep/mysql-administrator-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "MySQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How to implement automated backup strategies in a high-availability MySQL setup?",
+    "answer": "To implement automated backup strategies in a high-availability MySQL setup, administrators employ scheduling tools like cron to run scripts utilizing physical or logical backup utilities, ensure backups are stored on remote or cloud storage, perform regular test restores, and leverage replication to offload backup operations from production nodes.",
+    "source": "https://www.micro1.ai/interview-prep/mysql-administrator-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "MySQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What are the approaches to monitoring and maintaining optimal resource usage in MySQL databases?",
+    "answer": "Approaches to monitoring and maintaining optimal resource usage include regularly tracking metrics such as CPU, memory, lock contention, disk I/O, and buffer pool usage; setting up alerting through monitoring tools like Percona Monitoring and Management (PMM), and fine-tuning server configuration parameters based on workload analysis.",
+    "source": "https://www.micro1.ai/interview-prep/mysql-administrator-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "MySQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How to handle and recover from MySQL database corruption?",
+    "answer": "Handling and recovering from MySQL database corruption involves identifying the extent of the corruption using error logs, attempting table repairs with tools like mysqlcheck, restoring affected tables or databases from recent backups, applying point-in-time recovery as needed, and investigating underlying causes to prevent recurrence.",
+    "source": "https://www.micro1.ai/interview-prep/mysql-administrator-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "MySQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What are the steps to ensure compliance with data security regulations in MySQL?",
+    "answer": "Ensuring compliance with data security regulations in MySQL requires implementing encryption at rest and in transit, maintaining thorough audit logs, separating duties through granular user privileges, anonymizing sensitive data where applicable, and conducting regular security assessments to identify and remediate potential vulnerabilities.",
+    "source": "https://www.micro1.ai/interview-prep/mysql-administrator-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "MySQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is MySQL and How does it differ from other relational databases?",
+    "answer": "MySQL is anopen-sourcerelational database management system (RDBMS) that is widely used formanaging structured data. It utilizes SQL (Structured Query Language) forqueryingandmanaging data. MySQL is known for its reliability, scalability, and performance, making it a popular choice for various applications",
+    "source": "https://www.geeksforgeeks.org/sql/mysql-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "MySQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How to create a database in MySQL?",
+    "answer": "To create a database in MySQL, we can use theCREATE DATABASEstatement followed by the name we want to give to our database. For example:",
+    "source": "https://www.geeksforgeeks.org/sql/mysql-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "MySQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. Explain the differences between SQL and MySQL?",
+    "answer": "Batch mode in MySQLis used to execute a series of SQL queries from a file (often referred to as a batch file). The file contains multiple SQL statements that are executed in sequence. Here's the correct way to run MySQL in batch mode:",
+    "source": "https://www.geeksforgeeks.org/sql/mysql-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "MySQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is the MySQL server's default port?",
+    "answer": "The default port for MySQL server is3306. This is the port number used by MySQL to communicate with clients and other services by default, unless it is configured to use a different port in the MySQL configuration file (my.cnformy.ini).",
+    "source": "https://www.geeksforgeeks.org/sql/mysql-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "MySQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. How can we learn batch mode in MySQL?",
+    "answer": "Batch mode in MySQLis used to execute a series of SQL queries from a file (often referred to as a batch file). The file contains multiple SQL statements that are executed in sequence. Here's the correct way to run MySQL in batch mode:",
+    "source": "https://www.geeksforgeeks.org/sql/mysql-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "MySQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. How many different tables are present in MySQL?",
+    "answer": "There are severalstorage enginesin MySQL, and the table types depend on which storage engine is used. The common storage engines are:",
+    "source": "https://www.geeksforgeeks.org/sql/mysql-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "MySQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What arethe differences between CHAR and VARCHAR data types in MySQL?",
+    "answer": "In theLIKEstatement, the%and_symbols are used for pattern matching:",
+    "source": "https://www.geeksforgeeks.org/sql/mysql-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "MySQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What isDifference between CHAR_LENGTH and LENGTH?",
+    "answer": "In theLIKEstatement, the%and_symbols are used for pattern matching:",
+    "source": "https://www.geeksforgeeks.org/sql/mysql-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "MySQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. How would you transfer data from MySQL to Microsoft SQL server?",
+    "answer": "Transferring data from MySQL to Microsoft SQL Server involves several steps. First, export the data fromMySQLusing the mysqldump utility to create an SQL dump file. This file contains all the SQL commands needed to recreate the database schema and data. Next, SQL Server's import tools, such as SQL Server Management Studio (SSMS) or the SQL Server Import and Export Wizard, are used to import the dump file into the target SQL Server database. Alternatively, third-party tools likeMySQL Workbenchor Azure Data Factory can be employed for more complex migrations, offering enhanced functionality for data transformation and validation.",
+    "source": "https://www.simplilearn.com/database-administrator-interview-questions-article",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. Would you run a test on a live Database? Why or why not?",
+    "answer": "Running tests on a live database is generally discouraged due to the significant risks involved, including data corruption, performance degradation, and potential service disruptions. Instead, it is best practice to conduct tests in a staging or development environment that closely mirrors the live environment. This approach allows for the identification and resolution of issues without impacting live operations, ensuring the integrity and availability of the production database.",
+    "source": "https://www.simplilearn.com/database-administrator-interview-questions-article",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What measurements would you take to protect our Databases from external threats?",
+    "answer": "To protect databases from external threats, a multi-layered security strategy should be implemented. Key measures include:",
+    "source": "https://www.simplilearn.com/database-administrator-interview-questions-article",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. We are building a new Database for our employee records. How do you define system storage requirements?",
+    "answer": "Defining system storage requirements involves understanding the volume of data, growth projections, and performance needs. One can start by estimating the current data volume and projecting future growth based on historical data. We also need to consider the required read/write speeds and query performance to ensure optimal performance. We can plan for additional storage to accommodate backups and redundancy and, at the same time, ensure the system is scalable to handle future data growth, taking into account the anticipated increase in employee records over time.",
+    "source": "https://www.simplilearn.com/database-administrator-interview-questions-article",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. How regularly would you perform tests to ensure data privacy?",
+    "answer": "Regular tests to ensure data privacy should be conducted at least quarterly. These tests include vulnerability assessments,penetration testing, and data privacy audits to identify and address potential security gaps. Additionally, it is important to review and update privacy policies and procedures regularly to maintain data privacy and comply with evolving regulatory requirements.",
+    "source": "https://www.simplilearn.com/database-administrator-interview-questions-article",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. Are you familiar with SQL? Name the most useful SQL queries and their roles.",
+    "answer": "Yes, I am familiar withSQL. Some of the most useful SQL queries include:",
+    "source": "https://www.simplilearn.com/database-administrator-interview-questions-article",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is the difference between navigational and relational Databases?",
+    "answer": "Navigational databases use pointers to navigate between data records, often structured hierarchically or as network databases. Relational databases, on the other hand, store data in tables with predefined relationships between them, utilizing SQL for data manipulation. Relational databases are more flexible and easier to use for complex queries compared to navigational databases.",
+    "source": "https://www.simplilearn.com/database-administrator-interview-questions-article",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. Can you provide an example of where you can or should use a foreign key?",
+    "answer": "Aforeign keyis used to establish a relationship between two tables. For example, in an employee database, you might have an Employees table with an EmployeeID primary key and a Departments table with a DepartmentID primary key. The Employees table can include a DepartmentID foreign key to link each employee to a specific department, ensuring data integrity and consistency.",
+    "source": "https://www.simplilearn.com/database-administrator-interview-questions-article",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is SQL?",
+    "answer": "SQL (Structured Query Language) is a standard programming language used to communicate withrelational databases. It allows users to create, read, update, and delete data, and provides commands to definedatabase schemaand manage database security.",
+    "source": "https://www.geeksforgeeks.org/sql/sql-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What is a database?",
+    "answer": "Adatabaseis anorganized collection of datastored electronically, typically structured in tables with rows and columns. It is managed by adatabase management system(DBMS), which allows for efficientstorage,retrieval, andmanipulationof data.",
+    "source": "https://www.geeksforgeeks.org/sql/sql-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are the main types of SQL commands?",
+    "answer": "SQL commands are broadly classified into:",
+    "source": "https://www.geeksforgeeks.org/sql/sql-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is the difference between CHAR and VARCHAR2 data types?",
+    "answer": "Aprimary keyis a unique identifier for each record in a table. It ensures that no two rows have the same value in the primary key column(s), and it does not allow NULL values.",
+    "source": "https://www.geeksforgeeks.org/sql/sql-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is a primary key?",
+    "answer": "Aprimary keyis a unique identifier for each record in a table. It ensures that no two rows have the same value in the primary key column(s), and it does not allow NULL values.",
+    "source": "https://www.geeksforgeeks.org/sql/sql-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is a foreign key?",
+    "answer": "Aforeign keyis a column (or set of columns) in one table that refers to the primary key in another table. It establishes and enforces a relationship between the two tables, ensuring data integrity.",
+    "source": "https://www.geeksforgeeks.org/sql/sql-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is the purpose of the DEFAULT constraint?",
+    "answer": "TheDEFAULT constraintassigns a default value to a column when no value is provided during anINSERT operation. This helps maintain consistent data and simplifies data entry.",
+    "source": "https://www.geeksforgeeks.org/sql/sql-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is normalization in databases?",
+    "answer": "Normalizationis the process of organizing data in a database toreduce redundancyandimprove data integrity. This involves dividing large tables into smaller, related tables and defining relationships between them to ensure consistency and avoid anomalies.",
+    "source": "https://www.geeksforgeeks.org/sql/sql-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Pattern Matching in SQL?",
+    "answer": "SQL pattern matching provides for pattern search in data if you have no clue as to what that word should be. This kind of SQL query uses wildcards to match a string pattern, rather than writing the exact word. The LIKE operator is used in conjunction withSQL Wildcardsto fetch the required information.",
+    "source": "https://www.interviewbit.com/sql-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How to create empty tables with the same structure as another table?",
+    "answer": "Creating empty tables with the same structure can be done smartly by fetching the records of one table into a new table using the INTO operator while fixing a WHERE clause to be false for all records. Hence, SQL prepares the new table with a duplicate structure to accept the fetched records but since no records get fetched due to the WHERE clause in action, nothing is inserted into the new table.",
+    "source": "https://www.interviewbit.com/sql-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is a Recursive Stored Procedure?",
+    "answer": "A stored procedure that calls itself until a boundary condition is reached, is called a recursive stored procedure. This recursive function helps the programmers to deploy the same set of code several times as and when required. Some SQL programming languages limit the recursion depth to prevent an infinite loop of procedure calls from causing a stack overflow, which slows down the system and may lead to system crashes.",
+    "source": "https://www.interviewbit.com/sql-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is a Stored Procedure?",
+    "answer": "A stored procedure is a subroutine available to applications that access a relational database management system (RDBMS). Such procedures are stored in the database data dictionary. The sole disadvantage of stored procedure is that it can be executed nowhere except in the database and occupies more memory in the database server. It also provides a sense of security and functionality as users who can't access the data directly can be granted access via stored procedures.",
+    "source": "https://www.interviewbit.com/sql-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is Collation? What are the different types of Collation Sensitivity?",
+    "answer": "Collation refers to a set of rules that determine how data is sorted and compared. Rules defining the correct character sequence are used to sort the character data. It incorporates options for specifying case sensitivity, accent marks, kana character types, and character width. Below are the different types of collation sensitivity:",
+    "source": "https://www.interviewbit.com/sql-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What are the differences between OLTP and OLAP?",
+    "answer": "OLAPstands forOnline Analytical Processing, a class of software programs that are characterized by the relatively low frequency of online transactions. Queries are often too complex and involve a bunch of aggregations. For OLAP systems, the effectiveness measure relies highly on response time. Such systems are widely used for data mining or maintaining aggregated, historical data, usually in multi-dimensional schemas.",
+    "source": "https://www.interviewbit.com/sql-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is User-defined function? What are its various types?",
+    "answer": "The user-defined functions in SQL are like functions in any other programming language that accept parameters, perform complex calculations, and return a value. They are written to use the logic repetitively whenever required. There are two types of SQL user-defined functions:",
+    "source": "https://www.interviewbit.com/sql-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is a UNIQUE constraint?",
+    "answer": "A UNIQUE constraint ensures that all values in a column are different. This provides uniqueness for the column(s) and helps identify each row uniquely. Unlike primary key, there can be multiple unique constraints defined per table. The code syntax for UNIQUE is quite similar to that of PRIMARY KEY and can be used interchangeably.",
+    "source": "https://www.interviewbit.com/sql-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is SQL Server?",
+    "answer": "SQL Server is arelational database management system(RDBMS) developed by Microsoft, designed for enterprise-level applications. It manages data efficiently, from storage to retrieval, and supports a wide range of data types, ensuring high availability, security, and performance.",
+    "source": "https://www.geeksforgeeks.org/sql-server/sql-server-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are the Different Data Types Used in SQL Server?",
+    "answer": "In SQL Server, there are several data types used to define the type of data that can be stored in a column. Here are some of the commonly used data types:",
+    "source": "https://www.geeksforgeeks.org/sql-server/sql-server-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. How to Create a Table in SQL Server?",
+    "answer": "To create a table in SQL Server, you can use the CREATE TABLE statement followed by the table name and a list of column definitions.",
+    "source": "https://www.geeksforgeeks.org/sql-server/sql-server-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is the Purpose of an Alias in a Query?",
+    "answer": "In SQL Server, analiasis used to provide a temporary name for columns or tables to make queries easier to read, especially when they are complex. Aliases are often used inJOINoperations or when selecting calculated fields.Example:",
+    "source": "https://www.geeksforgeeks.org/sql-server/sql-server-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is the Difference Between INNER JOIN and LEFT JOIN?",
+    "answer": "In SQL Server, INNER JOIN and LEFT JOIN are both types of join operations used to retrieve data from multiple tables based on a specified condition.",
+    "source": "https://www.geeksforgeeks.org/sql-server/sql-server-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. How to Grant Permissions to a User?",
+    "answer": "In SQL Server, you can grant permissions to a user using the GRANT statement. Permissions can be granted at various levels such as database level, schema level, table level, and even specific stored procedures or functions.",
+    "source": "https://www.geeksforgeeks.org/sql-server/sql-server-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. How to Create a Stored Procedure?",
+    "answer": "To create a stored procedure in SQL Server, we can use the CREATE PROCEDURE statement followed by the procedure name and its definition.",
+    "source": "https://www.geeksforgeeks.org/sql-server/sql-server-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. What are the Basic Aggregate Functions?",
+    "answer": "In SQL Server, aggregate functions are used to perform a calculation on a set of values and return a single value. Here are some of the basic aggregate functions:",
+    "source": "https://www.geeksforgeeks.org/sql-server/sql-server-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is the Windows Authentication Mode in SQL Server?",
+    "answer": "This mode connects the server via a Windows account. The server uses the username and password for authentication. In this mode, SQL server authentication is disabled.",
+    "source": "https://www.simplilearn.com/tutorials/sql-tutorial/sql-server-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is the significance of CHECK in SQL Server?",
+    "answer": "CHECK constraint limits the values that can be placed inside a tableâs column. This maintains integrity. The constraint is used column-wise to give specific values to that column. Example: CONSTRAINT CHK_Student CHECK (age<20)Â",
+    "source": "https://www.simplilearn.com/tutorials/sql-tutorial/sql-server-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is a trigger?",
+    "answer": "When a table event occurs, such as INSERT, DELETE, or UPDATE, triggers allow executing an SQL code batch. Triggers are managed by DBMS and can also execute stored procedures. [2] For example, when a record is inserted in a database table, a trigger can be set.",
+    "source": "https://www.simplilearn.com/tutorials/sql-tutorial/sql-server-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. When can records be deleted from a view in SQL Server?",
+    "answer": "Records can be deleted in a âsimpleâ view as it contains data from one table only.",
+    "source": "https://www.simplilearn.com/tutorials/sql-tutorial/sql-server-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. Which command can be used to get the version of SQL Server?[3]Â",
+    "answer": "To get the version of SQL Server, use:",
+    "source": "https://www.simplilearn.com/tutorials/sql-tutorial/sql-server-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. In SQL Server, what is a user defined function?",
+    "answer": "A user defined function allows users to write their logic as per need. The advantage is that it is not limited to pre-defined functions and writing functions, simply complex SQL code. The return type is a table or a scalar value.",
+    "source": "https://www.simplilearn.com/tutorials/sql-tutorial/sql-server-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "13. What are TCL Commands? and List down the TCL Commands available on SQL Server?",
+    "answer": "TCL or Transactional Control Language commands are used to manage different transactions taking place in a database. The three TCL commands are as follows:",
+    "source": "https://www.simplilearn.com/tutorials/sql-tutorial/sql-server-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "15. As a SQL developer, how will you ensure that SQL server-based applications and databases perform well?",
+    "answer": "The volume of data, type of information stored, and data to be accessed must be checked. When a system is being upgraded, the present data should be analyzed, and the methods of accessing data should be checked to help understand problem design. Keeping the information about data is necessary when using a new system.Â",
+    "source": "https://www.simplilearn.com/tutorials/sql-tutorial/sql-server-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is a subquery, and how is it different from a JOIN? Provide an example of using a subquery.",
+    "answer": "Q6.SQL HAVING Clause with Examples",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/database-administrator-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Data Normalization and Why Is It Important?",
+    "answer": "The main use of normalization is to utilize in order to remove anomalies that are caused because of the transitive dependency. Normalization is to minimize the redundancy and remove Insert, Update and Delete Anomaly. It divides larger tables into smaller tables and links them using relationships.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/database-administrator-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is the Data Replication?",
+    "answer": "Q17.What is SQL injection?SQL injectionis a technique used to extract user data by injecting web page inputs as statements through SQL commands. Basically, malicious users can use these instructions to manipulate the application’s web server.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/database-administrator-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Data Masking?",
+    "answer": "Q19.Control Methods of Database SecurityDatabase Securitymeans keeping sensitive information safe and preventing the loss of data. The security of the database is controlled by Database Administrator (DBA).",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/database-administrator-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Data Encryption?",
+    "answer": "Data encryption converts data into a different form (code) that can only be accessed by people who have a secret key (formally known as a decryption key) or password. Data that has not been encrypted is referred to as plaintext, and data that has been encrypted is referred to as ciphertext. Encryption is one of the most widely used and successful data protection technologies in today’s corporate world.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/database-administrator-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q21. What are the benefits of implementing two-factor authentication in a database environment?",
+    "answer": "Implementing two-factor authentication (2FA) in a database context adds a strong layer of protection, functioning as a virtual bouncer for sensitive data. Consider it a double lock for your most critical information. Here are a few human-friendly benefits:",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/database-administrator-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q22. What is DBCC?",
+    "answer": "Q23.SQL Queries on Clustered and Non-Clustered Indexes",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/database-administrator-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q25. What is Summary.txt and Detail.txt?",
+    "answer": "Explore these carefully collected Database Administrator (DBA) interview questions to equip yourself for a successful career move in the realm of database management. Familiarize yourself with the types of questions often encountered in technical assessments and problem-solving scenarios. Enhance your preparation for interviews by diving into these questions. A Database Administrator is a crucial role responsible for managing and organizing data systems. As an expert in database technology, a DBA ensures the efficiency, security, and reliability of data storage. Discover exciting career prospects in the dynamic field of database administration and gear up for a rewarding journey in this important role.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/database-administrator-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Oracle?",
+    "answer": "It's a type of database centre that organizes and handles data. It allows users to save and retrieve relevant information in a multi-user system so that several clients can access the same information at the same time. Everything is accomplished while offering superior results.",
+    "source": "https://www.interviewbit.com/oracle-dba-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What constitutes an Oracle Instance?",
+    "answer": "The SGA is a distributed memory that several programs can use. This section contains data that the instance needs to function.",
+    "source": "https://www.interviewbit.com/oracle-dba-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What is a trace file, and how does one make one?",
+    "answer": "A trace file can be created for each server and backend process. When a process or user process detects an operational fault, it spills data about the bugs to its trace. This information can be used to fine-tune the database.",
+    "source": "https://www.interviewbit.com/oracle-dba-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are the advantages of ORDBMS?",
+    "answer": "The items themselves can be saved in the database. The DBMS language can be used with an OOPs language. The language used in the program may even be the same, removing the need for the developer to have two versions of his objects.",
+    "source": "https://www.interviewbit.com/oracle-dba-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What occurs when we run an SQL statement in Oracle?",
+    "answer": "At the very beginning, it validates the syntax and semantics in the cache of the library before creating a blueprint.",
+    "source": "https://www.interviewbit.com/oracle-dba-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is the distinction between a database and an instance?",
+    "answer": "The physical files that hold the data and information that compose up a database are referred to as database files. The control files, data files, and redo log files are among them.",
+    "source": "https://www.interviewbit.com/oracle-dba-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. In a company, how does an Oracle DBA position vary from an Oracle Developer role? Is there any resemblance between these as well?",
+    "answer": "The Oracle developer is mostly in charge of creating backend applications. The model data in accordance with business rules. They generate tables, indexes, and other types of restrictions. They are required to be familiar with SQL and PL/SQL. These languages are used to create processes. Oracle developers, on the other hand, are not required to manage the database software.",
+    "source": "https://www.interviewbit.com/oracle-dba-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. Why Are Bind Variables Important?",
+    "answer": "Bind variables are crucial because most database suppliers provide an execution plan cache, which stores recently processed SQL statements and planning processes for again use.",
+    "source": "https://www.interviewbit.com/oracle-dba-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is a Database Management System (DBMS)?",
+    "answer": "ADatabase Management System (DBMS)is software that is used to manage and organize databases. It provides an interface to interact with the data stored in a database. The DBMS is responsible for tasks such as storing, retrieving, and updating data, ensuring data integrity, security, and managing concurrency. Examples include MySQL, PostgreSQL, Oracle, and SQL Server.",
+    "source": "https://www.geeksforgeeks.org/dbms/commonly-asked-dbms-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the advantages of using a DBMS?",
+    "answer": "The advantages of using a DBMS are:",
+    "source": "https://www.geeksforgeeks.org/dbms/commonly-asked-dbms-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is the difference between DBMS and RDBMS?",
+    "answer": "The four types of DBMS are:",
+    "source": "https://www.geeksforgeeks.org/dbms/commonly-asked-dbms-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What are the different types of DBMS?",
+    "answer": "The four types of DBMS are:",
+    "source": "https://www.geeksforgeeks.org/dbms/commonly-asked-dbms-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is a relation in DBMS?",
+    "answer": "Arelationin DBMS is a table that consists of rows and columns. Each row represents a record, and each column represents an attribute or property of the entity being described. Relations are defined by a schema, which specifies the attributes (columns) of the table.",
+    "source": "https://www.geeksforgeeks.org/dbms/commonly-asked-dbms-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is a table in DBMS?",
+    "answer": "Atablein DBMS is a collection of data organized in rows and columns. It is the primary structure for storing data in a relational database. Each row represents an entity (record), and each column represents an attribute of that entity.",
+    "source": "https://www.geeksforgeeks.org/dbms/commonly-asked-dbms-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What are rows and columns in a DBMS?",
+    "answer": "The primary components of a DBMS are:",
+    "source": "https://www.geeksforgeeks.org/dbms/commonly-asked-dbms-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What are the primary components of a DBMS?",
+    "answer": "The primary components of a DBMS are:",
+    "source": "https://www.geeksforgeeks.org/dbms/commonly-asked-dbms-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "SQL Server",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What are schema objects?",
+    "answer": "Schema objects are tables, indexes, databases, views, sequences, synonyms, triggers, functions, procedures, and packages.",
+    "source": "https://www.simplilearn.com/oracle-interview-questions-and-answers-article",
+    "role": "Database Administrator (DBA)",
+    "skill": "Oracle",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What are the components of physical database structure in the Oracle database?",
+    "answer": "The components of the physical database structure are:Â",
+    "source": "https://www.simplilearn.com/oracle-interview-questions-and-answers-article",
+    "role": "Database Administrator (DBA)",
+    "skill": "Oracle",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What are the components of logical database structure in Oracle database?",
+    "answer": "The two main components of logical database structure in theOracledatabase are:Â",
+    "source": "https://www.simplilearn.com/oracle-interview-questions-and-answers-article",
+    "role": "Database Administrator (DBA)",
+    "skill": "Oracle",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is an Oracle table?",
+    "answer": "A table is the basic unit of data storage in the Oracle database. Data is stored in rows and columns.Â",
+    "source": "https://www.simplilearn.com/oracle-interview-questions-and-answers-article",
+    "role": "Database Administrator (DBA)",
+    "skill": "Oracle",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What is a nested table?",
+    "answer": "Nested table is a data type in Oracle used to hold columns for storing multi-valued attributes. A nested table can hold an entire sub table.Â",
+    "source": "https://www.simplilearn.com/oracle-interview-questions-and-answers-article",
+    "role": "Database Administrator (DBA)",
+    "skill": "Oracle",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. How are comments represented in Oracle?",
+    "answer": "We can represent comments in Oracle in the following two ways:",
+    "source": "https://www.simplilearn.com/oracle-interview-questions-and-answers-article",
+    "role": "Database Administrator (DBA)",
+    "skill": "Oracle",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What is the relationship between database, tablespace and data file?",
+    "answer": "An Oracle database can contain one or more tablespaces or logical storage units. These tablespaces collectively store all the data in a database. Each tablespace consists of one or more files called data files. The data files are physical structures conforming to the operating system in which Oracle is running.",
+    "source": "https://www.simplilearn.com/oracle-interview-questions-and-answers-article",
+    "role": "Database Administrator (DBA)",
+    "skill": "Oracle",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What are database objects in Oracle?",
+    "answer": "Various Oracle database objects are:",
+    "source": "https://www.simplilearn.com/oracle-interview-questions-and-answers-article",
+    "role": "Database Administrator (DBA)",
+    "skill": "Oracle",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is Oracle Database, and How does it differ from other Relational Databases?",
+    "answer": "Oracle Database is a type of Relational Database Management System (RDBMS). It stores data in tables that are related to each other. What sets Oracle apart is its scalability, reliability, and advanced features likeReal Application Clusters(RAC) and Automatic Storage Management (ASM). Unlike some other databases, Oracle is known for handling large amounts of data and high transaction loads efficiently.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/to-50-oracle-interview-questions-and-answers-for-2024/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Oracle",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What are Tablespaces And Datafiles in Oracle?",
+    "answer": "Tablespaces are logical storage units in Oracle. They group related logical structures like tables and indexes. Datafiles are the physical files on disk that store the data for these tablespaces. Each tablespace can have one or more data files.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/to-50-oracle-interview-questions-and-answers-for-2024/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Oracle",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is an Oracle Instance and How Does It Interact with the Database?",
+    "answer": "An Oracle instance is a combination of memory structures and background processes that access a database. The memory structures include the System Global Area (SGA) and the Program Global Area (PGA). The instance manages data access and processing. It reads and writes data to the database, ensuring efficient data retrieval and storage.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/to-50-oracle-interview-questions-and-answers-for-2024/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Oracle",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. How Does Oracle Ensure Data Integrity and Consistency?",
+    "answer": "Oracle ensures data integrity and consistency through constraints, transactions, and locking mechanisms. Constraints like primary keys and foreign keys ensure valid data entry. Transactions allow multiple operations to be treated as a single unit of work, ensuring that either all changes are applied or none are. Locking mechanisms prevent conflicting operations from corrupting data.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/to-50-oracle-interview-questions-and-answers-for-2024/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Oracle",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What are the Advantages of Using Oracle Database over other Databases?",
+    "answer": "Oracle Database offers several advantages such as high performance, scalability, robust security, advanced backup and recovery options, and extensive support for SQL standards. Features like RAC and Data Guard enhance availability and disaster recovery. Oracle also provides comprehensive tools for database management and development.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/to-50-oracle-interview-questions-and-answers-for-2024/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Oracle",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. How to Install Oracle Database, and What are the Default Configurations?",
+    "answer": "To install Oracle Database, you need to download the installer from the Oracle website, run the setup, and follow the installation wizard. The default configurations typically include predefined user accounts, tablespaces, and memory settings. The installation process also sets up essential services and network configurations.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/to-50-oracle-interview-questions-and-answers-for-2024/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Oracle",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. How to Start and Stop the Oracle Database Server?",
+    "answer": "To start the Oracle Database server, you use the STARTUP command in SQL*Plus. To stop the server, you use the SHUTDOWN command. These commands can be executed while connected to the database as a user with sufficient privileges.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/to-50-oracle-interview-questions-and-answers-for-2024/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Oracle",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "10. How to Create a New Database and User in Oracle?",
+    "answer": "To create a new database, you use the Database Configuration Assistant (DBCA) or SQL commands. Creating a new user involves using the CREATE USER statement and granting necessary privileges with the GRANT statement.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/to-50-oracle-interview-questions-and-answers-for-2024/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Oracle",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is a Database Schema and Why is It Important?",
+    "answer": "A database schema is a blueprint orarchitectureof how data is organized in adatabase. It defines the tables, the fields in each table, and therelationshipsbetween fields and tables.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/database-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Oracle",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What is CRUD Operations?",
+    "answer": "CRUD stands forCreate, Read, Update, Delete, which are the four fundamental operations in database management:",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/database-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Oracle",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What are the Different Types of Joins and How do They Work?",
+    "answer": "Ensuring data integrity involves using constraints and rules:",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/database-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Oracle",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. How to Ensure Data Integrity in a Relational Database?",
+    "answer": "Ensuring data integrity involves using constraints and rules:",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/database-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Oracle",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What are the ACID Properties in a Database and Why are They Important?",
+    "answer": "ACID properties ensurereliable transactionprocessing, guaranteedata reliabilityandintegrityin databases.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/database-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Oracle",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What is a Data Warehouse and How is it Different from a Traditional Database?",
+    "answer": "To migrate data from an on-premise database to a cloud database:",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/database-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Oracle",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "10. How to Handle Data Migration Between Different Databases?",
+    "answer": "To migrate data from an on-premise database to a cloud database:",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/database-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Oracle",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "11. What is a Relational Database and How does it Differ from a NoSQL Database?",
+    "answer": "A relational databases uses structured tables tostore data, with predefinedschemasandrelationships(usually using SQL). It ensures data integrity throughACIDproperties and is suitable forcomplex queriesandtransactions.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/database-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Oracle",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is a Database Administrator?",
+    "answer": "ADatabase Administrator (DBA)is an IT professional responsible for managing, backing up, and ensuring the availability and performance of databases. DBAs are crucial to organizations that rely heavily on data. They ensure data is stored securely, is accessible when needed, and is protected from corruption or loss.",
+    "source": "https://www.geeksforgeeks.org/gfg-academy/oracle-junior-database-administrator-to-database-administrator-ii/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Oracle",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How to Make the Transition from Junior Database Administrator to Database Administrator II?",
+    "answer": "To advance from a Junior Database Administrator to a Database Administrator II, focus on developing a robust skill set and gaining relevant experience. Here are the essential skills required:",
+    "source": "https://www.geeksforgeeks.org/gfg-academy/oracle-junior-database-administrator-to-database-administrator-ii/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Oracle",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2.What is a BSON?",
+    "answer": "BSON stands for Binary Javascript Object Notation. It is a binary-encoded serialization of JSON documents. BSON has been extended to add some more optional non-JSON-native data types, like dates and binary data.",
+    "source": "https://www.gologica.com/elearning/mongo-db-admin-interview-questions-and-answers/?srsltid=AfmBOopym7S0Lt8IXvyb6c9tOJPERuu0xpQwoqPcooBRQRbaK6IlR67g",
+    "role": "Database Administrator (DBA)",
+    "skill": "MongoDB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3.Define is a JSON?",
+    "answer": "JSON is a lightweight data internally exchange format that is often used to store data in MongoDB. JSON documents are stored in the formate of BSON, which is a binary representation of JSON that makes MongoDB very efficient at storing and querying JSON data.",
+    "source": "https://www.gologica.com/elearning/mongo-db-admin-interview-questions-and-answers/?srsltid=AfmBOopym7S0Lt8IXvyb6c9tOJPERuu0xpQwoqPcooBRQRbaK6IlR67g",
+    "role": "Database Administrator (DBA)",
+    "skill": "MongoDB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4.Explain some the difference between BSON and JSON?",
+    "answer": "Supports a wider range of data types, including dates, binary data, and floating-point numbers with arbitrary precision.",
+    "source": "https://www.gologica.com/elearning/mongo-db-admin-interview-questions-and-answers/?srsltid=AfmBOopym7S0Lt8IXvyb6c9tOJPERuu0xpQwoqPcooBRQRbaK6IlR67g",
+    "role": "Database Administrator (DBA)",
+    "skill": "MongoDB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. How do you install MongoDB?",
+    "answer": "MongoDB can be installed on Windows, macOS, and Linux. To install MongoDB, you can download the installer from the MongoDB website.  Once the  installer is downloaded, you can run it and follow the on-screen instructions. After the installation is completed, you can start MongoDB by running the mongod command in a terminal window. You can connect to MongoDB using the mongosh command.",
+    "source": "https://www.gologica.com/elearning/mongo-db-admin-interview-questions-and-answers/?srsltid=AfmBOopym7S0Lt8IXvyb6c9tOJPERuu0xpQwoqPcooBRQRbaK6IlR67g",
+    "role": "Database Administrator (DBA)",
+    "skill": "MongoDB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. How do you start and stop the MongoDB server?",
+    "answer": "To initiate the MongoDB server, execute the ‘mongod’ command. For termination, use ‘mongod –shutdown’ or ‘mongo admin –eval “db.shutdown Server()”‘ command. These commands manage the server’s start and stop processes effectively.",
+    "source": "https://www.gologica.com/elearning/mongo-db-admin-interview-questions-and-answers/?srsltid=AfmBOopym7S0Lt8IXvyb6c9tOJPERuu0xpQwoqPcooBRQRbaK6IlR67g",
+    "role": "Database Administrator (DBA)",
+    "skill": "MongoDB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What are indexes in MongoDB and why are they important?",
+    "answer": "Indexes in MongoDB are data structures that enhance query performance by facilitating faster data retrieval. They work like a table of contents, allowing the database to quickly locate and access specific documents. Indexes are crucial as they optimize query execution, reducing the need for scanning the entire collection and improving overall application speed. They’re vital for handling large datasets and complex queries, enabling efficient data access and retrieval.",
+    "source": "https://www.gologica.com/elearning/mongo-db-admin-interview-questions-and-answers/?srsltid=AfmBOopym7S0Lt8IXvyb6c9tOJPERuu0xpQwoqPcooBRQRbaK6IlR67g",
+    "role": "Database Administrator (DBA)",
+    "skill": "MongoDB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. How can you create an index in MongoDB?",
+    "answer": "Index can be created using the create Index() method. Specify the collection and field(s) to be indexed along with optional settings like sorting or uniqueness. This enhances query performance by speeding up data retrieval for those fields, improving overall database efficiency.",
+    "source": "https://www.gologica.com/elearning/mongo-db-admin-interview-questions-and-answers/?srsltid=AfmBOopym7S0Lt8IXvyb6c9tOJPERuu0xpQwoqPcooBRQRbaK6IlR67g",
+    "role": "Database Administrator (DBA)",
+    "skill": "MongoDB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. How do you backup and restore a MongoDB database?",
+    "answer": "To back up a MongoDB database, use the mongo dump command, specifying the database and destination. For restoration, apply the mongo restore command with the backup path. These commands safeguard data by creating backups and restoring them when needed, ensuring data continuity and recovery capabilities.",
+    "source": "https://www.gologica.com/elearning/mongo-db-admin-interview-questions-and-answers/?srsltid=AfmBOopym7S0Lt8IXvyb6c9tOJPERuu0xpQwoqPcooBRQRbaK6IlR67g",
+    "role": "Database Administrator (DBA)",
+    "skill": "MongoDB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What Is MongoDB?",
+    "answer": "MongoDB is a popular open-source, NoSQL (non-relational) database management system that is created to store, retrieve, and manage data flexibly and scalable. MongoDB is classified as a document database, storing data in a format similar to JSON (JavaScript Object Notation) documents.Â",
+    "source": "https://www.simplilearn.com/mongodb-interview-questions-and-answers-article",
+    "role": "Database Administrator (DBA)",
+    "skill": "MongoDB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. How does MongoDB differ from traditional relational databases?",
+    "answer": "MongoDB is aNoSQL database, while traditional relational databases are SQL-based.",
+    "source": "https://www.simplilearn.com/mongodb-interview-questions-and-answers-article",
+    "role": "Database Administrator (DBA)",
+    "skill": "MongoDB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. Can you explain what a document in MongoDB is?",
+    "answer": "A document is a JSON-like data structure that stores and represents data. It can contain key-value pairs, arrays, and nested documents. Documents are stored in collections, equivalent to tables in relational databases.",
+    "source": "https://www.simplilearn.com/mongodb-interview-questions-and-answers-article",
+    "role": "Database Administrator (DBA)",
+    "skill": "MongoDB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is a collection in MongoDB?",
+    "answer": "A collection in MongoDB is a grouping of documents. Collections are schema-less, meaning documents in the same collection can have different structures. Collections are similar to tables in traditional relational databases.",
+    "source": "https://www.simplilearn.com/mongodb-interview-questions-and-answers-article",
+    "role": "Database Administrator (DBA)",
+    "skill": "MongoDB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. How does MongoDB store data?",
+    "answer": "MongoDB stores data in BSON (Binary JSON) format, a binary-encoded serialization of JSON-like documents. These documents are stored in collections within databases.",
+    "source": "https://www.simplilearn.com/mongodb-interview-questions-and-answers-article",
+    "role": "Database Administrator (DBA)",
+    "skill": "MongoDB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is a primary key in MongoDB?",
+    "answer": "In MongoDB, the `_id` field serves as the primary key for a document. It must be unique within a collection and is automatically generated if not provided during document insertion.",
+    "source": "https://www.simplilearn.com/mongodb-interview-questions-and-answers-article",
+    "role": "Database Administrator (DBA)",
+    "skill": "MongoDB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. Can you explain the concept of sharding in MongoDB?",
+    "answer": "Sharding in MongoDB is a strategy used to distribute data horizontally across numerous servers or clusters, efficiently managing extensive datasets and heavy workloads. In this approach, data is divided into distinct subsets known as shards, and MongoDB's query router directs queries to the relevant shard as needed.",
+    "source": "https://www.simplilearn.com/mongodb-interview-questions-and-answers-article",
+    "role": "Database Administrator (DBA)",
+    "skill": "MongoDB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What are indexes in MongoDB?",
+    "answer": "MongoDB employs data structures known as indexes to enhance query performance, enabling the database to swiftly locate documents according to the indexed fields. MongoDB offers support for a range of index types.",
+    "source": "https://www.simplilearn.com/mongodb-interview-questions-and-answers-article",
+    "role": "Database Administrator (DBA)",
+    "skill": "MongoDB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1) What is MongoDB?",
+    "answer": "MongoDBis a cross-platform document-based database. Categorized as a NoSQL database, MongoDB avoids the conventional table-oriented relational database structure in support of the JSON-like documents with the dynamic schemas, making the data integration in specific kinds of applications quicker and simpler.",
+    "source": "https://mindmajix.com/mongodb-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "MongoDB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2) What are the features of MongoDB?",
+    "answer": "Following are the important features of MongoDB:",
+    "source": "https://mindmajix.com/mongodb-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "MongoDB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3)What type of NoSQL database MongoDB is?",
+    "answer": "MongoDB is a document-oriented database. It stores the data in the form of the BSON structure-oriented databases. We store these documents in a collection.",
+    "source": "https://mindmajix.com/mongodb-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "MongoDB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4) Explain Namespace?",
+    "answer": "A namespace is the series of the collection name and database name.",
+    "source": "https://mindmajix.com/mongodb-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "MongoDB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5)Differentiate MongoDB and MySQL?",
+    "answer": "Despite MySQL and MongoDB being freeware and open source databases, there are several differences between them in terms of a data relationship, transaction, performance speed, querying data, schema design, normalization, etc. The comparison between MongoDB and MySQL is similar to the comparison between Non-relational and Relational databases.",
+    "source": "https://mindmajix.com/mongodb-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "MongoDB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6) Explain Indexes in MongoDB?",
+    "answer": "In MongoDB, we useIndexesfor executing the queries efficiently; without using Indexes, MongoDB should carry out a collection scan, i.e., scan all the documents of a collection, for selecting the documents which match the query statement. If a suitable index is available for a query, MongoDB will use an index for restricting the number of documents it should examine.",
+    "source": "https://mindmajix.com/mongodb-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "MongoDB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7) Why MongoDB is the best NoSQL database?",
+    "answer": "MongoDB is the best NoSQL database due to the following features:",
+    "source": "https://mindmajix.com/mongodb-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "MongoDB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8) Explain the significance of the covered query?",
+    "answer": "A covered query makes the query implementation quicker as we store the indexes in the RAM or consecutively located on the disk. It makes query execution quicker. The covered query covers all the fields in the index, MongoDB matches the query condition along with returning the result fields.",
+    "source": "https://mindmajix.com/mongodb-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "MongoDB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is SQL performance tuning, and why is it important?",
+    "answer": "SQL performance tuning is the practice of optimizing database queries and schema for speed and efficiency. It’s important because even correct SQL queries can be very slow if not written or indexed properly. In a large application, poorly tuned SQL can lead to long response times and high server load.",
+    "source": "https://www.dbvis.com/thetable/top-sql-performance-tuning-interview-questions-and-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Performance Tuning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. How do you identify performance bottlenecks in SQL queries?",
+    "answer": "To identify slow queries, one would typically:",
+    "source": "https://www.dbvis.com/thetable/top-sql-performance-tuning-interview-questions-and-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Performance Tuning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What is an execution plan and how do you use it for optimization?",
+    "answer": "An execution plan (or query plan) is a step-by-step breakdown of how the database will execute a SQL query. It shows the operations (table scans, index seeks, joins, sorts, etc.) and the order in which they occur. You obtain it by prependingEXPLAINto a query (in many databases) orusing a GUI tool to display the plan. For example:",
+    "source": "https://www.dbvis.com/thetable/top-sql-performance-tuning-interview-questions-and-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Performance Tuning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What are indexes and how do they improve query performance?",
+    "answer": "An index is a data structure that the database uses to quickly locate rows. It’s very similar to an index in a book, instead of scanning every page for a word, you go to the index which directs you to the exact page.",
+    "source": "https://www.dbvis.com/thetable/top-sql-performance-tuning-interview-questions-and-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Performance Tuning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What are some best practices to improve SQL query performance?",
+    "answer": "There are many techniques to optimize SQL. Some of the top best practices are:",
+    "source": "https://www.dbvis.com/thetable/top-sql-performance-tuning-interview-questions-and-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Performance Tuning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. How does database schema design (normalization/denormalization) affect performance?",
+    "answer": "Schema design plays a big role in performance. A well-normalized design (3rd normal form and beyond) eliminates redundant data and makes updates consistent, but it can require more joins to gather related data. Joins are usually efficient with proper indexes, but excessive normalization (lots of tables) might cause queries to become complex.",
+    "source": "https://www.dbvis.com/thetable/top-sql-performance-tuning-interview-questions-and-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Performance Tuning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Can a Primary Key Be NULL in an SQL Table?",
+    "answer": "The content provided on dbvis.com/thetable, including but not limited to code and examples, is intended for educational and informational purposes only. We do not make any warranties or representations of any kind.Read more here.",
+    "source": "https://www.dbvis.com/thetable/top-sql-performance-tuning-interview-questions-and-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Performance Tuning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "In a system with an average of 40 concurrent users you get the following from a query on rollback extents?",
+    "answer": "If you're looking for Oracle Performance Tuning Interview Questions for Experienced or Freshers, you are at the right place. There are a lot of opportunities from many reputed companies in the world.According to research, Oracle Performance Tuning has a market share of about 40.3%. So, You still have the opportunity to move ahead in your career in Oracle Performance Tuning Development.",
+    "source": "https://mindmajix.com/oracle-performance-tuning-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "Performance Tuning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is Performance Tuning?",
+    "answer": "Ans:Making optimal use of the system using existing resources is called performance tuning.",
+    "source": "https://mindmajix.com/oracle-performance-tuning-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "Performance Tuning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What is an optimizer?",
+    "answer": "Ans:Optimizer is a mechanism that will make the execution plan of an SQL statement",
+    "source": "https://mindmajix.com/oracle-performance-tuning-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "Performance Tuning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. Which init parameter is used to make use of Optimizer?",
+    "answer": "Ans:optimizer_mode= rule—-RBO cost—CBO choose——–First CBO otherwise RBO",
+    "source": "https://mindmajix.com/oracle-performance-tuning-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "Performance Tuning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What are the pre-requested to make use of Optimizer?",
+    "answer": "Collect the statistics of an object",
+    "source": "https://mindmajix.com/oracle-performance-tuning-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "Performance Tuning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. How do you collect statistics on a table?",
+    "answer": "Ans:analyze table emp compute statistics or analyze table emp estimate statistics",
+    "source": "https://mindmajix.com/oracle-performance-tuning-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "Performance Tuning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "10. What is the diff between computing and estimate?",
+    "answer": "Ans:If you use compute, The FTS will happen, if you use estimate just 10% of the table will be read",
+    "source": "https://mindmajix.com/oracle-performance-tuning-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "Performance Tuning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "14. How do you see the statistics of a table?",
+    "answer": "Ans:select num_rows,blocks,empty_blocks from dba_tables where tab_name=’emp’",
+    "source": "https://mindmajix.com/oracle-performance-tuning-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "Performance Tuning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "12. What is rowid ?",
+    "answer": "object_idblock numberposition of the row in the blockdatafile number in which the row resides.(i.e relative file number)",
+    "source": "https://dbaclass.com/article/oracle-performance-tuning-interview-questions-and-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Performance Tuning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "17. What is cardinality in oracle?",
+    "answer": "condition where index_column like ‘%id’Huge data is requested from the table.Very high degree of paralleism is defined in table.Very high degree of paralleism is defined in table.Also when we search for a null value.",
+    "source": "https://dbaclass.com/article/oracle-performance-tuning-interview-questions-and-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Performance Tuning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "39.  What is index block splitting? Different types of splitting?",
+    "answer": "50-50 Splitting – > To accomodate the new key, The new block will be created, 50 percent will be stored in the existing leaf block and 50 percent will be in the new block.90-10 splitting – > If the index entry is the right most value( when index entry is sequentially increasing like transaction_date), then leaf block will be splitted and the new index key will added to the new leaf block",
+    "source": "https://dbaclass.com/article/oracle-performance-tuning-interview-questions-and-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Performance Tuning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "35. What is direct path read?",
+    "answer": "Reads from a temporary tablespace.Parallel queries.Reads from a LOB segment.",
+    "source": "https://dbaclass.com/article/oracle-performance-tuning-interview-questions-and-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Performance Tuning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What is free buffer wait event?",
+    "answer": "DBWR is unable to handle the loadBuffer cache size is small",
+    "source": "https://dbaclass.com/article/oracle-performance-tuning-interview-questions-and-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Performance Tuning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "11. What is enq: TX – index contention ?",
+    "answer": "Creating a reverse key Index.( This helps where only inserts happen, but might impact the range scan)Increase pctfree value( This will reduce index splitting)",
+    "source": "https://dbaclass.com/article/oracle-performance-tuning-interview-questions-and-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Performance Tuning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "12. What are different types of mutex wait events?",
+    "answer": "cursor: mutex Xcursor: mutex Scursor: pin Scursor: pin Xcursor: pin S wait on Xlibrary cache: mutex Xlibrary cache: mutex S",
+    "source": "https://dbaclass.com/article/oracle-performance-tuning-interview-questions-and-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Performance Tuning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "13. Library cache lock wait event?",
+    "answer": "Small shared poolLess cursor sharing / i.e more hard parsinglibrary cache object invalided and reloaded frequentlyHuge number of child cursor for a parent cursor ( i.e high version count)Non  use of binds by application queriesDDL during busy activity",
+    "source": "https://dbaclass.com/article/oracle-performance-tuning-interview-questions-and-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Performance Tuning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "“How would you optimize a complex query?”",
+    "answer": "In this blog, we break down a real-world sales report query and show how to optimize it according to each role. Whether you’re preparing for an interview or handling performance issues in your project, these steps will guide you.",
+    "source": "https://sqlschool.com/blog/top-sql-interview-question-how-to-optimize-queries-based-on-your-job-role/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Query Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "🎯 Want to master all these roles and answer confidently in interviews?",
+    "answer": "✅ Learn Query Optimization, Indexing, and Stored Procedures✅ Practice with Real-time Projects and Hands-on Scenarios✅ Prepare for Interviews with Mock Q&A and Live Labs",
+    "source": "https://sqlschool.com/blog/top-sql-interview-question-how-to-optimize-queries-based-on-your-job-role/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Query Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Next PostWhat is Python? How Is It Useful For Different Job Roles",
+    "answer": "Python with AI – ML",
+    "source": "https://sqlschool.com/blog/top-sql-interview-question-how-to-optimize-queries-based-on-your-job-role/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Query Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What are SQL query optimization interview questions?",
+    "answer": "SQL query optimization is a critical skill for database management and is often a focal point in technical interviews for roles involving database work. Understanding how to write efficient SQL queries ensures that applications run smoothly and can handle large volumes of data effectively. Below is a comprehensive list of common SQL query optimization interview questions, along with explanations to help you prepare thoroughly.",
+    "source": "https://www.designgurus.io/answers/detail/what-are-sql-query-optimization-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "Query Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is SQL Query Optimization and Why is it Important?",
+    "answer": "Definition: SQL query optimization is the process of enhancing the performance of SQL queries to ensure they run as efficiently as possible.",
+    "source": "https://www.designgurus.io/answers/detail/what-are-sql-query-optimization-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "Query Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How Do Indexes Improve Query Performance?",
+    "answer": "Function of Indexes: Indexes allow the database engine to locate data quickly without scanning the entire table.",
+    "source": "https://www.designgurus.io/answers/detail/what-are-sql-query-optimization-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "Query Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is the Difference Between Clustered and Non-Clustered Indexes?",
+    "answer": "Clustered Index:Only one per table.Stores data rows in the table based on key values.",
+    "source": "https://www.designgurus.io/answers/detail/what-are-sql-query-optimization-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "Query Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. How Can You Optimize a Slow-Running Query?",
+    "answer": "Analyze the Query Execution Plan: Use 'EXPLAIN' or 'EXPLAIN PLAN' to understand how the query is executed.",
+    "source": "https://www.designgurus.io/answers/detail/what-are-sql-query-optimization-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "Query Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is the Use of 'EXPLAIN' or 'EXPLAIN PLAN' in SQL?",
+    "answer": "Purpose: Shows how the database executes a query, including the order of operations and index usage.",
+    "source": "https://www.designgurus.io/answers/detail/what-are-sql-query-optimization-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "Query Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. How Does JOIN Order Affect Query Performance?",
+    "answer": "Execution Plan Impact: The order can influence the database's execution plan.",
+    "source": "https://www.designgurus.io/answers/detail/what-are-sql-query-optimization-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "Query Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What are the Common Causes of Slow Queries in SQL?",
+    "answer": "Lack of Indexes: Causes full table scans.",
+    "source": "https://www.designgurus.io/answers/detail/what-are-sql-query-optimization-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "Query Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. Can you explain the importance of transaction logs in SQL Server?",
+    "answer": "Transaction logs in SQL Server are crucial for maintaining the integrity and consistency of the database. They record every change made to the database, which can be used for recovery purposes in case of a system failure.",
+    "source": "https://www.adaface.com/blog/sql-server-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Query Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How do you approach troubleshooting connectivity issues in SQL Server?",
+    "answer": "When troubleshooting connectivity issues in SQL Server, the first step is to check the network settings and ensure that the server is reachable. Next, verify the SQL Server configuration, including the SQL Server and SQL Browser services, and ensure they are running.",
+    "source": "https://www.adaface.com/blog/sql-server-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Query Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What steps would you take to monitor and improve database performance?",
+    "answer": "To monitor and improve database performance, start by identifying bottlenecks using tools like SQL Server Profiler and Performance Monitor. Regularly review query execution plans and index usage statistics.",
+    "source": "https://www.adaface.com/blog/sql-server-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Query Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. Can you describe the process of setting up database mirroring in SQL Server?",
+    "answer": "Setting up database mirroring in SQL Server involves preparing the principal and mirror servers by ensuring that both are running the same version of SQL Server. Next, take a full backup of the principal database and restore it on the mirror server with the NORECOVERY option.",
+    "source": "https://www.adaface.com/blog/sql-server-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Query Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. How would you manage user permissions and roles in SQL Server?",
+    "answer": "Managing user permissions and roles in SQL Server involves creating logins and users, assigning them to database roles, and granting or revoking specific permissions. It's essential to follow the principle of least privilege, giving users only the permissions they need to perform their tasks.",
+    "source": "https://www.adaface.com/blog/sql-server-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Query Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is your approach to handling deadlocks in SQL Server?",
+    "answer": "Deadlocks occur when two or more sessions block each other indefinitely. To handle deadlocks, first identify and analyze the deadlock using tools like SQL Server Profiler or Extended Events. Then, optimize the queries involved to minimize the chance of deadlocks, such as by ensuring they access resources in the same order.",
+    "source": "https://www.adaface.com/blog/sql-server-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Query Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. How do you ensure data integrity in SQL Server?",
+    "answer": "Ensuring data integrity in SQL Server involves implementing constraints such as primary keys, foreign keys, unique constraints, and check constraints. These constraints enforce rules at the database level to maintain consistent and accurate data.",
+    "source": "https://www.adaface.com/blog/sql-server-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Query Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. Can you explain the role of SQL Server Agent and how you use it?",
+    "answer": "SQL Server Agent is a component of SQL Server that allows you to automate administrative tasks through scheduled jobs, alerts, and operators. It is commonly used for tasks such as database backups, index maintenance, and running custom scripts.",
+    "source": "https://www.adaface.com/blog/sql-server-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Query Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "12. What is the disadvantage of having many indices in a table?",
+    "answer": "30 MySQL Interview Questions with answers (MySQL questions)",
+    "source": "https://javarevisited.blogspot.com/2022/12/12-database-sql-index-interview.html",
+    "role": "Database Administrator (DBA)",
+    "skill": "Index Management",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Preparing for Java and Spring Boot Interview?",
+    "answer": "Join My Newsletter .. Its FREE",
+    "source": "https://javarevisited.blogspot.com/2022/12/12-database-sql-index-interview.html",
+    "role": "Database Administrator (DBA)",
+    "skill": "Index Management",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What are the main functions of a Database Administrator (DBA)?",
+    "answer": "Database Design:Designing database structures and schemas.",
+    "source": "https://www.webasha.com/blog/top-50-database-administration-interview-questions-and-answers",
+    "role": "Database Administrator (DBA)",
+    "skill": "Index Management",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is SQL, and what are its main components?",
+    "answer": "DML (Data Manipulation Language):Includes commands like SELECT, INSERT, UPDATE, DELETE.",
+    "source": "https://www.webasha.com/blog/top-50-database-administration-interview-questions-and-answers",
+    "role": "Database Administrator (DBA)",
+    "skill": "Index Management",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "12. What are transactions in a database, and what properties do they have?",
+    "answer": "Atomicity:All operations must complete successfully, or none are applied.",
+    "source": "https://www.webasha.com/blog/top-50-database-administration-interview-questions-and-answers",
+    "role": "Database Administrator (DBA)",
+    "skill": "Index Management",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "16. What is the difference between OLTP and OLAP databases?",
+    "answer": "OLTP (Online Transaction Processing):Optimized for transaction-oriented tasks, such as inserting, updating, and deleting records. Examples include retail and banking systems.",
+    "source": "https://www.webasha.com/blog/top-50-database-administration-interview-questions-and-answers",
+    "role": "Database Administrator (DBA)",
+    "skill": "Index Management",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "21. What is a database backup, and what are the different types?",
+    "answer": "Full Backup:A complete copy of the entire database.",
+    "source": "https://www.webasha.com/blog/top-50-database-administration-interview-questions-and-answers",
+    "role": "Database Administrator (DBA)",
+    "skill": "Index Management",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "23. What are the differences between clustered and non-clustered indexes?",
+    "answer": "Clustered Index:Determines the physical order of data in the table. A table can have only one clustered index.",
+    "source": "https://www.webasha.com/blog/top-50-database-administration-interview-questions-and-answers",
+    "role": "Database Administrator (DBA)",
+    "skill": "Index Management",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "27. What are some common database performance issues and their solutions?",
+    "answer": "Slow Queries:Optimize queries and use indexes.",
+    "source": "https://www.webasha.com/blog/top-50-database-administration-interview-questions-and-answers",
+    "role": "Database Administrator (DBA)",
+    "skill": "Index Management",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "35. What is the difference between a database and a data warehouse?",
+    "answer": "Database:Used for operational tasks and real-time data processing.",
+    "source": "https://www.webasha.com/blog/top-50-database-administration-interview-questions-and-answers",
+    "role": "Database Administrator (DBA)",
+    "skill": "Index Management",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Can you describe a challenging database management project and how you handled it?",
+    "answer": "Database managers often face complex issues. A common challenge could involve migrating data across different platforms while ensuring data accuracy and minimizing downtime. They might use tools like ETL (Extract, Transform, Load) processes to streamline the project successfully.",
+    "source": "https://www.poised.com/blog/list-of-behavioral-interview-questions-for-database-managers",
+    "role": "Database Administrator (DBA)",
+    "skill": "Index Management",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How do you approach maintaining database security and integrity?",
+    "answer": "Ensuring database security and integrity involves several steps. Managers implement access controls, regular audits, and data encryption. Additionally, they often stay updated with the latest security patches and standards to protect sensitive information efficiently.",
+    "source": "https://www.poised.com/blog/list-of-behavioral-interview-questions-for-database-managers",
+    "role": "Database Administrator (DBA)",
+    "skill": "Index Management",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Discuss a time when you had to make a critical decision regarding database management without all the necessary information. How did you proceed?",
+    "answer": "In such scenarios, database managers rely on their experience and available data. They might conduct a risk assessment to determine potential impacts and prioritize actions that ensure minimal disruption and align with business objectives.",
+    "source": "https://www.poised.com/blog/list-of-behavioral-interview-questions-for-database-managers",
+    "role": "Database Administrator (DBA)",
+    "skill": "Index Management",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Can you explain a scenario where you improved database performance or efficiency?",
+    "answer": "Managers often address performance issues by optimizing queries, indexing tables, or upgrading server hardware. For example, by analyzing slow-running queries and restructuring them, they can significantly enhance database responsiveness and efficiency.",
+    "source": "https://www.poised.com/blog/list-of-behavioral-interview-questions-for-database-managers",
+    "role": "Database Administrator (DBA)",
+    "skill": "Index Management",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Tell me about a moment when you had to manage a conflict within your database team. How did you resolve it?",
+    "answer": "Conflict resolution in a database team might involve addressing misunderstandings or disagreements about technical approaches. Successful managers mediate discussions, encourage open communication, and work towards a compromise that satisfies all team members while achieving project goals.",
+    "source": "https://www.poised.com/blog/list-of-behavioral-interview-questions-for-database-managers",
+    "role": "Database Administrator (DBA)",
+    "skill": "Index Management",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q1: What is the SQL Server Replication feature?",
+    "answer": "SQL Server Replication is a data distribution technique that is used to copy and synchronize the database data and objects from one database to another, hosted in the same SQL Server or in a remote SQL Server instance, keeping the data in a consistent state.",
+    "source": "https://www.sqlshack.com/sql-server-replication-interview-questions-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Replication",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q2: What is the difference between the Transactional Replication and the Snapshot Replication?",
+    "answer": "Both the Transactional replication and Snapshot replication start the initial synchronization by creating a full copy of the publication database articles and apply this copy to the subscription database.",
+    "source": "https://www.sqlshack.com/sql-server-replication-interview-questions-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Replication",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q3: What is special with the Merge Replication?",
+    "answer": "In the Merge replication, the Subscriber will download a copy of the Publisher database data and objects at first connect. When the Subscriber connects to the network again, it will upload all changes to the Publisher database then download all changes from the Publisher again, that are performed by all Subscribers, to keep the data synchronized and consistent.",
+    "source": "https://www.sqlshack.com/sql-server-replication-interview-questions-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Replication",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q4: What is the difference between the Peer to Peer replication and the Bidirectional replication?",
+    "answer": "Both Peer to Peer and Bidirectional replications are special types of Transactional replication.",
+    "source": "https://www.sqlshack.com/sql-server-replication-interview-questions-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Replication",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q5: What is common between all replication types?",
+    "answer": "The initial synchronization in all SQL replication types starts by taking a snapshot from the Publisher database then copy and apply it to the Subscriber database.",
+    "source": "https://www.sqlshack.com/sql-server-replication-interview-questions-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Replication",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q6: What are the main four components of the SQL Server Replication site?",
+    "answer": "The Articles, in the form of database tables, views, and stored procedures",
+    "source": "https://www.sqlshack.com/sql-server-replication-interview-questions-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Replication",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q7: List the four SQL Replication agents and what is the purpose of each one?",
+    "answer": "Replication Snapshot Agent, responsible for generating a copy of the Publisher database that will be used for the initial synchronization in all SQL replication types",
+    "source": "https://www.sqlshack.com/sql-server-replication-interview-questions-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Replication",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q8: Which component should be installed in the SQL Server instance before configuring the replication?",
+    "answer": "The SQL Replication component should be installed in servers that will participate in the SQL replication site, including the Publisher, the Subscriber, and the Distributor.",
+    "source": "https://www.sqlshack.com/sql-server-replication-interview-questions-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Replication",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "\"How do you detect and resolve replication conflicts?\"",
+    "answer": "Above comprehensive list of Data replication interview questions are specifically designed to target real interviews. Once you done with the list, don't forget to createData replication mock interviewsand try your skills. It only takes minutes to generate the interview using AI technologies. They are evaluated and scored real time so that you would be able to\n                measure your performance real time.",
+    "source": "https://www.interviewplus.ai/database-administration/data-replication/questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "Replication",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "You’re a Database Administrator. How do you answer questions about your experience with database replication?",
+    "answer": "Be the first to add your personal experience",
+    "source": "https://www.linkedin.com/advice/3/youre-database-administrator-how-do-you-e2zfc",
+    "role": "Database Administrator (DBA)",
+    "skill": "Replication",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1What is database replication?",
+    "answer": "Database replication is the process of copying and maintaining data from one database server to one or more other servers. The servers that have the original data are called master or primary servers, while the servers that have the copies are called slave or replica servers. Replication can be used for various purposes, such as backup, load balancing, high availability, disaster recovery, data analysis, and data distribution.",
+    "source": "https://www.linkedin.com/advice/3/youre-database-administrator-how-do-you-e2zfc",
+    "role": "Database Administrator (DBA)",
+    "skill": "Replication",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5How do you test your database replication skills?",
+    "answer": "One of the best ways to test your database replication skills is to practice with real-world scenarios and problems. You can use online platforms, such as Hackerrank, Leetcode, or SQLZoo, to find and solve database replication questions. You can also use your own local or cloud-based database servers to set up and experiment with different replication scenarios. You can use tools, such as MySQL Workbench, pgAdmin, or SQL Server Management Studio, to manage and monitor the replication processes.",
+    "source": "https://www.linkedin.com/advice/3/youre-database-administrator-how-do-you-e2zfc",
+    "role": "Database Administrator (DBA)",
+    "skill": "Replication",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Question – How many Replication Agents are involved in SQL Server Transactional  Replication?",
+    "answer": "Answer –There are four replication agents used in transactional  replication. Here is the list of all four replication agents.",
+    "source": "https://www.mssqltips.com/sqlservertip/5473/sql-server-replication-interview-questions-and-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Replication",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Question – What is the role of the SQL Server Log Reader Agent in Replication?",
+    "answer": "Answer –This replication agent is used by Transactional  replication only. This agent is very important to run transactional replication  smoothly. The Log Reader Agent replicates all transactions that are marked for replication  from the Publisher to the Distributor. Every database that is marked for replication  has its own log reader agent and it runs on the Distributor.",
+    "source": "https://www.mssqltips.com/sqlservertip/5473/sql-server-replication-interview-questions-and-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Replication",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Question – What is role of the Merge Agent in SQL Server Replication?",
+    "answer": "Answer –As its name suggests, the Merge Agent is used  by Merge Replication. Each merge subscription has its own Merge Agent that connects  to both the Publisher and the Subscriber and updates both.",
+    "source": "https://www.mssqltips.com/sqlservertip/5473/sql-server-replication-interview-questions-and-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Replication",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Question – What is the role of the Distribution Agent in SQL Server Replication?",
+    "answer": "Answer –This agent is responsible to move transactions  from the distributor to subscriber. The Distribution agent is used by Snapshot and  Transactional replication. This agent runs on the distributor for PUSH subscriptions  and runs on the Subscriber for PULL subscriptions.",
+    "source": "https://www.mssqltips.com/sqlservertip/5473/sql-server-replication-interview-questions-and-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Replication",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Question – Can we restrict or filter few columns from a publication to not  replicate on the subscriber?",
+    "answer": "Answer –When tables are published as articles, filters  can be used to restrict the columns and rows of the data sent to the Subscribers.",
+    "source": "https://www.mssqltips.com/sqlservertip/5473/sql-server-replication-interview-questions-and-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Replication",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Question – Can we rename a Subscriber database? If yes, describe the steps.",
+    "answer": "Answer –Yes, we can rename a subscriber database by running  an ALTER statement, but we should follow some additional steps post renaming the  subscriber database.",
+    "source": "https://www.mssqltips.com/sqlservertip/5473/sql-server-replication-interview-questions-and-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Replication",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Question – Can we configure SQL Server Replication for a database that is running  in SIMPLE recovery model?",
+    "answer": "Answer –Yes, you can configure Replication for any database  irrespective of their recovery model. The recovery model is not a prerequisite to  configure replication for a database.",
+    "source": "https://www.mssqltips.com/sqlservertip/5473/sql-server-replication-interview-questions-and-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Replication",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Question –What are the main prerequisites you should plan before configuring  SQL Server Transactional Replication?",
+    "answer": "Answer –Below are the things you should follow before  setting up transactional replication.",
+    "source": "https://www.mssqltips.com/sqlservertip/5473/sql-server-replication-interview-questions-and-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Replication",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. How do you collaborate with developers and architects to design efficient database schemas?",
+    "answer": "Related:Best Data Analytics Career Options",
+    "source": "https://digitaldefynd.com/IQ/database-administrator-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Replication",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "10. How do you balance maintaining legacy database systems while implementing new solutions?",
+    "answer": "I avoidLIMIT 1 OFFSET 1because gaps can appear if duplicate top salaries exist;DENSE_RANK()assigns the same rank to ties, so rank 2 reliably reflects the true second-highest value. The subquery materializes each salary with its rank, and the outer query filters forrnk = 2, returning a single value even when multiple employees share that salary. This approach is ANSI-SQL compliant and performs well with an index onsalary, making it portable across major RDBMSs.",
+    "source": "https://digitaldefynd.com/IQ/database-administrator-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Replication",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "13. How would you design a partitioning strategy for a 5-billion-row time-series table storing IoT sensor data?",
+    "answer": "Primary config(postgresql.conf): setwal_level = replica,max_wal_senders = 10,synchronous_commit = remote_apply, and list replica names insynchronous_standby_names.",
+    "source": "https://digitaldefynd.com/IQ/database-administrator-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Replication",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "15. You notice frequent deadlocks during high-volume inserts and updates. How do you diagnose and resolve them?",
+    "answer": "Related:Ultimate Guide to Database Testing",
+    "source": "https://digitaldefynd.com/IQ/database-administrator-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Replication",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "19. How do you tune the InnoDB buffer pool and log file size for write-heavy workloads?",
+    "answer": "Related:Data Engineer vs Data Architect",
+    "source": "https://digitaldefynd.com/IQ/database-administrator-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Replication",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "25. How do you manage database credentials securely in CI/CD pipelines?",
+    "answer": "The base case selects the root employee, and the recursive term joins subordinates, incrementingdepth. TheWHERE oc.depth < 3guard limits recursion to three tiers, preventing runaway scans. Parameterizing:root_idkeeps the query reusable. I indexmanager_idfor fast lookups and optionally addSEARCH BREADTHorDEPTH FIRST(in modern PostgreSQL) for ordered traversal. This pattern supports org-chart APIs without repeated round-trips.",
+    "source": "https://digitaldefynd.com/IQ/database-administrator-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Replication",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "29. Which key metrics and thresholds form your alerting baseline for MySQL replication?",
+    "answer": "I stage files in an S3 bucket and spin up a temp Aurora read replica to absorb load. Usingaws s3 cpwith parallel threads, I download chunks locally and run:",
+    "source": "https://digitaldefynd.com/IQ/database-administrator-interview-questions/",
+    "role": "Database Administrator (DBA)",
+    "skill": "Replication",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q1:  Why we need to establish a High Availability and Disaster Recovery Plan in large companies?",
+    "answer": "The High Availability and Disaster Recovery plan help in making sure that our database servers that host the company’s critical operational data and serve the main company systems will be available for the longest possible time with the least possible downtime.",
+    "source": "https://www.sqlshack.com/sql-server-always-on-availability-groups-interview-questions-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "High Availability",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q3: What are the main differences between the SQL Server Always On Failover Cluster and the SQL Server Always On Availability Groups?",
+    "answer": "In the Always On Failover Cluster, the resources such as the storage, the network name, and the virtual IPs, are shared and can be owned only by one of the cluster nodes at a given time",
+    "source": "https://www.sqlshack.com/sql-server-always-on-availability-groups-interview-questions-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "High Availability",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q4: What are the differences between the SQL Server Database Mirroring and the SQL Server Always On Availability Groups?",
+    "answer": "In the Database Mirroring you cannot read from the secondary database, where you can read from the secondary databases in the Always On Availability Groups",
+    "source": "https://www.sqlshack.com/sql-server-always-on-availability-groups-interview-questions-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "High Availability",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q5: How does the synchronization process performed in the SQL Server Always On Availability Groups between the different replicas?",
+    "answer": "The primarysends the transaction log recordfrom the primary database to the secondary database",
+    "source": "https://www.sqlshack.com/sql-server-always-on-availability-groups-interview-questions-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "High Availability",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q6: What is the Availability Group stands for?",
+    "answer": "A group of databases hosted in a SQL Server instance called primary replica that is copied to and synchronized with up to eight servers, called secondary replicas.",
+    "source": "https://www.sqlshack.com/sql-server-always-on-availability-groups-interview-questions-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "High Availability",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q7: What are the availability modes that are used in the SQL Server Availability Group to synchronize between the replicas?",
+    "answer": "Synchronous-commit mode, in which the primary replica will wait until getting confirmation from the secondary replicas, that the logs are written to the database transaction log file before committing that transaction at the primary side",
+    "source": "https://www.sqlshack.com/sql-server-always-on-availability-groups-interview-questions-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "High Availability",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q8: What is the failover process and when will the SQL Server decide to perform failover in the SQL Server Always On Availability Group?",
+    "answer": "The failover is a process in which the primary role and the secondary role are interchangeable between the availability replicas.",
+    "source": "https://www.sqlshack.com/sql-server-always-on-availability-groups-interview-questions-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "High Availability",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q9: What is the Availability Group Listener?",
+    "answer": "A virtual network name that allows the users to connect to the Primary or the secondary replicas.",
+    "source": "https://www.sqlshack.com/sql-server-always-on-availability-groups-interview-questions-answers/",
+    "role": "Database Administrator (DBA)",
+    "skill": "High Availability",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is SQL Server AlwaysOn?",
+    "answer": "Answer –AlwaysOn is a term Microsoft has used since SQL Server  2012 for high availability and disaster recovery solutions. As of now, two features  fall under the umbrella of AlwaysOn. These two features support  high availability and disaster recovery for SQL Server databases:",
+    "source": "https://www.mssqltips.com/sqlservertip/5474/sql-server-alwayson-interview-questions-and-answers-part-1/",
+    "role": "Database Administrator (DBA)",
+    "skill": "High Availability",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is the difference between AlwaysOn Failover Cluster  Instances and AlwaysOn Availability Groups (AOAG)?",
+    "answer": "Answer –Please have a look at the main differences between  both AlwaysOn solutions:",
+    "source": "https://www.mssqltips.com/sqlservertip/5474/sql-server-alwayson-interview-questions-and-answers-part-1/",
+    "role": "Database Administrator (DBA)",
+    "skill": "High Availability",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Can you explain Availability Group Listeners?",
+    "answer": "Answer– The Availability Group Listener is a virtual network  name that we use to make connections to the databases whether it is running from  a  primary replica or secondary replica after failover.",
+    "source": "https://www.mssqltips.com/sqlservertip/5474/sql-server-alwayson-interview-questions-and-answers-part-1/",
+    "role": "Database Administrator (DBA)",
+    "skill": "High Availability",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Can we configure Availability Groups without  configuring Availability Group Listeners?",
+    "answer": "Answer-Yes, we can configure an Availability Group without configuring  listeners. Listeners are configured to make databases connections irrespective of  their replica status.",
+    "source": "https://www.mssqltips.com/sqlservertip/5474/sql-server-alwayson-interview-questions-and-answers-part-1/",
+    "role": "Database Administrator (DBA)",
+    "skill": "High Availability",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How do you configure an AlwaysOn Availability Group with a multi subnet network?",
+    "answer": "Answer –There is only one difference between configuring  AOAG in a single vs. multi subnet. You will follow same process that we follow  while configuring AOAG in a single subnet, but if you have a multi subnet network then  we need one IP from each subnet to configure the AOAG listener. Read attached article where  I have explained thestep by step process to configure AOAG in a multi subnet network.",
+    "source": "https://www.mssqltips.com/sqlservertip/5474/sql-server-alwayson-interview-questions-and-answers-part-1/",
+    "role": "Database Administrator (DBA)",
+    "skill": "High Availability",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Can we add additional database files to a database that  is part of an AlwaysOn Availability Group?",
+    "answer": "Answer –Yes, we can add database files to the  databases that are configured as a portion of the AlwaysOn Availability Group.",
+    "source": "https://www.mssqltips.com/sqlservertip/5474/sql-server-alwayson-interview-questions-and-answers-part-1/",
+    "role": "Database Administrator (DBA)",
+    "skill": "High Availability",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "\"How do you detect and respond to suspicious activities in a database?\"",
+    "answer": "Above comprehensive list of Database Security interview questions are specifically designed to target real interviews. Once you done with the list, don't forget to createDatabase Security mock interviewsand try your skills. It only takes minutes to generate the interview using AI technologies. They are evaluated and scored real time so that you would be able to\n                measure your performance real time.",
+    "source": "https://www.interviewplus.ai/database-administration/database-security/questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "Security Management",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is database security and why is it important?",
+    "answer": "Database security refers to the collective measures used to protect and secure a database or database management software from illegitimate use and malicious threats and attacks. It is important because it ensures data integrity, confidentiality, and availability, which are critical for maintaining trust and compliance with regulations.",
+    "source": "https://jobs.community.kaplan.com/interview-questions/database-security-administrator",
+    "role": "Database Administrator (DBA)",
+    "skill": "Security Management",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. Can you explain the principle of least privilege and how it applies to database security?",
+    "answer": "The principle of least privilege means that users should be granted the minimum levels of access – or permissions – necessary to perform their job functions. In database security, this limits potential damage from accidents, errors, or unauthorized use by ensuring that access is restricted to only those who absolutely need it.",
+    "source": "https://jobs.community.kaplan.com/interview-questions/database-security-administrator",
+    "role": "Database Administrator (DBA)",
+    "skill": "Security Management",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What are some common database vulnerabilities and how can they be mitigated?",
+    "answer": "Common database vulnerabilities include SQL injection, weak authentication, excessive privileges, and unpatched software. Mitigation strategies involve regular updates and patches, implementing strong password policies, encryption, regular audits, and using parameterized queries to prevent SQL injection.",
+    "source": "https://jobs.community.kaplan.com/interview-questions/database-security-administrator",
+    "role": "Database Administrator (DBA)",
+    "skill": "Security Management",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. How do you perform a database security audit?",
+    "answer": "A database security audit involves reviewing and assessing database access controls, configurations, and policies to ensure they meet security standards. Steps include examining user permissions, ensuring proper encryption is in place, reviewing logs for unusual activity, and verifying that vulnerability scans and patches are regularly conducted.",
+    "source": "https://jobs.community.kaplan.com/interview-questions/database-security-administrator",
+    "role": "Database Administrator (DBA)",
+    "skill": "Security Management",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is SQL injection and how can it be prevented?",
+    "answer": "SQL injection is an attack where malicious SQL code is inserted into an input field for execution. It can be prevented by using parameterized queries or prepared statements, validating user input, and employing stored procedures. Additionally, keeping the database software up-to-date with security patches reduces the risk.",
+    "source": "https://jobs.community.kaplan.com/interview-questions/database-security-administrator",
+    "role": "Database Administrator (DBA)",
+    "skill": "Security Management",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. How would you securely manage database credentials?",
+    "answer": "Securely managing database credentials involves using strong, unique passwords, storing credentials securely using encryption, and frequently rotating passwords. Additionally, employing multi-factor authentication adds an extra layer of security, and using a centralized secrets management solution can help manage and protect credentials efficiently.",
+    "source": "https://jobs.community.kaplan.com/interview-questions/database-security-administrator",
+    "role": "Database Administrator (DBA)",
+    "skill": "Security Management",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What does a Database Administrator do?",
+    "answer": "A Database Administrator (DBA) is responsible for the performance, integrity, and security of a database. They ensure that data is stored efficiently and can be retrieved quickly, while also managing backups and recovery plans. DBAs also work on database design and implementation, often collaborating with developers to optimize queries and improve system performance. Additionally, they monitor database systems to prevent data breaches and ensure compliance with relevant regulations.",
+    "source": "https://www.finalroundai.com/blog/database-administrator-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "User Access Control",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. Can you describe your experience with different database management systems (DBMS) and which one you prefer to work with? Why?",
+    "answer": "Why you might get this question:Employers want to gauge your familiarity with various DBMS and understand your preferences to see if they align with the company's technology stack.",
+    "source": "https://www.finalroundai.com/blog/database-administrator-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "User Access Control",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How do you approach database design and what factors do you consider when creating a new database schema?",
+    "answer": "Why you might get this question:Employers want to understand your methodology and ensure you consider critical factors like scalability, performance, and data integrity when designing a database schema.",
+    "source": "https://www.finalroundai.com/blog/database-administrator-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "User Access Control",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. Explain the concept of normalization and denormalization. When would you choose one over the other?",
+    "answer": "Why you might get this question:Employers want to assess your understanding of database optimization techniques and your ability to balance performance with data integrity.",
+    "source": "https://www.finalroundai.com/blog/database-administrator-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "User Access Control",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What strategies do you use for database backup and recovery? Can you provide an example of a time you had to restore a database?",
+    "answer": "Why you might get this question:Employers need to ensure you can effectively manage data loss scenarios and maintain business continuity.",
+    "source": "https://www.finalroundai.com/blog/database-administrator-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "User Access Control",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. How do you ensure data integrity and consistency in a database?",
+    "answer": "Why you might get this question:Employers need to ensure you can maintain accurate and reliable data, which is crucial for business operations and decision-making.",
+    "source": "https://www.finalroundai.com/blog/database-administrator-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "User Access Control",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. Describe your experience with performance tuning in databases. What tools or techniques do you use?",
+    "answer": "Why you might get this question:Employers want to ensure you can optimize database performance to handle high loads and improve efficiency. They also need to know you are familiar with the tools and techniques necessary for effective performance tuning.",
+    "source": "https://www.finalroundai.com/blog/database-administrator-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "User Access Control",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. Can you explain the difference between clustered and non-clustered indexes? When would you use each type?",
+    "answer": "Why you might get this question:Employers want to assess your understanding of indexing and its impact on database performance and efficiency.",
+    "source": "https://www.finalroundai.com/blog/database-administrator-interview-questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "User Access Control",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "\"How do you back up a database?\"",
+    "answer": "Above comprehensive list of Database monitoring interview questions are specifically designed to target real interviews. Once you done with the list, don't forget to createDatabase monitoring mock interviewsand try your skills. It only takes minutes to generate the interview using AI technologies. They are evaluated and scored real time so that you would be able to\n                measure your performance real time.",
+    "source": "https://www.interviewplus.ai/database-administration/database-monitoring/questions",
+    "role": "Database Administrator (DBA)",
+    "skill": "Monitoring",
+    "search_strategy": "role_specific"
+  }
+]

@@ -11,6 +11,9 @@ __pycache__/
 *.pyd
 .venv/
 .env/
-
+backend/.env/
+backend/app/__pycache__/
+backend/scripts/__pycache__/
+backend/venv/
 # Others
 .DS_Store

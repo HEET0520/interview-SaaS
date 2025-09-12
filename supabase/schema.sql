@@ -1,45 +1,42 @@
--- supabase/schema.sql
--- Run this SQL in your Supabase SQL editor to create needed tables
-
-create table if not exists users (
-  id uuid primary key default gen_random_uuid(),
-  clerk_user_id text unique,
-  created_at timestamptz default now()
+-- Create users table to store public user data synced from Clerk
+-- The user_id is the primary key and matches Clerk's user ID.
+create table users (
+    id text primary key, -- Clerk User ID
+    name text,
+    email text,
+    created_at timestamp with time zone default timezone('utc'::text, now()) not null
 );
 
-create table if not exists resumes (
-  id uuid primary key default gen_random_uuid(),
-  clerk_user_id text references users(clerk_user_id) on delete set null,
-  filename text,
-  content text,
-  created_at timestamptz default now()
+-- Create resumes table
+create table resumes (
+    id uuid primary key default gen_random_uuid(),
+    user_id text references users(id) on delete cascade not null,
+    file_name text not null,
+    resume_text text not null,
+    created_at timestamp with time zone default timezone('utc'::text, now()) not null
 );
 
-create table if not exists interviews (
-  id text primary key,
-  clerk_user_id text references users(clerk_user_id) on delete cascade,
-  mode text, -- 'role' or 'resume'
-  role text,
-  difficulty text,
-  experience_level text,
-  resume_id uuid references resumes(id),
-  created_at timestamptz default now()
+-- Create interviews table to store session data and transcripts
+create table interviews (
+    id uuid primary key default gen_random_uuid(),
+    user_id text references users(id) on delete cascade not null,
+    resume_id uuid references resumes(id) on delete set null,
+    interview_type text not null, -- 'role-based' or 'resume-based'
+    role text,
+    difficulty text,
+    experience text,
+    transcript jsonb, -- To store the full Q&A transcript with scores
+    created_at timestamp with time zone default timezone('utc'::text, now()) not null
 );
 
-create table if not exists transcripts (
-  id uuid primary key default gen_random_uuid(),
-  interview_id text references interviews(id) on delete cascade,
-  actor text, -- 'ai' or 'user'
-  text text,
-  created_at timestamptz default now()
-);
-
-create table if not exists analysis_reports (
-  id uuid primary key default gen_random_uuid(),
-  interview_id text references interviews(id) on delete cascade,
-  strengths text[],
-  weaknesses text[],
-  improvements text,
-  resources text[],
-  created_at timestamptz default now()
+-- Create analysis_reports table to store the final AI-generated report
+create table analysis_reports (
+    id uuid primary key default gen_random_uuid(),
+    interview_id uuid references interviews(id) on delete cascade not null,
+    strengths text,
+    weaknesses text,
+    improvement_suggestions text,
+    recommended_resources text,
+    created_at timestamp with time zone default timezone('utc'::text, now()) not null,
+    constraint unique_interview_id unique (interview_id)
 );

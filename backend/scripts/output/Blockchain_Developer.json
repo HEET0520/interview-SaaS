@@ -1,0 +1,2154 @@
+[
+  {
+    "question": "1. What is Solidity?",
+    "answer": "Solidity is an object-oriented programming language developed by Christian Reitwiessner, Alex Beregszaszi, and several former Ethereum core contributors for implementing smart contracts on various blockchain platforms like Ethereum. It is used to implement smart contracts that implement business logic and generates a chain of transaction records in the blockchain system.",
+    "source": "https://www.geeksforgeeks.org/solidity/solidity-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the important features of Solidity?",
+    "answer": "The Solidity contract file/ library file has an extension .sol. For example, Geeksforgeeks.sol. The SOL script is a file that is programmed in Solidity programming language in the same way files are created in C++ or any other programming language. The SOL file contains the solidity source code and is used to create smart contracts for the transactions on the blockchain.",
+    "source": "https://www.geeksforgeeks.org/solidity/solidity-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What extension does the source file have in Solidity?",
+    "answer": "The Solidity contract file/ library file has an extension .sol. For example, Geeksforgeeks.sol. The SOL script is a file that is programmed in Solidity programming language in the same way files are created in C++ or any other programming language. The SOL file contains the solidity source code and is used to create smart contracts for the transactions on the blockchain.",
+    "source": "https://www.geeksforgeeks.org/solidity/solidity-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What type of language is Solidity?",
+    "answer": "Solidityis a statically-typed high-0level object-oriented programming language designed for developing smart contracts that run on Ethereum Virtual Machine (EVM).",
+    "source": "https://www.geeksforgeeks.org/solidity/solidity-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. Why is Solidity used in Blockchain?",
+    "answer": "Solidity is designed to develop smart contracts for transactions on the Blockchain.",
+    "source": "https://www.geeksforgeeks.org/solidity/solidity-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is a smart contract?",
+    "answer": "Smart contracts are computer programs stored on the blockchain that are executed when the predetermined conditions are met.",
+    "source": "https://www.geeksforgeeks.org/solidity/solidity-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is a gas limit in Solidity?",
+    "answer": "A gas limit in Solidity refers to the maximum amount of gas a user is willing to spend on a transaction. When creating a transaction on the Ethereum Network user must specify the gas limit to ensure that they don't spend more gas than they intend.",
+    "source": "https://www.geeksforgeeks.org/solidity/solidity-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is a variable in Solidity?",
+    "answer": "A variable in Solidity is a storage location that can contain values. These values can be changed during runtime. Variables are broadly classified as state variables and local variables.",
+    "source": "https://www.geeksforgeeks.org/solidity/solidity-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Solidity?",
+    "answer": "Solidity is a high-level language used in the blockchain ecosystem for implementing smart contracts. Designed specifically for targeting the Ethereum Virtual Machine, Solidity was influenced by severalprogramming languages, such asJavaScript,Python, andC++.",
+    "source": "https://www.simplilearn.com/solidity-interview-questions-article",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are some important features of Solidity?",
+    "answer": "Solidity has some salient features, which include libraries, contracts, and inheritance support. With Solidity, users can also create custom data types which can be a crucial part ofsmart contractdevelopment.",
+    "source": "https://www.simplilearn.com/solidity-interview-questions-article",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What types of applications can be developed using Solidity?",
+    "answer": "Solidity finds its application in creating smart contracts on Ethereum, which is a decentralized platform that is responsible for running smart contracts. Smart contracts function just as programmed and they are not prone to third-party interference. While it is most commonly used for developing smart contracts, you can also develop complex decentralized applications. You can develop various aspects, such as voting systems, crowdfunding platforms, decentralized exchanges, lending platforms, and much more.",
+    "source": "https://www.simplilearn.com/solidity-interview-questions-article",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What are the main differences between Solidity and other programming languages like Python, Java, or C++?",
+    "answer": "One main difference between Solidity and other programming languages like Python, C++, and Java is their application. While you can create centralized applications using these popular programming languages, Solidity is created to work with the Ethereum Virtual Machine. Therefore, it has certain special features such as creating smart contracts.",
+    "source": "https://www.simplilearn.com/solidity-interview-questions-article",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is machine code in relation to Solidity contracts?",
+    "answer": "Machine codes are a compilation of solidity contracts, which are written in a high-level language. And it is the machine code that is executed on the Ethereum blockchain by the computerâs processor. A basic understanding of machine code is needed to understand what Solidity contracts are and how they work.",
+    "source": "https://www.simplilearn.com/solidity-interview-questions-article",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is an enum? What are the restrictions on their use?",
+    "answer": "Enums are one of the methods used for creating user-defined types in Solidity. While you can implement an implicit conversion when using enums, they allow explicit conversion both to and from all integer types. Enums require at least one member, and the explicit conversions check the runtime value ranges. When thereâs a failure, it results in an exception.",
+    "source": "https://www.simplilearn.com/solidity-interview-questions-article",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is EVM bytecode?",
+    "answer": "EVM is the abbreviation for Ethereum Virtual Machine, which is a low-level programming language that is compiled from Solidityâ a high-level language. EVM helps reduce the operating system dependency by sitting between the application layer and the operating system. Because of EVM, Ethereum contracts can be on almost any computer.",
+    "source": "https://www.simplilearn.com/solidity-interview-questions-article",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is a library and how many types are there?",
+    "answer": "A library is a reusable piece of code that is used by smart contracts. There are two types of libraries, which are deployed and embedded libraries. While deployed libraries have an address of their own and can be used by several other smart contracts, embedded libraries are used by smart contracts wherein they are used as a part of the code. Additionally, embedded libraries do not have their own address.",
+    "source": "https://www.simplilearn.com/solidity-interview-questions-article",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How do you explain Blockchain technology to someone who doesn't know it?",
+    "answer": "Blockchain technologyis a distributed ledger, which stores transaction details in the form of immutable records or non-modifiable records (called blocks) which are secured using cryptography.",
+    "source": "https://www.simplilearn.com/tutorials/blockchain-tutorial/blockchain-interview-questions",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is Merkel Tree?",
+    "answer": "Merkel Treeis a data structure that is used for verifying a block. It is in the form of a binary tree containing cryptographic hashes of each block. A Merkle tree is structured similarly to a binary tree where each leaf node is a hash of a block of transactional data and each non-leaf node is a hash of its leaf node. The Merkel root or hash root is the final hash root of all the transaction hashes. It encompasses all the transactions that are underlying all the non-leaf nodes.",
+    "source": "https://www.simplilearn.com/tutorials/blockchain-tutorial/blockchain-interview-questions",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What do you mean by blocks in Blockchain technology?",
+    "answer": "Blockchain is a distributed database of immutable records called blocks, which are secured using cryptography. Refer to the video to see the various attributes of a block.",
+    "source": "https://www.simplilearn.com/tutorials/blockchain-tutorial/blockchain-interview-questions",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. How is Blockchain distributed ledger different from a traditional ledger?",
+    "answer": "A Blockchain distributed ledger is highly transparent as compared to a traditional ledger.",
+    "source": "https://www.simplilearn.com/tutorials/blockchain-tutorial/blockchain-interview-questions",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. How can you identify a block?",
+    "answer": "Every block consists of four fields -",
+    "source": "https://www.simplilearn.com/tutorials/blockchain-tutorial/blockchain-interview-questions",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is cryptography? What is its role in Blockchain?",
+    "answer": "Blockchain uses cryptography to secure usersâ identities and ensure transactions are done safely with a hash function.",
+    "source": "https://www.simplilearn.com/tutorials/blockchain-tutorial/blockchain-interview-questions",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What are the different types of Blockchain?",
+    "answer": "There are three different types of Blockchain - Public, Private, and Consortium Blockchain.",
+    "source": "https://www.simplilearn.com/tutorials/blockchain-tutorial/blockchain-interview-questions",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What happens when you try to deploy a file with multiple contracts?",
+    "answer": "In Blockchain, deploying a file with multiple contracts is not possible. The compiler only deploys the last contract from the uploaded file and the remaining contracts are neglected.",
+    "source": "https://www.simplilearn.com/tutorials/blockchain-tutorial/blockchain-interview-questions",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is the underlying principle of Blockchain Technology?",
+    "answer": "Blockchain is a P2P network where no single user controls the transaction. Blockchain principles are as follows:",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/top-50-blockchain-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. Why Blockchain is a trusted approach?",
+    "answer": "Blockchain Technology is a trusted approach due to the following reasons:",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/top-50-blockchain-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. Name two types of records in the blockchain databases?",
+    "answer": "The two records are block records and transactional records. These records can be easily accessed and can be integrated easily without following any complex algorithm.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/top-50-blockchain-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. How can you identify a block?",
+    "answer": "Every block in blockchain consists of these four fields:",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/top-50-blockchain-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is a Genesis Block?",
+    "answer": "In 2009, a developer named Santoshi Nakamoto created the genesis block. The genesis block is the first block in the blockchain and is also referred to as block 0. Some features of this block are as follows:",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/top-50-blockchain-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. How hash value is generated in blockchain?",
+    "answer": "The steps involved in generating the hash value or block signature is as follows:",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/top-50-blockchain-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. Is it possible to modify the data written in the block?",
+    "answer": "No, it is not possible to modify the data in one particular block. If the need arises, the organization has to erase data from all the other blocks. Due to this reason, it is very important to deal with data with utmost care in the blockchain.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/top-50-blockchain-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. What is a method to recognize a block in the blockchain approach?",
+    "answer": "Every block has a hash pointer that acts as a link to the previous block, transaction data, and a stamp of time.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/top-50-blockchain-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What are some common vulnerabilities in smart contracts, and how do you mitigate them?",
+    "answer": "I had to provide detailed explanations and examples to showcase my expertise in blockchain technology and development practices.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/cryptotech-solutions-blockchain-developer-interview-experience/",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What do you mean by Web 3.0?",
+    "answer": "If you're interviewing for a position in web3, you might think this is a stupid thing to ask, but it's not. This web3 interview question can quickly exclude individuals who are looking for work in a fast-developing field but do not completely comprehend what it entails. If you can articulate web3 clearly, you have done your study and understand why you are seeking this role.",
+    "source": "https://www.geeksforgeeks.org/blogs/top-10-most-commonly-asked-web3-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the differences between Web 1.0, Web 2.0, and Web 3.0?",
+    "answer": "You may have previously answered this question when answering the preceding one. However, the interviewer may still pose the question in this fashion. You must go a bit deeper here and describe the key ideas of Web1 and Web2 before talking about Web 3.0.",
+    "source": "https://www.geeksforgeeks.org/blogs/top-10-most-commonly-asked-web3-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. How do Proof of Work (PoW) and Proof of Stake (PoS) differ?",
+    "answer": "When this question is posed, you are expected to respond thoroughly. You should include information such as which blockchains use PoS and which use PoW, the benefits and drawbacks of each, which one you believe is superior to the other, and so on.",
+    "source": "https://www.geeksforgeeks.org/blogs/top-10-most-commonly-asked-web3-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is Decentralization?",
+    "answer": "To sit in an interview for a Web3 role, you need to have a basic idea of Web 3.0 terminologies. So, ensure that you're thorough with all the basic terms related to Web3.",
+    "source": "https://www.geeksforgeeks.org/blogs/top-10-most-commonly-asked-web3-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What are some new features we may expect from Web 3.0?",
+    "answer": "Here, you need to share your vision for the future of Web 3.0. You can describe the features in an illustrative way so interviewees know that you're through with your understanding of Web3's features and characteristics.",
+    "source": "https://www.geeksforgeeks.org/blogs/top-10-most-commonly-asked-web3-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What’s the difference between fungible & non-fungible tokens?",
+    "answer": "Web3 is incomplete without NFTs and FTs. Make sure that you're updated with the definition along with what's going on in the NFT world.",
+    "source": "https://www.geeksforgeeks.org/blogs/top-10-most-commonly-asked-web3-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is the difference between Bitcoin & Ethereum?",
+    "answer": "Everyone is aware that Bitcoin and Ethereum are the two most popular Blockchains currently in use. Each one is distinct in its own way, which is why you must describe their differences, the services they offer, and how they differ from one another.",
+    "source": "https://www.geeksforgeeks.org/blogs/top-10-most-commonly-asked-web3-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is the difference between Public and Private keys?",
+    "answer": "Blockchain and Web3 focus heavily on the security and privacy of data so you need to have an idea of cryptography. Cryptography is the science of secret writing with the intention of keeping the data secret. It classifies into two keys -  public and private.",
+    "source": "https://www.geeksforgeeks.org/blogs/top-10-most-commonly-asked-web3-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Why this Blockchain Developer Resume Works?",
+    "answer": "The resume for Alex Turner works well for several reasons:",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/blockchain-developer-resume/",
+    "role": "Blockchain Developer",
+    "skill": "Solidity",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. How would you explain the concept of Blockchain to a layman?",
+    "answer": "Blockchainis a decentralized technology. It is a distributed database where data is stored in blocks. These blocks are connected with each other forming a chain where each block contains a timestamp and links to the previous block. Every node in the blockchain network gets a copy of the whole database and there is no central authority holding all the data.",
+    "source": "https://www.geeksforgeeks.org/blogs/commonly-asked-blockchain-interview-questions-answers/",
+    "role": "Blockchain Developer",
+    "skill": "Ethereum",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What are the features provided by Blockchain?",
+    "answer": "Consensus is basically a set of protocols that regulate the blockchain network. It ensures no duplicate block is added to the chain and the block is added only after it is agreed upon by all other nodes in the network. It helps to achieve reliability and trust among the peer nodes.",
+    "source": "https://www.geeksforgeeks.org/blogs/commonly-asked-blockchain-interview-questions-answers/",
+    "role": "Blockchain Developer",
+    "skill": "Ethereum",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What is the Consensus mechanism in Blockchain?",
+    "answer": "Consensus is basically a set of protocols that regulate the blockchain network. It ensures no duplicate block is added to the chain and the block is added only after it is agreed upon by all other nodes in the network. It helps to achieve reliability and trust among the peer nodes.",
+    "source": "https://www.geeksforgeeks.org/blogs/commonly-asked-blockchain-interview-questions-answers/",
+    "role": "Blockchain Developer",
+    "skill": "Ethereum",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What is the difference between Ethereum and Bitcoin?",
+    "answer": "Blockchain is the backbone technology of digital cryptocurrencies. Bitcoin. The blockchain is a distributed database that stores records of all transactions or digital events that have been completed and shared by participating parties. Each transaction is validated by the majority of the system's members. It holds every record of each transaction. Bitcoin, the most widely used cryptocurrency, is an example of blockchain technology.",
+    "source": "https://www.geeksforgeeks.org/blogs/commonly-asked-blockchain-interview-questions-answers/",
+    "role": "Blockchain Developer",
+    "skill": "Ethereum",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What are some different types of Blockchain?",
+    "answer": "Smart Contracts are self-executable lines of code in blockchain. They define the rules of how a transaction has to be processed between the parties under specific conditions. It is basically a digital contract for a blockchain network that facilitates implementing new functionalities using the blockchain allowing them to use in real world applications.",
+    "source": "https://www.geeksforgeeks.org/blogs/commonly-asked-blockchain-interview-questions-answers/",
+    "role": "Blockchain Developer",
+    "skill": "Ethereum",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What are Smart Contracts and why they are useful?",
+    "answer": "Smart Contracts are self-executable lines of code in blockchain. They define the rules of how a transaction has to be processed between the parties under specific conditions. It is basically a digital contract for a blockchain network that facilitates implementing new functionalities using the blockchain allowing them to use in real world applications.",
+    "source": "https://www.geeksforgeeks.org/blogs/commonly-asked-blockchain-interview-questions-answers/",
+    "role": "Blockchain Developer",
+    "skill": "Ethereum",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What is a dApp and how it is different from Smart Contract?",
+    "answer": "Blocks are added to the blockchain through the process of mining. When a transaction is made, the corresponding block is created which needs to be first validated by more than half (51% at least) of the nodes on the network. Once validated, the block is broadcasted to the whole network and then added to the blockchain.",
+    "source": "https://www.geeksforgeeks.org/blogs/commonly-asked-blockchain-interview-questions-answers/",
+    "role": "Blockchain Developer",
+    "skill": "Ethereum",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. How blocks are added to a Blockchain?",
+    "answer": "Blocks are added to the blockchain through the process of mining. When a transaction is made, the corresponding block is created which needs to be first validated by more than half (51% at least) of the nodes on the network. Once validated, the block is broadcasted to the whole network and then added to the blockchain.",
+    "source": "https://www.geeksforgeeks.org/blogs/commonly-asked-blockchain-interview-questions-answers/",
+    "role": "Blockchain Developer",
+    "skill": "Ethereum",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How Do Smart Contracts Work?",
+    "answer": "A smart contract is just a digital contract with the security coding of the blockchain.",
+    "source": "https://www.geeksforgeeks.org/solidity/smart-contracts-in-blockchain/",
+    "role": "Blockchain Developer",
+    "skill": "Smart Contracts",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Who is a Web3 Developer?",
+    "answer": "A Web3 developer is a software developer who specializes inbuilding decentralized appsusing the latest technology. These developers need to have a strong understanding of blockchain technology,distributed technology, andcryptography. Further, they need to have experience with object-oriented programming, software development, and agile methodologies.Web3 developers use a wide range of tools likeSolidity,Web3.js, andTruffleto build projects like:",
+    "source": "https://www.geeksforgeeks.org/blogs/web3-developer-roadmap/",
+    "role": "Blockchain Developer",
+    "skill": "Web3.js",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Are Web3 Developers In Demand?",
+    "answer": "With the rapid growth in the digital era, the demand for Web3 developers is increasing. The industry has witnessed a rapidincrease of 395% in one year. More and more companies are looking to integrate blockchain technology so the demand is expected to grow further. The rise of industry has reshaped careers and is creating new opportunities in this domain. These developers can work in a wide variety of roles like software developers,blockchain architects,consultants, etc. So yes there is a huge demand for Web3 developers and it is constantly increasing.",
+    "source": "https://www.geeksforgeeks.org/blogs/web3-developer-roadmap/",
+    "role": "Blockchain Developer",
+    "skill": "Web3.js",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How to Start a Career on Web3?",
+    "answer": "The first and foremost thing that you need to do to start your career on Web3 is to attain knowledge of technologies like blockchain, solidity, smart contracts, programming languages, and cryptography. Once have solid knowledge of these concepts it's time to look for different career paths likeBlockchain app developer, decentralized app developer, NFT developer, Backend developer,etc. Also try to gain some practical experience by building some projects, and participating in online communities, conferences, and meetups.",
+    "source": "https://www.geeksforgeeks.org/blogs/web3-developer-roadmap/",
+    "role": "Blockchain Developer",
+    "skill": "Web3.js",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What are the common Cyberattacks?",
+    "answer": "Some basic Cyber attacks are as follows:",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/cyber-security-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "Cryptography",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the elements of cyber security?",
+    "answer": "There are various elements of cyber security as given below:",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/cyber-security-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "Cryptography",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. Define DNS?",
+    "answer": "The Domain Name System (DNS) translates domain names into IP addresses that browsers use to load web pages. Every device connected to the Internet has its ownIP address, which other devices use to identify it in simple language, we can say that DNS Defines the Service of the network.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/cyber-security-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "Cryptography",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is a Firewall?",
+    "answer": "A firewall is a hardware or software-based network security device that monitors all incoming and outgoing traffic and accepts, denies, or drops that particular traffic based on a defined set of security rules.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/cyber-security-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "Cryptography",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is a VPN?",
+    "answer": "VPN stands for Virtual Private Network. A virtual private network (VPN) is a technology that creates a secure, encrypted connection over an insecure network like the Internet. A virtual private network is a method of extending a private network using a public network such as the Internet. The name only indicates that it is a virtual \"private network\". A user may be part of a local area network at a remote location. Create a secure connection using a tunnelling protocol.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/cyber-security-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "Cryptography",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What are the different sources of malware?",
+    "answer": "The different sources of malware are given below:",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/cyber-security-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "Cryptography",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. How does email work?",
+    "answer": "When a sender uses an e-mail program to send an e-mail, it is redirected to a simple e-mail transfer protocol. In this protocol, the recipient's email address belongs to a different domain name or the same domain name as the sender (Gmail, Outlook, etc.). After that, the e-mail will be stored on the server, and later he will send it using thePOPorIMAPprotocol. Then, if the recipient has a different domain name address, theSMTPprotocol communicates with the DNS (Domain Name Server) for the different addresses that the recipient uses. Then the sender's SMTP  communicates with the receiver's SMTP, and the receiver's SMTP performs the communication. This way the email is delivered to the recipient's SMTP. If certain network traffic issues prevent both the sender's SMTP  and the recipient's SMTP from communicating with each other, outgoing emails will be queued at the recipient's SMTP and finally to be received by the recipient. Also, if a message stays in the queue for too long due to terr",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/cyber-security-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "Cryptography",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is the difference between active and passive cyber attacks?",
+    "answer": "Please refer to the article:Difference between Active Attack and Passive Attackto know more about it.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/cyber-security-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "Cryptography",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Blockchain?",
+    "answer": "A Blockchain is a digital ledger of transactions that is secure, immutable, and decentralized. It consists of a chain of blocks and each block contains a secure group of transactions of money, bitcoins, contracts, property, etc. without any need for third-party middle-man such as central authorities, banks, government, etc. Transactions are verified by a network of computers. Once a block of information is created in the chain, it can’t be changed or deleted. This makes the blockchain very secure and trustworthy. It is a software protocol, it never runs without the internet.",
+    "source": "https://www.geeksforgeeks.org/software-engineering/blockchain/",
+    "role": "Blockchain Developer",
+    "skill": "Cryptography",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Why Do We Use Blockchain?",
+    "answer": "Blockchain is a distributed digital ledger of transactions. It changes the whole concept of the transaction now we don’t have any need for centralized authorities to verify our transactions, blockchain makes it decentralized and secure. The security is maintained by cryptographic processes performed by p2p users, through the process calledData miningHere are some important features given below:",
+    "source": "https://www.geeksforgeeks.org/software-engineering/blockchain/",
+    "role": "Blockchain Developer",
+    "skill": "Cryptography",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Want a Top Software Development Job? Start Here!",
+    "answer": "This section will provide you with the Basic Node.js interview questions which will primarily help freshers.",
+    "source": "https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-interview-questions",
+    "role": "Blockchain Developer",
+    "skill": "JavaScript",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is Node.js and Where can you use it?",
+    "answer": "Node.js is an open-source, cross-platformJavaScriptruntime environment and library to run web applications outside the clientâs browser.ÂIt is used to create server-side web applications.",
+    "source": "https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-interview-questions",
+    "role": "Blockchain Developer",
+    "skill": "JavaScript",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. Why use Node.js?",
+    "answer": "Node.js makes building scalable network programs easy. Some of its advantages include:",
+    "source": "https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-interview-questions",
+    "role": "Blockchain Developer",
+    "skill": "JavaScript",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. How does Node.js work?",
+    "answer": "A web server using Node.js typically has a workflow that is quite similar to the diagram illustrated below. Letâs explore this flow of operations in detail.",
+    "source": "https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-interview-questions",
+    "role": "Blockchain Developer",
+    "skill": "JavaScript",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. Why is Node.js Single-threaded?",
+    "answer": "Node.js is single-threaded for async processing. By doing async processing on a single-thread under typical web loads, more performance and scalability can be achieved instead of the typical thread-based implementation.",
+    "source": "https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-interview-questions",
+    "role": "Blockchain Developer",
+    "skill": "JavaScript",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. If Node.js is single-threaded, then how does it handle concurrency?",
+    "answer": "The Multi-Threaded Request/Response Stateless Model is not followed by the Node JS Platform, and it adheres to the Single-Threaded Event Loop Model. The Node JS Processing paradigm is heavily influenced by the JavaScript Event-based model and the JavaScript callback system. As a result, Node.js can easily manage more concurrent client requests. The event loop is the processing model's beating heart in Node.js.",
+    "source": "https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-interview-questions",
+    "role": "Blockchain Developer",
+    "skill": "JavaScript",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What are the advantages of using promises instead of callbacks?",
+    "answer": "The control flow of asynchronous logic is more specified and structured.",
+    "source": "https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-interview-questions",
+    "role": "Blockchain Developer",
+    "skill": "JavaScript",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. How would you define the term I/O?Â",
+    "answer": "The term I/O is used to describe any program, operation, or device that transfers data to or from a medium and to or from another medium",
+    "source": "https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-interview-questions",
+    "role": "Blockchain Developer",
+    "skill": "JavaScript",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1.What is NodeJS?",
+    "answer": "NodeJSis an open-source, cross-platform JavaScript runtime environment engine used for executing JavaScript code outside the browser. It is built on Google Chrome's V8 JavaScript engine. Some of the key features of NodeJS are mentioned below:",
+    "source": "https://www.geeksforgeeks.org/node-js/node-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "JavaScript",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2.What is NPM?",
+    "answer": "NPMstands for the Node Package Manager. It is the package manager for the NodeJS environment. It is used to install, share, and manage dependencies (libraries, tools, or packages) in JavaScript applications. Below are the following key points about the NPM:",
+    "source": "https://www.geeksforgeeks.org/node-js/node-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "JavaScript",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. Why is NodeJSsingle-threaded?",
+    "answer": "NodeJS is single-threaded because it's based on the asynchronous, non-blocking nature ofJavaScript.This design makes it simpler to develop and maintain, and it allows NodeJS to handle many concurrent requests efficiently.",
+    "source": "https://www.geeksforgeeks.org/node-js/node-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "JavaScript",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. If NodeJS is single-threaded, then how does it handle concurrency?",
+    "answer": "NodeJS is single-threaded, but it can handle concurrency efficiently through its event-driven, non-blocking I/O model. While the event loop in NodeJS runs on a single thread, it doesn’t block the execution of other tasks when waiting for I/O operations, such as file reads or database queries. Instead, NodeJS delegates these I/O tasks to the system's kernel, allowing it to continue processing other requests. Once the I/O operation is complete, the corresponding callback is added to a queue and processed by the event loop. This non-blocking approach enables NodeJS to handle multiple concurrent tasks without waiting for each one to finish sequentially.",
+    "source": "https://www.geeksforgeeks.org/node-js/node-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "JavaScript",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. Why is NodeJS preferred over other backend technologies like Java and PHP?",
+    "answer": "Here are some reasons why NodeJS is preferred:",
+    "source": "https://www.geeksforgeeks.org/node-js/node-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "JavaScript",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6.What is the difference between Synchronous and Asynchronous functions?",
+    "answer": "Here we have a difference table between Synchronous and Asynchronous functions.",
+    "source": "https://www.geeksforgeeks.org/node-js/node-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "JavaScript",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7.What are the module in NodeJS?",
+    "answer": "In a NodeJS Application, aModulecan be considered as a block of code that provides a simple or complex functionality that can communicate with external application. Modules can be organized in a single file or a collection of multiple files/folders. They are useful because of their reusability and ability to reduce the complexity of code into smaller pieces.Examples of modules are.http, fs, os, path, etc.",
+    "source": "https://www.geeksforgeeks.org/node-js/node-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "JavaScript",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8.What is the purpose of the 'require' keyword in NodeJS?",
+    "answer": "The require keyword in NodeJS is used to include and import modules (external or built-in) into a NodeJS application.",
+    "source": "https://www.geeksforgeeks.org/node-js/node-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "JavaScript",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1.What is event-driven programming in NodeJS?",
+    "answer": "Event-driven programming is used to synchronize the occurrence of multiple events and to make the program as simple as possible. The basic components of an Event-Driven Program are:",
+    "source": "https://www.geeksforgeeks.org/nodejs-interview-questions-and-answers-intermediate-level/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2.What is a buffer in NodeJS?",
+    "answer": "The Buffer class in NodeJS is used to perform operations on raw binary data. Generally, a buffer refers to a particular location in memory. Buffer and array have some similarities, but the difference is that array can be any type, and it can be resizable. Buffers only deal with binary data, and they can not be resized. Each integer in a buffer represents a byte. console.log() function is used to print the Buffer instance.",
+    "source": "https://www.geeksforgeeks.org/nodejs-interview-questions-and-answers-intermediate-level/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3.What are streams in NodeJS?",
+    "answer": "Streams are a type of data-handling method used to read or write input into output sequentially. Streams are used to handle reading/writing files or exchanging information in an efficient way. The stream module provides an API for implementing the stream interface. Examples of the stream object in NodeJS can be a request to an HTTP server and process.stdout are both stream instances.",
+    "source": "https://www.geeksforgeeks.org/nodejs-interview-questions-and-answers-intermediate-level/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5.What is callback hell?",
+    "answer": "Callback hellis an issue caused due to a nested callback. This causes the code to look like a pyramid and makes it unable to read To overcome this situation we use promises.",
+    "source": "https://www.geeksforgeeks.org/nodejs-interview-questions-and-answers-intermediate-level/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8.What are the pros and cons of NodeJS?",
+    "answer": "Event-driven programming is used to synchronize the occurrence of multiple events and to make the program as simple as possible. The basic components of an Event-Driven Program are:",
+    "source": "https://www.geeksforgeeks.org/nodejs-interview-questions-and-answers-intermediate-level/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9.What is the difference between process.nextTick() and setImmediate() method?",
+    "answer": "Event-driven programming is used to synchronize the occurrence of multiple events and to make the program as simple as possible. The basic components of an Event-Driven Program are:",
+    "source": "https://www.geeksforgeeks.org/nodejs-interview-questions-and-answers-intermediate-level/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "11.What is fork in NodeJS?",
+    "answer": "Fork is a method in NodeJS that is used to create child processes. It helps to handle the increasing workload. It creates a new instance of the engine which enables multiple processes to run the code.",
+    "source": "https://www.geeksforgeeks.org/nodejs-interview-questions-and-answers-intermediate-level/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "12.What are the three methods to avoid callback hell?",
+    "answer": "The three methods to avoid callback hell are:",
+    "source": "https://www.geeksforgeeks.org/nodejs-interview-questions-and-answers-intermediate-level/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1.  What is Node.js and how it works?",
+    "answer": "Node.js is a virtual machine that uses JavaScript as its scripting language and runs Chrome’s V8 JavaScript engine. Basically, Node.js is based on an event-driven architecture where I/O runs asynchronously making it lightweight and efficient. It is being used in developing desktop applications as well with a popular framework called electron as it provides API to access OS-level features such as file system, network, etc.",
+    "source": "https://www.interviewbit.com/node-js-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2.  What tools can be used to assure consistent code style?",
+    "answer": "ESLint can be used with any IDE to ensure a consistent coding style which further helps in maintaining the codebase.",
+    "source": "https://www.interviewbit.com/node-js-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is a first class function in Javascript?",
+    "answer": "When functions can be treated like any other variable then those functions are first-class functions. There are many other programming languages, for example, scala, Haskell, etc which follow this including JS. Now because of this function can be passed as a param to another function(callback) or a function can return another function(higher-order function). map() and filter() are higher-order functions that are popularly used.",
+    "source": "https://www.interviewbit.com/node-js-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. How do you manage packages in your node.js project?",
+    "answer": "It can be managed by a number of package installers and their configuration file accordingly. Out of them mostly use npm or yarn. Both provide almost all libraries of javascript with extended features of controlling environment-specific configurations. To maintain versions of libs being installed in a project we use package.json and package-lock.json so that there is no issue in porting that app to a different environment.",
+    "source": "https://www.interviewbit.com/node-js-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. How is Node.js better than other frameworks most popularly used?",
+    "answer": "Node.js provides simplicity in development because of its non-blocking I/O and event-based model results in short response time and concurrent processing, unlike other frameworks where developers have to use thread management.",
+    "source": "https://www.interviewbit.com/node-js-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6.  Explain the steps how “Control Flow” controls the functions calls?",
+    "answer": "Control the order of execution",
+    "source": "https://www.interviewbit.com/node-js-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What are some commonly used timing features of Node.js?",
+    "answer": "setTimeout/clearTimeout– This is used to implement delays in code execution.",
+    "source": "https://www.interviewbit.com/node-js-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What are the advantages of using promises instead of callbacks?",
+    "answer": "The main advantage of using promise is you get an object to decide the action that needs to be taken after the async task completes. This gives more manageable code and avoids callback hell.",
+    "source": "https://www.interviewbit.com/node-js-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is TypeScript?",
+    "answer": "Lesson 2: React TypeScript09:34React TypeScript09:34",
+    "source": "https://www.simplilearn.com/learn-typescript-basics-skillup",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Why you should learnTypeScript?",
+    "answer": "Expected size of global Web Development market by 2032.",
+    "source": "https://www.simplilearn.com/learn-typescript-basics-skillup",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is the TypeScript Basics Course about?",
+    "answer": "This course introduces the core concepts of TypeScript, including types, interfaces, classes, and modules, to help you write scalable and error-free code.",
+    "source": "https://www.simplilearn.com/learn-typescript-basics-skillup",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Who should take this course?",
+    "answer": "The course is ideal for JavaScript developers, web developers, and beginners looking to enhance their coding skills with TypeScript.",
+    "source": "https://www.simplilearn.com/learn-typescript-basics-skillup",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Do I need prior programming experience to enroll for this Typescript basics course?",
+    "answer": "Basic knowledge of JavaScript is recommended, but beginners with a fundamental understanding of programming can also follow along.",
+    "source": "https://www.simplilearn.com/learn-typescript-basics-skillup",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What topics are covered in this Typescript for beginners course?",
+    "answer": "The course covers type annotations, interfaces, classes, modules, generics, and integration of TypeScript with JavaScript.",
+    "source": "https://www.simplilearn.com/learn-typescript-basics-skillup",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Will I get hands-on practice during the course?",
+    "answer": "Yes, the course includes practical examples and exercises to help you apply TypeScript concepts in real-world scenarios.",
+    "source": "https://www.simplilearn.com/learn-typescript-basics-skillup",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How long does it take to complete the Typescript for beginners course?",
+    "answer": "ThisTypescript Basicscourse is 3 hours long.",
+    "source": "https://www.simplilearn.com/learn-typescript-basics-skillup",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What are IIFEs (Immediately Invoked Function Expressions)?",
+    "answer": "IIFEsstands for Immediately Invoked Function Expressions. JavaScript functions that are executed immediately after they are defined. They are commonly used to create a new scope and encapsulate code, preventing variable declarations from polluting the global scope.",
+    "source": "https://www.geeksforgeeks.org/backend-developer-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. Can We describe the main difference between a .forEach loop and a .map() loop and why We would pick one versus the other?",
+    "answer": "Here is thedifferencebetween forEach loop and map() loop",
+    "source": "https://www.geeksforgeeks.org/backend-developer-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is a cookie? How can We create, read and clear cookies using Javascript?",
+    "answer": "Acookieis an important tool as it allows We to store the user information as a name-value pair separated by a semi-colon in a string format. If we save a cookie in our browser then we can log in directly to the browser because it saves the user information.",
+    "source": "https://www.geeksforgeeks.org/backend-developer-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What are Closures in JavaScript?",
+    "answer": "JavaScriptclosureis a feature that allows inner functions to access the outer scope of a function. Closure helps in binding a function to its outer boundary and is created automatically whenever a function is created.",
+    "source": "https://www.geeksforgeeks.org/backend-developer-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What are the arrow functions in JavaScript?",
+    "answer": "Arrow function {()=>}is concise way of writing JavaScript functions in shorter way.Arrow functionswere introduced in the ES6 version. They make our code more structured and readable. Mostly in development phase mostly arrow function is used.",
+    "source": "https://www.geeksforgeeks.org/backend-developer-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. What are the various Operators in Javascript?",
+    "answer": "JavaScriptoperatorsoperate the operands, these are symbols that are used to manipulate a certain value or operand. Operators are used to performing specific mathematical and logical computations on operands.",
+    "source": "https://www.geeksforgeeks.org/backend-developer-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "11. What is NodeJS and how it works?",
+    "answer": "NodeJS is a JavaScript runtime environment that allows developers to run JavaScript code outside of a web browser. It uses theV8 JavaScript engine, which is the same engine used by Google Chrome, to execute JavaScript code on the server-side.",
+    "source": "https://www.geeksforgeeks.org/backend-developer-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "12. How do we manage packages in a NodeJS project?",
+    "answer": "Modulesare the blocks of reusable code consisting of Javascript functions and objects which communicate with external applications based on functionality. Apackageis often confused with modules, but it is simply a collection of modules (libraries).",
+    "source": "https://www.geeksforgeeks.org/backend-developer-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is MERN Stack?",
+    "answer": "MERN Stackis a JavaScript Stack that is used for easier and faster deployment of full-stack web applications. MERN Stack comprises of 4 technologies namely: MongoDB, Express, React and NodeJS. It is designed to make the development process smoother and easier.",
+    "source": "https://www.geeksforgeeks.org/html/full-stack-developer-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How MERN Stack Works?",
+    "answer": "The MERN stack is a popular JavaScript-based web development framework for building modern web applications. It consists of four key technologies working together:",
+    "source": "https://www.geeksforgeeks.org/html/full-stack-developer-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is DNS?",
+    "answer": "DNS is ahierarchical and distributed naming systemthat translates domain names into IP addresses. When you type a domain name likewww.geeksforgeeks.orginto your browser, DNS ensures that the request reaches the correct server by resolving the domain to its correspondingIP address.",
+    "source": "https://www.geeksforgeeks.org/html/full-stack-developer-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is the difference between HTTP and HTTPS?",
+    "answer": "CORS refers to cross-origin resource sharing. It's a browser mechanism that allows web pages in one domain to have controlled access to resources in other domains (cross-domain requests). This allows scripts that are run on a browser client to interact with and access resources from other origins. In doing so, it extends and provides greater flexibility to the SOP (Same-Origin Policy). Same-origin policies restrict the ability of a website to access resources outside of its source domain. For example, a JavaScript app that wants to make a call to an API (Application Programming Interface) that runs on another domain will be blocked due to the SOP. A CORS policy was implemented to circumvent restrictions caused by same-origin policies.",
+    "source": "https://www.geeksforgeeks.org/html/full-stack-developer-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6.What is the difference between previous version of HTML and HTML 5?",
+    "answer": "Theclient-sideandserver-siderefer to two distinct parts of aweb applicationthat work together to deliver functionality to users. Understanding their roles is essential for building efficient and responsive applications.",
+    "source": "https://www.geeksforgeeks.org/html/full-stack-developer-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. Explain the difference between client-side and server-side programming?",
+    "answer": "Theclient-sideandserver-siderefer to two distinct parts of aweb applicationthat work together to deliver functionality to users. Understanding their roles is essential for building efficient and responsive applications.",
+    "source": "https://www.geeksforgeeks.org/html/full-stack-developer-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What do you mean by CORS (Cross-Origin Resource Sharing)?",
+    "answer": "CORS refers to cross-origin resource sharing. It's a browser mechanism that allows web pages in one domain to have controlled access to resources in other domains (cross-domain requests). This allows scripts that are run on a browser client to interact with and access resources from other origins. In doing so, it extends and provides greater flexibility to the SOP (Same-Origin Policy). Same-origin policies restrict the ability of a website to access resources outside of its source domain. For example, a JavaScript app that wants to make a call to an API (Application Programming Interface) that runs on another domain will be blocked due to the SOP. A CORS policy was implemented to circumvent restrictions caused by same-origin policies.",
+    "source": "https://www.geeksforgeeks.org/html/full-stack-developer-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "11. What is Promise and explain its states?",
+    "answer": "Callback functions are functions that can be passed to another function as arguments and executed there to complete a routine or action. Those functions depend on one another, so it could get quite messy with so many callback functions nested in so many layers. This is what is referred to as callback hell.",
+    "source": "https://www.geeksforgeeks.org/html/full-stack-developer-interview-questions-and-answers/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Who is a Blockchain Developer?",
+    "answer": "Blockchain Developersare those tech professionals who work on Blockchain technology and are responsible for the respective tasks, such asdesigning Blockchain protocols,building smart contracts, etc. Meanwhile, Blockchain technology is concerned with a distributed database that maintains the records of each & every transaction that has been executed across the network of computer systems around the globe. Furthermore,Blockchain Developers can be majorly classified into two types -Blockchain Software Developer and Core Blockchain Developer.Let's take a look at theroles & responsibilitiesof both the profiles:",
+    "source": "https://www.geeksforgeeks.org/how-to-become-a-blockchain-developer/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How to make a successful & worthwhile career as a Blockchain Developer?",
+    "answer": "First and foremost, you're recommended tohave an academic backgroundinComputer Science / Information Technologyfield. You can opt to earn aBachelor’s or Master’s degreein a particular stream. However, it is not compulsory to have any specific academic background for becoming a Blockchain Developer but it willhelp you to understand the fundamentalsand will lay your foundation to learn the Blockchain Technology effectively. Apart from the degree programs, you can opt for several recommendedtraining programs, etc. to get more exposure in the particular technology. Furthermore, almost every IT giant demands these educational qualifications as prerequisites hence it'll help you to get some ravishing career opportunities as well.",
+    "source": "https://www.geeksforgeeks.org/how-to-become-a-blockchain-developer/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How Blockchain Technology is Revolutionizing Industries?",
+    "answer": "So, this acomplete roadmapthat you must need to follow to become a successful Blockchain Developer. However, the career path of becoming a Blockchain Professional is not so easy and requires a lot ofdedication, hard work & consistencyfrom your side. But, considering the rapid growth of Blockchain Technology, thecareer scope of Blockchain Developers seems to be very ravishing and bright. Now, what are you waiting for? Prepare yourself to get into theBlockchain Developmentdomain and achieve your career goals!!",
+    "source": "https://www.geeksforgeeks.org/how-to-become-a-blockchain-developer/",
+    "role": "Blockchain Developer",
+    "skill": "TypeScript",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Why are React JS Skills in High Demand?",
+    "answer": "The popularity of React JS skills can be attributed to the numerous features and benefits the library serves. Its flexibility, scalability, and ease of creating dynamic user interfaces increase its applications among the companies, thus enhancing the skilled personnel requirements. React JS offers advantages such as virtual DOM for rendering, component-based architecture, an easy learning curve and broad community support. Further, the library provides fast rendering, code reusability and maintainability, a rich ecosystem and SEO-friendly development. Also, its usage is witnessed in well-known software such as Facebook, Netflix and Discord.",
+    "source": "https://www.simplilearn.com/tutorials/reactjs-tutorial/reactjs-interview-questions",
+    "role": "Blockchain Developer",
+    "skill": "React",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What are the features of React?",
+    "answer": "JSX: JSX is a syntax extension to JavaScript. It is used with React to describe the user interface's appearance. Using JSX, we can write HTML structures in the same file that contains JavaScript code.",
+    "source": "https://www.simplilearn.com/tutorials/reactjs-tutorial/reactjs-interview-questions",
+    "role": "Blockchain Developer",
+    "skill": "React",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What is JSX?",
+    "answer": "JSX is a syntax extension of JavaScript. It is used with React to describe the user interface's appearance. Using JSX, we can write HTML structures in the same file that contains JavaScript code.",
+    "source": "https://www.simplilearn.com/tutorials/reactjs-tutorial/reactjs-interview-questions",
+    "role": "Blockchain Developer",
+    "skill": "React",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. Can web browsers read JSX directly?",
+    "answer": "Web browsers cannot read JSX directly. They are built only to read regular JS objects, and JSX is not a regularJavaScript object.Â",
+    "source": "https://www.simplilearn.com/tutorials/reactjs-tutorial/reactjs-interview-questions",
+    "role": "Blockchain Developer",
+    "skill": "React",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is the virtual DOM?",
+    "answer": "DOM stands for Document Object Model. It represents an HTML document with a logical tree structure. Each branch of the tree ends in a node, which contains objects.",
+    "source": "https://www.simplilearn.com/tutorials/reactjs-tutorial/reactjs-interview-questions",
+    "role": "Blockchain Developer",
+    "skill": "React",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. Why use React instead of other frameworks, like Angular?",
+    "answer": "Easy creation of dynamic applications: React makes it easier to create dynamic web applications because it requires less coding and more functionality, whereas code tends to get complex very quickly with JavaScript applications.",
+    "source": "https://www.simplilearn.com/tutorials/reactjs-tutorial/reactjs-interview-questions",
+    "role": "Blockchain Developer",
+    "skill": "React",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is the difference between the ES6 and ES5 standards?",
+    "answer": "These are the few instances where ES6 syntax has changed from ES5 syntax:",
+    "source": "https://www.simplilearn.com/tutorials/reactjs-tutorial/reactjs-interview-questions",
+    "role": "Blockchain Developer",
+    "skill": "React",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. How do you create a React app?",
+    "answer": "These are the steps for creating a React app:",
+    "source": "https://www.simplilearn.com/tutorials/reactjs-tutorial/reactjs-interview-questions",
+    "role": "Blockchain Developer",
+    "skill": "React",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Express.js, and how does it relate to Node.js?",
+    "answer": "Express.js is a minimal and flexible web application framework for Node.js. It simplifies the building of web applications and APIs by providing tools for routing, middleware, and handling HTTP requests and responses.",
+    "source": "https://www.simplilearn.com/express-js-interview-questions-article",
+    "role": "Blockchain Developer",
+    "skill": "Node.js",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What are the core features of Express.js?",
+    "answer": "Key features of Express.js include routing, middleware support, template engine integration, built-in support for JSON, and extensibility.",
+    "source": "https://www.simplilearn.com/express-js-interview-questions-article",
+    "role": "Blockchain Developer",
+    "skill": "Node.js",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. How do you create a basic Express.js application?",
+    "answer": "Initialize a Node.js project, install Express.js using npm, create the Express app, and run the application.",
+    "source": "https://www.simplilearn.com/express-js-interview-questions-article",
+    "role": "Blockchain Developer",
+    "skill": "Node.js",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What is the purpose of middleware in Express.js?",
+    "answer": "Middleware in Express.js processes incoming requests before they reach the route handler. It can perform tasks like logging, authentication, or modifying the request/response objects.",
+    "source": "https://www.simplilearn.com/express-js-interview-questions-article",
+    "role": "Blockchain Developer",
+    "skill": "Node.js",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. How does Express.js handle routing?",
+    "answer": "Express.js utilizes HTTP method-based routing (e.g., GET, POST, PUT, etc.). Routes are defined with paths and handlers for requests.",
+    "source": "https://www.simplilearn.com/express-js-interview-questions-article",
+    "role": "Blockchain Developer",
+    "skill": "Node.js",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What is middleware in Express.js, and how is it used?",
+    "answer": "Middleware in Express.js are functions that execute during the request-response cycle. They can modify the request/response, perform operations like authentication, and call next() to pass control to the next middleware.",
+    "source": "https://www.simplilearn.com/express-js-interview-questions-article",
+    "role": "Blockchain Developer",
+    "skill": "Node.js",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What is routing middleware?",
+    "answer": "Routing middleware handles the logic for specific routes, applying middleware functions before route handlers. It can be used globally or on particular routes.",
+    "source": "https://www.simplilearn.com/express-js-interview-questions-article",
+    "role": "Blockchain Developer",
+    "skill": "Node.js",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. How do you handle URL parameters in Express.js?",
+    "answer": "URL parameters in Express.js can be accessed via req.params.",
+    "source": "https://www.simplilearn.com/express-js-interview-questions-article",
+    "role": "Blockchain Developer",
+    "skill": "Node.js",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Hardhat?",
+    "answer": "Hardhat simplifies the complexities ofEthereum smart contractdevelopment, emerging as an invaluable tool for both seasoned developers and newcomers to the blockchain landscape. Here's a breakdown of what Hardhat offers:",
+    "source": "https://www.geeksforgeeks.org/solidity/what-is-hardhat/",
+    "role": "Blockchain Developer",
+    "skill": "Hardhat",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is the Hardhat Runner?",
+    "answer": "The Hardhat Runner is the command-line interface (CLI) that acts as the control center for your development workflow.  It's a powerful task runner that streamlines repetitive tasks like compiling, testing, deploying, and debugging your smart contracts.",
+    "source": "https://www.geeksforgeeks.org/solidity/what-is-hardhat/",
+    "role": "Blockchain Developer",
+    "skill": "Hardhat",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is the Hardhat Network?",
+    "answer": "The Hardhat Network stands as a cornerstone of the Hardhat development environment. It's a local Ethereum network, specifically designed to provide developers with a secure and isolated playground for testing their smart contracts. Here's a closer look at its functionalities:",
+    "source": "https://www.geeksforgeeks.org/solidity/what-is-hardhat/",
+    "role": "Blockchain Developer",
+    "skill": "Hardhat",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What are Solidity Stack Traces?",
+    "answer": "Imagine a detailed roadmap of your smart contract's execution. A Solidity Stack Trace serves as that roadmap, pinpointing the exact sequence of function calls that led to an error. This information is invaluable for identifying the root cause of issues in complex contracts with multiple interactions.",
+    "source": "https://www.geeksforgeeks.org/solidity/what-is-hardhat/",
+    "role": "Blockchain Developer",
+    "skill": "Hardhat",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How to Install Hardhat?",
+    "answer": "Hardhat is a popular development environment that simplifies the process of building, testing, deploying, and debugging Ethereum smart contracts. It provides a local development network, compilation tools, and testing frameworks to streamline your workflow. Here's a step-by-step guide on installing Hardhat:",
+    "source": "https://www.geeksforgeeks.org/solidity/what-is-hardhat/",
+    "role": "Blockchain Developer",
+    "skill": "Hardhat",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How to Use Hardhat?",
+    "answer": "Here's a breakdown of how to use Hardhat for smart contract development, incorporating the key points from the provided content:",
+    "source": "https://www.geeksforgeeks.org/solidity/what-is-hardhat/",
+    "role": "Blockchain Developer",
+    "skill": "Hardhat",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How Hardhat Utilizes Stack Traces?",
+    "answer": "While established development environments like Truffle exist, Hardhat carves its niche by offering a distinct set of advantages:",
+    "source": "https://www.geeksforgeeks.org/solidity/what-is-hardhat/",
+    "role": "Blockchain Developer",
+    "skill": "Hardhat",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Why Do Developers Need Hardhat and Truffle?",
+    "answer": "They are both development frameworks but unlike typical programming languages, Hardhat and Truffle offer a refined structure tosmart contractcoding. They are delivered with default settings and then basic structures to enable developers to begin with the project and not have to begin configuring the interface from the ground.",
+    "source": "https://www.geeksforgeeks.org/solidity/hardhat-vs-truffle-frameworks-for-developing-dapps/",
+    "role": "Blockchain Developer",
+    "skill": "Hardhat",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Hardhat?",
+    "answer": "Hardhat is a tool used when developing Ethereum software and it is an environment. It offers a complete set of features that allows developers to orchestrate and support the activities involved in the creation of smart contracts and dApps. It is designed to optimize the process of writing, testing, and deploying smart contracts, therefore making it an essential tool for blockchain engineers.",
+    "source": "https://www.geeksforgeeks.org/solidity/hardhat-vs-truffle-frameworks-for-developing-dapps/",
+    "role": "Blockchain Developer",
+    "skill": "Hardhat",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Truffle?",
+    "answer": "Truffle is a well-known tool for creating Ethereum-based applications, which is used to develop and manage decentralized applications. This gives a solution that contains the complete sets of tools that allow the simplification of the creation, debugging and implementation of smart contracts on the ETH platform. According to Truffle, they seek to enhance the productivity of the blockchain developers, providing an efficient platform to support the whole process of app designing.",
+    "source": "https://www.geeksforgeeks.org/solidity/hardhat-vs-truffle-frameworks-for-developing-dapps/",
+    "role": "Blockchain Developer",
+    "skill": "Hardhat",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "{!currentAccount ? (",
+    "answer": "style={{ backgroundColor: '#007bff', color: 'white', border: 'none', padding: '10px 20px', fontSize: '16px', cursor: 'pointer', marginBottom: '20px' }}",
+    "source": "https://www.geeksforgeeks.org/solidity/integrating-your-smart-contract-with-frontend/",
+    "role": "Blockchain Developer",
+    "skill": "Hardhat",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How to Perform Unit Tests on Smart Contracts?",
+    "answer": "Unit Testing is the most crucial testing method to be carried out of every other testing method; There are many frameworks, tools, and libraries that help you in testing your application one of which is Hardhat. Hardhat helps in compiling and testing smart contracts at the very core. And also has its own built-in Hardhat Network (Local Ethereum Network design for development purposes). It also allows you to deploy contracts, run tests, and debugging of code.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/how-to-test-a-smart-contract-for-ethereum/",
+    "role": "Blockchain Developer",
+    "skill": "Hardhat",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How To Get the API Key from Alchemy?",
+    "answer": "1. Visit the Alchemy website -  https://www.alchemy.com/",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/how-to-test-a-smart-contract-for-ethereum/",
+    "role": "Blockchain Developer",
+    "skill": "Hardhat",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )",
+    "answer": "// Set default mocha options here, use special reporters etc.",
+    "source": "https://www.geeksforgeeks.org/solidity/deploying-smart-contract-on-test-main-network-using-truffle/",
+    "role": "Blockchain Developer",
+    "skill": "Truffle",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How to use GANACHE Truffle Suite to Deploy a Smart Contract in Solidity (Blockchain)?",
+    "answer": "There are various processes involved in deploying a smart contract using Ganache and Truffle Suite:",
+    "source": "https://www.geeksforgeeks.org/solidity/how-to-use-ganache-truffle-suite-to-deploy-a-smart-contract-in-solidity-blockchain/",
+    "role": "Blockchain Developer",
+    "skill": "Truffle",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How to use MetaMask to Deploy a Smart contract in Solidity (Blockchain)?",
+    "answer": "Smart contracts are self-executing contracts. They were first proposed by Nick Szabo in the 90s. They are set of rules and protocols which two parties agree upon and have to follow. One of the main features is that they are immutable once deployed on the blockchain. It is widely used in the Ethereum blockchain. The main language used for writing smart contracts in Solidity.",
+    "source": "https://www.geeksforgeeks.org/solidity/how-to-use-metamask-to-deploy-a-smart-contract-in-solidity-blockchain/",
+    "role": "Blockchain Developer",
+    "skill": "MetaMask",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "element={email ? <Home /> : <Navigate to=\"/\" />}",
+    "answer": "Step 3.2: Create the “Screens” folder and Create files \"Signin.js\", \"Signup.js\", \"Home.js\".",
+    "source": "https://www.geeksforgeeks.org/solidity/build-a-authentication-using-blockchain/",
+    "role": "Blockchain Developer",
+    "skill": "MetaMask",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "var mailformat = /^\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*(\\.\\w{2,3})+$/;",
+    "answer": "alert(\"please enter valid email address\");",
+    "source": "https://www.geeksforgeeks.org/solidity/build-a-authentication-using-blockchain/",
+    "role": "Blockchain Developer",
+    "skill": "MetaMask",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Confused about your next job?",
+    "answer": "Best Blockchain Projects for Beginners",
+    "source": "https://www.interviewbit.com/blog/blockchain-projects/",
+    "role": "Blockchain Developer",
+    "skill": "MetaMask",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q.1. What are examples of Blockchains?",
+    "answer": "Blockchain is a technology and the applications that use blockchain are Bitcoin, Solana, followmyvote, Indorse, and so on.",
+    "source": "https://www.interviewbit.com/blog/blockchain-projects/",
+    "role": "Blockchain Developer",
+    "skill": "MetaMask",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q.3. What is the salary of a Blockchain developer?",
+    "answer": "Thesalary of a blockchain developerin India ranges from Rs 5,00,000 to Rs 30,00,000 per annum. The average annual salary of a blockchain developer is Rs 8,01,938.",
+    "source": "https://www.interviewbit.com/blog/blockchain-projects/",
+    "role": "Blockchain Developer",
+    "skill": "MetaMask",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How To Fix the Error \"Metamask stopped injecting Web3\"?",
+    "answer": "Let's see some basic terminologies first as follows:",
+    "source": "https://www.geeksforgeeks.org/node-js/how-to-fix-the-error-metamask-stopped-injecting-web3/",
+    "role": "Blockchain Developer",
+    "skill": "MetaMask",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Who is using IPFS?",
+    "answer": "Those who want more security, trust and tracking of all the changes done to the data stored over a period of time on IPFS. Some of them include:",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/how-to-share-file-in-ipfs-blockchain/",
+    "role": "Blockchain Developer",
+    "skill": "IPFS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is IPFS?",
+    "answer": "The IPFS protocol not only helps us to store or share files, but it also helps us to track new modifications or versions done on a file over a distributed network, just like on open source platforms. In IPFS, if a person's system is connected to a network or is an IPFS node, then any changes or edits to the file done by one node are seen by all other nodes because every file has its own unique hash, just like blockchain, so it also provides transparency to the data.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/how-to-share-file-in-ipfs-blockchain/",
+    "role": "Blockchain Developer",
+    "skill": "IPFS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Hashing System in IPFS?",
+    "answer": "Unlike the traditional system of data transfer over the internet, which uses many centralized protocols (ex. HTTP or HTTPS), whose job is to send requests for accessing a client's data to a server and then retrieve data from the server for the client, IPFS uses theContent Addressing systemrather than the Location Addressing system (used in HTTPS).",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/how-to-share-file-in-ipfs-blockchain/",
+    "role": "Blockchain Developer",
+    "skill": "IPFS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Decentralized Data Management?",
+    "answer": "Decentralized Data Management is a model in which data is stored, processed, and managed across multiple nodes, distributed geographically, without a central server or authority controlling all data flows.",
+    "source": "https://www.geeksforgeeks.org/system-design/decentralized-data-management-system-design/",
+    "role": "Blockchain Developer",
+    "skill": "IPFS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What are Distributed Systems?",
+    "answer": "Adistributed systemis an integration of several computational systems operating independently but sharing a common objective of solving a problem through message passing. Even though all the components can be geographically dispersed, these systems look to users as a single consistent system. Distributed systems are implemented to facilitate resource sharing, for instance, computation capabilities, storage media and/or communication capacity; and also to improve dependability,scalabilityand/or velocity.",
+    "source": "https://www.geeksforgeeks.org/system-design/decentralized-architecture-in-distributed-system/",
+    "role": "Blockchain Developer",
+    "skill": "IPFS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Decentralized Architecture?",
+    "answer": "Decentralized architecturemeans a conceptual design of a system’s components as elements that are mutually integrated and act according to the general principles of a system without a specific coordinative center.",
+    "source": "https://www.geeksforgeeks.org/system-design/decentralized-architecture-in-distributed-system/",
+    "role": "Blockchain Developer",
+    "skill": "IPFS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What are Distributed Systems?",
+    "answer": "Distributed systemsrefer to a network of independent computers that work together to achieve a common goal. Rather than relying on a single central computer, tasks and data are distributed across multiple machines, which communicate and coordinate with each other. Here are some key concepts:",
+    "source": "https://www.geeksforgeeks.org/system-design/distributed-vs-decentralized-systems/",
+    "role": "Blockchain Developer",
+    "skill": "IPFS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Decentralized Systems?",
+    "answer": "Decentralized systems operate without a central authority or control. Instead, they distribute decision-making and operations across a network of nodes, ensuring that no single entity has complete control. Here are the key concepts:",
+    "source": "https://www.geeksforgeeks.org/system-design/distributed-vs-decentralized-systems/",
+    "role": "Blockchain Developer",
+    "skill": "IPFS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Web 3.0?",
+    "answer": "Web 3.0, often called the decentralized web, is the next phase of Internet evolution. Unlike Web 2.0, where centralized platforms like Google, Facebook, and Amazon control vast amounts of data and digital interactions, Web 3.0 aims to redistribute control to the users themselves.",
+    "source": "https://www.geeksforgeeks.org/blogs/role-of-blockchain-in-web30/",
+    "role": "Blockchain Developer",
+    "skill": "IPFS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Blockchain?",
+    "answer": "At the heart of Web 3.0 lies blockchain technology. Blockchain is a distributed ledger technology that records transactions across a network of computers in a way that ensures security, transparency, and immutability. This distributed nature makes it highly resistant to data modification, hacking, or fraud.",
+    "source": "https://www.geeksforgeeks.org/blogs/role-of-blockchain-in-web30/",
+    "role": "Blockchain Developer",
+    "skill": "IPFS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is the Full Form of DApp?",
+    "answer": "The Full Form of DApp is a Decentralized Application. DApps run on a peer-to-peer network, it does not support Centralized control and enhance security and transparency. All the applications where control is not centralized come under Decentralized applications.",
+    "source": "https://www.geeksforgeeks.org/computer-networks/dapp-development/",
+    "role": "Blockchain Developer",
+    "skill": "IPFS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is DApp Development?",
+    "answer": "DApp development involves blockchain technology with smart contracts. When we build a DApp, we have to work on the front-end part and the back-end part.",
+    "source": "https://www.geeksforgeeks.org/computer-networks/dapp-development/",
+    "role": "Blockchain Developer",
+    "skill": "IPFS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What Programming Language is Used for DApp?",
+    "answer": "Different types of programming languages are used for DApps. The choice depends on various factors, such as the blockchain platform utilized and the developer's expertise. Developers choose programming languages based on the specific requirements for the DApp.",
+    "source": "https://www.geeksforgeeks.org/computer-networks/dapp-development/",
+    "role": "Blockchain Developer",
+    "skill": "IPFS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why Should You Learn About DApp Development?",
+    "answer": "In this new technological era, most apps are being built in a decentralized form because it is safe, secure, and transparent. Nowadays, it is a required skill for removing the need for central authorities.",
+    "source": "https://www.geeksforgeeks.org/computer-networks/dapp-development/",
+    "role": "Blockchain Developer",
+    "skill": "IPFS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What Are the Important Components in DApp Development?",
+    "answer": "Smart contracts automate processes and enhance security. These contracts make apps faster and ensure transparency and reliability in decentralized applications. We use smart contracts in the back-end part of DApps, which removes intermediaries and ensures integrity.",
+    "source": "https://www.geeksforgeeks.org/computer-networks/dapp-development/",
+    "role": "Blockchain Developer",
+    "skill": "IPFS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Which Blockchain is Best for DApp?",
+    "answer": "There are many popular Blockchain used for DApp Development. Each blockchain has it's own advantages. We usually select blockchain according to the problems and need. Some popular blockchain are written below.",
+    "source": "https://www.geeksforgeeks.org/computer-networks/dapp-development/",
+    "role": "Blockchain Developer",
+    "skill": "IPFS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What are Decentralized Apps (dApps)?",
+    "answer": "Decentralized applications or dAppsare distributed, decentralized open-source software applications that run on a decentralized peer-to-peer network. Imagine the Twitter application that you have on your phone. You can post anything you want on Twitter but ultimately it's controlled by a single company that can delete your tweets if they violate community guidelines or some other reason. But if there was a Twitter-type dApp, then it would be decentralized and not owned by any one person. If you posted something there, nobody would be able to delete it including its creators.",
+    "source": "https://www.geeksforgeeks.org/blogs/what-are-decentralized-apps-dapps-in-blockchain/",
+    "role": "Blockchain Developer",
+    "skill": "IPFS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How Do dApps Work?",
+    "answer": "A dApp has a backend code running on adecentralizedpeer-to-peer network. It can also have a frontend code and a user interface that can be written in any language just as it is done for normal applications. The front end can be hosted on any decentralized server like IPFS. dApps work in a manner similar to normal applications except for the few differences that are discussed below:",
+    "source": "https://www.geeksforgeeks.org/blogs/what-are-decentralized-apps-dapps-in-blockchain/",
+    "role": "Blockchain Developer",
+    "skill": "IPFS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is a Blockchain?",
+    "answer": "A blockchain is a digital ledger of all cryptocurrency transactions across all peer-to-peer networks. This technology is different from traditional transactional methods, which are centralized and controlled by certain governments and groups. This blockchain is decentralized, which means that it is not subject to the control of any single entity or group.",
+    "source": "https://www.simplilearn.com/tutorials/blockchain-tutorial/how-to-become-a-blockchain-developer",
+    "role": "Blockchain Developer",
+    "skill": "DeFi",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Blockchain Development?",
+    "answer": "Blockchain development is the process of developing and maintaining a blockchain platform. This involves creating the infrastructure for creating and managing blockchain-based applications and services, such as digital currencies, smart contracts, and distributed applications. It also involves developing the tools and technologies needed to support the platform.",
+    "source": "https://www.simplilearn.com/tutorials/blockchain-tutorial/how-to-become-a-blockchain-developer",
+    "role": "Blockchain Developer",
+    "skill": "DeFi",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What Does a Blockchain Developer Do?",
+    "answer": "A blockchain developer develops decentralized applications (dApps) and smart contracts based on blockchain technology and understands the technology's architecture and protocols. They are also responsible for developing 3D models, designs, and content, such as that used in games.",
+    "source": "https://www.simplilearn.com/tutorials/blockchain-tutorial/how-to-become-a-blockchain-developer",
+    "role": "Blockchain Developer",
+    "skill": "DeFi",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How Does One Become a Blockchain Developer?",
+    "answer": "Professional Certificate Program In BlockchainMaster the Architectural Principles of BlockchainEnroll Now",
+    "source": "https://www.simplilearn.com/tutorials/blockchain-tutorial/how-to-become-a-blockchain-developer",
+    "role": "Blockchain Developer",
+    "skill": "DeFi",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What are the Benefits of Becoming a Blockchain Developer?",
+    "answer": "Becoming a blockchain developer can provide several potent benefits.",
+    "source": "https://www.simplilearn.com/tutorials/blockchain-tutorial/how-to-become-a-blockchain-developer",
+    "role": "Blockchain Developer",
+    "skill": "DeFi",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Did You Know? ðµï¸",
+    "answer": "There are several popular blockchain programming languages, like,",
+    "source": "https://www.simplilearn.com/tutorials/blockchain-tutorial/how-to-become-a-blockchain-developer",
+    "role": "Blockchain Developer",
+    "skill": "DeFi",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Did You Know? ð",
+    "answer": "Globally, the blockchain technology market will likely grow from $17.57 billion in 2023 to$469.49 billionby 2030.",
+    "source": "https://www.simplilearn.com/tutorials/blockchain-tutorial/how-to-become-a-blockchain-developer",
+    "role": "Blockchain Developer",
+    "skill": "DeFi",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What Kind of Mindset Do You Need to Become a Blockchain Developer?",
+    "answer": "Before we discuss the two different types of people aspiring to become Blockchain developers, it may help to familiarize ourselves with the mindsets best suited for them. After all, the unique challenges of Blockchain development require a certain unique way of thinking.",
+    "source": "https://www.simplilearn.com/tutorials/blockchain-tutorial/how-to-become-a-blockchain-developer",
+    "role": "Blockchain Developer",
+    "skill": "DeFi",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is DeFi DApps?",
+    "answer": "Decentralized finance (DeFi) acts as a revolutionizing technology that replaces traditional financial systems with automated finance infrastructure that does not involve any intermediary or central authority.Decentralized applications(DApps) in the context of DeFi serve the purpose of permissionless, trustless, transparent, and immutable blockchain infrastructure to manage financial operations.",
+    "source": "https://www.geeksforgeeks.org/blogs/top-challenges-faced-by-defi-dapp-solutions/",
+    "role": "Blockchain Developer",
+    "skill": "DeFi",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What Is DAO?: A Brief Introduction to a New Era of Technology",
+    "answer": "If you're at all interested in the future of money, then you need to learn about blockchain. Blockchain is a digital ledger that is growing in popularity as a way to track the ownership of intellectual property (IP). Contrary to conventional databases, which are centralized, blockchain is decentralized, meaning it is not in the control of a single entity. This makes it a powerful tool for tracking the movement of goods and money, as well as ensuring that intellectual property is protected.Â",
+    "source": "https://www.simplilearn.com/tutorials/blockchain-tutorial",
+    "role": "Blockchain Developer",
+    "skill": "DeFi",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Lesson 1:What Is Blockchain Technology?Â",
+    "answer": "Blockchain technology is a new way of handling digital transactions that have started to gain traction in recent years. It works by creating an unalterable record of all the transactions that have ever taken place on a network called a blockchain. This means that no one can tamper with or edit the records without being detected and punished.",
+    "source": "https://www.simplilearn.com/tutorials/blockchain-tutorial",
+    "role": "Blockchain Developer",
+    "skill": "DeFi",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Lesson 3:Why Blockchain Is Important?",
+    "answer": "Blockchain is a distributed digital ledger of all cryptocurrency transactions. This technology has the potential to change the way we do business and could even have far-reaching implications for society as a whole. Here are four reasons why blockchain is so important:",
+    "source": "https://www.simplilearn.com/tutorials/blockchain-tutorial",
+    "role": "Blockchain Developer",
+    "skill": "DeFi",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Lesson 4:What Is Cryptocurrency?",
+    "answer": "Cryptocurrency is a digital or virtual currency that uses cryptography to encrypt its transactions and regulate the creation of new units. They are often traded on decentralized exchanges and can also be used to purchase goods and services.Â",
+    "source": "https://www.simplilearn.com/tutorials/blockchain-tutorial",
+    "role": "Blockchain Developer",
+    "skill": "DeFi",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Lesson 5:What Is A Blockchain Wallet?",
+    "answer": "A blockchain wallet is a digital wallet that allows you to store, send, and receive cryptocurrencies like bitcoin and Ethereum. Blockchain wallets are similar to traditional bank accounts in that they allow users to easily transfer funds between their various accounts. But where banks rely on centralized systems to hold customers' money, blockchain wallets use decentralized technology to manage transactions.",
+    "source": "https://www.simplilearn.com/tutorials/blockchain-tutorial",
+    "role": "Blockchain Developer",
+    "skill": "DeFi",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Lesson 6:What Is Ethereum?Â",
+    "answer": "Ethereum is a decentralized platform that runs smart contracts: applications that run exactly as programmed without any possibility of fraud or third-party interference. It's this unique feature that makes Ethereum especially appealing to developers and entrepreneurs, who can use it to build apps on top of it with no risk of censorship or theft.",
+    "source": "https://www.simplilearn.com/tutorials/blockchain-tutorial",
+    "role": "Blockchain Developer",
+    "skill": "DeFi",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Lesson 7:Bitcoin vs Ethereum: Which One is Better?",
+    "answer": "Bitcoin is a decentralized digital currency that can be sent from user to user on the peer-to-peer bitcoin network without the need for intermediaries. Transactions are verified by network nodes through cryptography and recorded in a public dispersed ledger called a blockchain.Â",
+    "source": "https://www.simplilearn.com/tutorials/blockchain-tutorial",
+    "role": "Blockchain Developer",
+    "skill": "DeFi",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Lesson 8:What Is Ethereum Mining?",
+    "answer": "Ethereum Mining is the process of using your computer to help power the Ethereum network and reward participants for their contributions. Every time a user sends a transaction on the Ethereum network, they are rewarded with Ether (ETH). This helps keep the network running and protected from malicious attacks.",
+    "source": "https://www.simplilearn.com/tutorials/blockchain-tutorial",
+    "role": "Blockchain Developer",
+    "skill": "DeFi",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is DeFi?",
+    "answer": "A financial system based on a decentralized and permissionless blockchain network is known as \"Decentralized Finance,\" or \"DeFi.\" Decentralized applications (dApps) on a blockchain network enable people to access and provide financial services directly, in contrast to traditional financial systems that depend on intermediaries like banks or other financial institutions to facilitate transactions and manage assets. With the use of cryptocurrencies and other digital assets as collateral or payment, DeFi platforms provide a broad range of financial services, such as lending, borrowing, trading, insurance, and more.",
+    "source": "https://www.geeksforgeeks.org/finance/decentralized-finance-defi-and-challenges-to-traditional-financial-system/",
+    "role": "Blockchain Developer",
+    "skill": "DeFi",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How Does DeFi Work?",
+    "answer": "Platforms for decentralized finance (DeFi) enable the development of decentralized applications by operating on a blockchain network, usually the Ethereum network. (dApps). Without the use of middlemen, DeFi platforms enable people to obtain and offer financial services directly through these dApps. The basic operation of DeFi is described as follows:",
+    "source": "https://www.geeksforgeeks.org/finance/decentralized-finance-defi-and-challenges-to-traditional-financial-system/",
+    "role": "Blockchain Developer",
+    "skill": "DeFi",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What are NFTs?",
+    "answer": "ANon-fungible Token (NFT)is a unit of data on a digital ledger that categorically represents ownership of a real or digital item, particularly in such assets as music, art, videogame items, and in-game purchases. They are mostly bought and sold online using cryptocurrency such asBitcoin.",
+    "source": "https://www.geeksforgeeks.org/blogs/what-is-a-nft-smart-contract/",
+    "role": "Blockchain Developer",
+    "skill": "NFTs",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What are Smart Contracts?",
+    "answer": "A smart contract is a computer program or transaction protocol, that can automatically execute, control, or document events and actions according to the terms of a contract or an agreement and it can also activate or deactivate NFTs at any time. Smart contracts use simple \"if/when…then…\" statements encoded in blockchain code. A network of computers executes the activities when preset circumstances are met and validated. For example, a gaming company may employblockchain technologyto integrate NFTs into a digital trading card game.",
+    "source": "https://www.geeksforgeeks.org/blogs/what-is-a-nft-smart-contract/",
+    "role": "Blockchain Developer",
+    "skill": "NFTs",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What are NFT smart contracts?",
+    "answer": "An NFT smart contract is an intelligent contract whose underlying code conducts a sale agreement and an independent right of ownership for non-fungible tokens.",
+    "source": "https://www.geeksforgeeks.org/blogs/what-is-a-nft-smart-contract/",
+    "role": "Blockchain Developer",
+    "skill": "NFTs",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How are NFTs and Smart Contracts Related to Each Other?",
+    "answer": "Smart contracts can also activate or deactivate NFTs. For example, a gaming company may employ blockchain technology to integrate NFTs into a digital trading card game. They might allow gamers to create decks using NFT trading cards and compete in online tournaments. The game makers may employ smart contracts to award the top players with limited-edition NFT trade cards.",
+    "source": "https://www.geeksforgeeks.org/blogs/what-is-a-nft-smart-contract/",
+    "role": "Blockchain Developer",
+    "skill": "NFTs",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Blockchain Technology?",
+    "answer": "Blockchain is a decentralized, distributed, and immutable digital ledger. Basically, blockchain is called a ledger as it is mostly used to store the details of transactions and a ledger is a record book of transactions of a particular organization.",
+    "source": "https://www.interviewbit.com/blog/blockchain-applications/",
+    "role": "Blockchain Developer",
+    "skill": "NFTs",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why is Blockchain Called Decentralized and Distributed?",
+    "answer": "The meaning of decentralized is quite simple. We will understand it with the help of an example and also see why the blockchain being decentralized is an advantage.",
+    "source": "https://www.interviewbit.com/blog/blockchain-applications/",
+    "role": "Blockchain Developer",
+    "skill": "NFTs",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Who is a Blockchain Developer?",
+    "answer": "A Blockchain Developer is a software developer who createssmart contractsand blockchain-enabled web applications, establishing and refining blockchain protocols, and building blockchain systems' architecture. They are in great demand for high-paying jobs at even traditional financial sector organizations.",
+    "source": "https://www.geeksforgeeks.org/blogs/a-day-in-the-life-of-a-blockchain-developer/",
+    "role": "Blockchain Developer",
+    "skill": "NFTs",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why Become a Blockchain Developer?",
+    "answer": "Here are some of the reasons why chose a career as a Blockchain Developer:",
+    "source": "https://www.geeksforgeeks.org/blogs/a-day-in-the-life-of-a-blockchain-developer/",
+    "role": "Blockchain Developer",
+    "skill": "NFTs",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How Often Do Blockchain Developers Update Their Backlogs?",
+    "answer": "In this article, we have learned about A Day in the Life of a Blockchain Developer. Blockchain Developer is a demanding and rewarding profession as every day is a new experience, from talking to individuals and digging into data to preparing ahead of time and working with a fantastic team. Throughout it all, however, Blockchain Developers are focused on one goal: making the best code the best it can be for its consumers.",
+    "source": "https://www.geeksforgeeks.org/blogs/a-day-in-the-life-of-a-blockchain-developer/",
+    "role": "Blockchain Developer",
+    "skill": "NFTs",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What Are NFTs?",
+    "answer": "NFTs are digital assets stored on blockchain technology, generally using Ethereum's network. Unlike cryptocurrencies similar to Bitcoin or Ether, which are commutable and can be changed on a one-to-one basis, NFTs are unique and can not be replicated. Each NFT has distinct metadata that defines its oneness, making it ideal for representing ownership of digital or physical assets like art, music, videos, virtual goods, and indeed real estate.",
+    "source": "https://www.geeksforgeeks.org/techtips/future-of-nftsnon-fungible-token/",
+    "role": "Blockchain Developer",
+    "skill": "NFTs",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Blockchain Technology?",
+    "answer": "Blockchainis an online ledger, that makes a secure public record of every transaction made. It uses a computer network, known as nodes, to maintain a growing list of records called blocks.",
+    "source": "https://www.geeksforgeeks.org/computer-networks/a-complete-guide-to-blockchain/",
+    "role": "Blockchain Developer",
+    "skill": "Gas Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What Is Blockchain Development?",
+    "answer": "The development of the blockchain relates to the creation of shared, unchangeable ledgers of recorded transactions and documented assets, both physical, such as money and real estate, as well as immaterial, such as copyrights, within a network. Thus, this technology offers information interchange in an easy, accurate, fast, and secure manner, which will prove to be valuable for many industries. A blockchain network can provide transparency for the delivery and storage of data, such as tracking orders and accounts, payments and production, and more.",
+    "source": "https://www.geeksforgeeks.org/computer-networks/a-complete-guide-to-blockchain/",
+    "role": "Blockchain Developer",
+    "skill": "Gas Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How does Blockchain Work?",
+    "answer": "Ablockchain transactioncan be broken down into following steps:",
+    "source": "https://www.geeksforgeeks.org/computer-networks/a-complete-guide-to-blockchain/",
+    "role": "Blockchain Developer",
+    "skill": "Gas Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How to Recognize When to Implement Blockchain Development?",
+    "answer": "Although blockchain has many advantages, it's important to remember that not every platform or company can profit from it. Asking the following important questions is usually a good idea before deciding if blockchain development is the correct fit for you:",
+    "source": "https://www.geeksforgeeks.org/computer-networks/a-complete-guide-to-blockchain/",
+    "role": "Blockchain Developer",
+    "skill": "Gas Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. Do you Require a Location to Keep Data?",
+    "answer": "Developing a blockchain solution requires a significant investment of time and study, and its success heavily relies on your unique business. But you'll need to adhere to a few essential stages for improvement regardless of your wants or goals.",
+    "source": "https://www.geeksforgeeks.org/computer-networks/a-complete-guide-to-blockchain/",
+    "role": "Blockchain Developer",
+    "skill": "Gas Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. Does Sharing and Updating of your Data Need to Happen Often?",
+    "answer": "Developing a blockchain solution requires a significant investment of time and study, and its success heavily relies on your unique business. But you'll need to adhere to a few essential stages for improvement regardless of your wants or goals.",
+    "source": "https://www.geeksforgeeks.org/computer-networks/a-complete-guide-to-blockchain/",
+    "role": "Blockchain Developer",
+    "skill": "Gas Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. Are Transactional Speeds Becoming Too Slow for Your Business?",
+    "answer": "Developing a blockchain solution requires a significant investment of time and study, and its success heavily relies on your unique business. But you'll need to adhere to a few essential stages for improvement regardless of your wants or goals.",
+    "source": "https://www.geeksforgeeks.org/computer-networks/a-complete-guide-to-blockchain/",
+    "role": "Blockchain Developer",
+    "skill": "Gas Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. Do you Require Permission from a Third Party?",
+    "answer": "Developing a blockchain solution requires a significant investment of time and study, and its success heavily relies on your unique business. But you'll need to adhere to a few essential stages for improvement regardless of your wants or goals.",
+    "source": "https://www.geeksforgeeks.org/computer-networks/a-complete-guide-to-blockchain/",
+    "role": "Blockchain Developer",
+    "skill": "Gas Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What do you mean by replication?",
+    "answer": "In replication, data is synchronized between two or more servers. This is a method of storing the same data on more than one site or server. This feature allows data to be accessed seamlessly even during server downtimes or heavy traffic. Users gain consistent access to data while not interfering with or slowing down those of other users.",
+    "source": "https://www.interviewbit.com/iot-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "Gas Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What do you mean by BLE (Bluetooth Low Energy)?",
+    "answer": "Beginners may see BLE (Bluetooth Low Energy) as a type of Bluetooth that uses less power, uses less energy. BLE, or Bluetooth Smart, is a relatively new form of Bluetooth technology that consumes much less power and costs than classic Bluetooth while offering a similar range of communication. As shown in the following diagram, BLE is not a replacement for Classic Bluetooth and they both serve a specific marketplace.",
+    "source": "https://www.interviewbit.com/iot-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "Gas Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are the different components of IoT?",
+    "answer": "IoT devices usually consist of four main components as follows:",
+    "source": "https://www.interviewbit.com/iot-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "Gas Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What are the advantages of IoT?",
+    "answer": "An IoT (Internet of Things) system is an advanced automation and analytics system that makes use of networking, big data, sensing, and Artificial Intelligence to provide a complete solution. It provides the following benefits:",
+    "source": "https://www.interviewbit.com/iot-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "Gas Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What are the challenges or risks associated with IoT?",
+    "answer": "The following are some security risks associated with IoT:",
+    "source": "https://www.interviewbit.com/iot-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "Gas Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What are different layers of the IoT protocol stack? Write the classification of IoT protocols.",
+    "answer": "Internet of Things (IoT) protocols are ways of protecting data and ensuring it is exchanged securely between devices via the Internet. IoT protocols define how data is transmitted across the internet. By doing so, they ensure that data being exchanged between connected IoT devices is secure.",
+    "source": "https://www.interviewbit.com/iot-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "Gas Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What are different communication models in IoT?",
+    "answer": "In general, the Internet of Things is about connecting devices to the Internet, but how they connect is not always obvious. IoT devices connect and communicate through their technical communication models. An effective communication model shows how the process works and helps one understand how communication can be done. The Internet of Things (IoT) enables people and things (devices) to be connected wherever they are, using any network or service they like.",
+    "source": "https://www.interviewbit.com/iot-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "Gas Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "12. What is a thermocouple sensor?",
+    "answer": "IoT technology has been a driving force behind the development of smart cities since their inception. IoT technology will continue to grow as more countries adopt next-generation connectivity, and it will have a greater impact on our lives.  Connected sensors, lights, and meters are some of the IoT devices in smart cities that collect and analyze data. As a result, cities use this data to improve infrastructure, utilities, and other city services.",
+    "source": "https://www.interviewbit.com/iot-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "Gas Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Hyperledger Besu  ?",
+    "answer": "Hyperledger Besu is a permissioned blockchain platform, meaning that access to the network is restricted to authorized participants, and the platform is designed for enterprise use cases where privacy and security are critical requirements.",
+    "source": "https://www.geeksforgeeks.org/computer-networks/hyperledger-besu-in-blockchain/",
+    "role": "Blockchain Developer",
+    "skill": "Gas Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is a Consensus Mechanism?",
+    "answer": "The consensus mechanism word is made up of two words: The consensuspart means to have a bunch of people agree and the consensus means the routine procedure to get there. A consensus mechanism is a procedure that will be used to make sure everyone agrees on something.",
+    "source": "https://www.geeksforgeeks.org/computer-networks/cryptographic-consensus-mechanisms-in-blockchain/",
+    "role": "Blockchain Developer",
+    "skill": "Gas Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How Does Consensus Mechanisms Work?",
+    "answer": "Here is an overview of the general process of consensus mechanisms:",
+    "source": "https://www.geeksforgeeks.org/computer-networks/cryptographic-consensus-mechanisms-in-blockchain/",
+    "role": "Blockchain Developer",
+    "skill": "Gas Optimization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is cybersecurity, and why is it important?",
+    "answer": "Cybersecurityprotects computer systems, networks, and data from theft, damage, or unauthorized access. It's important to safeguard sensitive information, maintain privacy, prevent financial losses, and protect critical infrastructure from cyber threats.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-interview-questions",
+    "role": "Blockchain Developer",
+    "skill": "Security Auditing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What is Phishing? Provide an example.",
+    "answer": "Phishing: A cyberattack in which malicious actors employ deceptive emails or messages to deceive individuals into disclosing sensitive information.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-interview-questions",
+    "role": "Blockchain Developer",
+    "skill": "Security Auditing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. How do firewalls protect network security?",
+    "answer": "Firewalls serve as protective barriers, overseeing and screening both inbound and outbound network traffic in accordance with established security regulations.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-interview-questions",
+    "role": "Blockchain Developer",
+    "skill": "Security Auditing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What is a VPN and why is it used?",
+    "answer": "A Virtual Private Network encrypts and secures internet connections, ensuring privacy and anonymity.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-interview-questions",
+    "role": "Blockchain Developer",
+    "skill": "Security Auditing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What are the common techniques for securing a computer network?",
+    "answer": "Techniques include using strong passwords, regular updates and patch management, implementing firewalls, using intrusion detection systems, and conducting security audits.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-interview-questions",
+    "role": "Blockchain Developer",
+    "skill": "Security Auditing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What is two-factor authentication, and why is it important?",
+    "answer": "Two-factor authentication enhances security by necessitating users to furnish two distinct forms of verification, typically a password and a temporary code, thereby bolstering protection.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-interview-questions",
+    "role": "Blockchain Developer",
+    "skill": "Security Auditing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "11. What is SSL encryption?",
+    "answer": "SSL(Secure Sockets Layer) encryption is a protocol that ensures secure data transmission between a user's web browser and a website server, protecting data during transit.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-interview-questions",
+    "role": "Blockchain Developer",
+    "skill": "Security Auditing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "12. What is the difference between IDS and IPS?",
+    "answer": "IDS (Intrusion Detection System): Monitors network traffic and generates alerts when suspicious activity is detected.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-interview-questions",
+    "role": "Blockchain Developer",
+    "skill": "Security Auditing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is ethical hacking?",
+    "answer": "Ethical hackingis the legal practice of probing computer structures to discover vulnerabilities, weaknesses, and potential threats. It enhances cybersecurity defenses and shields against malicious attacks.",
+    "source": "https://www.simplilearn.com/ethical-hacking-interview-questions-article",
+    "role": "Blockchain Developer",
+    "skill": "Security Auditing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. How does ethical hacking differ from malicious hacking?",
+    "answer": "Ethical hacking is performed to help businesses identify loopholes and fix them to protect sensitive data from being misused.Â",
+    "source": "https://www.simplilearn.com/ethical-hacking-interview-questions-article",
+    "role": "Blockchain Developer",
+    "skill": "Security Auditing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What are the types of ethical hackers?",
+    "answer": "The types of hackers are:",
+    "source": "https://www.simplilearn.com/ethical-hacking-interview-questions-article",
+    "role": "Blockchain Developer",
+    "skill": "Security Auditing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is a vulnerability?",
+    "answer": "A vulnerability is a flaw or loophole in a system or network that malicious hackers could exploit.Â",
+    "source": "https://www.simplilearn.com/ethical-hacking-interview-questions-article",
+    "role": "Blockchain Developer",
+    "skill": "Security Auditing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What are the five stages of ethical hacking?",
+    "answer": "The five stages of ethical hacking are:",
+    "source": "https://www.simplilearn.com/ethical-hacking-interview-questions-article",
+    "role": "Blockchain Developer",
+    "skill": "Security Auditing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What is a firewall?",
+    "answer": "Afirewallis a network security system that controls and monitors traffic in and out based on security rules.Â",
+    "source": "https://www.simplilearn.com/ethical-hacking-interview-questions-article",
+    "role": "Blockchain Developer",
+    "skill": "Security Auditing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What are the common tools used for ethical hacking?",
+    "answer": "Burp Suite for web application testing",
+    "source": "https://www.simplilearn.com/ethical-hacking-interview-questions-article",
+    "role": "Blockchain Developer",
+    "skill": "Security Auditing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "10. What is a honeypot?",
+    "answer": "It is a decoy system used as a trap to lure cyberattackers. It helps security professionals to study the tricks and tactics used by hackers.Â",
+    "source": "https://www.simplilearn.com/ethical-hacking-interview-questions-article",
+    "role": "Blockchain Developer",
+    "skill": "Security Auditing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Blockchain Security?",
+    "answer": "Security is managed in order to protect some vital information so that hackers or other unauthorized users do not get access to it. With the increasing dependency on Blockchain networks, Blockchain security has become a prime concern. Blockchain security is a risk management technique that aims to secure transactions and hence the whole blockchain network. It is usually implemented with the help ofcybersecurity, authorized services, and ethical users.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/what-is-blockchain-security/",
+    "role": "Blockchain Developer",
+    "skill": "Security Auditing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why Does Blockchain Require Security?",
+    "answer": "Blockchain is an immutable ledger with no involvement of third-party organization. It also uses cryptography to hide some details. So hackers find it almost impossible to tamper with the blocks. But there are some loopholes that allow the malicious users to perform malicious activities as blockchain networks are not immune to cyberattacks and fraud. Blockchain attacks are cyber attacks that can be done by outside malicious users as well as the users involved in the network.  Some of the attacks are as follows:",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/what-is-blockchain-security/",
+    "role": "Blockchain Developer",
+    "skill": "Security Auditing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How Do Fraudsters Attack Blockchain Technology?",
+    "answer": "Although Blockchain is highly decentralized and we all know that decentralized networks are more transparent and secured. Still, there are some loopholes that hackers take advantage of. Some of them are:",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/what-is-blockchain-security/",
+    "role": "Blockchain Developer",
+    "skill": "Security Auditing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. Why do you want to work in audit?Â",
+    "answer": "Sample Answer: âI am an honest and skilled individual. I am extremely focused and have a keen eye for detail. My overall goal is to always better an organization with my capabilities and do my best to help them reach its financial and/or commercial goals. I want to be a part of KPMG because itâs a firm that strives for excellence in all areas of business, from finances to IT. Itâs also a firm that values its employees as people first and foremost. These are the attributes that I value greatlyâ.",
+    "source": "https://www.simplilearn.com/kpmg-interview-questions-article",
+    "role": "Blockchain Developer",
+    "skill": "Security Auditing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What are the objectives of an internal audit?Â",
+    "answer": "The central objective of an Internal Audit is to supply objective information to managers, governments, etc. Objective information typically includes details about control over the organization's environment, risks, etc. Any person coming for the Internal Audit is called an Internal Auditor. They are employed by the organizations that send them.Â  An internal auditor works in close association with management because he or she wants to understand how well they have managed their resources. Auditors ensure that companies adhere to accounting standards and laws; they also try to ensure that companies don't mislead investors about their finances or operations.",
+    "source": "https://www.simplilearn.com/kpmg-interview-questions-article",
+    "role": "Blockchain Developer",
+    "skill": "Security Auditing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. Explain cross-functional audits?Â",
+    "answer": "A cross-functional audit means the participation of different professions in the audit process to improve the organization's practices. For example, a marketing professional may be included in an audit team to ensure that advertising campaigns are compliant with industry regulations. The goal is to achieve better results for your company through more thorough audits.",
+    "source": "https://www.simplilearn.com/kpmg-interview-questions-article",
+    "role": "Blockchain Developer",
+    "skill": "Security Auditing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What are audit control procedures?Â",
+    "answer": "There is no one approach that's universal for understanding internal controls, business processes, and control effectiveness. Instead, it depends on the specific needs of each audit.",
+    "source": "https://www.simplilearn.com/kpmg-interview-questions-article",
+    "role": "Blockchain Developer",
+    "skill": "Security Auditing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is CARO 2003? What do you mean by management audit?",
+    "answer": "The term CARO means Company Audit Report Order 2003. It describes the matter on which the company's Statutory Auditors must report in their Audit Report. An audit is an analysis and assessment of a company's management competencies and capabilities to execute its objectives. The point of a management audit is not to give grades to individual executives but to review the effectiveness of the entire management team, considering factors such as shareholder satisfaction, staff morale, and business reputation. It is necessary to point out that the management audit examines the management of the company as a whole, not the performance of the individual managers.",
+    "source": "https://www.simplilearn.com/kpmg-interview-questions-article",
+    "role": "Blockchain Developer",
+    "skill": "Security Auditing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What are the advantages of using stored procedures?",
+    "answer": "One of the key reasons whystored procedurescan offer many advantages is because they allow programmers to focus on the needs of a specific module, reducing redundancy and the possibility of errors. Another advantage is that it allows for more efficient use of resources. Since stored procedures are compiled into machine language at run time, thereâs no need for them to be recompiled each time theyâre used; therefore, fewer system resources are required in order to execute them. Stored procedures also allow developers to create reusable code which can then be used in multiple applications or by multiple users.",
+    "source": "https://www.simplilearn.com/kpmg-interview-questions-article",
+    "role": "Blockchain Developer",
+    "skill": "Security Auditing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. Do you think BCNF is better than 2NF & 3NF? Why?",
+    "answer": "BCNF is stronger than 3NF because it does not follow the same criterion for normalization that 3NF does. Thus, every left side of an FD in a table must be a super key. Any table that is BCNF will also be 3NF, 2NF, and 1NF by the definitions that precede this.",
+    "source": "https://www.simplilearn.com/kpmg-interview-questions-article",
+    "role": "Blockchain Developer",
+    "skill": "Security Auditing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. Discuss transparent DBMS?",
+    "answer": "It is one which keeps its physical structure hidden from the user. A query with respect to DBMS relates to user commands that are used to interact with a database. The query language can be classified into data definition language and data manipulation language.",
+    "source": "https://www.simplilearn.com/kpmg-interview-questions-article",
+    "role": "Blockchain Developer",
+    "skill": "Security Auditing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why is Blockchain Security Critical?",
+    "answer": "The platform works on a decentralized network and hence there's no central authority responsible for transactions. Because there’s nothing that central point of control and attackers could easily identify leads to the fact that protective measures become the priorities.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/why-is-blockchain-security-critical-and-how-is-it-implemented/",
+    "role": "Blockchain Developer",
+    "skill": "Security Auditing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Blockchain Technology?",
+    "answer": "Theblockchainis a distributed database of records of all transactions or digital events that have been executed and shared among participating parties. The majority of participants in the system verify each transaction.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/loopholes-with-blockchain-technology/",
+    "role": "Blockchain Developer",
+    "skill": "Security Auditing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Is Blockchain Difficult to Implement?",
+    "answer": "Implementing blockchain technology regularly entails navigating a complicated landscape of technical intricacies and regulatory issues. Integrating blockchain into their present systems requires not only a deep knowledge of cryptographic concepts but also know-how in designing dispensed systems that could deal with touchy scientific records securely.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/loopholes-with-blockchain-technology/",
+    "role": "Blockchain Developer",
+    "skill": "Security Auditing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How to Become a Rust Developer?",
+    "answer": "Rust developers are highly sought after in the tech industry due to Rust’s focus on memory safety, performance, and concurrency. Companies like Mozilla, Dropbox, Amazon, Microsoft, and Cloudflare actively hire Rust developers to build reliable and efficient software systems. Rust is used in a variety of applications, from system-level programming to blockchain development.",
+    "source": "https://www.geeksforgeeks.org/gfg-academy/how-to-become-a-rust-developer/",
+    "role": "Blockchain Developer",
+    "skill": "Rust",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Rust?",
+    "answer": "The modern programming languageRustwas created for use in creating computer systems. Safety and speed are of the essence. Mozilla's Rust project attempts to address concerns such as preventing programs from misusing memory, ensuring error-free management of numerous processes running concurrently, and avoiding actions that could lead to errors or security breaches. Using Rust is supposed to be a dependable substitute for languages likeCandC++.",
+    "source": "https://www.geeksforgeeks.org/blogs/how-to-build-your-career-in-rust/",
+    "role": "Blockchain Developer",
+    "skill": "Rust",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Why to Use Rust?",
+    "answer": "Rust is famous for making sure memory is used safely, doing many things at once, and getting tasks done fast. Due to its many potent features, developers want to use it for many kinds of software development. Let's now look at some of the key features of rust.",
+    "source": "https://www.geeksforgeeks.org/blogs/how-to-build-your-career-in-rust/",
+    "role": "Blockchain Developer",
+    "skill": "Rust",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How Can You Build A Career in Rust?",
+    "answer": "As We've stated before, Rust is quite trending in today’s age. But what is Rust used to build? Well. . . the answer may either be exciting or boring - anything! With Rust, you can build command-line programs, websites, andHTTPservers. Now let's explore the path tobuild career in Rust.",
+    "source": "https://www.geeksforgeeks.org/blogs/how-to-build-your-career-in-rust/",
+    "role": "Blockchain Developer",
+    "skill": "Rust",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1.  Is it possible to return multiple values from a function in Go?",
+    "answer": "Yes. Multiple values can be returned in Golang by sending comma-separated values with the return statement and by assigning it to multiple variables in a single statement as shown in the example below:",
+    "source": "https://www.interviewbit.com/golang-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "Go",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. Why should one learn Golang? What are the advantages of Golang over other languages?",
+    "answer": "Go language follows the principle of maximum effect with minimum efforts. Every feature and syntax of Go was developed to ease the life of programmers. Following are the advantages of Go Language:",
+    "source": "https://www.interviewbit.com/golang-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "Go",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What are Golang packages?",
+    "answer": "Go Packages (in shortpkg) are nothing but directories in the Go workspace that contains Go source files or other Go packages themselves. Every single piece of code starting from variables to functions are written in the source files are in turn stored in a linked package. Every source file should belong to a package.",
+    "source": "https://www.interviewbit.com/golang-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "Go",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. Is Golang case sensitive or insensitive?",
+    "answer": "Go is a case-sensitive language.",
+    "source": "https://www.interviewbit.com/golang-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "Go",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What are Golang pointers?",
+    "answer": "Go Pointers are those variables that hold the address of any variables. Due to this, they are called special variables. Pointers support two operators:",
+    "source": "https://www.interviewbit.com/golang-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "Go",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What do you understand by Golang string literals?",
+    "answer": "String literals are those variables storing string constants that can be a single character or that can be obtained as a result of the concatenation of a sequence of characters. Go provides two types of string literals. They are:",
+    "source": "https://www.interviewbit.com/golang-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "Go",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What is the syntax used for the for loop in Golang? Explain.",
+    "answer": "Go language follows the below syntax for implementing for loop.",
+    "source": "https://www.interviewbit.com/golang-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "Go",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What do you understand by the scope of variables in Go?",
+    "answer": "The variable scope is defined as the part of the program where the variable can be accessed. Every variable is statically scoped (meaning a variable scope can be identified at compile time) in Go which means that the scope is declared at the time of compilation itself. There are two scopes in Go, they are:",
+    "source": "https://www.interviewbit.com/golang-interview-questions/",
+    "role": "Blockchain Developer",
+    "skill": "Go",
+    "search_strategy": "role_specific"
+  }
+]
