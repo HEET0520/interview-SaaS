@@ -1,128 +1,100 @@
+import os
 import json
-import hashlib
-from typing import List, Dict, Any
-
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_huggingface import HuggingFaceEmbeddings
+import uuid
 from pinecone import Pinecone, ServerlessSpec
+from sentence_transformers import SentenceTransformer
+from tqdm import tqdm
+from dotenv import load_dotenv
 
-from app.config import settings  # your config module
+# Load environment variables
+load_dotenv()
 
-# Configuration
-PINECONE_INDEX_NAME = "interview-knowledge-base"
-EMBEDDING_MODEL = "all-MiniLM-L6-v2"
+# Config
+PINECONE_API_KEY = os.environ.get("PINECONE_API_KEY")
+INDEX_NAME = "interview-questions"
+MODEL_NAME = "all-MiniLM-L6-v2"
+BASE_DIR = "F:/interview-SaaS/backend"
+MODEL_PATH = os.path.join(BASE_DIR, "embedding", "models--sentence-transformers--all-MiniLM-L6-v2/snapshots\c9745ed1d9f207416be6d2e6f8de32d1f16199bf")  # local model folder
+DATA_DIRECTORY = "F:/interview-SaaS/backend/scripts/final_output"
 
+CLOUD = "aws"
+REGION = "us-east-1"
 
-def hash_id(text: str) -> str:
-    """
-    Creates a short unique hash for IDs (to avoid overly long IDs from URLs).
-    """
-    return hashlib.md5(text.encode("utf-8")).hexdigest()[:12]
+# Init Pinecone
+pc = Pinecone(api_key=PINECONE_API_KEY)
 
+# ✅ Directly create new index
+print(f"Creating index '{INDEX_NAME}'...")
+pc.create_index(
+    name=INDEX_NAME,
+    dimension=384,  # MiniLM dimension
+    metric="cosine",
+    spec=ServerlessSpec(cloud=CLOUD, region=REGION)
+)
 
-def prepare_documents_for_pinecone(data: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-    """
-    Processes the raw scraped data into a flat list of documents
-    ready for embedding and upserting.
-    """
-    documents = []
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
+index = pc.Index(INDEX_NAME)
 
-    for role_data in data:
-        role = role_data.get("role")
-        for source in role_data.get("sources", []):
-            url = source.get("url", "unknown")
-            for qa_pair in source.get("qa_pairs", []):
-                question = qa_pair.get("question", "").strip()
-                answer = qa_pair.get("answer", "").strip()
-                if not question or not answer:
-                    continue  # skip incomplete pairs
+# Load local model if available, else download once
+if os.path.exists(MODEL_PATH):
+    print(f"Loading model from local path: {MODEL_PATH}")
+    model = SentenceTransformer(MODEL_PATH)
+else:
+    print("Downloading model for the first time...")
+    model = SentenceTransformer(MODEL_NAME, cache_folder=MODEL_PATH)
 
-                combined_text = f"Question: {question}\nAnswer: {answer}"
-                chunks = text_splitter.split_text(combined_text)
+# Collect JSON files
+json_files = [f for f in os.listdir(DATA_DIRECTORY) if f.endswith(".json")]
 
-                for i, chunk in enumerate(chunks):
-                    unique_id = f"{role}-{hash_id(url)}-{i}"
-                    documents.append({
-                        "id": unique_id,
-                        "text": chunk,
-                        "metadata": {
-                            "role": role,
-                            "question": question,
-                            "source": url,
-                            "type": "interview_qa",  # default type
-                            "experience_level": "general"  # can refine later
-                        }
-                    })
-    return documents
+batch_size = 100
+upsert_data = []
 
+for file_name in json_files:
+    full_path = os.path.join(DATA_DIRECTORY, file_name)
+    with open(full_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    
+    role_name = file_name.replace("_refined.json", "").replace("_", " ")
 
-def main():
-    """
-    Orchestrates data ingestion into Pinecone.
-    """
-    print("🚀 Starting data ingestion process...")
+    for entry in tqdm(data, desc=f"Processing {file_name}"):
+        q = entry.get("refined_question", "").strip()
+        a = entry.get("answer", "").strip()
 
-    # 1. Load Scraped Data
-    try:
-        with open("scraped_data.json", "r", encoding="utf-8") as f:
-            scraped_data = json.load(f)
-        print(f"✅ Loaded {len(scraped_data)} roles from scraped_data.json")
-    except FileNotFoundError:
-        print("❌ Error: scraped_data.json not found. Please run scraper.py first.")
-        return
+        # Skip invalid or garbage entries
+        if not q or q.lower() == "not a valid question":
+            continue  
 
-    # 2. Prepare Documents
-    documents = prepare_documents_for_pinecone(scraped_data)
-    print(f"📄 Prepared {len(documents)} document chunks for ingestion.")
+        # Main searchable content
+        page_content = f"Question: {q}\nAnswer: {a}"
 
-    if not documents:
-        print("⚠️ No documents to ingest. Exiting.")
-        return
+        embedding = model.encode(page_content).tolist()
 
-    # 3. Initialize Embeddings
-    print(f"🔍 Initializing embedding model: {EMBEDDING_MODEL}")
-    embeddings = HuggingFaceEmbeddings(model_name=EMBEDDING_MODEL)
+        # Metadata (extra context)
+        metadata = {
+            "role": entry.get("role", role_name),
+            "skill": entry.get("skill", "N/A"),
+            "difficulty": entry.get("difficulty", "N/A"),
+            "source": entry.get("source", ""),
+            "original_question": entry.get("original_question", ""),
+            "answer": a
+        }
 
-    # 4. Initialize Pinecone
-    print("🔗 Connecting to Pinecone...")
-    pc = Pinecone(api_key=settings.PINECONE_API_KEY)
-
-    if PINECONE_INDEX_NAME not in pc.list_indexes().names():
-        print(f"🆕 Creating Pinecone index: {PINECONE_INDEX_NAME}")
-        pc.create_index(
-            name=PINECONE_INDEX_NAME,
-            dimension=384,  # all-MiniLM-L6-v2 has 384 dimensions
-            metric="cosine",
-            spec=ServerlessSpec(cloud="aws", region="us-east-1")
+        # ✅ Store page_content under "text" so retriever can build Document()
+        upsert_data.append(
+            (
+                str(uuid.uuid4()),
+                embedding,
+                {"page_content": page_content, **metadata}
+            )
         )
 
-    index = pc.Index(PINECONE_INDEX_NAME)
-    print("✅ Pinecone index ready.")
+        # Batch upload
+        if len(upsert_data) >= batch_size:
+            index.upsert(vectors=upsert_data)
+            upsert_data = []
 
-    # 5. Embed + Upsert in batches
-    batch_size = 100
-    print(f"⬆️ Ingesting in batches of {batch_size}...")
-    for i in range(0, len(documents), batch_size):
-        batch = documents[i:i + batch_size]
-        texts = [doc["text"] for doc in batch]
+# Final upload if leftover
+if upsert_data:
+    index.upsert(vectors=upsert_data)
 
-        # Embed
-        vectors = embeddings.embed_documents(texts)
-
-        # Prepare vectors
-        upserts = [
-            {"id": doc["id"], "values": vectors[j], "metadata": doc["metadata"]}
-            for j, doc in enumerate(batch)
-        ]
-
-        # Upsert
-        index.upsert(vectors=upserts)
-        print(f"  -> Upserted batch {i // batch_size + 1}/{(len(documents) + batch_size - 1) // batch_size}")
-
-    print("\n✅ Data ingestion complete!")
-    print(f"📊 Total vectors in index: {index.describe_index_stats()['total_vector_count']}")
-
-
-if __name__ == "__main__":
-    main()
+print("✅ Data ingestion complete.")
+print("Total vectors:", index.describe_index_stats())
