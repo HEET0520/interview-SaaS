@@ -1,0 +1,970 @@
+[
+  {
+    "question": "1. What is a network sniffer?",
+    "answer": "A network sniffer monitors the flow of data over computer network links. By allowing you to capture and view packet-level data on your network, the sniffer tool can help you identify network problems. Sniffers can be used both to steal information from a network and for legitimate network management.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/top-50-ethical-hacking-interview-questions-and-answers/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How can you avoid ARP poisoning?",
+    "answer": "There are several approaches to preventing ARP Poisoning attacks:",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/top-50-ethical-hacking-interview-questions-and-answers/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are the phases of hacking a system?",
+    "answer": "Please refer toPhases of Hackingfor more details.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/top-50-ethical-hacking-interview-questions-and-answers/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What are the different ethical hacking tools?",
+    "answer": "There are various types of ethical hacking tools available. Some of them are as follows:",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/top-50-ethical-hacking-interview-questions-and-answers/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. Why is Python utilized for hacking?",
+    "answer": "Python provides simplicity and the reader will be able to complete their task faster and easier. Python libraries are also used for coding, recording, network scanning, and network attack.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/top-50-ethical-hacking-interview-questions-and-answers/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What are Pharming and Defacement?",
+    "answer": "For more details please referPharming Attack Prevention and Examplesarticle.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/top-50-ethical-hacking-interview-questions-and-answers/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. Different types of buffer overflows and methods of detection?",
+    "answer": "Burp Suite is a collection of tools used to test whether access to a web application has been compromised. It was developed by a company called Portswigger, also named after its founder. Burp Suite aims to have it all in one set of tools and BApps.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/top-50-ethical-hacking-interview-questions-and-answers/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is Burp Suite?",
+    "answer": "Burp Suite is a collection of tools used to test whether access to a web application has been compromised. It was developed by a company called Portswigger, also named after its founder. Burp Suite aims to have it all in one set of tools and BApps.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/top-50-ethical-hacking-interview-questions-and-answers/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is XPath Injection in penetration testing?",
+    "answer": "XPath injection is a type of vulnerability in which malicious input is used to inject unintended commands into an XML document. This can be done by injecting any user-supplied string directly into an XPath expression, or even by using specially crafted elements and attributes. Injection attacks are one of the most common methods used to exploit software vulnerabilities because they allow attackers to run arbitrary code as part of the attack payload.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/top-50-penetration-testing-interview-questions-and-answers/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. Explain Web Application Scanning with w3af in pen-testing?",
+    "answer": "w3af is versatile and can be used for a number of purposes in pen-testing. For example, it can be used to identify vulnerabilities in web applications before conducting a full attack, to check for signs of malware and phishing attacks, and to monitor for security issues. In addition, w3af can be used to identify vulnerabilities in outdated or insecure web applications.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/top-50-penetration-testing-interview-questions-and-answers/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is Hijacking Execution in pen-testing?",
+    "answer": "Hijacking executionin penetration testing is a technique that attackers use to gain access to systems or networks. Hijacking execution takes advantage of the privileges and permissions granted to an intruder by default on compromised machines, which can then be used for malicious purposes. Attackers may also leverage user accounts created specifically for reconnaissance or attack tasks, as well as preexisting administrative rights on target machines. By taking advantage of these vulnerabilities, hijackers can bypass common security controls and compromise systems without being detected.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/top-50-penetration-testing-interview-questions-and-answers/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. Write a few points about SEH Overwrite Exploits?",
+    "answer": "POP POP RET is a tool that can be used to detect and exploit vulnerable applications. To use this tool, you will first need to scan the target network for vulnerable applications. Once you have identified the vulnerable applications, you can use POP POP RET to exploit them. By exploiting the vulnerabilities, you can gain access to the systems and data that are protected by the vulnerable applications.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/top-50-penetration-testing-interview-questions-and-answers/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is POP POP RET in penetration testing?",
+    "answer": "POP POP RET is a tool that can be used to detect and exploit vulnerable applications. To use this tool, you will first need to scan the target network for vulnerable applications. Once you have identified the vulnerable applications, you can use POP POP RET to exploit them. By exploiting the vulnerabilities, you can gain access to the systems and data that are protected by the vulnerable applications.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/top-50-penetration-testing-interview-questions-and-answers/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is meant by DNS Reconnaissance in penetration testing?",
+    "answer": "When we conduct a penetration test, the most important task is understanding the internal network structure and DNS configuration. This is done through various forms of DNS reconnaissance, also known as DNS sniffing.DNS reconnaissancecan be used to gather information about hosts and name servers, as well as their associated configuration. This can include things such as the type of DNS server used, the name server addresses, the primary and secondary name servers, and the A, AAAA, and CNAME records.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/top-50-penetration-testing-interview-questions-and-answers/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What are porting public exploits?",
+    "answer": "Porting public exploits is a process by which an attacker takes advantage of vulnerabilities in public applications or systems so that they can be used to exploit other vulnerable systems. Porting means taking the exploits and making them work on different versions of the application, system, operating system, etc. It could also mean adopting these exploits to carry out attacks against new targets or finding alternative ways to deliver payloads from the exploited target(s).Port scanningis a reconnaissance technique employed during exploitation whereby attacking computers are scanned for open ports using network protocols.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/top-50-penetration-testing-interview-questions-and-answers/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is XAMPP?",
+    "answer": "XAMPPis a completely free and open-source development platform for hosting websites, accessible through a web browser. It is an easy-to-use platform that has a lot of features for web developers. It also has a variety of modules and templates that make it easy to set up a website. Moreover, XAMPP can be used for creating databases, e-commerce solutions, and more. This is also useful for penetration testers, it can be used in web application testing.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/top-50-penetration-testing-interview-questions-and-answers/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is ethical hacking?",
+    "answer": "Ethical hackingis the legal practice of probing computer structures to discover vulnerabilities, weaknesses, and potential threats. It enhances cybersecurity defenses and shields against malicious attacks.",
+    "source": "https://www.simplilearn.com/ethical-hacking-interview-questions-article",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How does ethical hacking differ from malicious hacking?",
+    "answer": "Ethical hacking is performed to help businesses identify loopholes and fix them to protect sensitive data from being misused.Â",
+    "source": "https://www.simplilearn.com/ethical-hacking-interview-questions-article",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are the types of ethical hackers?",
+    "answer": "The types of hackers are:",
+    "source": "https://www.simplilearn.com/ethical-hacking-interview-questions-article",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is a vulnerability?",
+    "answer": "A vulnerability is a flaw or loophole in a system or network that malicious hackers could exploit.Â",
+    "source": "https://www.simplilearn.com/ethical-hacking-interview-questions-article",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What are the five stages of ethical hacking?",
+    "answer": "The five stages of ethical hacking are:",
+    "source": "https://www.simplilearn.com/ethical-hacking-interview-questions-article",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is a firewall?",
+    "answer": "Afirewallis a network security system that controls and monitors traffic in and out based on security rules.Â",
+    "source": "https://www.simplilearn.com/ethical-hacking-interview-questions-article",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What are the common tools used for ethical hacking?",
+    "answer": "Burp Suite for web application testing",
+    "source": "https://www.simplilearn.com/ethical-hacking-interview-questions-article",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. What is a honeypot?",
+    "answer": "It is a decoy system used as a trap to lure cyberattackers. It helps security professionals to study the tricks and tactics used by hackers.Â",
+    "source": "https://www.simplilearn.com/ethical-hacking-interview-questions-article",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What are the common Cyberattacks?",
+    "answer": "Some basic Cyber attacks are as follows:",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/cyber-security-interview-questions/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the elements of cyber security?",
+    "answer": "There are various elements of cyber security as given below:",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/cyber-security-interview-questions/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. Define DNS?",
+    "answer": "The Domain Name System (DNS) translates domain names into IP addresses that browsers use to load web pages. Every device connected to the Internet has its ownIP address, which other devices use to identify it in simple language, we can say that DNS Defines the Service of the network.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/cyber-security-interview-questions/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is a Firewall?",
+    "answer": "A firewall is a hardware or software-based network security device that monitors all incoming and outgoing traffic and accepts, denies, or drops that particular traffic based on a defined set of security rules.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/cyber-security-interview-questions/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is a VPN?",
+    "answer": "VPN stands for Virtual Private Network. A virtual private network (VPN) is a technology that creates a secure, encrypted connection over an insecure network like the Internet. A virtual private network is a method of extending a private network using a public network such as the Internet. The name only indicates that it is a virtual \"private network\". A user may be part of a local area network at a remote location. Create a secure connection using a tunnelling protocol.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/cyber-security-interview-questions/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What are the different sources of malware?",
+    "answer": "The different sources of malware are given below:",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/cyber-security-interview-questions/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. How does email work?",
+    "answer": "When a sender uses an e-mail program to send an e-mail, it is redirected to a simple e-mail transfer protocol. In this protocol, the recipient's email address belongs to a different domain name or the same domain name as the sender (Gmail, Outlook, etc.). After that, the e-mail will be stored on the server, and later he will send it using thePOPorIMAPprotocol. Then, if the recipient has a different domain name address, theSMTPprotocol communicates with the DNS (Domain Name Server) for the different addresses that the recipient uses. Then the sender's SMTP  communicates with the receiver's SMTP, and the receiver's SMTP performs the communication. This way the email is delivered to the recipient's SMTP. If certain network traffic issues prevent both the sender's SMTP  and the recipient's SMTP from communicating with each other, outgoing emails will be queued at the recipient's SMTP and finally to be received by the recipient. Also, if a message stays in the queue for too long due to terr",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/cyber-security-interview-questions/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is the difference between active and passive cyber attacks?",
+    "answer": "Please refer to the article:Difference between Active Attack and Passive Attackto know more about it.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/cyber-security-interview-questions/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is a Payload in Metasploit?",
+    "answer": "Apayloadis a piece of code that executed on a target system after a successful exploit by the attacker or ethical hacker and payload is the exploit module of the Metasploit. It determines what actions an attacker can perform after gaining access. There are many types of payloads present in Metasploit .",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/metasploit-payload/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How To Use a Specific Payload?",
+    "answer": "To use a specific payload in your exploitation, use the following command",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/metasploit-payload/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What Is Metasploitable?",
+    "answer": "Metasploitable is a virtualized Linux-based operating system that comes pre-loaded with a variety of vulnerabilities often found in operating systems that can be exploited. Rapid7 Community also founded and maintained the Metasploitable Project (Metasploit-FrameWork Community). Metasploitable was created to test the Metasploit Framework. In simple terms, Metasploitable is a Linux-based operating system designed specifically for practicingpenetration testing,network security, and Metasploit-Framework skills, among other things.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/what-is-metasploit",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How Does Metasploitable Work?",
+    "answer": "Metasploitable's main goal is to provide an insecure operating system that new networking students, penetrators, hackers, and network researchers may utilize to practice their skills in a secure environment. Anyone may easily set up their own private, secure lab using Metasploitable to test their skills or learn something new in a secure environment. As you all know, \"practice makes perfect,\" which is why every pen tester wants to put their skills to the test in order to improve their accuracy. In that case, this OS serves as the primary target/victim OS.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/what-is-metasploit",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Metasploit?",
+    "answer": "Metasploit is not just a single tool. It is a complete framework. It is a Ruby-based, modular penetration testing platform that enables you to write, test, and execute exploit code, it is flexible and extremely robust and has tons of tools to perform various simple and complex tasks.",
+    "source": "https://www.geeksforgeeks.org/linux-unix/what-is-metasploit/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Metasploit",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What do you mean by a Null Session?",
+    "answer": "A null session occurs when a user is not authorized using either a username or a password. It can provide a security concern for apps because it implies that the person making the request is unknown.",
+    "source": "https://www.interviewbit.com/cyber-security-interview-questions/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Burp Suite",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What is a Firewall?",
+    "answer": "A firewall serves as a barrier between a LAN and the Internet. It allows private resources to remain private while reducing security threats. It manages both inbound and outbound network traffic.",
+    "source": "https://www.interviewbit.com/cyber-security-interview-questions/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Burp Suite",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. Who are Black Hat, White Hat and Grey Hat Hackers?",
+    "answer": "Black Hat hackers, sometimes known as crackers, attempt to obtain unauthorized access to a system in order to disrupt its operations or steal critical data.",
+    "source": "https://www.interviewbit.com/cyber-security-interview-questions/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Burp Suite",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What are the types of Cyber Security?",
+    "answer": "The assets of every company are made up of a variety of various systems. These systems have a strong cybersecurity posture, which necessitates coordinated actions across the board. As a result, cybersecurity can be divided into the following sub-domains:",
+    "source": "https://www.interviewbit.com/cyber-security-interview-questions/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Burp Suite",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What are the benefits of Cyber Security?",
+    "answer": "The following are some of the advantages of putting cybersecurity in place and keeping it up to date:",
+    "source": "https://www.interviewbit.com/cyber-security-interview-questions/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Burp Suite",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What do you mean by a botnet?",
+    "answer": "A botnet is a collection of internet-connected devices, such as servers, PCs, and mobile phones, that are infected with malware and controlled by it.It's used to steal data, send spam, launch distributed denial-of-service (DDoS) attacks, and more, as well as provide the user access to the device and its connection.",
+    "source": "https://www.interviewbit.com/cyber-security-interview-questions/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Burp Suite",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "10. What do you mean by honeypots?",
+    "answer": "Honeypots are attack targets that are set up to see how different attackers attempt exploits. Private firms and governments can utilize the same concept to evaluate their vulnerabilities, which is widely used in academic settings.",
+    "source": "https://www.interviewbit.com/cyber-security-interview-questions/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Burp Suite",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "13. What are the common types of cyber security attacks?",
+    "answer": "The common types of cyber security attacks are:-",
+    "source": "https://www.interviewbit.com/cyber-security-interview-questions/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Burp Suite",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Burp Suite?",
+    "answer": "and an enterprise edition that costs",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/what-is-burp-suite/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Burp Suite",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Ethical Hacking?",
+    "answer": "Ethical hackingis the process of testing acomputer system, network, or applicationfor weaknesses in a legal and responsible way. Ethicalhackersuse the same tools and methods asmalicious hackersto findsecurityproblems, but they do it with the permission of the system owner. The goal is to find and fix vulnerabilities before bad hackers can take advantage of them, keeping the system safe and secure.",
+    "source": "https://www.geeksforgeeks.org/blogs/how-should-i-start-learning-ethical-hacking-on-my-own/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Burp Suite",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Ethical Hacking?",
+    "answer": "Ethical hacking, penetration testing, orwhite-hat hackingis the technique of testing a computer system, network, or application securely. Here, the concept is the same as that for malicious hackers or black hats; the difference lies in the legality of the action. Anethical hackeris one that would take consideration and permission from the system owner to expose certain weaknesses before actual cybercriminals can exploit these vulnerabilities. In turn, this provides an organization with an opportunity to improve its security and prevent a security breach of sensitive data.",
+    "source": "https://www.geeksforgeeks.org/blogs/how-to-become-ethical-hacker/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Burp Suite",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How to Become a Ethical Hacker in 2025?",
+    "answer": "Basic Computer & Networking Knowledge",
+    "source": "https://www.geeksforgeeks.org/blogs/how-to-become-ethical-hacker/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Burp Suite",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How to become an Ethical Hacker?",
+    "answer": "Ethical hacking, penetration testing, orwhite-hat hackingis the technique of testing a computer system, network, or application securely. Here, the concept is the same as that for malicious hackers or black hats; the difference lies in the legality of the action. Anethical hackeris one that would take consideration and permission from the system owner to expose certain weaknesses before actual cybercriminals can exploit these vulnerabilities. In turn, this provides an organization with an opportunity to improve its security and prevent a security breach of sensitive data.",
+    "source": "https://www.geeksforgeeks.org/blogs/how-to-become-ethical-hacker/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Burp Suite",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Cyber Security?",
+    "answer": "In conclusion, data security is paramount in today's digital landscape.Ethical hackers, also known as white hat hackers, play a vital role in safeguarding sensitive information by uncovering system vulnerabilities before malicious actors can exploit them.This in-demand cybersecurity profession offers lucrative salaries and the opportunity to be at the forefront of technological innovation.",
+    "source": "https://www.geeksforgeeks.org/blogs/how-to-become-ethical-hacker/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Burp Suite",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Cybersecurity vs Software Engineering: What's the Difference?",
+    "answer": "In conclusion, data security is paramount in today's digital landscape.Ethical hackers, also known as white hat hackers, play a vital role in safeguarding sensitive information by uncovering system vulnerabilities before malicious actors can exploit them.This in-demand cybersecurity profession offers lucrative salaries and the opportunity to be at the forefront of technological innovation.",
+    "source": "https://www.geeksforgeeks.org/blogs/how-to-become-ethical-hacker/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Burp Suite",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Nmap?",
+    "answer": "Nmap stands forNetwork Mapperwhichis a free Open source command-linetool.Nmap is an information-gathering tool used for recon reconnaissance. Itscans hosts and services on a computer network which means that it sends packets and analyzes the response. Listed below are the most useful Scans which you can run with the help of Nmap tools.",
+    "source": "https://www.geeksforgeeks.org/computer-networks/nmap-scans-for-cyber-security-and-penetration-testing/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Nmap",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is cybersecurity, and why is it important?",
+    "answer": "Cybersecurityprotects computer systems, networks, and data from theft, damage, or unauthorized access. It's important to safeguard sensitive information, maintain privacy, prevent financial losses, and protect critical infrastructure from cyber threats.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-interview-questions",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Nmap",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is Phishing? Provide an example.",
+    "answer": "Phishing: A cyberattack in which malicious actors employ deceptive emails or messages to deceive individuals into disclosing sensitive information.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-interview-questions",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Nmap",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. How do firewalls protect network security?",
+    "answer": "Firewalls serve as protective barriers, overseeing and screening both inbound and outbound network traffic in accordance with established security regulations.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-interview-questions",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Nmap",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is a VPN and why is it used?",
+    "answer": "A Virtual Private Network encrypts and secures internet connections, ensuring privacy and anonymity.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-interview-questions",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Nmap",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What are the common techniques for securing a computer network?",
+    "answer": "Techniques include using strong passwords, regular updates and patch management, implementing firewalls, using intrusion detection systems, and conducting security audits.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-interview-questions",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Nmap",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is two-factor authentication, and why is it important?",
+    "answer": "Two-factor authentication enhances security by necessitating users to furnish two distinct forms of verification, typically a password and a temporary code, thereby bolstering protection.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-interview-questions",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Nmap",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "11. What is SSL encryption?",
+    "answer": "SSL(Secure Sockets Layer) encryption is a protocol that ensures secure data transmission between a user's web browser and a website server, protecting data during transit.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-interview-questions",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Nmap",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "12. What is the difference between IDS and IPS?",
+    "answer": "IDS (Intrusion Detection System): Monitors network traffic and generates alerts when suspicious activity is detected.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-interview-questions",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Nmap",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What Is N-Map?",
+    "answer": "Nmap, the acronym forÂ  Network Mapper, is an open-source security auditing and network scanning software designed by Gordon Lyon. It is developed in such a way that it can quickly analyze massive networks as well as single hosts. Network administrators often use it to detect the devices that are presently working on the system, the port number to which the devices are attached, and the free ports that may be used.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/what-is-nmap",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Nmap",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How Does N-Map Work?",
+    "answer": "Scanning networks is a three-step process, with Nmap carrying out the first two and leaving the ethical hacker for the third. So, you will cover these phases sequentially.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/what-is-nmap",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Nmap",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "When performing a SYN scan (-sS), why is it often considered stealthier than a TCP Connect scan (-sT)?",
+    "answer": "When performing a SYN scan (-sS), why is it often considered stealthier than a TCP Connect scan (-sT)?",
+    "source": "https://www.geeksforgeeks.org/quizzes/cybersec-quiz-day-17/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Nmap",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "During a UDP scan (-sU), Nmap reports most ports as “open|filtered.” Why does this happen?",
+    "answer": "During a UDP scan (-sU), Nmap reports most ports as “open|filtered.” Why does this happen?",
+    "source": "https://www.geeksforgeeks.org/quizzes/cybersec-quiz-day-17/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Nmap",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What’s the practical difference between using-Pnand-snin Nmap scans?",
+    "answer": "What’s the practical difference between using-Pnand-snin Nmap scans?",
+    "source": "https://www.geeksforgeeks.org/quizzes/cybersec-quiz-day-17/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Nmap",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Which scan would you use to bypass a firewall that allows established connections but filters new ones?",
+    "answer": "Which scan would you use to bypass a firewall that allows established connections but filters new ones?",
+    "source": "https://www.geeksforgeeks.org/quizzes/cybersec-quiz-day-17/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Nmap",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "You run nmap -sS -T4 -p- <target> on a production system. What risks are involved?",
+    "answer": "You run nmap -sS -T4 -p- <target> on a production system. What risks are involved?",
+    "source": "https://www.geeksforgeeks.org/quizzes/cybersec-quiz-day-17/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Nmap",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Which combination of Nmap options gives the most detailed reconnaissance in a single command?",
+    "answer": "Which combination of Nmap options gives the most detailed reconnaissance in a single command?",
+    "source": "https://www.geeksforgeeks.org/quizzes/cybersec-quiz-day-17/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Nmap",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "If a port is reported as “unfiltered” during an ACK scan, what does it imply?",
+    "answer": "If a port is reported as “unfiltered” during an ACK scan, what does it imply?",
+    "source": "https://www.geeksforgeeks.org/quizzes/cybersec-quiz-day-17/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Nmap",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "In penetration testing, why would you combine Nmap with vulnerability databases or scripts (NSE)?",
+    "answer": "In penetration testing, why would you combine Nmap with vulnerability databases or scripts (NSE)?",
+    "source": "https://www.geeksforgeeks.org/quizzes/cybersec-quiz-day-17/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Nmap",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Is Kali Linux Legal?",
+    "answer": "Kali Linuxitself is not illegal. It is alegalpenetration testing and ethical hacking distribution developed byOffensive Security. However, its legality depends onhowit is used. Below is adetailed explanationof its legality in different contexts.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/kali-linux-tutorial/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Kali Linux",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Kali Linux Used For?",
+    "answer": "ThisKali Linux tutorialis designed to guide users—from beginners to professionals—through every aspect of Kali Linux, ensuring a thorough understanding of its features and applications. It begins with an introduction toKali Linux, including its purpose, benefits, akali nd evolution, followed by detailed instructions for installation and configuration on various platforms like VirtualBox, WSL, and physical machines.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/kali-linux-tutorial/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Kali Linux",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Exploitation?",
+    "answer": "TheMetasploit Frameworkis a powerful tool for penetration testing and post-exploitation activities.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/kali-linux-tutorial/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Kali Linux",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Reverse Engineering Technique in Cybersecurity?",
+    "answer": "TheMetasploit Frameworkis a powerful tool for penetration testing and post-exploitation activities.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/kali-linux-tutorial/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Kali Linux",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why Do Hackers Use Kali Linux?",
+    "answer": "The company Offensive Security created Kali Linux, and it was officially launched in 2013. It followedBackTrack, an older hacking-type OS used by many security professionals. BackTrack was useful but had some limitations as far as updates and ease of use were concerned. Kali Linux became something a little bit more powerful, more user-friendly, and always regularly updated with the latest security tools. Since its inception, Kali Linux has established itself as the preferred platform for ethical hackers, penetration testers, and cybersecurity experts around the world who require a dependable, all-inclusive system for addressing and enhancing security.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/why-hackers-use-kali-linux/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Kali Linux",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Confused about your next job?",
+    "answer": "Encryption is the process of converting information into a hash code or a cipher, to prevent unauthorized access by adversaries. The authorized user would access the content via secure keys and validation measures. As a beginner, you can start with a cyber security project on text encryption. This project would help you break down the structure of algorithms like Caesar Cipher, Vigenere Cipher, Railfence Cipher, Autokey Cipher, Playfair Cipher, Beaufort Cipher, etc.",
+    "source": "https://www.interviewbit.com/blog/cyber-security-projects/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "OWASP Top 10",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What are the 3 major types of cyber security?",
+    "answer": "The above are the three major types of cyber security.Cloud security and Internet of Things (IoT) security are also major focus areas.",
+    "source": "https://www.interviewbit.com/blog/cyber-security-projects/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "OWASP Top 10",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What are the 5 threats to cyber security?",
+    "answer": "Trojan malware, spyware, viruses, ransomware, adware, and worms are a few threats to cyber security. Apart from these, human negligence and errors are also major threats to cyber security.",
+    "source": "https://www.interviewbit.com/blog/cyber-security-projects/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "OWASP Top 10",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What are the latest trends in cybersecurity?",
+    "answer": "Remote working cybersecurity, mobile security, automotive hacking, the emergence of AI in security systems, IoT, and 5G computing are a few trends in cyber security. Data breaches, cloud attacks, and cyber warfare are a few trends in cybersecurity that we need to look out for.",
+    "source": "https://www.interviewbit.com/blog/cyber-security-projects/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "OWASP Top 10",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What are some easy cyber security projects?",
+    "answer": "Text encryption systems, password strength testers, image encryption, network scanning, etc are a few easy cyber security projects. Please refer to the beginner-level project ideas section in this article to get more information.",
+    "source": "https://www.interviewbit.com/blog/cyber-security-projects/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "OWASP Top 10",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What are the most sought-after cyber security certifications in the industry?",
+    "answer": "According to Coursera, CISSP (Certified Information Systems Security Professional), CISA (Certified Information Systems Auditor), CISM (Certified Information Security Manager) are a few industry-recognized cybersecurity certifications. Security+ is also an entry-level certification for cyber security. You can check out other cyber security certifications available across the net to gain knowledge in a structured manner and then jump to large-scale certifications.",
+    "source": "https://www.interviewbit.com/blog/cyber-security-projects/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "OWASP Top 10",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is SQL Injection?",
+    "answer": "SQL Injectionis a code injection technique where an attacker executes maliciousSQLqueries that control a web application's database. With the right set of queries, a user can gain access to information stored in databases.SQLMAPtests whether a 'GET' parameter is vulnerable to SQL Injection.",
+    "source": "https://www.geeksforgeeks.org/blogs/use-sqlmap-test-website-sql-injection-vulnerability/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "SQLmap",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Where can you use SQLMAP?",
+    "answer": "If you observe a web url that is of the form http://testphp.vulnweb.com/listproducts.phpcat=1, where the 'GET' parameter is in bold, then the website may be vulnerable to this mode of SQL injection, and an attacker may be able to gain access to information in the database. Furthermore, SQLMAP works when it isphpbased.",
+    "source": "https://www.geeksforgeeks.org/blogs/use-sqlmap-test-website-sql-injection-vulnerability/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "SQLmap",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Why is Error-Based SQL Injection Dangerous?",
+    "answer": "Firstly we need to find the vulnerable parameter. Injecting a single quote (') to cause an error:",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/error-based-sql-injections/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "SQLmap",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is SQL Injection?",
+    "answer": "SQL Injection(SQLi) is asecurity vulnerabilitythat occurs when an attacker is able tomanipulatea web application's database queries by insertingmalicious SQL codeinto user input fields. These injected queries can manipulate the underlying database toretrieve,modify, ordelete sensitive data. In some cases, attackers can even escalate privileges, gaining full control over thedatabaseorserver.",
+    "source": "https://www.geeksforgeeks.org/sql/sql-injection/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "SQLmap",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How Does SQL Injection Work?",
+    "answer": "SQL Injection typically works when a web application improperly validates user input, allowing an attacker toinject maliciousSQL code. For example, if a web application takes user input (e.g., a username or password) and directly inserts it into an SQL query withoutproper sanitization, an attacker can manipulate the query to perform unintended actions.",
+    "source": "https://www.geeksforgeeks.org/sql/sql-injection/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "SQLmap",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What are File Sets in Wireshark ?",
+    "answer": "File Sets in Wireshark are a way to discover, filter, and process traffic. They help you to better organize your captured data and analyze the information for a specific type of file or protocol. This is an indispensable tool for fast and efficient analysis.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/what-are-file-sets-in-wireshark/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Wireshark",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is White-Box Penetration Testing?",
+    "answer": "White box penetration testing is also known by names like transparent box testing, clear box testing crystal, or oblique box testing. As the name transparent box testing suggests, the penetration testers have full access to the internal structure of the system.",
+    "source": "https://www.geeksforgeeks.org/software-testing/software-testing-white-box-penetration-testing/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "John the Ripper",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "When Is White-Box Penetration Testing Necessary?",
+    "answer": "White box penetration testing is majorly required at 2 times",
+    "source": "https://www.geeksforgeeks.org/software-testing/software-testing-white-box-penetration-testing/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "John the Ripper",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Ethical Hacking?",
+    "answer": "Ethical hacking is the process of locating weaknesses or vulnerabilities in computers and information systems using the intent and actions of malicious hackers. There are two types of hackers:Â",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/what-is-penetration-testing",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "John the Ripper",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Penetration Testing?",
+    "answer": "Now that we have understood the difference between ethical hacking and penetration testing letâs take a look at the platform used by ethical hackers.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/what-is-penetration-testing",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "John the Ripper",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Kali Linux?",
+    "answer": "Kali LinuxÂ is a Debian-based operating system with advanced penetration testing and security auditing features. Most hackers also use this platform. Kali contains hundreds of tools which are used for various information security tasks like computer forensics and reverse engineering. The main features of Kali Linux include:",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/what-is-penetration-testing",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "John the Ripper",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Now, what are you waiting for? Start your preparation journey.",
+    "answer": "Often, we hear news of someone's bank accounts being hacked and they have lost all their money, or someone's social media accounts have been hacked. These situations don't become regular thanks to the domain ofcybersecurity. It is a field whose main aim is to prevent illegal access to someone's computer, whether the computer belongs to an individual or a big company.Cybersecurity offers a variety of roles, such as ethical hacking, threat analysis, etc.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/cybersecurity-roadmap/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "John the Ripper",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What Does Password Cracking Mean?",
+    "answer": "Password cracking is the process of attempting to find the password by trying many possible combinations. It's guessing attacks, rainbow attacks, and dictionary attacks. One of the techniques hackers use to gain access to sensitive data, financial information, or a person's account.",
+    "source": "https://www.geeksforgeeks.org/computer-networks/what-is-password-cracking/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "John the Ripper",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What Does a Password Cracking Attack Look Like?",
+    "answer": "Essentially, a password-cracking attack is an attack that involves gaining unauthorized access to a secured system or data source by attempting to decipher the passwords or guess them. Such forms of attacks can be carried out in the scenarios listed below:",
+    "source": "https://www.geeksforgeeks.org/computer-networks/what-is-password-cracking/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "John the Ripper",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What Are Password Cracking Techniques?",
+    "answer": "Password cracking is the process of identifying a password or passphrase by different combinations of characters and trying to crack the same till the desired one found and gain unauthorized access.",
+    "source": "https://www.geeksforgeeks.org/computer-networks/what-is-password-cracking/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "John the Ripper",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How Password Cracking Works?",
+    "answer": "Password cracking is done byhackersand uses specialized software and tools to make the process faster more efficient and automated without the explicit knowledge of the users. However several techniques are followed and may be utilized by the attackers to crack passwords such as dictionary attacks, brute-force attacks, rainbow table attacks, and so on.",
+    "source": "https://www.geeksforgeeks.org/computer-networks/what-is-password-cracking/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "John the Ripper",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What Are Password Cracking Tools?",
+    "answer": "There are several tools available for password cracking, which include:",
+    "source": "https://www.geeksforgeeks.org/computer-networks/what-is-password-cracking/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "John the Ripper",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "For Creating a Strong Password: What to Avoid?",
+    "answer": "To avoid the attempts of the password cracking and increasing the security development of solid passwords is a matter of much importance if looked deeply into. Common simple techniques are being discussed,",
+    "source": "https://www.geeksforgeeks.org/computer-networks/what-is-password-cracking/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "John the Ripper",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Is Password Cracking Illegal?",
+    "answer": "On its own, password cracking is not illegal, since it is only the context and the intent which make all the difference:",
+    "source": "https://www.geeksforgeeks.org/computer-networks/what-is-password-cracking/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "John the Ripper",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Where Are Brute Force Attacks Used for?",
+    "answer": "The main argument for using brute force hacking over other procedures is the zero-knowledge approach. It means thehackerdoesnât need to have any prior knowledge of the system being hacked. A victim can have the most secure password and still be caught in the line of fire. Brute force attacks run every single combination of numbers and characters available, so irrespective of how secure user credentials are, given the time and processing power, they will get cracked. As we will learn later, techniques such as two-factor authentication and limiting login attempts save grace against brute force attacks.",
+    "source": "https://www.simplilearn.com/tutorials/cryptography-tutorial/brute-force-attack",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "John the Ripper",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What Is a Brute Force Attack?",
+    "answer": "A brute force attack generates multiple strings of alphanumeric characters that can be used aspasswords. These strings then run against the file/service being cracked to find the correct password. Brute force attacks can be used against encrypted files, user account credentials, and even wireless networks with their passwords. There is no particular constraint when it comes to brute force mechanisms. We can generate numbers, alphabets and symbols to guess passwords of any length possible. Granted, the longer and more complicated passwords require much more time and effort to bear fruit.",
+    "source": "https://www.simplilearn.com/tutorials/cryptography-tutorial/brute-force-attack",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "John the Ripper",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How Does Brute Force Work?",
+    "answer": "There are three distinct phases of a brute force attack.",
+    "source": "https://www.simplilearn.com/tutorials/cryptography-tutorial/brute-force-attack",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "John the Ripper",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How Can Simplilearn Help You?",
+    "answer": "Brute force attacks are widespread in todayâs day and age, where the general public refrains from using complex passwords for their online and offline accounts. However, itâs just a single drop in the ocean of cyberattacks that plague the online world and require protection.",
+    "source": "https://www.simplilearn.com/tutorials/cryptography-tutorial/brute-force-attack",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "John the Ripper",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Nikto and it's usages ?",
+    "answer": "Nikto is an Open Source software written in Perl language that is used to scan a web-server for the vulnerability that can be exploited and can compromise the server. It can also check for outdated version details of 1200 server and can detect problems with specific version details of over 200 servers. It can also fingerprint server using favicon.ico files present in the server. It is not designed to be a particularly a stealth tool rather than it is designed to be fast and time-efficient to achieve the task in very little time. Because of this, a web admin can easily detect that its server is being scanned by looking into the log files. It can also show some items that do not have security problem but are info only which shows how to take full use of it to secure the web-server more properly. Features:",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/what-is-nikto-and-its-usages/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Nikto",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Banner Grabbing?",
+    "answer": "A banner may be a text displayed by a number server containing details like software type and version running during a system or server. Banner grabbing involves getting software banner information, like the name and version of the running server or system. Hackers can perform banner grabbing manually or automatically using an OSINT (Open Source Intelligence Tool). Grabbing a banner is one of the primary phases in both offensive and defensive penetration testing circumstances.",
+    "source": "https://www.geeksforgeeks.org/techtips/top-tools-and-techniques-for-banner-grabbing/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Nikto",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is System Integrity Check?",
+    "answer": "A system integrity check is a part of the system hardening process to confirm that we have taken all the necessary measures to prevent any unauthorized access to our systems and files. System integrity check verifies the integrity of different system components, such as operating systems, applications, and network services.What is System Integrity CheckA system integrity check is a health checkup for your IT infrastructure, which makes sure that your operating systems, applications, and network services are secure and free from the vulnerabilities that may provide unauthorized access or cyberattacks.Cyberattacks cost businesses $10.5 trillion every year (Cybersecurity Ventures) as of 2025, system integrity checks are critical for Linux, Windows, and cloud environments to ensure security compliance and guard sensitive information.Core PurposeVerify Integrity: Here they confirm system elements like OS files, application binaries haven't been tampered with or compromised.Detect Vulnerabil",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/what-is-system-integrity-check/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Nikto",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Penetration Testing?",
+    "answer": "Penetration testingis done to find vulnerabilities, malicious content, flaws, and risks. It is done to build up the organization's security system to defend the IT infrastructure. It is an office procedure that can be deemed helpful and not a harmful attempt. It is part of an ethical hacking process that specifically focuses only on penetrating the information system.",
+    "source": "https://www.geeksforgeeks.org/computer-networks/difference-between-penetration-testing-and-ethical-hacking/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Vulnerability Assessment",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Ethical Hacking?",
+    "answer": "An ethical hacker role is quite similar to that of penetration tester, but it encompasses diversified responsibilities. It is comprehensive term that includes all techniques along with other relatedcyber attackmethods. Ethical hacking covers all hacking techniques, and other associated computer attack techniques.",
+    "source": "https://www.geeksforgeeks.org/computer-networks/difference-between-penetration-testing-and-ethical-hacking/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Vulnerability Assessment",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How do Social Engineering Attack Works?",
+    "answer": "While social engineering attacks don't follow a fixed strategy, as attackers often adapt their tactics based on the victim, situation, and context, there are certain common elements that most social engineers employ. These key factors include:",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/social-engineering-the-art-of-virtual-exploitation/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Social Engineering",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q2. What is XSS? How can you mitigate it?",
+    "answer": "Cross-site scripting(XSS) is a vulnerability of JavaScript in Web apps. A script is provided by the user in the client-side input that gets processed in the absence of validation. It results in untrusted information being executed and saved on the clientâs side.",
+    "source": "https://www.simplilearn.com/soc-analyst-interview-questions-article",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Compliance Testing",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q3. What is a black hat, white hat, and gray hat hacker?",
+    "answer": "Black hat hackers hack without any authorization. White hat hackers performethical hackingwith authority, and white hat hackers performing unauthorized hacking tasks are considered gray hat hackers.",
+    "source": "https://www.simplilearn.com/soc-analyst-interview-questions-article",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Compliance Testing",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q4. What is IPS, and how is it different from IDS?",
+    "answer": "IPS is an intrusion prevention system. It detects the intrusion and implements measures for prevention. However, IDS is an intrusion detection system that detects the intrusion. After detection, the administrator takes action. Both of them work on the same concept, but the placement differs.",
+    "source": "https://www.simplilearn.com/soc-analyst-interview-questions-article",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Compliance Testing",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q5. What do you understand about security misconfiguration?",
+    "answer": "Security misconfiguration is a vulnerability. When an application network or device is configured for a cyber attack or fraud, the attacker uses it according to their requirements. Security misconfiguration means providing a gap that the attacker can utilize to their advantage.Â",
+    "source": "https://www.simplilearn.com/soc-analyst-interview-questions-article",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Compliance Testing",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q6. What is CSRF?",
+    "answer": "Cross-site request forgery, or CSRF, is a web application vulnerability under which the server does not check if the trusted client has sent the request or not. The request gets processed easily without any assessment.",
+    "source": "https://www.simplilearn.com/soc-analyst-interview-questions-article",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Compliance Testing",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q8. NIDS or HIDS, which is better?",
+    "answer": "NIDS stands for network intrusion detection system, and HIDS stands for host intrusion detection system. Although both systems work in the same way, their placement is unique. HIDS is located on every host, and NIDS is in the network. NIDS is considered to be more easily manageable than HIDS.",
+    "source": "https://www.simplilearn.com/soc-analyst-interview-questions-article",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Compliance Testing",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q9. What is the CIA triangle?",
+    "answer": "C: confidentiality, keeping the information secret.",
+    "source": "https://www.simplilearn.com/soc-analyst-interview-questions-article",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Compliance Testing",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q10. What do you mean by Port Scanning?",
+    "answer": "Port scanning forwards messages to get information about the system or network by analyzing the received response.",
+    "source": "https://www.simplilearn.com/soc-analyst-interview-questions-article",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Compliance Testing",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Red Team?",
+    "answer": "A Red Team is a team of cybersecurity experts that imitates network assaults on a company to find weaknesses. A Red Team is \"a collection of personnel authorized and organized to simulate a prospective adversary's attack or exploitation capabilities against an enterprise's security posture,\" according to the National Institute of Standards and Technology (NIST). They essentially behave and think like hackers, testing and refining the organization's defenses using a variety of offensive strategies.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/difference-between-red-team-and-blue-team-in-cyber-security/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Red Team Operations",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Blue Team?",
+    "answer": "The Blue Team, on the other hand, is in charge of preventing assaults and maintaining the security posture of the company. According to NIST, the Blue Team is \"the group responsible for protecting an enterprise's usage of information systems by maintaining its security posture against a set of mock attackers.\" They are the defenders that have to react to actions by the Red Team and make sure that the vital resources of the company are protected.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/difference-between-red-team-and-blue-team-in-cyber-security/",
+    "role": "Ethical Hacker/Penetration Tester",
+    "skill": "Red Team Operations",
+    "search_strategy": "role_specific"
+  }
+]

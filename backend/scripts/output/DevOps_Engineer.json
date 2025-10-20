@@ -1,0 +1,2778 @@
+[
+  {
+    "question": "4. What does containerization mean?",
+    "answer": "As the term implies, containerization entails packaging together software code along with all the necessary components, such as frameworks, libraries, and other dependencies, in their own container. Among the advantages of containerization is that a container can be viewed as a fully packaged computing environment that can be transported in one piece.",
+    "source": "https://www.interviewbit.com/ci-cd-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is the importance of DevOps?",
+    "answer": "A robust and flexible product deployment system is essential for organizations to remain competitive in today's digitized world. It is here that theDevOps conceptcomes into play.",
+    "source": "https://www.interviewbit.com/ci-cd-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. Can you explain the Git branch?",
+    "answer": "The Git branch is essentially a separate line of development that can be used for working on a particular feature, usually during development. The use of branches allows developers to code without interfering with the work of other team members.",
+    "source": "https://www.interviewbit.com/ci-cd-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What do you mean by Git Repository?",
+    "answer": "As part of the software development process, software projects are organized through Git repositories. In the repository, developers can keep track of all the files and changes in the project, so that they can navigate to any point in its history at any time.",
+    "source": "https://www.interviewbit.com/ci-cd-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. What is Version Control?",
+    "answer": "Version control involves the use of a central repository where teammates can commit changes to files and sets of files. The purpose of version control is to track every line of code, and to share, review, and synchronize changes between team members. The following are some of the most popular version control tools:",
+    "source": "https://www.interviewbit.com/ci-cd-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "11. Does CI/CD require any programming knowledge?",
+    "answer": "As far as CI/CD goes, it does not require any programming language or scripting language to be used. It is not necessary to use any programming or scripting language when you use a GUI-based tool like Azure DevOps (ADO). The use of ARM templates in Azure DevOps requires scripting knowledge. Therefore, it depends on the tools and different ways of setting up CI/CD.",
+    "source": "https://www.interviewbit.com/ci-cd-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "12. What are some popular CI/CD tools?",
+    "answer": "Some popular CI/CD tools are as follows:",
+    "source": "https://www.interviewbit.com/ci-cd-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "14. What is a CI/CD Engineer?",
+    "answer": "CI/CD engineers can improve the integration and operation of CI/CD tools as well as ensure quality end-to-end integration systems. CI/CD Engineers would keep teams motivated and lead the charge on CI/CD. It is the CI/CD engineer's responsibility to ensure that CI/CD tools and platforms are functioning correctly within an organization. CI/CD engineers understand how to optimize their teams' development and release processes.",
+    "source": "https://www.interviewbit.com/ci-cd-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is DevOps?",
+    "answer": "DevOpsis a software development approach that combines Development (Dev) and IT Operations (Ops) to automate and streamline the software development, testing, deployment, and maintenance process.",
+    "source": "https://www.geeksforgeeks.org/devops/devops-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What is a DevOps Engineer?",
+    "answer": "ADevOps Engineeris a professional who combines software development (Dev) and IT operations (Ops) skills to improve and streamline the process of developing, testing, and releasing software.",
+    "source": "https://www.geeksforgeeks.org/devops/devops-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are the top programming and scripting languages which is important to learn too become DevOps Engineer?",
+    "answer": "For becoming a successful DevOps Engineer it is essential to learn both the programming and scripting languages. You must learn the following languages:",
+    "source": "https://www.geeksforgeeks.org/devops/devops-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is the use of SSH?",
+    "answer": "SSH (Secure Shell) is a cryptographic network protocol used to securely connect and communicate between two systems over an unsecured network. It provides encrypted communication, ensuring that data such as passwords and commands cannot be intercepted by attackers.",
+    "source": "https://www.geeksforgeeks.org/devops/devops-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is CI/CD?",
+    "answer": "CI And CDis the practice of automating the integration of code changes from multiple developers into a single codebase. It is a software development practice where the developers commit their work frequently to the central code repository (Github or Stash).",
+    "source": "https://www.geeksforgeeks.org/devops/devops-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6.What is the difference between Horizontal and Vertical Scaling?",
+    "answer": "We will discuss about the difference between horizontal and vertical scaling one-by-one:",
+    "source": "https://www.geeksforgeeks.org/devops/devops-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is the Blue/Green Deployment Pattern?",
+    "answer": "Blue Green Deployment is just like we deploy two versions of our application, one is the stable version, and another is a new feature or bug fix let’s say, forwarding a certain percentage of traffic to the second version as well in production to ensure that everything is working fine.",
+    "source": "https://www.geeksforgeeks.org/devops/devops-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What's the difference between DevOps & Agile?",
+    "answer": "Agile is a method for creating software.",
+    "source": "https://www.geeksforgeeks.org/devops/devops-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is DevOps, and why is it important?",
+    "answer": "DevOps is a set of practices that combines software development (Dev) and IT operations (Ops). Its main goal is to shorten (and simplify) the software development lifecycle and provide continuous delivery with high software quality.It is important because it helps to improve collaboration between development and operations teams which in turn, translates into increasing deployment frequency, reducing failure rates of new releases, and speeding up recovery time.",
+    "source": "https://roadmap.sh/questions/devops",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is a container, and how is it different from a virtual machine?",
+    "answer": "A container is a runtime instance of a container image (which is a lightweight, executable package that includes everything needed to run your code). It is the execution environment that runs the application or service defined by the container image.When a container is started, it becomes an isolated process on the host machine with its own filesystem, network interfaces, and other resources. Containers share the host operating system's kernel, making them more efficient and quicker to start than virtual machines.A virtual machine (VM), on the other hand, is an emulation of a physical computer. Each VM runs a full operating system and has virtualized hardware, which makes them more resource-intensive and slower to start compared to containers.",
+    "source": "https://roadmap.sh/questions/devops",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Docker, and why is it used?",
+    "answer": "Docker is an open-source platform that enables developers to create, deploy, and run applications within lightweight, portable containers. These containers package an application along with all of its dependencies, libraries, and configuration files.That, in turn, ensures that the application can run consistently across various computing environments.Docker has become one of the most popularDevOps toolsbecause it provides a consistent and isolated environment for development, continuous testing, and deployment. This consistency helps to eliminate the common \"It works on my machine\" problem by ensuring that the application behaves the same way, regardless of where it is run—whether on a developer's local machine, a testing server, or in production.Additionally, Docker simplifies the management of complex applications by allowing developers to break them down into smaller, manageable microservices, each running in its own container.This approach not only supports but also enhances scalab",
+    "source": "https://roadmap.sh/questions/devops",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Can you explain what infrastructure as code (IaC) is?",
+    "answer": "IaC is the practice of managing and provisioning infrastructure through machine-readable configuration files (in other words, “code”), rather than through physical hardware configuration or interactive configuration tools.By keeping this configuration in code format, we now gain the ability to keep it stored in version control platforms, and automate their deployment consistently across environments, reducing the risk of human error and increasing efficiency in infrastructure management.",
+    "source": "https://roadmap.sh/questions/devops",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What are some common IaC tools?",
+    "answer": "As usual, there are several options out there, some of them specialized in different aspects of IaC.Configuration management toolsIf you’re in search of effective configuration management tools to streamline and automate your IT infrastructure, you might consider exploring the following popular options:AnsibleChefPuppetConfiguration management tools are designed to help DevOps engineers manage and maintain consistent configurations across multiple servers and environments. These tools automate the process of configuring, deploying, and managing systems, ensuring that your infrastructure remains reliable, scalable, and compliant with your organization's standards.Provisioning and orchestration toolsIf, on the other hand, you’re looking for tools to handle provisioning and orchestration of your infrastructure, you might want to explore the following popular options:TerraformCloudFormation (AWS)PulumiProvisioning and orchestration tools are essential for automating the process of setting ",
+    "source": "https://roadmap.sh/questions/devops",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is version control, and why is it important in DevOps?",
+    "answer": "Version control is a system that records changes to files over time so that specific versions can be recalled later or multiple developers can work on the same codebase and eventually merge their work streams together with minimum effort.It is important in DevOps because it allows multiple team members to collaborate on code, tracks and manages changes efficiently, enables rollback to previous versions if issues arise, and supports automation in CI/CD pipelines, ensuring consistent and reliable software delivery (which is one of the key principles of DevOps).In terms of tooling, one of the best and most popular version control systems is Git. It provides what is known as a distributed version control system, giving every team member a piece of the code so they can branch it, work on it however they feel like it, and push it back to the rest of the team once they’re done.That said, there are other legacy teams using alternatives like CVS or SVN.",
+    "source": "https://roadmap.sh/questions/devops",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is a microservice, and how does it differ from a monolithic application?",
+    "answer": "A microservice is an architectural style that structures an application as a collection of small, loosely coupled, and independently deployable services (hence the term “micro”).Each service focuses on a specific business domain and can communicate with others through well-defined APIs.In the end, your application is not (usually) composed of a single microservice (that would make it monolith), instead, its architecture consists of multiple microservices working together to serve the incoming requests.On the other hand, a monolithic application is a single (often massive) unit where all functions and services are interconnected and run as a single process.The biggest difference between monoliths and microservices is that changes to a monolithic application require the entire system to be rebuilt and redeployed, while microservices can be developed, deployed, and scaled independently, allowing for greater flexibility and resilience.",
+    "source": "https://roadmap.sh/questions/devops",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is a build pipeline?",
+    "answer": "A build pipeline is an automated process that compiles, tests, and prepares code for deployment. It typically involves multiple stages, such as source code retrieval, code compilation, running unit tests, performing static code analysis, creating build artifacts, and deploying to one of the available environments.The build pipeline effectively removes humans from the deployment process as much as possible, clearly reducing the chance of human error. This, in turn, ensures consistency and reliability in software builds and speeds up the development and deployment process.",
+    "source": "https://roadmap.sh/questions/devops",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What Is Jenkins Used For?",
+    "answer": "Jenkinsis used for automating software development tasks such as code compilation, testing, code quality checks, artifact creation and deployment. It streamlines the development process, ensuring reliability and quality by automating repetitive tasks in a DevOps context.",
+    "source": "https://www.geeksforgeeks.org/devops/jenkins-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How To Trigger a Build In Jenkins Manually?",
+    "answer": "To manually trigger a build in Jenkins:",
+    "source": "https://www.geeksforgeeks.org/devops/jenkins-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What Is The Default Path For The Jenkins Password When You Install It?",
+    "answer": "The default path for the Jenkins password when you install it can vary depending on your operating system and how you installed Jenkins. Here are the general default locations for the Jenkins password:",
+    "source": "https://www.geeksforgeeks.org/devops/jenkins-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. How To Integrate Git With Jenkins?",
+    "answer": "To integrate Git with Jenkins:",
+    "source": "https://www.geeksforgeeks.org/devops/jenkins-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What Does \"Poll SCM\" Mean In Jenkins?",
+    "answer": "In Jenkins, \"poll SCM\" means periodically checking a version control system (e.g., Git) for changes. You can schedule how often Jenkins checks for updates. When changes are detected, Jenkins triggers a build, making it a key feature for continuous integration, scheduled tasks, and automated response to code changes.",
+    "source": "https://www.geeksforgeeks.org/devops/jenkins-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. How To Schedule Jenkins Build Periodically (hourly, daily, weekly)? Explain the Jenkins schedule format.",
+    "answer": "To schedule Jenkins builds periodically at specific intervals, you can use the built-in scheduling feature. Jenkins uses a cron-like syntax for scheduling, allowing you to specify when and how often your builds should run. Here's a detailed explanation of the Jenkins schedule format and how to schedule builds:",
+    "source": "https://www.geeksforgeeks.org/devops/jenkins-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What Is Jenkins Home Directory Path?",
+    "answer": "The Jenkins home directory is where Jenkins stores its critical data, including job configurations, logs, plugins, and more. The location of this directory varies by operating system but can typically be found at:",
+    "source": "https://www.geeksforgeeks.org/devops/jenkins-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. How To Integrate Slack With Jenkins?",
+    "answer": "To integrate Slack with Jenkins for notifications:",
+    "source": "https://www.geeksforgeeks.org/devops/jenkins-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is DevOps?",
+    "answer": "A group of activities and approaches called DevOps combinessoftware development(Dev) with information technology operations (Ops) to improve the efficiency and quality of software development, delivery, and deployment.",
+    "source": "https://www.simplilearn.com/tutorials/devops-tutorial/devops-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is a DevOps Engineer?Â",
+    "answer": "ADevOps engineeris an expert in developing, deploying, and maintaining software systems using the DevOps methodology and practices.",
+    "source": "https://www.simplilearn.com/tutorials/devops-tutorial/devops-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What are the Requirements to Become a DevOps Engineer?",
+    "answer": "Different criteria for becoming a DevOps engineer may exist depending on the business and the individual function. However, some specific fundamental skills and certifications are frequently needed or recommended. They consist of the following:",
+    "source": "https://www.simplilearn.com/tutorials/devops-tutorial/devops-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What do you know about DevOps?",
+    "answer": "Your answer must be simple. Begin by explaining the growing importance of DevOps in the IT industry. Discuss how such an approach aims to synergize the efforts of the development and operations teams to accelerate the delivery of software products with a minimal failure rate. Include how DevOps is a value-added practice where development and operations engineers join hands throughout the product or service lifecycle, from the design stage to the deployment point.",
+    "source": "https://www.simplilearn.com/tutorials/devops-tutorial/devops-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How is DevOps different from agile methodology?",
+    "answer": "DevOps is a culturethat allows the development andÂoperations teams to work together. This results inÂcontinuous software development, testing, integration, deployment, and monitoringthroughout the lifecycle.",
+    "source": "https://www.simplilearn.com/tutorials/devops-tutorial/devops-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What are the different phases in DevOps?",
+    "answer": "The various phases of the DevOps lifecycle are as follows:",
+    "source": "https://www.simplilearn.com/tutorials/devops-tutorial/devops-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. How will you approach a project that needs to implement DevOps?",
+    "answer": "The following standard approaches can be used to implement DevOps in a specific project:",
+    "source": "https://www.simplilearn.com/tutorials/devops-tutorial/devops-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is the difference between continuous delivery and continuous deployment?",
+    "answer": "Enables management of and changes to multiple systems.",
+    "source": "https://www.simplilearn.com/tutorials/devops-tutorial/devops-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Jenkins?",
+    "answer": "Jenkins is an open-source free automation tool used to build and test software projects. The tool makes it painless for developers to integrate changes to the project. Jenkins' primary focus is to keep track of the version control system and initiate and monitor a build system if there are any changes. It keeps an eye on the entire process and provides reports and notifications to alert.",
+    "source": "https://www.simplilearn.com/tutorials/jenkins-tutorial/jenkins-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the features of Jenkins?",
+    "answer": "Some of the crucial features of Jenkins are the following:",
+    "source": "https://www.simplilearn.com/tutorials/jenkins-tutorial/jenkins-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is Groovy in Jenkins?",
+    "answer": "Apache Groovy is a dynamic object-oriented programming language used as a scripting language forJavaplatforms.Â",
+    "source": "https://www.simplilearn.com/tutorials/jenkins-tutorial/jenkins-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. How do you install Jenkins?",
+    "answer": "Follow the steps mentioned below toinstall Jenkins:",
+    "source": "https://www.simplilearn.com/tutorials/jenkins-tutorial/jenkins-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. Which commands can be used to begin Jenkins?",
+    "answer": "Here are the commands used to start Jenkins:",
+    "source": "https://www.simplilearn.com/tutorials/jenkins-tutorial/jenkins-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is \"Continuous Integration\" with reference to Jenkins?",
+    "answer": "Continuous Integrationis a development practice where the codes can be integrated into a shared repository.Â",
+    "source": "https://www.simplilearn.com/tutorials/jenkins-tutorial/jenkins-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What are the differences between Continuous Integration, Continuous Delivery, and Continuous Deployment?",
+    "answer": "Continuous Integration (CI) is a DevOps software development practice that permits developers to combine/merge the changes to their code in the central repository to run automated builds and tests.",
+    "source": "https://www.simplilearn.com/tutorials/jenkins-tutorial/jenkins-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is a CI/CD pipeline?",
+    "answer": "CI/CD Pipeline or Continuous Integration/ Continuous Delivery is considered the DevOps approach's backbone. The pipeline is responsible for building codes, running tests, and deploying new software versions.",
+    "source": "https://www.simplilearn.com/tutorials/jenkins-tutorial/jenkins-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is DevOps?",
+    "answer": "DevOps stands for Development and Operations. It is a software engineering practice that focuses on bringing together the development team and the operations team for the purpose of automating the project at every stage. This approach helps in easily automating the project service management in order to aid the objectives at the operational level and improve the understanding of the technological stack used in the production environment.",
+    "source": "https://www.interviewbit.com/devops-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. Why DevOps has become famous?",
+    "answer": "These days, the market window of products has reduced drastically. We see new products almost daily. This provides a myriad of choices to consumers but it comes at a cost of heavy competition in the market. Organizations cant afford to release big features after a gap. They tend to ship off small features as releases to the customers at regular intervals so that their products don't get lost in this sea of competition.",
+    "source": "https://www.interviewbit.com/devops-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. Who is a DevOps engineer?",
+    "answer": "ADevOps engineeris a person who works with bothsoftware developersand the IT staff to ensure smooth code releases. They are generally developers who develop an interest in the deployment and operations domain or the system admins who develop a passion for coding to move towards the development side.",
+    "source": "https://www.interviewbit.com/devops-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is the use of SSH?",
+    "answer": "SSH stands for Secure Shell and is an administrative protocol that lets users have access and control the remote servers over the Internet to work using the command line.",
+    "source": "https://www.interviewbit.com/devops-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is configuration management?",
+    "answer": "Configuration management (CM) is basically a practice of systematic handling of the changes in such a way that system does not lose its integrity over a period of time. This involves certain policies, techniques, procedures, and tools for evaluating change proposals, managing them, and tracking their progress along with maintaining appropriate documentation for the same.",
+    "source": "https://www.interviewbit.com/devops-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is the importance of having configuration management in DevOps?",
+    "answer": "Configuration management (CM) helps the team in the automation of time-consuming and tedious tasks thereby enhancing the organization’s performance and agility.",
+    "source": "https://www.interviewbit.com/devops-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What does CAMS stand for in DevOps?",
+    "answer": "CAMS stands for Culture, Automation, Measurement, and Sharing. It represents the core deeds of DevOps.",
+    "source": "https://www.interviewbit.com/devops-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is Continuous Integration (CI)?",
+    "answer": "Continuous Integration (CI) is a software development practice that makes sure developers integrate their code into a shared repository as and when they are done working on the feature. Each integration is verified by means of an automated build process that allows teams to detect problems in their code at a very early stage rather than finding them after the deployment.",
+    "source": "https://www.interviewbit.com/devops-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Jenkins?",
+    "answer": "Jenkins is a self-contained, open-source automation server that can be used to automate all sorts of tasks related to building, testing, and delivering or deploying software. Jenkins can be installed through native system packages, Docker, or even run standalone by any machine with a Java Runtime Environment (JRE) installed.",
+    "source": "https://www.interviewbit.com/jenkins-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. Tell me something about Continuous Integration, Continuous Delivery, and Continuous Deployment?",
+    "answer": "Continuous Integration:A software development process where the changes made to software are integrated into the main code as and when a patch is ready so that the software will be always ready to be - built, tested, deployed, monitored - continuously.",
+    "source": "https://www.interviewbit.com/jenkins-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. How can we stop a scheduled job from being executed temporarily?",
+    "answer": "Disable the job from the job details page to temporarily stop all scheduled executions & other factors/events from triggering the job and enable it back to resume the job schedules/triggers. If a job is not required permanently, we can delete the job from the jobs list view page.",
+    "source": "https://www.interviewbit.com/jenkins-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What are the common use cases Jenkins is used for?",
+    "answer": "Jenkins being open-source automation can be used for any kind of software-based automation. Some of the common use-cases include but not limited to -",
+    "source": "https://www.interviewbit.com/jenkins-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What are the ways to install Jenkins?",
+    "answer": "Jenkins can be installed using -",
+    "source": "https://www.interviewbit.com/jenkins-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is a Jenkins job?",
+    "answer": "A Job/Project is the fundamental unit of a logical work (like a software build, an automation task, test execution, etc) using the Jenkins automation server and other required plugins, configurations & infrastructures.",
+    "source": "https://www.interviewbit.com/jenkins-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is a Jenkins Pipeline?",
+    "answer": "The pipeline is a special type of Jenkins job - simply a sequence of steps controlled by a defined logic - which Orchestrates long-running activities that can span across multiple build agents. It is suitable for building pipelines (formerly known as workflows) and/or organizing complex activities that cannot be easily achieved using a freestyle job.",
+    "source": "https://www.interviewbit.com/jenkins-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What are the types of Jenkins pipelines?",
+    "answer": "Jenkins Pipelines can be either - a Declarative pipeline or a Scripted Pipeline. Declarative pipeline makes use of numerous, generic, predefined build steps/stages (i.e. code snippets) to build our job according to our build/automation needs whereas, with Scripted pipelines, the steps/stages can be custom-defined & used using a groovy syntax which provides better control & fine-tuned execution levels.",
+    "source": "https://www.interviewbit.com/jenkins-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "CI/CD",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Docker, and why is it used?",
+    "answer": "Docker is an open-source platform for application development, from building to scaling. It is preferred for its ability to accelerate the process of building, sharing, and running applications without requiring environment configuration or management.",
+    "source": "https://www.simplilearn.com/tutorials/docker-tutorial/docker-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What is a Docker container?",
+    "answer": "A Docker container is a standard software packaging unit that contains code and other dependencies such as system libraries, runtime, system tools, and settings. These speed up the application's running across various environments. In simple terms, Docker can be considered an executable, standalone, and lightweight package.",
+    "source": "https://www.simplilearn.com/tutorials/docker-tutorial/docker-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. How do you create a Docker container?",
+    "answer": "ADocker containercan be created using the âdocker container createâ command in the system command. This command establishes the new container from the specified image without starting it immediately. The newly created container is generated in a âcreatedâ state, writable, and open to running specific commands.",
+    "source": "https://www.simplilearn.com/tutorials/docker-tutorial/docker-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. How does Docker differ from a virtual machine?",
+    "answer": "Docker is a software platform for creating and running Docker containers, while a Virtual Machine refers to the physical machine that runs an operating system.",
+    "source": "https://www.simplilearn.com/tutorials/docker-tutorial/docker-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is a Docker image?",
+    "answer": "Docker imagesare read-only templates in the form of a blueprint or snapshot. They contain guidelines or instructions for creating a container. These images are standalone and executable files that comprise the dependencies, libraries, and files essential for the container.",
+    "source": "https://www.simplilearn.com/tutorials/docker-tutorial/docker-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. How do you push and pull Docker images?",
+    "answer": "Docker images are stored in Docker Hub. To obtain the image or pull it, the required command is",
+    "source": "https://www.simplilearn.com/tutorials/docker-tutorial/docker-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is a Dockerfile?",
+    "answer": "A Dockerfile is a text document comprising all the commands required for image assembly. Users call these commands. Examples of Dockerfile commands include âADDâ, âARGâ, âCOPYâ, âLABELâ, and many more.",
+    "source": "https://www.simplilearn.com/tutorials/docker-tutorial/docker-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is a Docker registry?",
+    "answer": "The Docker registry is the centralized storage, management, and distribution system for container images. It comprises Docker repositories that contain different versions of the images. Images from the registry can be accessed through push and pull commands.",
+    "source": "https://www.simplilearn.com/tutorials/docker-tutorial/docker-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is a Container?",
+    "answer": "Docker can be visualized as a big ship (docker) carrying huge boxes of products (containers).",
+    "source": "https://www.interviewbit.com/docker-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Why Learn Docker?",
+    "answer": "All these aspects form the core part of DevOps which becomes all the more important for any developer to know these in order to improve productivity, fasten the development along with keeping in mind the factors of application scalability and more efficient resource management.",
+    "source": "https://www.interviewbit.com/docker-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. How many Docker components are there?",
+    "answer": "There are three docker components, they are - Docker Client, Docker Host, and Docker Registry.",
+    "source": "https://www.interviewbit.com/docker-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are docker images?",
+    "answer": "They are executable packages(bundled with application code & dependencies, software packages, etc.) for the purpose of creating containers. Docker images can be deployed to any docker environment and the containers can be spun up there to run the application.",
+    "source": "https://www.interviewbit.com/docker-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is a DockerFile?",
+    "answer": "It is a text file that has all commands which need to be run for building a given image.",
+    "source": "https://www.interviewbit.com/docker-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. Can you tell what is the functionality of a hypervisor?",
+    "answer": "A hypervisor is a software that makes virtualization happen because of which is sometimes referred to as the Virtual Machine Monitor. This divides the resources of the host system and allocates them to each guest environment installed.",
+    "source": "https://www.interviewbit.com/docker-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What can you tell about Docker Compose?",
+    "answer": "It is a YAML file consisting of all the details regarding various services, networks, and volumes that are needed for setting up the Docker-based application. So, docker-compose is used for creating multiple containers, host them and establish communication between them. For the purpose of communication amongst the containers, ports are exposed by each and every container.",
+    "source": "https://www.interviewbit.com/docker-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. Can you tell something about docker namespace?",
+    "answer": "A namespace is basically a Linux feature that ensures OS resources partition in a mutually exclusive manner. This forms the core concept behind containerization as namespaces introduce a layer of isolation amongst the containers. In docker, the namespaces ensure that the containers are portable and they don't affect the underlying host. Examples for namespace types that are currently being supported by Docker – PID, Mount, User, Network, IPC.",
+    "source": "https://www.interviewbit.com/docker-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Docker ?",
+    "answer": "Dockeris a containerization platform that allows to package an application with all its dependencies into one single entity as single container which can be easily deployed and run on any machine that supports docker.  This makes it easier to devlop , test , deploy applications in different environments. It uses container technology to isolate processes and provide a lightweight, portable solution for application deployment.",
+    "source": "https://www.geeksforgeeks.org/devops/docker-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the Features of Docker?",
+    "answer": "Docker features containerization for providing consistent deployment , using  resources efficient shared kernel utilization, and provides seamless portability across environments. It enhances the security through isolation of containers supporting  versioning and automated builds. It  offers a rich number of pre-built images for streamlined application development and deployment.",
+    "source": "https://www.geeksforgeeks.org/devops/docker-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are the Pros and Cons of Docker?",
+    "answer": "We can use this following command to import a pre-exported Docker image into another host:",
+    "source": "https://www.geeksforgeeks.org/devops/docker-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. Can You tell What is the Functionality of a Hypervisor?",
+    "answer": "Ahypervisoris a virtualization software that helps in  running  multiple operating systems (Guest OS) on a single physical host system by providing an isolation between the virtual machines (VMs) and manages their resources.",
+    "source": "https://www.geeksforgeeks.org/devops/docker-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. Difference between Docker and Virtualization?",
+    "answer": "Docker usescontainerizationconcept, which shares the host OS kernel for efficiency and speed whereas Virtualization involves running complete OS instances ( Guest Operating systems ) on a hypervisor, which may have more overhead on using resources. The following figure ilustrate on both the Docker and Virtualization Architectures.",
+    "source": "https://www.geeksforgeeks.org/devops/docker-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. On What Circumstances Will You Lose Data Stored in a Container?",
+    "answer": "The Data in a container can be lost whenever the container is deleted, or if docker non-persistent storage( Ephemeral storage ) is used without proper data management. To make the data  persistent , it is recommended to use Docker volumes or volume binding ( volume mounts )  are recommended.",
+    "source": "https://www.geeksforgeeks.org/devops/docker-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is Docker Hub?",
+    "answer": "Docker Hubis container registry that serves as a centralized repository forDocker images.It built for developers and open source contributors to find , use , share and download container images.Docker Hub can be used  either host public repos that can be used for free, ordocker private reposfor teams and enterprises.",
+    "source": "https://www.geeksforgeeks.org/devops/docker-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. What Command Can You Run to Export a Docker Image As an Archive?",
+    "answer": "You can use this following command to export a Docker image as an archive:",
+    "source": "https://www.geeksforgeeks.org/devops/docker-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Kubernetes?",
+    "answer": "This is one of the most basic Kubernetes interview questions, yet one of the most important ones!Kubernetesis an open-source container orchestration tool or system thatÂautomates tasks such as managing, monitoring, scaling, and deploying containerized applications. It can easily manageÂ several containers (since it can handletheÂ  grouping of containers), providingÂ for logical units that can be discovered and managed.",
+    "source": "https://www.simplilearn.com/tutorials/kubernetes-tutorial/kubernetes-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are K8s?Â",
+    "answer": "K8s is another term for Kubernetes.",
+    "source": "https://www.simplilearn.com/tutorials/kubernetes-tutorial/kubernetes-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is orchestration when it comes to software and DevOps?Â",
+    "answer": "Orchestration refers to integrating multiple services that allow them to automate processes or synchronize information promptly. For example, you have six or seven microservices for an application to run. If you place them in separate containers, this would inevitably create obstacles for communication. Orchestration would help in such a situation by enabling all services in individual containers to work seamlessly to accomplish a single goal.",
+    "source": "https://www.simplilearn.com/tutorials/kubernetes-tutorial/kubernetes-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. How are Kubernetes and Docker related?",
+    "answer": "This is one of the most frequently asked Kubernetes interview questions, where the interviewer might as well ask you to share your experience working with any of them.Docker is an open-sourceplatform used to handle software development. Its main benefit is that it packages the settings and dependencies that the software/application needs to run into a container, which allows for portability and several other advantages. Kubernetes allows for the manual linking and orchestration of several containers, running on multiple hosts that have been created using Docker.Â",
+    "source": "https://www.simplilearn.com/tutorials/kubernetes-tutorial/kubernetes-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What are the main differences between the Docker Swarm and Kubernetes?",
+    "answer": "Docker Swarm is Dockerâs native, open-source container orchestration platform that is used to cluster and schedule Docker containers. Swarm differs from Kubernetes in the following ways:",
+    "source": "https://www.simplilearn.com/tutorials/kubernetes-tutorial/kubernetes-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is the difference between deploying applications on hosts and containers?",
+    "answer": "Deploying Applications consist of an architecture that has an operating system. The operating system will have a kernel that holds various libraries installed on the operating system needed for an application.",
+    "source": "https://www.simplilearn.com/tutorials/kubernetes-tutorial/kubernetes-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What are the features of Kubernetes?",
+    "answer": "Kubernetesallows the user to control where the server will host the container and how it will launch. Thus, Kubernetes automates various manual processes.Â",
+    "source": "https://www.simplilearn.com/tutorials/kubernetes-tutorial/kubernetes-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What are the main components of Kubernetes architecture?",
+    "answer": "There are two primary components ofKubernetes Architecture: the master node and the worker node. Each has individual components.",
+    "source": "https://www.simplilearn.com/tutorials/kubernetes-tutorial/kubernetes-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Docker",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Kubernetes?",
+    "answer": "Kubernetes is an open-source platform designed to automate deploying, scaling, and operating application containers.Originally developed by Google, it has become the standard for managing containerized workloads and services. Kubernetes provides a robust framework for orchestrating containers across a cluster of machines, abstracting away the complexities of managing individual containers and allowing developers to focus on building and deploying applications.",
+    "source": "https://www.geeksforgeeks.org/devops/kubernetes-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Kubernetes",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What is a Pod in Kubernetes?",
+    "answer": "A cluster of one or more Linux containers makes up aKubernetes pod, the smallest unit of a Kubernetes application. From the more common scenario of a single container to an advanced use case with numerous tightly coupled containers within a pod, this basic structure allows for an array of designs.",
+    "source": "https://www.geeksforgeeks.org/devops/kubernetes-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Kubernetes",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. How does Kubernetes handle container scaling?",
+    "answer": "To automatically scale the workload to match demand, aHorizontal Pod Autoscalingin Kubernetes updates a workload resource (such a deployment or stateful set). Horizontal scaling indicates that more pods are added in response to an increase in load.",
+    "source": "https://www.geeksforgeeks.org/devops/kubernetes-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Kubernetes",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is Kubelet?",
+    "answer": "Kubeletis an important component of Kubernetes that manages containers within pods on a node. It registers the node with the control plane and provides resource information. Kubelet keeps an eye on container health and responds to problems—lik isnces of pods that contain a containerized application. Deployments can help to efficiently scale the number of replica pods, enable the rollout of updated code in a controlled manner, or roll back to the earlier deployment version if necessary.",
+    "source": "https://www.geeksforgeeks.org/devops/kubernetes-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Kubernetes",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What is a Service in Kubernetes?",
+    "answer": "The idea of the Service is to group a set of Pod endpoints into a single resource. We can configure various ways to access the grouping. By default, we can get a stable clusterIP addressthat the clients inside the cluster can use to contact Pods in Service.",
+    "source": "https://www.geeksforgeeks.org/devops/kubernetes-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Kubernetes",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. How does Kubernetes manage configuration?",
+    "answer": "Kubernetes employsConfigMapsand Secrets to manage configuration. ConfigMaps store non-sensitive setup data, while Secrets handles sensitive information like passwords. These resources have different configurations from the application code, making updates easier. ConfigMaps have key-value pairs for different settings that can be accessed as environment variables or mounted files. Sensitive data is securely stored inSecrets, which are applied to the cluster using kubectl. Both ConfigMaps and Secrets are defined inYAML filesand applied to the cluster using kubectl. Kubernetes tracks changes in these resources, triggering updates in Pods without needing changes to the application code.",
+    "source": "https://www.geeksforgeeks.org/devops/kubernetes-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Kubernetes",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "10. What is the role of the kube-proxy in Kubernetes and how does it facilitate communication between Pods?",
+    "answer": "The networking part of Kubernetes that enables communication between pods & services is calledKube-proxy, and it may be installed on any cluster node. Its major function is to maintain network rules for service-to-pod mapping, which provides communication to and fromKubernetes clusters.",
+    "source": "https://www.geeksforgeeks.org/devops/kubernetes-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Kubernetes",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "12. What is a ConfigMap?",
+    "answer": "AConfigMapis an API object in Kubernetes that is primarily used to store non-confidential data. ConfigMaps are a way for Kubernetes to inject configuration data into application pods, making it easier to manage and update configuration settings and assist in separating configuration from application code.",
+    "source": "https://www.geeksforgeeks.org/devops/kubernetes-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Kubernetes",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Kubernetes?",
+    "answer": "Kubernetesis a distributed open-source technology that helps us in scheduling and executing application containers within and across clusters. A Kubernetes cluster consists of two types of resources:",
+    "source": "https://www.interviewbit.com/kubernetes-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Kubernetes",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. How to do maintenance activity on the K8 node?",
+    "answer": "Whenever there are security patches available the Kubernetes administrator has to perform the maintenance task to apply the security patch to the running container in order to prevent it from vulnerability, which is often an unavoidable part of the administration. The following two commands are useful to safely drain the K8s node.",
+    "source": "https://www.interviewbit.com/kubernetes-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Kubernetes",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. How to get the central logs from POD?",
+    "answer": "This architecture depends upon the application and many other factors. Following are the common logging patterns",
+    "source": "https://www.interviewbit.com/kubernetes-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Kubernetes",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. How to monitor the Kubernetes cluster?",
+    "answer": "Prometheus is used for Kubernetes monitoring. The Prometheus ecosystem consists of multiple components.",
+    "source": "https://www.interviewbit.com/kubernetes-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Kubernetes",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What are the various things that can be done to increase Kubernetes security?",
+    "answer": "By default, POD can communicate with any other POD, we can set up network policies to limit this communication between the PODs.",
+    "source": "https://www.interviewbit.com/kubernetes-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Kubernetes",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is the role of Load Balance in Kubernetes?",
+    "answer": "Load balancing is a way to distribute the incoming traffic into multiple backend servers, which is useful to ensure the application available to the users.",
+    "source": "https://www.interviewbit.com/kubernetes-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Kubernetes",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What’s the init container and when it can be used?",
+    "answer": "init containers will set a stage for you before running the actual POD.",
+    "source": "https://www.interviewbit.com/kubernetes-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Kubernetes",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What is PDB (Pod Disruption Budget)?",
+    "answer": "Example: YAML Config using minAvailable =>",
+    "source": "https://www.interviewbit.com/kubernetes-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Kubernetes",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "DevOps: What It Is And Why It Matters?",
+    "answer": "DevOpsis the intersection of development and operations. Development and operations are two main components in the whole application release process and aDevOps engineerworks closely with both the development and the operations team and ensures that both the team rather than working in silos, work in an agile and collaborative environment understanding each other.",
+    "source": "https://www.geeksforgeeks.org/devops/devops-best-practices-for-kubernetes/",
+    "role": "DevOps Engineer",
+    "skill": "Kubernetes",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What Is Kubernetes And Why Should You Care?",
+    "answer": "Kubernetesis an open source container orchestration framework originally developed by google, released on September 2014 and later donated to CNCF (Cloud Native Community Foundation). Kubernetes helps us manage applications that are made up of hundreds or even thousands of containers and it helps us manage these applications in different environments like physical machines, virtual machines, cloud environments or even hybrid deployment environments.",
+    "source": "https://www.geeksforgeeks.org/devops/devops-best-practices-for-kubernetes/",
+    "role": "DevOps Engineer",
+    "skill": "Kubernetes",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is the Need Of DevOps?",
+    "answer": "The most important part of DevOps practices is tacking the challenge of miscommunication and lack of collaboration between developers and the operations team. Releasing application has two main parts - coding the application and the other part is deploying and maintaining the application. Developers are responsible for coding part while the operations team is responsible for running the application and between these two there might be a gap. The operations team wants to run the application but they don't know how it works on the first place, and the developers would code without considering where or how the code will be deployed. While operations would try to deploy without really understanding what and why they are deploying or how the application even works. this would result in miscommunications between the two teams and causes not just less productivity and releasing the newer versions takes longer time, but also lesser quality applications being deployed without proper collaborati",
+    "source": "https://www.geeksforgeeks.org/devops/devops-best-practices-for-kubernetes/",
+    "role": "DevOps Engineer",
+    "skill": "Kubernetes",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What Is Ansible ?",
+    "answer": "Ansible is an open-source automation tool developed by Redhat that is  meant for simplifying the configuration management, application deployment, and automation of tasks. It allows us in automating repetitive tasks, ensuring consistency and efficiency in managing servers and networks usingSSH protocolfor  make communication with the network Agentlessly.",
+    "source": "https://www.geeksforgeeks.org/devops/ansible-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Ansible",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What Is Inventory ?",
+    "answer": "In Ansible, an inventory is a file  with specifying the information of hosts that going to be managed. It contains information such as hostnames, IP addresses, and groups of organization. The inventory can be either  static or dynamic, and it may be with inclusion of variables by specific host details. It's a key component for targeting and managing nodes infrastructure in Ansible. A sample inventory file is given below.",
+    "source": "https://www.geeksforgeeks.org/devops/ansible-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Ansible",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What Are The Features Of Ansible ?",
+    "answer": "Ansible comes with several features that make it powerful and popular automation tool. A few of the key features are listed here:",
+    "source": "https://www.geeksforgeeks.org/devops/ansible-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Ansible",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What Are Ansible Tasks, And How Do They Contribute To The Automation Process?",
+    "answer": "Ansible tasks are individual work units within a playbook coming with defined actions that to be performed on remote hosts, contributing to the overall automation process.",
+    "source": "https://www.geeksforgeeks.org/devops/ansible-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Ansible",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What Makes Ansible Stand Out From Other Configuration Management Tools?",
+    "answer": "Ansible's agentless architecture and its simplicity in use (YAML syntax), and ease of setup contribute to its standout features among other Configuration Management tools.",
+    "source": "https://www.geeksforgeeks.org/devops/ansible-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Ansible",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. What Is The Foundational Programming Language Of Ansible?",
+    "answer": "Ansible is built on top ofPython,enhancing its simplicity for clear playbooks and versatility in creating robust modules. Python's wide range of  adoption provided good community support, making Ansible an effective and flexible automation tool.",
+    "source": "https://www.geeksforgeeks.org/devops/ansible-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Ansible",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "11. What are handlers in Ansible, and how are they used in playbooks?",
+    "answer": "Handlers in Ansible are tasks  that are triggered by other tasks, usually used to  respond for the  changes that require  start , stop , reload or restart the service actions. They are defined in the playbook and executed as per need.",
+    "source": "https://www.geeksforgeeks.org/devops/ansible-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Ansible",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "13. How Do You Set Up a Basic Ansible Playbook to Install a Package On a Group Of Servers?",
+    "answer": "To set up a basic Ansible playbook for installing a package on a group of servers, you should start firstly by creating a YAML file, typically name something like install_package.yml. Within this file, specify the hosts you want to target, specify the tasks, and include the package installation. Here's a simplified example:",
+    "source": "https://www.geeksforgeeks.org/devops/ansible-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Ansible",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is CI/CD?",
+    "answer": "Continuous Integration is something that is used for streamlining the development and deployment process. These lead to the more rapid development of cohesive software.Continuous Delivery is on the other hand is a process where your code after being pushed to a remote repository can be taken to production at any time.",
+    "source": "https://www.interviewbit.com/ansible-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Ansible",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How to use YAML files in high programming languages such as JAVA, Python, etc?",
+    "answer": "YAML is supported in most programming languages and can be easily integrated with user programs.In JAVA we can use the Jackson module which also parses XML and JSON. For e.g",
+    "source": "https://www.interviewbit.com/ansible-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Ansible",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are Ansible tasks?",
+    "answer": "The task is a unit action of Ansible. It helps by breaking a configuration policy into smaller files or blocks of code. These blocks can be used in automating a process. For example, to install a package or update a software",
+    "source": "https://www.interviewbit.com/ansible-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Ansible",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is a YAML file and how do we use it in Ansible?",
+    "answer": "YAML or files are like any formatted text file with few sets of rules just like JSON or XML. Ansible uses this syntax for playbooks as it is more readable than other formats.An example of JSON vs YAML is:",
+    "source": "https://www.interviewbit.com/ansible-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Ansible",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. Explain Ansible modules in detail?",
+    "answer": "Ansible modules are like functions or standalone scripts which run specific tasks idempotently. The return value of these are JSON string in stdout and input depends on the type of module. These are used by Ansible playbooks.There are 2 types of modules in Ansible:",
+    "source": "https://www.interviewbit.com/ansible-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Ansible",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is Ansible Galaxy?",
+    "answer": "Galaxy is a repository of Ansible roles that can be shared among users and can be directly dropped into playbooks for execution. It is also used for the distribution of packages containing roles, plugins, and modules also known as collection. The ansible-galaxy-collection command implements similar to init, build, install, etc like an ansible-galaxy command.",
+    "source": "https://www.interviewbit.com/ansible-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Ansible",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. Explain Infrastructure as Code?",
+    "answer": "Infrastructure as Code or IaC is a process that DevOps teams should follow to have a more organized way of managing the infra. Instead of some throwaway scripts or manually configuring any cloud component, there should be a code repo where all of these will lie and any change in configuration should be done through it. It is wise to put it under source control also. This improves speed, consistency, and accountability.",
+    "source": "https://www.interviewbit.com/ansible-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Ansible",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What are the features of Ansible?",
+    "answer": "It has the following features:",
+    "source": "https://www.interviewbit.com/ansible-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Ansible",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. Letâs begin with the basics. What is Ansible?",
+    "answer": "Ansible is an open-source platform that facilitates configuration management, task automation, or application deployment. It is a valuable DevOps tool. It was written inPythonand powered by Red Hat. It uses SSH to deploy SSH without incurring any downtime.",
+    "source": "https://www.simplilearn.com/tutorials/ansible-tutorial/ansible-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Ansible",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are CD and CI, and what is Ansibleâs relationship with them?",
+    "answer": "CD stands for continuous delivery, and CI stands forcontinuous integration;both are software development practices.Â",
+    "source": "https://www.simplilearn.com/tutorials/ansible-tutorial/ansible-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Ansible",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. How do you set up Ansible?",
+    "answer": "You can use either the Python installer or a Linux-based installation process, such as apt or yum.",
+    "source": "https://www.simplilearn.com/tutorials/ansible-tutorial/ansible-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Ansible",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is Ansible Tower?",
+    "answer": "Itâs an enterprise-level web-based solution that increases Ansibleâs accessibility to other IT teams by including an easy-to-use UI (user interface). Towerâs primary function is to serve as the hub for all of an organizationâs automation tasks, allowing users to monitor configurations and conduct rapid deployments.",
+    "source": "https://www.simplilearn.com/tutorials/ansible-tutorial/ansible-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Ansible",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is âidempotencyâ?",
+    "answer": "idempotency is an important Ansible feature. It prevents unnecessary changes in the managed hosts. With idempotency, you can execute one or more tasks on a server as many times as you need to, but it wonât change anything thatâs already been modified and is working correctly. To put it in basic terms, the only changes added are the ones needed and not already in place.",
+    "source": "https://www.simplilearn.com/tutorials/ansible-tutorial/ansible-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Ansible",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. What is Ansible Galaxy?",
+    "answer": "This is a tool bundled with Ansible to create a base directory structure. Galaxy is a website that lets users find and share Ansible content. You can use this command to download roles from the website:",
+    "source": "https://www.simplilearn.com/tutorials/ansible-tutorial/ansible-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Ansible",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "11. How do you use Ansible to create encrypted files?",
+    "answer": "To create an encrypted file, use the âansible-vault createâ command.",
+    "source": "https://www.simplilearn.com/tutorials/ansible-tutorial/ansible-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Ansible",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "12. What are âfactsâ in the context of Ansible?",
+    "answer": "Facts are newly discovered and known system variables, found in the playbooks, used mostly for implementing conditionals executions. Additionally, they gather ad-hoc system information.",
+    "source": "https://www.simplilearn.com/tutorials/ansible-tutorial/ansible-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Ansible",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Is DevOps for Freshers?",
+    "answer": "DevOps is a hot topic in the IT industry and lots of companies now need a DevOps Engineer to manage their servers, code deployment process, and maintenance of their applications. If you also want to join any organization as a DevOps Engineer without any prior work experience, then it is very important for you to follow these certain tips to get into the world of DevOps.",
+    "source": "https://www.geeksforgeeks.org/devops-tutorial/?ref",
+    "role": "DevOps Engineer",
+    "skill": "Ansible",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Git?",
+    "answer": "Git is adistributed version control system(DVCS) that is used to track changes in source code during software development. It permits multiple developers to work on a project together without interrupting each other's changes.Gitis especially popular for its speed, and ability to manage both small and large projects capably.",
+    "source": "https://www.geeksforgeeks.org/git/git-interview-questions-and-answers/",
+    "role": "DevOps Engineer",
+    "skill": "Git",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What is a repository in Git?",
+    "answer": "AGit repository(or repo) is like a file structure that stores all the files for a project. It continues track changes made to these files over time, helping teams work together evenly. Git can control both local repositories (on your own machine) and remote repositories (usually hosted on platforms likeGitHub,GitLab, orBitbucket), allowing teamwork and backup.",
+    "source": "https://www.geeksforgeeks.org/git/git-interview-questions-and-answers/",
+    "role": "DevOps Engineer",
+    "skill": "Git",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What is the difference between Git and GitHub?",
+    "answer": "Aliases can be created to simplify Git commands using:",
+    "source": "https://www.geeksforgeeks.org/git/git-interview-questions-and-answers/",
+    "role": "DevOps Engineer",
+    "skill": "Git",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What is origin in Git?",
+    "answer": "In Git, \"origin\" states to the default name offered to the remote repository from which  local repository was cloned.Git originis used as a reference to control fetches, pulls, and pushes.",
+    "source": "https://www.geeksforgeeks.org/git/git-interview-questions-and-answers/",
+    "role": "DevOps Engineer",
+    "skill": "Git",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is the purpose of the .gitignore file?",
+    "answer": "The'.gitignore'file tells Git which files and folders to ignore when tracking changes. It is used to avoid attaching unneeded files (like logs, temporary files, or compiled code) to your repository. This saves repository clean and targeted on important files only.",
+    "source": "https://www.geeksforgeeks.org/git/git-interview-questions-and-answers/",
+    "role": "DevOps Engineer",
+    "skill": "Git",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What is a version control system (VCS)?",
+    "answer": "Aversion control system(VCS) records the work of developers coordinating on projects. It keeps the history of code changes, permitting developers to add new code, fix bugs, and run tests securely. If required, they can restore a past working version, verifying project security.",
+    "source": "https://www.geeksforgeeks.org/git/git-interview-questions-and-answers/",
+    "role": "DevOps Engineer",
+    "skill": "Git",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What is the git push command?",
+    "answer": "The 'git push' command is used to share local repository changes to a remote repository. It changes the remote repository with the recent commits from the fixed local branch.",
+    "source": "https://www.geeksforgeeks.org/git/git-interview-questions-and-answers/",
+    "role": "DevOps Engineer",
+    "skill": "Git",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What is the git pull command?",
+    "answer": "The 'git pull' command updates the current local branch with changes from a remote repository and combining it with a local repository.",
+    "source": "https://www.geeksforgeeks.org/git/git-interview-questions-and-answers/",
+    "role": "DevOps Engineer",
+    "skill": "Git",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What Is Git and Why Is It Used?",
+    "answer": "Git is a widely adopted distributed version control system (VCS) essential for managing modifications in source code throughout thesoftware development process. Linus Torvalds developed it in 2005 to facilitate the Linux kernel's development. Engineered for speed and efficiency,Gitis versatile enough to manage projects of any size, from modest to expansive.",
+    "source": "https://www.simplilearn.com/tutorials/git-tutorial/git-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Git",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why Is Git Used?",
+    "answer": "Version Control: Git enables several developers to collaborate on a single project at the same time without hindering one another's contributions. It meticulously records every modification to the project's codebase, identifying the author and the timestamp of each change. This functionality is vital for synchronizing team activities and addressing any arising disputes.",
+    "source": "https://www.simplilearn.com/tutorials/git-tutorial/git-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Git",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is Git?",
+    "answer": "Git is a decentralized version control system engineered for rapid and effective management of projects ranging from modest to vast in scale. It supports collaborative efforts among developers by monitoring file modifications and enhancing teamwork.",
+    "source": "https://www.simplilearn.com/tutorials/git-tutorial/git-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Git",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What is a repository in Git?",
+    "answer": "AGit repositoryis a location where your project resides, acting as a storage area. This repository can exist locally within a directory on your computer or on a cloud-based platform like GitHub. It encompasses all the files associated with the project, along with a record of the modifications made to these files over time.",
+    "source": "https://www.simplilearn.com/tutorials/git-tutorial/git-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Git",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What is the difference between Git and GitHub?",
+    "answer": "Git is a tool for version control that enables you to monitor and record the evolution of your source code. GitHub is an online hosting service that facilitates the management of Git repositories. GitHub offers a user-friendly web interface along with functionalities such as permission management, task organization, error tracking, and the capability to handle feature suggestions.",
+    "source": "https://www.simplilearn.com/tutorials/git-tutorial/git-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Git",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. How does Git work?",
+    "answer": "Git works by taking snapshots of a project's files. Unlike other version control systems, Git records the entire contents of each file and its changes every time a commit is made. This makes operations like branching, merging, and reverting changes more efficient.",
+    "source": "https://www.simplilearn.com/tutorials/git-tutorial/git-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Git",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is a commit in Git?",
+    "answer": "In Git, a commit is a process that records a version of the project's presently prepared modifications. This record includes details on the modifications implemented, a distinctive identifier (a SHA-1 hash), the creator's identity, and the timestamp of the commit.",
+    "source": "https://www.simplilearn.com/tutorials/git-tutorial/git-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Git",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What is branching in Git?",
+    "answer": "In Git, branching allows you to veer off from the primary development path and proceed with separate tasks without impacting the main workflow. This technique enables the isolated development of features, bug fixes, or experimentation within a specific section of the repository, ensuring that each process remains distinct from the others.",
+    "source": "https://www.simplilearn.com/tutorials/git-tutorial/git-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Git",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Git and why is it used?",
+    "answer": "Git is the most popular, open-source, widely used, and an example of distributed version control system (DVCS) used for handling the development of small and large projects in a more efficient and neat manner.",
+    "source": "https://www.interviewbit.com/git-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Git",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is a git repository?",
+    "answer": "A repository is a file structure where git stores all the project-based files. Git can either stores the files on the local or the remote repository.",
+    "source": "https://www.interviewbit.com/git-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Git",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What does git clone do?",
+    "answer": "The command creates a copy (or clone) of an existing git repository. Generally, it is used to get a copy of the remote repository to the local repository.",
+    "source": "https://www.interviewbit.com/git-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Git",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What does the command git config do?",
+    "answer": "Thegit configcommand is a convenient way to set configuration options for defining the behavior of the repository, user information and preferences, git installation-based configurations, and many such things.For example:To set up your name and email address before using git commands, we can run the below commands:",
+    "source": "https://www.interviewbit.com/git-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Git",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. Can you explain head in terms of git and also tell the number of heads that can be present in a repository?",
+    "answer": "Aheadis nothing but a reference to the last commit object of a branch.",
+    "source": "https://www.interviewbit.com/git-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Git",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is a conflict?",
+    "answer": "Git usually handles feature merges automatically but sometimes while working in a team environment, there might be cases of conflicts such as:1. When two separate branches have changes to the same line in a file2. A file is deleted in one branch but has been modified in the other.",
+    "source": "https://www.interviewbit.com/git-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Git",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What is the functionality of git ls-tree?",
+    "answer": "This command returns a tree object representation of the current repository along with the mode and the name of each item and the SHA-1 value of the blob.",
+    "source": "https://www.interviewbit.com/git-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Git",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What does git status command do?",
+    "answer": "git statuscommand is used for showing the difference between the working directory and the index which is helpful for understanding git in-depth and also keep track of the tracked and non-tracked changes.",
+    "source": "https://www.interviewbit.com/git-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Git",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is Linux?",
+    "answer": "Linus Torvalds developed Linux, a Unix-like, free, open-source, and kernel operating system. Mainly it is designed for systems, servers, embedded devices, mobile devices, and mainframes and is also supported on major computer platforms such as ARM, x86, and SPARC.",
+    "source": "https://www.geeksforgeeks.org/linux-unix/linux-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Linux",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What are the major differences between Linux and Windows?",
+    "answer": "The following table will help in understanding the differencesbetween Linux and Windows:",
+    "source": "https://www.geeksforgeeks.org/linux-unix/linux-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Linux",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is the Linux Kernel? Is it legal to edit it?",
+    "answer": "It is known as a low-level software system. TheLinux kerneltracks the resources and provides a user interface. This OS is released under GPL (General Public License). Hence every project is released under it. So, you can edit the Linux kernel legally.",
+    "source": "https://www.geeksforgeeks.org/linux-unix/linux-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Linux",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is Shell in Linux?",
+    "answer": "Output and input in Linux OS are divided into three standard streams:",
+    "source": "https://www.geeksforgeeks.org/linux-unix/linux-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Linux",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. What is a root account?",
+    "answer": "The root is like the user's name or system administrator account in Linux. The root account provides complete system control, which an ordinary user cannot do.",
+    "source": "https://www.geeksforgeeks.org/linux-unix/linux-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Linux",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "12. What is Swap Space?",
+    "answer": "Linux usesswap spaceto expand RAM. Linux uses this extra space to hold concurrently running programs temporarily.",
+    "source": "https://www.geeksforgeeks.org/linux-unix/linux-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Linux",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "13. What is the difference between hard links and soft links?",
+    "answer": "Here is the table that shows thedifference between soft links and hard links:",
+    "source": "https://www.geeksforgeeks.org/linux-unix/linux-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Linux",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "14. How do users create a symbolic link in Linux?",
+    "answer": "Symbolic links,symlink, or soft links are shortcuts to files and directories. Users can create the symbolic link in Linux through the' ln' command. The general command to create a symbolic link is as follows:",
+    "source": "https://www.geeksforgeeks.org/linux-unix/linux-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Linux",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What do you mean by Linux? Explain its features.",
+    "answer": "Some important features of Linux OS include:",
+    "source": "https://www.interviewbit.com/linux-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Linux",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is Kernel? Explain its functions.",
+    "answer": "A kernel is considered the main component of Linux OS. It is simply a resource manager that acts as a bridge between hardware and software. Its main role is to manage hardware resources for users and is generally used to provide an interface for user-level interaction. A kernel is the first program that is loaded whenever a computer system starts. It is also referred to as low-level system software.",
+    "source": "https://www.interviewbit.com/linux-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Linux",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What are two types of Linux User Mode?",
+    "answer": "There are two types of Linux user mode as given below:",
+    "source": "https://www.interviewbit.com/linux-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Linux",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is swap space?",
+    "answer": "Swap space, as the name suggests, is basically a space on a hard disk that is used when the amount of physical memory or RAM is full. It is considered a substitute for physical memory. Its main function is to substitute disk space for RAM memory when real RAM does not have enough space to hold all programs that are executing, and more space is required. In simple words, it can be used as an extension of RAM by Linux.",
+    "source": "https://www.interviewbit.com/linux-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Linux",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What do you mean by a Process States in Linux?",
+    "answer": "Linux Process is a type of process that can be in a number of different states. The process enters these states from start till end. Process states in Linux are as follows:",
+    "source": "https://www.interviewbit.com/linux-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Linux",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is Linux Shell? What types of Shells are there in Linux?",
+    "answer": "Linux shell is a user interface present between user and kernel. It is used for executing commands and communication with Linux OS. Linux shell is basically a program used by users for executing commands. It accepts human-readable commands as input and converts them into kernel understandable language.",
+    "source": "https://www.interviewbit.com/linux-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Linux",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. What is a maximum length for a filename under Linux?",
+    "answer": "The maximum length for a filename under Linux is 255 bytes.",
+    "source": "https://www.interviewbit.com/linux-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Linux",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "12. Under the Linux system, what is the typical size for swap partitions?",
+    "answer": "The typical size for a swap partition under a Linux system should be twice the amount of physical memory or RAM available on the system.",
+    "source": "https://www.interviewbit.com/linux-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Linux",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Linux?",
+    "answer": "Linux is a Unix-based open-source operating system. Linus Torvalds was the first to introduce Linux. The primary goal of Linux was to give a free and low-cost operating system for people who couldn't buy Windows, iOS, or Unix.",
+    "source": "https://www.simplilearn.com/linux-commands-interview-questions-article",
+    "role": "DevOps Engineer",
+    "skill": "Linux",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. Define Linux Kernel. Is it legal to edit Linux Kernel?",
+    "answer": "The Linux Kernel is a low-level software system. It is used to keep track of resources and give a user interface.",
+    "source": "https://www.simplilearn.com/linux-commands-interview-questions-article",
+    "role": "DevOps Engineer",
+    "skill": "Linux",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is LILO?",
+    "answer": "LILO denotes Linux Loader. It is basically a Linux Boot Loader which loads Linux Operating System into a main memory to start execution. Most of the computer systems are featured with boot loaders for certain versions of Mac OS or Windows OS. So if you want to use Linux OS, you have to install a special boot loader for it.",
+    "source": "https://www.simplilearn.com/linux-commands-interview-questions-article",
+    "role": "DevOps Engineer",
+    "skill": "Linux",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What are the basic components of Linux?",
+    "answer": "The following are the basic components of Linux:",
+    "source": "https://www.simplilearn.com/linux-commands-interview-questions-article",
+    "role": "DevOps Engineer",
+    "skill": "Linux",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. Which shells are used in Linux?",
+    "answer": "The following are the most common type of Shells used in Linux:",
+    "source": "https://www.simplilearn.com/linux-commands-interview-questions-article",
+    "role": "DevOps Engineer",
+    "skill": "Linux",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is Swap Space?",
+    "answer": "Swap Space is the extra space utilized by Linux to temporarily keep concurrently running processes when RAM space is insufficient. When you start a program, it is stored in RAM so that the CPU can quickly retrieve data. If you have more running programs than RAM can accommodate, the Swap Space is used to store these programs. The processor will now search the RAM and Swap Space for data.",
+    "source": "https://www.simplilearn.com/linux-commands-interview-questions-article",
+    "role": "DevOps Engineer",
+    "skill": "Linux",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What command would you use to find out how much memory Linux is using?",
+    "answer": "The following are the commands that you can use:",
+    "source": "https://www.simplilearn.com/linux-commands-interview-questions-article",
+    "role": "DevOps Engineer",
+    "skill": "Linux",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is file permission in Linux?",
+    "answer": "The following are the three types of permission in Linux:",
+    "source": "https://www.simplilearn.com/linux-commands-interview-questions-article",
+    "role": "DevOps Engineer",
+    "skill": "Linux",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is EC2?",
+    "answer": "EC2, a Virtual Machine in the cloud on which you have OS-level control. You can run this cloud server whenever you want and can be used when you need to deploy your own servers in the cloud, similar to your on-premises servers, and when you want to have full control over the choice of hardware and the updates on the machine.",
+    "source": "https://www.interviewbit.com/aws-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "AWS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What is SnowBall?",
+    "answer": "SnowBall is a small application that enables you to transfer terabytes of data inside and outside of the AWS environment.",
+    "source": "https://www.interviewbit.com/aws-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "AWS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What is CloudWatch?",
+    "answer": "CloudWatch helps you to monitor AWS environments like EC2, RDS Instances, and CPU utilization. It also triggers alarms depending on various metrics.",
+    "source": "https://www.interviewbit.com/aws-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "AWS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What is Elastic Transcoder?",
+    "answer": "Elastic Transcoder is an AWS Service Tool that helps you in changing a video’s format and resolution to support various devices like tablets, smartphones, and laptops of different resolutions.",
+    "source": "https://www.interviewbit.com/aws-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "AWS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What do you understand by VPC?",
+    "answer": "VPC stands for Virtual Private Cloud. It allows you to customize your networking configuration. VPC is a network that is logically isolated from other networks in the cloud. It allows you to have your private IP Address range, internet gateways, subnets, and security groups.",
+    "source": "https://www.interviewbit.com/aws-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "AWS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. DNS and Load Balancer Services come under which type of Cloud Service?",
+    "answer": "DNS and Load Balancer are a part of IaaS-Storage Cloud Service.",
+    "source": "https://www.interviewbit.com/aws-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "AWS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What are the Storage Classes available in Amazon S3?",
+    "answer": "Storage Classes available with Amazon S3 are:",
+    "source": "https://www.interviewbit.com/aws-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "AWS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. Explain what T2 instances are?",
+    "answer": "T2 Instances are designed to provide moderate baseline performance and the capability to burst to higher performance as required by the workload.",
+    "source": "https://www.interviewbit.com/aws-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "AWS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. Define and explain the three basic types of cloud services and the AWS products that are built based on them?",
+    "answer": "The three basic types of cloud services are:",
+    "source": "https://www.simplilearn.com/tutorials/aws-tutorial/aws-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "AWS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What is the relation between the Availability Zone and Region?",
+    "answer": "AWS regions are separate geographical areas, like the US-West 1 (North California) and Asia South (Mumbai). On the other hand, availability zones are the areas that are present inside the regions. These are generally isolated zones that can replicate themselves whenever required.",
+    "source": "https://www.simplilearn.com/tutorials/aws-tutorial/aws-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "AWS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What is auto-scaling?",
+    "answer": "Auto-scalingis a function that allows you to provision and launch new instances whenever there is a demand. It allows you to automatically increase or decrease resource capacity in relation to the demand.",
+    "source": "https://www.simplilearn.com/tutorials/aws-tutorial/aws-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "AWS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What is geo-targeting in CloudFront?",
+    "answer": "Geo-Targeting is a concept where businesses can show personalized content to their audience based on their geographic location without changing the URL. This helps you create customized content for the audience of a specific geographical area, keeping their needs in the forefront.",
+    "source": "https://www.simplilearn.com/tutorials/aws-tutorial/aws-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "AWS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What are the steps involved in a CloudFormation Solution?",
+    "answer": "Here are the steps involved in a CloudFormation solution:",
+    "source": "https://www.simplilearn.com/tutorials/aws-tutorial/aws-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "AWS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. How do you upgrade or downgrade a system with near-zero downtime?",
+    "answer": "You can upgrade or downgrade a system with near-zero downtime using the following steps of migration:",
+    "source": "https://www.simplilearn.com/tutorials/aws-tutorial/aws-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "AWS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. Is there any other alternative tool to log into the cloud environment other than console?",
+    "answer": "These can help you log into the AWS resources:",
+    "source": "https://www.simplilearn.com/tutorials/aws-tutorial/aws-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "AWS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What services can be used to create a centralized logging solution?",
+    "answer": "The essential services that you can use are Amazon CloudWatch Logs, store them inAmazon S3,and then use Amazon Elastic Search to visualize them. You can use Amazon Kinesis Firehose to move the data from Amazon S3 to Amazon ElasticSearch.",
+    "source": "https://www.simplilearn.com/tutorials/aws-tutorial/aws-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "AWS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What Is AWS And Why Is It So Popular?",
+    "answer": "Amazon Web Services (AWS)is an important cloud computing platform known for its wide service offerings. Its popularity is developed through its scalability, cost-effectiveness, and global infrastructure. Businesses increased the AWS to efficiently scale operations, reduce costs, and innovate rapidly.",
+    "source": "https://www.geeksforgeeks.org/cloud-computing/aws-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "AWS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What Is An EC2 Instance And How Does It Work?",
+    "answer": "AnEC2 instanceis essentially a virtual server running in the AWS cloud. When you \"launch\" an EC2 instance, you're setting up a virtual machine with the operating system and software stack you've selected (e.g., a Linux server with Apache).",
+    "source": "https://www.geeksforgeeks.org/cloud-computing/aws-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "AWS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. How Does Auto Scaling Work In AWS?",
+    "answer": "Auto Scalingis like having an intelligent traffic manager for your application. It automatically adjusts the number of EC2 instances running your application based on real-time traffic demands and predefined policies. For instance, during the high traffic periods,Auto Scaling adds instances, improving optimal performance as per the policies configuration. Conversely, while during low traffic, it will reduce the number of instances , optimizes the cost efficiency maintaining high availability.",
+    "source": "https://www.geeksforgeeks.org/cloud-computing/aws-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "AWS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What Is The AWS Free Tier, And What Services Are Included?",
+    "answer": "TheAWS Free Tierprovides a set of AWS services for limited at no cost for the duration of 12 months. The services include EC2, S3, Lambda etc.. This helps the users to explore and experiment with AWS services without suffering with charges and helps in making a kick starting point for cloud beginners.",
+    "source": "https://www.geeksforgeeks.org/cloud-computing/aws-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "AWS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What Are Key-Pairs In AWS?",
+    "answer": "A key pair consists of two types of keys - a public key and a private key. The public key is used to encrypt data and stored on the AWS EC2 instance while a private key is used to decrypt data and  is kept by the user. Whenever you want to connect to an AWS EC2 instance a key-pair works as a security credential to prove your secure authentication identity and access to EC2 instance via SSH.",
+    "source": "https://www.geeksforgeeks.org/cloud-computing/aws-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "AWS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What Is Elastic Load Balancing (ELB) And How Does It Function?",
+    "answer": "Elastic Load balancer ( ELB )is a service provided by AWS that helps in distribution of incoming traffic of the applications across multi targets such as EC2 instances, containers etc.. in one or more Availability zones. It helps in improving fault tolerance and ensuring the utilization of resources, bringing high availability of the application by preventing a single node ( instance ) faulterance by improving application's resilience.",
+    "source": "https://www.geeksforgeeks.org/cloud-computing/aws-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "AWS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What Are The Various Load Balancers Provided By AWS?",
+    "answer": "The following are the types of load balancers provided by AWS:",
+    "source": "https://www.geeksforgeeks.org/cloud-computing/aws-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "AWS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "10. How Is Data Transfer Handled In AWS?",
+    "answer": "The data transfer in AWS happens in between regions, within regions, and between the services. It is essential to consider that these data transfer comes with costs when designing the architectures. For example, transfer of the data between an EC2 instance and an S3 bucket within the same region is often free, but the transfer of data in between inter-region comes with charges.",
+    "source": "https://www.geeksforgeeks.org/cloud-computing/aws-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "AWS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What do you understand by Terraform in AWS?",
+    "answer": "Terraform is a part of the AWS DevOps Competency and also an AWS Partner Network (APN) advanced technology partner. It is similar toAWS Cloud Formationin the sense that it is also an âinfrastructure as codeâ tool that allows you to create, update, and version your AWS infrastructure.",
+    "source": "https://www.simplilearn.com/terraform-interview-questions-and-answers-article",
+    "role": "DevOps Engineer",
+    "skill": "AWS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What are the key features of Terraform?",
+    "answer": "Terraform helps you manage all of your infrastructures as code and construct it as and when needed. Here are its key main features:",
+    "source": "https://www.simplilearn.com/terraform-interview-questions-and-answers-article",
+    "role": "DevOps Engineer",
+    "skill": "AWS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. Define IAC?",
+    "answer": "IAC or Infrastructure as Code allows you to build, change, and manage your infrastructure through coding instead of manual processes. The configuration files are created according to your infrastructure specifications and these configurations can be edited and distributed securely within an organization.",
+    "source": "https://www.simplilearn.com/terraform-interview-questions-and-answers-article",
+    "role": "DevOps Engineer",
+    "skill": "AWS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What are the most useful Terraform commands?",
+    "answer": "Some of the most useful Terraform commands are:",
+    "source": "https://www.simplilearn.com/terraform-interview-questions-and-answers-article",
+    "role": "DevOps Engineer",
+    "skill": "AWS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. Are callbacks possible with Terraform on Azure?",
+    "answer": "By using the Azure Event Hubs, callbacks are probable on Azure. Terraformâs Azure supplier provides effortless functionality to users.Microsoft Azure CloudShell provides an already installed Terraform occurrence.",
+    "source": "https://www.simplilearn.com/terraform-interview-questions-and-answers-article",
+    "role": "DevOps Engineer",
+    "skill": "AWS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What is Terraform init?",
+    "answer": "Terraform init is a control to initialize an operational index that contains Terraform pattern files. This control can be looped multiple times. It is the first command that should be run after writing the new Terraform design.",
+    "source": "https://www.simplilearn.com/terraform-interview-questions-and-answers-article",
+    "role": "DevOps Engineer",
+    "skill": "AWS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What is Terraform D?",
+    "answer": "Terraform D is a plugin used on most in-service systems and Windows. Terraform init by default searches next directories for plugins.",
+    "source": "https://www.simplilearn.com/terraform-interview-questions-and-answers-article",
+    "role": "DevOps Engineer",
+    "skill": "AWS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. Is history the same as it is on the web while using TFS API to provide resources?",
+    "answer": "Yes, the narration is similar to on the web because UI keeps API as the base. The whole thing that is on the UI is availed during other methods and the API.",
+    "source": "https://www.simplilearn.com/terraform-interview-questions-and-answers-article",
+    "role": "DevOps Engineer",
+    "skill": "AWS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is Azure?",
+    "answer": "Azure is acloud computingplatform that facilitates with providing a broad range of services such as computing, analytics, storage and networking. It ensures the businesses to build, deploy and manage the applications efficiently across a global network of data centers.",
+    "source": "https://www.geeksforgeeks.org/devops/azure-interview-questions-and-answer/",
+    "role": "DevOps Engineer",
+    "skill": "Azure",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How did you Learn Azure?",
+    "answer": "Learning of Azure can be achieved through various methods such as online courses, official Microsoft documentation, hands-on labs, certification programs, tutorials and participation in community forms and events.",
+    "source": "https://www.geeksforgeeks.org/devops/azure-interview-questions-and-answer/",
+    "role": "DevOps Engineer",
+    "skill": "Azure",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What does cloud computing mean and what do you understand?",
+    "answer": "Cloud Computingis a delivery of computing services over the internet including servers, storages,databases,networking, software and analytics. it offers on-demand resources, scalability and pay-as-you-go pricing.",
+    "source": "https://www.geeksforgeeks.org/devops/azure-interview-questions-and-answer/",
+    "role": "DevOps Engineer",
+    "skill": "Azure",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What are Azure Cloud Services?",
+    "answer": "Azure Cloud Services are thePaaSfacilitating the developers to build, deploy the applications without managing the underlying infrastructure. The key services of this includesAzure Virtual Machines, App Services andAzure Functions.",
+    "source": "https://www.geeksforgeeks.org/devops/azure-interview-questions-and-answer/",
+    "role": "DevOps Engineer",
+    "skill": "Azure",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What are the various models available for cloud deployment?",
+    "answer": "They are generally three models available for cloud deployment as follows:",
+    "source": "https://www.geeksforgeeks.org/devops/azure-interview-questions-and-answer/",
+    "role": "DevOps Engineer",
+    "skill": "Azure",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. Why is Azure Diagnostics APIs needed?",
+    "answer": "Azure DiagnosticsAPIsare used to collect and store the diagnostic data such as logs and metrics from the applications that are running in Azure. It helps in monitoring performance, identifying the issues and maintaining the application health.",
+    "source": "https://www.geeksforgeeks.org/devops/azure-interview-questions-and-answer/",
+    "role": "DevOps Engineer",
+    "skill": "Azure",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. Define Azure Service Level Agreements (SLA)?",
+    "answer": "Azure Service Level Agreements (SLAs)are the formal documents that are used for defining the performance and availability standards that Azure services must meet. They specify the uptime guarantees and provides the remedies or compensations if these standards or not met.",
+    "source": "https://www.geeksforgeeks.org/devops/azure-interview-questions-and-answer/",
+    "role": "DevOps Engineer",
+    "skill": "Azure",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is Azure Resource Manager?",
+    "answer": "It is a service that provides the management layer for all the Azure resources. It supports the users to deploy, manage and organize the resources through a unified interfaces using the templates in a declarative syntax.",
+    "source": "https://www.geeksforgeeks.org/devops/azure-interview-questions-and-answer/",
+    "role": "DevOps Engineer",
+    "skill": "Azure",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Why do we need to use Azure?",
+    "answer": "Well, Azure provides a wide array of services that helps us to create any kind of web application and host them on Azure. Azure also provides a dedicated environment for validation purposes before actually releasing the application to the target audience. The creation and configuration of virtual machines have been simpler than ever in Azure.",
+    "source": "https://www.interviewbit.com/azure-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Azure",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. VM creation is possible using Azure Resource Manager in a Virtual Network which was created by means of classic deployment. True or False?",
+    "answer": "False. Azure does not support this.",
+    "source": "https://www.interviewbit.com/azure-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Azure",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. Can you tell something about Azure Cloud Service?",
+    "answer": "Azure Cloud Service is a classic example of a platform as a service (PaaS). This was designed to support those applications which demand high scalability, reliability, and availability all within the constraints of reduced cost of operations. These are hosted on virtual VMs and Azure provides more control over them by letting the developers install the necessary software and enabling them to control remotely.",
+    "source": "https://www.interviewbit.com/azure-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Azure",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are the various models available for cloud deployment?",
+    "answer": "There are 3 models available for cloud deployment:",
+    "source": "https://www.interviewbit.com/azure-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Azure",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. How many cloud service roles are provided by Azure?",
+    "answer": "Cloud service roles comprise a set of application and configuration files. There are 2 kinds of roles provided by Azure:",
+    "source": "https://www.interviewbit.com/azure-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Azure",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. Why is Azure Diagnostics API needed?",
+    "answer": "Azure Diagnostics API helps us collect diagnostic data such as performance monitoring, system event logs, etc from the applications that are running on Azure.",
+    "source": "https://www.interviewbit.com/azure-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Azure",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. Define Azure Service Level Agreement (SLA)?",
+    "answer": "The Azure SLA is a contract that ensures or guarantees that when two or more role instances of a role are deployed on Azure, access to that cloud service is guaranteed for at least 99.95% of the time.",
+    "source": "https://www.interviewbit.com/azure-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Azure",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is Azure Resource Manager?",
+    "answer": "Azure Resource Manager is a service provided by Azure to provide management and application deployment in Azure.",
+    "source": "https://www.interviewbit.com/azure-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Azure",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Microsoft Azure?",
+    "answer": "Microsoft Azure is acloud computingplatform offering over 200 products and services across 60+ regions. It promises top-notch security. Due to its scalability and cost-effectiveness, Azure meets the business needs of small, medium, and enterprise-scale businesses.",
+    "source": "https://www.simplilearn.com/tutorials/azure-tutorial/azure-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Azure",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How does Azure differ from traditional on-premises IT infrastructure?",
+    "answer": "Azure has certain perks. It differs from traditional on-premises IT infrastructure by offering ease of scalability, high availability, and less downtime compared to conventional solutions. It also provides rapid deployment. Moreover, it comes with a pay-as-you-go model.Azureis adaptable and has built-in redundancy with disaster recovery features.",
+    "source": "https://www.simplilearn.com/tutorials/azure-tutorial/azure-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Azure",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are the core services provided by Microsoft Azure?",
+    "answer": "Azure offers four categories of services: computing, storage, networking, and database.Â",
+    "source": "https://www.simplilearn.com/tutorials/azure-tutorial/azure-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Azure",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is an Azure Virtual Machine (VM)?",
+    "answer": "Azure Virtual Machine is an on-demand computing service provided by Azure. It is scalable and preferred due to better control over the computing environment. VM also offers the flexibility to choose and shut down virtual machines as needed. Uses include application development, testing, and networking within the organization.",
+    "source": "https://www.simplilearn.com/tutorials/azure-tutorial/azure-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Azure",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is an Azure Resource Group?",
+    "answer": "An Azure Resource Group is the container for managing and modifying related resources in an Azure solution. A resource group can include multiple resources that share a common lifecycle, such as deployment, updates, and deletion. At the same time, many resources can be moved between resource groups; not all support this operation.",
+    "source": "https://www.simplilearn.com/tutorials/azure-tutorial/azure-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Azure",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is the Azure Virtual Network (VNet)?",
+    "answer": "Azure Virtual Networkis the core networking service. It provides the basic building blocks to develop a private network in Azure. VNet allows connections between databases or Azure resources, such as virtual machines, the Internet, and companies' on-premises networks. It also filters and routes network traffic and integrates with Azure services for private access.",
+    "source": "https://www.simplilearn.com/tutorials/azure-tutorial/azure-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Azure",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is Azure Active Directory (AAD)?",
+    "answer": "Azure Active Directory (AAD)is now called Microsoft Entra ID. It is an Identity and Access Management solution from Azure that helps safeguard and manage the organization. It offers a user-friendly experience with high security, further achieved through strong authentication and risk-based conditional access policies. The services encompass app integrations, single sign-on (SSO), multifactor authentication, privileged identity management, and end-user self-service.Â",
+    "source": "https://www.simplilearn.com/tutorials/azure-tutorial/azure-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Azure",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is Azure App Service?",
+    "answer": "Azure App Service is the application hosting platform for web apps, REST APIs, and mobile backends. It is an HTTP-based service that supports app development in various languages, such as .NET Core, .NET,Java,Python,Node.jsorPHP.Â",
+    "source": "https://www.simplilearn.com/tutorials/azure-tutorial/azure-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Azure",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Azure Databricks, and how does it integrate with Azure?",
+    "answer": "Azure Databricks is a data analytics and AI-based service offered byMicrosoft Azure. It unifies data, the data ecosystem, and data teams. It is integrated with multiple Azure environments, such as Azure Data Lake Storage, Power BI, Azure Synapse Analytics, Azure Data Factory, and others, for advanced solutions and enhanced performance.",
+    "source": "https://www.simplilearn.com/azure-databricks-interview-questions-answers-article",
+    "role": "DevOps Engineer",
+    "skill": "Azure",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. Can you explain the concept of a Databricks cluster and its components?",
+    "answer": "Databricks clusters refer to configurations and resources for running jobs and notebooks. There are two types of clusters: all-purpose and jobs.Â",
+    "source": "https://www.simplilearn.com/azure-databricks-interview-questions-answers-article",
+    "role": "DevOps Engineer",
+    "skill": "Azure",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is Apache Spark, and how does Databricks utilize it?",
+    "answer": "Apache Sparkis an open-source analytics engine that powers compute clusters and SQL warehouses. Azure Databricks offers a user-friendly, secure, and efficient platform for running Apache Spark workloads.",
+    "source": "https://www.simplilearn.com/azure-databricks-interview-questions-answers-article",
+    "role": "DevOps Engineer",
+    "skill": "Azure",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. How do you create a workspace in Azure Databricks?",
+    "answer": "Workspace can be created in Azure Databricks through any of the following tools: Azure Portal, Azure CLI, PowerShell,ARM template, Bicep, and Terraform. To create a workspace in Azure Databricks, you can follow these steps:",
+    "source": "https://www.simplilearn.com/azure-databricks-interview-questions-answers-article",
+    "role": "DevOps Engineer",
+    "skill": "Azure",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What are notebooks in Azure Databricks, and how do they help with data processing?",
+    "answer": "Notebooks are the primary tool for code development in different languages and for presenting results. They contribute to data processing by allowing team collaboration, automatic versioning, data analysis, environment customization, text writing in other languages, and built-indata visualizations.",
+    "source": "https://www.simplilearn.com/azure-databricks-interview-questions-answers-article",
+    "role": "DevOps Engineer",
+    "skill": "Azure",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. How do you scale a cluster in Azure Databricks, and what factors should you consider?",
+    "answer": "Scaling can be done in three ways: vertically by adding or removing resources, horizontally by editing the nodes of a distributed system, and linearly by adding resources to a system. Factors influencing scaling include the number of workers, cores, memory, local storage, complexity, data source, data partitioning method in external storage, and the need for parallelism.Â",
+    "source": "https://www.simplilearn.com/azure-databricks-interview-questions-answers-article",
+    "role": "DevOps Engineer",
+    "skill": "Azure",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. Can you explain how Delta Lake works in Azure Databricks?",
+    "answer": "Delta Lake helps store tables in Databricks by incorporating a transaction log on Parquet data files. It enables reliableACID transactionsand efficient and scalable metadata handling.",
+    "source": "https://www.simplilearn.com/azure-databricks-interview-questions-answers-article",
+    "role": "DevOps Engineer",
+    "skill": "Azure",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is the process for migrating a Spark job from a local environment to Azure Databricks?",
+    "answer": "The process to migrate the Spark workload to Databricks involves the following steps:",
+    "source": "https://www.simplilearn.com/azure-databricks-interview-questions-answers-article",
+    "role": "DevOps Engineer",
+    "skill": "Azure",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Hashicorp Terraform?",
+    "answer": "Terraform is an open-source infrastructure as code (IaC) software tool which can be used to provision the infrastructure of an cloud platform. The scripts which have been used to provision infrastructure can be human-readable configuration files that can be versioned, reused, and shared. You can use wide provision wide range of resources in the cloud by using terraform like compute, storage, networking, and application services, across a variety of cloud providers andon-premises environments.",
+    "source": "https://www.geeksforgeeks.org/devops/terraform-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Terraform",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Infrastructure as a Code (IaC)?",
+    "answer": "Infrastructure as Code (IaC) is a method of managing and provisioning IT infrastructure using code, rather than manual configuration. It allows teams to automate the setup and management of their infrastructure, making it more efficient and consistent. This is particularly useful in theDevOps environment,where teams are constantly updating and deploying software. To know more aboutInfrastructure as a Code (IaC).",
+    "source": "https://www.geeksforgeeks.org/devops/terraform-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Terraform",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "26. How do you import existing infrastructure into Terraform?",
+    "answer": "Then, manually add the corresponding Terraform configuration:",
+    "source": "https://www.geeksforgeeks.org/devops/terraform-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Terraform",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "48. Multiple engineers are applying Terraform changes on a shared project. At times, state conflicts occur, causing errors. How can you prevent this issue?",
+    "answer": "Terraform is an open-source tool that helps you automate the setup and management of your infrastructure, such as servers, databases, and networks. Instead of doing everything manually, you write simple code to describe what your infrastructure should look like, and Terraform automatically creates, updates, or deletes resources based on your instructions. It's widely used for cloud environments like AWS, Azure, and Google Cloud, making it easier to manage large or complex systems",
+    "source": "https://www.geeksforgeeks.org/devops/terraform-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Terraform",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "49.Your Terraform configuration needs to use database credentials. How should you store and manage sensitive information securely?",
+    "answer": "UseAWS Secrets Manager, HashiCorp Vault, or environment variablesto retrieve credentials instead of hardcoding them.",
+    "source": "https://www.geeksforgeeks.org/devops/terraform-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Terraform",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "50. Your Terraform deployment failed because asecurity groupneeded for an EC2 instance was not created in time. How can you ensure Terraform manages dependencies correctly?",
+    "answer": "Terraform is an open-source tool that helps you automate the setup and management of your infrastructure, such as servers, databases, and networks. Instead of doing everything manually, you write simple code to describe what your infrastructure should look like, and Terraform automatically creates, updates, or deletes resources based on your instructions. It's widely used for cloud environments like AWS, Azure, and Google Cloud, making it easier to manage large or complex systems",
+    "source": "https://www.geeksforgeeks.org/devops/terraform-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Terraform",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "53.Your team wants to integrate Terraform into a CI/CD pipeline to automate infrastructure deployment. How should you set up the pipeline?",
+    "answer": "StoreTerraform state remotely (S3 with state locking).",
+    "source": "https://www.geeksforgeeks.org/devops/terraform-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Terraform",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What are the key features of Terraform?",
+    "answer": "Following are the key features of Terraform:",
+    "source": "https://www.interviewbit.com/terraform-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Terraform",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What are some guidelines that should be followed while using Terraform modules?",
+    "answer": "Following are some of the guidelines that should be followed while using Terraform modules :",
+    "source": "https://www.interviewbit.com/terraform-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Terraform",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "10. What are the benefits of using modules in Terraform?",
+    "answer": "Following are the benefits of using modules in Terraform :",
+    "source": "https://www.interviewbit.com/terraform-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Terraform",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "11. What do you understand about Terraform modules?",
+    "answer": "The terraform destroy command is a simple way to eliminate all remote objects maintained by a Terraform setup. While you should avoid destroying long-lived objects in a production environment, Terraform is occasionally used to manage temporary infrastructure for development, in which case you can use terraform destroy to quickly clean up all of those temporary objects after you're done.",
+    "source": "https://www.interviewbit.com/terraform-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Terraform",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "13. What do you understand about Terraform Cloud?",
+    "answer": "Large businesses can utilise the Business tier to scale to multiple concurrent runs, establish infrastructure in private environments, manage user access using SSO, and automate infrastructure end-user self-service provisioning.",
+    "source": "https://www.interviewbit.com/terraform-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Terraform",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "15. Why is Terraform preferred as one of the DevOps tools?",
+    "answer": "Following are the reasons that Terraform is preferred as one of the DevOps tools :",
+    "source": "https://www.interviewbit.com/terraform-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Terraform",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "16. What do you mean by terraform init in the context of Terraform?",
+    "answer": "The terraform init command creates a working directory in which Terraform configuration files can be found. After creating a new Terraform configuration or cloning an old one from version control, run this command first. It is safe to use this command more than once. Despite the fact that successive runs may result in errors, this command will never overwrite your current settings or state.",
+    "source": "https://www.interviewbit.com/terraform-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Terraform",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "17. Is it feasible to use Terraform on Azure with callbacks? Sending a callback to a logging system, a trigger, or other events, for example?",
+    "answer": "Yes. Azure Event Hubs can be used to accomplish this. This capability is now accessible in the Terraform AzureRM provider. Terraform's Azure supplier provides users with simple functionality. Microsoft Azure Cloud Shell includes a Terraform occurrence that has already been setup.",
+    "source": "https://www.interviewbit.com/terraform-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Terraform",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is a Terraform?",
+    "answer": "Terraform is an open-source infrastructure as code (IaC) software tool that can be used to provision the infrastructure of a cloud platform. The HCL scripts used to provision infrastructure can be human-readable configuration files that can be versioned, reused, and shared. You can provision a wide range of resources in the cloud by using Terraform, like compute, storage, networking, and application services, across various cloud providers and on-premises environments.",
+    "source": "https://www.geeksforgeeks.org/devops/what-is-terraform/",
+    "role": "DevOps Engineer",
+    "skill": "Terraform",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why Prometheus and Grafana?",
+    "answer": "Prometheus and Grafana are often used together because they complement each other's strengths. Prometheus is a powerful, open-source monitoring system that is well-suited for collecting and storing time series data. It has a flexible query language and a wide range of integrations with other tools and systems.",
+    "source": "https://www.geeksforgeeks.org/devops/working-with-prometheus-and-grafana-using-helm/",
+    "role": "DevOps Engineer",
+    "skill": "Prometheus",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is a Prometheus?",
+    "answer": "Prometheusis an open-source monitoring system that collects and stores time-series metrics statistics from various resources, which include programs, software program systems, and hardware.",
+    "source": "https://www.geeksforgeeks.org/devops/what-is-prometheus-and-grafana/",
+    "role": "DevOps Engineer",
+    "skill": "Prometheus",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is a Grafana?",
+    "answer": "Grafanais open source statistics visualization and analysis device used to visualize records on a customizable dashboards in a exceptional codes, together with graphs, charts, and tables. It is widely used for visualizing actual-time metrics to a records, time-series statistics, and log a statistics from numerous assets, such as Prometheus, Elasticsearch, Influx DB, and more.",
+    "source": "https://www.geeksforgeeks.org/devops/what-is-prometheus-and-grafana/",
+    "role": "DevOps Engineer",
+    "skill": "Prometheus",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. Explain the end-to-end flow of authentication and authorization in a Spring Boot microservice using OAuth2 and JWT. How do you secure downstream services?",
+    "answer": "Authentication and authorization in Spring Boot using OAuth2 and JWT ensures secure access to microservices by validating user identity and permissions. JWT tokens carry user claims that downstream services can trust without re-authenticating.",
+    "source": "https://www.geeksforgeeks.org/java/java-security-monitoring-devops-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Prometheus",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How does Spring Cloud Gateway provide centralized authentication and route-level security? How would you secure routes based on user roles?",
+    "answer": "Spring Cloud Gateway acts as a reverse proxy and central entry point for microservices, enabling centralized authentication, authorization, and route-level security. It validates incoming requests before they reach downstream services.",
+    "source": "https://www.geeksforgeeks.org/java/java-security-monitoring-devops-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Prometheus",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is CSRF? Why is it not always needed in REST APIs? How do you configure CORS and HTTPS in a Spring Boot app?",
+    "answer": "CSRF (Cross-Site Request Forgery) is an attack where a malicious site tricks a user’s browser into sending unauthorized requests to a web application where the user is authenticated.",
+    "source": "https://www.geeksforgeeks.org/java/java-security-monitoring-devops-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Prometheus",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. Explain how centralized logging using ELK Stack works in a microservices ecosystem. How do services stream logs to Logstash?",
+    "answer": "Centralized logging in microservices helps collect, store, and analyze logs from multiple services in one place, improving observability, debugging, and traceability. ELK Stack (Elasticsearch, Logstash, Kibana) is widely used for this purpose.",
+    "source": "https://www.geeksforgeeks.org/java/java-security-monitoring-devops-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Prometheus",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is Micrometer and how does it integrate with Prometheus and Grafana for monitoring Java microservices?",
+    "answer": "Micrometer is a metrics library for Java applications, integrated with Spring Boot Actuator, providing a vendor-neutral way to collect and expose application metrics.",
+    "source": "https://www.geeksforgeeks.org/java/java-security-monitoring-devops-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Prometheus",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is distributed tracing and how do you implement it using Zipkin and Spring Cloud Sleuth? How do trace IDs help?",
+    "answer": "Distributed tracing helps track and visualize requests as they flow through multiple microservices, making it easier to debug, monitor latency, and identify bottlenecks.",
+    "source": "https://www.geeksforgeeks.org/java/java-security-monitoring-devops-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Prometheus",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. How does Spring Boot Actuator help in microservices monitoring? Which endpoints are critical in production and why?",
+    "answer": "Spring Boot Actuator provides built-in production-ready endpoints to monitor, manage, and gain insights into microservices, helping maintain health, performance, and reliability.",
+    "source": "https://www.geeksforgeeks.org/java/java-security-monitoring-devops-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Prometheus",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. Write a unit test using JUnit 5 and Mockito to verify a service method in isolation. What are common pitfalls in mocking?",
+    "answer": "Unit testing in Spring Boot ensures that individual service methods work correctly in isolation. JUnit 5 and Mockito are widely used for writing such tests.",
+    "source": "https://www.geeksforgeeks.org/java/java-security-monitoring-devops-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Prometheus",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Prometheus?",
+    "answer": "Prometheus is simply a monitoring tool for capturing and processing any numbered time series. Collects, organizes, and stores along with metrics, personal identifiers, and timestamps.",
+    "source": "https://www.geeksforgeeks.org/devops/prometheus-monitoring/",
+    "role": "DevOps Engineer",
+    "skill": "Prometheus",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Prometheus Monitoring?",
+    "answer": "Prometheusis a tool created to monitor highly dynamic container environments like Kubernetes,Docker Swarm,etc.; however, it can also be used in a traditional non-container infrastructure where you have just bare servers with applications deployed directly on them. Prometheus provides a monitoring and alerting toolkit designed especially for microservices and containers. Over the past years, Prometheus has become the mainstream monitoring tool of choice in the container and microservice worlds. Prometheus is a Cloud Native Computing Foundation (CNCF) graduate project that was released in July 2016.",
+    "source": "https://www.geeksforgeeks.org/devops/kubernetes-prometheus/",
+    "role": "DevOps Engineer",
+    "skill": "Prometheus",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Why use Prometheus for Kubernetes monitoring?",
+    "answer": "Prometheus Architecture at its core has the main component called Prometheus server that does the actual monitoring work and is made up of three parts:",
+    "source": "https://www.geeksforgeeks.org/devops/kubernetes-prometheus/",
+    "role": "DevOps Engineer",
+    "skill": "Prometheus",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Prometheus Agent?",
+    "answer": "Prometheus Agent is a relatively recent component ofPrometheus,existing from the second version of Prometheus. 30. 0. In contrast to a full Prometheus server, the agent is used for scrapping and the remote writing of metrics as well as for simplistic data visualization, but it lacks some built-in functionalities such as local relational database or rule engine. In such cases, when resources are scarce or if the tasks require aggregation across instances and the results are to be stored in a Prometheus server, this is the best solution to use.",
+    "source": "https://www.geeksforgeeks.org/devops/what-is-prometheus-agent/",
+    "role": "DevOps Engineer",
+    "skill": "Prometheus",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Confused about your next job?",
+    "answer": "Skills To Become A DevOps Engineer",
+    "source": "https://www.interviewbit.com/blog/devops-engineer/",
+    "role": "DevOps Engineer",
+    "skill": "Grafana",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is DevOps?",
+    "answer": "DevOps is a set of practices, tools, and strategies to make the software development cycle (from development, testing to deployment) better, faster, efficient and reliable.",
+    "source": "https://www.interviewbit.com/blog/devops-engineer/",
+    "role": "DevOps Engineer",
+    "skill": "Grafana",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Who is a DevOps Engineer?",
+    "answer": "A DevOps engineer is an expert on DevOps processes, tools, practices, and methodologies to help bridge a gap between the working of the development and operations team.",
+    "source": "https://www.interviewbit.com/blog/devops-engineer/",
+    "role": "DevOps Engineer",
+    "skill": "Grafana",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What does a DevOps Engineer do?",
+    "answer": "When working on an application, different teams have different perspectives and goals. The development team will focus on development, newer updates, and features, the IT operations team will prioritize reliability, scalability over too many changes for the user, the Security team has their own goals and purposes.",
+    "source": "https://www.interviewbit.com/blog/devops-engineer/",
+    "role": "DevOps Engineer",
+    "skill": "Grafana",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is the demand for DevOps Engineer?",
+    "answer": "Internet and Software Development have transcended the world to an ever-transformative place. Every day there is something new brewing up in not just the tech sector but different industries. With the latest technology of AI, automation, Cloud, robotics, every industry wants to make a digital presence through websites, applications on different platforms. From communicating to analyzing their statistics, everything needs software.",
+    "source": "https://www.interviewbit.com/blog/devops-engineer/",
+    "role": "DevOps Engineer",
+    "skill": "Grafana",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Who Hire DevOps Developers?",
+    "answer": "DevOps has changed the way of creating software or an application. Comprehensive integration of development and operations team with security team as well, DevOps models provide innovative, reliable, quick, and strategic solutions that assist in scalability for the businesses.",
+    "source": "https://www.interviewbit.com/blog/devops-engineer/",
+    "role": "DevOps Engineer",
+    "skill": "Grafana",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why are DevOps Engineers preferred?",
+    "answer": "Well, the DevOps Engineer role is at its best position in India. The adoption of DevOps is increasing with each passing year. People, businesses, industries are entering into the digital world and, hence, a DevOps engineer knows how to do it all, be it development, testing, security, or deployment.",
+    "source": "https://www.interviewbit.com/blog/devops-engineer/",
+    "role": "DevOps Engineer",
+    "skill": "Grafana",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is GitLab?",
+    "answer": "GitLab is a DevOps software that helps developers work together on code at the same time, store and manage the code by developers and the whole team, help to keep track of the code changes, etc. Developers get many features for every stage of a development cycle.",
+    "source": "https://www.geeksforgeeks.org/devops/how-to-write-ci-cd-pipeline-using-gitlab/",
+    "role": "DevOps Engineer",
+    "skill": "GitLab CI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is the CI/CD Pipeline?",
+    "answer": "CIstands forContinues IntegrationandCDstands forContinuous delivery/Continues Deployment,it is a software development method that is continuous, which means continuously building, testing, deploying, and tracking changes in a code. And CI/CD pipeline refers to the steps or series of steps that help automate the whole CI/CD process to create software.",
+    "source": "https://www.geeksforgeeks.org/devops/how-to-write-ci-cd-pipeline-using-gitlab/",
+    "role": "DevOps Engineer",
+    "skill": "GitLab CI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What we'll do?",
+    "answer": "We'll create aCI/CDpipeline for a website, which will execute automatically whenever changes are merged in the main branch, and then the website will go through 3 stages - build, test, and deploy and will go through the defined rules.",
+    "source": "https://www.geeksforgeeks.org/devops/how-to-write-ci-cd-pipeline-using-gitlab/",
+    "role": "DevOps Engineer",
+    "skill": "GitLab CI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What are GitHub Actions?",
+    "answer": "GitHub Actions is a powerful automation tool built directly into GitHub, allowing developers to automate, customize, and run workflows directly from their repositories. By using GitHub Actions, we can automate processes such as continuous integration, continuous deployment, testing, and code reviews.",
+    "source": "https://www.geeksforgeeks.org/git/github-actions/",
+    "role": "DevOps Engineer",
+    "skill": "GitHub Actions",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How to Use GitHub Actions?",
+    "answer": "There are two ways through which we can create the GitHub Actions.",
+    "source": "https://www.geeksforgeeks.org/git/github-actions/",
+    "role": "DevOps Engineer",
+    "skill": "GitHub Actions",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why Use GitHub Actions?",
+    "answer": "GitHub Actions offers several advantages over traditional CI/CD tools",
+    "source": "https://www.geeksforgeeks.org/git/github-actions/",
+    "role": "DevOps Engineer",
+    "skill": "GitHub Actions",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. Is Python a compiled language or an interpreted language?",
+    "answer": "Please remember one thing, whether a language is compiled or interpreted or both is not defined in the language standard. In other words, it is not a properly of a programming language. Different Python distributions (or implementations) choose to do different things (compile or interpret or both).  However the most common implementations like CPython do both compile and interpret, but in different stages of its execution process.",
+    "source": "https://www.geeksforgeeks.org/python/python-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How can you concatenate two lists in Python?",
+    "answer": "We can concatenate two lists in Python using the +operator or theextend()method.",
+    "source": "https://www.geeksforgeeks.org/python/python-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. How do you floor a number in Python?",
+    "answer": "To floor a number in Python, you can use the math.floor() function, which returns the largest integer less than or equal to the given number.",
+    "source": "https://www.geeksforgeeks.org/python/python-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is the difference between / and // in Python?",
+    "answer": "/ represents precise division (result is a floating point number) whereas // represents floor division (result is an integer). For Example:",
+    "source": "https://www.geeksforgeeks.org/python/python-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. Is Indentation Required in Python?",
+    "answer": "Yes,indentationis required in Python. A Python interpreter can be informed that a group of statements belongs to a specific block of code by using Python indentation. Indentations make the code easy to read for developers in all programming languages but in Python, it is very important to indent the code in a specific order.",
+    "source": "https://www.geeksforgeeks.org/python/python-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. Can we Pass a function as an argument in Python?",
+    "answer": "Yes, Several arguments can be passed to a function, including objects, variables (of the same or distinct data types) and functions.Functions can be passedas parameters to other functions because they are objects. Higher-order functions are functions that can take other functions as arguments.",
+    "source": "https://www.geeksforgeeks.org/python/python-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is a dynamically typed language?",
+    "answer": "Here, the type of x changes at runtime based on the assigned value hence it shows dynamic nature of Python.",
+    "source": "https://www.geeksforgeeks.org/python/python-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is pass in Python?",
+    "answer": "Here, fun() does nothing, but the code stays syntactically correct.",
+    "source": "https://www.geeksforgeeks.org/python/python-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1.  What is __init__?",
+    "answer": "__init__is a contructor method in Python and is automatically called to allocate memory when a new object/instance is created. All classes have a__init__method associated with them. It helps in distinguishing methods and attributes of a class from local variables.",
+    "source": "https://www.interviewbit.com/python-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What is the difference between Python Arrays and lists?",
+    "answer": "Arrays in python can only contain elements of same data types i.e., data type of array should be homogeneous. It is a thin wrapper around C language arrays and consumes far less memory than lists.",
+    "source": "https://www.interviewbit.com/python-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. Explain how can you make a Python Script executable on Unix?",
+    "answer": "Script file must begin with#!/usr/bin/env python",
+    "source": "https://www.interviewbit.com/python-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is slicing in Python?",
+    "answer": "As the name suggests, ‘slicing’ is taking parts of.",
+    "source": "https://www.interviewbit.com/python-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is docstring in Python?",
+    "answer": "Documentation string or docstring is a multiline string used to document a specific code segment.",
+    "source": "https://www.interviewbit.com/python-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What are unit tests in Python?",
+    "answer": "Unit test is a unit testing framework of Python.",
+    "source": "https://www.interviewbit.com/python-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is the use of self in Python?",
+    "answer": "Selfis used to represent the instance of the class. With this keyword, you can access the attributes and methods of the class in python. It binds the attributes with the given arguments. self is used in different places and often thought to be a keyword. But unlike in C++, self is not a keyword in Python.",
+    "source": "https://www.interviewbit.com/python-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What are global, protected and private attributes in Python?",
+    "answer": "Globalvariables are public variables that are defined in the global scope. To use the variable in the global scope inside a function, we use theglobalkeyword.",
+    "source": "https://www.interviewbit.com/python-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is the difference between a Shallow Copy and a Deep Copy?",
+    "answer": "The key difference between a shallow copy and a deep copy is how they handle references within the copied object.",
+    "source": "https://www.simplilearn.com/tutorials/python-tutorial/python-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How is Multithreading achieved in Python?",
+    "answer": "Multithreading in Python is achieved using thethreading module, which allows you to run multiple threads (smaller units of a process) concurrently. However, due to the Global Interpreter Lock (GIL), Python threads do not run in true parallelism for CPU-bound tasks. Still, they can be helpful in I/O-bound operations like file handling, network requests, or database queries.",
+    "source": "https://www.simplilearn.com/tutorials/python-tutorial/python-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What advantage does the NumPy array have over a Nested list?",
+    "answer": "The NumPy array offers several advantages over Pythonâs nested lists, making it more efficient for numerical and scientific computations:",
+    "source": "https://www.simplilearn.com/tutorials/python-tutorial/python-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What are Pickling and Unpickling?",
+    "answer": "Converting a Python object hierarchy to a byte stream is called pickling.",
+    "source": "https://www.simplilearn.com/tutorials/python-tutorial/python-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. How is Memory managed in Python?",
+    "answer": "Python has a private heap space that stores all the objects. The Python memory manager regulates various aspects of this heap, such as sharing, caching,segmentation, and allocation. The user cannot control the heap; only the Python interpreter has access.",
+    "source": "https://www.simplilearn.com/tutorials/python-tutorial/python-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. Are arguments in Python passed by value or by reference?",
+    "answer": "Python passes arguments by reference. Any changes made within a function are reflected in the original object.",
+    "source": "https://www.simplilearn.com/tutorials/python-tutorial/python-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. How would you generate Random numbers in Python?",
+    "answer": "In Python, you can generate random numbers using the random module for basic random number generation or the numpy library for more advanced use cases.",
+    "source": "https://www.simplilearn.com/tutorials/python-tutorial/python-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What does the // Operator do?",
+    "answer": "In Python, the / operator performs division and returns the quotient in the float.",
+    "source": "https://www.simplilearn.com/tutorials/python-tutorial/python-interview-questions",
+    "role": "DevOps Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is the best way to run a script in the background?",
+    "answer": "For a script to run in the background, simply add \"&\" at the end of the command.",
+    "source": "https://www.interviewbit.com/shell-scripting-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Bash",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. How to check whether a link is a hard one or a soft link?",
+    "answer": "We can use -h and -L operators of the test command to check whether a link is hard or soft (symbolic link).",
+    "source": "https://www.interviewbit.com/shell-scripting-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Bash",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. Why is a shell script needed?",
+    "answer": "Shell scripts can be written for a variety of reasons:",
+    "source": "https://www.interviewbit.com/shell-scripting-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Bash",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "10. What do you mean by Shell variable?",
+    "answer": "Shell variables are integral parts of all Shell programs and scripts. In general, we know that variables usually store data either in the form of characters or numbers. Shell also stores and manipulates information using variables in its programs. Generally, shell variables are stored as strings. Variables in the shell provide the information needed for scripts/commands to execute. In the following example, a shell variable is created and then printed:variable =\"Hello\"echo $variable",
+    "source": "https://www.interviewbit.com/shell-scripting-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Bash",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "11. What are different types of variables mostly used in shell scripting?",
+    "answer": "Shell scripts usually have two types of variables:",
+    "source": "https://www.interviewbit.com/shell-scripting-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Bash",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "13. What are control instructions?",
+    "answer": "Control instructions specify how the different instructions will be executed in the script. They are primarily used to determine the control flow in Shell programs. The execution of a shell script proceeds in succession without these instructions. In shell programs, control instructions govern how execution flows.",
+    "source": "https://www.interviewbit.com/shell-scripting-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Bash",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "14. How many types of control instructions are available in a shell?",
+    "answer": "Shells provide four types of control instructions as given below:",
+    "source": "https://www.interviewbit.com/shell-scripting-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Bash",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "16. What is Shell?",
+    "answer": "After you press enter, your input is read by the shell. Based on the first word of your input, it determines the command you want to run. The characters in a word are separated using spaces and tabs.",
+    "source": "https://www.interviewbit.com/shell-scripting-interview-questions/",
+    "role": "DevOps Engineer",
+    "skill": "Bash",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is a superblock in shell scripting?",
+    "answer": "A superblock is a program containing specific file systems' records. The characteristics available in the block are size, counts of filled and empty blocks, usage information, size of block groups, and location and size of inode tables.Â",
+    "source": "https://www.simplilearn.com/shell-scripting-interview-questions-article",
+    "role": "DevOps Engineer",
+    "skill": "Bash",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What do you understand by a shell?",
+    "answer": "Shell is a command-line interpreter that translates user-entered commands into kernel understandable language. The shell interprets the command typed in at the terminal and calls the required program.Â",
+    "source": "https://www.simplilearn.com/shell-scripting-interview-questions-article",
+    "role": "DevOps Engineer",
+    "skill": "Bash",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. How can you connect to a database server?",
+    "answer": "To connect to a database server from Linux, use the isql utility that comes with the open client driver. Here is how:",
+    "source": "https://www.simplilearn.com/shell-scripting-interview-questions-article",
+    "role": "DevOps Engineer",
+    "skill": "Bash",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. How many kernels and shells are available in the UNIX environment?",
+    "answer": "There can be multiple shells available, but there is only one kernel in the UNIX environment.Â",
+    "source": "https://www.simplilearn.com/shell-scripting-interview-questions-article",
+    "role": "DevOps Engineer",
+    "skill": "Bash",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What is the alternative command for echo?",
+    "answer": "The alternative command for echo is tput. This command allows us to control how the output is displayed on the screen.Â",
+    "source": "https://www.simplilearn.com/shell-scripting-interview-questions-article",
+    "role": "DevOps Engineer",
+    "skill": "Bash",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "10. What is a metacharacter?",
+    "answer": "Metacharacter is a unique character included in a program or data field of a shell. It offers information about other characters. For example: to list all files beginning with character 's,' use the 'ls s*' command.Â",
+    "source": "https://www.simplilearn.com/shell-scripting-interview-questions-article",
+    "role": "DevOps Engineer",
+    "skill": "Bash",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What do you understand by GUI scripting?",
+    "answer": "GUI or Graphical User Interface controls a computer and its applications. GUI scripting mostly depends on the operating system and supports different applications.Â",
+    "source": "https://www.simplilearn.com/shell-scripting-interview-questions-article",
+    "role": "DevOps Engineer",
+    "skill": "Bash",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What is the lifespan of a shell variable?",
+    "answer": "A variable is inside the shell script only until the end of execution.Â",
+    "source": "https://www.simplilearn.com/shell-scripting-interview-questions-article",
+    "role": "DevOps Engineer",
+    "skill": "Bash",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Helm?",
+    "answer": "Helmis a package manager for Kubernetes. It facilitates the deployment and management of the applications and their dependencies in the Kubernetes cluster. It simplifies the process of deploying complex applications by using \"Charts\" which are bundles of predefined Kubernetes resources. Helm allows the users to define, install and upgrade the applications with ease through its command line interface CLI. It also supports the versioning, rollback capabilities and integration with helm repositories for sharing and discovering the charts.",
+    "source": "https://www.geeksforgeeks.org/devops/helm-101-an-introduction-to-package-manager-for-kubernetes/",
+    "role": "DevOps Engineer",
+    "skill": "Helm",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How Helm Works?",
+    "answer": "Helm has a server component – ‘Tiller’, which is deployed in the sameKubernetes clusteras other deployments. Tiller essentially listens and acts on the commands administered through the ‘Helm’ CLI tool and convert those to Kubernetes manifests. Helm packages are managed through an abstraction called ‘Charts’. There is an official chartrepositorymaintained by the Helm Community which hosts packages for the commonly used applications. Other than the already existing charts, users have the flexibility to create new charts for their unique use-case and push them to a public/private repository.",
+    "source": "https://www.geeksforgeeks.org/devops/helm-101-an-introduction-to-package-manager-for-kubernetes/",
+    "role": "DevOps Engineer",
+    "skill": "Helm",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Why use Helm Charts in Kubernetes?",
+    "answer": "The following are the some of the reasons and insights on using of helm charts in kubernetes:",
+    "source": "https://www.geeksforgeeks.org/devops/helm-101-an-introduction-to-package-manager-for-kubernetes/",
+    "role": "DevOps Engineer",
+    "skill": "Helm",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is MLOps?",
+    "answer": "MLOps, or Machine Learning Operations, is a set of practices that aim to streamline the process of deploying, managing, and monitoring machine learning models in production. It integrates machine learning system development and operations, facilitating collaboration between data scientists and IT operations teams. MLOps is essential for ensuring that models are reliable, scalable, and continuously updated based on new data and changing business needs.",
+    "source": "https://www.geeksforgeeks.org/machine-learning/comprehensive-mlops-interview-questions-from-basic-to-advanced/",
+    "role": "DevOps Engineer",
+    "skill": "Monitoring",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What are the key differences between traditional software development and machine learning development?",
+    "answer": "Traditional software development involves writing deterministic code that produces consistent outputs for the same inputs, with a focus on logic and algorithms. In contrast, machine learning development relies on training models using data, which introduces variability. This means machine learning requires continuous monitoring, updating, and retraining to maintain model performance over time, especially as data distributions shift.",
+    "source": "https://www.geeksforgeeks.org/machine-learning/comprehensive-mlops-interview-questions-from-basic-to-advanced/",
+    "role": "DevOps Engineer",
+    "skill": "Monitoring",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What are the main components of an MLOps pipeline?",
+    "answer": "An MLOps pipeline typically includes several key components:",
+    "source": "https://www.geeksforgeeks.org/machine-learning/comprehensive-mlops-interview-questions-from-basic-to-advanced/",
+    "role": "DevOps Engineer",
+    "skill": "Monitoring",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What is the role of version control in MLOps?",
+    "answer": "Version control is critical in MLOps as it enables teams to track and manage changes to both code and datasets over time. This facilitates collaboration, allows for easy rollbacks to previous versions, and ensures that experiments can be reproduced. Version control enhances accountability and reproducibility in machine learning projects, which is essential for auditing and compliance.",
+    "source": "https://www.geeksforgeeks.org/machine-learning/comprehensive-mlops-interview-questions-from-basic-to-advanced/",
+    "role": "DevOps Engineer",
+    "skill": "Monitoring",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is data versioning, and why is it important in MLOps?",
+    "answer": "Data versioning involves tracking changes to datasets, which is crucial for managing the lifecycle of machine learning models. As models are sensitive to the data they are trained on, maintaining versions of datasets allows teams to experiment with different configurations and revert to earlier versions if needed. This practice ensures consistency, reproducibility, and better management of data quality over time.",
+    "source": "https://www.geeksforgeeks.org/machine-learning/comprehensive-mlops-interview-questions-from-basic-to-advanced/",
+    "role": "DevOps Engineer",
+    "skill": "Monitoring",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What are some popular MLOps tools?",
+    "answer": "In the rapidly evolving landscape of machine learning, the role of Machine Learning Operations (MLOps) has emerged as a critical discipline, bridging the gap between modeldevelopmentand production deployment. As organizations strive to leverage data-driven insights, the demand for skilledMLOpsprofessionals has surged. MLOps combines best practices from DevOps with machine learning, emphasizing collaboration, automation, and scalability throughout the ML lifecycle.",
+    "source": "https://www.geeksforgeeks.org/machine-learning/comprehensive-mlops-interview-questions-from-basic-to-advanced/",
+    "role": "DevOps Engineer",
+    "skill": "Monitoring",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What is the purpose of model training and validation?",
+    "answer": "Model training involves teaching an algorithm to recognize patterns by adjusting its parameters based on input data. Validation assesses how well the trained model performs on a separate, unseen dataset. This step is crucial for ensuring that the model generalizes effectively to new data and does not overfit the training set, thus enhancing its predictive performance in real-world applications.",
+    "source": "https://www.geeksforgeeks.org/machine-learning/comprehensive-mlops-interview-questions-from-basic-to-advanced/",
+    "role": "DevOps Engineer",
+    "skill": "Monitoring",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What is a CI/CD pipeline, and how is it relevant to MLOps?",
+    "answer": "A CI/CD pipeline, or Continuous Integration/Continuous Deployment pipeline, automates the processes of integrating code changes and deploying applications. In MLOps, this is relevant because it allows for rapid iterations and updates to machine learning models, ensuring that changes are made seamlessly and reliably. Automation helps maintain model quality and facilitates quick responses to new data or changing requirements.",
+    "source": "https://www.geeksforgeeks.org/machine-learning/comprehensive-mlops-interview-questions-from-basic-to-advanced/",
+    "role": "DevOps Engineer",
+    "skill": "Monitoring",
+    "search_strategy": "role_specific"
+  }
+]

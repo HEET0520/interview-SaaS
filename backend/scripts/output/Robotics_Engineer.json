@@ -1,0 +1,1298 @@
+[
+  {
+    "question": "So first of all What is a Robot ?",
+    "answer": "A robot is any system that can perceive the environment that is its surroundings, take decisions based on the state of the environment and is able to execute the instructions generated.",
+    "source": "https://www.geeksforgeeks.org/operating-systems/introduction-to-ros-robot-operating-system/",
+    "role": "Robotics Engineer",
+    "skill": "ROS (Robot Operating System)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "OS and ROS ?",
+    "answer": "An Operating system is a software that provides interface between the applications and the hardware. It deals with the allocation of resources such as memory, processor time etc. by using scheduling algorithms and keeps record of the authority of different users, thus providing a security layer. It almost always has a low-level program called the kernel that helps in interfacing with the hardware and is essentially the most important part of any operating system.",
+    "source": "https://www.geeksforgeeks.org/operating-systems/introduction-to-ros-robot-operating-system/",
+    "role": "Robotics Engineer",
+    "skill": "ROS (Robot Operating System)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is a Robot Operating System (ROS)?",
+    "answer": "TheRobot Operating System (ROS)is an open-source, flexible framework for writing robot software. Although it is called an operating system, ROS is more accurately described as a middleware suite providing the services that a typical operating system offers, such as hardware abstraction, low-level device control, implementation of commonly-used functionality, message-passing between processes, and package management.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/robot-operating-system-ros-the-future-of-automation/",
+    "role": "Robotics Engineer",
+    "skill": "ROS (Robot Operating System)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Who are Robotics Engineers?",
+    "answer": "Robotics engineersare highly skilled professionals who specialize in the design, development, implementation, and operation of robotic systems. They are essentially the minds behind the machines, combining knowledge from various fields like programming, electronics, mechanics, and mathematics to bring robots to life. Their expertise allows them to create robots for diverse applications across industries, from manufacturing and healthcare to exploration and consumer electronics.",
+    "source": "https://www.geeksforgeeks.org/blogs/skills-for-a-successful-career-in-robotics-engineering/",
+    "role": "Robotics Engineer",
+    "skill": "ROS (Robot Operating System)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How to Become a Robotics Engineer?",
+    "answer": "To be an expert in robotics you must be skilled inprogramming languages.Python,C++,andJavaare examples of such languages that are usually used for developing robot control software within the field of robotics. These languages act as a basis for writing commands that tell a robot what to do and how it should interact with its surroundings.",
+    "source": "https://www.geeksforgeeks.org/blogs/skills-for-a-successful-career-in-robotics-engineering/",
+    "role": "Robotics Engineer",
+    "skill": "ROS (Robot Operating System)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How is Robotics changing the Healthcare Industry?",
+    "answer": "The world of robotics beckons with endless possibilities for those who possess the right blend of technical prowess and ingenuity. Robotics engineers are the masterminds behind these marvels, their expertise in programming, electronics, mechanics, and mathematics breathing life into machines that transform industries.",
+    "source": "https://www.geeksforgeeks.org/blogs/skills-for-a-successful-career-in-robotics-engineering/",
+    "role": "Robotics Engineer",
+    "skill": "ROS (Robot Operating System)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is ROS?",
+    "answer": "ROS acts as a factor that influencesrobotic system integrationby providing capabilities for communication between the various system elements. It provides abilities such as message passing, package administration, visualization tools, and others that can be used in robotics research and educational purposes to develop these tools.",
+    "source": "https://www.geeksforgeeks.org/installation-guide/getting-started-with-ros/",
+    "role": "Robotics Engineer",
+    "skill": "ROS (Robot Operating System)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is an AI Engineer?",
+    "answer": "AnAI Engineerdevelops intelligent algorithms that allow machines to perform tasks that typically require human intelligence. These professionals work on natural language processing, computer vision, and machine learning models. AI Engineers are in high demand due to the increasing reliance on AI in various sectors, including healthcare, finance, and autonomous systems.",
+    "source": "https://www.geeksforgeeks.org/gfg-academy/ai-engineer-to-robotics-engineer/",
+    "role": "Robotics Engineer",
+    "skill": "ROS (Robot Operating System)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is a Robotics Engineer?",
+    "answer": "ARobotics Engineerdesigns, develops, and tests robots, integrating AI to enable autonomous functions. Robotics Engineers often work in industries like manufacturing, healthcare, and military applications, where they build robots that can operate independently or assist humans in complex tasks. These engineers need a deep understanding of both hardware and software to create machines capable of interacting with their environment and executing complex operations.",
+    "source": "https://www.geeksforgeeks.org/gfg-academy/ai-engineer-to-robotics-engineer/",
+    "role": "Robotics Engineer",
+    "skill": "ROS (Robot Operating System)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How to Make the Transition from AI Engineer to Robotics Engineer?",
+    "answer": "Transitioning from an AI Engineer to a Robotics Engineer involves expanding your expertise beyond AI algorithms to include the physical and software aspects of robotics.",
+    "source": "https://www.geeksforgeeks.org/gfg-academy/ai-engineer-to-robotics-engineer/",
+    "role": "Robotics Engineer",
+    "skill": "ROS (Robot Operating System)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is the Robotics Development Environment with AWS RoboMaker?",
+    "answer": "The Robotics Development Environment is a setup of AWS RoboMaker which helps users to build and use robot applications. This environment gives a set of tools and resources that make it easy to create, test, and launch the robotic systems. It gives access to familiar tools like the Robot Operating System (ROS), the Gazebo environment, and different software development kits (SDKs). These tools allow developers to build, debug, and deploy their robotic applications easily.",
+    "source": "https://www.geeksforgeeks.org/devops/setting-up-your-first-robotics-development-environment-with-aws-robomaker/",
+    "role": "Robotics Engineer",
+    "skill": "ROS (Robot Operating System)",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "you like to accelerate? '))",
+    "answer": "# increase the current velocity by the speed defined.",
+    "source": "https://www.geeksforgeeks.org/python/ros-publishers-using-python/",
+    "role": "Robotics Engineer",
+    "skill": "Gazebo",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "By how much would you like to increase the speed?",
+    "answer": "Publishing Successful!Refer to the video link below for complete execution.Code demonstration",
+    "source": "https://www.geeksforgeeks.org/python/ros-publishers-using-python/",
+    "role": "Robotics Engineer",
+    "skill": "Gazebo",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Want a Top Software Development Job? Start Here!",
+    "answer": "The C++ Interview Questions addressed in this section cover thefundamentals of the C++ language, an aspect to be known mandatorily.",
+    "source": "https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-interview-questions",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is the difference betweenC and C++?",
+    "answer": "Cis a procedure-oriented programming language",
+    "source": "https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-interview-questions",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are classes and objects in C++?",
+    "answer": "Aclassis like a blueprint of an object. It is a user-defined data type with data members and member functions and is defined with the keyword class.",
+    "source": "https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-interview-questions",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are access modifiers?",
+    "answer": "You use access modifiers to define accessibility for the class members. It defines how to access the members of the class outside the class scope.",
+    "source": "https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-interview-questions",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. Difference between equal to (==) and assignment operator(=)?",
+    "answer": "The equal to operator == checks whether two values are equal or not. If equal, then itâs true; otherwise, it will return false.",
+    "source": "https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-interview-questions",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is the difference between a while loop and a do-while loop?",
+    "answer": "Thewhile loopverifies the condition; if itâs true, then it iterates the loop till the condition becomes false.",
+    "source": "https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-interview-questions",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is the size of the int data type?",
+    "answer": "1 - 4 bytes, the integer data type is 4 bytes.",
+    "source": "https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-interview-questions",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What among these is used to return the number of characters in the string?",
+    "answer": "3. Both size and length are used to return the number of characters in the string.",
+    "source": "https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-interview-questions",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Robot Framework?",
+    "answer": "The popularity of the Robot framework is growing as many large tech companies utilize it to assist their software developers to construct and testing cutting-edge computer solutions. Because of its open-source nature, this framework is extremely adaptable, and it can be used with practically any other tool or platform to create something unique. Anyone can use this framework in their projects because every line of code created in it is open source.",
+    "source": "https://www.interviewbit.com/robot-framework-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What are the features of the robot framework?",
+    "answer": "Following are the features of the robot framework:",
+    "source": "https://www.interviewbit.com/robot-framework-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the benefits of using the Robot Framework?",
+    "answer": "TheBenefits of the Robot Frameworkare listed below:",
+    "source": "https://www.interviewbit.com/robot-framework-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are the names of all the file formats that the Robot framework supports?",
+    "answer": "We commonly use files written in simple text format (usually in the .robot form, or in the format of .txt) in Robot Framework, but we can also use files written in Tab separated format or TSV. The plain text data can then be embedded in reStructured text format files.",
+    "source": "https://www.interviewbit.com/robot-framework-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4.  What do you understand by RIDE in the context of the robot framework?",
+    "answer": "The Ride is the Robot Framework's Integrated Development Environment. An Integrated Development Environment (IDE) is a software application that gives computer programmers a set of tools for authoring and debugging code. there are two ways to go to Ride, as mentioned below:",
+    "source": "https://www.interviewbit.com/robot-framework-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What are the disadvantages of using the robot framework?",
+    "answer": "Following are the disadvantages of using the robot framework:",
+    "source": "https://www.interviewbit.com/robot-framework-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What are the different types of variables in the context of the robot framework?",
+    "answer": "Variables are a key component of Robot Framework, and they can be utilized in almost every test data scenario. They're most typically used as arguments for keywords in the Test Case and Keyword sections, although they're also allowed in all settings. A variable cannot be used to specify a standard keyword name, but the BuiltIn keyword Run Keyword can be used to achieve the same result.",
+    "source": "https://www.interviewbit.com/robot-framework-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. Is it possible to use the Selenium library to speed up or slow down the execution of test cases?",
+    "answer": "Yes, we can use the Set Selenium Speed keyword to modify the execution speed.",
+    "source": "https://www.interviewbit.com/robot-framework-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. Explain the computer system?",
+    "answer": "The computer system is the collection of hardware and software that makes up a computer. It consists of the processor, memory, storage devices, input/output devices, and other components.",
+    "source": "https://www.interviewbit.com/computer-science-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is inheritance?",
+    "answer": "Inheritance is a way of structuring code so that it can be shared between different classes. Inheritance allows code to be shared between different classes and allows the same class to have different implementations in different contexts. Inheritance is a powerful tool that can make your code more maintainable and easier to understand. Inheritance is a fundamental concept in programming. It’s a way of structuring code so that it can be shared between different classes.",
+    "source": "https://www.interviewbit.com/computer-science-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "17. Define Cin and Cout in C++?",
+    "answer": "Cin and cout are two important functions in C++ that you should know about. Cin and cout are functions that allow you to read and write data to a stream. The basic syntax of cin and cout is as follows:",
+    "source": "https://www.interviewbit.com/computer-science-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "21. What are the different OOPS principles?",
+    "answer": "OOPS, principles are a set of rules and guidelines that organizations can use to ensure that their software is as bug-free as possible. The OOPS principles are:",
+    "source": "https://www.interviewbit.com/computer-science-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "22. Explain the access modifiers?",
+    "answer": "Access modifiers are a way of specifying which users have access to a resource. Access modifiers are often used to control access to data, files, or other resources. For example, a database might allow only certain users to see the data. Or, a file might be locked down so that only the owner can see it.",
+    "source": "https://www.interviewbit.com/computer-science-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is normalization in a Database?",
+    "answer": "Normalization is a process of abstracting and simplifying data. It is a way of making data easier to understand and easier to work with. For example, if you have a data set that contains a lot of numbers, you can normalize it by taking the numbers and breaking them down into smaller pieces, such as by dividing by 10. This makes it easier to work with the data and makes it easier to see trends and patterns. You can also normalize your data by making it more consistent.",
+    "source": "https://www.interviewbit.com/computer-science-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is a Critical Section?",
+    "answer": "A critical section is a section of code that is crucial to the operation of a program. By accessing critical sections, a program can make changes to the overall functionality of the program without affecting other sections of code. Critical sections are often accessed through functions, methods, and variables. The purpose of a critical section is to ensure that all parts of the program are working properly.",
+    "source": "https://www.interviewbit.com/computer-science-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. What is Deadlock?",
+    "answer": "A deadlock is a situation where two or more processes are waiting for each other to finish. Deadlock occurs when one process is waiting for another process to finish before it can continue. The process that is waiting will not finish until the other process finishes. This can be a problem if you need to wait for a long time, as this can lead to your system becoming unresponsive.",
+    "source": "https://www.interviewbit.com/computer-science-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is the startup code?",
+    "answer": "It is acodethat is called before the execution of the main function. It creates a platform for an application to run. It is called an assembly language.",
+    "source": "https://www.simplilearn.com/embedded-systems-interview-questions-answers-article",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What is the Semaphore?",
+    "answer": "It is a variable that is non-negative and can be shared betweenthreads. It solves the critical selection problem and achieves synchronization in the processes.",
+    "source": "https://www.simplilearn.com/embedded-systems-interview-questions-answers-article",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are the 2 types of Semaphore?",
+    "answer": "The 2 semaphores are Binary Semaphore and Counting Semaphore.",
+    "source": "https://www.simplilearn.com/embedded-systems-interview-questions-answers-article",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is the full form of ISR?",
+    "answer": "ISR means Interrupt Service Routines. It is used when an interruption occurs. These procedures are stored at a memory location in the software.",
+    "source": "https://www.simplilearn.com/embedded-systems-interview-questions-answers-article",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. When do we use a volatile keyword?",
+    "answer": "When a compiler changes its behavior unexpectedly after optimization, a volatile keyword is used.",
+    "source": "https://www.simplilearn.com/embedded-systems-interview-questions-answers-article",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What are the advantages of an Embedded system?",
+    "answer": "Some advantages of embedded systems are",
+    "source": "https://www.simplilearn.com/embedded-systems-interview-questions-answers-article",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What are the disadvantages of Embedded Systems?",
+    "answer": "It is hard to maintain because of its use and throw nature",
+    "source": "https://www.simplilearn.com/embedded-systems-interview-questions-answers-article",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is an embedded system?",
+    "answer": "It is a hardware system that software designed to perform a specific specialized function or task. It can be a complete system or belong to a large system.",
+    "source": "https://www.simplilearn.com/embedded-systems-interview-questions-answers-article",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is automation testing?",
+    "answer": "Automation testing is a software testing strategy in which a tester programmatically runs the tests using a tool or a framework instead of manually going through the test cases and executing them one by one.",
+    "source": "https://www.interviewbit.com/automation-testing-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What is the test automation pyramid?",
+    "answer": "Martin Fowler was the original creator of the test automation pyramid, which was introduced in 2012. It is a strategy for determining how to make the most effective use of the numerous kinds of testing automation available.  The basic tenet of the test pyramid is to have a large number of user interface (UI) unit tests and a small number of complete UI tests.",
+    "source": "https://www.interviewbit.com/automation-testing-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are some of the best practices in test automation?",
+    "answer": "Here are some of the best practices a software development and the testing team should use to ensure quality software.",
+    "source": "https://www.interviewbit.com/automation-testing-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is automated regression testing?",
+    "answer": "Software is never done. The developers are constantly adding new features, functions, fixing bugs, and so on. There is a chance that all this new code might break the existing functionality that was working.",
+    "source": "https://www.interviewbit.com/automation-testing-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. Why do you need cross-browser testing?",
+    "answer": "With web applications, you can’t guarantee the browsers/platforms/devices your users might use to access your software. Some users could be using Google Chrome on their Android phones, some might use Firefox on a Windows desktop machine, or others could use Safari on their Macbooks.",
+    "source": "https://www.interviewbit.com/automation-testing-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is cross-browser testing?",
+    "answer": "With web applications, you don’t know in advance which browsers your users will use. Hence, it’s crucial to test the web application or the website on multiple major browsers running on different operating systems.",
+    "source": "https://www.interviewbit.com/automation-testing-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is browser automation?",
+    "answer": "Browser automation is the technique of programmatically launching a web application in a browser and automatically executing various actions, just as a regular user would. Browser testing gives you the speed and efficiency that would be impossible for a human tester. Protractor, Cypress, and Selenium are some of the popular tools used in-browser testing.",
+    "source": "https://www.interviewbit.com/automation-testing-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is a test environment?",
+    "answer": "A test environment is a computer or a server on which a tester tests the software. After the team builds the software, the tester installs it on this computer with all its dependencies, just like the production environment. This allows the tester to test the software in a real-world scenario.",
+    "source": "https://www.interviewbit.com/automation-testing-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "C++",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Want a Top Software Development Job? Start Here!",
+    "answer": "Robotic Process Automation (RPA)is the use of software with Artificial Intelligence (AI) and machine learning (ML) capabilities to handle high-volume, repetitive tasks that previously required humans to perform. Some of these tasks include:",
+    "source": "https://www.simplilearn.com/tutorials/rpa-tutorial/rpa-interview-questions",
+    "role": "Robotics Engineer",
+    "skill": "Python",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is RPA?",
+    "answer": "Robotic Process Automation (RPA)is the use of software with Artificial Intelligence (AI) and machine learning (ML) capabilities to handle high-volume, repetitive tasks that previously required humans to perform. Some of these tasks include:",
+    "source": "https://www.simplilearn.com/tutorials/rpa-tutorial/rpa-interview-questions",
+    "role": "Robotics Engineer",
+    "skill": "Python",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What are the applications of RPA?Â",
+    "answer": "Fill in forms and move files and folders.",
+    "source": "https://www.simplilearn.com/tutorials/rpa-tutorial/rpa-interview-questions",
+    "role": "Robotics Engineer",
+    "skill": "Python",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What are the advantages of RPA?Â",
+    "answer": "Reduces costs - One of the important advantages of RPA is the quick reduction in costs. By automating tasks, an organization can save up to 30 percent of their total costs because software robots cost less than a full-time employee.",
+    "source": "https://www.simplilearn.com/tutorials/rpa-tutorial/rpa-interview-questions",
+    "role": "Robotics Engineer",
+    "skill": "Python",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What are some industries that can benefit from RPA?Â",
+    "answer": "Popular RPA tools help professionals configure tasks and build bots to automate them. These include:Â",
+    "source": "https://www.simplilearn.com/tutorials/rpa-tutorial/rpa-interview-questions",
+    "role": "Robotics Engineer",
+    "skill": "Python",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What are RPA tools?",
+    "answer": "Popular RPA tools help professionals configure tasks and build bots to automate them. These include:Â",
+    "source": "https://www.simplilearn.com/tutorials/rpa-tutorial/rpa-interview-questions",
+    "role": "Robotics Engineer",
+    "skill": "Python",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What is the difference between traditional automation and RPA?",
+    "answer": "Traditional automation leverages application programming interfaces (APIs) and other tools to integrate different systems. Thedevelopermust have a good understanding of the target system.Â",
+    "source": "https://www.simplilearn.com/tutorials/rpa-tutorial/rpa-interview-questions",
+    "role": "Robotics Engineer",
+    "skill": "Python",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What are the three types of RPA?Â",
+    "answer": "Ideal for reducing work like completing data processing tasks in the background. They donât require any human intervention. These bots can be launched using:Â",
+    "source": "https://www.simplilearn.com/tutorials/rpa-tutorial/rpa-interview-questions",
+    "role": "Robotics Engineer",
+    "skill": "Python",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1.What is Automation Testing, and why is it important?",
+    "answer": "Automated Testing allows repetitive tasks to be executed without the intervention of a manual tester. It is used to automate testing tasks that are difficult to perform manually",
+    "source": "https://www.geeksforgeeks.org/software-testing/automation-testing-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "Python",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What are the benefits of Automation Testing over Manual Testing?",
+    "answer": "Automation testing is faster, reusable, and reliable for repetitive tasks for the development of the software product. It supports large-scale testing, like load testing, and reduces human error.",
+    "source": "https://www.geeksforgeeks.org/software-testing/automation-testing-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "Python",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What is Selenium, and what are its components?",
+    "answer": "Seleniumis a powerful tool for controlling web browsers through programs. It is functional for all browsers, works on all major OS, and its scripts are written in various languages.",
+    "source": "https://www.geeksforgeeks.org/software-testing/automation-testing-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "Python",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What is the difference between Selenium WebDriver and Selenium IDE?",
+    "answer": "Selenium WebDriver is a tool for writing complex automation scripts with the help of languages like Java or Python and other side Selenium IDE is a browser plugin for recording and playing back simple tests without coding in real time.",
+    "source": "https://www.geeksforgeeks.org/software-testing/automation-testing-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "Python",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is TestNG, and why is it used??",
+    "answer": "TestNGis a powerfultesting frameworkthat provides features like flexible test configurations, test cases that can be grouped, support for data-driven testing, inbuilt reporting, etc.",
+    "source": "https://www.geeksforgeeks.org/software-testing/automation-testing-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "Python",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What is a locator in Selenium, and what types are available?",
+    "answer": "A locator identifies web elements which is present in the webpages (e.g., buttons, fields) in Selenium. Types include ID, Name, XPath, CSS Selector, Class Name, Tag Name, Link Text, and Partial Link Text.",
+    "source": "https://www.geeksforgeeks.org/software-testing/automation-testing-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "Python",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What is a Page Object Model (POM)?",
+    "answer": "POM is a design pattern which is commonly used in Selenium for Automating the Test Cases. This design pattern can be used with any kind of framework like keyword-driven, Data-driven, hybrid framework, etc.",
+    "source": "https://www.geeksforgeeks.org/software-testing/automation-testing-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "Python",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What is the difference between implicit and explicit waits in Selenium?",
+    "answer": "Implicit wait sets a default wait time for all elements to load in a webpage automation and other-side Explicit wait applies to specific elements, waiting for conditions like visibility or click-ability.",
+    "source": "https://www.geeksforgeeks.org/software-testing/automation-testing-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "Python",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. How does artificial intelligence differ from traditional programming?",
+    "answer": "Artificial Intelligence (AI)is when machines, especially computers, are designed to think and act like humans. AI helps machines learn from information, solve problems, and improve themselves. It allows them to do tasks that usually need human intelligence, like understand3ing what they see (like recognizing images), understanding and responding to speech, making decisions, and translating languages.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligenceai-interview-questions-and-answers/",
+    "role": "Robotics Engineer",
+    "skill": "Python",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What are the main branches of AI?",
+    "answer": "The main branches of AI are as follows :",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligenceai-interview-questions-and-answers/",
+    "role": "Robotics Engineer",
+    "skill": "Python",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What is the difference between a strong AI and a weak AI?",
+    "answer": "Difference between a strong AI and a weak AI is as follows :",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligenceai-interview-questions-and-answers/",
+    "role": "Robotics Engineer",
+    "skill": "Python",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What is the difference between symbolic and connectionist AI?",
+    "answer": "The difference between symbolic and connectionist AI is as follows:",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligenceai-interview-questions-and-answers/",
+    "role": "Robotics Engineer",
+    "skill": "Python",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is the difference between parametric and non-parametric models?",
+    "answer": "The difference between parametric and non-parametric models are as follows:",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligenceai-interview-questions-and-answers/",
+    "role": "Robotics Engineer",
+    "skill": "Python",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What are the steps involved in deploying a machine learning model into production?",
+    "answer": "The steps involved in deploying a Machine learning Model into production typically includes:",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligenceai-interview-questions-and-answers/",
+    "role": "Robotics Engineer",
+    "skill": "Python",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What are the techniques used to avoid overfitting?",
+    "answer": "The  techniques used to avoid overfitting are as follows:",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligenceai-interview-questions-and-answers/",
+    "role": "Robotics Engineer",
+    "skill": "Python",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What is the difference between batch learning and online learning?",
+    "answer": "The difference between batch learning and online learning are as follows",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligenceai-interview-questions-and-answers/",
+    "role": "Robotics Engineer",
+    "skill": "Python",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why this Article(Computer Vision Interview Questions)?",
+    "answer": "This set of interview questions is designed to assess your knowledge and understanding of key concepts in computer vision,neural networks,and related technologies. Covering topics from basic definitions to advanced techniques, these questions will help evaluate your expertise in the field and your ability to apply computer vision principles to solve real-world problems.",
+    "source": "https://www.geeksforgeeks.org/computer-vision/computer-vision-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "MATLAB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What do you mean by Digital Image?",
+    "answer": "A digital image is a representation of a two-dimensional image using binary values. It is composed of pixels, which are the smallest units of the image, arranged in a grid. Each pixel has a numerical value that represents its color or intensity, allowing the image to be displayed and processed by digital devices.",
+    "source": "https://www.geeksforgeeks.org/computer-vision/computer-vision-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "MATLAB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How do neural networks distinguish between useful and non-useful features in computer vision?",
+    "answer": "Neural networks distinguish between useful and non-useful features through a process called feature learning. During training, the network adjusts its weights based on the input data and the desired output. Useful features are those that help the network minimize the loss function and improve accuracy. These features are emphasized through higher weights, while non-useful features have their weights reduced.",
+    "source": "https://www.geeksforgeeks.org/computer-vision/computer-vision-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "MATLAB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3.How do convolutional neural networks (CNNs) work?",
+    "answer": "CNNs work by applying convolution operations to input data, typically images, to extract features. A CNN consists of multiple layers, including convolutional layers, pooling layers, and fully connected layers. Convolutional layers apply filters to detect features such as edges, textures, and shapes. Pooling layers reduce the dimensionality of the data, making the network computationally efficient. Fully connected layers combine the features to make predictions.",
+    "source": "https://www.geeksforgeeks.org/computer-vision/computer-vision-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "MATLAB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5.What are some common computer vision libraries and frameworks?",
+    "answer": "Common computer vision libraries and frameworks include:",
+    "source": "https://www.geeksforgeeks.org/computer-vision/computer-vision-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "MATLAB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6.How do you handle overfitting in computer vision models?",
+    "answer": "To handle overfitting in computer vision models, several techniques can be used:",
+    "source": "https://www.geeksforgeeks.org/computer-vision/computer-vision-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "MATLAB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7.What are the different Image denoising techniques in computer vision?",
+    "answer": "Computer vision is a field ofartificial intelligencethat enables machines to interpret and understand visual information from the world. It encompasses a wide range of tasks such as image classification, object detection, image segmentation, and image generation. As the demand for advanced computer vision applications grows, so does the need for skilled professionals who can develop and implement these technologies effectively.",
+    "source": "https://www.geeksforgeeks.org/computer-vision/computer-vision-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "MATLAB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9.What are the different Image Thresholding techniques in computer vision?",
+    "answer": "Computer vision is a field ofartificial intelligencethat enables machines to interpret and understand visual information from the world. It encompasses a wide range of tasks such as image classification, object detection, image segmentation, and image generation. As the demand for advanced computer vision applications grows, so does the need for skilled professionals who can develop and implement these technologies effectively.",
+    "source": "https://www.geeksforgeeks.org/computer-vision/computer-vision-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "MATLAB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is MATLAB? What are its applications?",
+    "answer": "MATLABis characterized by high-level programming environments fornumerical computation, displaying data,andthe development of algorithms. It adopts a multidisciplinary approach, found particularly in automotive, aerospace, telecommunications, finance, and robotics. It also suppliedMATLABwith toolboxes in each of these important fields, including signal and image processing, control systems, machine learning, and optimization, which makes it suitable for engineers and data scientists.",
+    "source": "https://www.geeksforgeeks.org/blogs/matlab-project-ideas/",
+    "role": "Robotics Engineer",
+    "skill": "MATLAB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Robotic Engineering?",
+    "answer": "Robotic engineering is a branch of engineering that involves the design, construction, operation, and use of robots. It integrates concepts from multiple disciplines, including computer science, mechanical engineering, electrical engineering, and artificial intelligence (AI) to create machines capable of performing a variety of tasks either autonomously or semi-autonomously.",
+    "source": "https://www.geeksforgeeks.org/gfg-academy/how-to-become-a-robotics-engineer/",
+    "role": "Robotics Engineer",
+    "skill": "MATLAB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What does a Robotics Engineer do?",
+    "answer": "A robotics engineer is responsible for designing the systems and software that allow robots to operate effectively. Their work involves conceptualizing robot designs, developing software to control them, testing prototypes, and integrating robotics with other systems. They also troubleshoot and maintain existing robotic systems to improve efficiency and functionality.",
+    "source": "https://www.geeksforgeeks.org/gfg-academy/how-to-become-a-robotics-engineer/",
+    "role": "Robotics Engineer",
+    "skill": "MATLAB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How to Become a Robotics Engineer in India?",
+    "answer": "Here's a roadmap on how to become a robotics engineer",
+    "source": "https://www.geeksforgeeks.org/gfg-academy/how-to-become-a-robotics-engineer/",
+    "role": "Robotics Engineer",
+    "skill": "MATLAB",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Why is Machine Learning Important?",
+    "answer": "By using ML, companies are able to make smarter decisions, boost efficiency in comparatively less time, and create more personalized customer experiences. Below are some of the reasons which makes Machine Learning important -",
+    "source": "https://www.geeksforgeeks.org/machine-learning/top-career-paths-in-machine-learning/",
+    "role": "Robotics Engineer",
+    "skill": "LiDAR",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why Choose This Path?",
+    "answer": "You can also refer to -How to become a Machine Learning Engineer",
+    "source": "https://www.geeksforgeeks.org/machine-learning/top-career-paths-in-machine-learning/",
+    "role": "Robotics Engineer",
+    "skill": "LiDAR",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Spatial Intelligence in Human Cognition?",
+    "answer": "Spatial intelligence refers to the ability to comprehend and interpret spatial relationships between objects, shapes, and environments. People who have high spatial intelligence perform exceptionally well on tasks requiring them to mentally manipulate and visualize objects in space.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/spatial-intelligence-in-ai/",
+    "role": "Robotics Engineer",
+    "skill": "LiDAR",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Hierarchical Reinforcement Learning (HRL)?",
+    "answer": "Hierarchical Reinforcement Learning (HRL) is an extension of traditional Reinforcement Learning that incorporates a hierarchical structure into the learning process. Unlike standard RL, where an agent learns a policy to map states directly to actions, HRL allows the agent to learn multiple levels of policies, each corresponding to different levels of abstraction.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/hierarchical-reinforcement-learning-hrl-in-ai/",
+    "role": "Robotics Engineer",
+    "skill": "LiDAR",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Artificial Intelligence (AI)?",
+    "answer": "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think, learn, and adapt. In the context of distributed systems, AI involves the deployment of intelligent algorithms and models across multiple interconnected systems or nodes to achieve complex tasks that require significant computational power and data processing capabilities.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/role-of-artificial-intelligenceai-in-distributed-system/",
+    "role": "Robotics Engineer",
+    "skill": "LiDAR",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Computer Vision?",
+    "answer": "The ability to read, understand, and derive any meaningful piece of information from any visual representation (image, video, or any other form) with the help ofAIis simply calledComputer Vision.",
+    "source": "https://www.geeksforgeeks.org/blogs/top-computer-vision-trends/",
+    "role": "Robotics Engineer",
+    "skill": "SLAM",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is the Future of Computer Vision?",
+    "answer": "The future of computer vision is filled with infinite possibilities, erasing the line between digital and reality. It has changed the way we interact with technology and how computers interpret the world. Some computer vision trends to watch out for in 2025 are:",
+    "source": "https://www.geeksforgeeks.org/blogs/top-computer-vision-trends/",
+    "role": "Robotics Engineer",
+    "skill": "SLAM",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What are the misconceptions about Artificial Intelligence?",
+    "answer": "Some misconceptions about Artificial Intelligence that exists are:",
+    "source": "https://www.interviewbit.com/artificial-intelligence-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "Path Planning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What are some real-life applications of Artificial Intelligence?",
+    "answer": "Social Media:The most common use of Artificial Intelligence in social media is facial detection and verification. Artificial Intelligence, along with machine learning, is also used to design your social media feed.",
+    "source": "https://www.interviewbit.com/artificial-intelligence-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "Path Planning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What are different platforms for Artificial Intelligence (AI) development?",
+    "answer": "Some different software platforms for AI development are-",
+    "source": "https://www.interviewbit.com/artificial-intelligence-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "Path Planning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What are the programming languages used for Artificial Intelligence?",
+    "answer": "Python, LISP, Java, C++, R are some of the programming languages used for Artificial Intelligence.",
+    "source": "https://www.interviewbit.com/artificial-intelligence-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "Path Planning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What are the types of Artificial Intelligence?",
+    "answer": "There are seven types of Artificial Intelligence. These are:",
+    "source": "https://www.interviewbit.com/artificial-intelligence-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "Path Planning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. How are Artificial Intelligence and Machine Learning related?",
+    "answer": "Artificial Intelligence and Machine Learning are two popular and often misunderstood words. Artificial Intelligence is a domain of computer science that enables machines to mimic human intelligence and behavior. On the other hand, Machine Learning is a subset of Artificial Intelligence and is all about feeding computers with data so that they can learn on their own from all the patterns and models. Machine Learning models are used to implement Artificial Intelligence frequently.",
+    "source": "https://www.interviewbit.com/artificial-intelligence-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "Path Planning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What is Deep Learning?",
+    "answer": "In a nutshell, the hidden layers conduct nonlinear changes on the network's inputs. The function of the neural network determines the hidden layers, and the layers themselves may vary depending on their associated weights. To learn more, here is a free Deep Learning learning course byScaler Topics. This free course can be referred to clear the basics of Deep Learning.",
+    "source": "https://www.interviewbit.com/artificial-intelligence-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "Path Planning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "10. What are different types of Machine Learning?",
+    "answer": "Supervised Learning:Supervised learning is the easiest type of machine learning. It is used to train the machine with labeled data. Labeled data is a group of samples that have been tagged with one or more labels (information tags). The labeled data is fed to the machine one by one until the machine can recognize the data on its own. It is just like a teacher trying to teach a kid all kinds of labeled cards in a deck of cards one by one. The data itself is the teacher in supervised learning.",
+    "source": "https://www.interviewbit.com/artificial-intelligence-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "Path Planning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Robotics?",
+    "answer": "Roboticsis a field that deals with the creation and designing of these mechanical humans. And robotics these days is not only restricted to the mechanical and electronics domain. Nowadays, the artificial intelligence robot is becoming 'smarter' and more efficient with the help of computer science.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligence-in-robotics/",
+    "role": "Robotics Engineer",
+    "skill": "Path Planning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How AI is used in Robotics?",
+    "answer": "AI plays a crucial role in modern robotics, bringing intelligence and adaptability to these fascinating machines. An Artificial Intelligence Robot is a perfect example of how AI enhances the capabilities of robots, enabling them to perform a wide range of tasks with increased autonomy and adaptability. There are several ways in which an Artificial Intelligence Robot utilizes AI in robotics:",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligence-in-robotics/",
+    "role": "Robotics Engineer",
+    "skill": "Path Planning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How do Robots and Artificial Intelligence work together?",
+    "answer": "The answer is simple. An artificial intelligence robot, or AI robot, gives robots a computer vision to navigate, sense, and calculate their reactions accordingly. Artificial intelligence robots learn to perform their tasks from humans through machine learning, which is a part of computer programming and AI.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligence-in-robotics/",
+    "role": "Robotics Engineer",
+    "skill": "Path Planning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Robotics Engineering?",
+    "answer": "Robotic engineering is one of the dynamic aspects of engineering and computer science that strives to enhance preparation, design, and manufacturing with robots applied across domains like Satellites and GIS and industries like Medical surgeries, Automotive, aerospace, and more. In addition, robotics engineers are thoroughly trained to develop spare parts and write programs effective for automated robots.",
+    "source": "https://www.geeksforgeeks.org/gfg-academy/robotics-engineering-opportunities-skills-and-career-pathways/",
+    "role": "Robotics Engineer",
+    "skill": "Path Planning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What Does Robotics Engineer Do?",
+    "answer": "As a robotics engineer, your main role will be to develop robotic applications across a variety of industries, including automotive, defense, medicine, manufacturing, and more. You can expect to work in a computer design product or workstation, where you'll be dedicated to assembling or organizing prototypes to continuously test the software or potential solution. This will give you a clear idea of the day-to-day responsibilities you can expect in this career.",
+    "source": "https://www.geeksforgeeks.org/gfg-academy/robotics-engineering-opportunities-skills-and-career-pathways/",
+    "role": "Robotics Engineer",
+    "skill": "Path Planning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What Skills are Required for Robotic Engineers?",
+    "answer": "Since robotics engineering is constantly evolving and multidisciplinary, professionals must meet a few skill requirements and commit to a continuous learning and improvement approach. Let us explore a few standard skill requirements for robotics engineers.",
+    "source": "https://www.geeksforgeeks.org/gfg-academy/robotics-engineering-opportunities-skills-and-career-pathways/",
+    "role": "Robotics Engineer",
+    "skill": "Path Planning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Where Does a Robotic Engineer Work?",
+    "answer": "A robotics engineer workplace dynamic varies depending on the specific industry, project requirements, and the engineer's specific job role within a multidisciplinary team. Overall, robotics engineers can find employment opportunities in diverse settings by utilizing their skills in designing, developing, and implementing robotic systems.",
+    "source": "https://www.geeksforgeeks.org/gfg-academy/robotics-engineering-opportunities-skills-and-career-pathways/",
+    "role": "Robotics Engineer",
+    "skill": "Path Planning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How to Become a Robotics Engineer?",
+    "answer": "To begin your career in robotics engineering you need to have an undergraduate and graduate degree in a relevant field and obtain adequate experience. Let’s understand the process in detail.",
+    "source": "https://www.geeksforgeeks.org/gfg-academy/robotics-engineering-opportunities-skills-and-career-pathways/",
+    "role": "Robotics Engineer",
+    "skill": "Path Planning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Is Robotics Engineering Right for Me?",
+    "answer": "With increasing advancements in machine learning, robotic autonomous and overall technology careers in robotic engineering have a wider scope in coming years. However, certain factors will help you identify whether this is an ideal career choice for you or not.",
+    "source": "https://www.geeksforgeeks.org/gfg-academy/robotics-engineering-opportunities-skills-and-career-pathways/",
+    "role": "Robotics Engineer",
+    "skill": "Path Planning",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What are the main types of AI?",
+    "answer": "Themain types of AIinclude Reactive Machines, Limited Memory, Theory of Mind, and Self-aware AI. Each represents increasing sophistication and capability, from simple reaction-based machines to systems capable of understanding and developing consciousness.",
+    "source": "https://www.simplilearn.com/artificial-intelligence-ai-interview-questions-and-answers-article",
+    "role": "Robotics Engineer",
+    "skill": "Motion Control",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How does machine learning differ from traditional programming?",
+    "answer": "Traditional programming involves explicitly coding the logic to make decisions based on input data. In contrast, machine learning algorithms learn from data, identifying patterns and making decisions with minimal human intervention.",
+    "source": "https://www.simplilearn.com/artificial-intelligence-ai-interview-questions-and-answers-article",
+    "role": "Robotics Engineer",
+    "skill": "Motion Control",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is a convolutional neural network (CNN)?",
+    "answer": "AConvolutional Neural Network (CNN)is an advanced deep learning algorithm designed to process input images. It employs learnable weights and biases to allocate significance to different features or objects within the image, enabling it to distinguish between them effectively.",
+    "source": "https://www.simplilearn.com/artificial-intelligence-ai-interview-questions-and-answers-article",
+    "role": "Robotics Engineer",
+    "skill": "Motion Control",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What are Generative Adversarial Networks (GANs)?",
+    "answer": "GANsare machine learning frameworks designed by two networks: a generator that creates samples and a discriminator that evaluates them. The networks are trained concurrently to produce high-quality, synthetic (fake) outputs indistinguishable from real data.",
+    "source": "https://www.simplilearn.com/artificial-intelligence-ai-interview-questions-and-answers-article",
+    "role": "Robotics Engineer",
+    "skill": "Motion Control",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is bias in machine learning, and why is it important?",
+    "answer": "Bias in machine learning refers to errors introduced in the model due to oversimplification, assumptions, or prejudices in the training data. It's important because it can lead to inaccurate predictions or decisions, particularly affecting fairness and ethical considerations.",
+    "source": "https://www.simplilearn.com/artificial-intelligence-ai-interview-questions-and-answers-article",
+    "role": "Robotics Engineer",
+    "skill": "Motion Control",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is the difference between classification and regression?",
+    "answer": "Classification is used to predict discrete responses, categorizing data into classes. Regression is used to predict continuous responses, forecasting numerical quantities.",
+    "source": "https://www.simplilearn.com/artificial-intelligence-ai-interview-questions-and-answers-article",
+    "role": "Robotics Engineer",
+    "skill": "Motion Control",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. How do you ensure your AI models are ethical and unbiased?",
+    "answer": "Ensuring AI models are ethical and unbiased involves rigorous testing across diverse datasets, continuous monitoring for bias, incorporating ethical considerations into the AI development process, and transparency in how models make decisions.",
+    "source": "https://www.simplilearn.com/artificial-intelligence-ai-interview-questions-and-answers-article",
+    "role": "Robotics Engineer",
+    "skill": "Motion Control",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What are the ethical concerns associated with AI?",
+    "answer": "Ethical concerns include privacy issues, automation-related job losses,decision-makingtransparency, AI biases, and the potential for misuse of AI technologies.",
+    "source": "https://www.simplilearn.com/artificial-intelligence-ai-interview-questions-and-answers-article",
+    "role": "Robotics Engineer",
+    "skill": "Motion Control",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Arduino?",
+    "answer": "TheArduinois one of the most popular and widely used Arduino boards. It's based on the ATmega328Pmicrocontrollerand offers a good balance of features, performance, and affordability, making it suitable for a wide range of projects, from simple to moderately complex.",
+    "source": "https://www.geeksforgeeks.org/electronics-engineering/getting-started-with-arduino/",
+    "role": "Robotics Engineer",
+    "skill": "Arduino",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why choose Arduino?",
+    "answer": "We need to know the reason for selecting Arduino over other devices so let us study some advantages of Arduino.",
+    "source": "https://www.geeksforgeeks.org/electronics-engineering/getting-started-with-arduino/",
+    "role": "Robotics Engineer",
+    "skill": "Arduino",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What Can You Do With an Arduino?",
+    "answer": "Arduino finds its applications in various fields due to their ability to perform different things. Let us see some of its applications:",
+    "source": "https://www.geeksforgeeks.org/electronics-engineering/getting-started-with-arduino/",
+    "role": "Robotics Engineer",
+    "skill": "Arduino",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Arduino?",
+    "answer": "With the increasing demand for programming, there was a need for a device that could program electrical devices therefore, Arduino was introduced. Arduino is a board made up of several interconnected components likemicrocontrollers, digital pins, analog pins, power supplies, and crystal oscillators which give Arduino the ability to program electronic instruments. You must be familiar with the idea that an Arduino board can be programmed to illuminate an LED. The Arduino has its hardware and software using which it can program devices. Let us take a look at the Arduino board.",
+    "source": "https://www.geeksforgeeks.org/electronics-engineering/arduino-coding-basics/",
+    "role": "Robotics Engineer",
+    "skill": "Arduino",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is an Arduino Board?",
+    "answer": "Here is an overview of the whole Arduino board. Anybody who has worked on Arduino will know that is a small board consisting of multiple components like ICs, and USB which are interconnected to form a whole connection. Here is a list of all the components",
+    "source": "https://www.geeksforgeeks.org/electronics-engineering/overview-of-the-arduino-uno-components/",
+    "role": "Robotics Engineer",
+    "skill": "Arduino",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is the difference between union and structure in C?",
+    "answer": "The keyword struct defines a structure.",
+    "source": "https://www.simplilearn.com/nvidia-interview-questions-article",
+    "role": "Robotics Engineer",
+    "skill": "Jetson Nano",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What is an interrupt?",
+    "answer": "When a process or an event in hardware or software requires immediate attention, it emits the interrupt signal that alerts the processor of a high-priority process interrupting the current working process. In I/O devices, the Interrupt Service Routine (ISR) is dedicated to this purpose.Â Â",
+    "source": "https://www.simplilearn.com/nvidia-interview-questions-article",
+    "role": "Robotics Engineer",
+    "skill": "Jetson Nano",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is the order of calling constructors and destructors in C++?",
+    "answer": "C++ constructorcall order begins from top to bottom, i.e., from the base to the derived class. The C++ destructor call order is the reverse of the constructor.Â",
+    "source": "https://www.simplilearn.com/nvidia-interview-questions-article",
+    "role": "Robotics Engineer",
+    "skill": "Jetson Nano",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What are composition and aggregation?",
+    "answer": "These two types of associations represent relationships between two objects. Aggregation implies that one object is the owner of the other, while composition means one object is contained in the other object. Destruction of the owning object affects the containing object in composition but not in aggregation.Â",
+    "source": "https://www.simplilearn.com/nvidia-interview-questions-article",
+    "role": "Robotics Engineer",
+    "skill": "Jetson Nano",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is the difference between HTTP GET and HTTP Post?Â",
+    "answer": "GET allows viewing something without changing it, and POST is useful for changing things. While GET helps retrieve remote data, POST is for inserting/updating remote data. For instance, a search page uses GET to obtain data, and a form that allows password change uses POST.",
+    "source": "https://www.simplilearn.com/nvidia-interview-questions-article",
+    "role": "Robotics Engineer",
+    "skill": "Jetson Nano",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is the difference between heap and stack memory?Â",
+    "answer": "Memory is allocated in a contiguous block.",
+    "source": "https://www.simplilearn.com/nvidia-interview-questions-article",
+    "role": "Robotics Engineer",
+    "skill": "Jetson Nano",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is RTTI in C++?",
+    "answer": "RTTI stands for runtime type information. This mechanism provides details about the type of anobjectat runtime. It is available only for classes with at least one virtual function.Â",
+    "source": "https://www.simplilearn.com/nvidia-interview-questions-article",
+    "role": "Robotics Engineer",
+    "skill": "Jetson Nano",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. What operators cannot be overloaded in C++?",
+    "answer": "The following operators cannot be overloaded:",
+    "source": "https://www.simplilearn.com/nvidia-interview-questions-article",
+    "role": "Robotics Engineer",
+    "skill": "Jetson Nano",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is edge machine learning?",
+    "answer": "Edge machine learning (edge ML) is the practice of running machine learning algorithms directly on devices at the edge of a network or locally on a system such as smartphones, IoT sensors, embedded systems, and other smart devices rather than sending data to centralized cloud servers for processing. This approach enables devices to make decisions and predictions locally, as close as possible to where the data is generated. The NVIDIA Jetson Nano is a widely used example of an edge machine learning device, ideal for real-world AI applications at the edge due to its balance of performance, power efficiency, and affordability.How Edge ML WorksWorkflow of Edge machine learningThe above image explains how processing can be done on the edge of devices or locally over the internet without using any cloud for faster and efficient data processing.Local Processing: Data is collected, processed, and analyzed directly on the device or on a nearby local server, using machine learning or deep learni",
+    "source": "https://www.geeksforgeeks.org/machine-learning/what-is-edge-machine-learning/",
+    "role": "Robotics Engineer",
+    "skill": "Jetson Nano",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Deep Learning?",
+    "answer": "Deep learningis the branch of machine learning which is based onartificial neural networkarchitecture which makes it capable of learning complex patterns and relationships within data. An artificial neural network or ANN uses layers of interconnected nodes called neurons that work togeather to process and learn from the input data.",
+    "source": "https://www.geeksforgeeks.org/deep-learning/deep-learning-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "Computer Vision",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What is an artificial neural network?",
+    "answer": "Anartificial neural networkis inspired by the networks and functionalities of human biological neurons. it is also known as neural networks or neural nets. ANN uses layers of interconnected nodes called artificial neurons that work together to process and learn the input data. The starting layer artificial neural network is known as the input layer, it takes input from external input sources and transfers it to the next layer known as the hidden layer where each neuron received inputs from previous layer neurons and computes the weighted sum, and transfers to the next layer neurons. These connections are weighted means effects of the inputs from the previous layer are optimized more or less by assigning different-different weights to each input and it is adjusted during the training process by optimizing these weights for better performance of the model. The output of one neuron becomes the input to other neurons in the next layer of the network, and this process continues until the fi",
+    "source": "https://www.geeksforgeeks.org/deep-learning/deep-learning-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "Computer Vision",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. How does Deep Learning differ from Machine Learning?",
+    "answer": "Machine learninganddeep learningboth are subsets ofartificial intelligencebut there are many similarities and differences between them.",
+    "source": "https://www.geeksforgeeks.org/deep-learning/deep-learning-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "Computer Vision",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What are the applications of Deep Learning?",
+    "answer": "Deep learning has many applications, and it can be broadly divided into computer vision, natural language processing (NLP), and reinforcement learning.",
+    "source": "https://www.geeksforgeeks.org/deep-learning/deep-learning-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "Computer Vision",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What are the challenges in Deep Learning?",
+    "answer": "Deep learninghas made significant advancements in various fields, but there are still some challenges that need to be addressed. Here are some of the main challenges in deep learning:",
+    "source": "https://www.geeksforgeeks.org/deep-learning/deep-learning-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "Computer Vision",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. How deep learning is used in supervised, unsupervised as well as reinforcement machine learning?",
+    "answer": "Deep learning can be used for supervised, unsupervised as well as reinforcement machine learning. it uses a variety of ways to process these.",
+    "source": "https://www.geeksforgeeks.org/deep-learning/deep-learning-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "Computer Vision",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What is a Perceptron?",
+    "answer": "Perceptronis one of the simplest Artificial neural network architectures. It was introduced by Frank Rosenblatt in 1957s. It is the simplest type of feedforward neural network, consisting of a single layer of input nodes that are fully connected to a layer of output nodes. It can learn the linearly separable patterns. it uses slightly different types of artificial neurons known as threshold logic units (TLU). it was first introduced by McCulloch and Walter Pitts in the 1940s. it computes the weighted sum of its inputs and then applies the step function to compare this weighted sum to the threshold. the most common step function used in perceptron is the Heaviside step function.",
+    "source": "https://www.geeksforgeeks.org/deep-learning/deep-learning-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "Computer Vision",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9.  What is Multilayer Perceptron? and How it is different from a single-layer perceptron?",
+    "answer": "Amultilayer perceptron (MLP)is an advancement of the single-layer perceptron which uses more than one hidden layer to process the data from input to the final prediction. It consists of multiple layers of interconnected neurons, with multiple nodes present in each layer. The MLP architecture is referred to as the feedforward neural network because data flows in one direction, from the input layer through one or more hidden layers to the output layer.",
+    "source": "https://www.geeksforgeeks.org/deep-learning/deep-learning-interview-questions/",
+    "role": "Robotics Engineer",
+    "skill": "Computer Vision",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q1: What is the Architecture of Generative AI ?",
+    "answer": "Answer:Generative AI works through the use of neural networks, specifically Recurrent Neural Networks (RNNs) and more recently, Transformers. Here’s a simplified breakdown of how it functions:",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/generative-ai-interview-question-with-answer/",
+    "role": "Robotics Engineer",
+    "skill": "Computer Vision",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q2: What are the top applications of Generative AI?",
+    "answer": "Answer:Generative AI has a wide range of applications across different industries:",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/generative-ai-interview-question-with-answer/",
+    "role": "Robotics Engineer",
+    "skill": "Computer Vision",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q3: . How is Generative Adversarial Networks (GANs) used in AI?",
+    "answer": "Answer:Generative Adversarial Networks, or GANs, are a type of machine learning model made up of two key parts:a generator and a discriminator. These two components collaborate like — the generator creates new content, while the discriminator evaluates it, pushing both to improve through their interaction.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/generative-ai-interview-question-with-answer/",
+    "role": "Robotics Engineer",
+    "skill": "Computer Vision",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q4: How Generator and Discriminator works together ?",
+    "answer": "The generator tries to fool the discriminator, while the discriminator aims to correctly classify the data. They improve through this competition until the generator produces highly realistic outputs.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/generative-ai-interview-question-with-answer/",
+    "role": "Robotics Engineer",
+    "skill": "Computer Vision",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q5: What are some common techniques to improve the stability and performance of GANs?",
+    "answer": "Answer:To enhance the stability and performance of GANs, various strategies can be employed. Using architectures likeDeep Convolutional GANs (DCGANs) or Wasserstein GANs (WGANs)is a popular approach. Techniques such asbatch normalization, feature matching, and gradient penaltyare effective in stabilizing training. Additionally, leveraging advanced optimizers and custom loss functions tailored for GANs can further boost their performance.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/generative-ai-interview-question-with-answer/",
+    "role": "Robotics Engineer",
+    "skill": "Computer Vision",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q6. What is Deep Convolutional Generative Adversarial Networks (DCGANs) ?",
+    "answer": "Answer:Deep Convolutional Generative Adversarial Networks (DCGANs)are a type of generative adversarial network (GAN) architecture that leverages convolutional neural networks (CNNs) for both the generator and discriminator components.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/generative-ai-interview-question-with-answer/",
+    "role": "Robotics Engineer",
+    "skill": "Computer Vision",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q7: What are the key differences between conditional GANs (cGANs) and traditional GANs?",
+    "answer": "Answer:Conditional GANs extend traditional GANs by conditioning the generation process on additional information, such asclasslabels to generators. In contrast, traditional GANs generate data without any conditioning.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/generative-ai-interview-question-with-answer/",
+    "role": "Robotics Engineer",
+    "skill": "Computer Vision",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q8: Can you explain the purpose and implementation of regularization techniques in generative models?",
+    "answer": "Answer:Regularization techniquesare essential for preventing overfitting and improving a model's ability to generalise to new data. In generative models, common methods include dropout, weight decay, and spectral normalization.These methods ensure that the model learns robust features and avoids memorizing the training data.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/generative-ai-interview-question-with-answer/",
+    "role": "Robotics Engineer",
+    "skill": "Computer Vision",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why Learn OpenCV?",
+    "answer": "Before moving into OpenCV, make sure we have set it up correctly in our environment. Whether we're working on Windows, Linux, macOS or using Anaconda.",
+    "source": "https://www.geeksforgeeks.org/opencv-python-tutorial/?ref=shm",
+    "role": "Robotics Engineer",
+    "skill": "OpenCV",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Data Science?",
+    "answer": "Data Scienceis a field that extracts knowledge and insights from structured and unstructured data by using scientific methods, algorithms, processes and systems. It combines expertise from various domains such as statistics, computer science, machine learning, data engineering and domain-specific knowledge to analyze and interpret complex data sets.",
+    "source": "https://www.geeksforgeeks.org/data-science/data-science-interview-questions-and-answers/",
+    "role": "Robotics Engineer",
+    "skill": "OpenCV",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Marginal Probability?",
+    "answer": "Marginal probabilityis simply the chance of one specific event happening, without worrying about what happens with other events. For example, if you’re looking at the probability of it raining tomorrow, you only care about the chance of rain, not what happens with other weather conditions like wind or temperature.",
+    "source": "https://www.geeksforgeeks.org/data-science/data-science-interview-questions-and-answers/",
+    "role": "Robotics Engineer",
+    "skill": "OpenCV",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the Probability Axioms?",
+    "answer": "Theprobability axiomsare just basic rules that help us understand how probabilities work. There are three main ones:",
+    "source": "https://www.geeksforgeeks.org/data-science/data-science-interview-questions-and-answers/",
+    "role": "Robotics Engineer",
+    "skill": "OpenCV",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is the difference between Dependent and Independent Events in Probability?",
+    "answer": "Conditional probabilityrefers to the probability of an event occurring given that another event has already occurred. Mathematically, it is defined as the probability of event A occurring, given that event B has occurred and is denoted byP(A|B). The formula for conditional probability is:",
+    "source": "https://www.geeksforgeeks.org/data-science/data-science-interview-questions-and-answers/",
+    "role": "Robotics Engineer",
+    "skill": "OpenCV",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is Conditional Probability?",
+    "answer": "Conditional probabilityrefers to the probability of an event occurring given that another event has already occurred. Mathematically, it is defined as the probability of event A occurring, given that event B has occurred and is denoted byP(A|B). The formula for conditional probability is:",
+    "source": "https://www.geeksforgeeks.org/data-science/data-science-interview-questions-and-answers/",
+    "role": "Robotics Engineer",
+    "skill": "OpenCV",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is Bayes’ Theorem and when do we use it in Data Science?",
+    "answer": "Bayes' Theoremhelps us figure out the probability of an event happening based on some prior knowledge or evidence. It’s like updating our guess about something when we learn new things. The formula for Bayes' Theorem is:",
+    "source": "https://www.geeksforgeeks.org/data-science/data-science-interview-questions-and-answers/",
+    "role": "Robotics Engineer",
+    "skill": "OpenCV",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is Normal Distribution and Standard Normal Distribution?",
+    "answer": "Correlationmeans that two things are related or happen at the same time, but one doesn’t necessarily cause the other. For example, if people eat more ice cream in summer and also go swimming more, there's a correlation between the two, but eating ice cream doesn’t cause swimming. They just both happen together.",
+    "source": "https://www.geeksforgeeks.org/data-science/data-science-interview-questions-and-answers/",
+    "role": "Robotics Engineer",
+    "skill": "OpenCV",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is the difference between correlation and causation?",
+    "answer": "Correlationmeans that two things are related or happen at the same time, but one doesn’t necessarily cause the other. For example, if people eat more ice cream in summer and also go swimming more, there's a correlation between the two, but eating ice cream doesn’t cause swimming. They just both happen together.",
+    "source": "https://www.geeksforgeeks.org/data-science/data-science-interview-questions-and-answers/",
+    "role": "Robotics Engineer",
+    "skill": "OpenCV",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Object Tracking?",
+    "answer": "Object trackingin computer vision is following and keeping a record of the position of any object upon its change in movement in the video. Multiple objects can also be tracked simultaneously. The main goal of object tracking is to maintain the identity and positioning of the object as it moves through the video, despite variations in appearance, size, orientation, and lighting, and releasing the object tracking once the object goes out of the video frame.",
+    "source": "https://www.geeksforgeeks.org/computer-vision/getting-started-with-object-tracking-using-opencv/",
+    "role": "Robotics Engineer",
+    "skill": "OpenCV",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Why this is important? : Some Real-world Applications",
+    "answer": "This is an implementation of detecting multiple colors (here, only",
+    "source": "https://www.geeksforgeeks.org/python/multiple-color-detection-in-real-time-using-python-opencv/",
+    "role": "Robotics Engineer",
+    "skill": "OpenCV",
+    "search_strategy": "direct"
+  }
+]

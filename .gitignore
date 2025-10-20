@@ -1,0 +1,25 @@
+# Node
+node_modules/
+.next/
+.env
+.env.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env/gi
+backend/.env/
+backend/app/__pycache__/
+backend/scripts/__pycache__/
+backend/app/services/__pycache__/
+backend/app/core/__pycache__/
+backend/app/models/__pycache__/
+backend/app/routers/__pycache__/
+backend/embedding/
+**/embedding/
+backend/venv/
+# Others
+.DS_Store

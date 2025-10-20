@@ -1,0 +1,208 @@
+2025-08-26 18:20:33,542 - INFO - Chrome driver initialized successfully
+2025-08-26 18:20:33,544 - INFO - Processing role: AI/ML Engineer
+2025-08-26 18:20:33,545 - INFO - Searching DuckDuckGo for: '"AI/ML Engineer" interview questions and answers'
+2025-08-26 18:20:34,062 - INFO - response: https://www.bing.com/search?q=%22AI%2FML+Engineer%22+interview+questions+and+answers 200
+2025-08-26 18:20:34,127 - INFO - Found 5 valid URLs for query: '"AI/ML Engineer" interview questions and answers'
+2025-08-26 18:20:34,131 - INFO - Scraping page: https://ai.google/
+2025-08-26 18:20:46,295 - INFO - Extracted 81 Q&A pairs from https://ai.google/
+2025-08-26 18:20:46,296 - INFO - Scraping page: https://ai.google/build/
+2025-08-26 18:20:53,285 - INFO - Extracted 94 Q&A pairs from https://ai.google/build/
+2025-08-26 18:20:53,287 - INFO - Scraping page: https://ai.google/products/
+2025-08-26 18:20:58,291 - INFO - Extracted 75 Q&A pairs from https://ai.google/products/
+2025-08-26 18:20:58,293 - INFO - Scraping page: https://ai.google/aitimeline/
+2025-08-26 18:21:06,703 - INFO - Extracted 0 Q&A pairs from https://ai.google/aitimeline/
+2025-08-26 18:21:06,718 - INFO - Scraping page: https://ai.google/research
+2025-08-26 18:21:17,720 - INFO - Extracted 75 Q&A pairs from https://ai.google/research
+2025-08-26 18:21:17,723 - INFO - Searching DuckDuckGo for: 'AI/ML Engineer technical interview questions'
+2025-08-26 18:21:18,123 - INFO - response: https://www.bing.com/search?q=AI%2FML+Engineer+technical+interview+questions 200
+2025-08-26 18:21:20,366 - INFO - response: https://www.bing.com/search?q=AI%2FML+Engineer+technical+interview+questions&first=11&FORM=PERE 200
+2025-08-26 18:21:20,451 - INFO - Found 5 valid URLs for query: 'AI/ML Engineer technical interview questions'
+2025-08-26 18:21:20,452 - INFO - Scraping page: https://www.ambitionbox.com/profiles/ai-ml-engineer/interview-questions
+2025-08-26 18:21:31,881 - INFO - Extracted 0 Q&A pairs from https://www.ambitionbox.com/profiles/ai-ml-engineer/interview-questions
+2025-08-26 18:21:31,881 - INFO - Scraping page: https://www.interviewbit.com/machine-learning-interview-questions/
+2025-08-26 18:21:40,075 - INFO - Extracted 42 Q&A pairs from https://www.interviewbit.com/machine-learning-interview-questions/
+2025-08-26 18:21:40,076 - INFO - Scraping page: https://interviewprep.org/machine-learning-engineer-interview-questions/
+2025-08-26 18:21:48,887 - INFO - Extracted 34 Q&A pairs from https://interviewprep.org/machine-learning-engineer-interview-questions/
+2025-08-26 18:21:48,889 - INFO - Scraping page: https://www.sgainc.com/interview-questions-for-ai-ml-engineers/
+2025-08-26 18:22:42,466 - INFO - Extracted 22 Q&A pairs from https://www.sgainc.com/interview-questions-for-ai-ml-engineers/
+2025-08-26 18:22:42,477 - INFO - Scraping page: https://www.geeksforgeeks.org/machine-learning/machine-learning-interview-questions/
+2025-08-26 18:23:13,309 - INFO - Extracted 63 Q&A pairs from https://www.geeksforgeeks.org/machine-learning/machine-learning-interview-questions/
+2025-08-26 18:23:13,313 - INFO - Searching DuckDuckGo for: 'common AI/ML Engineer interview questions'
+2025-08-26 18:23:13,652 - INFO - response: https://www.bing.com/search?q=common+AI%2FML+Engineer+interview+questions 200
+2025-08-26 18:23:13,724 - INFO - Found 0 valid URLs for query: 'common AI/ML Engineer interview questions'
+2025-08-26 18:23:13,725 - INFO - Searching DuckDuckGo for: 'Python interview questions AI/ML Engineer'
+2025-08-26 18:23:13,979 - INFO - response: https://www.bing.com/search?q=Python+interview+questions+AI%2FML+Engineer 200
+2025-08-26 18:23:14,548 - INFO - Found 5 valid URLs for query: 'Python interview questions AI/ML Engineer'
+2025-08-26 18:23:14,549 - INFO - Scraping page: https://devinterview.io/blog/python-ml-interview-questions/
+2025-08-26 18:23:22,910 - INFO - Extracted 105 Q&A pairs from https://devinterview.io/blog/python-ml-interview-questions/
+2025-08-26 18:23:22,911 - INFO - Scraping page: https://github.com/ahmedemam576/ai-engineer-interview-questions
+2025-08-26 18:23:31,855 - INFO - Extracted 39 Q&A pairs from https://github.com/ahmedemam576/ai-engineer-interview-questions
+2025-08-26 18:23:31,857 - INFO - Scraping page: https://www.glassdoor.co.in/Interview/python-ai-engineer-interview-questions-SRCH_KO0,18.htm
+2025-08-26 18:23:37,136 - INFO - Extracted 0 Q&A pairs from https://www.glassdoor.co.in/Interview/python-ai-engineer-interview-questions-SRCH_KO0,18.htm
+2025-08-26 18:23:37,136 - INFO - Scraping page: https://in.indeed.com/career-advice/interviewing/python-machine-learning-interview-questions
+2025-08-26 18:23:42,553 - INFO - Extracted 0 Q&A pairs from https://in.indeed.com/career-advice/interviewing/python-machine-learning-interview-questions
+2025-08-26 18:23:42,554 - INFO - Searching DuckDuckGo for: 'TensorFlow interview questions AI/ML Engineer'
+2025-08-26 18:23:43,012 - INFO - response: https://www.bing.com/search?q=TensorFlow+interview+questions+AI%2FML+Engineer 200
+2025-08-26 18:23:43,499 - INFO - Found 5 valid URLs for query: 'TensorFlow interview questions AI/ML Engineer'
+2025-08-26 18:23:43,501 - INFO - Scraping page: https://stackoverflow.com/questions/50622525/which-tensorflow-and-cuda-version-combinations-are-compatible
+2025-08-26 18:23:52,361 - INFO - Extracted 16 Q&A pairs from https://stackoverflow.com/questions/50622525/which-tensorflow-and-cuda-version-combinations-are-compatible
+2025-08-26 18:23:52,362 - INFO - Scraping page: https://stackoverflow.com/questions/79398319/is-there-another-method-to-install-tensorflow-2-18-0-with-python-3-13-1
+2025-08-26 18:24:00,591 - INFO - Extracted 10 Q&A pairs from https://stackoverflow.com/questions/79398319/is-there-another-method-to-install-tensorflow-2-18-0-with-python-3-13-1
+2025-08-26 18:24:00,591 - INFO - Scraping page: https://stackoverflow.com/questions/71000250/import-tensorflow-keras-could-not-be-resolved-after-upgrading-to-tensorflow-2
+2025-08-26 18:24:07,655 - INFO - Extracted 7 Q&A pairs from https://stackoverflow.com/questions/71000250/import-tensorflow-keras-could-not-be-resolved-after-upgrading-to-tensorflow-2
+2025-08-26 18:24:07,656 - INFO - Scraping page: https://stackoverflow.com/questions/74556733/tensorflow-support-for-python3-11
+2025-08-26 18:24:13,744 - INFO - Extracted 11 Q&A pairs from https://stackoverflow.com/questions/74556733/tensorflow-support-for-python3-11
+2025-08-26 18:24:13,744 - INFO - Scraping page: https://www.zhihu.com/question/350445991
+2025-08-26 18:24:20,614 - INFO - Extracted 0 Q&A pairs from https://www.zhihu.com/question/350445991
+2025-08-26 18:24:20,615 - INFO - Processing role: Data Scientist
+2025-08-26 18:24:20,615 - INFO - Searching DuckDuckGo for: '"Data Scientist" interview questions and answers'
+2025-08-26 18:24:20,895 - INFO - response: https://www.bing.com/search?q=%22Data+Scientist%22+interview+questions+and+answers 200
+2025-08-26 18:24:20,925 - INFO - Found 0 valid URLs for query: '"Data Scientist" interview questions and answers'
+2025-08-26 18:24:20,925 - INFO - Searching DuckDuckGo for: 'Data Scientist technical interview questions'
+2025-08-26 18:24:21,199 - INFO - response: https://www.bing.com/search?q=Data+Scientist+technical+interview+questions 200
+2025-08-26 18:24:21,238 - INFO - Found 5 valid URLs for query: 'Data Scientist technical interview questions'
+2025-08-26 18:24:21,239 - INFO - Scraping page: https://www.ibm.com/think/topics/data
+2025-08-26 18:24:31,165 - INFO - Extracted 34 Q&A pairs from https://www.ibm.com/think/topics/data
+2025-08-26 18:24:31,166 - INFO - Scraping page: https://en.wikipedia.org/wiki/Data
+2025-08-26 18:24:36,257 - INFO - Extracted 9 Q&A pairs from https://en.wikipedia.org/wiki/Data
+2025-08-26 18:24:36,257 - INFO - Scraping page: https://www.geeksforgeeks.org/data-science/what-is-data/
+2025-08-26 18:24:49,933 - INFO - Extracted 23 Q&A pairs from https://www.geeksforgeeks.org/data-science/what-is-data/
+2025-08-26 18:24:49,935 - INFO - Scraping page: https://www.mygreatlearning.com/blog/what-is-data-definition-types-importance/
+2025-08-26 18:24:54,618 - INFO - Extracted 31 Q&A pairs from https://www.mygreatlearning.com/blog/what-is-data-definition-types-importance/
+2025-08-26 18:24:54,654 - INFO - Scraping page: https://www.data.gov.in/
+2025-08-26 18:24:58,887 - INFO - Extracted 0 Q&A pairs from https://www.data.gov.in/
+2025-08-26 18:24:58,888 - INFO - Searching DuckDuckGo for: 'common Data Scientist interview questions'
+2025-08-26 18:24:59,201 - INFO - response: https://www.bing.com/search?q=common+Data+Scientist+interview+questions 200
+2025-08-26 18:25:00,913 - INFO - response: https://www.bing.com/search?q=common+Data+Scientist+interview+questions&first=11&FORM=PERE 200
+2025-08-26 18:25:01,009 - INFO - Found 5 valid URLs for query: 'common Data Scientist interview questions'
+2025-08-26 18:25:01,009 - INFO - Scraping page: https://www.simplilearn.com/tutorials/data-science-tutorial/data-science-interview-questions
+2025-08-26 18:25:06,569 - INFO - Extracted 158 Q&A pairs from https://www.simplilearn.com/tutorials/data-science-tutorial/data-science-interview-questions
+2025-08-26 18:25:06,569 - INFO - Scraping page: https://www.springboard.com/blog/data-science/data-science-interview-questions/
+2025-08-26 18:25:10,961 - INFO - Extracted 3 Q&A pairs from https://www.springboard.com/blog/data-science/data-science-interview-questions/
+2025-08-26 18:25:10,962 - INFO - Scraping page: https://roadmap.sh/questions/data-science
+2025-08-26 18:25:19,528 - INFO - Extracted 81 Q&A pairs from https://roadmap.sh/questions/data-science
+2025-08-26 18:25:19,529 - INFO - Scraping page: https://www.datacamp.com/blog/data-scientist-interview-questions
+2025-08-26 18:25:27,115 - INFO - Extracted 0 Q&A pairs from https://www.datacamp.com/blog/data-scientist-interview-questions
+2025-08-26 18:25:27,115 - INFO - Scraping page: https://www.iquanta.in/blog/top-100-data-science-interview-questions-and-answers-2025/
+2025-08-26 18:25:32,322 - INFO - Extracted 121 Q&A pairs from https://www.iquanta.in/blog/top-100-data-science-interview-questions-and-answers-2025/
+2025-08-26 18:25:32,323 - INFO - Searching DuckDuckGo for: 'Python interview questions Data Scientist'
+2025-08-26 18:25:32,651 - INFO - response: https://www.bing.com/search?q=Python+interview+questions+Data+Scientist 200
+2025-08-26 18:25:32,723 - INFO - Found 5 valid URLs for query: 'Python interview questions Data Scientist'
+2025-08-26 18:25:32,724 - INFO - Scraping page: https://www.python.org/
+2025-08-26 18:25:38,098 - INFO - Extracted 16 Q&A pairs from https://www.python.org/
+2025-08-26 18:25:38,098 - INFO - Scraping page: https://www.geeksforgeeks.org/python/python-programming-language-tutorial/
+2025-08-26 18:25:46,377 - INFO - Extracted 29 Q&A pairs from https://www.geeksforgeeks.org/python/python-programming-language-tutorial/
+2025-08-26 18:25:46,378 - INFO - Scraping page: https://en.wikipedia.org/wiki/Python_(programming_language)
+2025-08-26 18:25:52,023 - INFO - Extracted 27 Q&A pairs from https://en.wikipedia.org/wiki/Python_(programming_language)
+2025-08-26 18:25:52,024 - INFO - Scraping page: https://www.w3schools.com/python/
+2025-08-26 18:26:45,625 - INFO - Extracted 80 Q&A pairs from https://www.w3schools.com/python/
+2025-08-26 18:26:45,625 - INFO - Scraping page: https://www.python.org/downloads/
+2025-08-26 18:26:50,820 - INFO - Extracted 23 Q&A pairs from https://www.python.org/downloads/
+2025-08-26 18:26:50,821 - INFO - Searching DuckDuckGo for: 'R interview questions Data Scientist'
+2025-08-26 18:26:51,094 - INFO - response: https://www.bing.com/search?q=R+interview+questions+Data+Scientist 200
+2025-08-26 18:26:52,836 - INFO - response: https://www.bing.com/search?q=R+interview+questions+Data+Scientist&first=11&FORM=PERE 200
+2025-08-26 18:26:52,853 - INFO - Found 5 valid URLs for query: 'R interview questions Data Scientist'
+2025-08-26 18:26:52,854 - INFO - Scraping page: https://www.listendata.com/2016/09/r-interview-questions-and-answers.html
+2025-08-26 18:27:04,846 - INFO - Extracted 0 Q&A pairs from https://www.listendata.com/2016/09/r-interview-questions-and-answers.html
+2025-08-26 18:27:04,849 - INFO - Scraping page: https://www.interviewquery.com/p/r-programming-interview-questions
+2025-08-26 18:27:12,273 - INFO - Extracted 27 Q&A pairs from https://www.interviewquery.com/p/r-programming-interview-questions
+2025-08-26 18:27:12,275 - INFO - Scraping page: https://www.projectpro.io/article/100-data-science-in-r-interview-questions-and-answers-for-2018/187
+2025-08-26 18:27:19,595 - INFO - Extracted 15 Q&A pairs from https://www.projectpro.io/article/100-data-science-in-r-interview-questions-and-answers-for-2018/187
+2025-08-26 18:27:19,596 - INFO - Scraping page: https://www.geeksforgeeks.org/r-language/r-interview-questions/
+2025-08-26 18:27:28,792 - INFO - Extracted 79 Q&A pairs from https://www.geeksforgeeks.org/r-language/r-interview-questions/
+2025-08-26 18:27:28,793 - INFO - Scraping page: https://intellipaat.com/blog/interview-question/r-interview-questions/
+2025-08-26 18:27:36,358 - INFO - Extracted 110 Q&A pairs from https://intellipaat.com/blog/interview-question/r-interview-questions/
+2025-08-26 18:27:36,359 - INFO - Processing role: Data Engineer
+2025-08-26 18:27:36,359 - INFO - Searching DuckDuckGo for: '"Data Engineer" interview questions and answers'
+2025-08-26 18:27:36,634 - INFO - response: https://www.bing.com/search?q=%22Data+Engineer%22+interview+questions+and+answers 200
+2025-08-26 18:27:36,686 - INFO - Found 0 valid URLs for query: '"Data Engineer" interview questions and answers'
+2025-08-26 18:27:36,688 - INFO - Searching DuckDuckGo for: 'Data Engineer technical interview questions'
+2025-08-26 18:27:36,987 - INFO - response: https://www.bing.com/search?q=Data+Engineer+technical+interview+questions 200
+2025-08-26 18:27:37,015 - INFO - Found 5 valid URLs for query: 'Data Engineer technical interview questions'
+2025-08-26 18:27:37,017 - INFO - Searching DuckDuckGo for: 'common Data Engineer interview questions'
+2025-08-26 18:27:37,319 - INFO - response: https://www.bing.com/search?q=common+Data+Engineer+interview+questions 200
+2025-08-26 18:27:37,393 - INFO - Found 5 valid URLs for query: 'common Data Engineer interview questions'
+2025-08-26 18:27:37,397 - INFO - Scraping page: https://dictionary.cambridge.org/dictionary/english/common
+2025-08-26 18:27:52,223 - INFO - Extracted 16 Q&A pairs from https://dictionary.cambridge.org/dictionary/english/common
+2025-08-26 18:27:52,223 - INFO - Scraping page: https://www.dictionary.com/browse/common
+2025-08-26 18:28:06,962 - INFO - Extracted 13 Q&A pairs from https://www.dictionary.com/browse/common
+2025-08-26 18:28:06,964 - INFO - Scraping page: https://www.merriam-webster.com/dictionary/common
+2025-08-26 18:28:32,351 - INFO - Extracted 38 Q&A pairs from https://www.merriam-webster.com/dictionary/common
+2025-08-26 18:28:32,352 - INFO - Scraping page: https://www.oxfordlearnersdictionaries.com/definition/english/common_1
+2025-08-26 18:28:41,865 - INFO - Extracted 2 Q&A pairs from https://www.oxfordlearnersdictionaries.com/definition/english/common_1
+2025-08-26 18:28:41,866 - INFO - Scraping page: https://www.wordsmyth.net/?ent=common
+2025-08-26 18:29:15,863 - INFO - Extracted 0 Q&A pairs from https://www.wordsmyth.net/?ent=common
+2025-08-26 18:29:15,864 - INFO - Searching DuckDuckGo for: 'SQL interview questions Data Engineer'
+2025-08-26 18:29:16,121 - INFO - response: https://www.bing.com/search?q=SQL+interview+questions+Data+Engineer 200
+2025-08-26 18:29:16,338 - INFO - Found 5 valid URLs for query: 'SQL interview questions Data Engineer'
+2025-08-26 18:29:16,338 - INFO - Scraping page: https://www.zhihu.com/question/30357711
+2025-08-26 18:29:22,382 - INFO - Extracted 0 Q&A pairs from https://www.zhihu.com/question/30357711
+2025-08-26 18:29:22,383 - INFO - Scraping page: https://stackoverflow.com/questions/5658457/not-equal-operator-on-null
+2025-08-26 18:29:29,498 - INFO - Extracted 11 Q&A pairs from https://stackoverflow.com/questions/5658457/not-equal-operator-on-null
+2025-08-26 18:29:29,498 - INFO - Scraping page: https://stackoverflow.com/questions/19855497/what-does-angle-brackets-mean-in-ms-sql-server
+2025-08-26 18:29:35,138 - INFO - Extracted 11 Q&A pairs from https://stackoverflow.com/questions/19855497/what-does-angle-brackets-mean-in-ms-sql-server
+2025-08-26 18:29:35,138 - INFO - Scraping page: https://stackoverflow.com/questions/361747/what-does-the-symbol-do-in-sql
+2025-08-26 18:29:41,127 - INFO - Extracted 7 Q&A pairs from https://stackoverflow.com/questions/361747/what-does-the-symbol-do-in-sql
+2025-08-26 18:29:41,127 - INFO - Scraping page: https://stackoverflow.com/questions/723195/should-i-use-or-for-not-equal-in-t-sql
+2025-08-26 18:29:47,184 - INFO - Extracted 7 Q&A pairs from https://stackoverflow.com/questions/723195/should-i-use-or-for-not-equal-in-t-sql
+2025-08-26 18:29:47,184 - INFO - Searching DuckDuckGo for: 'Python interview questions Data Engineer'
+2025-08-26 18:29:47,529 - INFO - response: https://www.bing.com/search?q=Python+interview+questions+Data+Engineer 200
+2025-08-26 18:29:47,588 - INFO - Found 5 valid URLs for query: 'Python interview questions Data Engineer'
+2025-08-26 18:29:47,590 - INFO - Processing role: Prompt Engineer
+2025-08-26 18:29:47,591 - INFO - Searching DuckDuckGo for: '"Prompt Engineer" interview questions and answers'
+2025-08-26 18:29:47,836 - INFO - response: https://www.bing.com/search?q=%22Prompt+Engineer%22+interview+questions+and+answers 200
+2025-08-26 18:29:47,874 - INFO - Found 5 valid URLs for query: '"Prompt Engineer" interview questions and answers'
+2025-08-26 18:29:47,875 - INFO - Scraping page: https://support.google.com/gemini/answer/16316416?hl=en&co=GENIE.Platform=Desktop
+2025-08-26 18:29:53,806 - INFO - Extracted 7 Q&A pairs from https://support.google.com/gemini/answer/16316416?hl=en&co=GENIE.Platform=Desktop
+2025-08-26 18:29:53,807 - INFO - Scraping page: https://support.google.com/chrome/thread/299879732/how-to-disable-sign-in-with-google-prompt?hl=en
+2025-08-26 18:30:00,278 - INFO - Extracted 0 Q&A pairs from https://support.google.com/chrome/thread/299879732/how-to-disable-sign-in-with-google-prompt?hl=en
+2025-08-26 18:30:00,279 - INFO - Scraping page: https://support.google.com/docs/answer/15820999?hl=en
+2025-08-26 18:30:14,585 - INFO - Extracted 13 Q&A pairs from https://support.google.com/docs/answer/15820999?hl=en
+2025-08-26 18:30:14,586 - INFO - Scraping page: https://support.google.com/gemini/answer/15235603?hl=en
+2025-08-26 18:30:20,812 - INFO - Extracted 7 Q&A pairs from https://support.google.com/gemini/answer/15235603?hl=en
+2025-08-26 18:30:20,816 - INFO - Scraping page: https://support.google.com/gemini/thread/347700144/veo-3-keeps-saying-prompts-only-in-english-even-when-the-prompt-is-already-in-english?hl=en
+2025-08-26 18:30:29,176 - INFO - Extracted 0 Q&A pairs from https://support.google.com/gemini/thread/347700144/veo-3-keeps-saying-prompts-only-in-english-even-when-the-prompt-is-already-in-english?hl=en
+2025-08-26 18:30:29,178 - INFO - Searching DuckDuckGo for: 'Prompt Engineer technical interview questions'
+2025-08-26 18:30:29,549 - INFO - response: https://www.bing.com/search?q=Prompt+Engineer+technical+interview+questions 200
+2025-08-26 18:30:29,669 - INFO - Found 5 valid URLs for query: 'Prompt Engineer technical interview questions'
+2025-08-26 18:30:29,671 - INFO - Searching DuckDuckGo for: 'common Prompt Engineer interview questions'
+2025-08-26 18:30:29,974 - INFO - response: https://www.bing.com/search?q=common+Prompt+Engineer+interview+questions 200
+2025-08-26 18:30:30,747 - INFO - Found 5 valid URLs for query: 'common Prompt Engineer interview questions'
+2025-08-26 18:30:30,748 - INFO - Scraping page: https://www.theknowledgeacademy.com/blog/prompt-engineering-interview-questions/
+2025-08-26 18:30:42,142 - INFO - Extracted 17 Q&A pairs from https://www.theknowledgeacademy.com/blog/prompt-engineering-interview-questions/
+2025-08-26 18:30:42,143 - INFO - Scraping page: https://www.finalroundai.com/blog/prompt-engineer-interview-questions
+2025-08-26 18:31:13,412 - INFO - Extracted 17 Q&A pairs from https://www.finalroundai.com/blog/prompt-engineer-interview-questions
+2025-08-26 18:31:13,414 - INFO - Scraping page: https://www.coursera.org/articles/prompt-engineering-interview-questions?msockid=276815c04c6364282bc603944d2f6539
+2025-08-26 18:31:22,305 - INFO - Extracted 21 Q&A pairs from https://www.coursera.org/articles/prompt-engineering-interview-questions?msockid=276815c04c6364282bc603944d2f6539
+2025-08-26 18:31:22,307 - INFO - Scraping page: https://codesignal.com/blog/prompt-engineering/prompt-engineering-interview-questions/
+2025-08-26 18:31:34,800 - INFO - Extracted 18 Q&A pairs from https://codesignal.com/blog/prompt-engineering/prompt-engineering-interview-questions/
+2025-08-26 18:31:34,802 - INFO - Scraping page: https://testrigor.com/blog/prompt-engineering-interview-questions/
+2025-08-26 18:31:45,220 - INFO - Extracted 32 Q&A pairs from https://testrigor.com/blog/prompt-engineering-interview-questions/
+2025-08-26 18:31:45,222 - INFO - Searching DuckDuckGo for: 'LLM interview questions Prompt Engineer'
+2025-08-26 18:31:45,702 - INFO - response: https://www.bing.com/search?q=LLM+interview+questions+Prompt+Engineer 200
+2025-08-26 18:31:45,767 - INFO - Found 5 valid URLs for query: 'LLM interview questions Prompt Engineer'
+2025-08-26 18:31:45,768 - INFO - Scraping page: https://www.zhihu.com/question/11285951981
+2025-08-26 18:31:51,854 - INFO - Extracted 0 Q&A pairs from https://www.zhihu.com/question/11285951981
+2025-08-26 18:31:51,855 - INFO - Scraping page: https://www.zhihu.com/tardis/bd/art/32829727368
+2025-08-26 18:31:58,835 - INFO - Extracted 10 Q&A pairs from https://www.zhihu.com/tardis/bd/art/32829727368
+2025-08-26 18:31:58,836 - INFO - Scraping page: https://www.zhihu.com/question/15608452195
+2025-08-26 18:32:04,554 - INFO - Extracted 0 Q&A pairs from https://www.zhihu.com/question/15608452195
+2025-08-26 18:32:04,556 - INFO - Scraping page: https://www.zhihu.com/question/12292274612
+2025-08-26 18:32:09,143 - INFO - Extracted 0 Q&A pairs from https://www.zhihu.com/question/12292274612
+2025-08-26 18:32:09,146 - INFO - Scraping page: https://www.zhihu.com/tardis/bd/ans/47866273508
+2025-08-26 18:32:13,929 - INFO - Extracted 12 Q&A pairs from https://www.zhihu.com/tardis/bd/ans/47866273508
+2025-08-26 18:32:13,930 - INFO - Searching DuckDuckGo for: 'ChatGPT interview questions Prompt Engineer'
+2025-08-26 18:32:14,273 - INFO - response: https://www.bing.com/search?q=ChatGPT+interview+questions+Prompt+Engineer 200
+2025-08-26 18:32:14,294 - INFO - Found 5 valid URLs for query: 'ChatGPT interview questions Prompt Engineer'
+2025-08-26 18:32:14,295 - INFO - Scraping page: https://community.adobe.com/t5/acrobat-discussions/pdf-to-jpg-does-not-work/td-p/13319615
+2025-08-26 18:32:19,783 - INFO - Extracted 0 Q&A pairs from https://community.adobe.com/t5/acrobat-discussions/pdf-to-jpg-does-not-work/td-p/13319615
+2025-08-26 18:32:19,784 - INFO - Scraping page: https://community.adobe.com/t5/acrobat-services-api-discussions/convert-pdf-to-image-in-power-automate/td-p/11861841
+2025-08-26 18:32:23,645 - INFO - Extracted 0 Q&A pairs from https://community.adobe.com/t5/acrobat-services-api-discussions/convert-pdf-to-image-in-power-automate/td-p/11861841
+2025-08-26 18:32:23,645 - INFO - Scraping page: https://community.adobe.com/t5/acrobat-discussions/batch-export-of-all-existing-images-in-a-pdf-to-jpeg/m-p/12566098
+2025-08-26 18:32:27,584 - INFO - Extracted 0 Q&A pairs from https://community.adobe.com/t5/acrobat-discussions/batch-export-of-all-existing-images-in-a-pdf-to-jpeg/m-p/12566098
+2025-08-26 18:32:27,585 - INFO - Scraping page: https://community.adobe.com/t5/acrobat-discussions/acrobat-won-t-export-to-a-jpg/td-p/13498693
+2025-08-26 18:32:32,984 - INFO - Extracted 0 Q&A pairs from https://community.adobe.com/t5/acrobat-discussions/acrobat-won-t-export-to-a-jpg/td-p/13498693
+2025-08-26 18:32:32,985 - INFO - Scraping page: https://community.adobe.com/t5/acrobat-discussions/is-there-a-way-in-acrobat-pro-to-bulk-convert-pdf-s-to-jpg-or-png/td-p/14816083
+2025-08-26 18:32:37,015 - INFO - Extracted 0 Q&A pairs from https://community.adobe.com/t5/acrobat-discussions/is-there-a-way-in-acrobat-pro-to-bulk-convert-pdf-s-to-jpg-or-png/td-p/14816083
+2025-08-26 18:32:37,196 - INFO - Saved results to output/duckduckgo_scraped_20250826_183237.json
+2025-08-26 18:32:42,809 - INFO - Browser closed

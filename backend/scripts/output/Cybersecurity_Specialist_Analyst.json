@@ -1,0 +1,1546 @@
+[
+  {
+    "question": "1. What are the common Cyberattacks?",
+    "answer": "Some basic Cyber attacks are as follows:",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/cyber-security-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the elements of cyber security?",
+    "answer": "There are various elements of cyber security as given below:",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/cyber-security-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. Define DNS?",
+    "answer": "The Domain Name System (DNS) translates domain names into IP addresses that browsers use to load web pages. Every device connected to the Internet has its ownIP address, which other devices use to identify it in simple language, we can say that DNS Defines the Service of the network.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/cyber-security-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is a Firewall?",
+    "answer": "A firewall is a hardware or software-based network security device that monitors all incoming and outgoing traffic and accepts, denies, or drops that particular traffic based on a defined set of security rules.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/cyber-security-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is a VPN?",
+    "answer": "VPN stands for Virtual Private Network. A virtual private network (VPN) is a technology that creates a secure, encrypted connection over an insecure network like the Internet. A virtual private network is a method of extending a private network using a public network such as the Internet. The name only indicates that it is a virtual \"private network\". A user may be part of a local area network at a remote location. Create a secure connection using a tunnelling protocol.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/cyber-security-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What are the different sources of malware?",
+    "answer": "The different sources of malware are given below:",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/cyber-security-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. How does email work?",
+    "answer": "When a sender uses an e-mail program to send an e-mail, it is redirected to a simple e-mail transfer protocol. In this protocol, the recipient's email address belongs to a different domain name or the same domain name as the sender (Gmail, Outlook, etc.). After that, the e-mail will be stored on the server, and later he will send it using thePOPorIMAPprotocol. Then, if the recipient has a different domain name address, theSMTPprotocol communicates with the DNS (Domain Name Server) for the different addresses that the recipient uses. Then the sender's SMTP  communicates with the receiver's SMTP, and the receiver's SMTP performs the communication. This way the email is delivered to the recipient's SMTP. If certain network traffic issues prevent both the sender's SMTP  and the recipient's SMTP from communicating with each other, outgoing emails will be queued at the recipient's SMTP and finally to be received by the recipient. Also, if a message stays in the queue for too long due to terr",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/cyber-security-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is the difference between active and passive cyber attacks?",
+    "answer": "Please refer to the article:Difference between Active Attack and Passive Attackto know more about it.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/cyber-security-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q: What do you see as the objective of information security within a business or organization?",
+    "answer": "Ensure uninterrupted network availability to all users",
+    "source": "https://www.simplilearn.com/network-security-interview-questions-and-answers-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q: How do you define risk, vulnerability, and threat, in the context of network security?",
+    "answer": "A: A risk is defined as the result of a system being secure but not secured sufficiently, thereby increasing the likelihood of a threat. A vulnerability is a weakness or breach in your network or equipment (e.g. modems, routers, access points). A threat is the actual means of causing an incident; for instance, a virus attack is deemed a threat.",
+    "source": "https://www.simplilearn.com/network-security-interview-questions-and-answers-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q: What are the possible results of an attack on a computer network?",
+    "answer": "Loss or corruption of sensitive data that is essential for a companyâs survival and success",
+    "source": "https://www.simplilearn.com/network-security-interview-questions-and-answers-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q: What do you use on your own personal network?",
+    "answer": "A: An interviewer will want to know what sort of security measures you use on your own home devices. After all, if youâre a hotshot network security expert, clearly that must be reflected in the network that means the most to you; your personal system! An employer can tell a lot about your network savviness by analyzing what measures you use for your devices.",
+    "source": "https://www.simplilearn.com/network-security-interview-questions-and-answers-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q: Speaking of your home network, do you have a Wireless Access Point, and if so, how do you defend it?",
+    "answer": "A: There are many methods of protecting a WAP, but the three most popular are: employing MAC address filtering, using WPA2, and not broadcasting the SSID. This is yet another attempt by an employer to see what matters to you personally in terms ofsecurity.After all, people tend to prefer the best things for themselves!",
+    "source": "https://www.simplilearn.com/network-security-interview-questions-and-answers-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q: How informed do you keep yourself on network security-related news, and how often do you check out these stories? Where do you get your security news from?",
+    "answer": "A: Network security incidents are big news today, and there have been many high-profile news stories about data breaches and hackers in the past few years. An employer is going to want to know how well-informed you are on the latest security news and incidents. HINT: If you donât make it a practice of keeping abreast of the latest network security-related news, you better start now!In terms of news sources, your best bets are Team Cymru, Twitter, or Reddit. Make sure to check the sources of accuracy, though.",
+    "source": "https://www.simplilearn.com/network-security-interview-questions-and-answers-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q: What are the best defenses against a brute force login attack?",
+    "answer": "A: There are three major measures you can take to defend against a brute force login attack. For starters, thereâs an account lockout. Offending accounts are locked out until such time as the administrator decides to open it again. Next comes the progressive delay defense. Here, the account stays locked for a given number of days after a few unsuccessful login attempts are made. Finally, thereâs the challenge-response test, which heads off automatic submissions employed on the login page.",
+    "source": "https://www.simplilearn.com/network-security-interview-questions-and-answers-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q: How do you deal with âMan In The Middleâ attacks?",
+    "answer": "A: Â A Man in the Middle attack happens when there is a third party thatâs monitoring and controlling a conversation between two parties, with the latter completely unaware of the situation. There are two ways of dealing with this attack. First of all, stay off of open Wi-Fi networks. Second, both parties should employ end-to-end encryption.",
+    "source": "https://www.simplilearn.com/network-security-interview-questions-and-answers-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What is a protocol?",
+    "answer": "A protocol is a set of rules that govern how two or more parties interact with each other. It is a way of specifying how data should be exchanged between two or more parties. Protocols are often used to control the flow of data, such as when sending emails or transferring files.",
+    "source": "https://www.interviewbit.com/network-security-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is pipelining?",
+    "answer": "Pipelining is a method of software development that involves writing and testing multiple versions of a software program at the same time. The process is similar to parallel processing, but it works on a more granular scale. Instead of writing one program, you write multiple programs that can run in parallel. The result is that you can write a new version of the program in just a few hours instead of weeks or months.",
+    "source": "https://www.interviewbit.com/network-security-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is the hub in networking?",
+    "answer": "Hubs are nodes in a network that is responsible for connecting other nodes. Hubs are often the first point of contact for new nodes, and they are also the first point of entry for external resources, such as software updates and customer service.",
+    "source": "https://www.interviewbit.com/network-security-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is a switch in networking?",
+    "answer": "Network devices (especially switches) that connect devices in a local area network (LAN) and pass data between them. A switch forwards data packets between devices connected to the same port, but not between ports on different devices or to other networks. A router, in contrast, forwards data packets between networks. A switch sends only to the device it is intended for (another switch, a router, or a user's computers).",
+    "source": "https://www.interviewbit.com/network-security-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is simplex in networking?",
+    "answer": "In a Simplex operation, a single signal is transmitted and continuously goes in the same direction. The transmitter and receiver operate on the same frequency. When two stations transmit to each other on the same frequency at the same time, the mode is known as half-duplex (not simultaneous). Half-duplex, however, is commonly known as Simplex (not simultaneous).",
+    "source": "https://www.interviewbit.com/network-security-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What are the factors that affect the performance of the network?",
+    "answer": "The performance of a network is dependent on a number of factors, including the quality of the hardware, the speed of the internet connection, and the amount of traffic that is being transferred. The speed of the internet connection is important because it affects how quickly data can be transferred. A high-speed connection can transfer data at a much higher rate than a low-speed connection.",
+    "source": "https://www.interviewbit.com/network-security-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is LAN in networking?",
+    "answer": "Personal computers and workstations may share data, tools, and programs via a local area network. A switch or series of switches interconnects network devices so that computers and workstations may share data, tools, and programs. Private addressing is used in conjunction with the TCP/IP protocol to establish a local area network. A router connects the local area network to the wider internet.",
+    "source": "https://www.interviewbit.com/network-security-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is WAN in networking?",
+    "answer": "WANs, also known as wide area networks, connect LANs over telephone lines and radio waves to form computer networks that cover a large area, even though they might be confined to a single country or state. Enterprises, governmental agencies, and other organizations may connect to WANs. WANs are fast and costly to operate.",
+    "source": "https://www.interviewbit.com/network-security-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is cybersecurity, and why is it important?",
+    "answer": "Cybersecurityprotects computer systems, networks, and data from theft, damage, or unauthorized access. It's important to safeguard sensitive information, maintain privacy, prevent financial losses, and protect critical infrastructure from cyber threats.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-interview-questions",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is Phishing? Provide an example.",
+    "answer": "Phishing: A cyberattack in which malicious actors employ deceptive emails or messages to deceive individuals into disclosing sensitive information.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-interview-questions",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. How do firewalls protect network security?",
+    "answer": "Firewalls serve as protective barriers, overseeing and screening both inbound and outbound network traffic in accordance with established security regulations.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-interview-questions",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is a VPN and why is it used?",
+    "answer": "A Virtual Private Network encrypts and secures internet connections, ensuring privacy and anonymity.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-interview-questions",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What are the common techniques for securing a computer network?",
+    "answer": "Techniques include using strong passwords, regular updates and patch management, implementing firewalls, using intrusion detection systems, and conducting security audits.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-interview-questions",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is two-factor authentication, and why is it important?",
+    "answer": "Two-factor authentication enhances security by necessitating users to furnish two distinct forms of verification, typically a password and a temporary code, thereby bolstering protection.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-interview-questions",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "11. What is SSL encryption?",
+    "answer": "SSL(Secure Sockets Layer) encryption is a protocol that ensures secure data transmission between a user's web browser and a website server, protecting data during transit.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-interview-questions",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "12. What is the difference between IDS and IPS?",
+    "answer": "IDS (Intrusion Detection System): Monitors network traffic and generates alerts when suspicious activity is detected.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/cyber-security-interview-questions",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What do you mean by a Null Session?",
+    "answer": "A null session occurs when a user is not authorized using either a username or a password. It can provide a security concern for apps because it implies that the person making the request is unknown.",
+    "source": "https://www.interviewbit.com/cyber-security-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is a Firewall?",
+    "answer": "A firewall serves as a barrier between a LAN and the Internet. It allows private resources to remain private while reducing security threats. It manages both inbound and outbound network traffic.",
+    "source": "https://www.interviewbit.com/cyber-security-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. Who are Black Hat, White Hat and Grey Hat Hackers?",
+    "answer": "Black Hat hackers, sometimes known as crackers, attempt to obtain unauthorized access to a system in order to disrupt its operations or steal critical data.",
+    "source": "https://www.interviewbit.com/cyber-security-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What are the types of Cyber Security?",
+    "answer": "The assets of every company are made up of a variety of various systems. These systems have a strong cybersecurity posture, which necessitates coordinated actions across the board. As a result, cybersecurity can be divided into the following sub-domains:",
+    "source": "https://www.interviewbit.com/cyber-security-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What are the benefits of Cyber Security?",
+    "answer": "The following are some of the advantages of putting cybersecurity in place and keeping it up to date:",
+    "source": "https://www.interviewbit.com/cyber-security-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What do you mean by a botnet?",
+    "answer": "A botnet is a collection of internet-connected devices, such as servers, PCs, and mobile phones, that are infected with malware and controlled by it.It's used to steal data, send spam, launch distributed denial-of-service (DDoS) attacks, and more, as well as provide the user access to the device and its connection.",
+    "source": "https://www.interviewbit.com/cyber-security-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. What do you mean by honeypots?",
+    "answer": "Honeypots are attack targets that are set up to see how different attackers attempt exploits. Private firms and governments can utilize the same concept to evaluate their vulnerabilities, which is widely used in academic settings.",
+    "source": "https://www.interviewbit.com/cyber-security-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "13. What are the common types of cyber security attacks?",
+    "answer": "The common types of cyber security attacks are:-",
+    "source": "https://www.interviewbit.com/cyber-security-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q2. What is XSS? How can you mitigate it?",
+    "answer": "Cross-site scripting(XSS) is a vulnerability of JavaScript in Web apps. A script is provided by the user in the client-side input that gets processed in the absence of validation. It results in untrusted information being executed and saved on the clientâs side.",
+    "source": "https://www.simplilearn.com/soc-analyst-interview-questions-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q3. What is a black hat, white hat, and gray hat hacker?",
+    "answer": "Black hat hackers hack without any authorization. White hat hackers performethical hackingwith authority, and white hat hackers performing unauthorized hacking tasks are considered gray hat hackers.",
+    "source": "https://www.simplilearn.com/soc-analyst-interview-questions-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q4. What is IPS, and how is it different from IDS?",
+    "answer": "IPS is an intrusion prevention system. It detects the intrusion and implements measures for prevention. However, IDS is an intrusion detection system that detects the intrusion. After detection, the administrator takes action. Both of them work on the same concept, but the placement differs.",
+    "source": "https://www.simplilearn.com/soc-analyst-interview-questions-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q5. What do you understand about security misconfiguration?",
+    "answer": "Security misconfiguration is a vulnerability. When an application network or device is configured for a cyber attack or fraud, the attacker uses it according to their requirements. Security misconfiguration means providing a gap that the attacker can utilize to their advantage.Â",
+    "source": "https://www.simplilearn.com/soc-analyst-interview-questions-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q6. What is CSRF?",
+    "answer": "Cross-site request forgery, or CSRF, is a web application vulnerability under which the server does not check if the trusted client has sent the request or not. The request gets processed easily without any assessment.",
+    "source": "https://www.simplilearn.com/soc-analyst-interview-questions-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q8. NIDS or HIDS, which is better?",
+    "answer": "NIDS stands for network intrusion detection system, and HIDS stands for host intrusion detection system. Although both systems work in the same way, their placement is unique. HIDS is located on every host, and NIDS is in the network. NIDS is considered to be more easily manageable than HIDS.",
+    "source": "https://www.simplilearn.com/soc-analyst-interview-questions-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q9. What is the CIA triangle?",
+    "answer": "C: confidentiality, keeping the information secret.",
+    "source": "https://www.simplilearn.com/soc-analyst-interview-questions-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q10. What do you mean by Port Scanning?",
+    "answer": "Port scanning forwards messages to get information about the system or network by analyzing the received response.",
+    "source": "https://www.simplilearn.com/soc-analyst-interview-questions-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is XPath Injection in penetration testing?",
+    "answer": "XPath injection is a type of vulnerability in which malicious input is used to inject unintended commands into an XML document. This can be done by injecting any user-supplied string directly into an XPath expression, or even by using specially crafted elements and attributes. Injection attacks are one of the most common methods used to exploit software vulnerabilities because they allow attackers to run arbitrary code as part of the attack payload.",
+    "source": "https://www.geeksforgeeks.org/top-50-penetration-testing-interview-questions-and-answers/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. Explain Web Application Scanning with w3af in pen-testing?",
+    "answer": "w3af is versatile and can be used for a number of purposes in pen-testing. For example, it can be used to identify vulnerabilities in web applications before conducting a full attack, to check for signs of malware and phishing attacks, and to monitor for security issues. In addition, w3af can be used to identify vulnerabilities in outdated or insecure web applications.",
+    "source": "https://www.geeksforgeeks.org/top-50-penetration-testing-interview-questions-and-answers/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is Hijacking Execution in pen-testing?",
+    "answer": "Hijacking executionin penetration testing is a technique that attackers use to gain access to systems or networks. Hijacking execution takes advantage of the privileges and permissions granted to an intruder by default on compromised machines, which can then be used for malicious purposes. Attackers may also leverage user accounts created specifically for reconnaissance or attack tasks, as well as preexisting administrative rights on target machines. By taking advantage of these vulnerabilities, hijackers can bypass common security controls and compromise systems without being detected.",
+    "source": "https://www.geeksforgeeks.org/top-50-penetration-testing-interview-questions-and-answers/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. Write a few points about SEH Overwrite Exploits?",
+    "answer": "POP POP RET is a tool that can be used to detect and exploit vulnerable applications. To use this tool, you will first need to scan the target network for vulnerable applications. Once you have identified the vulnerable applications, you can use POP POP RET to exploit them. By exploiting the vulnerabilities, you can gain access to the systems and data that are protected by the vulnerable applications.",
+    "source": "https://www.geeksforgeeks.org/top-50-penetration-testing-interview-questions-and-answers/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is POP POP RET in penetration testing?",
+    "answer": "POP POP RET is a tool that can be used to detect and exploit vulnerable applications. To use this tool, you will first need to scan the target network for vulnerable applications. Once you have identified the vulnerable applications, you can use POP POP RET to exploit them. By exploiting the vulnerabilities, you can gain access to the systems and data that are protected by the vulnerable applications.",
+    "source": "https://www.geeksforgeeks.org/top-50-penetration-testing-interview-questions-and-answers/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is meant by DNS Reconnaissance in penetration testing?",
+    "answer": "When we conduct a penetration test, the most important task is understanding the internal network structure and DNS configuration. This is done through various forms of DNS reconnaissance, also known as DNS sniffing.DNS reconnaissancecan be used to gather information about hosts and name servers, as well as their associated configuration. This can include things such as the type of DNS server used, the name server addresses, the primary and secondary name servers, and the A, AAAA, and CNAME records.",
+    "source": "https://www.geeksforgeeks.org/top-50-penetration-testing-interview-questions-and-answers/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What are porting public exploits?",
+    "answer": "Porting public exploits is a process by which an attacker takes advantage of vulnerabilities in public applications or systems so that they can be used to exploit other vulnerable systems. Porting means taking the exploits and making them work on different versions of the application, system, operating system, etc. It could also mean adopting these exploits to carry out attacks against new targets or finding alternative ways to deliver payloads from the exploited target(s).Port scanningis a reconnaissance technique employed during exploitation whereby attacking computers are scanned for open ports using network protocols.",
+    "source": "https://www.geeksforgeeks.org/top-50-penetration-testing-interview-questions-and-answers/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is XAMPP?",
+    "answer": "XAMPPis a completely free and open-source development platform for hosting websites, accessible through a web browser. It is an easy-to-use platform that has a lot of features for web developers. It also has a variety of modules and templates that make it easy to set up a website. Moreover, XAMPP can be used for creating databases, e-commerce solutions, and more. This is also useful for penetration testers, it can be used in web application testing.",
+    "source": "https://www.geeksforgeeks.org/top-50-penetration-testing-interview-questions-and-answers/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q: Which certification(s) do you have?",
+    "answer": "Ideally, you have some kind of formal training as a cybersecurity professional. The interviewer wants proof of that, which your certification can provide. In addition, your certification(s) let the interviewer know where your strengths lie. Research the company ahead of time to make sure your training is in line with the job description, and considerearning a certificationahead of time if necessary.",
+    "source": "https://www.simplilearn.com/cyber-security-interview-questions-answers-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q: What types of security breaches have you dealt with in previous jobs? How did you deal with them and what did you learn from them?",
+    "answer": "The key to interviewing well is to prepare to answer questions like this ahead of time. That way, you have the necessary details straight in your head and you can put yourself in the best possible light in the way you answer. Think through situations youâve dealt with and consider making notes about them while they are fresh in your mind, then refer to these notes when preparing to interview.",
+    "source": "https://www.simplilearn.com/cyber-security-interview-questions-answers-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q: What do you think presents the greatest security threat to businesses?",
+    "answer": "Cybersecurity is complex because the threats are complexâand numerous. Hackers are on the lookout for weak spots, and companies routinely offer them without meaning to. Companies are at greater risk when people are using personal devices for work when IT departments donât get patches installed in time when passwords are weak when vendors are slack in their own cybersecurity, and so on. There are many ways you can answer this question, so think about your answer ahead of time so youâre ready to show that you are paying attention and considering potential threatsâand how to prevent them.",
+    "source": "https://www.simplilearn.com/cyber-security-interview-questions-answers-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q: How do you look for security flaws in source code?",
+    "answer": "This is a question that the interviewer might use to get a sense for how you work. They are probably trying to determine if you lean towards manual or automated tools because that will give them insight. As with the other cybersecurity interview questions presented here, think through your answers ahead of time.",
+    "source": "https://www.simplilearn.com/cyber-security-interview-questions-answers-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q: How do you get fellow employees to adhere to security best practices?",
+    "answer": "If youâre not prepared to answer cybersecurity interview questions such as these, itâs time for a little homework. In this case, if you review theOWASP guidelines, youâll see the first reaction should be to identify the risk to the business, then consider likelihood, impact, severity, etc. But earning acertificationmight also be in order.",
+    "source": "https://www.simplilearn.com/cyber-security-interview-questions-answers-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q: How do you determine the severity of a discovered vulnerability?Â",
+    "answer": "If youâre not prepared to answer cybersecurity interview questions such as these, itâs time for a little homework. In this case, if you review theOWASP guidelines, youâll see the first reaction should be to identify the risk to the business, then consider likelihood, impact, severity, etc. But earning acertificationmight also be in order.",
+    "source": "https://www.simplilearn.com/cyber-security-interview-questions-answers-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q: How would you rate your communication skills?",
+    "answer": "Your cybersecurity job interviewer will want to know something about your soft skills, such as your communication skills and your ability to work as part of a team. You might be part of the IT department as a cybersecurity professional, but you must have the ability to communicate risks and propose solutions to stakeholders, for example, or to get employees to take necessary precautions.",
+    "source": "https://www.simplilearn.com/cyber-security-interview-questions-answers-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q: How do you stay on top of cybersecurity news and developments?",
+    "answer": "CompTIA certificationwhich is a good choice if youâre new to the field.",
+    "source": "https://www.simplilearn.com/cyber-security-interview-questions-answers-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Network Security",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Cyber Security?",
+    "answer": "Cybersecurity refers to the practice of protecting systems, networks, and data from digital attacks, unauthorized access, and damage. It involves a variety of measures, including firewalls, encryption, threat monitoring, and security protocols, aimed at ensuring the confidentiality, integrity, and availability of information.",
+    "source": "https://www.geeksforgeeks.org/gfg-academy/how-to-become-a-cybersecurity-analyst/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "SIEM",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Splunk?",
+    "answer": "Splunk relies on its indexes to store all of its data, so it does not need any database to do so. Splunk gathered all relevant information into one central index, making it easy to search for specific data within a massive amount of data. Moreover, machine data is extremely important for monitoring, understanding, and optimizing machine performance.",
+    "source": "https://www.interviewbit.com/splunk-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "SIEM",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is Splunk used for?",
+    "answer": "In general, machine data is difficult to understand and has an unstructured format (not arranged as per pre-defined data model), making it unsuitable for analysis and visualization of data. Splunk is the perfect tool for tackling such problems. Splunk is used to analyze machine data for several reasons:",
+    "source": "https://www.interviewbit.com/splunk-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "SIEM",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. Can you explain how Splunk works?",
+    "answer": "In order to use Splunk in your infrastructure, you must understand how Splunk performs on the internal level. In general, Splunk processes data inthree stages:",
+    "source": "https://www.interviewbit.com/splunk-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "SIEM",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What are the main components of Splunk Architecture?",
+    "answer": "As shown below, Splunk Architecture is composed of three main components:",
+    "source": "https://www.interviewbit.com/splunk-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "SIEM",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What do you mean by Splunk Dashboards and write its type?",
+    "answer": "In a dashboard, tables, charts, event lists, etc., are used to represent data visualizations, and they do so by using panels. Dashboard panels present or display chart data, table data, or summarized data visually in a pleasing manner. On the same dashboard, we can add multiple panels, and therefore multiple reports and charts. Splunk is a popular data platform with lots of customization options and dashboard options.",
+    "source": "https://www.interviewbit.com/splunk-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "SIEM",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What are different types of Splunk License?",
+    "answer": "A license is required for each Splunk instance. With Splunk, you receive a license that specifies which features you can use and how much data can be indexed. Various Splunk License types include:",
+    "source": "https://www.interviewbit.com/splunk-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "SIEM",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What is the importance of License Master in Splunk? If the License Master is not reachable, what will happen?",
+    "answer": "It is the responsibility of the license master in Splunk to ensure that the limited amount of data is indexed. Since each Splunk license is based on the amount of data that is coming into the platform in 24 hours, it is essential to keep the environment within the limits of its purchased volume.",
+    "source": "https://www.interviewbit.com/splunk-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "SIEM",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "10. Explain License violation. How will you handle or troubleshoot a license violation warning?",
+    "answer": "License violations occur after a series of license warnings, and license warnings occur when your daily indexing volume exceeds the license's limit. Getting multiple license warnings and exceeding the maximum warning limit for your license will result in a license violation. With a Splunk commercial license, users can receive five warnings within a 30-day period before Indexer stops triggering search results and reports. Users of the free version, however, will only receive three warnings.",
+    "source": "https://www.interviewbit.com/splunk-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "SIEM",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is an Information Security Analyst?",
+    "answer": "Information Security Analysisinvolves protecting computer systems, networks, and data from breaches, threats, and attacks. Information Security Analysts are responsible for ensuring the security and integrity of sensitive information through various methods such as monitoring networks, identifying vulnerabilities, and implementing robust security measures.",
+    "source": "https://www.geeksforgeeks.org/gfg-academy/how-to-become-an-information-security-analyst/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "SIEM",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How to become an Information Security Analyst?",
+    "answer": "Here’s a step-by-step guide on how to become an Information Security Analyst:",
+    "source": "https://www.geeksforgeeks.org/gfg-academy/how-to-become-an-information-security-analyst/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "SIEM",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Cyber Security?",
+    "answer": "CyberSecurityis a process of protecting data that are sensitive and can be accessed through network, device, or any connected modes from any cyber breaches. When the world is rapidly growing with technology andthe advancement of AI and IoThas made it possible to perform such tasks that were just cinematographic and conceptual.",
+    "source": "https://www.geeksforgeeks.org/blogs/top-cyber-security-specialist-skills/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "SIEM",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What does a Cyber Security Specialist do?",
+    "answer": "Cybersecurity specialists play a vital role in protecting the sensitive information and critical infrastructure of organizations in today's interconnected world. Their responsibilities encompass a wide range of activities aimed at securing the digital domain:",
+    "source": "https://www.geeksforgeeks.org/blogs/top-cyber-security-specialist-skills/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "SIEM",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Is Cybersecurity a good Career?",
+    "answer": "Cybersecurityis indeed apromising and rewarding career choice.",
+    "source": "https://www.geeksforgeeks.org/blogs/top-cyber-security-specialist-skills/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "SIEM",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Is Python or C++ better for cyber security?",
+    "answer": "When it comes tocybersecurity, bothPythonandC++have their merits, but the choice depends on the context and your specific goals:",
+    "source": "https://www.geeksforgeeks.org/blogs/top-cyber-security-specialist-skills/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "SIEM",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is a Cybersecurity Analyst?",
+    "answer": "A Cybersecurity Analyst is a professional who helps protect a company's computer systems, networks, and data from cyber-attacks and security breaches. They are like the \"first line of defense\" against cyber threats. Their main job is to monitor and analyze computer networks for any signs of suspicious activity, investigate security incidents, and take steps to prevent and mitigate these threats.",
+    "source": "https://www.geeksforgeeks.org/blogs/ibm-junior-cybersecurity-analyst-to-cybersecurity-analyst-roles-responsibilties-and-salaries/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "SIEM",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How to Transition from Junior Cybersecurity Analyst to a Cybersecurity Analyst at IBM?",
+    "answer": "Transitioning from a Junior Cybersecurity Analyst to a Cybersecurity Analyst at IBM involves developing your skills, gaining experience, and leveraging the right resources to demonstrate readiness for more advanced responsibilities. Here’s a step-by-step roadmap:",
+    "source": "https://www.geeksforgeeks.org/blogs/ibm-junior-cybersecurity-analyst-to-cybersecurity-analyst-roles-responsibilties-and-salaries/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "SIEM",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. How do you explain Blockchain technology to someone who doesn't know it?",
+    "answer": "Blockchain technologyis a distributed ledger, which stores transaction details in the form of immutable records or non-modifiable records (called blocks) which are secured using cryptography.",
+    "source": "https://www.simplilearn.com/tutorials/blockchain-tutorial/blockchain-interview-questions",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Cryptography",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is Merkel Tree?",
+    "answer": "Merkel Treeis a data structure that is used for verifying a block. It is in the form of a binary tree containing cryptographic hashes of each block. A Merkle tree is structured similarly to a binary tree where each leaf node is a hash of a block of transactional data and each non-leaf node is a hash of its leaf node. The Merkel root or hash root is the final hash root of all the transaction hashes. It encompasses all the transactions that are underlying all the non-leaf nodes.",
+    "source": "https://www.simplilearn.com/tutorials/blockchain-tutorial/blockchain-interview-questions",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Cryptography",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What do you mean by blocks in Blockchain technology?",
+    "answer": "Blockchain is a distributed database of immutable records called blocks, which are secured using cryptography. Refer to the video to see the various attributes of a block.",
+    "source": "https://www.simplilearn.com/tutorials/blockchain-tutorial/blockchain-interview-questions",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Cryptography",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. How is Blockchain distributed ledger different from a traditional ledger?",
+    "answer": "A Blockchain distributed ledger is highly transparent as compared to a traditional ledger.",
+    "source": "https://www.simplilearn.com/tutorials/blockchain-tutorial/blockchain-interview-questions",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Cryptography",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. How can you identify a block?",
+    "answer": "Every block consists of four fields -",
+    "source": "https://www.simplilearn.com/tutorials/blockchain-tutorial/blockchain-interview-questions",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Cryptography",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is cryptography? What is its role in Blockchain?",
+    "answer": "Blockchain uses cryptography to secure usersâ identities and ensure transactions are done safely with a hash function.",
+    "source": "https://www.simplilearn.com/tutorials/blockchain-tutorial/blockchain-interview-questions",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Cryptography",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What are the different types of Blockchain?",
+    "answer": "There are three different types of Blockchain - Public, Private, and Consortium Blockchain.",
+    "source": "https://www.simplilearn.com/tutorials/blockchain-tutorial/blockchain-interview-questions",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Cryptography",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What happens when you try to deploy a file with multiple contracts?",
+    "answer": "In Blockchain, deploying a file with multiple contracts is not possible. The compiler only deploys the last contract from the uploaded file and the remaining contracts are neglected.",
+    "source": "https://www.simplilearn.com/tutorials/blockchain-tutorial/blockchain-interview-questions",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Cryptography",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is ethical hacking?",
+    "answer": "Ethical hackingis the legal practice of probing computer structures to discover vulnerabilities, weaknesses, and potential threats. It enhances cybersecurity defenses and shields against malicious attacks.",
+    "source": "https://www.simplilearn.com/ethical-hacking-interview-questions-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Penetration Testing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. How does ethical hacking differ from malicious hacking?",
+    "answer": "Ethical hacking is performed to help businesses identify loopholes and fix them to protect sensitive data from being misused.Â",
+    "source": "https://www.simplilearn.com/ethical-hacking-interview-questions-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Penetration Testing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What are the types of ethical hackers?",
+    "answer": "The types of hackers are:",
+    "source": "https://www.simplilearn.com/ethical-hacking-interview-questions-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Penetration Testing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is a vulnerability?",
+    "answer": "A vulnerability is a flaw or loophole in a system or network that malicious hackers could exploit.Â",
+    "source": "https://www.simplilearn.com/ethical-hacking-interview-questions-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Penetration Testing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What are the five stages of ethical hacking?",
+    "answer": "The five stages of ethical hacking are:",
+    "source": "https://www.simplilearn.com/ethical-hacking-interview-questions-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Penetration Testing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What is a firewall?",
+    "answer": "Afirewallis a network security system that controls and monitors traffic in and out based on security rules.Â",
+    "source": "https://www.simplilearn.com/ethical-hacking-interview-questions-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Penetration Testing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What are the common tools used for ethical hacking?",
+    "answer": "Burp Suite for web application testing",
+    "source": "https://www.simplilearn.com/ethical-hacking-interview-questions-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Penetration Testing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "10. What is a honeypot?",
+    "answer": "It is a decoy system used as a trap to lure cyberattackers. It helps security professionals to study the tricks and tactics used by hackers.Â",
+    "source": "https://www.simplilearn.com/ethical-hacking-interview-questions-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Penetration Testing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Palo Alto?",
+    "answer": "Palo Alto Networks, the world's leading cybersecurity company, is helping to shape the cloud-centric future with technology that is changing the way people and businesses work. Palo Alto’s objective is to be the go-to cybersecurity partner for safeguarding digital lives. With ongoing innovation that capitalises on the latest discoveries in artificial intelligence, analytics, automation, and orchestration, Palo Alto helps address the world's most pressing security concerns.",
+    "source": "https://www.interviewbit.com/palo-alto-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Firewalls",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. Can you tell me the default IP address, as well as the default login and password, for Palo Alto Firewall's administration port?",
+    "answer": "In the Palo Alto Firewall, the administration port's default IP address is 192.168.1.1. The username is \"admin,\" and the password is \"admin.\"",
+    "source": "https://www.interviewbit.com/palo-alto-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Firewalls",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What exactly is a wildfire? Could you give a basic description of how wildfire works?",
+    "answer": "Finding solutions and analysing malware to protect a network from potential attacks is a time-consuming procedure. Wildfire is a cloud-based malware detection service that aids in the detection of unknown files or threats created by attackers. Wildfire provides enterprises with immediate protection and danger intelligence.",
+    "source": "https://www.interviewbit.com/palo-alto-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Firewalls",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is the maximum number of zones that an interface can be a part of?",
+    "answer": "Security zones on the firewall are a logical approach to arrange physical and virtual interfaces in order to restrict and log traffic that passes through certain network interfaces. Before an interface on the firewall can process traffic, it must be allocated to a security zone. Multiple interfaces of the same type (such as tap, layer 2, or layer 3 interfaces) can be allocated to a zone, but an interface can only belong to one zone.",
+    "source": "https://www.interviewbit.com/palo-alto-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Firewalls",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. Could you clarify the various states of the HA Firewall?",
+    "answer": "The  various states of the HA firewall are:",
+    "source": "https://www.interviewbit.com/palo-alto-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Firewalls",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. How to perform policy match and connectivity tests from the web interface?",
+    "answer": "Instead of using the CLI, you can use the web interface to execute policy match and connectivity checks for firewalls in PAN-OS 9.0. You can simply validate traffic and connectivity to ensure that policy rules are matching policy rules as expected to allow or reject traffic and that firewalls can connect to network resources and external services like WildFire, Log Collectors, and the Update Server.",
+    "source": "https://www.interviewbit.com/palo-alto-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Firewalls",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. How does an APP-ID work?",
+    "answer": "App-ID is used to identify applications on your network in the following way:",
+    "source": "https://www.interviewbit.com/palo-alto-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Firewalls",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. Is the firewall at Palo Alto stateful?",
+    "answer": "Yes, because all firewall traffic can be routed through the Palo Alto system and then matched against a session. More importantly, each session should be compared against a security policy set by the firewall.",
+    "source": "https://www.interviewbit.com/palo-alto-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Firewalls",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. In Palo Alto, identify the various deployment modes?",
+    "answer": "In Palo Alto, several different deployment modes are observed. The company operates in different modes as per its benefits and suitability. Those include virtual wire mode, tap mode, layer two, and layer three deployment modes. The different deployment modes are leveraged to satisfy different security requirements.Â",
+    "source": "https://www.simplilearn.com/palo-alto-interview-questions-answers-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Firewalls",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. Is the firewall at Palo alto stateful?",
+    "answer": "Yes, the firewall of Palo Alto is stateful. It means that the entire traffic passing through the firewall is matched against the session, and every session is matched against the security policy.Â",
+    "source": "https://www.simplilearn.com/palo-alto-interview-questions-answers-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Firewalls",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. In Palo Alto, what is the difference between virtual routers and virtual systems?",
+    "answer": "The virtual systems in Palo Alto are called logical, multiple firewall instances in a single network of Palo Alto physical firewalls. Every virtual system is an independent and individually managed logical firewall with its traffic kept separate from others.Â",
+    "source": "https://www.simplilearn.com/palo-alto-interview-questions-answers-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Firewalls",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is the purpose of Palo Alto Autofocus?",
+    "answer": "The AutoFocus of Palo Alto is a cloud-based threat intelligence service allowing users to conveniently determine all critical attacks. This way, the user can triage effectively and take the necessary actions without the need for additional IT resources.Â",
+    "source": "https://www.simplilearn.com/palo-alto-interview-questions-answers-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Firewalls",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What are the different failover scenarios?",
+    "answer": "A failover gets triggered when a monitored metric fails on the active Panorama. There are two significant scenarios when a failover gets triggered;Â",
+    "source": "https://www.simplilearn.com/palo-alto-interview-questions-answers-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Firewalls",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. In Palo Alto, what is a U-Turn Nat?",
+    "answer": "The U-turn NAT refers to the logical path that traffic travels when accessing an internal resource when its external address is resolved. The U-turn NAT is often used in a network where internal users are required to access an internal DMZ server.Â",
+    "source": "https://www.simplilearn.com/palo-alto-interview-questions-answers-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Firewalls",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. Explain Active/Passive and Active/Active modes in Palo Alto?",
+    "answer": "In the active/passive mode, one firewall manages traffic while the other is ready and synchronized to move to the active state if there is a failure. In this mode, both the firewalls share the same settings, and one is responsible for actively managing the traffic until there is a failure.Â",
+    "source": "https://www.simplilearn.com/palo-alto-interview-questions-answers-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Firewalls",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is a zone protection profile?",
+    "answer": "The zone protection profile is one of the best ways to help protect the network from attacks. The attacks can be in the form of reconnaissance attacks, common floods, and similar other packet-based attacks.Â",
+    "source": "https://www.simplilearn.com/palo-alto-interview-questions-answers-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Firewalls",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Checkpoint Firewall?",
+    "answer": "With Check Point Firewall, you can enjoy next-generation firewall (NGF) functionality that includes:",
+    "source": "https://www.interviewbit.com/checkpoint-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "IDS/IPS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What is SIC (Secure Internal Communication)?",
+    "answer": "SIC stands for Secure Internal Communication. As the name suggests, SIC allows CheckPoint products and platforms to communicate securely. It establishes a trusted connection or status between a gateway, management server, and other CheckPoint components. A trust or SIC is required for the installation of policies on gateways and the transmission (sending) of logs between management servers and gateways. Check Point platforms and products authenticate each other using one of these SIC methods:",
+    "source": "https://www.interviewbit.com/checkpoint-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "IDS/IPS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What are the explicit and implied rules in Checkpoint Firewall?",
+    "answer": "In the Rule Base, you will find the following types of rules:",
+    "source": "https://www.interviewbit.com/checkpoint-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "IDS/IPS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is Order of Rule Enforcement in Rule Base?",
+    "answer": "Packets are inspected sequentially by Check Point Security Gateways. Upon receiving a packet belonging to a connection, the Security Gateway compares the data (destination, source, etc.) against the first rule, then the second rule, the third rule, and so on. As soon as it finds a rule that matches, it stops checking and applies the action of that particular rule to the packet. If the packet does not match any of the rules, then it is denied.",
+    "source": "https://www.interviewbit.com/checkpoint-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "IDS/IPS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. How do you manage the Firewall Rule Base?",
+    "answer": "With SmartDashboard, it's easy to create and configure Firewall rules that ensure a strong security policy. Listed below are some fields used to manage rules for Firewall security policy:",
+    "source": "https://www.interviewbit.com/checkpoint-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "IDS/IPS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What is the Checkpoint Firewall rule base?",
+    "answer": "Web-Based user interface with Search Navigation",
+    "source": "https://www.interviewbit.com/checkpoint-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "IDS/IPS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "10. What do you mean by Checkpoint software blades?",
+    "answer": "It can be defined as an independent, modular, and centrally managed security building block, which allows an organization to customize a security configuration tailored to their needs in terms of protection and investment.  It is easy to enable and configure Software Blades on any gateway or management system simply by clicking a mouse button - no additional hardware, firmware, or driver upgrade is needed.",
+    "source": "https://www.interviewbit.com/checkpoint-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "IDS/IPS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "11. What is Checkpoint IPS (Intrusion Prevention System)?",
+    "answer": "An IPS (Intrusion Prevention System), also referred to as IDPS (Intrusion Detection Prevention System), usually monitors a network in order to detect malicious activities that attempt to exploit a known vulnerability.",
+    "source": "https://www.interviewbit.com/checkpoint-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "IDS/IPS",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How Do I Prepare for an Incident Management Interview?",
+    "answer": "Incident management is a process where team members monitor, resolve, and avoid issues that can disturb services, promoting efficiency, running the business and satisfying the customers. This role requires extreme technical expertise, leadership skills, and the capability to manage strict deadlines. To get hired as an incident manager, you must prepare well for an incident management interview.Â",
+    "source": "https://www.simplilearn.com/incident-manager-interview-questions-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Incident Response",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q1. What is the importance of incident management in the IT sector?",
+    "answer": "Incident management is of extreme importance in the IT sector because it ensures that any disruption caused by an accident cannot negatively affect business operations. Incident management helps you restore service operations instantly and offers the necessary service quality levels. Moreover, it also results in higher user trust and satisfaction and increased business efficiency and productivity.",
+    "source": "https://www.simplilearn.com/incident-manager-interview-questions-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Incident Response",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q3. How do you detect incoming threats?",
+    "answer": "You must review responses, alerts and firewall logs regularly from the event management and security information software platform to detect the incoming threats. After identifying and confirming the malicious or suspicious activities that might compromise the network, work with the incident management team to investigate the problem. Ensure to determine the correct escalation and response procedure to avoid the threats from destroying the present vulnerabilities.",
+    "source": "https://www.simplilearn.com/incident-manager-interview-questions-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Incident Response",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q6. What do you understand about problem management?",
+    "answer": "The process of identifying, analyzing, and resolving issues, causing incidents to avoid future occurrences, is called problem management. It includes investigating the major causes of the incidence and finding a permanent solution.",
+    "source": "https://www.simplilearn.com/incident-manager-interview-questions-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Incident Response",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q7. How can you manage shared resources?",
+    "answer": "To manage shared resources requires prioritization, clear communication, and collaboration. Hence, ensure that clear protocols and communication channels are established for sharing resources.",
+    "source": "https://www.simplilearn.com/incident-manager-interview-questions-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Incident Response",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q9. What do you understand about incident management?",
+    "answer": "Incident management is a major component of IT service management. It focuses on identifying, responding to, and solving incidents or disruptions in IT services to reduce their effect on business operations. It also ensures the normal and smooth functioning of business services.",
+    "source": "https://www.simplilearn.com/incident-manager-interview-questions-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Incident Response",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What Is the Most Important Skill for an Incident Manager?",
+    "answer": "An incident manager must have amazing communication skills.",
+    "source": "https://www.simplilearn.com/incident-manager-interview-questions-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Incident Response",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. How Can I Improve My Incident Management Skills?",
+    "answer": "To improve your incident management skills:",
+    "source": "https://www.simplilearn.com/incident-manager-interview-questions-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Incident Response",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How Do You Prepare For a Risk Management Interview?",
+    "answer": "Preparing for risk manager interview questions requires both a generalized and specific-level approach. While you must have general risk management-specific information, you must also know the companyâs needs.Â",
+    "source": "https://www.simplilearn.com/risk-management-interview-questions-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Risk Assessment",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How do you identify the possible risks during the design stage of a new project?Â",
+    "answer": "The answer will require you to state your preferred or situation-based approach to risk identification. Risk registers andSWOTanalysis are common examples that can be used here. Further, qualitative or quantitative methods of risk analysis, along with an analysis of their impact, can also be included here.Â",
+    "source": "https://www.simplilearn.com/risk-management-interview-questions-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Risk Assessment",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is the role of risk management in risk mitigation?Â",
+    "answer": "With this or similar risk management interview questions, the interviewers want to evaluate the methods ofrisk mitigationthat you can apply. You can answer this question with examples and associated measures that can help mitigate risk.Â",
+    "source": "https://www.simplilearn.com/risk-management-interview-questions-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Risk Assessment",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What are the risk management techniques?Â",
+    "answer": "It is a direct question where you can put in either your theoretical knowledge or practical approach or even both. Combining the two can help you to impress the recruiters. You can also shed light on field-specifictechniques.Â",
+    "source": "https://www.simplilearn.com/risk-management-interview-questions-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Risk Assessment",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What factors will determine the appropriate contingency reserve level for any specific project?Â",
+    "answer": "The question requires you to answer all the factors important to the project that will be crucial in determining the reserve level. You can indicate factors like previous projects, experiences, the possibility of risks, the intensity of the consequences and project complexity.Â",
+    "source": "https://www.simplilearn.com/risk-management-interview-questions-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Risk Assessment",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. How do you conduct a risk assessment on cybersecurity-related tasks?",
+    "answer": "You will state the sequence of steps to be taken for cybersecurity risk assessments. Evaluating your tech-based knowledge, you must mention possible cybersecurity threats, vulnerability assessments, likelihood or probability of occurrence and quantity of impact.",
+    "source": "https://www.simplilearn.com/risk-management-interview-questions-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Risk Assessment",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "12. What are your methods for risk monitoring and controlling?Â",
+    "answer": "Recruiters want to evaluate the different possible paths that you can take to monitor and control the risks. It can include checking the shortcomings in existing processes, analysis of the probability of risks and development or usage of systems and processes for monitoring and timely action for control. You can add your personal insights or unique approaches to the answer.Â",
+    "source": "https://www.simplilearn.com/risk-management-interview-questions-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Risk Assessment",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "14. What is your strategy for handling stakeholders during risk management?Â",
+    "answer": "You are to demonstrate your communication abilities and problem-solving skills, as well as your ability to manage technical details. You can discuss active listening, understanding, transparent and open communication, trust building, regular updates,conflict handlingand mutual decision-making.Â",
+    "source": "https://www.simplilearn.com/risk-management-interview-questions-article",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Risk Assessment",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is IT auditing, and why is it important?",
+    "answer": "2. Explain the difference between internal and external IT audits.Internal IT audits are conducted by a company's internal audit department or individual auditors to assess internal controls, compliance, and operational effectiveness. They serve as a proactive measure to identify and address issues within the organization. Independent audit companies or governmental organizations carry out external IT audits. They concentrate on giving external stakeholders, including shareholders, investors, or regulatory bodies, an unbiased review of an organization's IT controls, financial statements, andregulatory compliance.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/it-auditor-interview-questions-and-answers/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Risk Assessment",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is the role of an IT auditor in an organization?",
+    "answer": "4. Define risk assessment in IT auditing.Risk assessment in IT auditing refers to the identification, investigation, and evaluation of potential hazards and vulnerabilities in an organization's IT infrastructure. This approach helps create strategies for effectively managing and lowering IT-related risks, prioritizing audit duties, and concentrating on essential areas.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/it-auditor-interview-questions-and-answers/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Risk Assessment",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. How would you assess the adequacy of an organization's IT controls?",
+    "answer": "6. What is the significance of compliance in IT auditing?Compliance is important in IT auditing since it ensures that an organisation conforms with relevant laws, regulations, industry standards, and internal norms. IT auditors assess compliance in order to uncover any violations, control flaws, and the monetary or legal consequences associated with non-compliance.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/it-auditor-interview-questions-and-answers/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Risk Assessment",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is the significance of compliance in IT auditing?",
+    "answer": "7. Can you explain the concept of IT general controls (ITGCs)?The core controls, or ITGCs (IT General Controls), govern the whole IT environment of an organisation. They cover operational controls, system development, change management, and access. The foundation for effective IT controls, ITGCs guarantee the dependability and security of IT systems.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/it-auditor-interview-questions-and-answers/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Risk Assessment",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. Can you explain the concept of IT general controls (ITGCs)?",
+    "answer": "8. What is the purpose of an IT audit program?An IT audit programme is a formalised approach that outlines the objectives, procedures, and reach of an IT audit. Its mission is to guarantee that audits are conducted consistently, completely, and in compliance with business objectives, legal requirements, and standard operating procedures.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/it-auditor-interview-questions-and-answers/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Risk Assessment",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is the purpose of an IT audit program?",
+    "answer": "9. Describe the components of an IT audit report.An IT audit report typically includes:",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/it-auditor-interview-questions-and-answers/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Risk Assessment",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. What are some common IT risks that organizations face?",
+    "answer": "1. How do you conduct a walkthrough of IT processes during an audit?Conducting a walkthrough involves tracing the flow of a specific process within an organization's IT systems. The steps include:",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/it-auditor-interview-questions-and-answers/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Risk Assessment",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. How do you conduct a walkthrough of IT processes during an audit?",
+    "answer": "2.  Explain the COBIT framework and its relevance in IT auditing.A well-known framework for IT governance and management isCOBIT (Control Objectives for Information and Related Technologies). It is pertinent to IT audits because it offers a thorough set of principles and best practices for coordinating IT with business objectives, providing efficient controls, and determining the maturity of IT operations.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/it-auditor-interview-questions-and-answers/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Risk Assessment",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. Mention the differences between Data Mining and Data Profiling?",
+    "answer": "Data Wranglingis the process wherein raw data is cleaned, structured, and enriched into a desired usable format for better decision making. It involves discovering, structuring, cleaning, enriching, validating, and analyzing data. This process can turn and map out large amounts of data extracted from various sources into a more useful format. Techniques such as merging, grouping, concatenating, joining, and sorting are used to analyze the data. Thereafter it gets ready to be used with another dataset.",
+    "source": "https://www.simplilearn.com/tutorials/data-analytics-tutorial/data-analyst-interview-questions",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Compliance",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What are the various steps involved in any analytics project?",
+    "answer": "This is one of the most basic data analyst interview questions. The various steps involved in any common analytics projects are as follows:",
+    "source": "https://www.simplilearn.com/tutorials/data-analytics-tutorial/data-analyst-interview-questions",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Compliance",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What are the common problems that data analysts encounter during analysis?",
+    "answer": "The common problems steps involved in any analytics project are:",
+    "source": "https://www.simplilearn.com/tutorials/data-analytics-tutorial/data-analyst-interview-questions",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Compliance",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. Which are the technical tools that you have used for analysis and presentation purposes?",
+    "answer": "As a data analyst, you are expected to know the tools mentioned below for analysis and presentation purposes. Some of thepopular toolsyou should know are:",
+    "source": "https://www.simplilearn.com/tutorials/data-analytics-tutorial/data-analyst-interview-questions",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Compliance",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What are the best methods for data cleaning?",
+    "answer": "Create a data cleaning plan by understanding where the common errors take place and keep all the communications open.",
+    "source": "https://www.simplilearn.com/tutorials/data-analytics-tutorial/data-analyst-interview-questions",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Compliance",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What is the significance of Exploratory Data Analysis (EDA)?",
+    "answer": "Exploratory data analysis (EDA) helps to understand the data better.",
+    "source": "https://www.simplilearn.com/tutorials/data-analytics-tutorial/data-analyst-interview-questions",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Compliance",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What are the different types of sampling techniques used by data analysts?",
+    "answer": "Sampling is a statistical method to select a subset of data from an entire dataset (population) to estimate the characteristics of the whole population.Â",
+    "source": "https://www.simplilearn.com/tutorials/data-analytics-tutorial/data-analyst-interview-questions",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Compliance",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "11. What are your strengths and weaknesses as a data analyst?",
+    "answer": "The answer to this question may vary from a case to case basis. However, some general strengths of a data analyst may include strong analytical skills, attention to detail, proficiency in data manipulation and visualization, and the ability to derive insights from complex datasets. Weaknesses could include limited domain knowledge, lack of experience with certain data analysis tools or techniques, or challenges in effectively communicating technical findings to non-technical stakeholders.",
+    "source": "https://www.simplilearn.com/tutorials/data-analytics-tutorial/data-analyst-interview-questions",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Compliance",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Cybersecurity?",
+    "answer": "Cybersecurityrefers to the practice ofprotecting computer systems, networks, and data from digital attacks, theft, or damage. With the increasing use of the internet and digital technologies in every aspect of life, the importance of cybersecurity has never been greater. Cyber threats can come in many forms, such asmalware,ransomware,phishing, andhacking.These attacks can lead to the loss of sensitive information, financial damage, or even harm to an organization’s reputation.",
+    "source": "https://www.geeksforgeeks.org/blogs/requirements-and-responsibilities-for-cyber-security-entry-level-jobs/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "PKI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. How Different is React-native from ReactJS ?",
+    "answer": "Usage ScopeReactJs -Reactis a  JavaScript library for building Responsive User Interfaces for Building Web Application.React Native - It is a framework for creating mobile applications with a native feel.",
+    "source": "https://www.interviewbit.com/react-native-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "PKI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. Describing Networking in React Native and how to make AJAX network calls in React Native?",
+    "answer": "React Native provides the Fetch API for networking needs.To fetch content from an arbitrary URL, we can pass the URL to fetch:",
+    "source": "https://www.interviewbit.com/react-native-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "PKI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is Props Drilling and how can we avoid it ?",
+    "answer": "Props Drilling (Threading) is a concept that refers to the process you pass the data from the parent component to the exact child Component BUT in between, other components owning the props just to pass it down the chain.",
+    "source": "https://www.interviewbit.com/react-native-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "PKI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. How to debug React Native Applications and Name the Tools used for it ?",
+    "answer": "In the React Native world, debugging may be done in different ways and with different tools, since React Native is composed of different environments (iOS and Android), which means there’s an assortment of problems and a variety of tools needed for debugging.",
+    "source": "https://www.interviewbit.com/react-native-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "PKI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. Describe Timers in React Native Application ?",
+    "answer": "Timers are an important and integral part of any application and React Native implements the browser timers.Timers",
+    "source": "https://www.interviewbit.com/react-native-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "PKI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is Redux in React Native and give important components of Redux used  in React Native app ?",
+    "answer": "Redux is a predictable state container for JavaScript apps. It helps write applications that run in different environments. This means the entire data flow of the app is handled within a single container while persisting previous state.",
+    "source": "https://www.interviewbit.com/react-native-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "PKI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is State and how is it used in React Native?",
+    "answer": "It is used to control the components. The variable data can be stored in the state. It is mutable means a state can change the value at any time.",
+    "source": "https://www.interviewbit.com/react-native-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "PKI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. How is user Input Handled in React Native ?",
+    "answer": "TextInput is a Core Component that allows the user to enter text. It has an onChangeText prop that takes a function to be called every time the text changes, and an onSubmitEditing prop that takes a function to be called when the text is submitted.",
+    "source": "https://www.interviewbit.com/react-native-interview-questions/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "PKI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What Is Hashing?",
+    "answer": "Hashing consists of converting a general string of information into an intricate piece of data. This is done to scramble the data to completely transform the original value, making the hashed value utterly different from the original.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/md5-algorithm",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "PKI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What Is the MD5 Algorithm?",
+    "answer": "MD5 (Message Digest Method 5) is a cryptographic hash algorithm that generates a 128-bit digest from a string of any length. The digests are represented as 32-digit hexadecimal numbers.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/md5-algorithm",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "PKI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How Does MD5 Algorithm Work?",
+    "answer": "The MD5 algorithm's working process involves padding, appending length, initializing variables, processing in 512-bit blocks, and producing the final hash.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/md5-algorithm",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "PKI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How Can Simplilearn Help You?",
+    "answer": "The message digest family of algorithms has been a staple in many hashing systems worldwide. Although it has flaws, it can still be considered an excellent beginner algorithm for newer cryptographic enthusiasts. Apart from this particular subject, multiple sections in cybersecurity need to be practiced before one starts a career in this line of work.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/md5-algorithm",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "PKI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. Why Is MD5 Not Secure?",
+    "answer": "MD5 is insecure because it is vulnerable to collision and preimage attacks, where different inputs produce the same hash, compromising data integrity and security.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/md5-algorithm",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "PKI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. Can MD5 Be Reversed?",
+    "answer": "MD5 cannot be directly reversed but can be attacked using brute-force methods or rainbow tables to find matching inputs.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/md5-algorithm",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "PKI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. Is MD5 Still Safe to Use?",
+    "answer": "No, MD5 is unsafe for cryptographic purposes due to its vulnerabilities. More secure algorithms like SHA-256 are recommended.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/md5-algorithm",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "PKI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. How Can I Check if an MD5 Hash Is Correct?",
+    "answer": "To check if an MD5 hash is correct, compare the computed MD5 hash of the original data with the provided hash. If they match, the data is likely intact.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/md5-algorithm",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "PKI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How do I enroll in the Executive Certificate Program In Cyber Security?",
+    "answer": "To enroll in this cybersecurity course, you must complete the online application. Our admissions panel will review your application and contact you by email if youâve been selected. You can pay the admissions fee to start the course.Â",
+    "source": "https://www.simplilearn.com/executive-certificate-program-in-cybersecurity",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "PKI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is red team certification?",
+    "answer": "Red Team certification is a specialized cybersecurity certification that validates an individual's skills in offensive security techniques. Red team-certified professionals are trained to simulate real-world cyberattacks and conduct vulnerability assessments and penetration tests. This certification focuses on advanced penetration testing, social engineering, and threat emulation to strengthen security posture.",
+    "source": "https://www.simplilearn.com/executive-certificate-program-in-cybersecurity",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "PKI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is the difference between the red and blue teams in cybersecurity?",
+    "answer": "In cybersecurity, the red team focuses on offense, simulating real-world attacks, finding vulnerabilities, and exploiting weaknesses in an organization's security. They usually mimic the tactics of malicious hackers.Â",
+    "source": "https://www.simplilearn.com/executive-certificate-program-in-cybersecurity",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "PKI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How good are the trainers at Simplilearn?  Or Who are the instructors for this Network Security Training, and how were they selected?",
+    "answer": "We have highly qualified instructors who are industry experts with years of relevant industry experience for this network security program. Each instructor undergoes a rigorous selection process, including profile screening, technical evaluation, and a training demo evaluation, before getting certified to train for us. Besides, we ensure that only those trainers with a high alumni rating remain part of our faculty.Â",
+    "source": "https://www.simplilearn.com/executive-certificate-program-in-cybersecurity",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "PKI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What will be the expected salary range after earning an executive network security certificate?",
+    "answer": "A network security professional earns an average annual salary between INR5 Lakhs and INR 10 Lakhs. However, in the USA, a cyber security engineer can earn an average yearly wage of up to USD124,409.",
+    "source": "https://www.simplilearn.com/executive-certificate-program-in-cybersecurity",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "PKI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is covered under the 24/7 Support promise?",
+    "answer": "We offer 24/7 support through email, chat, and calls. Our dedicated team also provides on-demand assistance through our community forum. You will have lifetime access to the forum, even after completing your Executive Certificate Program in Cybersecurity with us.",
+    "source": "https://www.simplilearn.com/executive-certificate-program-in-cybersecurity",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "PKI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Will missing a live class affect my ability to complete the course?",
+    "answer": "No, missing a live class will not affect your ability to complete the course. With our 'flexi-learn' feature, you can watch the recorded session of any missed class at your convenience. This allows you to stay up-to-date with the course content and meet the necessary requirements to progress and earn your certificate. Simply visit the Simplilearn learning platform, select the missed class, and watch the recording to have your attendance marked.Â",
+    "source": "https://www.simplilearn.com/executive-certificate-program-in-cybersecurity",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "PKI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What do people think about Simplilearnâs Executive Certificate Program in Cybersecurity?",
+    "answer": "Simplilearn is highly regarded for offering valuable, career-boosting education. The Executive Certificate Program in CybersecurityÂ offers a well-structured and industry-relevant curriculum. Simplilearn testimonials and alumni reviews talk highly about the comprehensive course content, practical learning approach, and experienced instructors. The flexibility of the programs allows professionals to upskill while balancing work and personal commitments.",
+    "source": "https://www.simplilearn.com/executive-certificate-program-in-cybersecurity",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "PKI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Identity and Access Management?",
+    "answer": "User identities and access rights are defined and managed by an Identity and Access Management (IAM) system. Customers (customer identity management) and employees (employee identity management) are both users of IAM. IT managers can use IAM technologies to ensure that users are who they say they are (authentication) and have access to the apps and resources they are permitted to use (authorization).",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/identity-and-access-management",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "IAM",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How Does IAM Work?",
+    "answer": "IAM systems primarily have three roles: to identify, authenticate, and authorize. Only authorized individuals must have access to computers, equipment, software applications, and IT resources, or conduct certain duties.",
+    "source": "https://www.simplilearn.com/tutorials/cyber-security-tutorial/identity-and-access-management",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "IAM",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Microsoft Azure?",
+    "answer": "Microsoft Azure is acloud computingplatform offering over 200 products and services across 60+ regions. It promises top-notch security. Due to its scalability and cost-effectiveness, Azure meets the business needs of small, medium, and enterprise-scale businesses.",
+    "source": "https://www.simplilearn.com/tutorials/azure-tutorial/azure-interview-questions",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "IAM",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How does Azure differ from traditional on-premises IT infrastructure?",
+    "answer": "Azure has certain perks. It differs from traditional on-premises IT infrastructure by offering ease of scalability, high availability, and less downtime compared to conventional solutions. It also provides rapid deployment. Moreover, it comes with a pay-as-you-go model.Azureis adaptable and has built-in redundancy with disaster recovery features.",
+    "source": "https://www.simplilearn.com/tutorials/azure-tutorial/azure-interview-questions",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "IAM",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are the core services provided by Microsoft Azure?",
+    "answer": "Azure offers four categories of services: computing, storage, networking, and database.Â",
+    "source": "https://www.simplilearn.com/tutorials/azure-tutorial/azure-interview-questions",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "IAM",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is an Azure Virtual Machine (VM)?",
+    "answer": "Azure Virtual Machine is an on-demand computing service provided by Azure. It is scalable and preferred due to better control over the computing environment. VM also offers the flexibility to choose and shut down virtual machines as needed. Uses include application development, testing, and networking within the organization.",
+    "source": "https://www.simplilearn.com/tutorials/azure-tutorial/azure-interview-questions",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "IAM",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is an Azure Resource Group?",
+    "answer": "An Azure Resource Group is the container for managing and modifying related resources in an Azure solution. A resource group can include multiple resources that share a common lifecycle, such as deployment, updates, and deletion. At the same time, many resources can be moved between resource groups; not all support this operation.",
+    "source": "https://www.simplilearn.com/tutorials/azure-tutorial/azure-interview-questions",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "IAM",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is the Azure Virtual Network (VNet)?",
+    "answer": "Azure Virtual Networkis the core networking service. It provides the basic building blocks to develop a private network in Azure. VNet allows connections between databases or Azure resources, such as virtual machines, the Internet, and companies' on-premises networks. It also filters and routes network traffic and integrates with Azure services for private access.",
+    "source": "https://www.simplilearn.com/tutorials/azure-tutorial/azure-interview-questions",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "IAM",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is Azure Active Directory (AAD)?",
+    "answer": "Azure Active Directory (AAD)is now called Microsoft Entra ID. It is an Identity and Access Management solution from Azure that helps safeguard and manage the organization. It offers a user-friendly experience with high security, further achieved through strong authentication and risk-based conditional access policies. The services encompass app integrations, single sign-on (SSO), multifactor authentication, privileged identity management, and end-user self-service.Â",
+    "source": "https://www.simplilearn.com/tutorials/azure-tutorial/azure-interview-questions",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "IAM",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is Azure App Service?",
+    "answer": "Azure App Service is the application hosting platform for web apps, REST APIs, and mobile backends. It is an HTTP-based service that supports app development in various languages, such as .NET Core, .NET,Java,Python,Node.jsorPHP.Â",
+    "source": "https://www.simplilearn.com/tutorials/azure-tutorial/azure-interview-questions",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "IAM",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is a Cyber Threat Intelligence?",
+    "answer": "A continual procedure called the cyber threat intelligence cycle aids firms in staying ahead of potential online attacks. The following steps are often included in the cycle:",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/what-is-cyber-threat-intelligence/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Threat Intelligence",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why is Cyber Threat Intelligence Important?",
+    "answer": "The Organizations of all sizes and in all sectors including the military, government, financial, healthcare and retail sectors use CTI. It is a important component of any contemporary cybersecurity program assisting the firms in protecting their important assets and data and helping them stay one step ahead of the thieves.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/what-is-cyber-threat-intelligence/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Threat Intelligence",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Who Benefits from Threat Intelligence?",
+    "answer": "Threat intelligence helps organizations of all sizes and across various fields by turning data into useful insights about potential attackers. This knowledge allows the companies to respond quickly to the incidents and stay ahead of a threats regardless of the specific type of a intelligence they use. For a small to medium sized businesses (SMB) threat intelligence provides a valuable protection by giving them the access to information about the wide range of a possible threats.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/what-is-cyber-threat-intelligence/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Threat Intelligence",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Who is A Cyber Threat Intelligence Analyst?",
+    "answer": "The cyber threat intelligence analyst is a security expert who specializes in the monitoring and analyzing the information about a externalcyber threats. Their main job is to turn a vast amounts of the data into useful insights that can help protect an organization. These professionals gather the data from a various sources about security incidents then study how attacks happen and why they occur how severe they are and what the overall threat landscape looks like. After carefully examining this information they create a easy-to-understand reports and intelligence feeds.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/what-is-cyber-threat-intelligence/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Threat Intelligence",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What Are The Types of Threat Intelligence?",
+    "answer": "Strategic threat intelligence provides the broad view of an organizations threat landscape for a executive level decision makers. It focuses on a high-level risks, potential vulnerabilities and the goals of a threat actors. This type of a intelligence helps guide overall security strategy and a resource allocation offering insights that are less technical but important for long-term planning and a risk management.",
+    "source": "https://www.geeksforgeeks.org/ethical-hacking/what-is-cyber-threat-intelligence/",
+    "role": "Cybersecurity Specialist/Analyst",
+    "skill": "Threat Intelligence",
+    "search_strategy": "role_specific"
+  }
+]

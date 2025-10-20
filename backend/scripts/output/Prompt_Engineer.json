@@ -1,0 +1,1898 @@
+[
+  {
+    "question": "Q1: What is the Architecture of Generative AI ?",
+    "answer": "Answer:Generative AI works through the use of neural networks, specifically Recurrent Neural Networks (RNNs) and more recently, Transformers. Here’s a simplified breakdown of how it functions:",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/generative-ai-interview-question-with-answer/",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q2: What are the top applications of Generative AI?",
+    "answer": "Answer:Generative AI has a wide range of applications across different industries:",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/generative-ai-interview-question-with-answer/",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q3: . How is Generative Adversarial Networks (GANs) used in AI?",
+    "answer": "Answer:Generative Adversarial Networks, or GANs, are a type of machine learning model made up of two key parts:a generator and a discriminator. These two components collaborate like — the generator creates new content, while the discriminator evaluates it, pushing both to improve through their interaction.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/generative-ai-interview-question-with-answer/",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q4: How Generator and Discriminator works together ?",
+    "answer": "The generator tries to fool the discriminator, while the discriminator aims to correctly classify the data. They improve through this competition until the generator produces highly realistic outputs.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/generative-ai-interview-question-with-answer/",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q5: What are some common techniques to improve the stability and performance of GANs?",
+    "answer": "Answer:To enhance the stability and performance of GANs, various strategies can be employed. Using architectures likeDeep Convolutional GANs (DCGANs) or Wasserstein GANs (WGANs)is a popular approach. Techniques such asbatch normalization, feature matching, and gradient penaltyare effective in stabilizing training. Additionally, leveraging advanced optimizers and custom loss functions tailored for GANs can further boost their performance.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/generative-ai-interview-question-with-answer/",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q6. What is Deep Convolutional Generative Adversarial Networks (DCGANs) ?",
+    "answer": "Answer:Deep Convolutional Generative Adversarial Networks (DCGANs)are a type of generative adversarial network (GAN) architecture that leverages convolutional neural networks (CNNs) for both the generator and discriminator components.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/generative-ai-interview-question-with-answer/",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q7: What are the key differences between conditional GANs (cGANs) and traditional GANs?",
+    "answer": "Answer:Conditional GANs extend traditional GANs by conditioning the generation process on additional information, such asclasslabels to generators. In contrast, traditional GANs generate data without any conditioning.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/generative-ai-interview-question-with-answer/",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q8: Can you explain the purpose and implementation of regularization techniques in generative models?",
+    "answer": "Answer:Regularization techniquesare essential for preventing overfitting and improving a model's ability to generalise to new data. In generative models, common methods include dropout, weight decay, and spectral normalization.These methods ensure that the model learns robust features and avoids memorizing the training data.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/generative-ai-interview-question-with-answer/",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What are the main types of AI?",
+    "answer": "Themain types of AIinclude Reactive Machines, Limited Memory, Theory of Mind, and Self-aware AI. Each represents increasing sophistication and capability, from simple reaction-based machines to systems capable of understanding and developing consciousness.",
+    "source": "https://www.simplilearn.com/artificial-intelligence-ai-interview-questions-and-answers-article",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How does machine learning differ from traditional programming?",
+    "answer": "Traditional programming involves explicitly coding the logic to make decisions based on input data. In contrast, machine learning algorithms learn from data, identifying patterns and making decisions with minimal human intervention.",
+    "source": "https://www.simplilearn.com/artificial-intelligence-ai-interview-questions-and-answers-article",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is a convolutional neural network (CNN)?",
+    "answer": "AConvolutional Neural Network (CNN)is an advanced deep learning algorithm designed to process input images. It employs learnable weights and biases to allocate significance to different features or objects within the image, enabling it to distinguish between them effectively.",
+    "source": "https://www.simplilearn.com/artificial-intelligence-ai-interview-questions-and-answers-article",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What are Generative Adversarial Networks (GANs)?",
+    "answer": "GANsare machine learning frameworks designed by two networks: a generator that creates samples and a discriminator that evaluates them. The networks are trained concurrently to produce high-quality, synthetic (fake) outputs indistinguishable from real data.",
+    "source": "https://www.simplilearn.com/artificial-intelligence-ai-interview-questions-and-answers-article",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is bias in machine learning, and why is it important?",
+    "answer": "Bias in machine learning refers to errors introduced in the model due to oversimplification, assumptions, or prejudices in the training data. It's important because it can lead to inaccurate predictions or decisions, particularly affecting fairness and ethical considerations.",
+    "source": "https://www.simplilearn.com/artificial-intelligence-ai-interview-questions-and-answers-article",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is the difference between classification and regression?",
+    "answer": "Classification is used to predict discrete responses, categorizing data into classes. Regression is used to predict continuous responses, forecasting numerical quantities.",
+    "source": "https://www.simplilearn.com/artificial-intelligence-ai-interview-questions-and-answers-article",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. How do you ensure your AI models are ethical and unbiased?",
+    "answer": "Ensuring AI models are ethical and unbiased involves rigorous testing across diverse datasets, continuous monitoring for bias, incorporating ethical considerations into the AI development process, and transparency in how models make decisions.",
+    "source": "https://www.simplilearn.com/artificial-intelligence-ai-interview-questions-and-answers-article",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What are the ethical concerns associated with AI?",
+    "answer": "Ethical concerns include privacy issues, automation-related job losses,decision-makingtransparency, AI biases, and the potential for misuse of AI technologies.",
+    "source": "https://www.simplilearn.com/artificial-intelligence-ai-interview-questions-and-answers-article",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. How does artificial intelligence differ from traditional programming?",
+    "answer": "Artificial Intelligence (AI)is when machines, especially computers, are designed to think and act like humans. AI helps machines learn from information, solve problems, and improve themselves. It allows them to do tasks that usually need human intelligence, like understand3ing what they see (like recognizing images), understanding and responding to speech, making decisions, and translating languages.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligenceai-interview-questions-and-answers/",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the main branches of AI?",
+    "answer": "The main branches of AI are as follows :",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligenceai-interview-questions-and-answers/",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is the difference between a strong AI and a weak AI?",
+    "answer": "Difference between a strong AI and a weak AI is as follows :",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligenceai-interview-questions-and-answers/",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is the difference between symbolic and connectionist AI?",
+    "answer": "The difference between symbolic and connectionist AI is as follows:",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligenceai-interview-questions-and-answers/",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is the difference between parametric and non-parametric models?",
+    "answer": "The difference between parametric and non-parametric models are as follows:",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligenceai-interview-questions-and-answers/",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What are the steps involved in deploying a machine learning model into production?",
+    "answer": "The steps involved in deploying a Machine learning Model into production typically includes:",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligenceai-interview-questions-and-answers/",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What are the techniques used to avoid overfitting?",
+    "answer": "The  techniques used to avoid overfitting are as follows:",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligenceai-interview-questions-and-answers/",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is the difference between batch learning and online learning?",
+    "answer": "The difference between batch learning and online learning are as follows",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligenceai-interview-questions-and-answers/",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Prompt Engineering?",
+    "answer": "Prompt engineering is the process of creating effective prompts that enableAI modelsto generate responses based on given inputs. Prompt engineering essentially means writing prompts intelligently for text-based Artificial Intelligence tasks, more specifically,Natural Language Processing(NLP)tasks. In the case of such text-based tasks, these prompts help the user and the model generate a particular output as per the requirement. These requirements are efficiently added in the form of prompts and hence the name Prompt Engineering.",
+    "source": "https://www.geeksforgeeks.org/blogs/what-is-prompt-engineering-the-ai-revolution/",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How Prompt Engineering Works?",
+    "answer": "Imagine you're instructing a very talented but inexperienced assistant. You want them to complete a task effectively, so you need to provide clear instructions. Prompt engineering is similar - it's about crafting the right instructions, called prompts, to get the desired results from alarge language model(LLM).",
+    "source": "https://www.geeksforgeeks.org/blogs/what-is-prompt-engineering-the-ai-revolution/",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What are Prompt Engineering Techniques?",
+    "answer": "The purpose of the prompt engineering is not limited to the drafting of prompts. It is a playground that has all the tools to adjust your way of working with thebig language models (LLMs)with specific purposes in mind.",
+    "source": "https://www.geeksforgeeks.org/blogs/what-is-prompt-engineering-the-ai-revolution/",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What are Prompts?",
+    "answer": "Prompts are short pieces of text that are used to provide context and guidance tomachine learning models. When talking about the specific textAI tasks, also calledNLP tasks, these prompts are useful in generating relevant outputs which are as close to the expected output itself. Precisely, these prompts help in generating accurate responses by:",
+    "source": "https://www.geeksforgeeks.org/blogs/what-is-prompt-engineering-the-ai-revolution/",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Prompt Engineering: Why is it Important?",
+    "answer": "Imagine you're instructing a very talented but inexperienced assistant. You want them to complete a task effectively, so you need to provide clear instructions. Prompt engineering is similar - it's about crafting the right instructions, called prompts, to get the desired results from alarge language model(LLM).",
+    "source": "https://www.geeksforgeeks.org/blogs/what-is-prompt-engineering-the-ai-revolution/",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is an AI Prompt Engineering?",
+    "answer": "AI prompt engineering is a specific area within artificial intelligence (AI) that focuses on designing, refining, and optimizing prompts, i.e., inputs or instructions, to enable efficient and effective communication with AI models, especially large language models (LLMs) like GPT-4. The goal is that AI systems generate outputs that are accurate, relevant, and aligned with user objectives.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/what-is-an-ai-prompt-engineering/",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is NLP?",
+    "answer": "NLP stands forNatural Language Processing. The subfield ofArtificial intelligenceand computational linguistics deals with the interaction between computers and human languages. It involves developing algorithms, models, and techniques to enable machines to understand, interpret, and generate natural languages in the same way as a human does.",
+    "source": "https://www.geeksforgeeks.org/nlp/nlp-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the main challenges in NLP?",
+    "answer": "The complexity and variety of human language create numerous difficult problems for the study of Natural Language Processing (NLP). The primary challenges in NLP are as follows:",
+    "source": "https://www.geeksforgeeks.org/nlp/nlp-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are the different tasks in NLP?",
+    "answer": "Natural Language Processing (NLP) includes a wide range of tasks involving understanding, processing, and creation of human language. Some of the most important tasks in NLP are as follows:",
+    "source": "https://www.geeksforgeeks.org/nlp/nlp-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What do you mean by Corpus in NLP?",
+    "answer": "In NLP, acorpusis a huge collection of texts or documents. It is a structured dataset that acts as a sample of a specific language, domain, or issue. A corpus can include a variety of texts, including books, essays, web pages, and social media posts. Corpora are frequently developed and curated for specific research or NLP objectives. They serve as a foundation for developing language models, undertaking linguistic analysis, and gaining insights into language usage and patterns.",
+    "source": "https://www.geeksforgeeks.org/nlp/nlp-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What do you mean by text augmentation in NLP and what are the different text augmentation techniques in NLP?",
+    "answer": "Text augmentationin NLP refers to the process that generates new or modified textual data from existing data in order to increase the diversity and quantity of training samples. Text augmentation techniques apply numerous alterations to the original text while keeping the underlying meaning.",
+    "source": "https://www.geeksforgeeks.org/nlp/nlp-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What are some common pre-processing techniques used in NLP?",
+    "answer": "Natural Language Processing (NLP)preprocessing refers to the set of processes and techniques used to prepare raw text input for analysis, modelling, or any other NLP tasks. The purpose of preprocessing is to clean and change text data so that it may be processed or analyzed later.",
+    "source": "https://www.geeksforgeeks.org/nlp/nlp-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is text normalization in NLP?",
+    "answer": "Text normalization, also known as text standardization, is the process of transforming text data into a standardized or normalized form It involves applying a variety of techniques to ensure consistency,  reduce variations, and simplify the representation of textual information.",
+    "source": "https://www.geeksforgeeks.org/nlp/nlp-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is tokenization in NLP?",
+    "answer": "Tokenizationis the process of breaking down text or string into smaller units called tokens. These tokens can be words, characters, or subwords depending on the specific applications. It is the fundamental step in many natural language processing tasks such as sentiment analysis, machine translation, and text generation. etc.",
+    "source": "https://www.geeksforgeeks.org/nlp/nlp-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Generative AI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Space, how far, light speed?\" and \"Explain how far light travels in space within one year and discuss the concept of light-year as a distance measurement.\"",
+    "answer": "Self-regression Language Model (LLM) models likeChatGPThave revolutionized natural language processing tasks by demonstrating the ability to generate coherent and contextually relevant text. However, maximizing their potential requires a nuanced understanding of how to effectively utilize prompts.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/tips-and-practices-for-generating-effective-prompts-for-llms-like-chatgpt/",
+    "role": "Prompt Engineer",
+    "skill": "LLM",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "\"How do social media platforms impact mental health?\"",
+    "answer": "Self-regression Language Model (LLM) models likeChatGPThave revolutionized natural language processing tasks by demonstrating the ability to generate coherent and contextually relevant text. However, maximizing their potential requires a nuanced understanding of how to effectively utilize prompts.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/tips-and-practices-for-generating-effective-prompts-for-llms-like-chatgpt/",
+    "role": "Prompt Engineer",
+    "skill": "LLM",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How do social media platforms impact mental health?",
+    "answer": "Self-regression Language Model (LLM) models likeChatGPThave revolutionized natural language processing tasks by demonstrating the ability to generate coherent and contextually relevant text. However, maximizing their potential requires a nuanced understanding of how to effectively utilize prompts.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/tips-and-practices-for-generating-effective-prompts-for-llms-like-chatgpt/",
+    "role": "Prompt Engineer",
+    "skill": "LLM",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "{\"role\": \"user\", \"content\": \"Who won the ICC world cup in 2011?\"},",
+    "answer": "<OpenAIObject chat.completion id=chatcmpl-7T4PnNcMT2tjElv4v47xzYvYc88lG at 0x7f2359b8f0e0> JSON: {  \"id\": \"chatcmpl-7T4PnNcMT2tjElv4v47xzYvYc88lG\",  \"object\": \"chat.completion\",  \"created\": 1687162839,  \"model\": \"gpt-3.5-turbo-0301\",  \"usage\": {    \"prompt_tokens\": 19,    \"completion_tokens\": 2,    \"total_tokens\": 21  },  \"choices\": [    {      \"message\": {        \"role\": \"assistant\",        \"content\": \"India.\"      },      \"finish_reason\": \"stop\",      \"index\": 0    }  ]}Create a function based on the above Chat Completions API and output",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/prompt-engineering-for-summarization/",
+    "role": "Prompt Engineer",
+    "skill": "LLM",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is System Design?",
+    "answer": "It’s impossible to overlook system design when it comes to tech interviews! In the interview, almost every IT giant, whether it’s Facebook, Amazon, Google, or another, asks a series of questions based onSystem Design conceptslike scalability, load balancing, caching, and so on. So without any further adieu, let us go through the most frequently asked interview questions on System Design.",
+    "source": "https://www.interviewbit.com/system-design-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Prompt Design",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is CAP theorem?",
+    "answer": "CAP(Consistency-Availability-Partition Tolerance) theorem says that a distributed system cannot guarantee C, A and P simultaneously. It can at max provide any 2 of the 3 guarantees. Let us understand this with the help of a distributed database system.",
+    "source": "https://www.interviewbit.com/system-design-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Prompt Design",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How is Horizontal scaling different from Vertical scaling?",
+    "answer": "Horizontal scalingrefers to the addition of more computing machines to the network that shares the processing and memory workload across a distributed network of devices. In simple words, more instances of servers are added to the existing pool and the traffic load is distributed across these devices in an efficient manner.",
+    "source": "https://www.interviewbit.com/system-design-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Prompt Design",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What do you understand by load balancing? Why is it important in system design?",
+    "answer": "When a server goes down, the load balancer redirects traffic to the remaining available servers. When a new server gets added to the configuration, the requests are automatically redirected to it. Following are the benefits of load balancers:",
+    "source": "https://www.interviewbit.com/system-design-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Prompt Design",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What do you understand by Latency, throughput, and availability of a system?",
+    "answer": "Performance is an important factor in system design as it helps in making our services fast and reliable. Following are the three key metrics for measuring the performance:",
+    "source": "https://www.interviewbit.com/system-design-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Prompt Design",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is Sharding?",
+    "answer": "Sharding helps to scale databases by helping to handle the increased load by providing increased throughput, storage capacity and ensuring high availability.",
+    "source": "https://www.interviewbit.com/system-design-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Prompt Design",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. How is sharding different from partitioning?",
+    "answer": "The following table lists the differences between sharding and partitioning:",
+    "source": "https://www.interviewbit.com/system-design-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Prompt Design",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is Caching? What are the various cache update strategies available in caching?",
+    "answer": "Caching refers to the process of storing file copies in a temporary storage location called cache which helps in accessing data more quickly thereby reducing site latency. The cache can only store a limited amount of data. Due to this, it is important to determine cache update strategies that are best suited for the business requirements. Following are the various caching strategies available:",
+    "source": "https://www.interviewbit.com/system-design-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Prompt Design",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Example prompt: “Here's a sample code which will be used for sorting an array using the quicksort algorithm. Can you spot and correct the error?’’",
+    "answer": "How does the prompt help:",
+    "source": "https://www.geeksforgeeks.org/websites-apps/chatgpt-prompts-for-software-engineers/",
+    "role": "Prompt Engineer",
+    "skill": "Prompt Design",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How ChatGPT Can Empower Design and Designers?",
+    "answer": "ChatGPThas a lot of advantages as well as some disadvantages but the exact environment and user requirements will determine how useful it is. It is on us how we want to use it as a resource. While technology can deliver timely and accurate information on a variety of subjects, it may also have trouble comprehending context, make mistakes, and lack the human touch and emotional intelligence of interpersonal interactions.",
+    "source": "https://www.geeksforgeeks.org/chatgpt-prompts-for-ui-ux-designers/",
+    "role": "Prompt Engineer",
+    "skill": "Prompt Design",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How LangChain Works?",
+    "answer": "LangChain follows a structured pipeline that integrates user queries, data retrieval and response generation into seamless workflow.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/introduction-to-langchain/",
+    "role": "Prompt Engineer",
+    "skill": "LangChain",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "print(conversation.predict(input=\"Can you remind me what my name is?\"))",
+    "answer": "\"LangChain is a powerful LLM framework.\",",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/the-complete-langchain-ecosystem/",
+    "role": "Prompt Engineer",
+    "skill": "LangChain",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "query = \"What is LangChain used for?\"",
+    "answer": "Output: Output (Retriever and Vector Stores)5. AgentsAgents can decide what action to take: call a tool (e.g., calculator, search) or just answer directly.Let's see an example,load_tools(): loads extra capabilities.initialize_agent(): builds an LLM that can use tools.The agent chooses when to use math vs LLM.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/the-complete-langchain-ecosystem/",
+    "role": "Prompt Engineer",
+    "skill": "LangChain",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "response = agent.run(\"What is 25 multiplied by 16?\")",
+    "answer": "Output: Output (Agents)6. Output ParsersBy default, LLMs return plain text. Output parsers help us force structured formats like JSON, making the results easier to use in apps.Let's see an example,language: field for detected language.sentiment: field for text sentiment.Schemas tell the LLM exactly what structured data to produce.Combines the schemas into a parser that converts LLM text into structured Python objects (like a dictionary).Produces instructions for the LLM to follow the schema format.Ensures reliable parsing of outputs.{text}: user-provided text to analyze.{format_instructions}: tells LLM how to structure the output.partial_variables: fills in fixed instructions automatically.LLMChain: links the LLM with the prompt template.parse(): converts raw output into a Python dictionary following the schema.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/the-complete-langchain-ecosystem/",
+    "role": "Prompt Engineer",
+    "skill": "LangChain",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why dynamic prompting is better than static(fixed) prompting?",
+    "answer": "Dynamic prompting is an advanced technique inprompt engineeringwhere the content, structure and even the placement of prompts are adjusted in real time based on the specific context, user input or task requirements. Unlike static or fixed prompting where a single, unchanging prompt is used for all inputs dynamic prompting adapts to each scenario, enabling more personalized, context aware and effective interactions with AI systems.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/dynamic-prompting/",
+    "role": "Prompt Engineer",
+    "skill": "LangChain",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why Cloud Deployment is Important?",
+    "answer": "Gen AI is used in various real-world applications including:",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/roadmap-to-generative-ai-a-comprehensive-guide-for-beginners/",
+    "role": "Prompt Engineer",
+    "skill": "LangChain",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What Is Retrieval-Augmented Generation (RAG)?",
+    "answer": "RAGis a hybrid architecture that augments a large language model’s (LLM) text generation capabilities by retrieving and integrating relevant external information from documents, databases or knowledge bases.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/rag-with-langchain/",
+    "role": "Prompt Engineer",
+    "skill": "LangChain",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How Does Prompt Tuning Work?",
+    "answer": "Prompt tuningis a technique that involves modifying the input to a pre-trained language model rather than altering the model's parameters. Instead of fine-tuning the entire model, prompt tuning focuses on designing task-specific \"prompts\" or instructions that guide the model to produce the desired output.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/prompt-tuning/",
+    "role": "Prompt Engineer",
+    "skill": "Fine-tuning",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Active Directory?",
+    "answer": "Active Directory (AD) is a directory service developed by Microsoft for Windows domain networks. It manages permissions and access to networked resources, storing information about users, computers, and services in a centralized database. AD enables administrators to create and manage domains, users, and objects, providing authentication and authorization services and Group Policy management for security and policy enforcement across the network.",
+    "source": "https://www.simplilearn.com/desktop-support-engineer-interview-questions-article",
+    "role": "Prompt Engineer",
+    "skill": "Fine-tuning",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What is DHCP?",
+    "answer": "DHCP(Dynamic Host Configuration Protocol) is a network management protocol that automatically assigns IP addresses and other network configuration parameters to devices on a network. It eliminates the need for manual IP address assignment, ensuring that devices communicate effectively within the network. DHCP servers lease IP addresses to clients, managing the allocation and renewal of IPs dynamically based on device requirements.",
+    "source": "https://www.simplilearn.com/desktop-support-engineer-interview-questions-article",
+    "role": "Prompt Engineer",
+    "skill": "Fine-tuning",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is DNS?",
+    "answer": "DNS (Domain Name System) is a hierarchical system that translates human-friendly domain names (like www.example.com) into IP addresses (like 192.0.2.1) that computers use to identify each other on the network. It acts as the internet's phonebook, allowing users to access websites using easy-to-remember names rather than numeric IP addresses. DNS servers cache information to improve efficiency and speed.",
+    "source": "https://www.simplilearn.com/desktop-support-engineer-interview-questions-article",
+    "role": "Prompt Engineer",
+    "skill": "Fine-tuning",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is the ipconfig Command?",
+    "answer": "The ipconfig command is a Windows command-line utility that displays the current network configuration settings for all network interfaces. It shows IP addresses, subnet masks, default gateways, and DHCP status. Additionally, ipconfig can renew or release DHCP leases and flush the DNS resolver cache, making it a valuable tool for troubleshooting network connectivity issues.",
+    "source": "https://www.simplilearn.com/desktop-support-engineer-interview-questions-article",
+    "role": "Prompt Engineer",
+    "skill": "Fine-tuning",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. Who is a Desktop Support Engineer?",
+    "answer": "A desktop support engineer is an IT professional providing technical support and troubleshooting services for desktop computers and related technologies. Their role involves assisting users with hardware and software issues, performing installations, configurations, and maintenance, and ensuring systems run efficiently. They often resolve connectivity problems and may also handle user training and system upgrades.",
+    "source": "https://www.simplilearn.com/desktop-support-engineer-interview-questions-article",
+    "role": "Prompt Engineer",
+    "skill": "Fine-tuning",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. What is the Operating System?",
+    "answer": "An operating system (OS) is software that manages computer hardware and software resources, providing essential services for computer programs. It acts as an intermediary between users and the computer hardware, enabling tasks such as file management, process scheduling, anduser interface management. Common operating systems include Microsoft Windows, macOS, Linux, and Android.",
+    "source": "https://www.simplilearn.com/desktop-support-engineer-interview-questions-article",
+    "role": "Prompt Engineer",
+    "skill": "Fine-tuning",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "12. What is Group Policy?",
+    "answer": "Group Policy is a feature in Windows that allows administrators to define and manage settings for users and computers in an Active Directory environment. It provides centralized management of security settings, software installation, desktop configurations, and user permissions, helping to enforce organization-wide policies and ensure compliance.",
+    "source": "https://www.simplilearn.com/desktop-support-engineer-interview-questions-article",
+    "role": "Prompt Engineer",
+    "skill": "Fine-tuning",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "13. What is your Troubleshooting process?",
+    "answer": "My troubleshooting process involves the following:",
+    "source": "https://www.simplilearn.com/desktop-support-engineer-interview-questions-article",
+    "role": "Prompt Engineer",
+    "skill": "Fine-tuning",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is OpenAI?",
+    "answer": "OpenAI is a Leading Company in the field ofArtificial Intelligence(AI). It was originally founded in 2015 by Sam Altman and Elon Musk as a Non-profit Organization. They primarily focus on AI-based Software products Such asChatGPT 3,ChatGPT 4andDALL-Eetc. They develop next-generation AI products holding incredible capabilities, for example, OpenAIs GPT-3 which is a Content filtering model that allows you to implement advanced text classification, outline, question-answering, and other chatbot applications.",
+    "source": "https://www.geeksforgeeks.org/data-science/openai-python-api/",
+    "role": "Prompt Engineer",
+    "skill": "OpenAI API",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is OpenAI API?",
+    "answer": "OpenAI APIis a powerful cloud-based platform, hosted onMicrosoft's Azure, designed to provide developers with seamless access to state-of-the-art, pre-trained artificial intelligence models. This API empowers developers to effortlessly integrate cutting-edge AI capabilities into their applications, regardless of the programming language they choose to work with. By leveraging the OpenAI Python API, developers can unlock advanced AI functionalities and enhance the intelligence and performance of their software solutions.",
+    "source": "https://www.geeksforgeeks.org/data-science/openai-python-api/",
+    "role": "Prompt Engineer",
+    "skill": "OpenAI API",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "user_input = 'Can you remind me, What is my name?'",
+    "answer": "You are Mentor at GeeksforGeeks, an automated service to\\",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/prompt-engineering-for-chatbot/",
+    "role": "Prompt Engineer",
+    "skill": "OpenAI API",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "print(\"\"\"Chatbot: Hello! How can I assist you today?",
+    "answer": "print(\"Chatbot: Goodbye! Have a great day!\")",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/prompt-engineering-for-chatbot/",
+    "role": "Prompt Engineer",
+    "skill": "OpenAI API",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "which is delimited with triple backticks?",
+    "answer": "MASSAGE = [{\"role\": \"user\", \"content\": PROMPT}]",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/prompt-engineering-for-inference/",
+    "role": "Prompt Engineer",
+    "skill": "OpenAI API",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "allegedly surpasses all prior Indian mega-productions? Honestly,",
+    "answer": "the movie’s rough computer graphics might eclipse all other considerations",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/prompt-engineering-for-inference/",
+    "role": "Prompt Engineer",
+    "skill": "OpenAI API",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "- Which place has been discussed with main focus?",
+    "answer": "- Name of the mythological character discussed.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/prompt-engineering-for-inference/",
+    "role": "Prompt Engineer",
+    "skill": "OpenAI API",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "- When it happens?",
+    "answer": "The review is delimited with triple backticks. \\",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/prompt-engineering-for-inference/",
+    "role": "Prompt Engineer",
+    "skill": "OpenAI API",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why Use Hugging Face API?",
+    "answer": "We have to first setup the Hugging Face API before using it. Now let's see how we can",
+    "source": "https://www.geeksforgeeks.org/deep-learning/how-to-use-hugging-face-api/",
+    "role": "Prompt Engineer",
+    "skill": "Hugging Face",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Hugging Face?",
+    "answer": "Hugging Faceis a company and an open-source community that has revolutionized NLP. It provides tools to download and use pretrained models likeGPT,BERT,RoBERTaand more making it easier for developers to work with advanced models without starting from scratch.",
+    "source": "https://www.geeksforgeeks.org/deep-learning/how-to-use-hugging-face-pretrained-model/",
+    "role": "Prompt Engineer",
+    "skill": "Hugging Face",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "{\"role\": \"user\", \"content\": \"What is the capital of France?\"}",
+    "answer": "Output:ChatCompletionOutput(choices=[ChatCompletionOutputComplete(finish_reason='stop', index=0, message=ChatCompletionOutputMessage(role='assistant', content='The capital of France is Paris.', tool_call_id=None, tool_calls=[]), logprobs=None, seed=2840345132709256000)], created=1754632371, id='o6HrYSs-62bZhn-96bcbffe6825c94a', model='NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO', system_fingerprint=None, usage=ChatCompletionOutputUsage(completion_tokens=8, prompt_tokens=17, total_tokens=25), object='chat.completion', prompt=[])3. Named Entity RecognitionWe will identify named entities in a sentence using the BERT model fine-tuned on the CoNLL-03 dataset.token_classification: Identifies named entities in the text.model: The model to use for token classification.text: The input text containing potential named entities.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/hugging-face-inference-api/",
+    "role": "Prompt Engineer",
+    "skill": "Hugging Face",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Stable Diffusion?",
+    "answer": "With the advancement ofAIin the Image and Video domain, one might come across a word called Stable Diffusion that can perform tasks such as Text-to-Image, Text-to-Video, Image-to-Video, Image-to-Image and so on. To understand Stable Diffusion as a whole, it all started as a cutting-edge text-to-image latent diffusion model developed collaboratively by researchers and engineers associated with CompVis, Stability AI, and LAION.  The model originated from the research paper \"High-Resolution Image Synthesis with Latent Diffusion Models\" written by Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, and Björn Ommer. The fundamental idea behind latent diffusion revolves around implementing the diffusion process within a lower-dimensional latent space, effectively addressing the challenges posed by memory and computational demands in high-resolution image synthesis.",
+    "source": "https://www.geeksforgeeks.org/machine-learning/build-text-2-image-with-huggingface-diffusers/",
+    "role": "Prompt Engineer",
+    "skill": "Hugging Face",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is the difference between a Shallow Copy and a Deep Copy?",
+    "answer": "The key difference between a shallow copy and a deep copy is how they handle references within the copied object.",
+    "source": "https://www.simplilearn.com/tutorials/python-tutorial/python-interview-questions",
+    "role": "Prompt Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How is Multithreading achieved in Python?",
+    "answer": "Multithreading in Python is achieved using thethreading module, which allows you to run multiple threads (smaller units of a process) concurrently. However, due to the Global Interpreter Lock (GIL), Python threads do not run in true parallelism for CPU-bound tasks. Still, they can be helpful in I/O-bound operations like file handling, network requests, or database queries.",
+    "source": "https://www.simplilearn.com/tutorials/python-tutorial/python-interview-questions",
+    "role": "Prompt Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What advantage does the NumPy array have over a Nested list?",
+    "answer": "The NumPy array offers several advantages over Pythonâs nested lists, making it more efficient for numerical and scientific computations:",
+    "source": "https://www.simplilearn.com/tutorials/python-tutorial/python-interview-questions",
+    "role": "Prompt Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What are Pickling and Unpickling?",
+    "answer": "Converting a Python object hierarchy to a byte stream is called pickling.",
+    "source": "https://www.simplilearn.com/tutorials/python-tutorial/python-interview-questions",
+    "role": "Prompt Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. How is Memory managed in Python?",
+    "answer": "Python has a private heap space that stores all the objects. The Python memory manager regulates various aspects of this heap, such as sharing, caching,segmentation, and allocation. The user cannot control the heap; only the Python interpreter has access.",
+    "source": "https://www.simplilearn.com/tutorials/python-tutorial/python-interview-questions",
+    "role": "Prompt Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. Are arguments in Python passed by value or by reference?",
+    "answer": "Python passes arguments by reference. Any changes made within a function are reflected in the original object.",
+    "source": "https://www.simplilearn.com/tutorials/python-tutorial/python-interview-questions",
+    "role": "Prompt Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. How would you generate Random numbers in Python?",
+    "answer": "In Python, you can generate random numbers using the random module for basic random number generation or the numpy library for more advanced use cases.",
+    "source": "https://www.simplilearn.com/tutorials/python-tutorial/python-interview-questions",
+    "role": "Prompt Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What does the // Operator do?",
+    "answer": "In Python, the / operator performs division and returns the quotient in the float.",
+    "source": "https://www.simplilearn.com/tutorials/python-tutorial/python-interview-questions",
+    "role": "Prompt Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q 1. What is Django?",
+    "answer": "Django is a Full-stack web development framework that facilitates the creation and maintenance of high-quality Dynamic pages while also encouraging rapid development and a clean, pragmatic style. Django makes it easier to automate repeated operations, resulting in a more efficient development process with fewer lines of code.",
+    "source": "https://www.geeksforgeeks.org/python/django-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q2. What is the difference between Flask and Django?",
+    "answer": "Some companies that use the Django framework are Instagram, Mozilla, Disqus, Bitbucket, Nextdoor, and Clubhouse.",
+    "source": "https://www.geeksforgeeks.org/python/django-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q 4. What is the difference between a Project and an App?",
+    "answer": "The main difference between a project and an app is that a project is defined as the entire application whereas, an app is part of the project that is self-sufficient to perform any task.",
+    "source": "https://www.geeksforgeeks.org/python/django-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q 6. What are the Features of using Django?",
+    "answer": "When you first start a Django project, it comes with some basic files like manage.py and view.py.",
+    "source": "https://www.geeksforgeeks.org/python/django-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q 8. How do you create a Django project?",
+    "answer": "We can create a Django project with the help of the following command",
+    "source": "https://www.geeksforgeeks.org/python/django-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q 9. How do you create a Django app?",
+    "answer": "We can create a Django app with the help of the following command",
+    "source": "https://www.geeksforgeeks.org/python/django-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q 10. How do we start our development server?",
+    "answer": "We can start our development server with the help of the following command",
+    "source": "https://www.geeksforgeeks.org/python/django-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q 13. What are Django URLs?",
+    "answer": "The routing of a website is determined by its URLs. In the program, we build a python module or a file called urls.py. The navigation of your website is determined by this file. When a user visits a given URL route in the browser, the URLs in the urls.py file are compared. The user then receives the response for the requested URL after retrieving a corresponding view method.",
+    "source": "https://www.geeksforgeeks.org/python/django-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What are the misconceptions about Artificial Intelligence?",
+    "answer": "Some misconceptions about Artificial Intelligence that exists are:",
+    "source": "https://www.interviewbit.com/artificial-intelligence-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Vector Databases",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What are some real-life applications of Artificial Intelligence?",
+    "answer": "Social Media:The most common use of Artificial Intelligence in social media is facial detection and verification. Artificial Intelligence, along with machine learning, is also used to design your social media feed.",
+    "source": "https://www.interviewbit.com/artificial-intelligence-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Vector Databases",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What are different platforms for Artificial Intelligence (AI) development?",
+    "answer": "Some different software platforms for AI development are-",
+    "source": "https://www.interviewbit.com/artificial-intelligence-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Vector Databases",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What are the programming languages used for Artificial Intelligence?",
+    "answer": "Python, LISP, Java, C++, R are some of the programming languages used for Artificial Intelligence.",
+    "source": "https://www.interviewbit.com/artificial-intelligence-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Vector Databases",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What are the types of Artificial Intelligence?",
+    "answer": "There are seven types of Artificial Intelligence. These are:",
+    "source": "https://www.interviewbit.com/artificial-intelligence-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Vector Databases",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. How are Artificial Intelligence and Machine Learning related?",
+    "answer": "Artificial Intelligence and Machine Learning are two popular and often misunderstood words. Artificial Intelligence is a domain of computer science that enables machines to mimic human intelligence and behavior. On the other hand, Machine Learning is a subset of Artificial Intelligence and is all about feeding computers with data so that they can learn on their own from all the patterns and models. Machine Learning models are used to implement Artificial Intelligence frequently.",
+    "source": "https://www.interviewbit.com/artificial-intelligence-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Vector Databases",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What is Deep Learning?",
+    "answer": "In a nutshell, the hidden layers conduct nonlinear changes on the network's inputs. The function of the neural network determines the hidden layers, and the layers themselves may vary depending on their associated weights. To learn more, here is a free Deep Learning learning course byScaler Topics. This free course can be referred to clear the basics of Deep Learning.",
+    "source": "https://www.interviewbit.com/artificial-intelligence-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Vector Databases",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "10. What are different types of Machine Learning?",
+    "answer": "Supervised Learning:Supervised learning is the easiest type of machine learning. It is used to train the machine with labeled data. Labeled data is a group of samples that have been tagged with one or more labels (information tags). The labeled data is fed to the machine one by one until the machine can recognize the data on its own. It is just like a teacher trying to teach a kid all kinds of labeled cards in a deck of cards one by one. The data itself is the teacher in supervised learning.",
+    "source": "https://www.interviewbit.com/artificial-intelligence-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Vector Databases",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q 1. How would you design a system for real-time recommendations for a large e-commerce platform?",
+    "answer": "Firstly, I would consider using collaborative filtering techniques for recommendation. The system architecture would include Kafka for real-time data streaming from user interactions, and Apache Spark for processing these data streams. The model would be deployed on a scalable cloud environment like AWS. Data pipelines would be established to periodically retrain the model using the latest data.",
+    "source": "https://www.geeksforgeeks.org/machine-learning/top-25-machine-learning-system-design-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Vector Databases",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q 3. What is the difference between bagging and boosting in machine learning?",
+    "answer": "Bagging involves training multiple models in parallel on different subsets of the data and then averaging their predictions to reduce variance. Boosting, however, trains models sequentially to correct the predecessor's errors, primarily reducing bias. I would choose bagging for stability and boosting for performance.",
+    "source": "https://www.geeksforgeeks.org/machine-learning/top-25-machine-learning-system-design-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Vector Databases",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q 5. How would you ensure that your machine learning system is scalable?",
+    "answer": "To ensure scalability, I would deploy the model in a containerized environment using Docker and orchestrate these containers with Kubernetes. This setup allows for dynamic scaling up or down based on system demand. Additionally, I would ensure data pipelines are built with scalability in mind, using technologies like Apache Kafka.",
+    "source": "https://www.geeksforgeeks.org/machine-learning/top-25-machine-learning-system-design-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Vector Databases",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q 7. What are some ways to handle missing data in a dataset during preprocessing?",
+    "answer": "Handling missing data can be approached by:",
+    "source": "https://www.geeksforgeeks.org/machine-learning/top-25-machine-learning-system-design-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Vector Databases",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q 8. How would you design a fraud detection system using machine learning?",
+    "answer": "A fraud detection system design would involve:",
+    "source": "https://www.geeksforgeeks.org/machine-learning/top-25-machine-learning-system-design-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Vector Databases",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q 10. How can you use machine learning to improve the accuracy of a demand forecasting system?",
+    "answer": "To improve accuracy, I would:",
+    "source": "https://www.geeksforgeeks.org/machine-learning/top-25-machine-learning-system-design-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Vector Databases",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q 12. How would you evaluate the performance of a machine learning model?",
+    "answer": "Performance evaluation could be done by:",
+    "source": "https://www.geeksforgeeks.org/machine-learning/top-25-machine-learning-system-design-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Vector Databases",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q 15. What are the considerations when deploying a machine learning model into production?",
+    "answer": "Machine Learning System DesignInterviews are critical for evaluating a candidate's ability to designscalableand efficient machine learning systems. These interviews test a mix of technical skills, problem-solving abilities, and system thinking. Candidates might face questions about designing recommendation systems, handling data imbalances, optimizing models, and integrating machine learning models into real-world applications.",
+    "source": "https://www.geeksforgeeks.org/machine-learning/top-25-machine-learning-system-design-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Vector Databases",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Vector Search?",
+    "answer": "Vector searchis a retrieval technique that represents data (text, images, audio, etc.) as high-dimensional numeric vectors embeddings using machine learning models. When a query is made, it is also converted into a vector and the system retrieves items based on similarity measures like cosine similarity between the query vector and indexed vectors. This approach is fast, scalable and excels at finding items that are statistically similar, making it ideal for large-scale, multi-modal datasets.",
+    "source": "https://www.geeksforgeeks.org/nlp/semantic-vs-vector-search/",
+    "role": "Prompt Engineer",
+    "skill": "Vector Databases",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Semantic Search?",
+    "answer": "Semantic searchfocuses on understanding the meaning, context and intent behind a user's query. It uses natural language processing (NLP) and advanced language models such as transformers likeBERTorGPTto interpret relationships between words, understand meanings and deliver results that align with what the user actually wants even if their query is ambiguous or complex.",
+    "source": "https://www.geeksforgeeks.org/nlp/semantic-vs-vector-search/",
+    "role": "Prompt Engineer",
+    "skill": "Vector Databases",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is MERN Stack?",
+    "answer": "MERN Stackis a JavaScript Stack that is used for easier and faster deployment of full-stack web applications. MERN Stack comprises of 4 technologies namely: MongoDB, Express, React and NodeJS. It is designed to make the development process smoother and easier.",
+    "source": "https://www.geeksforgeeks.org/html/full-stack-developer-interview-questions-and-answers/",
+    "role": "Prompt Engineer",
+    "skill": "Vector Databases",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. How MERN Stack Works?",
+    "answer": "The MERN stack is a popular JavaScript-based web development framework for building modern web applications. It consists of four key technologies working together:",
+    "source": "https://www.geeksforgeeks.org/html/full-stack-developer-interview-questions-and-answers/",
+    "role": "Prompt Engineer",
+    "skill": "Vector Databases",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What is DNS?",
+    "answer": "DNS is ahierarchical and distributed naming systemthat translates domain names into IP addresses. When you type a domain name likewww.geeksforgeeks.orginto your browser, DNS ensures that the request reaches the correct server by resolving the domain to its correspondingIP address.",
+    "source": "https://www.geeksforgeeks.org/html/full-stack-developer-interview-questions-and-answers/",
+    "role": "Prompt Engineer",
+    "skill": "Vector Databases",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is the difference between HTTP and HTTPS?",
+    "answer": "CORS refers to cross-origin resource sharing. It's a browser mechanism that allows web pages in one domain to have controlled access to resources in other domains (cross-domain requests). This allows scripts that are run on a browser client to interact with and access resources from other origins. In doing so, it extends and provides greater flexibility to the SOP (Same-Origin Policy). Same-origin policies restrict the ability of a website to access resources outside of its source domain. For example, a JavaScript app that wants to make a call to an API (Application Programming Interface) that runs on another domain will be blocked due to the SOP. A CORS policy was implemented to circumvent restrictions caused by same-origin policies.",
+    "source": "https://www.geeksforgeeks.org/html/full-stack-developer-interview-questions-and-answers/",
+    "role": "Prompt Engineer",
+    "skill": "Vector Databases",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6.What is the difference between previous version of HTML and HTML 5?",
+    "answer": "Theclient-sideandserver-siderefer to two distinct parts of aweb applicationthat work together to deliver functionality to users. Understanding their roles is essential for building efficient and responsive applications.",
+    "source": "https://www.geeksforgeeks.org/html/full-stack-developer-interview-questions-and-answers/",
+    "role": "Prompt Engineer",
+    "skill": "Vector Databases",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. Explain the difference between client-side and server-side programming?",
+    "answer": "Theclient-sideandserver-siderefer to two distinct parts of aweb applicationthat work together to deliver functionality to users. Understanding their roles is essential for building efficient and responsive applications.",
+    "source": "https://www.geeksforgeeks.org/html/full-stack-developer-interview-questions-and-answers/",
+    "role": "Prompt Engineer",
+    "skill": "Vector Databases",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What do you mean by CORS (Cross-Origin Resource Sharing)?",
+    "answer": "CORS refers to cross-origin resource sharing. It's a browser mechanism that allows web pages in one domain to have controlled access to resources in other domains (cross-domain requests). This allows scripts that are run on a browser client to interact with and access resources from other origins. In doing so, it extends and provides greater flexibility to the SOP (Same-Origin Policy). Same-origin policies restrict the ability of a website to access resources outside of its source domain. For example, a JavaScript app that wants to make a call to an API (Application Programming Interface) that runs on another domain will be blocked due to the SOP. A CORS policy was implemented to circumvent restrictions caused by same-origin policies.",
+    "source": "https://www.geeksforgeeks.org/html/full-stack-developer-interview-questions-and-answers/",
+    "role": "Prompt Engineer",
+    "skill": "Vector Databases",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "11. What is Promise and explain its states?",
+    "answer": "Callback functions are functions that can be passed to another function as arguments and executed there to complete a routine or action. Those functions depend on one another, so it could get quite messy with so many callback functions nested in so many layers. This is what is referred to as callback hell.",
+    "source": "https://www.geeksforgeeks.org/html/full-stack-developer-interview-questions-and-answers/",
+    "role": "Prompt Engineer",
+    "skill": "Vector Databases",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why is Retrieval-Augmented Generation important?",
+    "answer": "In traditional LLMs, the model generates responses based solely on the data it was trained on, which may not include themost current information or specific details required for certain tasks.RAG addresses this limitation by incorporating a retrieval mechanism that allows the model to access external databases or documents in real-time.",
+    "source": "https://www.geeksforgeeks.org/nlp/what-is-retrieval-augmented-generation-rag/",
+    "role": "Prompt Engineer",
+    "skill": "RAG",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How does Retrieval-Augmented Generation work?",
+    "answer": "The system firstsearches external sourcesfor relevant information based on the user’s query Instead of relying only on existing training data.",
+    "source": "https://www.geeksforgeeks.org/nlp/what-is-retrieval-augmented-generation-rag/",
+    "role": "Prompt Engineer",
+    "skill": "RAG",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What problems does RAG solve?",
+    "answer": "The retrieval-augmented generation (RAG) approach helps solve several challenges in natural language processing (NLP) and AI applications:",
+    "source": "https://www.geeksforgeeks.org/nlp/what-is-retrieval-augmented-generation-rag/",
+    "role": "Prompt Engineer",
+    "skill": "RAG",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Which Method is Best?",
+    "answer": "The best method depends on your specific requirements:",
+    "source": "https://www.geeksforgeeks.org/nlp/what-is-retrieval-augmented-generation-rag/",
+    "role": "Prompt Engineer",
+    "skill": "RAG",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What are the available options for customizing a Large Language Model (LLM) with data, and which method—prompt engineering, RAG, fine-tuning, or pretraining—is considered the most effective?",
+    "answer": "When customizing a Large Language Model (LLM) with data, several options are available, each with its own advantages and use cases. The best method depends on your specific requirements and constraints. Here's a comparison of the options:",
+    "source": "https://www.geeksforgeeks.org/nlp/what-is-retrieval-augmented-generation-rag/",
+    "role": "Prompt Engineer",
+    "skill": "RAG",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "\"INSERT INTO documents (id, content, embedding) VALUES (?, ?, ?)\",",
+    "answer": "public List<String> search(float[] queryEmbedding) {",
+    "source": "https://www.geeksforgeeks.org/java/simple-retrieval-augmented-generation-rag-example/",
+    "role": "Prompt Engineer",
+    "skill": "RAG",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "String sql = \"SELECT content FROM documents ORDER BY embedding <-> ? LIMIT 3\";",
+    "answer": "private String toPgVector(float[] vector) {",
+    "source": "https://www.geeksforgeeks.org/java/simple-retrieval-augmented-generation-rag-example/",
+    "role": "Prompt Engineer",
+    "skill": "RAG",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "lines=2, placeholder=\"Enter your question here (e.g., What is Python programming?)\"),",
+    "answer": "title=\"RAG with Llama 3: Ask About AI\",",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/rag-using-llama3/",
+    "role": "Prompt Engineer",
+    "skill": "RAG",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How Does Prompt Tuning Work?",
+    "answer": "Let's understand it step by step:",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/how-prompt-tuning-works/",
+    "role": "Prompt Engineer",
+    "skill": "Embeddings",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What do you understand about JavaScript?",
+    "answer": "JavaScript is a popular web scripting language used for client-side and server-side development. Its code can be inserted into HTML pages and understood and executed by web browsers. JavaScript also supports object-oriented programming abilities.",
+    "source": "https://www.simplilearn.com/tutorials/javascript-tutorial/javascript-interview-questions",
+    "role": "Prompt Engineer",
+    "skill": "Embeddings",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. Whatâs the difference between JavaScript and Java?",
+    "answer": "JavaScript is an object-oriented scripting language.",
+    "source": "https://www.simplilearn.com/tutorials/javascript-tutorial/javascript-interview-questions",
+    "role": "Prompt Engineer",
+    "skill": "Embeddings",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What are the various data types that exist in JavaScript?",
+    "answer": "These are the different types of data that JavaScript supports:",
+    "source": "https://www.simplilearn.com/tutorials/javascript-tutorial/javascript-interview-questions",
+    "role": "Prompt Engineer",
+    "skill": "Embeddings",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What are the features of JavaScript?",
+    "answer": "These are the features of JavaScript:",
+    "source": "https://www.simplilearn.com/tutorials/javascript-tutorial/javascript-interview-questions",
+    "role": "Prompt Engineer",
+    "skill": "Embeddings",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What are the advantages of JavaScript over other web technologies?",
+    "answer": "These are the advantages of JavaScript:",
+    "source": "https://www.simplilearn.com/tutorials/javascript-tutorial/javascript-interview-questions",
+    "role": "Prompt Engineer",
+    "skill": "Embeddings",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. How do you create an object in JavaScript?",
+    "answer": "Since JavaScript is essentially anobject-oriented scriptinglanguage, it supports and encourages the usage of objects while developing web applications.",
+    "source": "https://www.simplilearn.com/tutorials/javascript-tutorial/javascript-interview-questions",
+    "role": "Prompt Engineer",
+    "skill": "Embeddings",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. How do you create an array in JavaScript?",
+    "answer": "Here is a straightforward way of creatingarrays in JavaScriptusing the array literal:",
+    "source": "https://www.simplilearn.com/tutorials/javascript-tutorial/javascript-interview-questions",
+    "role": "Prompt Engineer",
+    "skill": "Embeddings",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What are some of the built-in methods in JavaScript?",
+    "answer": "Returns the present date and time",
+    "source": "https://www.simplilearn.com/tutorials/javascript-tutorial/javascript-interview-questions",
+    "role": "Prompt Engineer",
+    "skill": "Embeddings",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why are React JS Skills in High Demand?",
+    "answer": "The popularity of React JS skills can be attributed to the numerous features and benefits the library serves. Its flexibility, scalability, and ease of creating dynamic user interfaces increase its applications among the companies, thus enhancing the skilled personnel requirements. React JS offers advantages such as virtual DOM for rendering, component-based architecture, an easy learning curve and broad community support. Further, the library provides fast rendering, code reusability and maintainability, a rich ecosystem and SEO-friendly development. Also, its usage is witnessed in well-known software such as Facebook, Netflix and Discord.",
+    "source": "https://www.simplilearn.com/tutorials/reactjs-tutorial/reactjs-interview-questions",
+    "role": "Prompt Engineer",
+    "skill": "Embeddings",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What are the features of React?",
+    "answer": "JSX: JSX is a syntax extension to JavaScript. It is used with React to describe the user interface's appearance. Using JSX, we can write HTML structures in the same file that contains JavaScript code.",
+    "source": "https://www.simplilearn.com/tutorials/reactjs-tutorial/reactjs-interview-questions",
+    "role": "Prompt Engineer",
+    "skill": "Embeddings",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What is JSX?",
+    "answer": "JSX is a syntax extension of JavaScript. It is used with React to describe the user interface's appearance. Using JSX, we can write HTML structures in the same file that contains JavaScript code.",
+    "source": "https://www.simplilearn.com/tutorials/reactjs-tutorial/reactjs-interview-questions",
+    "role": "Prompt Engineer",
+    "skill": "Embeddings",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. Can web browsers read JSX directly?",
+    "answer": "Web browsers cannot read JSX directly. They are built only to read regular JS objects, and JSX is not a regularJavaScript object.Â",
+    "source": "https://www.simplilearn.com/tutorials/reactjs-tutorial/reactjs-interview-questions",
+    "role": "Prompt Engineer",
+    "skill": "Embeddings",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What is the virtual DOM?",
+    "answer": "DOM stands for Document Object Model. It represents an HTML document with a logical tree structure. Each branch of the tree ends in a node, which contains objects.",
+    "source": "https://www.simplilearn.com/tutorials/reactjs-tutorial/reactjs-interview-questions",
+    "role": "Prompt Engineer",
+    "skill": "Embeddings",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. Why use React instead of other frameworks, like Angular?",
+    "answer": "Easy creation of dynamic applications: React makes it easier to create dynamic web applications because it requires less coding and more functionality, whereas code tends to get complex very quickly with JavaScript applications.",
+    "source": "https://www.simplilearn.com/tutorials/reactjs-tutorial/reactjs-interview-questions",
+    "role": "Prompt Engineer",
+    "skill": "Embeddings",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What is the difference between the ES6 and ES5 standards?",
+    "answer": "These are the few instances where ES6 syntax has changed from ES5 syntax:",
+    "source": "https://www.simplilearn.com/tutorials/reactjs-tutorial/reactjs-interview-questions",
+    "role": "Prompt Engineer",
+    "skill": "Embeddings",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. How do you create a React app?",
+    "answer": "These are the steps for creating a React app:",
+    "source": "https://www.simplilearn.com/tutorials/reactjs-tutorial/reactjs-interview-questions",
+    "role": "Prompt Engineer",
+    "skill": "Embeddings",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. How to concatenate two strings in JavaScript?",
+    "answer": "we can concatenate two strings using the \"+\" operator as code below:",
+    "source": "https://www.geeksforgeeks.org/javascript/javascript-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "JSON",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. Are JavaScript and Java related?",
+    "answer": "No, there names sounds similar but they are not related in any terms, below are some key differences:",
+    "source": "https://www.geeksforgeeks.org/javascript/javascript-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "JSON",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is the difference between JavaScript and TypeScript?",
+    "answer": "JavaScript is a Dynamically Typed language which means the developers do not have to provide data types of variables. Dynamically typed languages have advantages like easy to learn, flexible and faster development. However, there are disadvantages also like slowness and runtime errors. TypeScript is a superset of JavaScript that primarily uses static typing and has support for dynamic typing. TypeScript is developed and maintained by Microsoft, it compiles down to plain JavaScript, making it compatible with all JavaScript environments, including web browsers and Node.js.",
+    "source": "https://www.geeksforgeeks.org/javascript/javascript-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "JSON",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What isa Variable Scope in JavaScript?",
+    "answer": "In JavaScript, we have each variable are accessed and modified through either one of the given scope:",
+    "source": "https://www.geeksforgeeks.org/javascript/javascript-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "JSON",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is the use of the isNaN function?",
+    "answer": "The numberisNanfunction determines whether the passed value is NaN (Not a number) and is of the type \"Number\". In JavaScript, the value NaN is considered a type of number. It returns true if the argument is not a number, else it returns false.",
+    "source": "https://www.geeksforgeeks.org/javascript/javascript-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "JSON",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is negative infinity?",
+    "answer": "The negative infinity is a constant value represents the lowest available value. It means that no other number is lesser than this value. It can be generate using a self-made function or by an arithmetic operation. JavaScript shows the NEGATIVE_INFINITY value as -Infinity.",
+    "source": "https://www.geeksforgeeks.org/javascript/javascript-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "JSON",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. Is it possible to break JavaScript Code into several lines?",
+    "answer": "Yes, it is possible to break the JavaScript code into several lines in a string statement. It can be broken by using the'\\n'(backslash n).",
+    "source": "https://www.geeksforgeeks.org/javascript/javascript-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "JSON",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "15. What are global variables? How are these variables declared, and what are the problems associated with them?",
+    "answer": "In contrast,global variablesare the variables that define outside of functions. These variables have a global scope, so they can be used by any function without passing them to the function as parameters.",
+    "source": "https://www.geeksforgeeks.org/javascript/javascript-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "JSON",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What are IIFEs (Immediately Invoked Function Expressions)?",
+    "answer": "IIFEsstands for Immediately Invoked Function Expressions. JavaScript functions that are executed immediately after they are defined. They are commonly used to create a new scope and encapsulate code, preventing variable declarations from polluting the global scope.",
+    "source": "https://www.geeksforgeeks.org/interview-prep/backend-developer-interview-questions-and-answers/",
+    "role": "Prompt Engineer",
+    "skill": "JSON",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. Can We describe the main difference between a .forEach loop and a .map() loop and why We would pick one versus the other?",
+    "answer": "Here is thedifferencebetween forEach loop and map() loop",
+    "source": "https://www.geeksforgeeks.org/interview-prep/backend-developer-interview-questions-and-answers/",
+    "role": "Prompt Engineer",
+    "skill": "JSON",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is a cookie? How can We create, read and clear cookies using Javascript?",
+    "answer": "Acookieis an important tool as it allows We to store the user information as a name-value pair separated by a semi-colon in a string format. If we save a cookie in our browser then we can log in directly to the browser because it saves the user information.",
+    "source": "https://www.geeksforgeeks.org/interview-prep/backend-developer-interview-questions-and-answers/",
+    "role": "Prompt Engineer",
+    "skill": "JSON",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What are Closures in JavaScript?",
+    "answer": "JavaScriptclosureis a feature that allows inner functions to access the outer scope of a function. Closure helps in binding a function to its outer boundary and is created automatically whenever a function is created.",
+    "source": "https://www.geeksforgeeks.org/interview-prep/backend-developer-interview-questions-and-answers/",
+    "role": "Prompt Engineer",
+    "skill": "JSON",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What are the arrow functions in JavaScript?",
+    "answer": "Arrow function {()=>}is concise way of writing JavaScript functions in shorter way.Arrow functionswere introduced in the ES6 version. They make our code more structured and readable. Mostly in development phase mostly arrow function is used.",
+    "source": "https://www.geeksforgeeks.org/interview-prep/backend-developer-interview-questions-and-answers/",
+    "role": "Prompt Engineer",
+    "skill": "JSON",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. What are the various Operators in Javascript?",
+    "answer": "JavaScriptoperatorsoperate the operands, these are symbols that are used to manipulate a certain value or operand. Operators are used to performing specific mathematical and logical computations on operands.",
+    "source": "https://www.geeksforgeeks.org/interview-prep/backend-developer-interview-questions-and-answers/",
+    "role": "Prompt Engineer",
+    "skill": "JSON",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "11. What is NodeJS and how it works?",
+    "answer": "NodeJS is a JavaScript runtime environment that allows developers to run JavaScript code outside of a web browser. It uses theV8 JavaScript engine, which is the same engine used by Google Chrome, to execute JavaScript code on the server-side.",
+    "source": "https://www.geeksforgeeks.org/interview-prep/backend-developer-interview-questions-and-answers/",
+    "role": "Prompt Engineer",
+    "skill": "JSON",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "12. How do we manage packages in a NodeJS project?",
+    "answer": "Modulesare the blocks of reusable code consisting of Javascript functions and objects which communicate with external applications based on functionality. Apackageis often confused with modules, but it is simply a collection of modules (libraries).",
+    "source": "https://www.geeksforgeeks.org/interview-prep/backend-developer-interview-questions-and-answers/",
+    "role": "Prompt Engineer",
+    "skill": "JSON",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is API testing, and why is it important?",
+    "answer": "API Testingverifies the functionality, performance, and security of application programming interfaces (APIs) by sending requests and validating responses. It is important because APIs enable communication between systems, and testing ensures the reliability and correctness of the software product.",
+    "source": "https://www.geeksforgeeks.org/software-testing/api-testing-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "JSON",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What is an API and Types of APIs?",
+    "answer": "AnApplication Programming Interface (API)is useful for communication between different software systems. It acts as an interface between two applications and allows two software systems to communicate with one another.",
+    "source": "https://www.geeksforgeeks.org/software-testing/api-testing-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "JSON",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is the difference between REST and SOAP APIs?",
+    "answer": "Here are the Common HTTP Methods used in API Testing:",
+    "source": "https://www.geeksforgeeks.org/software-testing/api-testing-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "JSON",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What are the Different Types of API Testing?",
+    "answer": "Here are the different types of API testing :",
+    "source": "https://www.geeksforgeeks.org/software-testing/api-testing-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "JSON",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is the role of Postman in API testing?",
+    "answer": "Postman is a tool for designing, testing, and automating API requests. It allows sending requests, validating responses, and scripting tests.",
+    "source": "https://www.geeksforgeeks.org/software-testing/api-testing-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "JSON",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What protocols can be tested using API Testing?",
+    "answer": "API testing can be used to test various protocols that facilitate communication between software systems. Some commonly tested protocols include:",
+    "source": "https://www.geeksforgeeks.org/software-testing/api-testing-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "JSON",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "11. What is the difference between functional and non-functional API testing?",
+    "answer": "An endpoint is a specific URL or route in an API that performs a function, accepting requests and returning responses.",
+    "source": "https://www.geeksforgeeks.org/software-testing/api-testing-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "JSON",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "12. What is an endpoint in API testing?",
+    "answer": "An endpoint is a specific URL or route in an API that performs a function, accepting requests and returning responses.",
+    "source": "https://www.geeksforgeeks.org/software-testing/api-testing-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "JSON",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "x += x > y ? x : y;",
+    "answer": "const arr = [1, 2, 3];",
+    "source": "https://www.geeksforgeeks.org/javascript/javascript-output-based-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "JSON",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Want a Top Software Development Job? Start Here!",
+    "answer": "Postman is a powerful tool for API testing that offers numerous benefits. Its purpose is to simplify and streamline the process of testing APIs. Some benefits of using Postman for API testing include:",
+    "source": "https://www.simplilearn.com/postman-interview-questions-answers-article",
+    "role": "Prompt Engineer",
+    "skill": "API Integration",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. Explain the purpose and benefits of using Postman for API testing?Â",
+    "answer": "Postman is a powerful tool for API testing that offers numerous benefits. Its purpose is to simplify and streamline the process of testing APIs. Some benefits of using Postman for API testing include:",
+    "source": "https://www.simplilearn.com/postman-interview-questions-answers-article",
+    "role": "Prompt Engineer",
+    "skill": "API Integration",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. How do you create and send a request in Postman?Â",
+    "answer": "To create and send a request in Postman, follow these steps:",
+    "source": "https://www.simplilearn.com/postman-interview-questions-answers-article",
+    "role": "Prompt Engineer",
+    "skill": "API Integration",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What are some key features of Postman that you find most useful in your testing workflow?",
+    "answer": "Â Some key features of Postman that are often found useful in testing workflows include:",
+    "source": "https://www.simplilearn.com/postman-interview-questions-answers-article",
+    "role": "Prompt Engineer",
+    "skill": "API Integration",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. How do you handle authentication and authorization in Postman?",
+    "answer": "Postman provides multiple ways to handle authentication and authorization in API requests. Some commonly used methods include:",
+    "source": "https://www.simplilearn.com/postman-interview-questions-answers-article",
+    "role": "Prompt Engineer",
+    "skill": "API Integration",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. Can you describe the process of creating and running automated tests in Postman?",
+    "answer": "To create and run automated tests in Postman, follow these steps:",
+    "source": "https://www.simplilearn.com/postman-interview-questions-answers-article",
+    "role": "Prompt Engineer",
+    "skill": "API Integration",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What is Postman?",
+    "answer": "Postman is a collaboration platform for API development. It is a recognized API client that enables you to organize the creation, division, testing, and documentation of APIs. We can send HTTP/s requests to a repair and receive their responses using the Postman tool. It will enable us to approve the service's uptime and functionality.",
+    "source": "https://www.simplilearn.com/postman-interview-questions-answers-article",
+    "role": "Prompt Engineer",
+    "skill": "API Integration",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What is a collection in Postman?",
+    "answer": "In Postman, a collection allows you to group related requests. You can also use it to organize the requests into folders systematically.",
+    "source": "https://www.simplilearn.com/postman-interview-questions-answers-article",
+    "role": "Prompt Engineer",
+    "skill": "API Integration",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. How do you access history of requests in Postman?",
+    "answer": "The request history can be accessed in the History tab provided on the Postman application. If we sign into the Postman account, then the history will be synced across the devices where you are logged in.",
+    "source": "https://www.interviewbit.com/postman-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "API Integration",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What is digest auth in Postman?",
+    "answer": "We can do this by selecting the Authorization tab, then selecting “Digest Auth” from the drop-down list. Postman window presents the fields for both stages of the authentication request. The fields required for the second stage of the request are auto-filled based on the data received from the server. For more information, you can referhere.",
+    "source": "https://www.interviewbit.com/postman-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "API Integration",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What is a collection in Postman?",
+    "answer": "A collection in Postman helps to group similar requests. It helps in systematically arranging the requests into folders.",
+    "source": "https://www.interviewbit.com/postman-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "API Integration",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. Why do we use Postman?",
+    "answer": "We use Postman for the below reasons:",
+    "source": "https://www.interviewbit.com/postman-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "API Integration",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. How will you log variable values in Postman?",
+    "answer": "We can log the variable values in Postman in the console by using the command:console.log(pm.variables.get(\"variable_name\"));",
+    "source": "https://www.interviewbit.com/postman-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "API Integration",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. How do you access postman variables?",
+    "answer": "It can be accessed by using the variable name as:{{variable_name}}",
+    "source": "https://www.interviewbit.com/postman-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "API Integration",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What are the various authorization methods provided by Postman?",
+    "answer": "Postman provides the below API request Authorization Options:",
+    "source": "https://www.interviewbit.com/postman-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "API Integration",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What are the different types of API requests supported in Postman?",
+    "answer": "Postman supports the following type of requests:",
+    "source": "https://www.interviewbit.com/postman-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "API Integration",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "31.What is Kanban?",
+    "answer": "Kanbanis a popularAgile Software Development Methodology. It is basically a signaling device that instructs the moving of parts in a ‘pull’ production system, developed as part of the TPS (Toyota Production System). Kanban is about envisioning the existing workflow in terms of steps. These steps can be created on the whiteboard.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/agile-software-development-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Model Evaluation",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1.What is an Agile Methodology?",
+    "answer": "Agile methodologies are iterative and incremental, which means it’s known for breaking a project into smaller parts and adjusting to changing requirements.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/agile-software-development-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Model Evaluation",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are different types of Agile Methodology?",
+    "answer": "Most Common Type of Agile Methodology are:",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/agile-software-development-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Model Evaluation",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What are the major Agile components?",
+    "answer": "There are 5 major Agile Components:",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/agile-software-development-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Model Evaluation",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What are Agile frameworks?",
+    "answer": "Agile framework is like a special roadmap that helps teams and organizations do their work in a smart and effective way. It's a set of rules and tools for planning, managing, and getting things done. There are two main types of Agile frameworks: one made for teams, like a small group working together, and the other designed to guide big organizations with lots of teams.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/agile-software-development-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Model Evaluation",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is Agile Process?",
+    "answer": "The Agile process is an iterative and incremental approach, which means it’s known for breaking a project into smaller parts and adjusting to changing requirements. to software development that emphasizes collaboration, flexibility, and continuous improvement.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/agile-software-development-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Model Evaluation",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What are some important parts of the Agile process?",
+    "answer": "Important Part of Agile Processes are:",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/agile-software-development-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Model Evaluation",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. Explain Agile Testing?",
+    "answer": "Agile Testing is a type of software testing that follows the principles of agile software development to test the software application. All members of the project team along with the special experts and testers are involved in agile testing.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/agile-software-development-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Model Evaluation",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How Does Chain of Thought Prompting Work?",
+    "answer": "The process of Chain of Thought Prompting can be broken down into the following steps:",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/what-is-chain-of-thought-prompting/",
+    "role": "Prompt Engineer",
+    "skill": "Chain-of-thought",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why is Chain of Thought Prompting Important?",
+    "answer": "Chain of Thought Prompting improves the problem-solving ability of AI models. By breaking down complex tasks into smaller, more manageable components, the model can more effectively handle challenges that require multi-step reasoning, such as mathematical problems, logical puzzles, or even questions that involve common-sense reasoning.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/what-is-chain-of-thought-prompting/",
+    "role": "Prompt Engineer",
+    "skill": "Chain-of-thought",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "\"What is 57 * 43?\",",
+    "answer": "By reasoning through the steps, the model reduces the likelihood of errors and provides a clearer explanation of how the answer was derived.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/what-is-chain-of-thought-prompting/",
+    "role": "Prompt Engineer",
+    "skill": "Chain-of-thought",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why Use Prompt Chaining?",
+    "answer": "Lets see aquick difference between Prompt Chaining vs.Chain of Thoughtas they both re qyuite similar:",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/prompt-chaining/",
+    "role": "Prompt Engineer",
+    "skill": "Chain-of-thought",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How Few Shot Prompting Works?",
+    "answer": "Finally, model then provides the response. For example, it might output a classification such as “positive,” reflecting the sentiment of the given statement.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/few-shot-prompting/",
+    "role": "Prompt Engineer",
+    "skill": "Few-shot Learning",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What Is Few-Shot Learning?",
+    "answer": "Few-shot learning refers to the ability of a model to generalize and perform new tasks after being shown only a small number of examples. It is part of a broader family that includes:",
+    "source": "https://www.geeksforgeeks.org/machine-learning/language-models-are-few-shot-learners/",
+    "role": "Prompt Engineer",
+    "skill": "Few-shot Learning",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How Does GPT-3 Achieve Few-Shot Learning?",
+    "answer": "GPT-3 is trained on a vast corpus of internet text (410 billion tokens), using an autoregressive transformer architecture with 175 billion parameters 10 times larger than any previous non-sparse language model at the time. This extensive pretraining enables the model to absorb a wide range of language patterns, facts, and reasoning styles.",
+    "source": "https://www.geeksforgeeks.org/machine-learning/language-models-are-few-shot-learners/",
+    "role": "Prompt Engineer",
+    "skill": "Few-shot Learning",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Experimental Results: How Well Does It Work?",
+    "answer": "Few-shot learning is a machine learning approach where a model learns to perform new tasks or recognize new categories using only a small number of labeled examples, rather than needing thousands or millions of data points as in traditional methods. This technique is inspired by the way humans can quickly learn and generalize from just a few examples for instance, identifying a new animal species after seeing only a couple of pictures.",
+    "source": "https://www.geeksforgeeks.org/machine-learning/language-models-are-few-shot-learners/",
+    "role": "Prompt Engineer",
+    "skill": "Few-shot Learning",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Why Is This Significant?",
+    "answer": "Few-shot learning is a machine learning approach where a model learns to perform new tasks or recognize new categories using only a small number of labeled examples, rather than needing thousands or millions of data points as in traditional methods. This technique is inspired by the way humans can quickly learn and generalize from just a few examples for instance, identifying a new animal species after seeing only a couple of pictures.",
+    "source": "https://www.geeksforgeeks.org/machine-learning/language-models-are-few-shot-learners/",
+    "role": "Prompt Engineer",
+    "skill": "Few-shot Learning",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Zero-Shot Learning?",
+    "answer": "Zero-shot learning (ZSL) is a machine learning technique where a model can classify data it has never seen before. Instead of relying on training data for each possible category, ZSL uses semantic information about the categories to make predictions. This approach mimics how humans can identify new objects by sensing their characteristics or details.",
+    "source": "https://www.geeksforgeeks.org/machine-learning/zero-shot-vs-one-shot-vs-few-shot-learning/",
+    "role": "Prompt Engineer",
+    "skill": "Few-shot Learning",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is One-Shot Learning?",
+    "answer": "One-shot learningis a machine learning approach where a model is trained to recognize or classify new categories using only a single example. This technique is designed to handle situations where it is impractical to gather multiple examples of every possible category. OSL focuses on learning to generalize from a very limited amount of data, mimicking the human ability to recognize new objects or concepts from just one observation.",
+    "source": "https://www.geeksforgeeks.org/machine-learning/zero-shot-vs-one-shot-vs-few-shot-learning/",
+    "role": "Prompt Engineer",
+    "skill": "Few-shot Learning",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Few-Shot Learning?",
+    "answer": "Few-shot learning(FSL) takes a slightly different approach. This enables a model to learn new tasks with only a few examples. This technique is particularly useful in situations where obtaining large amounts of labelled data is challenging. FSL takes advantage of prior knowledge and adapts it to new tasks quickly and efficiently.",
+    "source": "https://www.geeksforgeeks.org/machine-learning/zero-shot-vs-one-shot-vs-few-shot-learning/",
+    "role": "Prompt Engineer",
+    "skill": "Few-shot Learning",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How ReAct Models Learn from Thought-Action Sequences?",
+    "answer": "ReAct models learn through a method calledfew-shot promptingwhere they learn from a small set of examples and apply that knowledge to new tasks. Here's how it works:",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/react-reasoning-acting-prompting/",
+    "role": "Prompt Engineer",
+    "skill": "Few-shot Learning",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Multimodal AI?",
+    "answer": "Multimodal AIrefers to artificial intelligence that can process multiple data inputs to produce more complex results. Multimodal AI is artificial intelligence that combines different types of data or patterns to make more accurate decisions, make recommendations, or predict real-world problems. Multimodal AI machines learned using video, audio, speech, images, text, and various traditional Chinese datasets. Most importantly, multimodal AI means using multiple types of data simultaneously to help AI create and better interpret content.",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/what-is-multimodal-ai/",
+    "role": "Prompt Engineer",
+    "skill": "Multi-modal AI",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is an example of multimodal AI?",
+    "answer": "An example of multimodal AI involves systems that can process and integrate information from multiple modalities such as text, image, and audio simultaneously to perform tasks or make decisions. Here's a concrete example:",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/what-is-multimodal-ai/",
+    "role": "Prompt Engineer",
+    "skill": "Multi-modal AI",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is the difference between generative AI and multimodal AI?",
+    "answer": "Here's a comparison between generative AI and multimodal AI explained in a table format:",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/what-is-multimodal-ai/",
+    "role": "Prompt Engineer",
+    "skill": "Multi-modal AI",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How its work?",
+    "answer": "Multimodal AI works by integrating and processing information from multiple modalities (such as text, image, audio, and sometimes other sensor data) to perform tasks or make decisions. Here’s an overview of how multimodal AI typically operates:",
+    "source": "https://www.geeksforgeeks.org/artificial-intelligence/what-is-multimodal-ai/",
+    "role": "Prompt Engineer",
+    "skill": "Multi-modal AI",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What skills should a good Web Developer have?",
+    "answer": "Web development professionals should have the following key skills:Â",
+    "source": "https://www.simplilearn.com/web-development-interview-questions-article",
+    "role": "Prompt Engineer",
+    "skill": "Semantic Search",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. Are you aware of the roles and responsibilities of a Web Developer?",
+    "answer": "The primary responsibilities of a web developer include:",
+    "source": "https://www.simplilearn.com/web-development-interview-questions-article",
+    "role": "Prompt Engineer",
+    "skill": "Semantic Search",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are the added benefits of HTTP/2 compared to HTTP 1.1?",
+    "answer": "HTTP/2 has a number of notable advantages over HTTP 1.1, which are:Â",
+    "source": "https://www.simplilearn.com/web-development-interview-questions-article",
+    "role": "Prompt Engineer",
+    "skill": "Semantic Search",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. Can you list a few ways to speed up Page Loading?",
+    "answer": "The following actions should be performed to improve page loading speed:",
+    "source": "https://www.simplilearn.com/web-development-interview-questions-article",
+    "role": "Prompt Engineer",
+    "skill": "Semantic Search",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. How is XHTML different from HTML?",
+    "answer": "XHTML differs from HTML in many ways, for example:",
+    "source": "https://www.simplilearn.com/web-development-interview-questions-article",
+    "role": "Prompt Engineer",
+    "skill": "Semantic Search",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "11. What do you know about pair programming?",
+    "answer": "Pair software programming is a sequential model in which two programmers collaborate on the same computer. While the driver is writing code, the observer or navigator reviews each line of programming as it is entered. Positions forsoftware developersfrequently change.",
+    "source": "https://www.simplilearn.com/web-development-interview-questions-article",
+    "role": "Prompt Engineer",
+    "skill": "Semantic Search",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "12. While building a web application, how do you consider SEO, maintainability, UX, performance, and security?",
+    "answer": "The ability to balance and comprehend these disparate factors is essential for any web developer. In addition, their response will indicate which factors they will prioritize whencoding.Â",
+    "source": "https://www.simplilearn.com/web-development-interview-questions-article",
+    "role": "Prompt Engineer",
+    "skill": "Semantic Search",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "12. What is Type Coercion in JavaScript?",
+    "answer": "The automatic or implicit conversion of values between differentdatatypes is known as type coercion (such as strings to numbers).",
+    "source": "https://www.simplilearn.com/web-development-interview-questions-article",
+    "role": "Prompt Engineer",
+    "skill": "Semantic Search",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. How does the .NET framework work?",
+    "answer": ".NET framework-based applications that are written in supportive languages like C#, F#, or Visual basic are compiled to Common Intermediate Language (CIL).",
+    "source": "https://www.interviewbit.com/dot-net-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Semantic Search",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is an EXE and a DLL?",
+    "answer": "EXE and DLLs are assembly executable modules.",
+    "source": "https://www.interviewbit.com/dot-net-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Semantic Search",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is CTS?",
+    "answer": "CTS stands for Common Type System. It follows a set of structured rules according to which a data type should be declared and used in the program code. It is used to describe all the data types that are going to be used in the application.",
+    "source": "https://www.interviewbit.com/dot-net-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Semantic Search",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is JIT?",
+    "answer": "JITstands forJust In Time. It is a compiler that converts the intermediate code into the native language during the execution.",
+    "source": "https://www.interviewbit.com/dot-net-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Semantic Search",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is the difference between int and Int32?",
+    "answer": "There is no difference between int and Int32. Int32 is a type provided by the .NET framework class whereas int is an alias name for Int32 in the C# programming language.",
+    "source": "https://www.interviewbit.com/dot-net-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Semantic Search",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is the difference between managed and unmanaged code?",
+    "answer": "The main difference between managed and unmanaged code is listed below:",
+    "source": "https://www.interviewbit.com/dot-net-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Semantic Search",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "11. What is an assembly?",
+    "answer": "An assembly is a file that is automatically generated by the compiler which consists of a collection of types and resources that are built to work together and form a logical unit of functionality. We can also say, assembly is a compiled code and logical unit of code.",
+    "source": "https://www.interviewbit.com/dot-net-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Semantic Search",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "12. Is ASP.NET different from ASP? If yes, explain how?",
+    "answer": "Yes, ASP.NET and ASP(Active Server Pages) both are different. Let’s check how they are different from each other.",
+    "source": "https://www.interviewbit.com/dot-net-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Semantic Search",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What Is Jenkins Used For?",
+    "answer": "Jenkinsis used for automating software development tasks such as code compilation, testing, code quality checks, artifact creation and deployment. It streamlines the development process, ensuring reliability and quality by automating repetitive tasks in a DevOps context.",
+    "source": "https://www.geeksforgeeks.org/devops/jenkins-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Semantic Search",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How To Trigger a Build In Jenkins Manually?",
+    "answer": "To manually trigger a build in Jenkins:",
+    "source": "https://www.geeksforgeeks.org/devops/jenkins-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Semantic Search",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What Is The Default Path For The Jenkins Password When You Install It?",
+    "answer": "The default path for the Jenkins password when you install it can vary depending on your operating system and how you installed Jenkins. Here are the general default locations for the Jenkins password:",
+    "source": "https://www.geeksforgeeks.org/devops/jenkins-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Semantic Search",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. How To Integrate Git With Jenkins?",
+    "answer": "To integrate Git with Jenkins:",
+    "source": "https://www.geeksforgeeks.org/devops/jenkins-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Semantic Search",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What Does \"Poll SCM\" Mean In Jenkins?",
+    "answer": "In Jenkins, \"poll SCM\" means periodically checking a version control system (e.g., Git) for changes. You can schedule how often Jenkins checks for updates. When changes are detected, Jenkins triggers a build, making it a key feature for continuous integration, scheduled tasks, and automated response to code changes.",
+    "source": "https://www.geeksforgeeks.org/devops/jenkins-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Semantic Search",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. How To Schedule Jenkins Build Periodically (hourly, daily, weekly)? Explain the Jenkins schedule format.",
+    "answer": "To schedule Jenkins builds periodically at specific intervals, you can use the built-in scheduling feature. Jenkins uses a cron-like syntax for scheduling, allowing you to specify when and how often your builds should run. Here's a detailed explanation of the Jenkins schedule format and how to schedule builds:",
+    "source": "https://www.geeksforgeeks.org/devops/jenkins-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Semantic Search",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What Is Jenkins Home Directory Path?",
+    "answer": "The Jenkins home directory is where Jenkins stores its critical data, including job configurations, logs, plugins, and more. The location of this directory varies by operating system but can typically be found at:",
+    "source": "https://www.geeksforgeeks.org/devops/jenkins-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Semantic Search",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. How To Integrate Slack With Jenkins?",
+    "answer": "To integrate Slack with Jenkins for notifications:",
+    "source": "https://www.geeksforgeeks.org/devops/jenkins-interview-questions/",
+    "role": "Prompt Engineer",
+    "skill": "Semantic Search",
+    "search_strategy": "direct"
+  }
+]

@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "1. What do you understand by segmentation fault?",
+    "answer": "A segmentation fault occurs most commonly and often leads to crashes in the programs. It occurs when a program instruction tries to access a memory address that is prohibited from getting accessed.",
+    "source": "https://www.interviewbit.com/embedded-c-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What do you understand by startup code?",
+    "answer": "A startup code is that piece of code that is called before the execution of the main function. This is used for creating a basic platform for the application and it is written in assembly language.",
+    "source": "https://www.interviewbit.com/embedded-c-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is Void Pointer in Embedded C and why is it used?",
+    "answer": "Void pointers are those pointers that point to a variable of any type. It is a generic pointer as it is not dependent on any of the inbuilt or user-defined data types while referencing. During dereferencing of the pointer, we require the correct data type to which the data needs to be dereferenced.",
+    "source": "https://www.interviewbit.com/embedded-c-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. Why do we use the volatile keyword?",
+    "answer": "Thevolatilekeyword is mainly used for preventing a compiler from optimizing a variable that might change its behaviour unexpectedly post the optimization. Consider a scenario where we have a variable where there is a possibility of its value getting updated by some event or a signal, then we need to tell the compiler not to optimize it and load that variable every time it is called. To inform the compiler, we use the keyword volatile at the time of variable declaration.",
+    "source": "https://www.interviewbit.com/embedded-c-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What Is Concatenation Operator in Embedded C?",
+    "answer": "The Concatenation operator is indicated by the usage of##. It is used in macros to perform concatenation of the arguments in the macro. We need to keep note that only the arguments are concatenated, not the values of those arguments.",
+    "source": "https://www.interviewbit.com/embedded-c-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What do you understand by Interrupt Latency?",
+    "answer": "Interrupt latency refers to the time taken by ISR to respond to the interrupt. The lesser the latency faster is the response to the interrupt event.",
+    "source": "https://www.interviewbit.com/embedded-c-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. How will you use a variable defined in source file1 inside source file2?",
+    "answer": "We can achieve this by making use of the “extern” keyboard. It allows the variable to be accessible from one file to another. This can be handled more cleanly by creating a header file that just consists of extern variable declarations. This header file is then included in the source files which uses the extern variables. Consider an example where we have a header file namedvariables.hand a source file namedsc_file.c.",
+    "source": "https://www.interviewbit.com/embedded-c-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. What is Embedded C Programming? How is Embedded C different from C language?",
+    "answer": "Embedded C is a programming language that is an extension ofC programming. It uses the same syntax as C and it is called “embedded” because it is used widely in embedded systems. Embedded C supports I/O hardware operations and addressing, fixed-point arithmetic operations, memory/address space access, and various other features that are required to develop fool-proof embedded systems.",
+    "source": "https://www.interviewbit.com/embedded-c-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is the difference between C and Embedded C?",
+    "answer": "There are the following differences between C and Embedded C.",
+    "source": "https://www.geeksforgeeks.org/c/top-embedded-c-interview-questions-and-answers-for-2024/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the basic data types in C?",
+    "answer": "Thebasic data types in Care:",
+    "source": "https://www.geeksforgeeks.org/c/top-embedded-c-interview-questions-and-answers-for-2024/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is the difference between 'static' and 'auto' variables?",
+    "answer": "The 'const' keyword is used to declare constants. In embedded systems, it's important for:",
+    "source": "https://www.geeksforgeeks.org/c/top-embedded-c-interview-questions-and-answers-for-2024/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is the purpose of the 'volatile' keyword in C?",
+    "answer": "The 'volatile' keyword is used to indicate that a variable may change unexpectedly, often due to external factors like hardware interrupts. It prevents the compiler from optimizing code that accesses the variable, ensuring that the most up-to-date value is always read.",
+    "source": "https://www.geeksforgeeks.org/c/top-embedded-c-interview-questions-and-answers-for-2024/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What are bitwise operators, and why are they important in embedded programming?",
+    "answer": "Bitwise operators perform operations on individual bits of integers. They are important in embedded programming for:",
+    "source": "https://www.geeksforgeeks.org/c/top-embedded-c-interview-questions-and-answers-for-2024/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is the purpose of the 'const' keyword in embedded C?",
+    "answer": "The 'const' keyword is used to declare constants. In embedded systems, it's important for:",
+    "source": "https://www.geeksforgeeks.org/c/top-embedded-c-interview-questions-and-answers-for-2024/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What are inline functions, and when should they be used in embedded systems?",
+    "answer": "Inline functions are expanded at the point of call, potentially reducing function call overhead. They should be used:",
+    "source": "https://www.geeksforgeeks.org/c/top-embedded-c-interview-questions-and-answers-for-2024/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "11. What is a microcontroller, and how does it differ from a microprocessor?",
+    "answer": "Loop unrolling is an optimization technique where the body of a loop is replicated multiple times. Potential benefits include:",
+    "source": "https://www.geeksforgeeks.org/c/top-embedded-c-interview-questions-and-answers-for-2024/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is the startup code?",
+    "answer": "It is acodethat is called before the execution of the main function. It creates a platform for an application to run. It is called an assembly language.",
+    "source": "https://www.simplilearn.com/embedded-systems-interview-questions-answers-article",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What is the Semaphore?",
+    "answer": "It is a variable that is non-negative and can be shared betweenthreads. It solves the critical selection problem and achieves synchronization in the processes.",
+    "source": "https://www.simplilearn.com/embedded-systems-interview-questions-answers-article",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are the 2 types of Semaphore?",
+    "answer": "The 2 semaphores are Binary Semaphore and Counting Semaphore.",
+    "source": "https://www.simplilearn.com/embedded-systems-interview-questions-answers-article",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is the full form of ISR?",
+    "answer": "ISR means Interrupt Service Routines. It is used when an interruption occurs. These procedures are stored at a memory location in the software.",
+    "source": "https://www.simplilearn.com/embedded-systems-interview-questions-answers-article",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. When do we use a volatile keyword?",
+    "answer": "When a compiler changes its behavior unexpectedly after optimization, a volatile keyword is used.",
+    "source": "https://www.simplilearn.com/embedded-systems-interview-questions-answers-article",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What are the advantages of an Embedded system?",
+    "answer": "Some advantages of embedded systems are",
+    "source": "https://www.simplilearn.com/embedded-systems-interview-questions-answers-article",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What are the disadvantages of Embedded Systems?",
+    "answer": "It is hard to maintain because of its use and throw nature",
+    "source": "https://www.simplilearn.com/embedded-systems-interview-questions-answers-article",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is an embedded system?",
+    "answer": "It is a hardware system that software designed to perform a specific specialized function or task. It can be a complete system or belong to a large system.",
+    "source": "https://www.simplilearn.com/embedded-systems-interview-questions-answers-article",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. Why is C called a mid-level programming language?",
+    "answer": "Due to its ability to support both low-level and high-level features, C is considered a middle-level language. It supports both an assembly-level language, i.e. a low-level language, and a higher-level language. Using asm or __asm__ function, can write low-level program and also, we can write high-level program using the C syntax. Hence, C is called as mid-level programming language.",
+    "source": "https://www.geeksforgeeks.org/c/c-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the features of the C programming language?",
+    "answer": "For more information, refer to the article -Features of C programming language.",
+    "source": "https://www.geeksforgeeks.org/c/c-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are basic data types supported in the C Programming Language?",
+    "answer": "In the C programming language, the basic data types are the fundamental building blocks used to declare variables and allocate memory. These data types define the type and size of data that can be stored in a variable. Here are the basic data types supported in C:",
+    "source": "https://www.geeksforgeeks.org/c/c-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What are tokens in C?",
+    "answer": "Tokens are identifiers or the smallest single unit in a program that is meaningful to thecompiler. In C we have the following tokens:",
+    "source": "https://www.geeksforgeeks.org/c/c-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What do you mean by the scope of the variable?",
+    "answer": "Scope in a programming language is the block or a region where a defined variable will have its existence and beyond that region, the variable is automatically destroyed.  Every variable has its defined scope. In simple terms, the scope of a variable is equal to its life in the program. The variable can be declared in three places These are:",
+    "source": "https://www.geeksforgeeks.org/c/c-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What are preprocessor directives in C?",
+    "answer": "In C preprocessor directives are considered the built-in predefined functions or macros that act as a directive to the compiler and are executed before the program execution. There are multiple steps involved in writing and executing a program in C. Main types of Preprocessor Directives areMacros, File Inclusion, Conditional Compilation, and Other directives like #undef, #pragma, etc.",
+    "source": "https://www.geeksforgeeks.org/c/c-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is the use of static variables in C?",
+    "answer": "Static variables in the C programming language are used to preserve the data values between function calls even after they are out of their scope. Static variables preserve their values in their scope and they can be used again in the program without initializing again. Static variables have an initial value assigned to 0 without initialization.",
+    "source": "https://www.geeksforgeeks.org/c/c-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is the difference between malloc() and calloc() in the C programming language?",
+    "answer": "calloc() and malloc() library functions are used to allocatedynamic memory. Dynamic memory is the memory that is allocated during the runtime of the program from the heap segment. “stdlib.h” is the header file that is used to facilitate dynamic memory allocation in the C Programming language.",
+    "source": "https://www.geeksforgeeks.org/c/c-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is C Language?",
+    "answer": "C programming language, the pioneer of programming languages, is a procedural programming language. Dennis Ritchie created it as a system programming language for writing operating systems. It is one of the most popular programming languages because of its structure, high-level abstraction, machine-independent feature, etc. and is a great starting point for anyone wanting to get into coding.",
+    "source": "https://www.interviewbit.com/c-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. Why is C called a mid-level programming language?",
+    "answer": "C has characteristics of both assembly-level i.e. low-level and higher-level languages. So as a result, C is commonly called a middle-level language. Using C, a user can write an operating system as well as create a menu-driven consumer billing system.",
+    "source": "https://www.interviewbit.com/c-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the features of the C language?",
+    "answer": "Some features of the C language are-",
+    "source": "https://www.interviewbit.com/c-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is a token?",
+    "answer": "The individual elements of a program are called Tokens. There are following 6 types of tokens are available in C:",
+    "source": "https://www.interviewbit.com/c-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is the use of printf() and scanf() functions? Also explain format specifiers?",
+    "answer": "printf()is used to print the output on the display.",
+    "source": "https://www.interviewbit.com/c-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is a built-in function in C?",
+    "answer": "The most commonly used built-in functions in C are scanf(), printf(), strcpy, strlwr, strcmp, strlen, strcat, and many more.",
+    "source": "https://www.interviewbit.com/c-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is a Preprocessor?",
+    "answer": "A preprocessor is a software program that processes a source file before sending it to be compiled. Inclusion of header files, macro expansions, conditional compilation, and line control are all possible with the preprocessor.",
+    "source": "https://www.interviewbit.com/c-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. In C, What is the #line used for?",
+    "answer": "In C, #line is used as a preprocessor to re-set the line number in the code, which takes a parameter as line number. Here is an example for the same.",
+    "source": "https://www.interviewbit.com/c-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is the difference between C and C++?",
+    "answer": "The main difference between C and C++ are provided in the table below:",
+    "source": "https://www.interviewbit.com/cpp-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are the static members and static member functions?",
+    "answer": "When a variable in a class is declared static, space for it is allocated for the lifetime of the program. No matter how many objects of that class have been created, there is only one copy of the static member. So same static member can be accessed by all the objects of that class.",
+    "source": "https://www.interviewbit.com/cpp-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What are destructors in C++?",
+    "answer": "A constructor is automatically called when an object is first created. Similarly when an object is destroyed a function called destructor automatically gets called. A destructor has the same name as the constructor (which is the same as the class name) but is preceded by a tilde.",
+    "source": "https://www.interviewbit.com/cpp-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is an abstract class and when do you use it?",
+    "answer": "A class is called an abstract class whose objects can never be created. Such a class exists as a parent for the derived classes. We can make a class abstract by placing a pure virtual function in the class.",
+    "source": "https://www.interviewbit.com/cpp-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What do you mean by call by value and call by reference?",
+    "answer": "In call by value method, we pass a copy of the parameter is passed to the functions. For these copied values a new memory is assigned and changes made to these values do not reflect the variable in the main function.",
+    "source": "https://www.interviewbit.com/cpp-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. Is deconstructor overloading possible? If yes then explain and if no then why?",
+    "answer": "No destructor overloading is not possible. Destructors take no arguments, so there’s only one way to destroy an object. That’s the reason destructor overloading is not possible.",
+    "source": "https://www.interviewbit.com/cpp-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What do you mean by abstraction in C++?",
+    "answer": "Abstraction is the process of showing the essential details to the user and hiding the details which we don’t want to show to the user or hiding the details which are irrelevant to a particular user.",
+    "source": "https://www.interviewbit.com/cpp-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is a reference in C++?",
+    "answer": "A reference is like a pointer. It is another name of an already existing variable. Once a reference name is initialized with a variable, that variable can be accessed by the variable name or reference name both.",
+    "source": "https://www.interviewbit.com/cpp-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "int result = ((a < b) ? a : b);",
+    "answer": "while (result > 0) {",
+    "source": "https://www.geeksforgeeks.org/c/c-coding-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is C++? What are the advantages of C++?",
+    "answer": "C++ is an object-oriented programming language that was introduced to overcome the jurisdictions where C was lacking. By object-oriented we mean that it works with the concept ofpolymorphism,inheritance,abstraction,encapsulation,object and class.",
+    "source": "https://www.geeksforgeeks.org/cpp/cpp-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What are the different data types present in C++?",
+    "answer": "Following is the list ofdata types in C++:",
+    "source": "https://www.geeksforgeeks.org/cpp/cpp-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. Define 'std'?",
+    "answer": "'std'is also known as Standard or it can be interpreted as a namespace. The command \"using namespace std\"informs the compiler to add everything under thestd namespaceand inculcate them in theglobal namespace. This all inculcation of global namespace benefits us to use \"cout\" and \"cin\"without using \"std::_operator_\".",
+    "source": "https://www.geeksforgeeks.org/cpp/cpp-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What are references in C++?",
+    "answer": "In C++,referencesare an alternative way to create an alias for another variable. A reference acts as a synonym for a variable, allowing you to access the variable directly without any additional syntax. They must be initialized when created and cannot be changed to refer to another variable afterward. This feature makes it easier to manipulate variables in functions while avoiding the overhead of copying large objects. A reference variable is preceded with a'&'symbol.",
+    "source": "https://www.geeksforgeeks.org/cpp/cpp-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What do you mean by Call by Value and Call by Reference?",
+    "answer": "In this programming language to call a function we have 2 methods:Call by ValueandCall by Reference",
+    "source": "https://www.geeksforgeeks.org/cpp/cpp-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What is the difference between C and C++?",
+    "answer": "The following table lists the majordifferences between C and C++:",
+    "source": "https://www.geeksforgeeks.org/cpp/cpp-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What is the difference between struct and class?",
+    "answer": "Following table lists the primarydifference between struct and class:",
+    "source": "https://www.geeksforgeeks.org/cpp/cpp-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What is the difference between reference and pointer?",
+    "answer": "Following are the maindifference between reference and pointer:",
+    "source": "https://www.geeksforgeeks.org/cpp/cpp-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Want a Top Software Development Job? Start Here!",
+    "answer": "The C++ Interview Questions addressed in this section cover thefundamentals of the C++ language, an aspect to be known mandatorily.",
+    "source": "https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-interview-questions",
+    "role": "Embedded Systems Engineer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is the difference betweenC and C++?",
+    "answer": "Cis a procedure-oriented programming language",
+    "source": "https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-interview-questions",
+    "role": "Embedded Systems Engineer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What are classes and objects in C++?",
+    "answer": "Aclassis like a blueprint of an object. It is a user-defined data type with data members and member functions and is defined with the keyword class.",
+    "source": "https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-interview-questions",
+    "role": "Embedded Systems Engineer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What are access modifiers?",
+    "answer": "You use access modifiers to define accessibility for the class members. It defines how to access the members of the class outside the class scope.",
+    "source": "https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-interview-questions",
+    "role": "Embedded Systems Engineer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. Difference between equal to (==) and assignment operator(=)?",
+    "answer": "The equal to operator == checks whether two values are equal or not. If equal, then itâs true; otherwise, it will return false.",
+    "source": "https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-interview-questions",
+    "role": "Embedded Systems Engineer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is the difference between a while loop and a do-while loop?",
+    "answer": "Thewhile loopverifies the condition; if itâs true, then it iterates the loop till the condition becomes false.",
+    "source": "https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-interview-questions",
+    "role": "Embedded Systems Engineer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What is the size of the int data type?",
+    "answer": "1 - 4 bytes, the integer data type is 4 bytes.",
+    "source": "https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-interview-questions",
+    "role": "Embedded Systems Engineer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What among these is used to return the number of characters in the string?",
+    "answer": "3. Both size and length are used to return the number of characters in the string.",
+    "source": "https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-interview-questions",
+    "role": "Embedded Systems Engineer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "isPrime(17) ? cout << \" true\\n\" : cout << \" false\\n\";",
+    "answer": "17. Write a Program to Check Palindrome",
+    "source": "https://www.geeksforgeeks.org/cpp/cpp-coding-interview-questions-and-answers/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "int len_left = t != -1 ? t : l;",
+    "answer": "// add min 0's in the beginning to make",
+    "source": "https://www.geeksforgeeks.org/cpp/cpp-coding-interview-questions-and-answers/",
+    "role": "Embedded Systems Engineer",
+    "skill": "C++",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Who are Embedded Software Engineers?",
+    "answer": "Embedded Software Engineersare program writers who design invisible devices that run our lives every single day. Their job description ranges from programming for medical devices likesmart thermostatsandautonomous vehiclesto communicating with hardware architectures and making them functional again. They have to knowC/C++programming languages, understand complex hardware architectures as well as have real-time programming skills in order to be able to build these systems while considering their strict resource limits. In other words,they design the codes that drive these incredible marvels of technology called embedded software engineers.",
+    "source": "https://www.geeksforgeeks.org/blogs/how-to-become-an-embedded-software-engineer/",
+    "role": "Embedded Systems Engineer",
+    "skill": "ARM Cortex",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. How are timers and counters different in a microcontroller?",
+    "answer": "The timer is used to measure internal clock cycles, whereas the counter counts external events.",
+    "source": "https://www.simplilearn.com/microcontroller-interview-questions-answers-article",
+    "role": "Embedded Systems Engineer",
+    "skill": "ARM Cortex",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What are the main components of a microcontroller?",
+    "answer": "Generally speaking, a microcontroller includes one or more of the following:",
+    "source": "https://www.simplilearn.com/microcontroller-interview-questions-answers-article",
+    "role": "Embedded Systems Engineer",
+    "skill": "ARM Cortex",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. Mention a few applications of a microcontroller?",
+    "answer": "The voltmeter, ammeter, hand-held metering system, and measuring rotating objects all employ microcontrollers. Devices for controlling and sensing light employ microcontrollers. Microcontrollers are utilized in washing machines, cameras, and mobile phones.",
+    "source": "https://www.simplilearn.com/microcontroller-interview-questions-answers-article",
+    "role": "Embedded Systems Engineer",
+    "skill": "ARM Cortex",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. Which of the microcontroller's pins are most useful, along with their functions?",
+    "answer": "ALE: As Harvard architecture is the foundation of the 8051. The program and data memory are connected externally separately. 16 lines are used to access this external memory, of which 8 lines are used as data lines in addition to serving as lower order 8 lines of a 16-bit external address. We utilize an 8-bit external latch to make these 8 lines function first as address lines and then as 8 lines for data. The control signal for latching the low byte of the address during access to external memory is provided by the Address Latch Enable output pulse.",
+    "source": "https://www.simplilearn.com/microcontroller-interview-questions-answers-article",
+    "role": "Embedded Systems Engineer",
+    "skill": "ARM Cortex",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5.What exactly is a microcontroller?",
+    "answer": "A microcontroller is a chip, made to handle aÂ  particular function or application. The microcontroller is made up of theÂ  CPU (microprocessor), RAM,Â  ROM,Â  I/O ports, timers, counters, and other components. There are microcontroller kit providers, timers, interrupt serial communication, and interface designs.",
+    "source": "https://www.simplilearn.com/microcontroller-interview-questions-answers-article",
+    "role": "Embedded Systems Engineer",
+    "skill": "ARM Cortex",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What distinguishes a microcontroller's timer from its counter?",
+    "answer": "Timer counts the cycles of an internal clock while a counter counts outside occurrences. The only meaningful conceptual distinction between the phrase timer and counter is that one. Whether you conceive of it as timing a pause between CPU cycles or as counting off those cycles, it accomplishes the same task.",
+    "source": "https://www.simplilearn.com/microcontroller-interview-questions-answers-article",
+    "role": "Embedded Systems Engineer",
+    "skill": "ARM Cortex",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "11. What distinguishes a microprocessor from a microcontroller?",
+    "answer": "While there are many parallels and distinctions between the two, there are also some. Monitoring and controlling applications are the principal uses of microcontrollers. Embedded signal processing and other computing-related applications require microprocessors. The microcontroller contains a CPU, timers, and interfaces. Since a microprocessor is a CPU, it rarely has ports inside of it.",
+    "source": "https://www.simplilearn.com/microcontroller-interview-questions-answers-article",
+    "role": "Embedded Systems Engineer",
+    "skill": "ARM Cortex",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "13. What is the basic difference between a microcontroller and a microprocessor?",
+    "answer": "A microprocessor consists of only a processor, whereas a microcontroller consists of several components such as a processor, memory, serial bus interface, and so on.",
+    "source": "https://www.simplilearn.com/microcontroller-interview-questions-answers-article",
+    "role": "Embedded Systems Engineer",
+    "skill": "ARM Cortex",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is a process and process table?",
+    "answer": "A process is an instance of a program in execution. For example, a Web Browser is a process, and a shell (or command prompt) is a process. The operating system is responsible for managing all the processes that are running on a computer and allocates each process a certain amount of time to use the processor. In addition, theoperating systemalso allocates various other resources that processes will need, such as computer memory or disks. To keep track of the state of all the processes, the operating system maintains a table known as the process table. Inside this table, every process is listed along with the resources the process is using and the current state of the process.",
+    "source": "https://www.geeksforgeeks.org/operating-systems/operating-systems-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "ARM Cortex",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What are the different states of the process?",
+    "answer": "Processes can be in one of three states: running, ready, or waiting. The running state means that the process has all the resources it needs for execution and it has been given permission by the operating system to use the processor. Only one process can be in the running state at any given time. The remaining processes are either in a waiting state (i.e., waiting for some external event to occur such as user input or disk access) or a ready state (i.e., waiting for permission to use the processor). In a real operating system, the waiting and ready states are implemented as queues that hold the processes in these states.",
+    "source": "https://www.geeksforgeeks.org/operating-systems/operating-systems-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "ARM Cortex",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What is a Thread?",
+    "answer": "Athreadis a single sequence stream within a process. Because threads have some of the properties of processes, they are sometimes called lightweight processes. Threads are a popular way to improve the application through parallelism. For example, in a browser, multiple tabs can be different threads. MS Word uses multiple threads, one thread to format the text, another thread to process inputs, etc.",
+    "source": "https://www.geeksforgeeks.org/operating-systems/operating-systems-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "ARM Cortex",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What are the differences between process and thread?",
+    "answer": "Process is program under action and thread is the smallest segment of instructions (segment of a process) that can be handled independently by a scheduler.",
+    "source": "https://www.geeksforgeeks.org/operating-systems/operating-systems-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "ARM Cortex",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What are the benefits of multithreaded programming?",
+    "answer": "Multithreaded programming makes the system more responsive and enables resource sharing. It leads to the use of multiprocess architecture. It is more economical and preferred.",
+    "source": "https://www.geeksforgeeks.org/operating-systems/operating-systems-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "ARM Cortex",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What is Thrashing?",
+    "answer": "Thrashing is a situation when the performance of a computer degrades or collapses. Thrashing occurs when a system spends more time processing page faults than executing transactions. While processing page faults is necessary in order to appreciate the benefits of virtual memory, thrashing has a negative effect on the system. As the page fault rate increases, more transactions need processing from the paging device. The queue at the paging device increases, resulting in increased service time for a page fault.",
+    "source": "https://www.geeksforgeeks.org/operating-systems/operating-systems-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "ARM Cortex",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What is Buffer?",
+    "answer": "A buffer is a memory area that stores data being transferred between two devices or between a device and an application.",
+    "source": "https://www.geeksforgeeks.org/operating-systems/operating-systems-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "ARM Cortex",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What is virtual memory?",
+    "answer": "Virtual memorycreates an illusion that each user has one or more contiguous address spaces, each beginning at address zero. The sizes of such virtual address spaces are generally very high. The idea of virtual memory is to use disk space to extend the RAM. Running processes don't need to care whether the memory is fromRAMor disk. The illusion of such a large amount of memory is created by subdividing the virtual memory into smaller pieces, which can be loaded into physical memory whenever they are needed by a process.",
+    "source": "https://www.geeksforgeeks.org/operating-systems/operating-systems-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "ARM Cortex",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What do you mean by an operating system? What are its basic functions?",
+    "answer": "Operating System (OS) is basically a software program that manages and handles all resources of a computer such as hardware and software. The first OS was introduced in the early 1950s known as GMOs. An OS is responsible for managing, handling, and coordinating overall activities and sharing of computer resources. It acts as an intermediary among users of computer and computer hardware.",
+    "source": "https://www.interviewbit.com/operating-system-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "RTOS",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is IPC? What are the different IPC mechanisms?",
+    "answer": "IPC (Interprocess Communication) is a mechanism that requires the use of resources like a memory that is shared between processes or threads. With IPC, OS allows different processes to communicate with each other. It is simply used for exchanging data between multiple threads in one or more programs or processes. In this mechanism, different processes can communicate with each other with the approval of the OS.",
+    "source": "https://www.interviewbit.com/operating-system-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "RTOS",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What's the main purpose of an OS? What are the different types of OS?",
+    "answer": "The main purpose of an OS is to execute user programs and make it easier for users to understand and interact with computers as well as run applications. It is specially designed to ensure that the computer system performs better by managing all computational activities. It also manages computer memory, processes, and operation of all hardware and software.Types of OS:",
+    "source": "https://www.interviewbit.com/operating-system-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "RTOS",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are the benefits of a multiprocessor system?",
+    "answer": "A Multiprocessor system is a type of system that includes two or more CPUs. It involves the processing of different computer programs at the same time mostly by a computer system with two or more CPUs that are sharing single memory.Benefits:",
+    "source": "https://www.interviewbit.com/operating-system-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "RTOS",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is RAID structure in OS? What are the different levels of RAID configuration?",
+    "answer": "RAID 0 - Non-redundant striping: This level is used to increase the performance of the server.",
+    "source": "https://www.interviewbit.com/operating-system-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "RTOS",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is GUI?",
+    "answer": "GUI (Graphical User Interface) is basically a type of user interface that allows users to use graphics to interact with OS. GUI is created because it is more user-friendly, less complex, and easier to understand rather than a command-line interface. Its main goal is to increase efficiency and ease of use. Instead of having to memorize commands, users can just click on a button to simply execute the procedure. Examples of GUI include Microsoft Windows, macOS, Apple’s iOS, etc.",
+    "source": "https://www.interviewbit.com/operating-system-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "RTOS",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is a Pipe and when it is used?",
+    "answer": "The pipe is generally a connection among two or more processes that are interrelated to each other. It is a mechanism that is used for inter-process communication using message passing.  One can easily send information such as the output of one program process to another program process using a pipe. It can be used when two processes want to communicate one-way i.e., inter-process communication (IPC).",
+    "source": "https://www.interviewbit.com/operating-system-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "RTOS",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What are the different kinds of operations that are possible on semaphore?",
+    "answer": "There are basically two atomic operations that are possible:",
+    "source": "https://www.interviewbit.com/operating-system-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "RTOS",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is a Real-Time Operating System (RTOS)?",
+    "answer": "A real-time operating system (RTOS) is a special kind of operating system designed to handle tasks that need to be completed quickly and on time. Unlike general-purpose operating systems (GPOS), which are good at multitasking and user interaction, RTOS focuses on doing things in real time.",
+    "source": "https://www.geeksforgeeks.org/operating-systems/real-time-operating-system-rtos/",
+    "role": "Embedded Systems Engineer",
+    "skill": "RTOS",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is the Purpose of RTOS?",
+    "answer": "Unlikegeneral-purpose operating systems(GPOS) like Windows or Linux, which are good at multitasking and handling various applications, a real-time operating system (RTOS) is designed to manage time-sensitive tasks precisely.",
+    "source": "https://www.geeksforgeeks.org/operating-systems/real-time-operating-system-rtos/",
+    "role": "Embedded Systems Engineer",
+    "skill": "RTOS",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Arduino?",
+    "answer": "TheArduinois one of the most popular and widely used Arduino boards. It's based on the ATmega328Pmicrocontrollerand offers a good balance of features, performance, and affordability, making it suitable for a wide range of projects, from simple to moderately complex.",
+    "source": "https://www.geeksforgeeks.org/electronics-engineering/getting-started-with-arduino/",
+    "role": "Embedded Systems Engineer",
+    "skill": "Arduino",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why choose Arduino?",
+    "answer": "We need to know the reason for selecting Arduino over other devices so let us study some advantages of Arduino.",
+    "source": "https://www.geeksforgeeks.org/electronics-engineering/getting-started-with-arduino/",
+    "role": "Embedded Systems Engineer",
+    "skill": "Arduino",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What Can You Do With an Arduino?",
+    "answer": "Arduino finds its applications in various fields due to their ability to perform different things. Let us see some of its applications:",
+    "source": "https://www.geeksforgeeks.org/electronics-engineering/getting-started-with-arduino/",
+    "role": "Embedded Systems Engineer",
+    "skill": "Arduino",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is Linux?",
+    "answer": "Linus Torvalds developed Linux, a Unix-like, free, open-source, and kernel operating system. Mainly it is designed for systems, servers, embedded devices, mobile devices, and mainframes and is also supported on major computer platforms such as ARM, x86, and SPARC.",
+    "source": "https://www.geeksforgeeks.org/linux-unix/linux-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "Raspberry Pi",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What are the major differences between Linux and Windows?",
+    "answer": "The following table will help in understanding the differencesbetween Linux and Windows:",
+    "source": "https://www.geeksforgeeks.org/linux-unix/linux-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "Raspberry Pi",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is the Linux Kernel? Is it legal to edit it?",
+    "answer": "It is known as a low-level software system. TheLinux kerneltracks the resources and provides a user interface. This OS is released under GPL (General Public License). Hence every project is released under it. So, you can edit the Linux kernel legally.",
+    "source": "https://www.geeksforgeeks.org/linux-unix/linux-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "Raspberry Pi",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is Shell in Linux?",
+    "answer": "Output and input in Linux OS are divided into three standard streams:",
+    "source": "https://www.geeksforgeeks.org/linux-unix/linux-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "Raspberry Pi",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. What is a root account?",
+    "answer": "The root is like the user's name or system administrator account in Linux. The root account provides complete system control, which an ordinary user cannot do.",
+    "source": "https://www.geeksforgeeks.org/linux-unix/linux-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "Raspberry Pi",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "12. What is Swap Space?",
+    "answer": "Linux usesswap spaceto expand RAM. Linux uses this extra space to hold concurrently running programs temporarily.",
+    "source": "https://www.geeksforgeeks.org/linux-unix/linux-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "Raspberry Pi",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "13. What is the difference between hard links and soft links?",
+    "answer": "Here is the table that shows thedifference between soft links and hard links:",
+    "source": "https://www.geeksforgeeks.org/linux-unix/linux-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "Raspberry Pi",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "14. How do users create a symbolic link in Linux?",
+    "answer": "Symbolic links,symlink, or soft links are shortcuts to files and directories. Users can create the symbolic link in Linux through the' ln' command. The general command to create a symbolic link is as follows:",
+    "source": "https://www.geeksforgeeks.org/linux-unix/linux-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "Raspberry Pi",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What are the Characteristics of Software?",
+    "answer": "Top characteristics of software are:",
+    "source": "https://www.geeksforgeeks.org/software-engineering/software-engineering-interview-questions-and-answers/",
+    "role": "Embedded Systems Engineer",
+    "skill": "Assembly",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What are the Various Categories of Software?",
+    "answer": "The software is used extensively in several domains including hospitals, banks, schools, defense, finance, stock markets, and so on. It can be categorized into different types:",
+    "source": "https://www.geeksforgeeks.org/software-engineering/software-engineering-interview-questions-and-answers/",
+    "role": "Embedded Systems Engineer",
+    "skill": "Assembly",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. Explain SDLC and its Phases?",
+    "answer": "SDLCstands forSoftware Development Life Cycle. It is a process followed for software building within a software organization.SDLC consists of a precise plan that describes how to develop, maintain, replace, and enhance specific software. The life cycle defines a method for improving the quality of software and the all-around development process.",
+    "source": "https://www.geeksforgeeks.org/software-engineering/software-engineering-interview-questions-and-answers/",
+    "role": "Embedded Systems Engineer",
+    "skill": "Assembly",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What are different SDLC Models Available?",
+    "answer": "Here are the models which is available for the SDLC:",
+    "source": "https://www.geeksforgeeks.org/software-engineering/software-engineering-interview-questions-and-answers/",
+    "role": "Embedded Systems Engineer",
+    "skill": "Assembly",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is the Waterfall Method and What are its Use Cases?",
+    "answer": "The waterfall model is a software development model used in the context of large, complex projects, typically in the field of information technology. It is characterized by a structured, sequential approach to project management and software development.",
+    "source": "https://www.geeksforgeeks.org/software-engineering/software-engineering-interview-questions-and-answers/",
+    "role": "Embedded Systems Engineer",
+    "skill": "Assembly",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What is Black Box Testing?",
+    "answer": "The black box test (also known as the conducted test/ closed box test/ opaque box test) is software testing technique. In this technique, tester does not care about the internal knowledge or implementation details but rather focuses on validating the functionality based on the provided specifications or requirements. The name \"black box\" refers to the idea that the internal workings are hidden from the tester's view.",
+    "source": "https://www.geeksforgeeks.org/software-engineering/software-engineering-interview-questions-and-answers/",
+    "role": "Embedded Systems Engineer",
+    "skill": "Assembly",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7.  What is White Box Testing?",
+    "answer": "White Box Testing is a method of analyzing the internal structure, data structures used, internal design, code structure, and behavior of software, as well as functions such as black-box testing. Also called glass-box test or clear box test or structural test.",
+    "source": "https://www.geeksforgeeks.org/software-engineering/software-engineering-interview-questions-and-answers/",
+    "role": "Embedded Systems Engineer",
+    "skill": "Assembly",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. Distinguish between Alpha and Beta Testing?",
+    "answer": "Following are the differences between Alpha and Beta Testing:",
+    "source": "https://www.geeksforgeeks.org/software-engineering/software-engineering-interview-questions-and-answers/",
+    "role": "Embedded Systems Engineer",
+    "skill": "Assembly",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Device Driver?",
+    "answer": "Device Driverin computing refers to a special kind of software program or a specific type of software application that controls a specific hardware device that enables different hardware devices to communicate with the computer's Operating System. A device driver communicates with the computer hardware by computer subsystem or computer bus connected to the hardware.",
+    "source": "https://www.geeksforgeeks.org/operating-systems/device-driver-and-its-purpose/",
+    "role": "Embedded Systems Engineer",
+    "skill": "Device Drivers",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How Do Device Drivers Interact With Hardware?",
+    "answer": "For device drivers to interact with hardware, Virtual Device Driver can be used.There are also virtual device drivers (VxD), which manage the virtual device. Sometimes we use the same hardware virtually at that time virtual driver controls/manages the data flow from the different applications used by different users to the same hardware.",
+    "source": "https://www.geeksforgeeks.org/operating-systems/device-driver-and-its-purpose/",
+    "role": "Embedded Systems Engineer",
+    "skill": "Device Drivers",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How Does Web-Based Technology Use Device Drivers?",
+    "answer": "Web-based technology does not normally use device drivers. Normally, it depends on an operating system and web browsers for controlling hardware. The device drivers are low-level software interacting directly with the operating system. The OS talks directly to the hardware devices. The browser brings abstraction of hardware to the web application. This way, when a web application wants to access some of the devices, it uses APIs provided by the browser. TheseAPIstalk to the Operating System, which, in turn, speaks to the hardware via appropriate device drivers. This layering allows web applications to run across devices without concern about the specifics of the driver.",
+    "source": "https://www.geeksforgeeks.org/operating-systems/device-driver-and-its-purpose/",
+    "role": "Embedded Systems Engineer",
+    "skill": "Device Drivers",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How do I Install Device Drivers?",
+    "answer": "Step 1: Identify the device needing a driver (e.g., printer, graphics card).",
+    "source": "https://www.geeksforgeeks.org/operating-systems/device-driver-and-its-purpose/",
+    "role": "Embedded Systems Engineer",
+    "skill": "Device Drivers",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What do you mean by Linux? Explain its features.",
+    "answer": "Some important features of Linux OS include:",
+    "source": "https://www.interviewbit.com/linux-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "Linux",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What is Kernel? Explain its functions.",
+    "answer": "A kernel is considered the main component of Linux OS. It is simply a resource manager that acts as a bridge between hardware and software. Its main role is to manage hardware resources for users and is generally used to provide an interface for user-level interaction. A kernel is the first program that is loaded whenever a computer system starts. It is also referred to as low-level system software.",
+    "source": "https://www.interviewbit.com/linux-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "Linux",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What are two types of Linux User Mode?",
+    "answer": "There are two types of Linux user mode as given below:",
+    "source": "https://www.interviewbit.com/linux-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "Linux",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What is swap space?",
+    "answer": "Swap space, as the name suggests, is basically a space on a hard disk that is used when the amount of physical memory or RAM is full. It is considered a substitute for physical memory. Its main function is to substitute disk space for RAM memory when real RAM does not have enough space to hold all programs that are executing, and more space is required. In simple words, it can be used as an extension of RAM by Linux.",
+    "source": "https://www.interviewbit.com/linux-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "Linux",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What do you mean by a Process States in Linux?",
+    "answer": "Linux Process is a type of process that can be in a number of different states. The process enters these states from start till end. Process states in Linux are as follows:",
+    "source": "https://www.interviewbit.com/linux-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "Linux",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What is Linux Shell? What types of Shells are there in Linux?",
+    "answer": "Linux shell is a user interface present between user and kernel. It is used for executing commands and communication with Linux OS. Linux shell is basically a program used by users for executing commands. It accepts human-readable commands as input and converts them into kernel understandable language.",
+    "source": "https://www.interviewbit.com/linux-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "Linux",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "10. What is a maximum length for a filename under Linux?",
+    "answer": "The maximum length for a filename under Linux is 255 bytes.",
+    "source": "https://www.interviewbit.com/linux-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "Linux",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "12. Under the Linux system, what is the typical size for swap partitions?",
+    "answer": "The typical size for a swap partition under a Linux system should be twice the amount of physical memory or RAM available on the system.",
+    "source": "https://www.interviewbit.com/linux-interview-questions/",
+    "role": "Embedded Systems Engineer",
+    "skill": "Linux",
+    "search_strategy": "role_specific"
+  }
+]

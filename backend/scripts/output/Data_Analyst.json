@@ -1,0 +1,2682 @@
+[
+  {
+    "question": "1. What is SQL, and what is its purpose in data analysis?",
+    "answer": "SQL (Structured Query Language)is a standard language for managing and manipulating relational databases. It allows analysts to query, update, and manage data effectively, which is crucial for data analysis tasks.",
+    "source": "https://www.geeksforgeeks.org/data-science/sql-questions-for-data-analyst-interview/",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. How do you filter records in SQL? Provide an example.",
+    "answer": "Use theWHEREclause to filter records based on specific conditions.",
+    "source": "https://www.geeksforgeeks.org/data-science/sql-questions-for-data-analyst-interview/",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is the purpose of theHAVINGclause? How does it differ fromWHERE?",
+    "answer": "HAVINGis used to filter groups after aggregation, whileWHEREfilters rows before aggregation.",
+    "source": "https://www.geeksforgeeks.org/data-science/sql-questions-for-data-analyst-interview/",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. How do you sort the results of a query?",
+    "answer": "Use theORDER BYclause to sort results in ascending or descending order.",
+    "source": "https://www.geeksforgeeks.org/data-science/sql-questions-for-data-analyst-interview/",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is the difference betweenINNER JOINandLEFT JOIN?",
+    "answer": "INNER JOINreturns rows with matching values in both tables, whileLEFT JOINreturns all rows from the left table and matched rows from the right table, with unmatched rows from the right table filled with NULLs.",
+    "source": "https://www.geeksforgeeks.org/data-science/sql-questions-for-data-analyst-interview/",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. How do you find the top 5 highest sales amounts?",
+    "answer": "Example:\"SELECT amount FROM sales ORDER BY amount DESC LIMIT 5;\"",
+    "source": "https://www.geeksforgeeks.org/data-science/sql-questions-for-data-analyst-interview/",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "11. What is a subquery, and how can you use it in theWHEREclause?",
+    "answer": "A subquery is a query within another query used to perform operations based on the results of the outer query.",
+    "source": "https://www.geeksforgeeks.org/data-science/sql-questions-for-data-analyst-interview/",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "13. How do you calculate the average of a column?",
+    "answer": "Use theAVG()function to calculate the average value.",
+    "source": "https://www.geeksforgeeks.org/data-science/sql-questions-for-data-analyst-interview/",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. Mention the differences between Data Mining and Data Profiling?",
+    "answer": "Data Wranglingis the process wherein raw data is cleaned, structured, and enriched into a desired usable format for better decision making. It involves discovering, structuring, cleaning, enriching, validating, and analyzing data. This process can turn and map out large amounts of data extracted from various sources into a more useful format. Techniques such as merging, grouping, concatenating, joining, and sorting are used to analyze the data. Thereafter it gets ready to be used with another dataset.",
+    "source": "https://www.simplilearn.com/tutorials/data-analytics-tutorial/data-analyst-interview-questions",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are the various steps involved in any analytics project?",
+    "answer": "This is one of the most basic data analyst interview questions. The various steps involved in any common analytics projects are as follows:",
+    "source": "https://www.simplilearn.com/tutorials/data-analytics-tutorial/data-analyst-interview-questions",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What are the common problems that data analysts encounter during analysis?",
+    "answer": "The common problems steps involved in any analytics project are:",
+    "source": "https://www.simplilearn.com/tutorials/data-analytics-tutorial/data-analyst-interview-questions",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. Which are the technical tools that you have used for analysis and presentation purposes?",
+    "answer": "As a data analyst, you are expected to know the tools mentioned below for analysis and presentation purposes. Some of thepopular toolsyou should know are:",
+    "source": "https://www.simplilearn.com/tutorials/data-analytics-tutorial/data-analyst-interview-questions",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What are the best methods for data cleaning?",
+    "answer": "Create a data cleaning plan by understanding where the common errors take place and keep all the communications open.",
+    "source": "https://www.simplilearn.com/tutorials/data-analytics-tutorial/data-analyst-interview-questions",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is the significance of Exploratory Data Analysis (EDA)?",
+    "answer": "Exploratory data analysis (EDA) helps to understand the data better.",
+    "source": "https://www.simplilearn.com/tutorials/data-analytics-tutorial/data-analyst-interview-questions",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What are the different types of sampling techniques used by data analysts?",
+    "answer": "Sampling is a statistical method to select a subset of data from an entire dataset (population) to estimate the characteristics of the whole population.Â",
+    "source": "https://www.simplilearn.com/tutorials/data-analytics-tutorial/data-analyst-interview-questions",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "11. What are your strengths and weaknesses as a data analyst?",
+    "answer": "The answer to this question may vary from a case to case basis. However, some general strengths of a data analyst may include strong analytical skills, attention to detail, proficiency in data manipulation and visualization, and the ability to derive insights from complex datasets. Weaknesses could include limited domain knowledge, lack of experience with certain data analysis tools or techniques, or challenges in effectively communicating technical findings to non-technical stakeholders.",
+    "source": "https://www.simplilearn.com/tutorials/data-analytics-tutorial/data-analyst-interview-questions",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Pattern Matching in SQL?",
+    "answer": "SQL pattern matching provides for pattern search in data if you have no clue as to what that word should be. This kind of SQL query uses wildcards to match a string pattern, rather than writing the exact word. The LIKE operator is used in conjunction withSQL Wildcardsto fetch the required information.",
+    "source": "https://www.interviewbit.com/sql-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How to create empty tables with the same structure as another table?",
+    "answer": "Creating empty tables with the same structure can be done smartly by fetching the records of one table into a new table using the INTO operator while fixing a WHERE clause to be false for all records. Hence, SQL prepares the new table with a duplicate structure to accept the fetched records but since no records get fetched due to the WHERE clause in action, nothing is inserted into the new table.",
+    "source": "https://www.interviewbit.com/sql-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is a Recursive Stored Procedure?",
+    "answer": "A stored procedure that calls itself until a boundary condition is reached, is called a recursive stored procedure. This recursive function helps the programmers to deploy the same set of code several times as and when required. Some SQL programming languages limit the recursion depth to prevent an infinite loop of procedure calls from causing a stack overflow, which slows down the system and may lead to system crashes.",
+    "source": "https://www.interviewbit.com/sql-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is a Stored Procedure?",
+    "answer": "A stored procedure is a subroutine available to applications that access a relational database management system (RDBMS). Such procedures are stored in the database data dictionary. The sole disadvantage of stored procedure is that it can be executed nowhere except in the database and occupies more memory in the database server. It also provides a sense of security and functionality as users who can't access the data directly can be granted access via stored procedures.",
+    "source": "https://www.interviewbit.com/sql-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is Collation? What are the different types of Collation Sensitivity?",
+    "answer": "Collation refers to a set of rules that determine how data is sorted and compared. Rules defining the correct character sequence are used to sort the character data. It incorporates options for specifying case sensitivity, accent marks, kana character types, and character width. Below are the different types of collation sensitivity:",
+    "source": "https://www.interviewbit.com/sql-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What are the differences between OLTP and OLAP?",
+    "answer": "OLAPstands forOnline Analytical Processing, a class of software programs that are characterized by the relatively low frequency of online transactions. Queries are often too complex and involve a bunch of aggregations. For OLAP systems, the effectiveness measure relies highly on response time. Such systems are widely used for data mining or maintaining aggregated, historical data, usually in multi-dimensional schemas.",
+    "source": "https://www.interviewbit.com/sql-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is User-defined function? What are its various types?",
+    "answer": "The user-defined functions in SQL are like functions in any other programming language that accept parameters, perform complex calculations, and return a value. They are written to use the logic repetitively whenever required. There are two types of SQL user-defined functions:",
+    "source": "https://www.interviewbit.com/sql-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is a UNIQUE constraint?",
+    "answer": "A UNIQUE constraint ensures that all values in a column are different. This provides uniqueness for the column(s) and helps identify each row uniquely. Unlike primary key, there can be multiple unique constraints defined per table. The code syntax for UNIQUE is quite similar to that of PRIMARY KEY and can be used interchangeably.",
+    "source": "https://www.interviewbit.com/sql-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is SQL?",
+    "answer": "SQL (Structured Query Language) is a standard programming language used to communicate withrelational databases. It allows users to create, read, update, and delete data, and provides commands to definedatabase schemaand manage database security.",
+    "source": "https://www.geeksforgeeks.org/sql/sql-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What is a database?",
+    "answer": "Adatabaseis anorganized collection of datastored electronically, typically structured in tables with rows and columns. It is managed by adatabase management system(DBMS), which allows for efficientstorage,retrieval, andmanipulationof data.",
+    "source": "https://www.geeksforgeeks.org/sql/sql-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are the main types of SQL commands?",
+    "answer": "SQL commands are broadly classified into:",
+    "source": "https://www.geeksforgeeks.org/sql/sql-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is the difference between CHAR and VARCHAR2 data types?",
+    "answer": "Aprimary keyis a unique identifier for each record in a table. It ensures that no two rows have the same value in the primary key column(s), and it does not allow NULL values.",
+    "source": "https://www.geeksforgeeks.org/sql/sql-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is a primary key?",
+    "answer": "Aprimary keyis a unique identifier for each record in a table. It ensures that no two rows have the same value in the primary key column(s), and it does not allow NULL values.",
+    "source": "https://www.geeksforgeeks.org/sql/sql-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is a foreign key?",
+    "answer": "Aforeign keyis a column (or set of columns) in one table that refers to the primary key in another table. It establishes and enforces a relationship between the two tables, ensuring data integrity.",
+    "source": "https://www.geeksforgeeks.org/sql/sql-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is the purpose of the DEFAULT constraint?",
+    "answer": "TheDEFAULT constraintassigns a default value to a column when no value is provided during anINSERT operation. This helps maintain consistent data and simplifies data entry.",
+    "source": "https://www.geeksforgeeks.org/sql/sql-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is normalization in databases?",
+    "answer": "Normalizationis the process of organizing data in a database toreduce redundancyandimprove data integrity. This involves dividing large tables into smaller, related tables and defining relationships between them to ensure consistency and avoid anomalies.",
+    "source": "https://www.geeksforgeeks.org/sql/sql-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is SQL and why is it important for Business Analysts?",
+    "answer": "SQL(Structured Query Language)is used to interact with relational databases. Business Analysts use SQL to extract insights from data, generate reports, and support data-driven decision-making. It allows them to retrieve specific data points, filter datasets and perform aggregations, making it a crucial tool for analytical roles.",
+    "source": "https://www.geeksforgeeks.org/30-sql-interview-questions-for-business-analyst-in-2025/?ref=next_article",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. How do you retrieve all records from a table?",
+    "answer": "To retrieve all records from a table, use the SELECT * statement, which fetches all columns and rows from the specified table",
+    "source": "https://www.geeksforgeeks.org/30-sql-interview-questions-for-business-analyst-in-2025/?ref=next_article",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is the WHERE clause used for?",
+    "answer": "TheWHEREclause filters records based on specified conditions, retrieving only relevant rows before aggregation or grouping in a SQL query.",
+    "source": "https://www.geeksforgeeks.org/30-sql-interview-questions-for-business-analyst-in-2025/?ref=next_article",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is the purpose of the GROUP BY clause?",
+    "answer": "GROUP BYis used to group rows that have the same values in specified columns. It is typically used with aggregate functions such as COUNT, SUM, AVG, etc.",
+    "source": "https://www.geeksforgeeks.org/30-sql-interview-questions-for-business-analyst-in-2025/?ref=next_article",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. How is HAVING different from WHERE?",
+    "answer": "This retrieves departments where the average salary exceeds 50,000.",
+    "source": "https://www.geeksforgeeks.org/30-sql-interview-questions-for-business-analyst-in-2025/?ref=next_article",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is an INNER JOIN?",
+    "answer": "AnINNER JOINcombines records from two tables based on a matching column. It returns only rows where there is a match in both tables",
+    "source": "https://www.geeksforgeeks.org/30-sql-interview-questions-for-business-analyst-in-2025/?ref=next_article",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is a subquery?",
+    "answer": "Asubqueryis a query nested inside another query. It is used to retrieve data that will be used as a condition in the main query.",
+    "source": "https://www.geeksforgeeks.org/30-sql-interview-questions-for-business-analyst-in-2025/?ref=next_article",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. How do you update records in a table?",
+    "answer": "To update records in a table, use the UPDATE statement with the SET clause to modify specific column values and the WHERE clause to specify which rows to update.",
+    "source": "https://www.geeksforgeeks.org/30-sql-interview-questions-for-business-analyst-in-2025/?ref=next_article",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What does a data analyst do, and how does data analysis differ from data analytics?",
+    "answer": "A data analyst collects, processes, and interprets data to help businesses make informed decisions.Data analysis is the process of examining datasets, while on the other hand, data analytics is a broader field that includes the tools and methods used for analysis, prediction, and automation.",
+    "source": "https://roadmap.sh/questions/data-analyst",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What steps do you follow in the data analysis process when working with raw data?",
+    "answer": "It's usually a good idea to follow a five-step process when working with raw data:Understand the problem: Begin by clearly defining the problem to solve, identifying the business objective, and determining what kind of insight is required to obtain (this is the end goal after all).Collect the data: Once the objective is clear, gather the data. This data can come from databases, APIs, spreadsheets, or even third-party sources.Clean and organize the data: We'll want to clean the data by removing duplicates, handling absent values, and standardizing formats.Explore the data through visualizations: With the clean data, start playing around with different visualizations to explore trends, distributions, and relationships.Draw conclusions based on findings: Finally, analyze the data in the context of the original problem and use the results to draw insights.",
+    "source": "https://roadmap.sh/questions/data-analyst",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How would you approach cleaning data and handling missing data in a dataset?",
+    "answer": "Cleaning data and handling the lack of some values typically involves several steps:Identify missing or inconsistent data: We first have to scan the dataset for null values, anomalies, or formatting issues that could be caused by errors.Assess the impact of missing values: We then evaluate how much data is missing and determine how critical those fields are to the analysis.Select a handling strategy: Next, we choose whether to fill in missing data (imputation), exclude affected rows, or flag incomplete records. It all depends on the business context, of course.Impute or remove values: If you're going to impute data, use methods such as mean, median, or mode imputation, to calculate the missing values in a way that makes sense to the context of the data. Otherwise, just remove records with excessive gaps if necessary.Verify the cleaned dataset: Run data validation checks to ensure that the cleaning process preserved data integrity and did not introduce bias.",
+    "source": "https://roadmap.sh/questions/data-analyst",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is exploratory data analysis, and why is it important when analyzing data?",
+    "answer": "EDA is a critical initial step in any data project, often using visual methods to understand the data.It helps data analysts identify patterns, spot anomalies, test assumptions, and understand the structure and distribution of data. The output of your EDA will act as the input for the selection of appropriate models and methods for deeper analysis, ultimately reducing the risk of inaccuracy in the final results.",
+    "source": "https://roadmap.sh/questions/data-analyst",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How do you ensure data quality when you collect data from various data sources?",
+    "answer": "Ensuring quality involves validating the accuracy, completeness, consistency, and reliability of the data collected from each source. The fact that you do it from one source or multiple is almost irrelevant since the only extra task would be to homogenize the final schema of the data, ensuring deduplication and normalization.This last part typically includes verifying the credibility of each data source, standardizing formats (like date/time or currency), performing schema alignment, and running profiling to detect anomalies, duplicates, or mismatches before integrating the data for analysis.",
+    "source": "https://roadmap.sh/questions/data-analyst",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What role does data visualization play in your analysis, and which data visualization tools have you used?",
+    "answer": "Data visualization plays a vital role in making data accessible and understandable by turning raw numbers into visual formats that reveal trends, correlations, and outliers. After all, it helps analysts explore data by summarizing endless rows of values into simple representations that can communicate findings effectively to non-technical stakeholders.Common tools for this purpose include Excel or Google Spreadsheets for quick visuals, Tableau and Power BI for interactive dashboards, and Python libraries like Matplotlib and Seaborn for custom plots.",
+    "source": "https://roadmap.sh/questions/data-analyst",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Can you explain what data wrangling is and why it is crucial when working with unstructured data?",
+    "answer": "It is the process of cleaning, structuring, and enriching data into a desired format so that it can be analyzed further down the pipeline.It is especially useful with data that lacks structure, such as text files, emails, or social media posts, because these formats need to be parsed, standardized, and transformed before they can be analyzed.",
+    "source": "https://roadmap.sh/questions/data-analyst",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is data profiling, and how does it help you identify incorrect values?",
+    "answer": "Profiling is the process of examining the data available in an existing dataset and collecting statistics and summaries about that data. While it might be confused with EDA, profiling can instead be considered as the first step of EDA, helping to identify quality issues such as null values, duplicate records, outliers, and unexpected formats. Thus allowing analysts to correct or address these problems before they start looking for patterns and outliers as part of the exploratory analysis.",
+    "source": "https://roadmap.sh/questions/data-analyst",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is MySQL and How does it differ from other relational databases?",
+    "answer": "MySQL is anopen-sourcerelational database management system (RDBMS) that is widely used formanaging structured data. It utilizes SQL (Structured Query Language) forqueryingandmanaging data. MySQL is known for its reliability, scalability, and performance, making it a popular choice for various applications",
+    "source": "https://www.geeksforgeeks.org/sql/mysql-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How to create a database in MySQL?",
+    "answer": "To create a database in MySQL, we can use theCREATE DATABASEstatement followed by the name we want to give to our database. For example:",
+    "source": "https://www.geeksforgeeks.org/sql/mysql-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. Explain the differences between SQL and MySQL?",
+    "answer": "Batch mode in MySQLis used to execute a series of SQL queries from a file (often referred to as a batch file). The file contains multiple SQL statements that are executed in sequence. Here's the correct way to run MySQL in batch mode:",
+    "source": "https://www.geeksforgeeks.org/sql/mysql-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is the MySQL server's default port?",
+    "answer": "The default port for MySQL server is3306. This is the port number used by MySQL to communicate with clients and other services by default, unless it is configured to use a different port in the MySQL configuration file (my.cnformy.ini).",
+    "source": "https://www.geeksforgeeks.org/sql/mysql-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. How can we learn batch mode in MySQL?",
+    "answer": "Batch mode in MySQLis used to execute a series of SQL queries from a file (often referred to as a batch file). The file contains multiple SQL statements that are executed in sequence. Here's the correct way to run MySQL in batch mode:",
+    "source": "https://www.geeksforgeeks.org/sql/mysql-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. How many different tables are present in MySQL?",
+    "answer": "There are severalstorage enginesin MySQL, and the table types depend on which storage engine is used. The common storage engines are:",
+    "source": "https://www.geeksforgeeks.org/sql/mysql-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What arethe differences between CHAR and VARCHAR data types in MySQL?",
+    "answer": "In theLIKEstatement, the%and_symbols are used for pattern matching:",
+    "source": "https://www.geeksforgeeks.org/sql/mysql-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What isDifference between CHAR_LENGTH and LENGTH?",
+    "answer": "In theLIKEstatement, the%and_symbols are used for pattern matching:",
+    "source": "https://www.geeksforgeeks.org/sql/mysql-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "SQL",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is the Importance of Excel in Data Analysis?",
+    "answer": "Excel remains one of the most essential tools in a data analyst's toolkit. While newer tools likePythonandPower BIare gaining popularity, Excel is still widely used for quick data analysis, reporting, and dashboard creation especially in interviews where practical Excel knowledge is expected.",
+    "source": "https://www.geeksforgeeks.org/excel/top-excel-interview-questions-for-data-analysis/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is a spreadsheet, and what are its fundamental components?",
+    "answer": "Excel spreadsheets are grids of cells used for data organization, analysis, and storage. Its fundamental components are cells, columns, rows, and calculation formulas.",
+    "source": "https://www.geeksforgeeks.org/excel/top-excel-interview-questions-for-data-analysis/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is a Ribbon in Excel?",
+    "answer": "The menu at the top of Excel is called the Ribbon, and it has tabs like \"Home\" and \"Insert.\" Common operations may be found there, including formatting, charting, and sorting.",
+    "source": "https://www.geeksforgeeks.org/excel/top-excel-interview-questions-for-data-analysis/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How many cell formats are possible in Microsoft Excel?",
+    "answer": "Depending on the kind of workbook receiving the message determines the format limit: Excel XLS file has 4000 unique possible formats, and XLSX file has 64,000 cell formats.",
+    "source": "https://www.geeksforgeeks.org/excel/top-excel-interview-questions-for-data-analysis/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How Do You Clear Formatting in Excel Without Removing the Cell Content?",
+    "answer": "Cell referencesin Excel are addresses that identify the location of a cell. They can be relative, absolute, or mixed. Relative references change when copied, absolute references stay constant, and mixed references combine both.",
+    "source": "https://www.geeksforgeeks.org/excel/top-excel-interview-questions-for-data-analysis/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What are cell references?",
+    "answer": "Cell referencesin Excel are addresses that identify the location of a cell. They can be relative, absolute, or mixed. Relative references change when copied, absolute references stay constant, and mixed references combine both.",
+    "source": "https://www.geeksforgeeks.org/excel/top-excel-interview-questions-for-data-analysis/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is the difference between a function and a formula in Excel?",
+    "answer": "Excel formulas function similarly to math instructions, giving it how to add or compute things (for example, =C3+C4). Functions are shortcuts for typical calculations, with over 500 built-in options such as SUM and MULTIPLY, making difficult maths easy without typing everything out.",
+    "source": "https://www.geeksforgeeks.org/excel/top-excel-interview-questions-for-data-analysis/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How do you split information in a column into two or more columns?",
+    "answer": "To divide the text, use the \"Text to Columns\" feature. To convert text to columns, choose the column, then click the \"Data\" tab, then choose \"Text to Columns,\" and last, choose a delimiter (such as a space or comma). Data will be separated into new columns in Excel.",
+    "source": "https://www.geeksforgeeks.org/excel/top-excel-interview-questions-for-data-analysis/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is a cell address in Excel?Â",
+    "answer": "A cell address is used to identify a particular cell on aworksheet. It is denoted by a combination of the respective column letter and a row number.Â",
+    "source": "https://www.simplilearn.com/tutorials/excel-tutorial/excel-interview-questions",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Data Analytics with Python or R? Why Not Both?!",
+    "answer": "In Relative referencing, there is a change when copying a formula from one cell to another cell with respect to the destination. cellsâ addressÂ",
+    "source": "https://www.simplilearn.com/tutorials/excel-tutorial/excel-interview-questions",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What do you mean by Relative cell referencing and Absolute cell referencing in MS Excel?",
+    "answer": "In Relative referencing, there is a change when copying a formula from one cell to another cell with respect to the destination. cellsâ addressÂ",
+    "source": "https://www.simplilearn.com/tutorials/excel-tutorial/excel-interview-questions",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. How do you freeze panes in Excel?",
+    "answer": "Freeze paneskeep the rows and columns visible while scrolling through a worksheet. To freeze panes, select the View tab and go to Freeze Panes.",
+    "source": "https://www.simplilearn.com/tutorials/excel-tutorial/excel-interview-questions",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. How can you restrict someone from copying a cell from your worksheet?",
+    "answer": "1. First, choose the data you want to protect.",
+    "source": "https://www.simplilearn.com/tutorials/excel-tutorial/excel-interview-questions",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. How is a Formula different from a Function in Excel?",
+    "answer": "The formula is like an equation in Excel, the user types in that. It can be any type of calculation depending on the userâs choice.",
+    "source": "https://www.simplilearn.com/tutorials/excel-tutorial/excel-interview-questions",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Did You Know? ð",
+    "answer": "To write a formula for the above-stated question, we have to follow the PEDMAS Precedence. The correct answer is ((A1*10)+5)/2.",
+    "source": "https://www.simplilearn.com/tutorials/excel-tutorial/excel-interview-questions",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. How will you write the formula for the following? - Multiply the value in cell A1 by 10, add the result by 5, and divide it by 2.",
+    "answer": "To write a formula for the above-stated question, we have to follow the PEDMAS Precedence. The correct answer is ((A1*10)+5)/2.",
+    "source": "https://www.simplilearn.com/tutorials/excel-tutorial/excel-interview-questions",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What are wildcards in Excel?",
+    "answer": "Asterisk(*):It represents zero or more characters. Ex*, for instance, might stand for Excel, Extra, Expertise, etc.",
+    "source": "https://www.interviewbit.com/excel-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. Which two macro languages are there in Microsoft Excel?",
+    "answer": "VBAandXLM(Visual Basic Applications). XLM was utilized in Excel's past editions. VBA was first used in Excel 5 and is now primarily used.",
+    "source": "https://www.interviewbit.com/excel-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What is a macro in excel?",
+    "answer": "Users can automate straightforward, repetitive chores and instructions using macros. For instance, rather than having to manually calculate sales, profits, losses, etc. every day, you could develop a macro that automatically calculates them at the end of the day and use it going ahead. Macros can be recorded and played at a later time or written down for use. Either go to the Developer tab and select Record Macro or go to the View tab to access it.",
+    "source": "https://www.interviewbit.com/excel-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What is a pivot table?",
+    "answer": "One of Excel's most effective tools, a pivot table is always helpful when examining data. Excel pivot tables let you easily count, compare patterns, and confirm data trends while also analyzing large amounts of data.",
+    "source": "https://www.interviewbit.com/excel-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. How do you create a pivot table?",
+    "answer": "It's not as difficult as it first appears to make a pivot table. To get the most out of this process, it is necessary to be aware of all its specifics.",
+    "source": "https://www.interviewbit.com/excel-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "11. How does a slicer work in Excel?",
+    "answer": "Excel uses slicers to easily filter Pivot Tables. Even more, you can link numerous slicers to numerous pivot tables.",
+    "source": "https://www.interviewbit.com/excel-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "12. What are the steps to split a column into two or more columns?",
+    "answer": "The following are the steps to split a column into two or more:",
+    "source": "https://www.interviewbit.com/excel-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "13. What is a cell address?",
+    "answer": "On a worksheet, a specific cell is identified by its cell address. It is determined by the appropriate column letter and the corresponding row number.",
+    "source": "https://www.interviewbit.com/excel-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is Microsoft Excel?",
+    "answer": "Microsoft Excelis a spreadsheet application used for organizing, analyzing, and visualizing data. It provides tools for creating calculations, charts, and data models, making it an essential tool for professionals in various industries.",
+    "source": "https://www.geeksforgeeks.org/excel/excel-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What is a cell in Excel?",
+    "answer": "A cell is the smallest unit in an Excel worksheet, located at the intersection of a row and column. It’s where you enter data, which can be text, numbers, or formulas. Each cell is identified by its address, such as A1.",
+    "source": "https://www.geeksforgeeks.org/excel/excel-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. How do you save a file in Excel?",
+    "answer": "You can save your file using theexcel shortcutCtrl + Sor by navigating toFile > Save As. This allows you to save your work in various formats, including .xlsx, .xls, or .csv.",
+    "source": "https://www.geeksforgeeks.org/excel/excel-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What is a workbook in Excel?",
+    "answer": "A workbook is an Excel file that contains one or more worksheets. It allows you to organize related data into multiple sheets for easier analysis and management.",
+    "source": "https://www.geeksforgeeks.org/excel/excel-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. How do you insert a new worksheet?",
+    "answer": "To insert a worksheet, click the+button at the bottom of the screen or use the shortcutShift + F11. This creates a blank worksheet within the same workbook.",
+    "source": "https://www.geeksforgeeks.org/excel/excel-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What is the Ribbon in Excel?",
+    "answer": "The Ribbon is the toolbar at the top of Excel that contains various tabs and commands. It is divided into sections like Home, Insert, Data, and Formulas, each offering specific tools for your tasks.",
+    "source": "https://www.geeksforgeeks.org/excel/excel-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. How do you use Undo and Redo in Excel?",
+    "answer": "Undo allows you to reverse your last action (Ctrl + Z), while Redo re-applies an undone action (Ctrl + Y). These shortcuts are useful for correcting mistakes or reapplying changes.",
+    "source": "https://www.geeksforgeeks.org/excel/excel-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What is the shortcut for copying data?",
+    "answer": "UseCtrl + Cto copy andCtrl + Vto paste data. This is a quick way to duplicate data or formulas between cells.",
+    "source": "https://www.geeksforgeeks.org/excel/excel-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What do you mean by Data Analysis?",
+    "answer": "Data analysisis a multidisciplinary field of data science, in which data is analyzed using mathematical, statistical, and computer science with domain expertise to discover useful information or patterns from the data. It involves gathering, cleaning, transforming, and organizing data to draw conclusions, forecast, and make informed decisions. The purpose of data analysis is to turn raw data into actionable knowledge that may be used to guide decisions, solve issues, or reveal hidden trends.",
+    "source": "https://www.geeksforgeeks.org/data-science/data-analyst-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. How do data analysts differ from data scientists?",
+    "answer": "Data analystsandData Scientistscan be recognized by their responsibilities, skill sets, and areas of expertise. Sometimes the roles of data analysts and data scientists may conflict or not be clear.",
+    "source": "https://www.geeksforgeeks.org/data-science/data-analyst-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. How Data analysis is similar to Business Intelligence?",
+    "answer": "Data analysis andBusiness intelligenceare both closely related fields, Both use data and make analysis to make better and more effective decisions. However, there are some key differences between the two.",
+    "source": "https://www.geeksforgeeks.org/data-science/data-analyst-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What are the different tools mainly used for data analysis?",
+    "answer": "There are different tools used for data analysis. each has some strengths and weaknesses. Some of the most commonly used tools for data analysis are as follows:",
+    "source": "https://www.geeksforgeeks.org/data-science/data-analyst-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is Data Wrangling?",
+    "answer": "Data Wranglingis very much related concepts toData Preprocessing. It's also known as Data munging. It involves the process of cleaning, transforming, and organizing the raw, messy or unstructured data into a usable format. The main goal of data wrangling is to improve the quality and structure of the dataset. So, that it can be used for analysis, model building, and other data-driven tasks.",
+    "source": "https://www.geeksforgeeks.org/data-science/data-analyst-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What is the difference between descriptive and predictive analysis?",
+    "answer": "Descriptiveandpredictiveanalysis are the two different ways to analyze the data.",
+    "source": "https://www.geeksforgeeks.org/data-science/data-analyst-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What is univariate, bivariate, and multivariate analysis?",
+    "answer": "Univariate, Bivariate and multivariate are the three different levels of data analysis that are used to understand the data.",
+    "source": "https://www.geeksforgeeks.org/data-science/data-analyst-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What are the steps you would take to analyze a dataset?",
+    "answer": "Data analysis involves a series of steps that transform raw data into relevant insights, conclusions, and actionable suggestions. While the specific approach will vary based on the context and aims of the study, here is an approximate outline of the processes commonly followed in data analysis:",
+    "source": "https://www.geeksforgeeks.org/data-science/data-analyst-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Data Analysis?",
+    "answer": "Data analysis is basically a process of analyzing, modeling, and interpreting data to draw insights or conclusions. With the insights gained, informed decisions can be made.  It is used by every industry, which is why data analysts are in high demand. A Data Analyst's sole responsibility is to play around with large amounts of data and search for hidden insights. By interpreting a wide range of data, data analysts assist organizations in understanding the business's current state.",
+    "source": "https://www.interviewbit.com/data-analyst-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What do you mean by collisions in a hash table? Explain the ways to avoid it.",
+    "answer": "Hash table collisions are typically caused when two keys have the same index. Collisions, thus, result in a problem because two elements cannot share the same slot in an array. The following methods can be used to avoid such hash collisions:",
+    "source": "https://www.interviewbit.com/data-analyst-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What are the ways to detect outliers? Explain different ways to deal with it.",
+    "answer": "Outliers are detected using two methods:",
+    "source": "https://www.interviewbit.com/data-analyst-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What is the data analysis process?",
+    "answer": "Data analysis generally refers to the process of assembling, cleaning, interpreting, transforming, and modeling data to gain insights or conclusions and generate reports to help businesses become more profitable.  The following diagram illustrates the various steps involved in the process:",
+    "source": "https://www.interviewbit.com/data-analyst-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What are the different challenges one faces during data analysis?",
+    "answer": "While analyzing data, a Data Analyst can encounter the following issues:",
+    "source": "https://www.interviewbit.com/data-analyst-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What are the tools useful for data analysis?",
+    "answer": "Some of the tools useful for data analysis include:",
+    "source": "https://www.interviewbit.com/data-analyst-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. Which validation methods are employed by data analysts?",
+    "answer": "In the process of data validation, it is important to determine the accuracy of the information as well as the quality of the source. Datasets can be validated in many ways. Methods of data validation commonly used by Data Analysts include:",
+    "source": "https://www.interviewbit.com/data-analyst-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "11. What are the responsibilities of a Data Analyst?",
+    "answer": "Some of the responsibilities of adata analystinclude:",
+    "source": "https://www.interviewbit.com/data-analyst-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Excel",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. Is Python a compiled language or an interpreted language?",
+    "answer": "Please remember one thing, whether a language is compiled or interpreted or both is not defined in the language standard. In other words, it is not a properly of a programming language. Different Python distributions (or implementations) choose to do different things (compile or interpret or both).  However the most common implementations like CPython do both compile and interpret, but in different stages of its execution process.",
+    "source": "https://www.geeksforgeeks.org/python/python-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How can you concatenate two lists in Python?",
+    "answer": "We can concatenate two lists in Python using the +operator or theextend()method.",
+    "source": "https://www.geeksforgeeks.org/python/python-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. How do you floor a number in Python?",
+    "answer": "To floor a number in Python, you can use the math.floor() function, which returns the largest integer less than or equal to the given number.",
+    "source": "https://www.geeksforgeeks.org/python/python-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is the difference between / and // in Python?",
+    "answer": "/ represents precise division (result is a floating point number) whereas // represents floor division (result is an integer). For Example:",
+    "source": "https://www.geeksforgeeks.org/python/python-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. Is Indentation Required in Python?",
+    "answer": "Yes,indentationis required in Python. A Python interpreter can be informed that a group of statements belongs to a specific block of code by using Python indentation. Indentations make the code easy to read for developers in all programming languages but in Python, it is very important to indent the code in a specific order.",
+    "source": "https://www.geeksforgeeks.org/python/python-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. Can we Pass a function as an argument in Python?",
+    "answer": "Yes, Several arguments can be passed to a function, including objects, variables (of the same or distinct data types) and functions.Functions can be passedas parameters to other functions because they are objects. Higher-order functions are functions that can take other functions as arguments.",
+    "source": "https://www.geeksforgeeks.org/python/python-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is a dynamically typed language?",
+    "answer": "Here, the type of x changes at runtime based on the assigned value hence it shows dynamic nature of Python.",
+    "source": "https://www.geeksforgeeks.org/python/python-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is pass in Python?",
+    "answer": "Here, fun() does nothing, but the code stays syntactically correct.",
+    "source": "https://www.geeksforgeeks.org/python/python-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1.  What is __init__?",
+    "answer": "__init__is a contructor method in Python and is automatically called to allocate memory when a new object/instance is created. All classes have a__init__method associated with them. It helps in distinguishing methods and attributes of a class from local variables.",
+    "source": "https://www.interviewbit.com/python-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What is the difference between Python Arrays and lists?",
+    "answer": "Arrays in python can only contain elements of same data types i.e., data type of array should be homogeneous. It is a thin wrapper around C language arrays and consumes far less memory than lists.",
+    "source": "https://www.interviewbit.com/python-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. Explain how can you make a Python Script executable on Unix?",
+    "answer": "Script file must begin with#!/usr/bin/env python",
+    "source": "https://www.interviewbit.com/python-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is slicing in Python?",
+    "answer": "As the name suggests, ‘slicing’ is taking parts of.",
+    "source": "https://www.interviewbit.com/python-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is docstring in Python?",
+    "answer": "Documentation string or docstring is a multiline string used to document a specific code segment.",
+    "source": "https://www.interviewbit.com/python-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What are unit tests in Python?",
+    "answer": "Unit test is a unit testing framework of Python.",
+    "source": "https://www.interviewbit.com/python-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is the use of self in Python?",
+    "answer": "Selfis used to represent the instance of the class. With this keyword, you can access the attributes and methods of the class in python. It binds the attributes with the given arguments. self is used in different places and often thought to be a keyword. But unlike in C++, self is not a keyword in Python.",
+    "source": "https://www.interviewbit.com/python-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What are global, protected and private attributes in Python?",
+    "answer": "Globalvariables are public variables that are defined in the global scope. To use the variable in the global scope inside a function, we use theglobalkeyword.",
+    "source": "https://www.interviewbit.com/python-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q.6How would you count the occurrences of each element in a list?",
+    "answer": "we use Python'sCounterfrom thecollectionsmodule to count how often each element appears in a list. Let's do the implementation:",
+    "source": "https://www.geeksforgeeks.org/data-science/data-science-coding-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q.7 How would you load a CSV file into a Pandas DataFrame?",
+    "answer": "we can load a csv file into the pandas DataFrame like we have implemented .You can also do this for  any csv file",
+    "source": "https://www.geeksforgeeks.org/data-science/data-science-coding-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q.9  How would you extract the diagonal elements of a Numpy matrix?",
+    "answer": "In this question we have to retreive the diagonal elements in the numpy matrix and we do this with the help of a function called 'np.diagonal'.",
+    "source": "https://www.geeksforgeeks.org/data-science/data-science-coding-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q 12. How would you handle missing values in a DataFrame?",
+    "answer": "fillna()replaces missing values with the mean of each column, whiledropna()removes rows with any missing values.",
+    "source": "https://www.geeksforgeeks.org/data-science/data-science-coding-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q 13. How do you read and write data from a file in Python?",
+    "answer": "Toreadandwritedata from file in Python, we use thebuilt-inopen()function, which provides a way to open a file and perform various operations on it, such as reading or writing.",
+    "source": "https://www.geeksforgeeks.org/data-science/data-science-coding-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q 19.How can you return JSON data in a Flask route?",
+    "answer": "To return JSON data, you can use the jsonify() function, which converts Python dictionaries to JSON format.This route will return the dictionary as a JSON response.",
+    "source": "https://www.geeksforgeeks.org/data-science/data-science-coding-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q 20. How do you create a simple “Hello, World!” app in Flask?",
+    "answer": "To create a simple Flask app, you define a route using the @app.route() decorator and return a response from a view function. This will start a basic Flask app that responds with “Hello, World!” when the root URL is accessed",
+    "source": "https://www.geeksforgeeks.org/data-science/data-science-coding-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q 21.Can you explain how Flask handles HTTP methods like GET and POST?",
+    "answer": "Flask allows you to specify which HTTP methods a route should respond to by using themethodsparameter in the@app.route()decorator. By default, Flask routes respond to GET requests, but you can specify others such as POST, PUT, DELETE, etc",
+    "source": "https://www.geeksforgeeks.org/data-science/data-science-coding-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is the difference betweenisand==in Python?",
+    "answer": "Here are the most commonly used Python libraries in data science:",
+    "source": "https://www.geeksforgeeks.org/data-science/50-python-interview-questions-for-data-science/",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are some of the most common Python libraries that are used in data science?",
+    "answer": "Here are the most commonly used Python libraries in data science:",
+    "source": "https://www.geeksforgeeks.org/data-science/50-python-interview-questions-for-data-science/",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is NumPy, and why is it important for data science?",
+    "answer": "NumPy is a Python library for numerical computing, offering efficient handling of large arrays and matrices. It's crucial for data science due to its:",
+    "source": "https://www.geeksforgeeks.org/data-science/50-python-interview-questions-for-data-science/",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. How do we create a NumPy array?",
+    "answer": "We can create a NumPy array usingnumpy.array(), passing a list or tuple as input.",
+    "source": "https://www.geeksforgeeks.org/data-science/50-python-interview-questions-for-data-science/",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What are list comprehensions, and how are they useful in data science?",
+    "answer": "List comprehensionsprovide a concise way to create lists.  They allow us to generate a new list by applying an expression to each item in an existing iterable, optionally filtering elements based on a condition.",
+    "source": "https://www.geeksforgeeks.org/data-science/50-python-interview-questions-for-data-science/",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. How can we remove duplicates from a list in Python, and why is this important in data science?",
+    "answer": "We can remove duplicates by converting the list to a set. This is important in data science for ensuring that datasets are clean and free from redundant entries before analysis.",
+    "source": "https://www.geeksforgeeks.org/data-science/50-python-interview-questions-for-data-science/",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is Pandas, and why do we use it in data science?",
+    "answer": "In data science,Pandasis essential for working with large datasets, performing data wrangling and conducting exploratory data analysis (EDA). Its intuitive syntax and wide range of functions make it an invaluable tool for handling time-series data, missing values and more.",
+    "source": "https://www.geeksforgeeks.org/data-science/50-python-interview-questions-for-data-science/",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. How do we read a CSV file in Pandas?",
+    "answer": "To read a CSV file in Pandas, we use theread_csvfunction:",
+    "source": "https://www.geeksforgeeks.org/data-science/50-python-interview-questions-for-data-science/",
+    "role": "Data Analyst",
+    "skill": "Python",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q1. What are Pandas?",
+    "answer": "Pandasis an open-source Python library that is built on top of the NumPy library. It is made for working with relational or labelled data. It provides various data structures for manipulating, cleaning and analyzing numerical data. It can easily handle missing data as well. Pandas are fast and have high performance and productivity.",
+    "source": "https://www.geeksforgeeks.org/pandas/pandas-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Pandas",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q2. What are the Different Types of Data Structures in Pandas?",
+    "answer": "The two data structures that are supported by Pandas areSeriesandDataFrames.",
+    "source": "https://www.geeksforgeeks.org/pandas/pandas-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Pandas",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q4. What is Series in Pandas?",
+    "answer": "Ans: A Series in Pandas is a one-dimensional labelled array. Its columns are like an Excel sheet that can hold any type of data, which can be, an integer, string, or Python objects, etc. Its axis labels are known as theindex. Series contains homogeneous data and its values can be changed but the size of the series is immutable. A series can be created from a Python tuple, list and dictionary. The syntax for creating a series is as follows:",
+    "source": "https://www.geeksforgeeks.org/pandas/pandas-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Pandas",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q5. What are the Different Ways to Create a Series?",
+    "answer": "Ans: In Pandas, a series can be created in many ways. They are as follows:",
+    "source": "https://www.geeksforgeeks.org/pandas/pandas-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Pandas",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q6. How can we Create a Copy of the Series?",
+    "answer": "Ans: In Pandas, there are two ways to create a copy of the Series. They are as follows:",
+    "source": "https://www.geeksforgeeks.org/pandas/pandas-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Pandas",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q7. What is a DataFrame in Pandas?",
+    "answer": "Ans: A DataFrame in Panda is a data structure used to store the data in tabular form, that is in the form of rows and columns. It is two-dimensional, size-mutable, and heterogeneous in nature. The main components of a dataframe are data, rows, and columns. A dataframe can be created by loading the dataset from existing storage, such as SQL database, CSV file, Excel file, etc. The syntax for creating a dataframe is as follows:",
+    "source": "https://www.geeksforgeeks.org/pandas/pandas-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Pandas",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q8. What are the Different ways to Create a DataFrame in Pandas?",
+    "answer": "Ans: In Pandas, a dataframe can be created in many ways. They are as follows:",
+    "source": "https://www.geeksforgeeks.org/pandas/pandas-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Pandas",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q9. How to Read Data into a DataFrame from a CSV file?",
+    "answer": "Ans: We can create a data frame from a CSV file - \"Comma Separated Values\". This can be done by using theread_csv()method which takes the csv file as the parameter.",
+    "source": "https://www.geeksforgeeks.org/pandas/pandas-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Pandas",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is Pandas in Python?",
+    "answer": "Pandas is an open-source Python package that is most commonly used for data science, data analysis, and machine learning tasks. It is built on top of another library namedNumpy. It provides various data structures and operations for manipulating numerical data and time series and is very efficient in performing various functions like data visualization, data manipulation, data analysis, etc.",
+    "source": "https://www.interviewbit.com/pandas-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Pandas",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. Mention the different types of Data Structures in Pandas?",
+    "answer": "Pandas have three different types of data structures. It is due to these simple and flexible data structures that it is fast and efficient.",
+    "source": "https://www.interviewbit.com/pandas-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Pandas",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What are the significant features of the pandas Library?",
+    "answer": "Pandas library is known for its efficient data analysis and state-of-the-art data visualization.The key features of the panda’s library are as follows:",
+    "source": "https://www.interviewbit.com/pandas-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Pandas",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. Define Series in Pandas?",
+    "answer": "It is a one-dimensional array-like structure with homogeneous data which means data of different data types cannot be a part of the same series. It can hold any data type such asintegers,floats, andstringsand its values are mutable i.e. it can be changed but the size of the series is immutable i.e. it cannot be changed. By using a ‘series’ method, we can easily convert the list, tuple, and dictionary into a series. A Series cannot contain multiple columns.",
+    "source": "https://www.interviewbit.com/pandas-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Pandas",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. Define DataFrame in Pandas?",
+    "answer": "It is a two-dimensional array-like structure with heterogeneous data. It can contain data of different data types and the data is aligned in a tabular manner i.e. in rows and columns and the indexes with respect to these are called row index and column index respectively. Both size and values of DataFrame are mutable. The columns can be heterogeneous types like int and bool. It can also be defined as a dictionary of Series.",
+    "source": "https://www.interviewbit.com/pandas-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Pandas",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What are the different ways in which a series can be created?",
+    "answer": "There are different ways of creating a series in Pandas.",
+    "source": "https://www.interviewbit.com/pandas-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Pandas",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What are the different ways in which a dataframe can be created?",
+    "answer": "Creating an empty dataframe:A basic DataFrame, which can be created is an Empty Dataframe. An Empty Dataframe is created just by calling apandas.DataFrame()constructor.",
+    "source": "https://www.interviewbit.com/pandas-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Pandas",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. How can we create a copy of the series in Pandas?",
+    "answer": "We can create a copy of the series by using the following syntax:Series.copy(deep=True)",
+    "source": "https://www.interviewbit.com/pandas-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Pandas",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q.1 What is data visualization, and why is it important?",
+    "answer": "Data visualization is the graphical representation of data to help individuals, organizations, and analysts to better understand patterns, trends, and insights within the data. It involves the use of visual elements like charts, graphs, maps, and infographics to convey complex information in a more accessible and comprehensible format.",
+    "source": "https://www.geeksforgeeks.org/data-visualization/data-visualization-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Data Visualization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q.2 What are the key components of good data visualization?",
+    "answer": "Effectively communicating knowledge and insights while being simple to understand and aesthetically beautiful are all qualities of successful data visualization. A strong data visualization should have the following critical elements:",
+    "source": "https://www.geeksforgeeks.org/data-visualization/data-visualization-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Data Visualization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q.3  How can color be utilized in data visualization?",
+    "answer": "In data visualisation, colour is a potent tool that can improve comprehension, draw attention to patterns, and effectively communicate ideas. When applied carefully, colour may increase the interest and clarity of your data visualisation. Following are some examples of how colour can be used in data visualisation:",
+    "source": "https://www.geeksforgeeks.org/data-visualization/data-visualization-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Data Visualization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q.4 What are the different types of data visualizations?",
+    "answer": "Data visualisations come in a variety of forms, each of which is intended to effectively communicate a particular type of knowledge and insight. Here are a few examples of prevalent data visualisations:",
+    "source": "https://www.geeksforgeeks.org/data-visualization/data-visualization-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Data Visualization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q.5 What is a bar chart, and when it is typically used for data visualization?",
+    "answer": "A bar chart, also called a bar graph, is a tool for data visualisation. Each bar in a bar chart is proportional to the value it displays in terms of height or length. The bars are normally aligned along an axis either horizontally or vertically.",
+    "source": "https://www.geeksforgeeks.org/data-visualization/data-visualization-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Data Visualization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q.7 How do you choose the appropriate visualization type for your data?",
+    "answer": "It is important to carefully analyse the nature of the data, the objectives of the research, and the audience you're attempting to reach before selecting the right visualisation method for your data. Here is a step-by-step tutorial to assist you in selecting the best option:",
+    "source": "https://www.geeksforgeeks.org/data-visualization/data-visualization-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Data Visualization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q.8 What is the importance of storytelling in data visualization?",
+    "answer": "Storytelling is a crucial aspect of data visualization because it transforms raw data into a compelling narrative that can inform, persuade, and engage the audience. Here are several reasons why storytelling is important in data visualization.",
+    "source": "https://www.geeksforgeeks.org/data-visualization/data-visualization-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Data Visualization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q.9 How can you choose an appropriate color palette for your visualizations?",
+    "answer": "Choosing an appropriate color palette for our visualizations is crucial for ensuring clarity, readability, and effective communication of data. Here's a step-by-step guide on how to choose a suitable color palette:",
+    "source": "https://www.geeksforgeeks.org/data-visualization/data-visualization-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Data Visualization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Tableau?",
+    "answer": "Tableau is a powerful data visualization tool that allows users to connect to various data sources, create interactive dashboards, and generate insightful reports. Tableau is the Business Intelligence (BI) industry's most potent and fastest tool for visualising data. It turns the raw data into a format that is easy to understand. Tableau makes it faster to look at the data. Dashboards can be used to create visualisations. Data visualisations or diagrams make it easy for employees at all levels of an organisation to understand the information.",
+    "source": "https://www.simplilearn.com/tableau-interview-questions-and-answers-article",
+    "role": "Data Analyst",
+    "skill": "Data Visualization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the different data connection options available in Tableau?",
+    "answer": "Tableau provides various data connection options, including Excel spreadsheets, text files, databases (such as SQL Server, Oracle,MySQL), and web data connectors.",
+    "source": "https://www.simplilearn.com/tableau-interview-questions-and-answers-article",
+    "role": "Data Analyst",
+    "skill": "Data Visualization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. How can you create a calculated field in Tableau?",
+    "answer": "To create a calculated field in Tableau, you can right-click in the data pane, select \"Create Calculated Field,\" and then enter the desired formula or expression using Tableau's calculation syntax.",
+    "source": "https://www.simplilearn.com/tableau-interview-questions-and-answers-article",
+    "role": "Data Analyst",
+    "skill": "Data Visualization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is the difference between a dimension and a measure in Tableau?",
+    "answer": "In Tableau, a dimension is a categorical or qualitative variable that represents the characteristics or attributes of the data, while a measure is a quantitative or numerical variable that can be aggregated or summarized.",
+    "source": "https://www.simplilearn.com/tableau-interview-questions-and-answers-article",
+    "role": "Data Analyst",
+    "skill": "Data Visualization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. How can you create a dashboard in Tableau?",
+    "answer": "A tableau dashboard is a final step in creating the visualisation. First, make all of the charts in separate sheets. Then, click \"add new dashboard\" in the tab where you add new worksheets. You can also right-click on the \"Add new sheet\" button and choose \"Add new dashboard\" instead of \"sheet.\" To create a new dashboard differently, click Dashboard in the toolbar. Once you've done one of those three things, you'll be brought to a new dashboard where you can begin piecing together your story by dragging the relevant sheets from the left panel onto the dashboard individually.",
+    "source": "https://www.simplilearn.com/tableau-interview-questions-and-answers-article",
+    "role": "Data Analyst",
+    "skill": "Data Visualization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is data blending in Tableau?",
+    "answer": "Data blending is a technique inTableauthat allows you to combine data from multiple data sources based on a common field or key. It enables you to analyze and visualize data that resides in different databases or files. Data blending is a more advanced way of combining two different data sources. For example, one data source shows the annual sales of a product in other countries, and another shows the profit and loss for each country each month. Different levels of segregation mean that a simple join won't work in this case. The first step will be to add up all the values in the second data source based on the year. After that, a join will be done. Tableau makes it very easy to do all of these steps because Tableau can find the field of country and year that is shared by two data sources and do a post-aggregate join on its own.",
+    "source": "https://www.simplilearn.com/tableau-interview-questions-and-answers-article",
+    "role": "Data Analyst",
+    "skill": "Data Visualization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is the purpose of a parameter in Tableau?",
+    "answer": "Parameters in Tableau allow users to define dynamic values that can be used to control various aspects of the visualization, such as filtering data, changing calculations, or modifying colors.",
+    "source": "https://www.simplilearn.com/tableau-interview-questions-and-answers-article",
+    "role": "Data Analyst",
+    "skill": "Data Visualization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. How can you perform data aggregation in Tableau?",
+    "answer": "Tableau provides various aggregation functions, such as SUM, AVG, MAX, MIN, COUNT, etc., which can be applied to measure fields. To perform aggregation, you can drag a measure field to the visualization and choose the desired aggregation function.",
+    "source": "https://www.simplilearn.com/tableau-interview-questions-and-answers-article",
+    "role": "Data Analyst",
+    "skill": "Data Visualization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Power BI?",
+    "answer": "Power BIis a business analytics tool developed by Microsoft that helps you turn multiple unrelated data sources into valuable and interactive insights. These data may be in the form of an Excel spreadsheet or cloud-based/on-premises hybriddata warehouses. You can easily connect to all your data sources and share the insights with anyone.",
+    "source": "https://www.simplilearn.com/power-bi-interview-questions-and-answers-article",
+    "role": "Data Analyst",
+    "skill": "Data Visualization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. Why should we use Power BI?",
+    "answer": "Because Power BI provides an easy way for anyone, including non-technical people, to connect, change, and visualize their raw business data from many different sources and turn it into valuable data that makes it easy to make smart business decisions.",
+    "source": "https://www.simplilearn.com/power-bi-interview-questions-and-answers-article",
+    "role": "Data Analyst",
+    "skill": "Data Visualization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is the difference between Power Query and Power Pivot?",
+    "answer": "The differences between Power Query and Power Pivot are explained as follows:",
+    "source": "https://www.simplilearn.com/power-bi-interview-questions-and-answers-article",
+    "role": "Data Analyst",
+    "skill": "Data Visualization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is Power BI Desktop?",
+    "answer": "Power BI Desktop is an open-source application designed and developed by Microsoft. It allows users to connect to, transform, and visualize your data with ease. Power BI Desktop lets users build visuals and collections of visuals that can be shared as reports with your colleagues or your clients in your organization.",
+    "source": "https://www.simplilearn.com/power-bi-interview-questions-and-answers-article",
+    "role": "Data Analyst",
+    "skill": "Data Visualization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is Power Pivot?",
+    "answer": "Power Pivot is an add-on provided by Microsoft for Excel since 2010. Power Pivot was designed to extend the analytical capabilities and services of Microsoft Excel.",
+    "source": "https://www.simplilearn.com/power-bi-interview-questions-and-answers-article",
+    "role": "Data Analyst",
+    "skill": "Data Visualization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is Power Query?",
+    "answer": "Power Queryis a business intelligence tool designed by Microsoft for Excel. Power Query allows you to import data from various data sources and will enable you to clean, transform and reshape your data as per the requirements. Power Query allows you to write your query once and then run it with a simple refresh.",
+    "source": "https://www.simplilearn.com/power-bi-interview-questions-and-answers-article",
+    "role": "Data Analyst",
+    "skill": "Data Visualization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is self-service BI?",
+    "answer": "SSBI is an abbreviation for Self-Service Business Intelligence and is a breakthrough in business intelligence. SSBI has enabled many business professionals with no technical orcodingbackground to use Power BI and generate reports and draw predictions successfully. Even non-technical users can create these dashboards to help their business make more informed decisions.",
+    "source": "https://www.simplilearn.com/power-bi-interview-questions-and-answers-article",
+    "role": "Data Analyst",
+    "skill": "Data Visualization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. What is DAX?",
+    "answer": "DAX stands for Data Analysis Expressions. It's a collection of functions, operators, and constants used in formulas to calculate and return values. In other words, it helps you create new info from data you already have.",
+    "source": "https://www.simplilearn.com/power-bi-interview-questions-and-answers-article",
+    "role": "Data Analyst",
+    "skill": "Data Visualization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Power BI?",
+    "answer": "Power BI is a highly efficient business intelligence (BI) and data visualization tool developed by Microsoft. It enables users to establish connections with diverse data sources, transform and manipulate data, generate interactive reports and dashboards, and share insights with others. Power BI is extensively used in organizations to analyze data and make informed decisions based on data-driven insights.",
+    "source": "https://www.geeksforgeeks.org/power-bi/power-bi-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Data Visualization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What do you understand by Business Intelligence?",
+    "answer": "BI, which stands forBusiness Intelligence, is a technology for collecting, analyzing and delivering business data to support decision-making in organizations This system uses a variety of tools, applications and practices to transform raw data organize them into valuable insights. By doing so, companies can make informed decisions, spot trends and improve their overall performance.",
+    "source": "https://www.geeksforgeeks.org/power-bi/power-bi-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Data Visualization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is the difference between Power BI and Tableau?",
+    "answer": "Below are some key differences betweenPower BIandTableau",
+    "source": "https://www.geeksforgeeks.org/power-bi/power-bi-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Data Visualization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What are the different Excel BI add-ins?",
+    "answer": "The following are the most popular Power BI add-ins for Excel:",
+    "source": "https://www.geeksforgeeks.org/power-bi/power-bi-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Data Visualization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What are the different Power BI formats?",
+    "answer": "The following are the various formats available in Power BI:",
+    "source": "https://www.geeksforgeeks.org/power-bi/power-bi-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Data Visualization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. How can you refresh data in Power BI?",
+    "answer": "Data can be refreshed in Power BI in the following manner:",
+    "source": "https://www.geeksforgeeks.org/power-bi/power-bi-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Data Visualization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "11. What are the different refresh options available in Power BI?",
+    "answer": "In Power BI, there are essentially four different categories of refresh possibilities:",
+    "source": "https://www.geeksforgeeks.org/power-bi/power-bi-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Data Visualization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "12. What are the major components of Power BI?",
+    "answer": "There are five different components of Power BI.",
+    "source": "https://www.geeksforgeeks.org/power-bi/power-bi-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Data Visualization",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Tableau?",
+    "answer": "Tableau is a powerful visualization and business intelligence software application that enables users and other organizations to create shareable, interactive dashboards, reports, and data visualizations. It is widely used for data analysis and reporting purposes.",
+    "source": "https://www.geeksforgeeks.org/tableau/tableau-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Tableau",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What is a tableau reporting tool?",
+    "answer": "Tableau is a potentbusiness intelligence (BI)and data visualization software program used to create interactive and shareable reports and dashboards. Users can connect to different data sources with it, transform unprocessed data into insightful visuals, and derive insights from their data. The user-friendly design of Tableau and its wealth of tools for data exploration, analysis, and storytelling are well-known.",
+    "source": "https://www.geeksforgeeks.org/tableau/tableau-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Tableau",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What do you understand by Business Intelligence?",
+    "answer": "Business Intelligence is a method that utilizes technology for data analysis and information delivery that aids leaders, managers, and employees in making strategic business decisions. As part of the BI process, organizations gather data from internal IT systems and external sources, prepare it for analysis, run queries against the data, create data visualizations, BI dashboards, and reports, and then make the analytics results accessible to business individuals for decision-making related to operations and strategic planning.",
+    "source": "https://www.geeksforgeeks.org/tableau/tableau-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Tableau",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What is the difference between Power BI and Tableau?",
+    "answer": "Tableau is an incredible data visualization tool that transforms raw data into clear and impactful insights. With its ability to create interactive and shareable dashboards, charts, and reports, Tableau makes analyzing and communicating complex data trends effortless—empowering better decision-making across businesses and industries.",
+    "source": "https://www.geeksforgeeks.org/tableau/tableau-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Tableau",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What are the different Tableau Products?",
+    "answer": "Different products of Tableau are :",
+    "source": "https://www.geeksforgeeks.org/tableau/tableau-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Tableau",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What are the different datatypes in Tableau?",
+    "answer": "Tableau supports 7 various different data types:",
+    "source": "https://www.geeksforgeeks.org/tableau/tableau-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Tableau",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What is the difference between Measures and Dimensions in Tableau?",
+    "answer": "Tableau uses several file extensions for different purposes within its ecosystem. Here are the most common file extensions used in Tableau and their significance:",
+    "source": "https://www.geeksforgeeks.org/tableau/tableau-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Tableau",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What are the different file extensions used in Tableau and what are their significance?",
+    "answer": "Tableau uses several file extensions for different purposes within its ecosystem. Here are the most common file extensions used in Tableau and their significance:",
+    "source": "https://www.geeksforgeeks.org/tableau/tableau-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Tableau",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Power BI?",
+    "answer": "Power BI was introduced by Microsoft to combine the multiple data visualization features into one. Power BI is the new term for the data-driven industry and thus carries a lot of opportunities on its shoulders.  It comes as a package of three major components:",
+    "source": "https://www.interviewbit.com/power-bi-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Power BI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Why Power BI?",
+    "answer": "Power BI has simplified the workaround of getting data from various sources and collating them into one tool for proper management. We can share these interactive reports for different industries like retail, for free.",
+    "source": "https://www.interviewbit.com/power-bi-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Power BI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. How would you define Power BI as an effective solution?",
+    "answer": "Power BI is a strong business analytical tool that creates useful insights and reports by collating data from unrelated sources. This data can be extracted from any source like Microsoft Excel or hybrid data warehouses. Power BI drives an extreme level of utility and purpose using interactive graphical interface and visualizations. You can create reports using the Excel BI toolkit and share them on-cloud with your colleagues.",
+    "source": "https://www.interviewbit.com/power-bi-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Power BI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. Power BI can connect to which data sources?",
+    "answer": "The data source is the point from which the data has been retrieved. It can be anything like files in various formats (.xlsx, .csv, .pbix, .xml, .txt etc), databases (SQL database, SQL Data Warehouse, Spark on Azure HDInsight), or form content packets like Google Analytics or Twilio.",
+    "source": "https://www.interviewbit.com/power-bi-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Power BI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What are the available formats?",
+    "answer": "Power BI is available in various formats:",
+    "source": "https://www.interviewbit.com/power-bi-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Power BI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What are the available views?",
+    "answer": "In power BI, you have various kinds of views viz:",
+    "source": "https://www.interviewbit.com/power-bi-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Power BI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. Where is the data stored in Power BI?",
+    "answer": "Primarily, Power BI has two sources to store data:",
+    "source": "https://www.interviewbit.com/power-bi-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Power BI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is a Power BI desktop?",
+    "answer": "To access the Power BI features, visualize data, or model them to create reports, you can simply download a desktop version of Power BI. With the desktop version, you can extract data from various data sources, transform them, create visuals or reports, and share them using Power BI services.",
+    "source": "https://www.interviewbit.com/power-bi-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Power BI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Business Intelligence (BI)? Why is it important for organizations?",
+    "answer": "Business Intelligenceis the process of collecting, analyzing, and transforming raw data into actionable insights that support strategic decision-making. It helps organizations identify trends, optimize operations, and make informed decisions. BI is crucial because it drives data-driven decision-making, enhances operational efficiency, and maintains a competitive edge by understanding customer behavior and market trends.",
+    "source": "https://www.simplilearn.com/business-intelligence-analyst-interview-questions-article",
+    "role": "Data Analyst",
+    "skill": "Power BI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How does Business Intelligence differ from Business Analytics?",
+    "answer": "Business Intelligence focuses on historical and current data to provide descriptive insights through reports and dashboards. It answers âwhat happenedâ and âwhy did it happen.âBusiness Analytics, on the other hand, uses predictive and prescriptive analytics to forecast future trends and recommend actions. It answers âwhat will happenâ and âwhat should we do about it.â",
+    "source": "https://www.simplilearn.com/business-intelligence-analyst-interview-questions-article",
+    "role": "Data Analyst",
+    "skill": "Power BI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. Can you describe your experience with BI tools?",
+    "answer": "I have extensive experience withBI toolssuch asTableau,Power BI, and Google Data Studio. I have used these tools to create interactive dashboards and detailed reports, providing insights into key performance indicators (KPIs). I particularly like Tableau for its powerful visualization capabilities and user-friendly interface.",
+    "source": "https://www.simplilearn.com/business-intelligence-analyst-interview-questions-article",
+    "role": "Data Analyst",
+    "skill": "Power BI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. How do you ensure data accuracy and integrity in your reports?",
+    "answer": "To ensure data accuracy and integrity, I:",
+    "source": "https://www.simplilearn.com/business-intelligence-analyst-interview-questions-article",
+    "role": "Data Analyst",
+    "skill": "Power BI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What are the key components of a BI system?",
+    "answer": "The key components of a BI system are:",
+    "source": "https://www.simplilearn.com/business-intelligence-analyst-interview-questions-article",
+    "role": "Data Analyst",
+    "skill": "Power BI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is a Data Warehouse, and how does it differ from a Database?",
+    "answer": "A Data Warehouse is a centralized repository designed for storing large volumes of historical data for reporting and analysis. It is optimized for read-heavy operations and complex queries.A Database, on the other hand,Â  is used for day-to-day transactional operations (OLTP) like insert, update, and delete. It is optimized for real-time data processing. The main difference is that a Data Warehouse supports analytical processing (OLAP), while a Database supports transactional processing (OLTP).",
+    "source": "https://www.simplilearn.com/business-intelligence-analyst-interview-questions-article",
+    "role": "Data Analyst",
+    "skill": "Power BI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What is ETL? Which ETL tools have you used?",
+    "answer": "ETLstands for Extract, Transform, and Load. It is the process of:",
+    "source": "https://www.simplilearn.com/business-intelligence-analyst-interview-questions-article",
+    "role": "Data Analyst",
+    "skill": "Power BI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. How do you optimize SQL queries for performance?",
+    "answer": "Use indexed columns for faster search.",
+    "source": "https://www.simplilearn.com/business-intelligence-analyst-interview-questions-article",
+    "role": "Data Analyst",
+    "skill": "Power BI",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is the difference between Descriptive Statistics and Inferential Statistics?",
+    "answer": "Statistics is a branch of mathematics that deals with large amounts of data and the analysis of that data across various industries. Now, if you are looking for career opportunities as adata analystordata scientist, then knowledge of statistics is very important. Because in most of these interviews, you will encounter statistical questions.",
+    "source": "https://www.geeksforgeeks.org/data-science/statistics-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Statistical Analysis",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is Random Sampling? What is its use?",
+    "answer": "Random Sampling is a process of selecting a subset from a population such that it ensures every member of a group in that population has equal chance of getting selected. Random Sampling is used to:",
+    "source": "https://www.geeksforgeeks.org/data-science/statistics-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Statistical Analysis",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is Qualitative Data and Quantitative Data?",
+    "answer": "5. What is meant by Probability Distribution?",
+    "source": "https://www.geeksforgeeks.org/data-science/statistics-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Statistical Analysis",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is meant by Probability Distribution?",
+    "answer": "Probability Distribution is a function that describes the likelihood of possible outcomes of a random event. That means it tells how likely it is for an event to occur and associates a probability to it.",
+    "source": "https://www.geeksforgeeks.org/data-science/statistics-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Statistical Analysis",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What a nominal data and ordinal data?",
+    "answer": "7. What is the Central Limit Theorem?",
+    "source": "https://www.geeksforgeeks.org/data-science/statistics-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Statistical Analysis",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What is the Central Limit Theorem?",
+    "answer": "Statistics is a branch of mathematics that deals with large amounts of data and the analysis of that data across various industries. Now, if you are looking for career opportunities as adata analystordata scientist, then knowledge of statistics is very important. Because in most of these interviews, you will encounter statistical questions.",
+    "source": "https://www.geeksforgeeks.org/data-science/statistics-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Statistical Analysis",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. Explain Skewness in Distribution. Why does it happen?",
+    "answer": "Skewness in distribution refers to the distortion in the data points of distribution, making the shape asymmetric. There are two types of skewness:",
+    "source": "https://www.geeksforgeeks.org/data-science/statistics-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Statistical Analysis",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is Normal Distribution? How is it different from a Uniform Distribution in Terms of Measure of Central Tendency?",
+    "answer": "Statistics is a branch of mathematics that deals with large amounts of data and the analysis of that data across various industries. Now, if you are looking for career opportunities as adata analystordata scientist, then knowledge of statistics is very important. Because in most of these interviews, you will encounter statistical questions.",
+    "source": "https://www.geeksforgeeks.org/data-science/statistics-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Statistical Analysis",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What are the differences between supervised and unsupervised learning?",
+    "answer": "Uses known and labeled data as input",
+    "source": "https://www.simplilearn.com/tutorials/data-science-tutorial/data-science-interview-questions",
+    "role": "Data Analyst",
+    "skill": "Statistical Analysis",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. How is logistic regression done?",
+    "answer": "Logistic regression measures the relationship between the dependent variable (our label of what we want to predict) and one or more independent variables (our features) by estimating probability using its underlying logistic function (sigmoid).",
+    "source": "https://www.simplilearn.com/tutorials/data-science-tutorial/data-science-interview-questions",
+    "role": "Data Analyst",
+    "skill": "Statistical Analysis",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. How do you build a random forest model?",
+    "answer": "Arandom forestis built up of several decision trees. If you split the data into different packages and make a decision tree in each of the different data groups, the random forest brings all those trees together.",
+    "source": "https://www.simplilearn.com/tutorials/data-science-tutorial/data-science-interview-questions",
+    "role": "Data Analyst",
+    "skill": "Statistical Analysis",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. How can you avoid overfitting your model?",
+    "answer": "Overfitting refers to a model that is only set for a very small amount of data and ignores the bigger picture. There are three main methods to avoidoverfitting:",
+    "source": "https://www.simplilearn.com/tutorials/data-science-tutorial/data-science-interview-questions",
+    "role": "Data Analyst",
+    "skill": "Statistical Analysis",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. What feature selection methods are used to select the right variables?",
+    "answer": "There are two main methods for feature selection, i.e., filter and wrapper methods.",
+    "source": "https://www.simplilearn.com/tutorials/data-science-tutorial/data-science-interview-questions",
+    "role": "Data Analyst",
+    "skill": "Statistical Analysis",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. You are given a data set consisting of variables with more than 30 percent missing values. How will you deal with them?",
+    "answer": "The following are ways to handle missing data values:",
+    "source": "https://www.simplilearn.com/tutorials/data-science-tutorial/data-science-interview-questions",
+    "role": "Data Analyst",
+    "skill": "Statistical Analysis",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. For the given points, how will you calculate the Euclidean distance in Python?",
+    "answer": "The Euclidean distance can be calculated as follows:",
+    "source": "https://www.simplilearn.com/tutorials/data-science-tutorial/data-science-interview-questions",
+    "role": "Data Analyst",
+    "skill": "Statistical Analysis",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "11. What are dimensionality reduction and its benefits?",
+    "answer": "TheDimensionality reductionrefers to the process of converting a data set with vast dimensions into data with fewer dimensions (fields) to convey similar information concisely.Â",
+    "source": "https://www.simplilearn.com/tutorials/data-science-tutorial/data-science-interview-questions",
+    "role": "Data Analyst",
+    "skill": "Statistical Analysis",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is the difference between correlation and causation?",
+    "answer": "Correlation is the statistical measure that shows a relationship between two variables. When one changes, the other changes as well, positively or negatively. However, this doesn't mean that one variable causes the other to change. Causation means that one variable directly causes a change in the other. It implies a cause-and-effect relationship, not just an association. Proving causation requires deeper analysis and additional evidence.Example:There's a correlation between cart abandonment and uninstall rates in a shopping app. Users who abandon their carts often end up uninstalling the app shortly after. But that doesn't mean abandoning a cart causes someone to uninstall the app. The real cause might be a frustrating purchase process with too many steps. That complexity leads to both behaviors: abandoning the cart and uninstalling the app. So, while there's a correlation, you can't say it's causation without looking deeper.",
+    "source": "https://roadmap.sh/questions/data-science",
+    "role": "Data Analyst",
+    "skill": "Statistical Analysis",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is the role of statistics in data science?",
+    "answer": "The role of statistics in data science is to help data scientists understand and summarize data, uncover patterns, validate models, handle uncertainty (like missing or noisy data), and make evidence-based decisions.For example:Mean and median summarize central tendencies.Standard deviation and variance measure variability.Hypothesis testing validates assumptions.Regression analysis predicts relationships between variables.Bayesian inference updates beliefs as new data comes in.Use case: A marketing team runs an A/B test to compare two email campaigns. Statistical methods help determine whether the difference in click-through rates is real or just a coincidence.",
+    "source": "https://roadmap.sh/questions/data-science",
+    "role": "Data Analyst",
+    "skill": "Statistical Analysis",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How do you handle missing data?",
+    "answer": "Once I make sense of what my missing data looks like, I dig into why these values are missing, and they usually fall into three categories:",
+    "source": "https://roadmap.sh/questions/data-science",
+    "role": "Data Analyst",
+    "skill": "Statistical Analysis",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is the difference between univariate, bivariate, and multivariate analysis?",
+    "answer": "Univariate analysis is all about looking at one variable on its own, with no comparisons, just understanding its distribution, central tendency, or spread. For example, I might look at the average test score in a class or the frequency of different grade ranges using histograms or summary statistics.Bivariate analysis looks at the relationship between two variables, such as how students' study time affects their test scores. To analyze this, I'd use tools like correlation, scatter plots, or line graphs to identify trends or patterns.Multivariate analysis, on the other hand, deals with three or more variables at once. It focuses on understanding how multiple factors combine to influence an outcome. For example, I might explore how sleep hours, study time, and caffeine intake together impact test scores. In that case, I'd use regression or a tree-based model to analyze the combined effect.",
+    "source": "https://roadmap.sh/questions/data-science",
+    "role": "Data Analyst",
+    "skill": "Statistical Analysis",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is the difference between the long format data and wide format data?",
+    "answer": "The difference between long format data and wide format data comes down to how your data is structured. A wide format has values that do not repeat in the columns, while a long format has values that do repeat in the columns.In wide format, you spread data across columns. Each variable (Jan, Feb, March) gets its own column. You'll usually see this in reports or dashboards.In long format, data is stacked in rows. One column stores the values, and another column tells you what those values represent. This format is cleaner for grouped summaries and time series analysis.Use case:Wide format is useful for reporting and making data visualizations. Long format is preferred for time series, grouped summaries, and plotting tools like Seaborn or ggplot.Common pitfall:Trying to perform group-level analysis on wide-format data without reshaping it first.",
+    "source": "https://roadmap.sh/questions/data-science",
+    "role": "Data Analyst",
+    "skill": "Statistical Analysis",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is multicollinearity, and how do you detect it?",
+    "answer": "Multicollinearity is when two or more independent variables in a regression model are highly correlated, meaning they tell similar stories. This makes it hard for the model to figure out which variable is actually influencing the target, leading to unreliable or unstable coefficient estimates.For example, in a regression model looking at economic growth, common variables will be GDP, Unemployment Rate, and Consumer Spending. These variables are all related, and the model might not be as effective as it should be.To detect multicollinearity use:Correlation matrix:A correlation matrix detects multicollinearity by visualizing the strength of relationships between variables. A general rule is that any correlation value above 0.6 indicates strong multicollinearity.Variance inflation factor (VIF):VIF detects multicollinearity by giving a numerical value that indicates how much the variance of a regression coefficient is inflated due to multicollinearity. A VIF value greater than 5 indicates ",
+    "source": "https://roadmap.sh/questions/data-science",
+    "role": "Data Analyst",
+    "skill": "Statistical Analysis",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is variance in data science?",
+    "answer": "Variance in data science measures the spread between numbers in a dataset. Simply put, it measures how far each number in the set is from the mean (average). It helps us understand how spread out or consistent the values are in a dataset.Low variance example:Mean: (78 + 79 + 80 + 81 + 82) / 5 = 80",
+    "source": "https://roadmap.sh/questions/data-science",
+    "role": "Data Analyst",
+    "skill": "Statistical Analysis",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What do you understand by imbalanced data?",
+    "answer": "Imbalanced data is a situation where the classes, labels, or categories in a dataset are not equally represented. In imbalanced datasets, one category has significantly more or fewer samples than the others. Imbalanced data refers to a common issue in supervised machine learning and deep learning where there is a non-uniform distribution of samples among different classes. This can lead to biased outcomes in models, such as those used in healthcare services, impacting their reliability and effectiveness.For example, if you build an email spam detection model and your dataset contains 5% spam emails and 95% non-spam emails, the data is imbalanced toward non-spam. This imbalance can negatively affect the model's performance, especially in production, because it may achieve high accuracy by simply predicting the majority class while failing to detect spam effectively.",
+    "source": "https://roadmap.sh/questions/data-science",
+    "role": "Data Analyst",
+    "skill": "Statistical Analysis",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "Q.1 What is NumPy?",
+    "answer": "The Python packageNumPy, which stands for \"Numerical Python,\" is the basis for numerical and scientific computing. It offers support for arrays, matrices, and a variety of mathematical operations that can effectively operate on these arrays. In thePythonenvironment, NumPy is a fundamental library for manipulating and analyzing data. It also used in many additional libraries that are used in data science, machine learning areas.",
+    "source": "https://www.geeksforgeeks.org/numpy/numpy-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "NumPy",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q.2 How do I create a NumPy array?",
+    "answer": "We can create NumPy arrays using various methods. Here are some common ways to create NumPy arrays:",
+    "source": "https://www.geeksforgeeks.org/numpy/numpy-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "NumPy",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q.3 What are the main features of Numpy?",
+    "answer": "Here are some main features of the NumPy.",
+    "source": "https://www.geeksforgeeks.org/numpy/numpy-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "NumPy",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q.4 How do you calculate the dot product of two NumPy arrays?",
+    "answer": "Calculating the dot product of two NumPy arrays we usednumpy.dot()function and we also used the @ operator:",
+    "source": "https://www.geeksforgeeks.org/numpy/numpy-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "NumPy",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q.5 How do I access elements in a NumPy array?",
+    "answer": "In NumPy, we can access elements in an array by indexing and slicing. Here's we can do it:",
+    "source": "https://www.geeksforgeeks.org/numpy/numpy-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "NumPy",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q.6 What is the difference between a shallow copy and a deep copy in NumPy?",
+    "answer": "In numPy we have two ways to copy an array. shallow copy and deep copy are two most used methods used in numpy to copy an array. Here is the main difference between both of them.",
+    "source": "https://www.geeksforgeeks.org/numpy/numpy-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "NumPy",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q.7 How do you reshape a NumPy array?",
+    "answer": "We can reshape a NumPy array by using the reshape() method or thenp.reshape()function. it help us to change the dimensions of the array and keep all the elements constant.",
+    "source": "https://www.geeksforgeeks.org/numpy/numpy-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "NumPy",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Q.8 How to perform element-wise operations on NumPy arrays?",
+    "answer": "To perform element-wise operations on NumPy arrays, you can use standard arithmetic operators.NumPy automatically applies these operations element-wise when you use them with arrays of the same shape.",
+    "source": "https://www.geeksforgeeks.org/numpy/numpy-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "NumPy",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. How do you convert Pandas DataFrame to a NumPy array?",
+    "answer": "The to_numpy() method of the NumPy package can be used to convert Pandas DataFrame, Index and Series objects.",
+    "source": "https://www.interviewbit.com/numpy-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "NumPy",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. How do you concatenate 2 NumPy arrays?",
+    "answer": "Concatenating 2 arrays by adding elements to the end can be achieved by making use of the concatenate() method of the NumPy package. Syntax:",
+    "source": "https://www.interviewbit.com/numpy-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "NumPy",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. How do you multiply 2 NumPy array matrices?",
+    "answer": "We can make use of the dot() for multiplying matrices represented as NumPy arrays. This is represented in the code snippet below:",
+    "source": "https://www.interviewbit.com/numpy-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "NumPy",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. How do we check for an empty array (or zero elements array)?",
+    "answer": "We can check for the emptiness of a NumPy array by making use of the size attribute.Let us consider the below example. We have NumPy array arr filled with zeros. If the size element returns zero, that means the array is empty or it only consists of zeros.",
+    "source": "https://www.interviewbit.com/numpy-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "NumPy",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. How do you count the frequency of a given positive value appearing in the NumPy array?",
+    "answer": "We can make use of the bincount() function to compute the number of times a given value is there in the array. This function accepts only positive integers and boolean expressions as the arguments.",
+    "source": "https://www.interviewbit.com/numpy-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "NumPy",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. How is np.mean() different from np.average() in NumPy?",
+    "answer": "np.mean() method calculates the arithmetic mean and provides additional options for input and results. For example, it has the option to specify what data types have to be taken, where the result has to be placed etc.",
+    "source": "https://www.interviewbit.com/numpy-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "NumPy",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. How can you reverse a NumPy array?",
+    "answer": "There are two ways of reversing a NumPy array.",
+    "source": "https://www.interviewbit.com/numpy-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "NumPy",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "10. How do you find the data type of the elements stored in the NumPy arrays?",
+    "answer": "NumPy supports the following datatypes:",
+    "source": "https://www.interviewbit.com/numpy-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "NumPy",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How to Customize Matplotlib Visualizations?",
+    "answer": "Customization in Matplotlib allows you to improve look and clarity of plots by adjusting elements like colors, styles, labels, titles and gridlines. It helps make visualizations more informative and visually appealing for better data communication. Let’s explore different ways to customize visualizations:",
+    "source": "https://www.geeksforgeeks.org/data-visualization-using-matplotlib/",
+    "role": "Data Analyst",
+    "skill": "Matplotlib",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How to Customize Seaborn Plots with Python?",
+    "answer": "Customizing Seaborn plotsincreases their readability and visual appeal which makes the data insights clearer and more informative. Here are several ways we can customize our plots in Seaborn:",
+    "source": "https://www.geeksforgeeks.org/data-visualization/data-visualization-with-python-seaborn/",
+    "role": "Data Analyst",
+    "skill": "Seaborn",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How to load Tips Dataset?",
+    "answer": "The Iris dataset is one of the most famous datasets used in pattern recognition literature. It contains measurements of iris flowers from three different species. The dataset includes features such as sepal length, sepal width, petal length, petal width, and species of the iris flower.",
+    "source": "https://www.geeksforgeeks.org/data-science/seaborn-datasets-for-data-science/",
+    "role": "Data Analyst",
+    "skill": "Seaborn",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How to load Iris Dataset?",
+    "answer": "The Penguins dataset provides measurements for three species of penguins. It includes features such as species of the penguin, island where the penguin was observed, bill length, bill depth, flipper length, body mass, and sex of the penguin.",
+    "source": "https://www.geeksforgeeks.org/data-science/seaborn-datasets-for-data-science/",
+    "role": "Data Analyst",
+    "skill": "Seaborn",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How to load Penguins Dataset?",
+    "answer": "The Flights dataset includes information about the number of passengers on flights over a period of years. It includes features such as year of the observation, month of the observation, and number of passengers.",
+    "source": "https://www.geeksforgeeks.org/data-science/seaborn-datasets-for-data-science/",
+    "role": "Data Analyst",
+    "skill": "Seaborn",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How to load flights dataset?",
+    "answer": "The Diamonds dataset contains information about diamonds, including their characteristics and prices. It includes features such as carat weight, cut, color, clarity, depth, table, price, length, width, and depth in mm.",
+    "source": "https://www.geeksforgeeks.org/data-science/seaborn-datasets-for-data-science/",
+    "role": "Data Analyst",
+    "skill": "Seaborn",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How to load diamonds dataset?",
+    "answer": "The Titanic dataset contains information about passengers on the Titanic, including whether they survived or not. It includes features such as whether the passenger survived, ticket class, gender of the passenger, age of the passenger, number of siblings/spouses aboard the Titanic, number of parents/children aboard the Titanic, passenger fare, and port of embarkation.",
+    "source": "https://www.geeksforgeeks.org/data-science/seaborn-datasets-for-data-science/",
+    "role": "Data Analyst",
+    "skill": "Seaborn",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How to load Titanic Dataset?",
+    "answer": "The Exercise dataset contains information about individuals' pulse measurements after different types of exercise. It includes features such as participant ID, type of diet, pulse rate, time after exercise, and type of exercise.",
+    "source": "https://www.geeksforgeeks.org/data-science/seaborn-datasets-for-data-science/",
+    "role": "Data Analyst",
+    "skill": "Seaborn",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How to load Exercise Dataset?",
+    "answer": "The MPG dataset contains information about miles per gallon for different car models and their attributes. It includes features such as miles per gallon, number of cylinders in the engine, engine displacement, engine horsepower, vehicle weight, acceleration, model year, origin of the car, and car model name.",
+    "source": "https://www.geeksforgeeks.org/data-science/seaborn-datasets-for-data-science/",
+    "role": "Data Analyst",
+    "skill": "Seaborn",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How to load MPG Dataset?",
+    "answer": "The Planets dataset includes information about exoplanets, such as their orbital periods and masses. It includes features such as method of detecting the exoplanet, number of planets in the system, orbital period, mass of the planet, and distance from Earth.",
+    "source": "https://www.geeksforgeeks.org/data-science/seaborn-datasets-for-data-science/",
+    "role": "Data Analyst",
+    "skill": "Seaborn",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why EDA important in Data Science?",
+    "answer": "To effectively work with data, it’s essential to first understand the nature and structure of data.EDAhelps answer critical questions about the dataset and guides the necessary preprocessing steps before applying any algorithms. For instance:",
+    "source": "https://www.geeksforgeeks.org/data-analysis/eda-with-NumPy-Pandas-Matplotlib-Seaborn/",
+    "role": "Data Analyst",
+    "skill": "Seaborn",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What type of data do we have?",
+    "answer": "Imagine you’re working with a student performance dataset. If some rows are missing test scores, or the names of subjects are inconsistently spelled (e.g., \"Math\" and \"Mathematics\"), you’ll need to address these issues before proceeding. EDA helps to identify such problems and clean the data to ensure reliable analysis.",
+    "source": "https://www.geeksforgeeks.org/data-analysis/eda-with-NumPy-Pandas-Matplotlib-Seaborn/",
+    "role": "Data Analyst",
+    "skill": "Seaborn",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Are there outliers?",
+    "answer": "Imagine you’re working with a student performance dataset. If some rows are missing test scores, or the names of subjects are inconsistently spelled (e.g., \"Math\" and \"Mathematics\"), you’ll need to address these issues before proceeding. EDA helps to identify such problems and clean the data to ensure reliable analysis.",
+    "source": "https://www.geeksforgeeks.org/data-analysis/eda-with-NumPy-Pandas-Matplotlib-Seaborn/",
+    "role": "Data Analyst",
+    "skill": "Seaborn",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Is anything missing?",
+    "answer": "Imagine you’re working with a student performance dataset. If some rows are missing test scores, or the names of subjects are inconsistently spelled (e.g., \"Math\" and \"Mathematics\"), you’ll need to address these issues before proceeding. EDA helps to identify such problems and clean the data to ensure reliable analysis.",
+    "source": "https://www.geeksforgeeks.org/data-analysis/eda-with-NumPy-Pandas-Matplotlib-Seaborn/",
+    "role": "Data Analyst",
+    "skill": "Seaborn",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is R programming and what are main feature of R?",
+    "answer": "R Programming Languageis an open-source programming language that is widely used as a statistical software and data analysis tool. R generally comes with the Command-line interface. R is available across widely used platforms like Windows, Linux, and macOS. Also, the R programming language is the latest cutting-edge tool.R programming is used as a leading tool for machine learning, statistics, and data analysis. Objects, functions, and packages can easily be created by R.",
+    "source": "https://www.geeksforgeeks.org/r-language/r-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "R",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What Are Some Advantages and drawbacks of R?",
+    "answer": "There are some following Advantages and drawbacks of R.",
+    "source": "https://www.geeksforgeeks.org/r-language/r-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "R",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. How to load a .csv file?",
+    "answer": "To load a .csv file in R, you can use theread.csv() function. Here's an example:",
+    "source": "https://www.geeksforgeeks.org/r-language/r-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "R",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. What is the memory limit of R?",
+    "answer": "A 32-bit version of R can only handle a maximum of about 4 GB of memory. This is due to the constrained address space of 32-bit applications.The memory limit in a 64-bit version of R is substantially greater and is based on the physical memory that is available on the system. Depending on the system configuration, it can be anywhere between a few megabytes and terabytes.",
+    "source": "https://www.geeksforgeeks.org/r-language/r-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "R",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "7. How to install and load the package?",
+    "answer": "To install a package, we can use theinstall.packages()function. Here's an example:",
+    "source": "https://www.geeksforgeeks.org/r-language/r-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "R",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is a data frame?",
+    "answer": "Adata frameis made up of rows and columns, where each row denotes an observation or record and each column a variable or attribute. A data frame's columns can include a variety of data kinds, including logical, character, factor, and numeric ones, enabling the storing and management of the data.",
+    "source": "https://www.geeksforgeeks.org/r-language/r-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "R",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "10. How to find missing values in R?",
+    "answer": "Various functions and methods in R can be used to locate missing values in a data collection or a vector. Here are a few used approaches:",
+    "source": "https://www.geeksforgeeks.org/r-language/r-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "R",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "11. What is Rmarkdown? What is the use of it?",
+    "answer": "R Markdownis a tool that combines the ease of Markdown syntax with the functionality of R programming. It enables us to produce dynamic files that smoothly combine text, code, and output in a single file. Files with the extension have R Markdown. Rmd.",
+    "source": "https://www.geeksforgeeks.org/r-language/r-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "R",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is the difference between a Shallow Copy and a Deep Copy?",
+    "answer": "The key difference between a shallow copy and a deep copy is how they handle references within the copied object.",
+    "source": "https://www.simplilearn.com/tutorials/python-tutorial/python-interview-questions",
+    "role": "Data Analyst",
+    "skill": "Jupyter",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. How is Multithreading achieved in Python?",
+    "answer": "Multithreading in Python is achieved using thethreading module, which allows you to run multiple threads (smaller units of a process) concurrently. However, due to the Global Interpreter Lock (GIL), Python threads do not run in true parallelism for CPU-bound tasks. Still, they can be helpful in I/O-bound operations like file handling, network requests, or database queries.",
+    "source": "https://www.simplilearn.com/tutorials/python-tutorial/python-interview-questions",
+    "role": "Data Analyst",
+    "skill": "Jupyter",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What advantage does the NumPy array have over a Nested list?",
+    "answer": "The NumPy array offers several advantages over Pythonâs nested lists, making it more efficient for numerical and scientific computations:",
+    "source": "https://www.simplilearn.com/tutorials/python-tutorial/python-interview-questions",
+    "role": "Data Analyst",
+    "skill": "Jupyter",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What are Pickling and Unpickling?",
+    "answer": "Converting a Python object hierarchy to a byte stream is called pickling.",
+    "source": "https://www.simplilearn.com/tutorials/python-tutorial/python-interview-questions",
+    "role": "Data Analyst",
+    "skill": "Jupyter",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. How is Memory managed in Python?",
+    "answer": "Python has a private heap space that stores all the objects. The Python memory manager regulates various aspects of this heap, such as sharing, caching,segmentation, and allocation. The user cannot control the heap; only the Python interpreter has access.",
+    "source": "https://www.simplilearn.com/tutorials/python-tutorial/python-interview-questions",
+    "role": "Data Analyst",
+    "skill": "Jupyter",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. Are arguments in Python passed by value or by reference?",
+    "answer": "Python passes arguments by reference. Any changes made within a function are reflected in the original object.",
+    "source": "https://www.simplilearn.com/tutorials/python-tutorial/python-interview-questions",
+    "role": "Data Analyst",
+    "skill": "Jupyter",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. How would you generate Random numbers in Python?",
+    "answer": "In Python, you can generate random numbers using the random module for basic random number generation or the numpy library for more advanced use cases.",
+    "source": "https://www.simplilearn.com/tutorials/python-tutorial/python-interview-questions",
+    "role": "Data Analyst",
+    "skill": "Jupyter",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What does the // Operator do?",
+    "answer": "In Python, the / operator performs division and returns the quotient in the float.",
+    "source": "https://www.simplilearn.com/tutorials/python-tutorial/python-interview-questions",
+    "role": "Data Analyst",
+    "skill": "Jupyter",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Jupyter Notebook?",
+    "answer": "Three fundamental programming languages—Julia, Python, and R—that it initially supported are whereJupyter Notebookgets its name. But now since it supports more than 40 programming languages, it is a flexible option for a range of computational jobs. Because the notebook interface is web-based, users may use their web browsers to interact with it.",
+    "source": "https://www.geeksforgeeks.org/data-science/jupyter-notebook/",
+    "role": "Data Analyst",
+    "skill": "Jupyter",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What is Exploratory Data Analysis?",
+    "answer": "EDA stands for Exploratory Data Analysis. It is a crucial step in data analysis which involves examining and visualising data to summarize its main characteristics, identify patterns, and gain insights into the underlying structure of the dataset which cannot be understood from the formal modeling of the data. It is performed at the beginning of adata analysisproject to get an insight into the data.",
+    "source": "https://www.geeksforgeeks.org/data-analysis/quick-guide-to-exploratory-data-analysis-using-jupyter-notebook/",
+    "role": "Data Analyst",
+    "skill": "Jupyter",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is the difference between a population regression line and a sample regression line?",
+    "answer": "A population regression line is a mathematical model that describes the relationship between a dependent variable and one or more independent variables in a population. It is based on the entire population and is used to make predictions about the population as a whole.",
+    "source": "https://www.interviewbit.com/linear-regression-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Regression Analysis",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What are the assumptions of a linear regression model?",
+    "answer": "The assumptions of a linear regression model are:",
+    "source": "https://www.interviewbit.com/linear-regression-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Regression Analysis",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What are outliers? How do you detect and treat them? How do you deal with outliers in a linear regression model?",
+    "answer": "A value that is significantly different from the mean or the median is considered to be anoutlierin statistics. There is a possibility of erroneous results due to measurement errors. There is also the possibility of an experimental error being indicated.",
+    "source": "https://www.interviewbit.com/linear-regression-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Regression Analysis",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. How do you determine the best fit line for a linear regression model?",
+    "answer": "To determine the best-fit line for a linear regression model, the following steps can be taken:",
+    "source": "https://www.interviewbit.com/linear-regression-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Regression Analysis",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. What is the difference between simple and multiple linear regression?",
+    "answer": "Simple linear regression models the relationship between one independent variable and one dependent variable, while multiple linear regression models the relationship between multiple independent variables and one dependent variable. The goal of both methods is to find a linear model that best fits the data and can be used to make predictions about the dependent variable based on the independent variables.",
+    "source": "https://www.interviewbit.com/linear-regression-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Regression Analysis",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. What is linear Regression Analysis?",
+    "answer": "In linear regression analysis, the coefficient of determination is used to evaluate the goodness of fit of the model. It can be used to compare different regression models and to determine whether the addition of new variables to a model significantly improves the fit.",
+    "source": "https://www.interviewbit.com/linear-regression-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Regression Analysis",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What is multicollinearity and how does it affect linear regression analysis?",
+    "answer": "Multicollinearity refers to a situation in which two or more independent variables in a linear regression model are highly correlated with each other. This can create problems in the regression analysis, as it can be difficult to determine the individual effects of each independent variable on the dependent variable.",
+    "source": "https://www.interviewbit.com/linear-regression-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Regression Analysis",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What is the difference between linear regression and logistic regression?",
+    "answer": "Linear regression is a statistical method used for predicting a numerical outcome, such as the price of a house or the likelihood of a person developing a disease. Logistic regression, on the other hand, is used for predicting a binary outcome, such as whether a person will pass or fail a test, or whether a customer will churn or not.",
+    "source": "https://www.interviewbit.com/linear-regression-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Regression Analysis",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. Difference Between Simple and Multiple Linear Regression?",
+    "answer": "Simple Linear Regressionmeans there is onlyone independent variable(the factor we’re using to make a prediction) andone dependent variable(the value we’re trying to predict) and we are trying to find the linear relationship between them.For Example: Imagine you want to predict a student’s final exam score (dependent variable) based on the number of hours they studied (independent variable). Here, there’s only one predictor (study hours) and one outcome (exam score).",
+    "source": "https://www.geeksforgeeks.org/machine-learning/top-linear-regression-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Regression Analysis",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. What are the assumptions of linear regression?",
+    "answer": "The keyassumptions of linear regressionare Linearity , Independence ,Homoscedasticity and Normality. Linearity meansthe relationship between the independent and dependent variables should be linear.",
+    "source": "https://www.geeksforgeeks.org/machine-learning/top-linear-regression-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Regression Analysis",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What Does a P-Value Indicate?",
+    "answer": "Ap-valueis a statistical measure used to assess thesignificanceof a feature or variable in a machine learning model in regression analysis.",
+    "source": "https://www.geeksforgeeks.org/machine-learning/top-linear-regression-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Regression Analysis",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4.What Is the Role of the Intercept?",
+    "answer": "The intercept in linear regressionrepresents the predicted value of the dependent variable when all independent variables are equal to zero. It is akey parameter in the regression equationand helps define the position of the regression line on the graph.",
+    "source": "https://www.geeksforgeeks.org/machine-learning/top-linear-regression-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Regression Analysis",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. How to Handle Categorical Variables in Linear Regression?",
+    "answer": "To handle categorical variables in linear regression, we first need to convert them into numerical formatssince regression models cannot process non-numeric data. The two main approaches areone-hot encoding and label encoding:",
+    "source": "https://www.geeksforgeeks.org/machine-learning/top-linear-regression-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Regression Analysis",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What is the purpose of residual plots?",
+    "answer": "Residual plots are used toassess the validity of a linear regression model by visualizing the differences between observed and predicted values (residuals). They help validate key assumptions:",
+    "source": "https://www.geeksforgeeks.org/machine-learning/top-linear-regression-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Regression Analysis",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What steps would you take to evaluate the performance of a linear regression model?",
+    "answer": "We use the different types ofperformance metricsto evaluate a linear regression model:",
+    "source": "https://www.geeksforgeeks.org/machine-learning/top-linear-regression-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Regression Analysis",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. What is the significance of R-squared-  why is it commonly used?",
+    "answer": "R-squared (R²)is a statistical measure that helps us understand how well a model understands and explain the relationship between independent variables and dependent variable (the outcome we are trying to predict).",
+    "source": "https://www.geeksforgeeks.org/machine-learning/top-linear-regression-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Regression Analysis",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "1. What is Data Science?",
+    "answer": "An interdisciplinary field that constitutes various scientific processes, algorithms, tools, and machine learning techniques working to help find common patterns and gather sensible insights from the given raw input data using statistical and mathematical analysis is called Data Science.",
+    "source": "https://www.interviewbit.com/data-science-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Regression Analysis",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. What is the difference between data analytics and data science?",
+    "answer": "Data science involves the task of transforming data by using various technical analysis methods to extract meaningful insights using which a data analyst can apply to their business scenarios.",
+    "source": "https://www.interviewbit.com/data-science-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Regression Analysis",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. What are some of the techniques used for sampling? What is the main advantage of sampling?",
+    "answer": "Data analysis can not be done on a whole volume of data at a time especially when it involves larger datasets. It becomes crucial to take some data samples that can be used for representing the whole population and then perform analysis on it. While doing this, it is very much necessary to carefully take sample data out of the huge data that truly represents the entire dataset.",
+    "source": "https://www.interviewbit.com/data-science-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Regression Analysis",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. What are Eigenvectors and Eigenvalues?",
+    "answer": "Eigenvectors are column vectors or unit vectors whose length/magnitude is equal to 1. They are also called right vectors. Eigenvalues are coefficients that are applied on eigenvectors which give these vectors different values for length or magnitude.",
+    "source": "https://www.interviewbit.com/data-science-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Regression Analysis",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. What does it mean when the p-values are high and low?",
+    "answer": "A p-value is the measure of the probability of having results equal to or more than the results achieved under a specific hypothesis assuming that the null hypothesis is correct. This represents the probability that the observed difference occurred randomly by chance.",
+    "source": "https://www.interviewbit.com/data-science-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Regression Analysis",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "9. When is resampling done?",
+    "answer": "Resampling is a methodology used to sample data for improving accuracy and quantify the uncertainty of population parameters. It is done to ensure the model is good enough by training the model on different patterns of a dataset to ensure variations are handled. It is also done in the cases where models need to be validated using random subsets or when substituting labels on data points while performing tests.",
+    "source": "https://www.interviewbit.com/data-science-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Regression Analysis",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "10. What do you understand by Imbalanced Data?",
+    "answer": "Data is said to be highly imbalanced if it is distributed unequally across different categories. These datasets result in an error in model performance and result in inaccuracy.",
+    "source": "https://www.interviewbit.com/data-science-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Regression Analysis",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "11. Are there any differences between the expected value and mean value?",
+    "answer": "There are not many differences between these two, but it is to be noted that these are used in different contexts. The mean value generally refers to the probability distribution whereas the expected value is referred to in the contexts involving random variables.",
+    "source": "https://www.interviewbit.com/data-science-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Regression Analysis",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What are Type 1 and Type 2 errors in Hypothesis Testing?",
+    "answer": "In hypothesis testingType I and Type II errorsare two possible errors that can happen when  we are finding conclusions about a population based on a sample of data. These errors are associated with the decisions we made regarding the null hypothesis and the alternative hypothesis.",
+    "source": "https://www.geeksforgeeks.org/software-testing/understanding-hypothesis-testing/",
+    "role": "Data Analyst",
+    "skill": "Hypothesis Testing",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "How does Hypothesis Testing work?",
+    "answer": "Working of Hypothesis testing involves various steps:",
+    "source": "https://www.geeksforgeeks.org/software-testing/understanding-hypothesis-testing/",
+    "role": "Data Analyst",
+    "skill": "Hypothesis Testing",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "What is Data Science?",
+    "answer": "Data Scienceis a field that extracts knowledge and insights from structured and unstructured data by using scientific methods, algorithms, processes and systems. It combines expertise from various domains such as statistics, computer science, machine learning, data engineering and domain-specific knowledge to analyze and interpret complex data sets.",
+    "source": "https://www.geeksforgeeks.org/data-science/data-science-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Hypothesis Testing",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Marginal Probability?",
+    "answer": "Marginal probabilityis simply the chance of one specific event happening, without worrying about what happens with other events. For example, if you’re looking at the probability of it raining tomorrow, you only care about the chance of rain, not what happens with other weather conditions like wind or temperature.",
+    "source": "https://www.geeksforgeeks.org/data-science/data-science-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Hypothesis Testing",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the Probability Axioms?",
+    "answer": "Theprobability axiomsare just basic rules that help us understand how probabilities work. There are three main ones:",
+    "source": "https://www.geeksforgeeks.org/data-science/data-science-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Hypothesis Testing",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "3. What is the difference between Dependent and Independent Events in Probability?",
+    "answer": "Conditional probabilityrefers to the probability of an event occurring given that another event has already occurred. Mathematically, it is defined as the probability of event A occurring, given that event B has occurred and is denoted byP(A|B). The formula for conditional probability is:",
+    "source": "https://www.geeksforgeeks.org/data-science/data-science-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Hypothesis Testing",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What is Conditional Probability?",
+    "answer": "Conditional probabilityrefers to the probability of an event occurring given that another event has already occurred. Mathematically, it is defined as the probability of event A occurring, given that event B has occurred and is denoted byP(A|B). The formula for conditional probability is:",
+    "source": "https://www.geeksforgeeks.org/data-science/data-science-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Hypothesis Testing",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is Bayes’ Theorem and when do we use it in Data Science?",
+    "answer": "Bayes' Theoremhelps us figure out the probability of an event happening based on some prior knowledge or evidence. It’s like updating our guess about something when we learn new things. The formula for Bayes' Theorem is:",
+    "source": "https://www.geeksforgeeks.org/data-science/data-science-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Hypothesis Testing",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. What is Normal Distribution and Standard Normal Distribution?",
+    "answer": "Correlationmeans that two things are related or happen at the same time, but one doesn’t necessarily cause the other. For example, if people eat more ice cream in summer and also go swimming more, there's a correlation between the two, but eating ice cream doesn’t cause swimming. They just both happen together.",
+    "source": "https://www.geeksforgeeks.org/data-science/data-science-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Hypothesis Testing",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "9. What is the difference between correlation and causation?",
+    "answer": "Correlationmeans that two things are related or happen at the same time, but one doesn’t necessarily cause the other. For example, if people eat more ice cream in summer and also go swimming more, there's a correlation between the two, but eating ice cream doesn’t cause swimming. They just both happen together.",
+    "source": "https://www.geeksforgeeks.org/data-science/data-science-interview-questions-and-answers/",
+    "role": "Data Analyst",
+    "skill": "Hypothesis Testing",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. Describe a time when you worked on a team project. What was your role, and how did you contribute?",
+    "answer": "Data science behavioral questions are commonly asked in interviews to understand how candidates approached challenges, worked with teams, and manage complex tasks in their previous role. These questions focus on real-world situations, testing their key skills likeproblem-solving, communication, and adaptability.",
+    "source": "https://www.geeksforgeeks.org/data-science/data-science-behavioral-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "A/B Testing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "2. Can you share an experience where you had to collaborate with cross-functional teams? What challenges did you face?",
+    "answer": "Data science behavioral questions are commonly asked in interviews to understand how candidates approached challenges, worked with teams, and manage complex tasks in their previous role. These questions focus on real-world situations, testing their key skills likeproblem-solving, communication, and adaptability.",
+    "source": "https://www.geeksforgeeks.org/data-science/data-science-behavioral-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "A/B Testing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "3. Tell me about a situation where you had to resolve a conflict within your team. How did you handle it?",
+    "answer": "Data science behavioral questions are commonly asked in interviews to understand how candidates approached challenges, worked with teams, and manage complex tasks in their previous role. These questions focus on real-world situations, testing their key skills likeproblem-solving, communication, and adaptability.",
+    "source": "https://www.geeksforgeeks.org/data-science/data-science-behavioral-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "A/B Testing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "4. Have you ever had to mentor a colleague or junior team member? What approach did you take?",
+    "answer": "Data science behavioral questions are commonly asked in interviews to understand how candidates approached challenges, worked with teams, and manage complex tasks in their previous role. These questions focus on real-world situations, testing their key skills likeproblem-solving, communication, and adaptability.",
+    "source": "https://www.geeksforgeeks.org/data-science/data-science-behavioral-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "A/B Testing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "5. Describe an instance where you had to work with a difficult team member. How did you manage the relationship?",
+    "answer": "Data science behavioral questions are commonly asked in interviews to understand how candidates approached challenges, worked with teams, and manage complex tasks in their previous role. These questions focus on real-world situations, testing their key skills likeproblem-solving, communication, and adaptability.",
+    "source": "https://www.geeksforgeeks.org/data-science/data-science-behavioral-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "A/B Testing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "6. Can you provide an example of a complex problem you solved using data analysis? What was your approach?",
+    "answer": "Data science behavioral questions are commonly asked in interviews to understand how candidates approached challenges, worked with teams, and manage complex tasks in their previous role. These questions focus on real-world situations, testing their key skills likeproblem-solving, communication, and adaptability.",
+    "source": "https://www.geeksforgeeks.org/data-science/data-science-behavioral-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "A/B Testing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "7. Tell me about a time when your analysis led to a significant business decision. What was the outcome?",
+    "answer": "Data science behavioral questions are commonly asked in interviews to understand how candidates approached challenges, worked with teams, and manage complex tasks in their previous role. These questions focus on real-world situations, testing their key skills likeproblem-solving, communication, and adaptability.",
+    "source": "https://www.geeksforgeeks.org/data-science/data-science-behavioral-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "A/B Testing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "8. Describe a situation where you encountered unexpected results in your analysis. How did you address it?",
+    "answer": "Data science behavioral questions are commonly asked in interviews to understand how candidates approached challenges, worked with teams, and manage complex tasks in their previous role. These questions focus on real-world situations, testing their key skills likeproblem-solving, communication, and adaptability.",
+    "source": "https://www.geeksforgeeks.org/data-science/data-science-behavioral-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "A/B Testing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What Precisely Is A/B Testing?",
+    "answer": "A/B testing orsplit testing, in a nutshell, is a means to compare two iterations of anemail, website, or other marketing asset and assess the performancedifferences between them.",
+    "source": "https://www.geeksforgeeks.org/blogs/what-is-a-b-testing/",
+    "role": "Data Analyst",
+    "skill": "A/B Testing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "How Is A/B Testing Conducted?",
+    "answer": "To conduct an A/B test, you must producetwo variantsof the same content, each with a single variable altered. Afterward, you'll present these two versions to two groups of people with identical sizes and compare their performance over a certain amount of time long enough to draw precise judgments regarding your findings.",
+    "source": "https://www.geeksforgeeks.org/blogs/what-is-a-b-testing/",
+    "role": "Data Analyst",
+    "skill": "A/B Testing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "What Is The Process Of A/B Testing?",
+    "answer": "Several actions that you may see in a scientific study must be taken to conduct an A/B test. You'll choose one variable to test, just as in any scientific experiment. Whatever you choose can be your variable: the placement of anavigation menu or the color of a banner advertisement.",
+    "source": "https://www.geeksforgeeks.org/blogs/what-is-a-b-testing/",
+    "role": "Data Analyst",
+    "skill": "A/B Testing",
+    "search_strategy": "role_specific"
+  },
+  {
+    "question": "Why choose Data Analytics?",
+    "answer": "In which Google product did you discover a bug that needed improvement?",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/google-interview-experience-for-data-analytics/",
+    "role": "Data Analyst",
+    "skill": "Google Analytics",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "In which Google product did you discover a bug that needed improvement?",
+    "answer": "My suggestion is your intro should be perfect and it should be at the tip of the tongue.",
+    "source": "https://www.geeksforgeeks.org/interview-experiences/google-interview-experience-for-data-analytics/",
+    "role": "Data Analyst",
+    "skill": "Google Analytics",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "1. What is Big Data, and where does it come from? How does it work?",
+    "answer": "Big Data refers to extensive and often complicated data sets so huge that they’re beyond the capacity of managing with conventional software tools. Big Data comprises unstructured and structured data sets such as videos, photos, audio, websites, and multimedia content.",
+    "source": "https://www.interviewbit.com/big-data-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Google Analytics",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "2. What are the different Output formats in Hadoop?",
+    "answer": "The different Output formats in Hadoop are -",
+    "source": "https://www.interviewbit.com/big-data-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Google Analytics",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "4. What are the three modes that Hadoop can run?",
+    "answer": "Local Mode or Standalone Mode:By default, Hadoop is configured to operate in a no distributed mode. It runs as a single Java process. Instead of HDFS, this mode utilizes the local file system. This mode is more helpful for debugging, and there isn't any requirement to configure core-site.xml, hdfs-site.xml, mapred-site.xml, masters & slaves. Standalone mode is ordinarily the quickest mode in Hadoop.",
+    "source": "https://www.interviewbit.com/big-data-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Google Analytics",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "5. What is fsck?",
+    "answer": "The term fsck stands for File System Check, used by HDFS. It is used to check discrepancies and if there is any difficulty in the file. For instance, if there are any missing blocks in the file, HDFS gets reported through this command.",
+    "source": "https://www.interviewbit.com/big-data-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Google Analytics",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "6. How to deploy a Big Data Model? Mention the key steps involved.",
+    "answer": "Deploying a model into aBig Data Platforminvolves mainly three key steps they are,",
+    "source": "https://www.interviewbit.com/big-data-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Google Analytics",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "8. How is HDFS different from traditional NFS?",
+    "answer": "NFS (Network File system): A protocol that enables customers to access files over the network. NFS clients would allow files to be accessed as if the files live on the local device, even though they live on the disk of a networked device.",
+    "source": "https://www.interviewbit.com/big-data-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Google Analytics",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "12. How is Hadoop and Big Data related?",
+    "answer": "If we talk about Big Data, we do talk aboutHadoopas well. So, this is one of the most critical questions from an interview perspective. That you might surely face. Hadoop is an open-source framework for saving, processing, and interpreting complex, disorganized data sets for obtaining insights and knowledge. So, that is how Hadoop and Big Data are related to each other.",
+    "source": "https://www.interviewbit.com/big-data-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Google Analytics",
+    "search_strategy": "direct"
+  },
+  {
+    "question": "14. What are the 5 V’s in Big Data?",
+    "answer": "Volume:A considerable amount of data stored in data warehouses reflects the volume. The data may reach random heights; these large volumes of data need to be examined and processed. Which may exist up to or more than terabytes and petabytes.",
+    "source": "https://www.interviewbit.com/big-data-interview-questions/",
+    "role": "Data Analyst",
+    "skill": "Google Analytics",
+    "search_strategy": "direct"
+  }
+]
